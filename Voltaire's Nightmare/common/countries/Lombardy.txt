@@ -88,10 +88,8 @@ monarch_names = {
 }
 
 leader_names = {
-	Lething Gaus Haroding Benevento
-	Caroling "di Venezia" "di Friuli"
-	"von Vinzgau" Longobardi Meroving
-	Reudignj Avione Eudose Suarine Nuitone
+	Letingi Gausi Arodingi Longobardi
+	"di Venezia" "di Friuli" "di Benevento"
 	"di Salerno" "di Capua" "di Gaeta"
 	"di Puglio" "di Bari" "di Lecce" "di Lazio"
 	"di Umbria" "di Marchigia" "di Ravenna"
