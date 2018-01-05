@@ -92,7 +92,7 @@ capital = 2582	# Dole
 		mil = 2
 	}
 }
-1127.3.1 = {
+1127.1.1 = {
 	monarch = {
 		name = "Reginald III"
 		dynasty = "d'Ivrea"
@@ -113,8 +113,21 @@ capital = 2582	# Dole
 		mil = 2
 	}
 }
-#1156 under WWS
-1190.6.10 = {
+1170.6.1 = {
+	heir = {
+		name = "Otto"
+		monarch_name = "Otto I"
+		dynasty = "von Hohenstaufen"
+		culture = swabian
+		birth_date = 1170.6.1
+		death_date = 1200.1.13
+		claim = 80
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+1184.11.15 = {
 	monarch = {
 		name = "Otto I"
 		dynasty = "von Hohenstaufen"
@@ -149,8 +162,7 @@ capital = 2582	# Dole
 		mil = 2
 	}
 }
-#1208.6.21 under MER
-1248.6.19 = {
+1231.5.7 = {
 	monarch = {
 		name = "Adelheid"
 		dynasty = "von Andechs"
@@ -161,6 +173,8 @@ capital = 2582	# Dole
 		dip = 3
 		mil = 2
 	}
+}
+1236.11.1 = {
 	queen = {
 		country_of_origin = BUR
 		name = "Hugues"
@@ -172,6 +186,8 @@ capital = 2582	# Dole
 		dip = 2
 		mil = 2
 	}
+}
+1248.1.1 = {
 	heir = {
 		name = "Othon"
 		monarch_name = "Othon IV"

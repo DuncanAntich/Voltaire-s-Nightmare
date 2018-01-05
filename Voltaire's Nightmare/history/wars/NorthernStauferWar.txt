@@ -10,7 +10,6 @@ war_goal = {
 	add_attacker = MAI
 	add_attacker = KOL
 	add_defender = WWS
-	add_defender = ALS
 }
 
 1250.12.13 = {
@@ -18,5 +17,4 @@ war_goal = {
 	rem_attacker = MAI
 	rem_attacker = KOL
 	rem_defender = WWS
-	rem_defender = ALS
 }

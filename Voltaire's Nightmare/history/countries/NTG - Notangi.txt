@@ -16,7 +16,7 @@ capital = 391
 }
 1260.7.13 = {
 	monarch = {
-		name = "Herkus Mantas"
+		name = "Erks Mantai"
 		dip = 2
 		mil = 5
 		adm = 2

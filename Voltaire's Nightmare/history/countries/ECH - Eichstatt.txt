@@ -39,6 +39,7 @@ fixed_capital = 87
 	monarch = {
 		name = "Eberhard I"
 		dynasty = "von Hildrizhausen"
+		culture = franconian
 		adm = 2
 		dip = 2
 		mil = 2

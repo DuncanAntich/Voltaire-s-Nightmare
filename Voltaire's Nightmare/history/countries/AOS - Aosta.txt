@@ -1,6 +1,111 @@
 government = feudal_monarchy
-government_rank = 3
+government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = arpitan
-capital = 2589
+primary_culture = piedmontese
+capital = 1009
+historical_friend = SAV
+
+#Margraves of Turin
+1034.10.29 = {
+	monarch = {
+		name = "Adelaide"
+		dynasty = "Arduinici"
+		birth_date = 1020.1.1
+		female = yes
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1050.1.1 = {
+	heir = {
+		name = "Amadeo"
+		monarch_name = "Amedeo I"
+		dynasty = "di Savoia"
+		birth_date = 1050.1.1
+		death_date = 1078.7.9 #to SAV
+		primary_culture = arpitan
+		claim = 85
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+#Viscounts of Aosta
+1091.12.19 = {
+	government_rank = 1
+	government = despotic_monarchy
+	primary_culture = arpitan
+	monarch = {
+		name = "Boson I"
+		dynasty = "de Challant"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1125.1.1 = {
+	monarch = {
+		name = "Aymon I"
+		dynasty = "de Challant"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1147.1.1 = {
+	monarch = {
+		name = "Boson II"
+		dynasty = "de Challant"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1181.1.1 = {
+	monarch = {
+		name = "Aymon II"
+		dynasty = "de Challant"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+1204.1.1 = {
+	monarch = {
+		name = "Boson III"
+		dynasty = "de Challant"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1239.1.1 = {
+	monarch = {
+		name = "Godefroi I"
+		dynasty = "de Challant"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1265.1.1 = {
+	monarch = {
+		name = "Aymon III"
+		dynasty = "de Challant"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1277.1.1 = {
+	monarch = {
+		name = "Ébal I"
+		dynasty = "de Challant"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#done 1295

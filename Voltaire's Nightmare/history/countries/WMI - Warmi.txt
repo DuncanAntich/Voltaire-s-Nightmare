@@ -16,7 +16,7 @@ capital = 2902
 }
 1260.7.13 = {
 	monarch = {
-		name = "Glappo"
+		name = "Glaps"
 		dip = 2
 		mil = 3
 		adm = 2

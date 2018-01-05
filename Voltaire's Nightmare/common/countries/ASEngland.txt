@@ -87,15 +87,15 @@ monarch_names = {
 
 leader_names = {
 	"of Westseaxe" "of Mierce" "of Northhymbre"
-	"of Suthseaxe" "of Cent" "of Hwicce"
-	"of Pecsæte" "of Lindesege" "of Meonwara"
-	"of Cernwaele" "of Eastseaxe" "of Withwara"
-	Ætheling Cenwalhson Godwining Borthwick
-	Godhelming Beorming Eorling Æbbing Hæsting
-	Ælling Eadricing Eadwulfing Leodwalding
+	"of Cernwaele" "of Eastseaxe" "of Cent"
+	"of Suthseaxe" "of Hwicce" "of Pecsæte"
+	"of Lindesege" "of Meonwara" "of Withwara"
+	Ætheling Cenwalhson Godwining Godhelming
+	Beorming Eorling Wiglafing Coenwalhing
+	Æbbing Hæsting Ælling Eadricing Eadwulfing
+	Leodwalding Ciesla Rowe Borthwick Wuffing
 	Æthelfrithing Yffing Ingving Offing Oswalding
-	Cerdicing Wiglafing Coenwalhing Rowe Ciesla
-	Beorning Iceling Wuffing Wihtgilsing Ross
+	Cerdicing Wihtgilsing Ross Beorning Iceling
 }
 
 ship_names = {

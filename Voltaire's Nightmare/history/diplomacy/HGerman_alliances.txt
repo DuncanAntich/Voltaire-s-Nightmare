@@ -1,3 +1,25 @@
+#Wives
+royal_marriage = {
+	first = WWS
+	second = FCM
+	start_date = 1156.6.9
+	end_date = 1184.11.15
+}
+royal_marriage = {
+	first = MER
+	second = FCM
+	start_date = 1208.6.21
+	end_date = 1231.5.7
+}
+
+#So they might inherit
+royal_marriage = {
+	first = WWS
+	second = LFB
+	start_date = 1047.9.7
+	end_date = 1057.9.28
+}
+
 #Old Zurich War
 union = {
 	first = GLA
@@ -18,32 +40,6 @@ union = {
 	second = RVA
 	start_date = 1055.11.13
 	end_date = 1070.1.1
-}
-
-#Gonnegtions
-union = {
-	first = WWS
-	second = BGA
-	start_date = 1050.1.1
-	end_date = 1092.1.1
-}
-union = {
-	first = WWS
-	second = ALS
-	start_date = 1050.1.1
-	end_date = 1208.6.21
-}
-union = {
-	first = WWS
-	second = ALS
-	start_date = 1225.11.29
-	end_date = 1250.12.13
-}
-union = {
-	first = WWS
-	second = ALS
-	start_date = 1258.1.1
-	end_date = 1268.10.29
 }
 
 #First HZ margrave
@@ -158,14 +154,6 @@ union = {
 	second = LAU
 	start_date = 1227.1.1
 	end_date = 1296.1.1
-}
-
-#Meranian counts of Burgundy
-union = {
-	first = MER
-	second = FCM
-	start_date = 1208.6.21
-	end_date = 1248.6.19
 }
 
 #loon chiny
@@ -378,6 +366,12 @@ union = {
 	start_date = 1032.9.6 
 	end_date = 1125.5.23
 }
+union = {
+	first = FCM
+	second = BRN
+	start_date = 1125.5.23 
+	end_date = 1127.1.1
+}
 
 #Kony 2014
 union = {
@@ -454,13 +448,6 @@ union = {
 	end_date = 1180.1.1
 }
 
-#Popper
-union = {
-	first = WWS
-	second = FCM
-	start_date = 1156.6.9 
-	end_date = 1190.6.10
-}
 #zizek
 union = {
 	first = NUO
@@ -507,7 +494,7 @@ union = {
 
 #Zahringen control
 union = {
-	first = BAD
+	first = BGA
 	second = VDX
 	start_date = 1032.1.1
 	end_date = 1092.1.1

@@ -1,11 +1,11 @@
 government = feudal_monarchy
 government_rank = 3
 primary_culture = arpitan
-add_accepted_culture = piedmontese
 religion = catholic
 technology_group = western
 capital = 1087 # Chambéry
 add_army_professionalism = 0.05
+historical_friend = AOS
 
 1052.1.1 = {
 	monarch = {
@@ -15,17 +15,6 @@ add_army_professionalism = 0.05
 		adm = 3
 		dip = 3
 		mil = 3
-	}
-	queen = {
-		country_of_origin = SAV
-		name = "Adelaide"
-		dynasty = "Arduinici"
-		birth_date = 1020.1.1
-		death_date = 1091.12.19
-		female = yes
-		adm = 5
-		dip = 4
-		mil = 4
 	}
 	heir = {
 		name = "Pietro"
@@ -106,6 +95,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
+1091.12.19 = { add_accepted_culture = piedmontese }
 1093.1.1 = {
 	heir = {
 		name = "Amedeo"

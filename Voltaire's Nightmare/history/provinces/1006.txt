@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = AOS
+controller = AOS
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -9,12 +9,18 @@ trade_goods = grain
 base_manpower = 2
 capital = "Susa"
 is_city = yes
-add_core = SAV
+add_core = AOS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1091.12.19 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+	remove_core = AOS
+}
 1175.1.1 = { religion = waldensian }
 1215.1.1 = { religion = catholic }
 1495.1.1 = { hre = no }

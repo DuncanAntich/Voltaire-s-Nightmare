@@ -7,7 +7,6 @@ war_goal = {
 
 1189.7.1 = {
 	add_attacker = WWS
-	add_attacker = ALS
 	add_attacker = FCM
 	add_attacker = HAB
 	add_attacker = BOH
@@ -19,7 +18,6 @@ war_goal = {
 
 1190.1.1 = {
 	rem_attacker = WWS
-	rem_attacker = ALS
 	rem_attacker = FCM
 	rem_attacker = HAB
 	rem_attacker = BOH

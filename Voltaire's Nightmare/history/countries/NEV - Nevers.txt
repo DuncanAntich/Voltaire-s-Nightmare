@@ -145,14 +145,28 @@ fixed_capital = 2917
 		mil = 3
 	}
 }
+1234.1.1 = {
+	heir = {
+		name = "Mathilde"
+		monarch_name = "Mathilde II"
+		dynasty = "de Bourbon"
+		birth_date = 1234.1.1
+		death_date = 1249.1.29 #to BOU
+		claim = 80
+		female = yes
+		dip = 2
+		adm = 3
+		mil = 2
+	}
+}
 1257.1.1 = {
 	monarch = {
 		name = "Mathilde II"
-		dynasty = "de Dampierre"
+		dynasty = "de Bourbon"
 		birth_date = 1234.1.1
 		female = yes
 		dip = 2
-		adm = 2
+		adm = 3
 		mil = 2
 	}
 	queen = {
@@ -166,11 +180,23 @@ fixed_capital = 2917
 		dip = 2
 		mil = 2
 	}
+	heir = {
+		name = "Yolande"
+		monarch_name = "Yolande II"
+		dynasty = "de Bourgogne"
+		birth_date = 1247.12.1
+		death_date = 1280.6.2
+		claim = 85
+		female = yes
+		dip = 3
+		adm = 2
+		mil = 2
+	}
 }
 1262.1.1 = {
 	monarch = {
 		name = "Yolande II"
-		dynasty = "de Dampierre"
+		dynasty = "de Bourgogne"
 		birth_date = 1247.12.1
 		female = yes
 		dip = 3
@@ -277,9 +303,23 @@ fixed_capital = 2917
 	monarch = {
 		name = "Philippe II"
 		dynasty = "de Bourgogne"
+		birth_date = 1389.10.1
 		dip = 1
 		adm = 0
 		mil = 1
+	}
+}
+1413.6.20 = {
+	queen = {
+		country_of_origin = EUU
+		name = "Bonne"
+		dynasty = "d'Artois"
+		birth_date = 1396.1.1
+		death_date = 1425.9.17
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1414.1.1 = {
@@ -297,14 +337,34 @@ fixed_capital = 2917
 }
 1415.10.25 = {
 	monarch = {
+		name = "Bonne d'Artois (Regent)"
+		regent = yes
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles I"
+		dynasty = "de Bourgogne"
+		birth_date = 1414.1.1
+		death_date = 1464.5.25
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1429.1.1 = {
+	monarch = {
 		name = "Charles I"
 		dynasty = "de Bourgogne"
+		birth_date = 1414.1.1
 		dip = 2
 		adm = 2
 		mil = 2
 	}
-}
-1415.10.25 = {
 	heir = {
 		name = "Jean"
 		monarch_name = "Jean II"
@@ -321,12 +381,11 @@ fixed_capital = 2917
 	monarch = {
 		name = "Jean II"
 		dynasty = "de Bourgogne"
+		birth_date = 1415.1.1
 		dip = 2
 		adm = 2
 		mil = 2
 	}
-}
-1464.5.1 = {
 	heir = {
 		name = "Engilbert"
 		monarch_name = "Engilbert I"
@@ -343,12 +402,11 @@ fixed_capital = 2917
 	monarch = {
 		name = "Engilbert I"
 		dynasty = "de Clèves"
+		birth_date = 1462.1.1
 		dip = 2
 		adm = 2
 		mil = 2
 	}
-}
-1491.9.25 = {
 	heir = {
 		name = "Charles"
 		monarch_name = "Charles II"
@@ -365,6 +423,7 @@ fixed_capital = 2917
 	monarch = {
 		name = "Charles II"
 		dynasty = "de Clèves"
+		birth_date = 1490.1.1
 		dip = 2
 		adm = 2
 		mil = 2
@@ -388,6 +447,7 @@ fixed_capital = 2917
 	monarch = {
 		name = "François I"
 		dynasty = "de Clèves"
+		birth_date = 1516.9.2
 		dip = 2
 		adm = 2
 		mil = 2

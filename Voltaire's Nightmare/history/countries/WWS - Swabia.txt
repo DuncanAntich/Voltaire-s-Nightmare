@@ -14,10 +14,13 @@ elector = yes
 	monarch = {
 		name = "Otto III"
 		dynasty = "von Schweinfurt"
+		birth_date = 994.1.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
 }
 1057.9.28 = {
 	monarch = {
@@ -31,8 +34,29 @@ elector = yes
 	clear_scripted_personalities = yes
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = greedy_personality
+	heir = {
+		name = "Berthold"
+		monarch_name = "Berthold I"
+		dynasty = "von Rheinfelden"
+		birth_date = 1057.9.28
+		death_date = 1090.5.18
+		claim = 70
+		adm = 2
+		dip = 2
+		mil = 1
+	}
 }
 1079.1.1 = {
+	monarch = {
+		name = "Berthold I"
+		dynasty = "von Rheinfelden"
+		birth_date = 1057.9.28
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1090.5.18 = {
 	capital = 70
 	monarch = {
 		name = "Friedrich I"
@@ -45,12 +69,10 @@ elector = yes
 	clear_scripted_personalities = yes
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = conqueror_personality
-}
-1086.1.1 = {
 	queen = { #later HAB
 		country_of_origin = DIE 
 		name = "Agnes"
-		dynasty = "Salian"
+		dynasty = "Salier"
 		female = yes
 		birth_date = 1072.1.1
 		death_date = 1143.9.24
@@ -58,13 +80,11 @@ elector = yes
 		dip = 2
 		mil = 2
 	}
-}
-1090.1.1 = {
 	heir = {
 		name = "Friedrich"
 		monarch_name = "Friedrich II"
 		dynasty = "von Hohenstaufen"
-		birth_date = 1090.1.1
+		birth_date = 1090.5.18
 		death_date = 1147.4.6
 		claim = 90
 		adm = 3
@@ -76,7 +96,7 @@ elector = yes
 	monarch = {
 		name = "Friedrich II"
 		dynasty = "von Hohenstaufen"
-		birth_date = 1090.1.1
+		birth_date = 1090.5.18
 		adm = 3
 		dip = 3
 		mil = 3
@@ -190,25 +210,12 @@ elector = yes
 	queen = {
 		country_of_origin = UPA 
 		name = "Adelheid"
-		dynasty = "von Vohlburg"
+		dynasty = "Rapotonen"
 		female = yes
 		birth_date = 1125.1.1
 		death_date = 1153.3.1 #divorced
 		adm = 2
 		dip = 0
-		mil = 2
-	}
-}
-1156.6.9 = {
-	queen = {
-		country_of_origin = FCM 
-		name = "Beatrix"
-		dynasty = "d'Ivrea"
-		female = yes
-		birth_date = 1143.1.1
-		death_date = 1184.11.15
-		adm = 2
-		dip = 2
 		mil = 2
 	}
 }

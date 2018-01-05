@@ -36,4 +36,6 @@ add_army_professionalism = 0.05
 }
 
 1289.1.1 = { government = feudal_monarchy }
+1306.1.1 = { government = italian_monarchy }
+1371.1.1 = { government = feudal_monarchy }
 1452.1.1 = { government_rank = 3 }

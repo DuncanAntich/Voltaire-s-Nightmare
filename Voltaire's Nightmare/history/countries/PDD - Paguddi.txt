@@ -16,7 +16,7 @@ capital = 399
 }
 1260.7.13 = {
 	monarch = {
-		name = "Auktume"
+		name = "Auktums"
 		dip = 2
 		mil = 3
 		adm = 2
@@ -24,7 +24,7 @@ capital = 399
 }
 1271.1.1 = {
 	monarch = {
-		name = "Linka"
+		name = "Links"
 		dip = 2
 		mil = 2
 		adm = 2

@@ -110,22 +110,7 @@ capital = 169
 		adm = 2
 	}
 }
-1208.6.21 = {
-	queen = {
-		country_of_origin = FCM
-		name = "Beatrix"
-		dynasty = "von Hohenstaufen"
-		female = yes
-		birth_date = 1193.1.1
-		death_date = 1231.5.7
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1209.1.1 = {
-	remove_accepted_culture = croatian
-}
+1209.1.1 = { remove_accepted_culture = croatian }
 1218.1.1 = {
 	heir = {
 		name = "Otto"

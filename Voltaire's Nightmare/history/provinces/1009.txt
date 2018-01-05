@@ -1,5 +1,5 @@
-owner = SAV
-controller = SAV
+owner = AOS
+controller = AOS
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -9,13 +9,19 @@ trade_goods = grain
 base_manpower = 3
 capital = "Torino" 
 is_city = yes	
-add_core = SAV
+add_core = AOS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1091.12.19 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+	remove_core = AOS
+}
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1348.1.1 = {
 	base_tax = 5

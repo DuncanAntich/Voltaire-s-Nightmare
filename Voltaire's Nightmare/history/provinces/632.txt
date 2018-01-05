@@ -1,5 +1,5 @@
-owner = BAD
-controller = BAD
+owner = BGA
+controller = BGA
 culture = boden_alemannic
 religion = catholic
 hre = yes
@@ -9,19 +9,13 @@ trade_goods = beer
 base_manpower = 2
 capital = "Fürstenberg" 
 is_city = yes	
-add_core = BAD
+add_core = BGA
 add_core = FNB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1092.1.1 = {
-	owner = BGA
-	controller = BGA
-	add_core = BGA
-	remove_core = BAD
-}
 1245.1.1 = {
 	owner = FNB
 	controller = FNB

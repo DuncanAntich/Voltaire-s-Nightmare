@@ -38,8 +38,21 @@ capital = 70
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = conqueror_personality
 }
+1086.1.1 = {
+	queen = { #later HAB
+		country_of_origin = DIE 
+		name = "Agnes"
+		dynasty = "Salier"
+		female = yes
+		birth_date = 1072.1.1
+		death_date = 1143.9.24
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 #done
-1079.1.1 = {
+1090.5.18 = {
 	government = imperial_city
 	mercantilism = 25
 	capital = 2984

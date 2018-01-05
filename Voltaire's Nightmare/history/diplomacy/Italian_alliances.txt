@@ -1,3 +1,23 @@
+#Marriage
+royal_marriage = {
+	first = SAV
+	second = AOS
+	start_date = 1052.1.1
+	end_date = 1091.12.19
+}
+alliance = {
+	first = SAV
+	second = AOS
+	start_date = 1052.1.1
+	end_date = 1091.12.19
+}
+vassal = {
+	first = SAV
+	second = AOS
+	start_date = 1091.12.19
+	end_date = 1295.1.1
+}
+
 #Changes hands many times
 union = {
 	first = ORL
@@ -80,7 +100,12 @@ union = {
 	start_date = 1288.1.1
 	end_date = 1308.1.31
 }
-
+union = {
+	first = FER
+	second = RGO
+	start_date = 1289.1.1
+	end_date = 1306.1.1
+}
 union = {
 	first = FER
 	second = MOD
@@ -134,18 +159,6 @@ union = {
 union = {
 	first = SIC
 	second = WWS
-	start_date = 1250.12.13
-	end_date = 1258.1.1
-}
-union = {
-	first = SIC
-	second = ALS
-	start_date = 1208.6.21
-	end_date = 1225.11.29
-}
-union = {
-	first = SIC
-	second = ALS
 	start_date = 1250.12.13
 	end_date = 1258.1.1
 }
@@ -355,10 +368,10 @@ union = {
 
 #march of turin
 union = {
-	first = SAV
+	first = AOS
 	second = ABG
-	start_date = 1046.1.1
-	end_date = 1098.1.1
+	start_date = 1034.1.1
+	end_date = 1091.12.19
 }
 
 #march of the penguins

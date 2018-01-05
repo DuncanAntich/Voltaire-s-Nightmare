@@ -35,16 +35,7 @@ capital = 972	# Modena
 	}
 }
 1288.1.1 = { government = feudal_monarchy }
-1308.1.31 = {
-	government = italian_monarchy
-	monarch = {
-		name = "Repubblica"
-		adm = 2
-		dip = 2
-		mil = 2
-		regent = yes
-	}
-}
+1308.1.31 = { government = italian_monarchy }
 1336.1.1 = { government = feudal_monarchy }
 1452.1.1 = { government_rank = 3 }
 1597.10.27 = {

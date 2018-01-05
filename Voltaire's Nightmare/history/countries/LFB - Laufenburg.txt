@@ -5,6 +5,23 @@ primary_culture = swiss
 religion = catholic
 capital = 2245
 
+#Ruler of the Sisgau
+1048.1.1 = {
+	monarch = {
+		name = "Rudolf I"
+		dynasty = "von Rheinfelden"
+		birth_date = 1025.1.1
+		dip = 4
+		mil = 1
+		adm = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = greedy_personality
+}
+#1057.9.28 to WWS
+
+#Counts of Habsburg-Laufenburg
 1232.1.1 = {
 	monarch = {
 		name = "Rudolf II"

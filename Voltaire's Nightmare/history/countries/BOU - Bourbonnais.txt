@@ -169,7 +169,7 @@ capital = 1754
 		mil = 2
 	}
 }
-1262.1.1 = {
+1257.1.1 = {
 	monarch = {
 		name = "Agnès"
 		dynasty = "de Bourbon"
