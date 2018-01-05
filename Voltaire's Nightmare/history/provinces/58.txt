@@ -21,6 +21,18 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+1079.1.1 = {
+	owner = GMU
+	controller = GMU
+	add_core = GMU
+	remove_core = WWS
+}
+1090.5.18 = {
+	owner = WWS
+	controller = WWS
+	add_core = WWS
+	remove_core = GMU
+}
 1184.1.1 = {
 	owner = ULM
 	controller = ULM

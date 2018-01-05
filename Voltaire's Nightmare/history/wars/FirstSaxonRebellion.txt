@@ -13,8 +13,6 @@ war_goal = {
 	add_defender = DIE
 	add_defender = BRN
 	add_defender = WWS
-	add_defender = ALS
-	add_defender = BGA
 	add_defender = HAB
 }
 
@@ -27,7 +25,5 @@ war_goal = {
 	rem_defender = DIE
 	rem_defender = BRN
 	rem_defender = WWS
-	rem_defender = ALS
-	rem_defender = BGA
 	rem_defender = HAB
 }

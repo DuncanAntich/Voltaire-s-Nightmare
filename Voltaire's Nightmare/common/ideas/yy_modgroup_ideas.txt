@@ -714,7 +714,7 @@ marches_ideas = {
     }
     marches_idea_3 = {
         build_time = -0.25
-        interest = -1
+        interest = -0.5
     }
     marches_idea_4 = {
         leader_land_fire = 1

@@ -1,5 +1,5 @@
-owner = BRN
-controller = BRN
+owner = SLX
+controller = SLX
 culture = swiss
 religion = catholic
 hre = yes
@@ -8,25 +8,17 @@ base_production = 1
 trade_goods = beer
 base_manpower = 1
 capital = "Olten"
-is_city = yes	
-add_core = BRN
+is_city = yes
 add_core = SLX
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1127.1.1 = {
-	owner = BGA
-	controller = BGA
-	add_core = BGA
-	remove_core = BRN
-}
 1218.2.18 = {
 	owner = TOX
 	controller = TOX
 	add_core = TOX
-	remove_core = BGA
 }
 1250.1.1 = {
 	owner = FBO

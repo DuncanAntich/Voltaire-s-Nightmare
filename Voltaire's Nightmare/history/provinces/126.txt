@@ -17,7 +17,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1079.1.1 = {
+1090.5.18 = {
 	owner = WWS
 	controller = WWS
 	add_core = WWS

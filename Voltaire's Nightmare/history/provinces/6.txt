@@ -1,5 +1,5 @@
-owner = WTB
-controller = WTB
+owner = SWW
+controller = SWW
 culture = franconian
 religion = catholic
 hre = yes
@@ -9,12 +9,18 @@ trade_goods = grain
 base_manpower = 1
 capital = "Bad Kissingen"
 is_city = yes
-add_core = WTB
+add_core = SWW
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1104.1.1 = {
+	owner = WTB
+	controller = WTB
+	add_core = WTB
+	remove_core = SWW
+}
 1271.1.1 = {
 	owner = NNN
 	controller = NNN

@@ -1,6 +1,6 @@
-owner = BRN
-controller = BRN
-add_core = BRN
+owner = AAR
+controller = AAR
+add_core = AAR
 culture = swiss
 religion = catholic
 hre = yes
@@ -17,17 +17,6 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1127.1.1 = {
-	owner = BGA
-	controller = BGA
-	add_core = BGA
-	remove_core = BRN
-}
-1218.2.18 = {
-	owner = AAR
-	controller = AAR
-	remove_core = BGA
-}
 1291.7.15 = {
 	owner = HAB
 	controller = HAB

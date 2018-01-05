@@ -1,7 +1,7 @@
 ########################################
 # Flavor Events for Knights of St:John
 #
-# Scripted by Sara Wendel-Örtqvist
+# Scripted by Sara Wendel-Ã–rtqvist
 ########################################
 
 namespace = flavor_kni
@@ -219,7 +219,7 @@ country_event = {
 			add_core = KNI
 		}
 		KNI = {
-			change_primary_culture = maltese
+			add_accepted_culture = maltese
 			add_opinion = {
 				who = ROOT
 				modifier = spa_ceded_malta

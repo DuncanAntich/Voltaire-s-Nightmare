@@ -16,7 +16,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1216.1.1 = {
+1216.10.29 = {
 	owner = SNO
 	controller = SNO
 	remove_core = SOV

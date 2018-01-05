@@ -81,6 +81,14 @@ grant_freecity = {
 			has_global_flag = free_city_allowed
 		}
 	}
+	condition = {
+		tooltip = CANTCOMMUNE
+		potential = {
+		}
+		allow = {
+			FROM = { NOT = { government = italian_monarchy } }
+		}
+	}
 }
 
 remove_electorate = {

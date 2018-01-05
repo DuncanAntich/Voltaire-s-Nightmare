@@ -16,7 +16,7 @@ capital = 390
 }
 1260.7.13 = { #possible ancestor of Romanov dynasty
 	monarch = {
-		name = "Glande"
+		name = "Glands"
 		dip = 2
 		mil = 2
 		adm = 2
@@ -24,7 +24,7 @@ capital = 390
 }
 1263.1.1 = {
 	monarch = {
-		name = "Swayno"
+		name = "Svains"
 		dip = 2
 		mil = 2
 		adm = 2

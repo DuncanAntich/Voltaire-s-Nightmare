@@ -7,7 +7,7 @@ capital = 2281
 fixed_capital = 2281
 #Imperial territory of Transjurania
 
-1125.5.23 = {
+1127.1.1 = {
 	government = administrative_republic
 	add_army_professionalism = 0.1
 	monarch = {

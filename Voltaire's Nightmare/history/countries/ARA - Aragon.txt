@@ -45,9 +45,9 @@ add_army_professionalism = 0.05
 }
 1065.1.1 = {
 	queen = {
-		country_of_origin = CAT
+		country_of_origin = URG
 		name = "Isabel"
-		dynasty = "d'Urchel"
+		dynasty = "de Barcelona"
 		birth_date = 1045.1.1 #est
 		death_date = 1071.1.1
 		female = yes
@@ -107,9 +107,9 @@ add_army_professionalism = 0.05
 }
 1097.8.1 = {
 	queen = {
-		country_of_origin = ARA
+		country_of_origin = SAV
 		name = "Berta"
-		dynasty = "d'Aragó"
+		dynasty = "di Savoia"
 		birth_date = 1075.1.1
 		death_date = 1110.1.1
 		female = yes
@@ -515,12 +515,11 @@ add_army_professionalism = 0.05
 	monarch = {
 		name = "Ferran I"
 		dynasty = "de Trastámara"
+		birth_date = 1380.11.27
 		adm = 2
 		dip = 1
 		mil = 2
 	}
-}
-1412.6.24 = {
 	heir = {
 		name = "Alfons"
 		monarch_name = "Alfons V"

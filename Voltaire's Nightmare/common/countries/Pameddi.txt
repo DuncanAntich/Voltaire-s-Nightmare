@@ -42,35 +42,34 @@ historical_units = {
 }
 
 monarch_names = {
-	"Skomantas #0" = 20
-	"Glappo #0" = 10
-	"Diwan #0" = 10
-	"Kleckis #0" = 10
-	"Zwantepolc #0" = 10
-	"Glande #0" = 10
-	"Pomeso #0" = 10
-	"Nadro #0" = 10
-	"Schalauo #0" = 10
-	"Sareika #0" = 10
-	"Surbantas #0" = 10
-	"Svirdotas #0" = 10
-	"Surdota #0" = 10
-	"Witowudi #0" = 10
-	"Bruteno #0" = 10
-	"Sudo #0" = 10
-	"Litvas #0" = 10
-	"Auktume #0" = 10
-	"Linka #0" = 10
-	"Pepin #0" = 10
-	"Pogins #0" = 10
-	"Skirgaila #0" = 10
-	"Sipe #0" = 10
-	"Rumbaudas #0" = 10
-	"Swayno #0" = 10
-	"Sabynas #0" = 10
-	"Stanta #0" = 10
-	"Herkus #0" = 10
-	"Rukals #0" = 10
+	"Glaps #0" = 10
+	"Mokins #0" = 10
+	"Kiekins #0" = 10
+	"Glands #0" = 10
+	"Survabuns #0" = 10
+	"Sareiks #0" = 10
+	"Surbants #0" = 10
+	"Svirdots #0" = 10
+	"Surdots #0" = 10
+	"Videvuts #0" = 10
+	"Prutens #0" = 10
+	"Suds #0" = 10
+	"Auktums #0" = 10
+	"Links #0" = 10
+	"Pepins #0" = 10
+	"Svains #0" = 10
+	"Sabyns #0" = 10
+	"Stants #0" = 10
+	"Erks #0" = 10
+	"Mants #0" = 10
+	"Pameds #0" = 1
+	"Lituvs #0" = 1
+	"Natangs #0" = 1
+	"Galinds #0" = 1
+	"Varms #0" = 1
+	"Skalvs #0" = 1
+	"Sembs #0" = 1
+	"Kulms #0" = 1
 
 	"Agne #0" = -1
 	"Morta #0" = -1
@@ -78,26 +77,16 @@ monarch_names = {
 }
 
 leader_names = {
-	Skomantai
-	Surdotai
-	Brutenai
-	Sareikai
-	Linkai
-	Stantai
-	Rukalai
-	Auktumai
-	Witowudai
-	Herkai
-	Kleckai
-	Mantas
-	Danceke
-	Valimantai
-	Pameddi Warmi Paguddi Notangi Semba Kulmus
-	Nadrauwa Barta Skallawa Sudawa Galinda
+	Glapai Mokinai Kiekinai Glandai Survabunai Sareikai
+	Surbantai Svirdotai Surdotai Videvutai Prutenai
+	Sudai Auktumai Linkai Pepinai Svainai Sabynai Stantai
+	Erkai Mantai 
+	Pamedai Lituvai Natangai Galindai Varmai Skalvai
+	Sembai Kulmai
 }
 
 ship_names = {
-	Strewa Skomanten Jurgaiten Nikeln Paulaiten
+	Strewa Jurgaiten Nikeln Paulaiten
 	"Wilku Kampas" Weszaiten Greyszonen Lomponen
 	Wittgirren Ragnit "Jondele Schalwithe" Sasavo
 	Pleikischken Sintine Gigen Tilsit Linkone

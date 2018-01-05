@@ -16,14 +16,14 @@ discovered_by = western
 discovered_by = muslim
 
 1067.1.1 = {
-	owner = WWS
-	controller = WWS
-	add_core = WWS
+	owner = BGA
+	controller = BGA
+	add_core = BGA
 }
 1202.1.1 = {
 	owner = KLT
 	controller = KLT
-	remove_core = WWS
+	remove_core = BGA
 }
 1282.1.1 = {
 	owner = LFB

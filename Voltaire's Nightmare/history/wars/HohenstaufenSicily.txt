@@ -7,7 +7,6 @@ war_goal = {
 
 1266.2.21 = {
 	add_attacker = WWS
-	add_attacker = ALS
 	add_attacker = BAD
 	add_attacker = SNO
 	add_defender = SIC
@@ -17,7 +16,6 @@ war_goal = {
 
 1268.8.23 = {
 	rem_attacker = WWS
-	rem_attacker = ALS
 	rem_attacker = BAD
 	rem_attacker = SNO
 	rem_defender = SIC

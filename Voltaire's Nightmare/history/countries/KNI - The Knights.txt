@@ -213,7 +213,11 @@ add_army_professionalism = 0.1
 }
 
 1528.1.1 = { leader = {	name = "Pietro Giustiniani"    	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1584.1.1 } }
-1530.1.1 = { capital = 2711 }
+1530.1.1 = {
+	capital = 2711
+	add_accepted_culture = maltese
+	remove_accepted_culture = peloponnesian
+}
 
 1534.8.23 = {
 	monarch = {
@@ -519,7 +523,7 @@ add_army_professionalism = 0.1
 1775.11.13 = {
 	monarch = {
 		name = "Emmanuel"
-		dynasty = "de Rohan"
+		dynasty = "de Rohan-Polduc"
 		culture = castillian
 		birth_date = 1725.4.18
 		adm = 4

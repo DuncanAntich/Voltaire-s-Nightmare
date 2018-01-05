@@ -16,16 +16,10 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1092.1.1 = {
-	owner = WWS
-	controller = WWS
-	add_core = WWS
-	remove_core = BGA
-}
 1204.1.1 = {
 	owner = WFC
 	controller = WFC
-	remove_core = WWS
+	remove_core = BGA
 	base_tax = 4
 	base_production = 3
 	base_manpower = 3

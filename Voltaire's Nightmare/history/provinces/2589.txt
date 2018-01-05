@@ -17,6 +17,16 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1091.12.19 = {
+	owner = AOS
+	controller = AOS
+	remove_core = SAV
+}
+1295.1.1 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+}
 1175.1.1 = { religion = waldensian }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1495.1.1 = { hre = no }

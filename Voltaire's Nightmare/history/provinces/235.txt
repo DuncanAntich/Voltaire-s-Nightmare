@@ -1,6 +1,6 @@
-owner = WWS
-controller = WWS
-add_core = WWS
+owner = BGA
+controller = BGA
+add_core = BGA
 culture = boden_alemannic
 religion = catholic
 hre = yes
@@ -16,6 +16,12 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1218.2.18 = {
+	owner = WWS
+	controller = WWS
+	add_core = WWS
+	remove_core = BGA
+}
 1240.1.1 = {
 	owner = OFF
 	controller = OFF

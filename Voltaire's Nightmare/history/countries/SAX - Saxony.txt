@@ -18,7 +18,7 @@ capital = 629
 }
 1020.1.1 = {
 	queen = {
-		country_of_origin = BAV
+		country_of_origin = SWW
 		name = "Eilika"
 		dynasty = "von Schweinfurt"
 		birth_date = 1005.1.1

@@ -1,6 +1,6 @@
 owner = VMG
 controller = VMG
-culture = ligurian
+culture = nissard
 religion = catholic
 hre = yes
 base_tax = 4

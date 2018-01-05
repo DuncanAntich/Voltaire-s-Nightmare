@@ -5,27 +5,53 @@ religion = catholic
 technology_group = western
 capital = 543
 
-1092.1.1 = {
+1024.1.1 = {
 	monarch = {
-		name = "Berthold II"
+		name = "Berthold I"
 		dynasty = "von Zähringen"
-		birth_date = 1050.1.1
+		birth_date = 1004.1.1
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+1049.1.1 = {
+	heir = {
+		name = "Berthold"
+		monarch_name = "Berthold II"
+		dynasty = "von Zähringen"
+		birth_date = 1049.1.1
+		death_date = 1111.4.12
+		claim = 95
 		adm = 4
 		dip = 3
 		mil = 3
 	}
+}
+1061.1.1 = {
+	monarch = {
+		name = "Berthold II"
+		dynasty = "von Zähringen"
+		birth_date = 1049.1.1
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1085.1.1 = {
 	heir = {
 		name = "Berthold"
 		monarch_name = "Berthold III"
 		dynasty = "von Zähringen"
 		birth_date = 1085.1.1
 		death_date = 1122.1.1
-		claim = 90
+		claim = 95
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
+1092.1.1 = { government_rank = 3 }
 1111.4.12 = {
 	monarch = {
 		name = "Berthold III"
@@ -94,6 +120,7 @@ capital = 543
 	}
 }
 1218.2.18 = {
+	government_rank = 1
 	monarch = {
 		name = "Egino I" #4
 		dynasty = "von Urach"

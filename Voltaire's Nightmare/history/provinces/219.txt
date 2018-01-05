@@ -1,5 +1,5 @@
-owner = WWS
-controller = WWS
+owner = BGA
+controller = BGA
 culture = boden_alemannic
 religion = catholic
 hre = yes
@@ -9,12 +9,18 @@ trade_goods = wine
 base_manpower = 0
 capital = "Durbach" 
 is_city = yes	
-add_core = WWS
+add_core = BGA
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1218.2.18 = {
+	owner = WWS
+	controller = WWS
+	add_core = WWS
+	remove_core = BGA
+}
 1268.10.29 = {
 	owner = KGZ
 	controller = KGZ

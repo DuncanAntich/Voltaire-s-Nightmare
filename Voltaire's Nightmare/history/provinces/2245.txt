@@ -1,5 +1,5 @@
-owner = AAR
-controller = AAR
+owner = LFB
+controller = LFB
 culture = swiss
 religion = catholic
 hre = yes
@@ -8,14 +8,24 @@ base_production = 1
 trade_goods = grain
 base_manpower = 1
 capital = "Laufenburg"
-is_city = yes	
-add_core = AAR
+is_city = yes
 add_core = LFB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1057.9.28 = {
+	owner = BGA
+	controller = BGA
+	add_core = BGA
+}
+1180.1.1 = {
+	owner = AAR
+	controller = AAR
+	add_core = AAR
+	remove_core = BGA
+}
 1232.1.1 = {
 	owner = LFB
 	controller = LFB

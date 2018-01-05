@@ -92,11 +92,11 @@ monarch_names = {
 }
 
 leader_names = {
-	"de Alagón" Amic d'Aragó Arbués d'Àustria "de Ayerbe"
+	"de Alagón" Amic "d'Aragó" Arbués "d'Àustria" "de Ayerbe"
 	Balaguer Barceló "de Belchite" Berguedà Bielsa "de Borja" "de Cabrera" Cajal Colom
-	Domènec d'Empúries "Fernández de Hijar" Ferrer "Folc de Cardona" Franco
-	Galindo "Gil de Biedma" Gisbert "de Guimerà" "de Gotor" "de Gurrea" d'Ixer Loaisa "de Luna"
-	Martorell "de Montcada" Monteagudo Muntaner Oliva Ordovás d'Ors Peña "Pérez de Coloma" Piquer
+	Domènec "d'Empúries" "Fernández de Hijar" Ferrer "Folc de Cardona" Franco
+	Galindo "Gil de Biedma" Gisbert "de Guimerà" "de Gotor" "de Gurrea" "d'Ixer" Loaisa "de Luna"
+	Martorell "de Montcada" Monteagudo Muntaner Oliva Ordovás "d'Ors" Peña "Pérez de Coloma" Piquer
 	"de Requesens" "de la Riba" Ripoll "de Ripperdá" 
 	Sastre d'Urgell Vallès Veldrán Vilamarí Villarroya "de Zaporta" 
 }

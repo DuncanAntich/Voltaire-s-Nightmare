@@ -113,9 +113,9 @@ leader_names = {
 	Iagaris
 	Kantakuzenos Kaukadenos Komnenos Kamateros
 	Laskaris
-	Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+	Melissinos Melisurgos Mikrulakes Mouzalon
 	Nestongos Monomachos Makrembolitissa Makedon
-	Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+	Palaiologos Paraspondylos Phokas Phouskarnaki Phrangopoulos Psellos
 	Rhadinos Rhangabe Rhodocanakis Romanos
 	Syropoulos
 	Tornikes

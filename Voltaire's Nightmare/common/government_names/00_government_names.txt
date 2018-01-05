@@ -84,12 +84,14 @@ byzantine_monarchy = {
 
 	trigger = {
 		government = monarchy
+		religion = orthodox
 		OR = {
 			tag = BYZ
 			tag = NKA
 			tag = ATA
 			tag = EPI
 			tag = MOE
+			tag = ACH
 			tag = TSS
 		}
 	}

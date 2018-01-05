@@ -15,11 +15,17 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1342.8.10 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+}
 1352.1.1 = {
 	owner = SAV
 	controller = SAV
 	add_core = SAV
 	remove_core = AST
+	remove_core = MLO
 }
 1495.1.1 = { hre = no }
 1536.4.1 = { controller = FRA } 

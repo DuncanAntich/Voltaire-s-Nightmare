@@ -1,5 +1,6 @@
 fall_of_arpads = {
 	potential = {
+		always = no
 		normal_or_historical_nations = yes
 		NOT = { has_country_flag = had_fall_of_arpads }
 		NOT = { started_in = 1301.1.14 }
@@ -15,7 +16,7 @@ fall_of_arpads = {
 		is_lesser_in_union = no
 		OR = {
 			NOT = { legitimacy = 100 }
-			NOT = { dynasty = "¡rp·d" }
+			NOT = { dynasty = "√Årp√°d" }
 		}
 	}
 	
@@ -29,7 +30,7 @@ fall_of_arpads = {
 			is_lesser_in_union = no
 			AND = {
 				legitimacy = 100
-				dynasty = "¡rp·d"
+				dynasty = "√Årp√°d"
 			}
 		}
 	}
@@ -77,7 +78,7 @@ fall_of_arpads = {
 		}
 		modifier = {
 			factor = 10
-			NOT = { dynasty = "¡rp·d" }
+			NOT = { dynasty = "√Årp√°d" }
 		}
 	}
 	

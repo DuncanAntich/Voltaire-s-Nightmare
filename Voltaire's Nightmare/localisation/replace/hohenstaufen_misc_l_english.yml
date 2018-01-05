@@ -77,6 +77,7 @@
  ONLYFRENCHFIEF: "Only De Jure French titles can be made Fiefs"
  ONLYFRENCHFIEFREQ: "Only De Jure French titles can become Fiefs"
  CANTFREECITY: "Cannot Grant Free Cities until passing the §YStatutum Principum§! reform"
+ CANTCOMMUNE: "Cannot Grant Free City to §YItalian Communes§!"
  CANTREMOVEELEC: "Cannot Revoke Electorates until passing the §YIssue Chrysobull§! reform"
  KKSTAT: "Cannot marry Normans if the Statutes of Kilkenny are effective in their realm"
  KKSTAT2: "Cannot marry the Irish if the Statutes of Kilkenny are in effect"

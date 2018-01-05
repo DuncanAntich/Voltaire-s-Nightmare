@@ -65,10 +65,44 @@ capital = 258
 		mil = 2
 	}
 }
+1208.1.1 = {
+	heir = {
+		name = "John"
+		monarch_name = "John"
+		dynasty = "FitzGerald"
+		birth_date = 1208.1.1
+		death_date = 1261.8.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
 1213.1.1 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "John"
+		monarch_name = "John"
+		dynasty = "FitzGerald"
+		birth_date = 1208.1.1
+		death_date = 1261.8.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+1223.1.1 = {
 	monarch = {
 		name = "John"
 		dynasty = "FitzGerald"
+		birth_date = 1208.1.1
 		adm = 3
 		dip = 3
 		mil = 1
@@ -85,8 +119,29 @@ capital = 258
 1259.1.1 = { government_rank = 3 }
 1261.8.1 = {
 	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Thomas"
+		monarch_name = "Thomas"
+		dynasty = "FitzGerald"
+		birth_date = 1261.8.1
+		death_date = 1298.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1276.8.1 = {
+	monarch = {
 		name = "Thomas"
 		dynasty = "FitzGerald"
+		birth_date = 1261.8.1
 		adm = 2
 		dip = 1
 		mil = 2
@@ -202,6 +257,7 @@ capital = 258
 	monarch = {
 		name = "James"
 		dynasty = "FitzGerald"
+		birth_date = 1380.7.20
 		adm = 2
 		dip = 3
 		mil = 2
@@ -210,13 +266,11 @@ capital = 258
 	add_ruler_personality = intricate_web_weaver_personality
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = calm_personality
-}
-1430.1.1 = {
 	heir = {
 		name = "Thomas"
 		monarch_name = "Thomas"
 		dynasty = "FitzGerald"
-		birth_date = 1430.1.1 # Estimate
+		birth_date = 1418.1.1
 		death_date = 1468.1.1
 		claim = 95
 		adm = 2
@@ -224,18 +278,15 @@ capital = 258
 		mil = 2
 	}
 }
-
 1462.1.1 = {
 	monarch = {
 		name = "Thomas"
 		dynasty = "FitzGerald"
+		birth_date = 1418.1.1
 		adm = 2
 		dip = 3
 		mil = 2
 	}
-}
-
-1462.1.1 = {
 	heir = {
 		name = "James"
 		monarch_name = "James"
@@ -248,30 +299,25 @@ capital = 258
 		mil = 1
 	}
 }
-
 1468.1.1 = {
 	monarch = {
 		name = "James"
 		dynasty = "FitzGerald"
+		birth_date = 1459.1.1
 		adm = 3
 		dip = 2
 		mil = 1
 	}
 }
-
-#Murdered
-
 1487.1.1 = {
 	monarch = {
 		name = "Maurice"
 		dynasty = "FitzGerald"
+		birth_date = 1460.1.1
 		adm = 3
 		dip = 2
 		mil = 3
 	}
-}
-
-1487.1.1 = {
 	heir = {
 		name = "James"
 		monarch_name = "James"
@@ -284,56 +330,70 @@ capital = 258
 		mil = 1
 	}
 }
-
 1520.1.1 = {
 	monarch = {
 		name = "James"
 		dynasty = "FitzGerald"
+		birth_date = 1479.1.1
 		adm = 1
 		dip = 1
 		mil = 1
 	}
 }
-
-#Dies in Battle, succeded by his Uncle.
-
 1529.6.18 = {
 	monarch = {
 		name = "Thomas"
 		dynasty = "FitzGerald"
+		birth_date = 1454.1.1
 		adm = 2
 		dip = 2
 		mil = 4
 	}
-}
-
-#Nicknamed "The Court Page, Grandson of Thomas, title also held by John brother of his grandfather.
-1534.1.1 = {
-	monarch = {
-		name = "Thomas"
+	heir = {
+		name = "John"
+		monarch_name = "John"
 		dynasty = "FitzGerald"
+		birth_date = 1469.1.1
+		death_date = 1536.1.1
+		claim = 85
 		adm = 1
 		dip = 1
 		mil = 0
 	}
 }
-
-#Murdered
-
-1536.1.1 = {
+1534.1.1 = {
 	monarch = {
-		name = "James"
+		name = "John"
 		dynasty = "FitzGerald"
+		birth_date = 1469.1.1
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+	heir = {
+		name = "James"
+		monarch_name = "James"
+		dynasty = "FitzGerald"
+		birth_date = 1504.1.1
+		death_date = 1558.1.1
+		claim = 85
 		adm = 3
 		dip = 4
 		mil = 3
 	}
 }
-
 1536.1.1 = {
-	heir = {
+	monarch = {
 		name = "James"
-		monarch_name = "James"
+		dynasty = "FitzGerald"
+		birth_date = 1504.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Gerald"
+		monarch_name = "Gerald"
 		dynasty = "FitzGerald"
 		birth_date = 1533.1.1
 		death_date = 1583.11.11
@@ -343,11 +403,11 @@ capital = 258
 		mil = 5
 	}
 }
-
 1558.1.1 = {
 	monarch = {
-		name = "James"
+		name = "Gerald"
 		dynasty = "FitzGerald"
+		birth_date = 1533.1.1
 		adm = 4
 		dip = 4
 		mil = 5

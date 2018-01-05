@@ -2,7 +2,7 @@ government = feudal_monarchy
 government_rank = 1
 technology_group = eastern
 religion = catholic
-primary_culture = bosnian
+primary_culture = croatian
 capital = 507
 
 1110.1.1 = {
@@ -17,6 +17,7 @@ capital = 507
 }
 #done 1116
 1403.1.1 = {
+	primary_culture = bosnian
 	religion = bogomilist #bosnian church
 	add_harmonized_religion = catholic
 	add_harmonized_religion = orthodox

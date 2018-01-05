@@ -39,11 +39,12 @@ historical_units = {
 }
 
 leader_names = {
-	Bielke Horn Tott
-	Fleming Paijkull Bonde
-	Wrede Soop
-	Mannerheim Furuhjelm Aminoff
-	Armfelt Carpelan Rehbinder Schulman
+	Viestardis
+	Nameisis
+	Detzkitis
+	Jakitis
+	Kuitis
+	Purwinis
 }
 
 ship_names = {
@@ -52,8 +53,8 @@ ship_names = {
 }
 
 monarch_names = {
-	"Kaupo #0" = 20
-	"Shutr #0" = 20
+	"Viestards #0" = 20
+	"Nameise #0" = 20
 	"Narvait #0" = 20
 	"Dovyat #0" = 10
 	"Likiik #0" = 10
@@ -62,9 +63,6 @@ monarch_names = {
 	"Janis #0" = 5
 	"Talivaldis #0" = 5
 	"Jürgen #0" = 5
-	"Vetseke #0" = 0
-	"Vaishvilkas #0" = 0
-	"Yudki #0" = 0
 	
 	"Savna #0" = -1
 	"Brita #0" = -1
