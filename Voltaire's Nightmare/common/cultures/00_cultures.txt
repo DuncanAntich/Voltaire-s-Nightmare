@@ -121,7 +121,7 @@ germanic = {
 			"von Hackledt" "von Haslang" "von Holnstein" "von der Tann" "von Tattenbach" "von Closen"
 			"von Knöringen" "von Laiming" "von Leublfing" "von Quirnheim" "Notthafft" "von Ortenburg"
 			"von Parsberg" Pfäffinger "von Pienzenau" "von Pudewels" "von Raumer" "von Rehlinger" Rapotonen
-			"von Reitzenstein" "von Rohr" "von Degenberg" "von Durkheim" Echter "von Fraunberg" "von Cham"
+			"von Reitzenstein" "von Degenberg" "von Durkheim" Echter "von Fraunberg" "von Cham"
 			"Rotenhan" "Rüdt von Collenberg" "von Waldow" "von Wartenberg" "von Sandizell" "von Eurasburg"
 			"von Thürheim" "von Thurn und Taxis" "von Toerring" "von Regensburg" "von Sulzbach" "von Formbach"
 			"von Bogen" "von Frontenhausen" "von Dachau" "von Winzenburg" "von Abensberg" "von Lengenfeld"
