@@ -953,3 +953,15 @@ cb_force_tributary = {
 	
 	war_goal = take_capital_force_tributary
 }
+cb_reconquista = {
+	prerequisites = {
+		is_neighbor_of = FROM
+		capital_scope = { superregion = iberia_superregion }
+		religion = catholic
+		NOT = { religion_group = FROM }
+		NOT = {	has_matching_religion = FROM }
+		}
+	}
+	
+	war_goal = take_capital_imperial
+}
