@@ -954,16 +954,3 @@ cb_force_tributary = {
 	war_goal = take_capital_force_tributary
 }
 
-cb_reconquista = {
-	valid_for_subject = yes
-	
-	prerequisites = {
-		capital_scope = { superregion = iberia_superregion }
-		FROM = {
-			any_province = { superregion = iberia_superregion }
-			religion_group = muslim
-		}
-	}
-	
-	war_goal = take_capital_crusade
-}
