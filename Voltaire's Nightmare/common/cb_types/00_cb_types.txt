@@ -958,6 +958,12 @@ cb_reconquista = {
 		is_neighbor_of = FROM
 		capital_scope = { superregion = iberia_superregion }
 		religion = catholic
+		NOT = {
+			OR = {
+			tag = CAS
+			tag = LON
+			}
+		}
 		NOT = { religion_group = FROM }
 		NOT = {	has_matching_religion = FROM }
 		}
