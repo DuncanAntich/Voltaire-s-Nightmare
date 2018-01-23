@@ -784,21 +784,15 @@ country_event = {
 		#What is a Portugal?
 		name = "flavor_por.EVTOPTB11"
 		ai_chance = { factor = 25}
-		every_owned_province = {
-			limit = {
-				region = { northportugal_region }
-			}
-		remove_core = ROOT
-		add_core = POR
-		}
 		random_owned_area = {
     			limit = {
 				region = { northportugal_region }
     			}
 		spawn_rebels = {
     			type = nationalist_rebels
-    			size = 1
+			friend = POR
     			leader = "Henrique de Bourgogne"
+			size = 1
 			}
 		}
 	}
