@@ -138,7 +138,7 @@ country_event = {
 	}
 }
 
-# King Sebastião's Expedition to North Africa
+# King SebastiÃ£o's Expedition to North Africa
 country_event = {
 	id = flavor_por.3272
 	title = "flavor_por.EVTNAME3272"
@@ -356,7 +356,7 @@ country_event = {
 		add_dip_power = 100
 		define_advisor = {
 			type = statesman
-			name = "Dom Luís de Meneses"
+			name = "Dom LuÃ­s de Meneses"
 			culture = portugese
 			discount = yes
 			skill = 2
@@ -396,7 +396,7 @@ country_event = {
 	}
 }
 
-# Marquês de Pombal
+# MarquÃªs de Pombal
 country_event = {
 	id = flavor_por.3279
 	title = "flavor_por.EVTNAME3279"
@@ -475,7 +475,7 @@ country_event = {
 	}
 }
 
-# The Expulsion of Marquês de Pombal
+# The Expulsion of MarquÃªs de Pombal
 country_event = {
 	id = flavor_por.3281
 	title = "flavor_por.EVTNAME3281"
@@ -513,7 +513,7 @@ country_event = {
 			duration = -1
 		}
 	}
-	option = {		# Let the 'Great Marquês' rule
+	option = {		# Let the 'Great MarquÃªs' rule
 		name = "flavor_por.EVTOPTB3281"
 		ai_chance = { factor = 25 }
 		every_owned_province = {
@@ -625,7 +625,7 @@ country_event = {
 		set_global_flag = columbus_happened
 		add_years_of_income = -0.10
 		define_admiral = {
-			name = "Cristóvão Colombo"
+			name = "CristÃ³vÃ£o Colombo"
 			fire = 2
 			shock = 2
 			manuever = 6
@@ -665,7 +665,7 @@ country_event = {
 	}
 }
 
-# The Tower of Belém
+# The Tower of BelÃ©m
 country_event = {
 	id = flavor_por.9
 	title = "flavor_por.EVTNAME9"
@@ -705,7 +705,7 @@ country_event = {
 	}
 }
 
-# Jerónimos Monastery
+# JerÃ³nimos Monastery
 country_event = {
 	id = flavor_por.10
 	title = "flavor_por.EVTNAME10"
@@ -737,5 +737,69 @@ country_event = {
 		name = "flavor_por.EVTOPTB10"
 		ai_chance = { factor = 10 }
 		add_prestige = -1
+	}
+}
+
+
+# Henry of Portugal
+country_event = {
+	id = flavor_por.11
+	title = "flavor_por.EVTNAME11"
+	desc = "flavor_por.EVTDESCT11"
+	picture = COURT_eventPicture
+	
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		OR = {
+			tag = LON
+			tag = CAS
+			tag = GAL
+		}
+		any_owned_province = { 
+			region = { northportugal_region }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		#The Portuguese are now free
+		name = "flavor_por.EVTOPTA11"
+		ai_chance = { factor = 75 }
+		every_owned_province = {
+			limit = {
+				region = { northportugal_region }
+			}
+		remove_core = ROOT
+                add_core = POR
+                cede_province = POR
+		}
+	}
+	option = {
+		#What is a Portugal?
+		name = "flavor_por.EVTOPTB11"
+		ai_chance = { factor = 25}
+		every_owned_province = {
+			limit = {
+				region = { northportugal_region }
+			}
+		remove_core = ROOT
+		add_core = POR
+		}
+		random_owned_area = {
+    			limit = {
+				region = { northportugal_region }
+    			}
+		spawn_rebels = {
+    			type = nationalist_rebels
+    			size = 1
+    			leader = "Henrique de Bourgogne"
+			}
+		}
 	}
 }
