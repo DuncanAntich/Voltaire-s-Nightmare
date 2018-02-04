@@ -822,11 +822,25 @@ country_event = {
 		name = "flavor_por.EVTOPTA12"
 		ai_chance = { factor = 80 }
 		
-		every_owned_province = {
+		every_province = {
 			limit = {
 				region = { southportugal_region }
-				NOT = { owner = { POR } }
+				NOT = { owner = { tag = POR } }
 			}
 			add_core = POR
 		}
+	}
+	option = {
+		#We must liberate the Galicians first and foremost
+		name = "flavor_por.EVTOPB12"
+		ai_chance = { factor = 80 }
+		
+		every_province = {
+			limit = {
+				area = { galicia_area }
+				NOT = { owner = { tag = POR } }
+			}
+			add_core = POR
+		}
+	}
 }
