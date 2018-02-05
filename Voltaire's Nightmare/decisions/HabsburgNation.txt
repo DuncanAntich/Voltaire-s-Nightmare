@@ -18,6 +18,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = HAB }
 			has_regency = no
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			owns = 2172

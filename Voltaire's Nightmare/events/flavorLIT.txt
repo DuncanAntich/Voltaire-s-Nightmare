@@ -226,6 +226,7 @@ country_event = {
 		}
 		NOT = { vassal_of = POL }
 		NOT = { religion = catholic }
+		NOT = { religion = catholique }
 		NOT = { has_country_modifier = counter_reformation }
 		tag = LIT
 		is_year = 1600
@@ -298,6 +299,7 @@ country_event = {
 		}
 		NOT = { vassal_of = POL }
 		NOT = { religion = catholic }
+		NOT = { religion = catholique }
 		NOT = { has_country_modifier = counter_reformation }
 		tag = LIT
 		is_year = 1618 
@@ -370,6 +372,7 @@ country_event = {
 		}
 		NOT = { vassal_of = POL }
 		NOT = { religion = catholic }
+		NOT = { religion = catholique }
 		NOT = { has_country_modifier = counter_reformation }
 		tag = LIT
 		any_neighbor_country = { OR = { tag = POL tag = HAB } }
@@ -442,6 +445,7 @@ country_event = {
 		}
 		NOT = { vassal_of = POL }
 		NOT = { religion = catholic }
+		NOT = { religion = catholique }
 		NOT = { has_country_modifier = counter_reformation }
 		tag = LIT
 		any_neighbor_country = { OR = { tag = POL tag = HAB } }
@@ -785,7 +789,6 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 	}

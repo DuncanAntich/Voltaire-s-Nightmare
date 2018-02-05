@@ -20,3 +20,5 @@ fort_14th = yes
 1532.8.4 = { owner = FRA controller = FRA }
 1588.12.1 = { unrest = 5 }
 1594.1.1 = { unrest = 0 }
+discovered_by = nomad_group
+discovered_by = north_american

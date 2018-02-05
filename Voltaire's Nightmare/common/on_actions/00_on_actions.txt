@@ -24,6 +24,7 @@ on_startup = {
 					NOT = { owned_by = PAP }
 					NOT = { owned_by = ORA }
 					NOT = { owned_by = SAV }
+					NOT = { owned_by = AVI }
 				}
 				add_permanent_claim = PREV
 			}
@@ -36,12 +37,22 @@ on_startup = {
 					NOT = { owned_by = PAP }
 					NOT = { owned_by = ORA }
 					NOT = { owned_by = SAV }
+					NOT = { owned_by = AVI }
 				}
 				add_permanent_claim = PREV
 			}
 		}
 	}
-
+	if = {
+		limit = { always = no }
+		every_province = {
+			limit = {
+				religion = catholic
+				owner = { religion = catholique }
+			}
+			change_religion = catholique
+		}
+	}
 	if = {
 		limit = { 4061 = { religion = cathar } }
 		4061 = { add_reform_center = cathar }
@@ -66,8 +77,8 @@ on_startup = {
 		1238 = { add_reform_center = anabaptist }
 	}
 	if = {
-		limit = { 1133 = { religion = lollardy } }
-		1133 = { add_reform_center = lollardy }
+		limit = { 2272 = { religion = lollardy } }
+		2272 = { add_reform_center = lollardy }
 	}
 	if = {
 		limit = { 541 = { religion = waldensian } }
@@ -121,16 +132,8 @@ on_startup = {
 		1123 = { add_reform_center = reformed }
 	}
 	if = {
-		limit = { 1123 = { religion = zwinglianist } }
-		1123 = { add_reform_center = zwinglianist }
-	}
-	if = {
 		limit = { 2359 = { religion = reformed } }
 		2359 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 210 = { religion = zwinglianist } }
-		210 = { add_reform_center = zwinglianist }
 	}
 
 	if = {
@@ -645,12 +648,12 @@ on_new_monarch = {
 			remove_province_modifier = domain_of_spouses_family
 		}
 	}
+	ambrosian_republic_effect = yes
 	succession_culture_religion_effect = yes
 	sheik_ul_islam_effect = yes
 	events = {
 		tribal_succession.1		# Harsh anti-tribals
 		9492 					# Remove some event modifiers
-		flavor_mlo.1			# The Ambrosian Republic
 		flavor_boh.8			# Winter King in Prague
 		flavor_kol.1			# Bavarian Archbishop
 		war_of_the_roses.101	# WotR - House of Lancaster wins
@@ -1512,11 +1515,19 @@ on_bi_yearly_pulse = {
 		100 = reforms.3
 		100 = reforms.4		
 
+		100 = randomeventsstapehordes.4
+		100 = randomeventsstapehordes.5
+		100 = randomeventsstapehordes.6
+		100 = randomeventsstapehordes.7
+		100 = randomeventsstapehordes.8
+		100 = randomeventsstapehordes.13
 		100 = randomeventsstapehordes.17
 		100 = randomeventsstapehordes.18
 		100 = randomeventsstapehordes.19
 		100 = randomeventsstapehordes.20
 		100 = randomeventsstapehordes.21
+		100 = randomeventsstapehordes.22
+		100 = randomeventsstapehordes.23
 
 		# Sailor events
 		100 = sailor_event.1
@@ -1688,7 +1699,30 @@ on_thri_yearly_pulse = {
 		100 = republics.40
 		100 = republics.41
 		100 = republics.42
-		100 = republics.43		
+		100 = republics.43	
+
+		#Cantons
+		100 = fbievents.31
+		100 = fbievents.32
+		100 = fbievents.33
+		100 = fbievents.34
+		100 = fbievents.35
+
+		#Communes
+		100 = fbievents.37
+		100 = fbievents.38
+		100 = fbievents.39
+		100 = fbievents.40
+		100 = fbievents.41
+		100 = fbievents.42
+
+		#Easterns
+		100 = fbievents.43
+		100 = fbievents.44
+		100 = fbievents.45
+		100 = fbievents.46
+		100 = fbievents.47
+		100 = fbievents.48
 		
 		# Theocracies
 		100 = devotion_events.1
@@ -1927,6 +1961,29 @@ on_four_year_pulse = {
 		100 = revolutionary_republic_factions.7
 		100 = revolutionary_republic_factions.8
 		100 = revolutionary_republic_factions.9
+
+		#Monastic Factions
+
+		100 = fbievents.11
+		100 = fbievents.12
+		100 = fbievents.13
+		100 = fbievents.14
+		100 = fbievents.15
+		100 = fbievents.16
+		100 = fbievents.17
+		100 = fbievents.18
+		100 = fbievents.19
+		100 = fbievents.20
+
+		#Turkish Factions
+
+		100 = fbievents.22
+		100 = fbievents.23
+		100 = fbievents.24
+		100 = fbievents.25
+		100 = fbievents.26
+		100 = fbievents.27
+		100 = fbievents.28
 
 		# Republican Dictatorship
 		100 = republican_dictatorship.1

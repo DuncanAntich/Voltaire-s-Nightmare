@@ -259,6 +259,7 @@ capital = 2051
 		mil = 1
 	}
 }
+1378.9.20 = { religion = catholique }
 1398.1.1 = {
 	monarch = {
 		name = "Joan II"
@@ -278,3 +279,4 @@ capital = 2051
 	}
 }
 #1402 done
+1429.7.26 = { religion = catholic }

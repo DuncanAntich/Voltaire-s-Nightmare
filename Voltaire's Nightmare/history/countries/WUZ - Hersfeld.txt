@@ -92,7 +92,7 @@ capital = 1982
 }
 1165.1.1 = {
 	monarch = {
-		name = "Burchard"
+		name = "Burkhard"
 		dynasty = "von Nürings"
 		birth_date = 1110.1.1 #est
 		adm = 2

@@ -12,6 +12,7 @@ country_event = {
 	trigger = {
 		has_country_modifier = "counter_reformation"
 		NOT = { religion = catholic	}
+		NOT = { religion = catholique }
 	}
 	
 	mean_time_to_happen = {
@@ -201,13 +202,6 @@ country_event = {
 		add_stability = -4
 	}
 	option = {
-		name = "religious_events.18.h" #
-		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = zwinglianist } }
-		change_religion = zwinglianist
-		add_stability = -4
-	}
-	option = {
 		name = "religious_events.18.i" #
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = waldensian } }
@@ -247,6 +241,13 @@ country_event = {
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = lollardy } }
 		change_religion = lollardy
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.o" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = catholique } }
+		change_religion = catholique
 		add_stability = -4
 	}
 	option = {

@@ -17,12 +17,18 @@ province_event = {
 	
 	trigger = {
 		NOT = { has_global_flag = counter_reformation }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		continent = europe
 		is_overseas = no
 		is_colony = no
 		owner = {
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 			is_colonial_nation = no
 			capital_scope = {
 				continent = europe
@@ -64,7 +70,10 @@ province_event = {
 			add_prestige = 5 
 			add_devotion = 1
 			if = {
-				limit = { NOT = { tag = PAP } }
+				limit = {
+					NOT = { tag = PAP }
+					NOT = { tag = AVI }
+				}
 				add_papal_influence = 2
 			}
 		}
@@ -84,6 +93,12 @@ country_event = {
 		name = catholic_flavor.2.a
 		add_prestige = 10
 		PAP = { set_papacy_active = no }
+		hidden_effect = {
+			if = {
+				limit = { AVI = { government = papal_government } }
+				AVI = { set_papacy_active = no }
+			}
+		}
 	}
 }
 
@@ -96,7 +111,6 @@ country_event = {
 	picture = ORTHODOX_eventPicture
 	
 	is_triggered_only = yes
-	
 	major = yes
 
 	option = {
@@ -104,6 +118,14 @@ country_event = {
 		add_prestige = 25
 		add_legitimacy = 25
 		PAP = { set_papacy_active = no }
+		PAP = { change_government = theocratic_government }
+		hidden_effect = {
+			if = {
+				limit = { AVI = { government = papal_government } }
+				AVI = { set_papacy_active = no }
+				AVI = { change_government = theocratic_government }
+			}
+		}
 	}
 }
 
@@ -120,6 +142,7 @@ country_event = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		NOT = {
 			has_global_flag = pap_disables_simony_flag
 		}
@@ -231,6 +254,7 @@ country_event = {
 		NOT = { is_religion_enabled = protestant }
 		NOT = { current_age = age_of_empire }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		has_global_flag = hussite_heresy_g
 		is_year = 1480
 		NOT = {
@@ -306,6 +330,7 @@ country_event = {
 		NOT = { current_age = age_of_empire }
 		has_global_flag = hussite_heresy_g
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		any_owned_province = {
 			religion = catholic
 		}
@@ -414,6 +439,7 @@ country_event = {
 		NOT = { is_religion_enabled = protestant }
 		NOT = { current_age = age_of_empire }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 
 	}
 	
@@ -526,6 +552,7 @@ country_event = {
 		NOT = { is_religion_enabled = protestant }
 		NOT = { current_age = age_of_empire }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		any_owned_province = {
 			religion = catholic
 		}
@@ -716,6 +743,7 @@ country_event = {
 		NOT = { is_religion_enabled = protestant }
 		NOT = { current_age = age_of_empire }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		reform_desire = 0.5
 	}
 	
@@ -893,14 +921,15 @@ country_event = {
 		NOT = { current_age = age_of_empire }
 		has_global_flag = hussite_heresy_g
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		reform_desire = 0.75
 		is_year = 1510
 	}
 	
 	mean_time_to_happen = {
-		days = 1
-		
+		days = 1	
 	}
+	
 	option = {
 		name = catholic_flavor.10.a
 		if = {

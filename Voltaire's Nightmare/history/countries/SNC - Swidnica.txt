@@ -43,6 +43,7 @@ capital = 2814
 		dynasty = "von Habsburg"
 		birth_date = 1322.1.1
 		death_date = 1392.2.2
+		culture = austrian
 		female = yes
 		adm = 3
 		dip = 3

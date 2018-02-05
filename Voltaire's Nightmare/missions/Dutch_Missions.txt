@@ -94,7 +94,10 @@ embrace_the_reformation = {
 	allow = {
 		normal_or_historical_nations = yes
 		tag = NED
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_owned_province = { religion = reformed }
 		num_of_missionaries = 1
 		owns = 328

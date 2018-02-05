@@ -321,6 +321,7 @@ capital = 2408
 		dynasty = "von Zähringen"
 		birth_date = 1776.6.13
 		death_date = 1841.11.13
+		culture = boden_alemannic
 		female = yes
 		adm = 2
 		dip = 2

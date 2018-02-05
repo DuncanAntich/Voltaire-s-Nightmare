@@ -532,7 +532,7 @@ country_event = {
 	trigger = {
 		has_dlc = "The Cossacks"
 		has_estate = estate_nomadic_tribes
-		NOT = { legitimacy = 70 }
+		NOT = { horde_unity = 70 }
 		NOT = {
 			has_estate_influence_modifier = {
 				estate = estate_nomadic_tribes
@@ -563,7 +563,7 @@ country_event = {
 				}
 			}
 		}
-		add_legitimacy = 20
+		add_horde_unity = 20
 		add_estate_influence_modifier = {
 			estate = estate_nomadic_tribes
 			desc = EST_VAL_TRIBES_UNITY

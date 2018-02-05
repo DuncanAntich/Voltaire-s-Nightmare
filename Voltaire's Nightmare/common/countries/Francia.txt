@@ -85,10 +85,10 @@ monarch_names = {
 }
 
 leader_names = { 
-	Karling Merowing Konrading Wigericing Liudolfing Matfrieding
-	Hunfriding Burcharding Siegharding Gerharding Udalriching
+	Karling Merowing Konrading Wigericing Liudolfing Matfrieding Gerulfing
+	Hunfriding Burkharding Siegharding Gerharding Udalriching Meinhering
 	Arnulfing Ahalolfing Meinharding Ludowing Chrodoberting Eberharding
-	Reudigni Avione Eudose Suarine Nuitone Salier
+	Reudigni Avione Eudose Suarine Nuitone Salier Ekkeharding
 	"von Löwen" "von Verdun" "von Rheingau" "von Karantanien"
 	"von Neustrien" "von Austrasien" "von Bayern" "von Burgund"
 	"von Lothringen" "von Schwaben" "von Septimanien" "von Worms"

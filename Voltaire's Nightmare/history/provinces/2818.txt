@@ -27,7 +27,7 @@ add_permanent_province_modifier = {
 1392.1.1 = { owner = ORL controller = ORL remove_core = FRA }
 1498.4.7 = { owner = FRA controller = FRA add_core = FRA }
 1519.1.1 = { owner = ORL controller = ORL remove_core = FRA }
-1534.1.1 = { religion = huguenot }
+1534.1.1 = { religion = reformed }
 1562.3.1 = { unrest = 5 }
 1565.1.1 = { unrest = 8 }
 1568.9.1 = { unrest = 15 }
@@ -51,3 +51,5 @@ add_permanent_province_modifier = {
 1870.12.4 = { controller = PRU }
 1871.1.18 = { controller = GER }
 1871.5.10 = { controller = FRA }
+discovered_by = nomad_group
+discovered_by = north_american

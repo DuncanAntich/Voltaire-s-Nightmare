@@ -1,13 +1,42 @@
-government = imperial_city
+government = despotic_monarchy
 government_rank = 1
-mercantilism = 25
 primary_culture = swabian
 religion = catholic
 technology_group = western
 capital = 1757
-fixed_capital = 1757
 
 1054.1.1 = {
+	monarch = {
+		name = "Wolftrigel I"
+		dynasty = "von Beuren"
+		birth_date = 1045.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1100.1.1 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Beuren"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+1135.1.1 = {
+	monarch = {
+		name = "Heinrich II"
+		dynasty = "von Beuren"
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+1167.1.1 = {
+	government = imperial_city
+	fixed_capital = 1757
+	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"
 		adm = 2

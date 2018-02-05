@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
-technology_group = western
+technology_group = north_american
 capital = 1864
 
 1054.1.1 = {
@@ -15,57 +15,24 @@ capital = 1864
 	}
 }
 1248.1.1 = {
-	government = tribal_despotism
 	monarch = {
-		name = "Elf"
-		dynasty = "Popma"
-		birth_date = 1235.1.1
+		name = "Elf Popma"
 		adm = 3
 		dip = 3
 		mil = 2
 	}
 }
-1265.1.1 = {
-	heir = {
-		name = "Claes"
-		monarch_name = "Claes"
-		dynasty = "Popma"
-		birth_date = 1265.1.1
-		death_date = 1309.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1280.1.1 = {
+1285.1.1 = {
 	monarch = {
-		name = "Claes"
-		dynasty = "Popma"
-		birth_date = 1265.1.1
+		name = "Claes Popma"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1290.1.1 = {
-	heir = {
-		name = "Ziwaert"
-		monarch_name = "Ziwaert I"
-		dynasty = "Popma"
-		birth_date = 1290.1.1
-		death_date = 1352.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1309.1.1 = {
+1323.1.1 = {
 	monarch = {
-		name = "Ziwaert I"
-		dynasty = "Popma"
-		birth_date = 1290.1.1
+		name = "Ziwaert Popma"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -73,46 +40,16 @@ capital = 1864
 }
 1352.1.1 = {
 	monarch = {
-		name = "Ziwaert II"
-		dynasty = "Popma"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-	heir = {
-		name = "Poppe Ziwaerts"
-		monarch_name = "Poppe"
-		dynasty = "Popma"
-		birth_date = 1352.1.1
-		death_date = 1423.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
+		name = "Ziwaert Popma"
+		adm = 3
+		dip = 1
+		mil = 3
 	}
 }
-1415.1.1 = {
-	monarch = {
-		name = "Poppe"
-		dynasty = "Popma"
-		birth_date = 1352.1.1
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-	heir = {
-		name = "Rienck Poppes"
-		monarch_name = "Rienck"
-		dynasty = "Popma"
-		birth_date = 1405.1.1
-		death_date = 1469.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1423.1.1 = {
+#1398 HOL
+1424.1.1 = {
+	government = tribal_despotism
+	technology_group = western
 	monarch = {
 		name = "Rienck"
 		dynasty = "Popma"
@@ -124,7 +61,7 @@ capital = 1864
 }
 1440.1.1 = {
 	heir = {
-		name = "Foppe Riencks"
+		name = "Foppe"
 		monarch_name = "Foppe"
 		dynasty = "Popma"
 		birth_date = 1440.1.1
@@ -166,7 +103,5 @@ capital = 1864
 		mil = 1
 	}
 }
-
 #sold to HAB netherlands 1500.1.1 
-
-
+1500.1.1 = { government = despotic_monarchy }

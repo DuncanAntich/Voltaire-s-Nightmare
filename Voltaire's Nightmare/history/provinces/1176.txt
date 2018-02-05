@@ -53,3 +53,5 @@ fort_14th = yes
 	remove_core = SIC
 	remove_core = SPI
 }
+discovered_by = nomad_group
+discovered_by = north_american

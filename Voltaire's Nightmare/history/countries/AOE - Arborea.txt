@@ -178,6 +178,7 @@ fixed_capital = 655
 	clear_scripted_personalities = yes
 	add_ruler_personality = lawgiver_personality
 }
+1378.9.20 = { religion = catholique }
 1383.3.3 = {
 	monarch = {
 		name = "Eleonora"
@@ -194,6 +195,7 @@ fixed_capital = 655
 		dynasty = "Doria"
 		birth_date = 1337.1.1
 		death_date = 1409.1.1
+		culture = ligurian
 		female = no
 		adm = 2
 		dip = 2
@@ -246,3 +248,4 @@ fixed_capital = 655
 }
 #1409 PU under Narbonne
 #1410.3.4 done
+1417.10.18 = { religion = catholic }

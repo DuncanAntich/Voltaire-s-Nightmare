@@ -1406,6 +1406,7 @@ country_event = {
 	trigger = {
 		OR = {
 			religion = catholic
+			religion = catholique
 			religion = orthodox
 			religion_group = muslim
 		}
@@ -1467,7 +1468,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			add_papal_influence = -10
 		}
@@ -1506,7 +1510,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			add_papal_influence = 10
 		}
@@ -1541,7 +1548,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			add_papal_influence = 5
 		}
@@ -1944,6 +1954,7 @@ country_event = {
 			}
 		}
 		add_republican_tradition = -10
+		add_horde_unity = -25
 		add_legitimacy = -25
 		reduce_mandate_effect = yes
 	}
@@ -1954,13 +1965,8 @@ country_event = {
 		required_personality = righteous_personality
 		add_legitimacy = -10
 		add_republican_tradition = -5
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-				is_emperor_of_china = yes
-			}
-			add_mandate = -5
-		}
+		add_horde_unity = -10
+		reduce_mandate_effect = yes
 	}
 	option = {
 		name = "personality_options.5054.b"		# 
@@ -1973,7 +1979,9 @@ country_event = {
 			}
 			50 = {
 				add_republican_tradition = -10
+				add_horde_unity = -25
 				add_legitimacy = -25
+				reduce_mandate_large_effect = yes
 			}
 		}
 	}
@@ -2855,6 +2863,8 @@ country_event = {
 			}
 		}
 		add_legitimacy = -15
+		add_horde_unity = -15
+		reduce_mandate_effect = yes
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"
@@ -2900,6 +2910,8 @@ country_event = {
 		trigger = { ruler_has_personality = cruel_personality }
 		required_personality = cruel_personality
 		add_legitimacy = 5
+		add_horde_unity = 5
+		add_mandate_effect = yes
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"
@@ -2942,9 +2954,13 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { has_country_modifier = church_functions }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 	}
 
 	mean_time_to_happen = {
@@ -3372,6 +3388,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
+				government = steppe_horde
+				NOT = { legitimacy_or_horde_unity = 50 }
+			}
+			modifier = {
+				factor = 0.5
 				government = republic
 				NOT = { republican_tradition = 60 }
 			}
@@ -3392,8 +3413,10 @@ country_event = {
 			add_opinion = { who = ROOT modifier = opinion_granted_privileges }
 		}
 		add_legitimacy = -10
+		add_horde_unity = -10
 		add_republican_tradition = -5
 		add_devotion = -5
+		reduce_mandate_effect = yes
 		add_country_modifier = {
 			name = "tax_income_boost"
 			duration = 7300
@@ -3462,8 +3485,9 @@ country_event = {
 		}
 		add_legitimacy = 10
 		add_devotion = 5
+		add_horde_unity = 5
 		add_republican_tradition = 5
-		
+		add_mandate_effect = yes
 		random_country = {
 			limit = { is_neighbor_of = ROOT }
 			add_opinion = { who = ROOT modifier = opinion_not_grant_privileges }
@@ -3728,8 +3752,10 @@ country_event = {
 			}
 		}
 		add_legitimacy = -20
+		add_horde_unity = -20
 		add_republican_tradition = -10
 		add_devotion = -10
+		reduce_mandate_effect = yes
 	}
 	option = {
 		name = "personality_options.5075.a"		# create a new set of rights
@@ -4152,6 +4178,8 @@ country_event = {
 		}
 		add_prestige = 10
 		add_legitimacy = 20
+		add_horde_unity = 20
+		add_mandate_effect = yes
 		add_years_of_income = -0.25
 	}
 	option = {
@@ -4178,6 +4206,8 @@ country_event = {
 		required_personality = obsessive_perfectionist_personality
 		add_prestige = 15
 		add_legitimacy = 25
+		add_horde_unity = 25
+		add_mandate_large_effect = yes
 		add_years_of_income = -0.35
 	}
 	option = {
@@ -4189,6 +4219,8 @@ country_event = {
 		required_personality = architectural_visionary_personality
 		add_prestige = 10
 		add_legitimacy = 20
+		add_horde_unity = 20
+		add_mandate_large_effect = yes
 		add_years_of_income = -0.15
 	}
 }
@@ -5049,6 +5081,7 @@ country_event = {
 			}
 		}
 		add_legitimacy = -10
+		add_horde_unity = -10
 	}
 	option = {
 		name = "personality_options.5097.a"		# Attempt to mediate
@@ -5212,6 +5245,7 @@ country_event = {
 		}
 		add_prestige = 10
 		add_legitimacy = 10
+		add_horde_unity = 10
 	}
 	option = {
 		name = "EVTOPTC5099"		# Propose free trade
@@ -5459,7 +5493,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { government = papal_government }
 	}
 
@@ -5884,7 +5921,10 @@ country_event = {
 	
 	trigger = {
 		stability = 0
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_at_war = no
 		num_of_cities = 2
 	}
@@ -6724,7 +6764,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { has_country_modifier = narrowminded_modifier }
 		NOT = { has_country_modifier = innovative_modifier }
 	}
@@ -7834,7 +7877,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = {
 			stability = 3
 		}
@@ -8049,6 +8095,7 @@ country_event = {
 	
 	trigger = {
 		government = monarchy
+		NOT = { government = steppe_horde }
 		has_regency = no
 		is_lesser_in_union = no
 		NOT = { legitimacy = 90 }
@@ -8113,6 +8160,7 @@ country_event = {
 	
 	trigger = {
 		government = monarchy
+		NOT = { government = celestial_empire }
 		legitimacy_or_horde_unity = 20
 		has_regency = no
 		is_lesser_in_union = no
@@ -8132,6 +8180,7 @@ country_event = {
 			}
 		}
 		add_legitimacy = -5
+		add_horde_unity = -5
 	}
 	option = {
 		name = "EVTOPTB851"
@@ -8632,8 +8681,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 	}
 	
 	mean_time_to_happen = {
@@ -9098,9 +9151,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
-		government = feudal_monarchy	
-		exists = PAP
+		government = feudal_monarchy
+		OR = {
+			AND = {
+				religion = catholic
+				exists = PAP
+			}
+			AND = {
+				religion = catholique
+				exists = AVI
+			}
+		}
 		capital_scope = {
 			continent = europe
 		}
@@ -9199,13 +9260,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = {
 			has_country_flag = maid_of_province
 		}
 		is_at_war = yes
 		war_exhaustion = 5
 		government = monarchy
+		NOT = { government = celestial_empire }
 		is_lesser_in_union = no
 		NOT = { legitimacy_or_horde_unity = 80 }
 		any_owned_province = {
@@ -9233,6 +9298,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 		add_prestige = -5
 		add_legitimacy = -5
+		add_horde_unity = -5
 		create_general = -50
 	}
 	option = {
@@ -9240,6 +9306,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 		trigger = { is_lesser_in_union = no }
 		add_legitimacy = 10
+		add_horde_unity = 10
 	}
 	option = {
 		name = "EVTOPTC875"
@@ -9262,7 +9329,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_institution_enabled = printing_press
 		NOT = { has_global_flag = bible_printed }
 		advisor = theologian
@@ -9992,13 +10062,17 @@ country_event = {
 		name = "random_event.EVTOPTA4"
 		if = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			add_papal_influence = 10
 		}
 		if = {
 			limit = {
 				NOT = { religion = catholic }
+				NOT = { religion = catholique }
 				is_lesser_in_union = no
 			}
 			add_legitimacy = 10
@@ -10056,6 +10130,8 @@ country_event = {
 		add_years_of_income = -0.20
 		add_prestige = 20
 		add_legitimacy = 20
+		add_horde_unity = 20
+		add_mandate_effect = yes
 	}
 	option = {
 		name = "random_event.EVTOPTB5"
@@ -10069,6 +10145,7 @@ country_event = {
 		add_years_of_income = -0.10
 		add_prestige = 5
 		add_legitimacy = 5
+		add_horde_unity = 5
 	}
 	option = {
 		name = "random_event.EVTOPTC5"
@@ -10233,8 +10310,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		OR = {
 			advisor = natural_scientist
 			advisor = philosopher
@@ -10655,11 +10736,10 @@ province_event = {
 			NOT = { has_country_flag = bible_translated }
 			OR = {
 				religion = catholic
+				religion = catholique
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = zwinglianist
-				religion = huguenot
 				religion = anglican
 			}
 		}
@@ -10692,7 +10772,10 @@ province_event = {
 			}
 			every_neighbor_country = {
 				limit = {
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 				}
 				add_opinion = { who = ROOT modifier = opinion_grateful }
 			}
@@ -10702,8 +10785,6 @@ province_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = zwinglianist
-						religion = huguenot
 						religion = anglican
 					}
 				}
@@ -10718,6 +10799,7 @@ province_event = {
 				owner = {
 					OR = {
 						religion = catholic
+						religion = catholique
 						religion = protestant
 					}
 				}
@@ -10743,22 +10825,6 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					religion = zwinglianist
-				}
-			}
-			change_religion = zwinglianist
-		}
-		if = {
-			limit = {
-				owner = {
-					religion = huguenot
-				}
-			}
-			change_religion = huguenot
-		}
-		if = {
-			limit = {
-				owner = {
 					religion = anglican
 				}
 			}
@@ -10771,7 +10837,10 @@ province_event = {
 			}
 			every_neighbor_country = {
 				limit = {
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 				}
 				add_opinion = { who = ROOT modifier = opinion_irritated }
 			}
@@ -10781,8 +10850,6 @@ province_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = zwinglianist
-						religion = huguenot
 						religion = anglican
 					}
 				}
@@ -11017,7 +11084,10 @@ country_event = {
 		}
 		any_owned_province = {
 			continent = europe
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 		}
 		any_owned_province = {
 			continent = europe
@@ -11026,8 +11096,6 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = zwinglianist
-				religion = huguenot
 				religion = anglican
 			}
 		}
@@ -11063,8 +11131,6 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = zwinglianist
-					religion = huguenot
 					religion = anglican
 				}
 			}
@@ -11087,7 +11153,10 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 		}
 		add_stability = -1
@@ -11097,7 +11166,10 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				continent = europe
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			if = {
 				limit = {
@@ -11105,6 +11177,7 @@ country_event = {
 						OR = {
 							religion = protestant
 							religion = catholic
+							religion = catholique
 						}
 					}
 					is_reformation_center = no
@@ -11128,24 +11201,6 @@ country_event = {
 					is_reformation_center = no
 				}
 				change_religion = anabaptist
-			}
-			if = {
-				limit = {
-					owner = {
-						religion = zwinglianist
-					}
-					is_reformation_center = no
-				}
-				change_religion = zwinglianist
-			}
-			if = {
-				limit = {
-					owner = {
-						religion = huguenot
-					}
-					is_reformation_center = no
-				}
-				change_religion = huguenot
 			}
 			if = {
 				limit = {

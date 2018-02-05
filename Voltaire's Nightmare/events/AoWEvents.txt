@@ -945,9 +945,7 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
-			religion = huguenot
 			religion = anglican
 		}
 		any_owned_province = {
@@ -957,9 +955,7 @@ country_event = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = zwinglianist
 				religion = anabaptist
-				religion = huguenot
 				religion = anglican
 			}
 			NOT = { religion = ROOT }
@@ -982,9 +978,7 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
-					religion = huguenot
 					religion = anglican
 				}
 				NOT = { religion = ROOT }
@@ -1005,9 +999,7 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
-					religion = huguenot
 					religion = anglican
 				}
 				NOT = { religion = ROOT }
@@ -1106,14 +1098,15 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = counter_reformation
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_neighbor_country = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = zwinglianist
 				religion = anabaptist
-				religion = huguenot
 				religion = anglican
 			}
 			any_owned_province = {
@@ -1124,9 +1117,7 @@ country_event = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = zwinglianist
 				religion = anabaptist
-				religion = huguenot
 				religion = anglican
 			}
 		}
@@ -1144,9 +1135,7 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
-					religion = huguenot
 					religion = anglican
 				}
 				any_owned_province = {
@@ -1178,7 +1167,10 @@ country_event = {
 
 	trigger = {
 		has_spawned_rebels = protestant_rebels
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_neighbor_country = {
 			religion = protestant
 			any_owned_province = {
@@ -1221,7 +1213,10 @@ country_event = {
 
 	trigger = {
 		has_spawned_rebels = anabaptist_rebels
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_neighbor_country = {
 			religion = anabaptist
 			any_owned_province = {
@@ -1264,7 +1259,10 @@ country_event = {
 
 	trigger = {
 		has_spawned_rebels = reformed_rebels
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_neighbor_country = {
 			religion = reformed
 			any_owned_province = {
@@ -1294,49 +1292,6 @@ country_event = {
 	# Let us not stir up more trouble over this.
 	option = {
 		name = "aow_events.38.b"
-		add_prestige = -10
-	}
-}
-
-# The Cause of the Zwinglianist Plague
-country_event = {
-	id = aow_events.388
-	title = "aow_events.388.t"
-	desc = "aow_events.388.d"
-	picture = RELIGIOUS_TURMOIL_eventPicture
-
-	trigger = {
-		has_spawned_rebels = zwinglianist_rebels
-		religion = catholic
-		any_neighbor_country = {
-			religion = zwinglianist
-			any_owned_province = {
-				is_reformation_center = yes
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 240
-	}
-
-	# They better have an answer for us!
-	option = {
-		name = "aow_events.388.a"
-		random_neighbor_country = {
-			limit = {
-				religion = zwinglianist
-				any_owned_province = {
-					is_reformation_center = yes
-				}
-			}
-			country_event = { id = aow_events.39 days = 30 }
-		}
-	}
-
-	# Let us not stir up more trouble over this.
-	option = {
-		name = "aow_events.388.b"
 		add_prestige = -10
 	}
 }
@@ -1457,15 +1412,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { religion = zwinglianist }
-			}
-			random_owned_province = {
-				limit = { likely_rebels = zwinglianist_rebels }
-				create_revolt = 2
-			}
-		}
-		if = {
-			limit = {
 				FROM = { religion = anabaptist }
 			}
 			random_owned_province = {
@@ -1479,15 +1425,6 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = { likely_rebels = anglican_rebels }
-				create_revolt = 2
-			}
-		}
-		if = {
-			limit = {
-				FROM = { religion = huguenot }
-			}
-			random_owned_province = {
-				limit = { likely_rebels = huguenot_rebels }
 				create_revolt = 2
 			}
 		}
@@ -1510,13 +1447,20 @@ country_event = {
 
 	trigger = {
 		papacy_active = yes
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		NOT = { num_of_cardinals = 7 }
 		any_owned_province = {
 			development = 10
 			has_cardinal = no
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 			any_neighbor_province = {
 				has_cardinal = yes
 				NOT = { owned_by = ROOT }
@@ -1548,7 +1492,10 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				has_cardinal = no
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				development = 10
 				any_neighbor_province = {
 					has_cardinal = yes
@@ -1641,6 +1588,7 @@ province_event = {
 		has_cardinal = yes
 		any_neighbor_province = {
 			NOT = { religion = catholic }
+			NOT = { religion = catholique }
 			religion_group = christian
 		}
 	}
@@ -1744,8 +1692,12 @@ country_event = {
 
 	trigger = {
 		papacy_active = yes
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		OR = {
 			advisor = theologian
 			advisor = inquisitor
@@ -1890,7 +1842,10 @@ country_event = {
 
 	trigger = {
 		has_idea_group = spy_ideas
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_neighbor_country = {
 			num_of_cardinals = 1
 		}

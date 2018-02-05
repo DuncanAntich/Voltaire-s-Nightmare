@@ -331,7 +331,10 @@ country_event = {
 		tag = BRA
 		is_year = 1480
 		NOT = { is_year = 1505 }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		has_regency = no
 		NOT = { current_age = age_of_empire }
 	}
@@ -1042,7 +1045,6 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 		num_of_cities = 8
@@ -1086,14 +1088,7 @@ country_event = {
 				change_religion = reformed
 			}
 			if = {
-				limit = {
-					owner = {
-						OR = {
-							religion = reformed
-							religion = zwinglianist
-						}
-					}
-				}
+				limit = { owner = { religion = reformed } }
 				change_religion = protestant
 			}
 		}
@@ -1106,7 +1101,10 @@ country_event = {
 		hidden_effect = {
 			every_known_country = {
 				limit = {
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					capital_scope = { continent = europe }
 					NOT = { has_country_flag = revoked_the_edict_of_nantes }
 				}

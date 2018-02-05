@@ -2,32 +2,38 @@ government = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
-technology_group = western
+technology_group = north_american
 capital = 1931
 
 1054.1.1 = {
 	monarch = {
 		name = "Fryske frijheid"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 2
 		regent = yes
 	}
 }
-1277.1.1 = {
-	government = tribal_despotism
+1248.1.1 = {
 	monarch = {
-		name = "Hicco I"
-		dynasty = "Idzinga"
+		name = "Hicco Idzinga"
 		adm = 3
 		dip = 3
 		mil = 2
 	}
 }
-1322.1.1 = {
+1277.1.1 = {
 	monarch = {
-		name = "Poppo"
-		dynasty = "Idzinga"
+		name = "Fryske frijheid"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+1337.1.1 = {
+	monarch = {
+		name = "Poppo Idzinga"
 		adm = 2
 		dip = 2
 		mil = 1
@@ -35,14 +41,15 @@ capital = 1931
 }
 1345.1.1 = {
 	monarch = {
-		name = "Hicco II"
-		dynasty = "Idzinga"
+		name = "Hicco Idzinga"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
 1367.1.1 = {
+	government = tribal_despotism
+	technology_group = western
 	monarch = {
 		name = "Evenard"
 		dynasty = "Idzinga"

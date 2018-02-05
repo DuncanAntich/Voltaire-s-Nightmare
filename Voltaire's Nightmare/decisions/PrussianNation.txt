@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
+			primitives = no
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -23,9 +24,9 @@ country_decisions = {
 		allow = {
 			NOT = { exists = PRU }
 			adm_tech = 40
+			is_nomad = no
 			OR = {
 				religion = reformed
-				religion = zwinglianist
 				religion = anabaptist
 				religion = protestant
 			}
@@ -144,6 +145,7 @@ country_decisions = {
 				primary_culture = pruthenian
 			}
 			is_colonial_nation = no
+			is_nomad = no
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
@@ -154,18 +156,22 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = PTH }
+			adm_tech = 14
 			is_at_war = no
-			OR = {
-				adm_tech = 40
-				AND = {
-					tag = TEU
+			owns_core_province = 390 # Königsberg
+			owns_core_province = 388 #Mamonovo
+			owns_core_province = 2207 #Lobau
+			owns_core_province = 486 #Ragnit
+			custom_trigger_tooltip = {
+				tooltip = forming_pruth_tt
+				OR = {
+					NOT = { tag = TEU }
 					OR = {
-						NOT = { any_owned_province = { region = westpreussen_region } }
-						is_subject_of = POL
+						adm_tech = 40
+						NOT = { any_owned_province = { region = westpreussen_region  } }
 					}
 				}
 			}
-			owns_core_province = 390 # Königsberg
 		}
 		effect = {
 			change_tag = PTH
@@ -214,16 +220,18 @@ country_decisions = {
 				}
 			}
 			if = {
-				limit = {
-					is_tribal = yes
-				}
+				limit = { is_tribal = yes }
 				change_government = feudal_monarchy
+			}
+			if = {
+				limit = { primitives = yes }
+				set_primitive = no
 			}
 			set_capital = 390		# Ostpreussen
 			if = {
 				limit = {
 					has_custom_ideas = no
-					NOT = { has_idea_group = PRU_ideas }
+					NOT = { has_idea_group = PTH_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
@@ -241,6 +249,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
+			primitives = no
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -267,11 +276,11 @@ country_decisions = {
 		allow = {
 			NOT = { exists = PRU }
 			adm_tech = 40
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			OR = {
 				religion = reformed
-				religion = zwinglianist
 				religion = anabaptist
 				religion = protestant
 			}

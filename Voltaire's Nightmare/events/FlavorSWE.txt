@@ -287,7 +287,6 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = zwinglianist
 		}
 	}
 
@@ -1125,7 +1124,6 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 	}

@@ -14,6 +14,7 @@ province_event = {
 			religion = animism
 			religion = shamanism
 			religion = slavic_pagan
+			religion = finnish_pagan
 			religion = hellenic_pagan
 		}
 		owner = {
@@ -22,6 +23,7 @@ province_event = {
 				religion = animism
 				religion = shamanism
 				religion = slavic_pagan
+				religion = finnish_pagan
 				religion = hellenic_pagan
 			}
 			any_neighbor_country = {
@@ -90,6 +92,7 @@ province_event = {
 			religion = animism
 			religion = shamanism
 			religion = slavic_pagan
+			religion = finnish_pagan
 			religion = hellenic_pagan
 		}
 		owner = {
@@ -98,6 +101,7 @@ province_event = {
 				religion = animism
 				religion = shamanism
 				religion = slavic_pagan
+				religion = finnish_pagan
 				religion = hellenic_pagan
 			}
 			any_neighbor_country = {
@@ -130,6 +134,7 @@ province_event = {
 				any_neighbor_country = {
 					OR = {
 						religion = catholic
+						religion = catholique
 						religion = sunni
 						religion = shiite
 					}
@@ -166,6 +171,7 @@ province_event = {
 			religion = animism
 			religion = shamanism
 			religion = slavic_pagan
+			religion = finnish_pagan
 			religion = hellenic_pagan
 		}
 		owner = {
@@ -174,6 +180,7 @@ province_event = {
 				religion = animism
 				religion = shamanism
 				religion = slavic_pagan
+				religion = finnish_pagan
 				religion = hellenic_pagan
 			}
 			any_neighbor_country = {
@@ -207,6 +214,7 @@ province_event = {
 					OR = {
 						religion = protestant
 						religion = catholic
+						religion = catholique
 						religion = shiite
 					}
 					has_opinion = { who = ROOT value = 100 }
@@ -243,6 +251,7 @@ province_event = {
 			religion = animism
 			religion = shamanism
 			religion = slavic_pagan
+			religion = finnish_pagan
 			religion = hellenic_pagan
 		}
 		owner = {
@@ -251,6 +260,7 @@ province_event = {
 				religion = animism
 				religion = shamanism
 				religion = slavic_pagan
+				religion = finnish_pagan
 				religion = hellenic_pagan
 			}
 			any_neighbor_country = {
@@ -285,6 +295,7 @@ province_event = {
 						religion = protestant
 						religion = sunni
 						religion = catholic
+						religion = catholique
 					}
 					has_opinion = { who = ROOT value = 100 }
 				}
@@ -873,7 +884,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.9
-			owner = { legitimacy = 100 }
+			owner = {
+				NOT = { government = steppe_horde }
+				legitimacy = 100
+			}
 		}
 		modifier = {
 			factor = 0.9
@@ -884,6 +898,46 @@ province_event = {
 	option = {
 		name = "EVTOPTA758"
 		owner = { add_prestige = 10 }
+	}
+}
+
+# Horde event
+
+province_event = {
+	id = 949
+	title = "EVTNAME746"
+	desc = "EVTDESC746"
+	picture = HORDE_ON_HORSEBACK_eventPicture
+
+	trigger = {
+		NOT = { controlled_by = owner }
+		NOT = { owner = { government = steppe_horde } }
+		controller = { government = steppe_horde }
+		any_neighbor_province = {
+			controlled_by = owner
+			owner = { government = steppe_horde }
+		}
+		owner = { war_exhaustion = 5 }
+		garrison = 1000
+		has_siege = no
+		
+	}
+
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 5.0
+			owner = { luck = yes }
+		}		
+		modifier = {
+			factor = 0.8
+			has_owner_religion = no
+		}
+	}
+
+	option = {
+		name = "EVTOPTA746"
+		controller = { country_event = { id = 747 } }
 	}
 }
 

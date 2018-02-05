@@ -70,3 +70,5 @@ fort_14th = yes
 1715.1.1 = { fort_17th = no fort_18th = yes }
 1793.4.17 = { controller = SPA }
 1793.5.1 = { controller = FRA }
+discovered_by = nomad_group
+discovered_by = north_american

@@ -209,6 +209,7 @@ capital = 30
 		dynasty = "d'Anjou"
 		birth_date = 1428.11.2
 		death_date = 1483.3.23
+		culture = angevin_culture
 		female = yes
 		adm = 2
 		dip = 2

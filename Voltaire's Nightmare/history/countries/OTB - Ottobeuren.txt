@@ -5,11 +5,116 @@ religion = catholic
 technology_group = western
 capital = 2685
 
-
+1050.1.1 = {
+	monarch = {
+		name = "Eberhard"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1069.1.1 = {
+	monarch = {
+		name = "Razelin"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1082.1.1 = {
+	monarch = {
+		name = "Adalheim"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1094.1.1 = {
+	monarch = {
+		name = "Gebhard"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1100.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1102.1.1 = {
+	monarch = {
+		name = "Ruprecht"
+		dynasty = "von Irsee"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+1145.8.15 = {
+	monarch = {
+		name = "Isingrim"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1180.1.1 = {
+	monarch = {
+		name = "Bernold"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1194.1.1 = {
+	monarch = {
+		name = "Konrad"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1227.1.1 = {
+	monarch = {
+		name = "Berthold"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1246.1.1 = {
+	monarch = {
+		name = "Walter"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1252.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1258.1.1 = {
+	monarch = {
+		name = "Siegfried"
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
 1266.1.1 = {
 	monarch = {
 		name = "Heinrich"
-		dynasty = "von Bregenz"
+		dynasty = "von Werdenberg"
+		culture = boden_alemannic
 		adm = 2
 		dip = 2
 		mil = 2
@@ -23,6 +128,7 @@ capital = 2685
 		mil = 2
 	}
 }
+1299.1.1 = { government_rank = 4 }
 1312.1.1 = {
 	monarch = {
 		name = "Heinrich"

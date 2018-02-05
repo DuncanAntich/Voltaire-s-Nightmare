@@ -68,3 +68,5 @@ base_production = 3 }
 	remove_core = ENG
 }
 1821.1.1 = { religion = anglican }
+discovered_by = nomad_group
+discovered_by = north_american

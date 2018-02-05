@@ -151,6 +151,7 @@ fixed_capital = 2780
 		mil = 2
 	}
 }
+1378.9.20 = { religion = catholique }
 1398.1.1 = {
 	monarch = {
 		name = "Jean II"
@@ -169,6 +170,7 @@ fixed_capital = 2780
 		mil = 5
 	}
 }
+1437.1.1 = { religion = catholic }
 1458.1.1 = {
 	monarch = {
 		name = "Jean IV"
@@ -197,7 +199,7 @@ fixed_capital = 2780
 		mil = 2
 	}
 }
-1560.1.1 = { religion = huguenot }
+1560.1.1 = { religion = reformed }
 1571.1.1 = {
 	monarch = {
 		name = "Henri"

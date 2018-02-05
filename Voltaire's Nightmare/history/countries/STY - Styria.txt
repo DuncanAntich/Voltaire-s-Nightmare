@@ -225,6 +225,7 @@ capital = 703	# Graz
 		dynasty = "de Avis"
 		birth_date = 1434.9.18
 		death_date = 1467.9.3
+		culture = portugese
 		female = yes
 		adm = 2
 		dip = 2

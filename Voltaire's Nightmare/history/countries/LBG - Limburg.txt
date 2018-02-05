@@ -148,6 +148,7 @@ capital = 2412
 		dynasty = "von Berg"
 		birth_date = 1200.1.1 #est
 		death_date = 1248.1.1
+		culture = ripuarian
 		female = yes
 		adm = 2
 		dip = 2

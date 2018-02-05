@@ -403,3 +403,1810 @@ country_event = {
 		set_country_flag = tws_collapsed
 	}
 }
+
+# Papal State
+country_event = {
+	id = fbievents.8
+	title = "EVTNAME1081"
+	desc = "FBID8"
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		papacy_active = yes
+		owns = 202		# Avignon
+		normal_or_historical_nations = yes
+		religion = catholique
+		NOT = { tag = AVI }
+		NOT = { has_country_flag = no_support }
+		OR = {
+			NOT = { exists = AVI }
+			AVI = { government = papal_government }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+		
+		modifier = {
+			factor = 0.95
+			num_of_cardinals = 1
+		}
+		modifier = {
+			factor = 0.95
+			num_of_cardinals = 2
+		}
+		modifier = {
+			factor = 0.75
+			has_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0.9
+			is_defender_of_faith = yes
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { is_defender_of_faith = yes }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { advisor = theologian }
+		}
+		modifier = {
+			factor = 0.9
+			theologian = 2
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1081" # We will never support such a state
+		ai_chance = { factor = 25 }
+		add_prestige = -10
+		add_stability = -1
+		every_country = {
+			limit = {
+				religion = catholique
+				NOT = { tag = ROOT }
+			}
+			add_opinion = { who = ROOT modifier = opinion_declined_independent_state_support }
+		}
+		set_country_flag = no_support
+	}
+	option = {
+		name = "FBIB8" # Avignon is rightfully theirs
+		ai_chance = { 
+			factor = 75 
+			modifier = {
+				factor = 0
+				is_core = 202
+			}
+		}
+		202 = {
+			add_core = AVI
+			cede_province = AVI
+		}
+		hidden_effect = {
+			if = {
+				limit = { AVI = { NOT = { government = papal_government } } }
+				AVI = { change_government = papal_government }
+			}
+		}
+		if = {
+			limit = {
+				202 = {
+					is_core = ROOT
+				}
+			}
+			remove_core = ROOT
+		}
+		add_prestige = 25
+	}
+}
+
+# The Papal State
+country_event = {
+	id = fbievents.9
+	title = "EVTNAME1082"
+	desc = "EVTDESC1082"
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		papacy_active = yes
+		NOT = { exists = AVI }
+		religion = catholique
+		government = theocratic_government
+		NOT = { has_ruler_flag = refused_papacy }
+		is_at_war = no
+		num_of_cities = 2
+		NOT = { num_of_cities = 5 }
+		any_owned_province = {
+			is_capital = no
+			religion = catholique
+			continent = europe
+		}
+		202 = {
+			owner = {
+				OR = {
+					NOT = { religion = catholique }
+					has_country_flag = no_support
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.5
+			tag = AVI
+		}
+		modifier = {
+			factor = 2.0
+			capital_scope = {
+				NOT = { religion = catholique }
+			}
+		}
+		modifier = {
+			factor = 0.95
+			theologian = 3
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { num_of_cities = 3 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_cities = 2 }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					religion = catholique
+					continent = europe
+					any_neighbor_province = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				set_province_flag = papal_province
+			}
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					religion = catholique
+					continent = europe
+					owner = {
+						NOT = {
+							any_owned_province = {
+								has_province_flag = papal_province
+							}
+						}
+					}
+				}
+				set_province_flag = papal_province
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1082"
+		ai_chance = { factor = 100 }
+		random_owned_province = {
+			limit = {
+				has_province_flag = papal_province
+			}
+			remove_core = ROOT
+			add_core = AVI
+			cede_province = AVI
+			clr_province_flag = papal_province
+		}
+		hidden_effect = {
+			if = {
+				limit = { AVI = { NOT = { government = papal_government } } }
+				AVI = { change_government = papal_government }
+			}
+		}
+		add_papal_influence = 20
+		add_prestige = 25
+	}
+	option = {
+		name = "EVTOPTB1082"
+		ai_chance = { factor = 0 }
+		set_ruler_flag = refused_papacy
+		add_prestige = -25
+	}
+}
+
+country_event = {
+	id = fbievents.10
+	title = "FBIT10"
+	desc = "FBID10"
+	picture = HORDE_ON_HORSEBACK_eventPicture
+
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			NOT = { exists = TUR }
+			NOT = { exists = KSI }
+			NOT = { exists = SRU }
+			NOT = { exists = AYD }
+			NOT = { exists = MEN }
+		}
+		has_global_flag = manzikert_lost
+		has_global_flag = rum_arr
+		normal_or_historical_nations = yes
+		is_year = 1285
+		NOT = { is_year = 1356 }
+		NOT = { started_in = 1306.1.1 }
+		NOT = {
+			OR = {
+			 	tag = RUM
+			 	tag = TUR
+			 	tag = KSI
+			 	tag = SRU
+			 	tag = AYD
+			 	tag = MEN
+			}
+		}
+		any_owned_province = {
+			OR = {
+				region = ephesian_region
+				region = bithynia_region
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.75
+			war_exhaustion = 5
+		}
+		modifier = {
+			factor = 0.75
+			war_exhaustion = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { mil = 3 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { capital_scope = { superregion = anatolia_superregion } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { culture_group = byzantine }
+		}
+	}
+
+	option = {
+		name = "FBIA10"
+		custom_tooltip = fbia10.tt
+		hidden_effect = {
+			every_province = {
+				limit = {
+					is_capital = no
+					NOT = { owned_by = RUM }
+					NOT = { owned_by = TUR }
+					NOT = { owned_by = KSI }
+					NOT = { owned_by = SRU }
+					NOT = { owned_by = AYD }
+					NOT = { owned_by = MEN }
+					OR = {
+						area = khalkedon_area
+						area = prousa_area
+					}
+				}
+				set_in_empire = no
+				change_culture = turkish
+				change_religion = sunni
+				add_core = TUR
+				remove_core = ROOT
+				cede_province = TUR
+			}
+			if = {
+				limit = { TUR = { ai = yes } }
+				TUR = {
+					set_government_rank = 3
+					add_treasury = 200
+					add_prestige = 40
+					add_manpower = 5
+					add_accepted_culture = greek
+					define_ruler = {
+						name = "Osman"
+						dynasty = "Osmanoglu"
+						adm = 6
+						dip = 6
+						mil = 6
+					}
+					define_ruler_to_general = {
+						fire = 6
+						shock = 6
+						manuever = 6
+						siege = 6
+					}
+					add_ruler_personality = strict_personality
+					add_ruler_personality = conqueror_personality
+				}
+			}
+			every_province = {
+				limit = {
+					is_capital = no
+					NOT = { owned_by = RUM }
+					NOT = { owned_by = TUR }
+					NOT = { owned_by = KSI }
+					NOT = { owned_by = SRU }
+					NOT = { owned_by = AYD }
+					NOT = { owned_by = MEN }
+					area = pegai_area
+				}
+				change_culture = turkish
+				change_religion = sunni
+				add_core = KSI
+				remove_core = ROOT
+				cede_province = KSI
+			}
+			if = {
+				limit = { KSI = { ai = yes } }
+				KSI = {
+					set_government_rank = 3
+					add_accepted_culture = greek
+					define_ruler = {
+						name = "Karesi"
+						dynasty = "Karesioglu"
+					}
+				}
+			}
+			every_province = {
+				limit = {
+					is_capital = no
+					NOT = { owned_by = RUM }
+					NOT = { owned_by = TUR }
+					NOT = { owned_by = KSI }
+					NOT = { owned_by = SRU }
+					NOT = { owned_by = AYD }
+					NOT = { owned_by = MEN }
+					area = philadelphia_area
+				}
+				change_culture = turkish
+				change_religion = sunni
+				add_core = SRU
+				remove_core = ROOT
+				cede_province = SRU
+			}
+			if = {
+				limit = { SRU = { ai = yes } }
+				SRU = {
+					set_government_rank = 3
+					add_accepted_culture = greek
+					define_ruler = {
+						name = "Saruhan"
+						dynasty = "Saruhanoglu"
+					}
+				}
+			}
+			every_province = {
+				limit = {
+					is_capital = no
+					NOT = { owned_by = RUM }
+					NOT = { owned_by = TUR }
+					NOT = { owned_by = KSI }
+					NOT = { owned_by = SRU }
+					NOT = { owned_by = AYD }
+					NOT = { owned_by = MEN }
+					area = smyrna_area
+				}
+				change_culture = turkish
+				change_religion = sunni
+				add_core = AYD
+				remove_core = ROOT
+				cede_province = AYD
+			}
+			if = {
+				limit = { AYD = { ai = yes } }
+				AYD = {
+					set_government_rank = 3
+					add_accepted_culture = greek
+					define_ruler = {
+						dynasty = "Aydinoglu"
+					}
+				}
+			}
+			every_province = {
+				limit = {
+					is_capital = no
+					NOT = { owned_by = RUM }
+					NOT = { owned_by = TUR }
+					NOT = { owned_by = KSI }
+					NOT = { owned_by = SRU }
+					NOT = { owned_by = AYD }
+					NOT = { owned_by = MEN }
+					area = mentese_area
+				}
+				change_culture = turkish
+				change_religion = sunni
+				add_core = MEN
+				remove_core = ROOT
+				cede_province = MEN
+			}
+			if = {
+				limit = { MEN = { ai = yes } }
+				MEN = {
+					set_government_rank = 3
+					add_accepted_culture = greek
+					define_ruler = {
+						name = "Mentes"
+						dynasty = "Mentesoglu"
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.11
+	title = "FBIT11"
+	desc = "FBID11"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		NOT = { has_country_modifier = cluniac_m }
+		NOT = { has_country_modifier = cisterc_m }
+		NOT = { has_country_modifier = benedic_m }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA11"
+		add_country_modifier = {
+			name = "cluniac_m"
+			duration = 1825
+		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIB11"
+		add_country_modifier = {
+			name = "cisterc_m"
+			duration = 1825
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIC11"
+		add_country_modifier = {
+			name = "benedic_m"
+			duration = 1825
+		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.12
+	title = "FBIT12"
+	desc = "FBID12"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = { government = monastic_order_government }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA12"
+		add_mercantilism = 1
+		add_corruption = 2
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIB12"
+		add_army_tradition = 5
+		add_prestige = -5
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIC12"
+		add_stability_or_adm_power = yes
+		add_inflation = 2
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.13
+	title = "FBIT13"
+	desc = "FBID13"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = { government = monastic_order_government }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA13"
+		add_dip_power = 25
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIB13"
+		add_mil_power = 25
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIC13"
+		add_adm_power = 25
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.14
+	title = "FBIT14"
+	desc = "FBID14"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = { government = monastic_order_government }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA14"
+		add_prestige = 4
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIB14"
+		add_yearly_manpower = 0.25
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 10
+		}
+	}
+	option = {
+		name = "FBIC14"
+		add_years_of_income = 0.25
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.15
+	title = "FBIT15"
+	desc = "FBID15"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		faction_in_power = abb_cluniacs
+		any_neighbor_country = {
+			is_at_war = no
+			religion = ROOT
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA15"
+		random_neighbor_country = {
+			limit = {
+				is_at_war = no
+				religion = ROOT
+			}
+			add_opinion = { who = ROOT modifier = opinion_good_relations }
+		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 5
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.16
+	title = "FBIT16"
+	desc = "FBID16"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		faction_in_power = abb_cistercians
+		any_neighbor_country = {
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+			any_owned_province = {
+				NOT = { is_claim = ROOT }
+				any_neighbor_province = { owned_by = ROOT }
+			}
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA16"
+		random_neighbor_country = {
+			limit = {
+				NOT = { alliance_with = ROOT }
+				NOT = { is_subject_of = ROOT }
+				NOT = { overlord_of = ROOT }
+			}
+			random_owned_province = {
+				limit = { any_neighbor_province = { owned_by = ROOT } }
+				add_claim = ROOT
+			}
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 5
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.17
+	title = "FBIT17"
+	desc = "FBID17"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		faction_in_power = abb_benedictines
+		capital_scope = { NOT = { base_production = 7 } }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA17"
+		capital_scope = { add_base_production = 1 }
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 5
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.18
+	title = "FBIT18"
+	desc = "FBID18"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		NOT = { faction_in_power = abb_cluniacs }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA18"
+		add_years_of_income = -0.2
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 5
+		}
+	}
+	option = {
+		name = "FBIB18"
+		add_years_of_income = -0.4
+	}
+}
+
+country_event = {
+	id = fbievents.19
+	title = "FBIT19"
+	desc = "FBID19"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		NOT = { faction_in_power = abb_cistercians }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA19"
+		add_yearly_manpower = -0.2
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 5
+		}
+	}
+	option = {
+		name = "FBIB19"
+		add_yearly_manpower = -0.4
+	}
+}
+
+country_event = {
+	id = fbievents.20
+	title = "FBIT20"
+	desc = "FBID20"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		government = monastic_order_government
+		NOT = { faction_in_power = abb_benedictines }
+		OR = {
+			religion = catholic
+			religion = catholique
+			religion = orthodox
+			religion = paulician
+			religion = cathar
+			religion = protestant
+			religion = reformed
+			religion = anabaptist
+			religion = anglican
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA20"
+		add_church_power = -5
+		add_fervor = -5
+		add_karma = -5
+		add_papal_influence = -5
+		add_patriarch_authority = -0.05
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 5
+		}
+	}
+	option = {
+		name = "FBIB20"
+		add_church_power = -10
+		add_fervor = -10
+		add_karma = -10
+		add_papal_influence = -10
+		add_patriarch_authority = -0.1
+	}
+}
+
+# Abbacy no longer Christian
+country_event = {
+	id = fbievents.21
+	title = "FBIT21"
+	desc = "FBID21"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		NOT = { religion_group = christian }
+		government = monastic_order_government
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "FBIA21"
+		change_government = theocratic_government
+	}
+}
+
+#Turkish events
+country_event = {
+	id = fbievents.22
+	title = "FBIT22"
+	desc = "FBID22"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA22"
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				NOT = { legitimacy = 80 }
+			}
+		}
+		define_advisor = {
+			type = statesman
+			skill = 2
+			discount = yes
+		}
+		add_faction_influence = {
+			faction = tur_lalas
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB22"
+		ai_chance = {
+			factor = 50
+		}
+		add_prestige = 5
+		add_treasury = -50
+	}
+}
+
+country_event = {
+	id = fbievents.23
+	title = "FBIT23"
+	desc = "FBID23"
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA23"
+		add_stability = 1
+		add_faction_influence = {
+			faction = tur_pacifists
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB23"
+		add_army_tradition = 10
+		add_faction_influence = {
+			faction = tur_militarists
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.24
+	title = "FBIT24"
+	desc = "FBID24"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA24"
+		ai_chance = {
+			factor = 33
+		}
+		add_adm_power = 50
+		add_faction_influence = {
+			faction = tur_pacifists
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB24"
+		ai_chance = {
+			factor = 34
+			modifier = {
+				factor = 2
+				NOT = { legitimacy = 80 }
+			}
+		}
+		add_dip_power = 50
+		add_faction_influence = {
+			faction = tur_lalas
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIC24"
+		ai_chance = {
+			factor = 33
+		}
+		add_mil_power = 50
+		add_faction_influence = {
+			faction = tur_militarists
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.25
+	title = "FBIT25"
+	desc = "FBID25"
+	picture = PRAYING_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+		religion_group = muslim
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA25"
+		add_piety = 0.1
+		add_faction_influence = {
+			faction = tur_pacifists
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB25"
+		add_piety = -0.2
+	}
+}
+
+country_event = {
+	id = fbievents.26
+	title = "FBIT26"
+	desc = "FBID26"
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA26"
+		add_yearly_manpower = 0.4
+		reduce_estate_burghers_loyalty_effect = yes
+		add_faction_influence = {
+			faction = tur_militarists
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB26"
+		add_mercantilism = 1
+		add_estate_burghers_loyalty_effect = yes
+		add_mil_power = -25
+	}
+}
+
+country_event = {
+	id = fbievents.27
+	title = "FBIT27"
+	desc = "FBID27"
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+		NOT = { has_country_modifier = tur_mil_m }
+		NOT = { has_country_modifier = tur_pac_m }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA27"
+		add_country_modifier = {
+			name = "tur_mil_m"
+			duration = 1825
+		}
+		add_faction_influence = {
+			faction = tur_militarists
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB27"
+		add_country_modifier = {
+			name = "tur_pac_m"
+			duration = 1825
+		}
+		add_faction_influence = {
+			faction = tur_pacifists
+			influence = 10
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.28
+	title = "FBIT28"
+	desc = "FBID28"
+	picture = CORRUPTION_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = ottoman_government
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA28"
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				NOT = { legitimacy = 80 }
+			}
+		}
+		add_corruption = 1
+		add_adm_power = 25
+		add_faction_influence = {
+			faction = tur_lalas
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB28"
+		ai_chance = {
+			factor = 50
+		}
+		add_corruption = 2
+		add_adm_power = 50
+	}
+}
+
+country_event = {
+	id = fbievents.29
+	title = "FBIT29"
+	desc = "FBID29"
+	picture = BANKRUPTCY_eventPicture
+	
+	trigger = {
+		government = ottoman_government
+		faction_in_power = tur_pacifists
+		has_advisor = yes
+		is_at_war = yes
+		war_exhaustion = 1
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 10
+		}
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 18
+		}
+	}
+
+	option = {
+		name = "FBIA29"
+		kill_advisor = random
+		add_faction_influence = {
+			faction = tur_militarists
+			influence = 10
+		}
+	}
+
+	option = {
+		name = "FBIB29"
+		add_war_exhaustion = 1
+		add_faction_influence = {
+			faction = tur_pacifists
+			influence = 5
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.30
+	title = "FBIT30"
+	desc = "FBID30"
+	picture = BATTLE_eventPicture
+	
+	trigger = {
+		government = ottoman_government
+		faction_in_power = tur_militarists
+		war_exhaustion = 2
+		is_at_war = yes
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 10
+		}
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 18
+		}
+	}
+
+	option = {
+		name = "FBIA30"
+		add_war_exhaustion = -2
+		add_faction_influence = {
+			faction = tur_militarists
+			influence = 5
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.31
+	title = "FBIT31"
+	desc = "FBID31"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	trigger = { government = canton_government }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA31"
+		add_mercantilism = 1
+	}
+
+	option = {
+		name = "FBIB31"
+		add_adm_power = 75
+	}
+}
+
+country_event = {
+	id = fbievents.32
+	title = "FBIT32"
+	desc = "FBID32"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = canton_government
+		capital_scope = { NOT = { development = 15 } }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA32"
+		capital_scope = { add_base_manpower = 1 }
+	}
+
+	option = {
+		name = "FBIB32"
+		capital_scope = { add_base_production = 1 }
+	}
+
+	option = {
+		name = "FBIC32"
+		capital_scope = { add_base_tax = 1 }
+	}
+}
+
+country_event = {
+	id = fbievents.33
+	title = "FBIT33"
+	desc = "FBID33"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = canton_government
+		is_at_war = yes
+		NOT = { has_country_modifier = military_funding }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA33"
+		add_army_tradition = 5
+		add_country_modifier = {
+			name = "military_funding"
+			duration = 3650
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.34
+	title = "FBIT34"
+	desc = "FBID34"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	trigger = { government = canton_government }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA34"
+		ai_chance = { factor = 10 }
+		add_stability = 1
+		add_republican_tradition = -5
+	}
+
+	option = {
+		name = "FBIB34"
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				is_at_war = no
+			}
+		}
+		create_general = 40
+		add_republican_tradition = 5
+	}
+}
+
+country_event = {
+	id = fbievents.35
+	title = "FBIT35"
+	desc = "FBID35"
+	picture = IMPORTANT_STATUE_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = canton_government
+		any_country = {
+			government = canton_government
+			is_at_war = no
+			NOT = { tag = ROOT }
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA35"
+		every_country = {
+			limit = {
+				government = canton_government
+				NOT = { tag = ROOT }
+				is_at_war = no
+			}
+			add_opinion = { who = ROOT modifier = opinion_eased_tension }
+		}
+		random_country = {
+			limit = {
+				government = canton_government
+				NOT = { tag = ROOT }
+				is_at_war = no
+			}
+			country_event = { id = fbievents.36 }
+		}
+	}
+
+	option = {
+		name = "FBIB35"
+		add_prestige = 5
+		add_fervor = 10
+		add_church_power = 10
+		add_papal_influence = 10
+		add_republican_tradition = -2
+	}
+}
+
+country_event = {
+	id = fbievents.36
+	title = "FBIT36"
+	desc = "FBID36"
+	picture = WESTERNISATION_eventPicture
+	
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA36"
+		add_prestige = 5
+		add_fervor = 5
+		add_church_power = 5
+		add_papal_influence = 5
+	}
+}
+
+country_event = {
+	id = fbievents.37
+	title = "FBIT37"
+	desc = "FBID37"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = italian_monarchy
+		is_statists_in_power = yes
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA37" #Signoria
+		add_adm_power = 25
+		change_statists_vs_orangists = 0.15
+	}
+}
+
+country_event = {
+	id = fbievents.38
+	title = "FBIT38"
+	desc = "FBID38"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = italian_monarchy
+		is_orangists_in_power = yes
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA38" #Communia
+		add_years_of_income = 0.2
+		change_statists_vs_orangists = -0.15
+	}
+}
+
+country_event = {
+	id = fbievents.39
+	title = "FBIT39"
+	desc = "FBID39"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	trigger = { government = italian_monarchy }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA39"
+		if = {
+			limit = { NOT = { has_dlc = "Res Publica" } }
+			add_republican_tradition = 5
+			add_army_tradition = -5
+		}
+		change_statists_vs_orangists = -0.15
+	}
+
+	option = {
+		name = "FBIB39"
+		if = {
+			limit = { NOT = { has_dlc = "Res Publica" } }
+			add_republican_tradition = -5
+			add_army_tradition = 5
+		}
+		change_statists_vs_orangists = 0.15
+	}
+}
+
+country_event = {
+	id = fbievents.40
+	title = "FBIT40"
+	desc = "FBID40"
+	picture = HARBOUR_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = italian_monarchy
+		NOT = { has_country_modifier = free_commune_m }
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA40"
+		add_mercantilism = 1
+		add_republican_tradition = -4
+		change_statists_vs_orangists = 0.1
+	}
+
+	option = {
+		name = "FBIB40"
+		add_country_modifier = {
+			name = "free_commune_m"
+			duration = 1825
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.41
+	title = "FBIT41"
+	desc = "FBID41"
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = italian_monarchy
+		has_leaders = {
+			value = 1
+			type = general
+			include_monarch = no
+			include_heir = no
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA41"
+		kill_leader = { type = general }
+		change_statists_vs_orangists = -0.15
+	}
+
+	option = {
+		name = "FBIB41"
+		add_stability = -1
+		change_statists_vs_orangists = 0.15
+	}
+}
+
+country_event = {
+	id = fbievents.42
+	title = "FBIT42"
+	desc = "FBID42"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = italian_monarchy
+		OR = {
+			religion = catholic
+			religion = catholique
+			religion = anabaptist
+			religion = protestant
+			religion = anglican
+			religion = reformed
+			religion = orthodox
+			religion = paulician
+			religion = cathar
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA42"
+		add_prestige = 10
+		add_corruption = 1
+		change_statists_vs_orangists = 0.05
+	}
+
+	option = {
+		name = "FBIB42"
+		add_church_power = 5
+		add_fervor = 5
+		add_papal_influence = 5
+		add_karma = 5
+		add_patriarch_authority = 0.05
+		change_statists_vs_orangists = -0.05
+	}
+}
+
+country_event = {
+	id = fbievents.43
+	title = "FBIT43"
+	desc = "FBID43"
+	picture = FORT_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = eastern_monarchy
+		any_owned_province = {
+			is_capital = no
+			NOT = { local_autonomy = 100 }
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA43"
+		add_prestige = -5
+		random_owned_province = {
+			limit = {
+				is_capital = no
+				NOT = { local_autonomy = 100 }
+			}
+			add_local_autonomy = 20
+			random_neighbor_province = {
+				limit = {
+					is_capital = no
+					NOT = { local_autonomy = 100 }
+				}
+				add_local_autonomy = 20
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.44
+	title = "FBIT44"
+	desc = "FBID44"
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = eastern_monarchy
+		OR = {
+			religion = catholique
+			religion = catholic
+			religion = orthodox
+			religion = paulician
+		}
+		any_owned_province = {
+			NOT = { culture = owner }
+			any_neighbor_province = {
+				culture = owner
+				owned_by = ROOT
+			}
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA44"
+		add_papal_influence = 10
+		add_patriarch_authority = 0.15
+		random_owned_province = {
+			limit = {
+				NOT = { culture = owner }
+				any_neighbor_province = {
+					culture = owner
+					owned_by = ROOT
+				}
+			}
+			change_culture = owner
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.45
+	title = "FBIT45"
+	desc = "FBID45"
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = eastern_monarchy
+		num_of_cities = 2
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA45"
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				OR = {
+					num_of_loans = 1
+					is_bankrupt = yes
+				}
+			}
+		}
+		add_years_of_income = -0.2
+	}
+
+	option = {
+		name = "FBIB45"
+		ai_chance = { factor = 30 }
+		random_owned_province = {
+			limit = { is_capital = no }
+			anti_tax_rebels = 1
+		}
+	}
+
+	option = {
+		name = "FBIC45"
+		highlight = yes
+		trigger = {
+			ruler_has_personality = lawgiver_personality
+		}
+		required_personality = lawgiver_personality
+		ai_chance = { factor = 100 }
+		random_owned_province = {
+			limit = { is_capital = no }
+			add_base_tax = -1
+		}
+		capital_scope = { add_base_tax = 1 }
+	}
+}
+
+country_event = {
+	id = fbievents.46
+	title = "FBIT46"
+	desc = "FBID46"
+	picture = ASSASSINATION_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = eastern_monarchy
+		has_leaders = {
+			value = 1
+			type = general
+			include_monarch = no
+			include_heir = no
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA46"
+		kill_leader = { type = general }
+		add_army_tradition = -5
+		add_legitimacy = 10
+	}
+}
+
+country_event = {
+	id = fbievents.47
+	title = "FBIT47"
+	desc = "FBID47"
+	picture = CORRUPTION_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		government = eastern_monarchy
+		NOT = { stability = 3 }
+		any_owned_province = {
+			is_capital = no
+			NOT = { local_autonomy = 100 }
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA47"
+		ai_chance = { factor = 60 }
+		add_corruption = 4
+		add_dip_power = -100
+		add_stability = 1
+	}
+
+	option = {
+		name = "FBIB47"
+		ai_chance = { factor = 40 }
+		random_owned_province = {
+			limit = {
+				is_capital = no
+				NOT = { local_autonomy = 100 }
+			}
+			add_local_autonomy = 40
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.48
+	title = "FBIT48"
+	desc = "FBID48"
+	picture = ARTWORK_eventPicture
+	
+	is_triggered_only = yes
+	trigger = { government = eastern_monarchy }
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "FBIA48"
+		add_legitimacy = -5
+		add_inflation = 1
+		add_years_of_income = 0.25
+	}
+
+	option = {
+		name = "FBIB48"
+		add_legitimacy = 5
+	}
+}
+
+country_event = {
+	id = fbievents.49
+	title = "FBIT49"
+	desc = "FBID49"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		government = monarchy
+		adm_tech = 14
+		has_regency = no
+		num_of_cities = 10
+		normal_or_historical_nations = yes
+		NOT = { started_in = 1215.6.14 }
+		OR = {
+			tag = ENG
+			tag = ASE
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120	
+		modifier = {
+			factor = 0.9
+			NOT = { legitimacy = 90 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { legitimacy = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { legitimacy = 50 }
+		}
+		modifier = {
+			factor = 0.5
+			is_excommunicated = yes
+		}
+		modifier = {
+			factor = 0.75
+			num_of_revolts = 1
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 40
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "FBIA49"
+		ai_chance = { factor = 95 }
+		change_government = english_monarchy
+		add_mercantilism = 25
+		add_stability = -1
+	}
+	option = {
+		name = "FBIB49"
+		ai_chance = { factor = 5 }
+		add_legitimacy = 20
+		random_owned_province = {
+			limit = {
+				is_capital = no
+				controlled_by = owner
+			}
+			spawn_rebels = {
+				type = noble_rebels
+				size = 4
+				win = yes
+			}
+		}
+	}
+}

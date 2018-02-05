@@ -108,6 +108,7 @@ capital = 2508
 		dynasty = "von Arenberg"
 		birth_date = 1270.1.1 #est
 		death_date = 1328.7.18
+		culture = moselle_franconian
 		female = yes
 		adm = 2
 		dip = 2

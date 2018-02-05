@@ -34,7 +34,7 @@ capital = 720
 }
 1100.2.1 = {
 	monarch = {
-		name = "Burchard I"
+		name = "Burkhard I"
 		dynasty = "von Tengen"
 		adm = 2
 		dip = 2
@@ -52,7 +52,7 @@ capital = 720
 }
 1136.1.1 = {
 	monarch = {
-		name = "Burchard II"
+		name = "Burkhard II"
 		dynasty = "von Tengen"
 		adm = 2
 		dip = 2

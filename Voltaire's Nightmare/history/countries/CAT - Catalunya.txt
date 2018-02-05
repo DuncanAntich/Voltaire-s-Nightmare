@@ -27,6 +27,7 @@ historical_friend = ARA
 		female = yes
 		birth_date = 1020.1.1
 		death_date = 1071.10.16
+		culture = berrichon
 		adm = 2
 		dip = 2
 		mil = 2
@@ -84,6 +85,7 @@ historical_friend = ARA
 		dynasty = "de Millau"
 		birth_date = 1090.1.1
 		death_date = 1127.1.1
+		culture = provencal
 		female = yes
 		adm = 2
 		dip = 2
@@ -113,7 +115,7 @@ historical_friend = ARA
 		mil = 2
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
 }
 1137.11.13 = { government_rank = 5 }
 1711.4.18 = { government = constitutional_republic }

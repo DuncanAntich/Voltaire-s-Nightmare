@@ -186,6 +186,10 @@ conquer_sicily = {
 		NOT = { has_country_modifier = mediterranean_ambition }
 		NOT = { has_country_flag = conquest_of_sicily_ara }
 		is_free_or_tributary_trigger = yes
+		any_owned_province = {
+			region = catalunya_region
+			has_port = yes
+		}
 		sicilia_region = {
 			NOT = { owned_by = ROOT }
 			owner = {

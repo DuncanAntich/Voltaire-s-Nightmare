@@ -60,5 +60,4 @@ capital = 1124
 	clear_scripted_personalities = yes
 	add_ruler_personality = infertile_personality
 } #dies 1264, inhereted by AAR habsburgs
-1531.1.1 = { religion = zwinglianist }
-1551.1.1 = { religion = reformed }
+1531.1.1 = { religion = reformed }

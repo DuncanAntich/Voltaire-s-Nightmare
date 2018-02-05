@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
-technology_group = western
+technology_group = north_american
 capital = 2976
 
 1054.1.1 = {
@@ -16,9 +16,10 @@ capital = 2976
 }
 1424.1.1 = {
 	government = tribal_despotism
+	technology_group = western
 	monarch = {
 		name = "Ritske"
-		dynasty = "Jelmera"
+		dynasty = "Camminga"
 		birth_date = 1383.1.1
 		adm = 3
 		dip = 3
@@ -28,7 +29,7 @@ capital = 2976
 1450.1.17 = {
 	monarch = {
 		name = "Romke"
-		dynasty = "Donia"
+		dynasty = "Camminga"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -52,6 +53,7 @@ capital = 2976
 		mil = 2
 	}
 }
+1500.1.1 = { government = despotic_monarchy }
 1510.1.1 = {
 	monarch = {
 		name = "Rienck Minnes"

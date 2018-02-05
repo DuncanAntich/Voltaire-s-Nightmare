@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
+			primitives = no
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -32,6 +33,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 40
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			

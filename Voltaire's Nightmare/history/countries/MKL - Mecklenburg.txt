@@ -1,14 +1,13 @@
-government = tribal_despotism
+government = tribal_democracy
 government_rank = 3
-technology_group = western
+technology_group = north_american
 religion = slavic_pagan
 primary_culture = bremer_platt
 capital = 854	# Mecklenburg
 
 1030.1.1 = {
 	monarch = {
-		name = "Gottschalk"
-		dynasty = "Nakonice"
+		name = "Gotszalk"
 		religion = catholic
 		birth_date = 1010.1.1
 		adm = 4
@@ -20,17 +19,15 @@ capital = 854	# Mecklenburg
 }
 1066.6.7 = {
 	monarch = {
-		name = "Kruto"
-		dynasty = "Nakonice"
+		name = "Krut"
 		adm = 2
 		dip = 2
 		mil = 0
 	}
 }
-1090.1.1 = {
+1093.1.1 = {
 	monarch = {
-		name = "Heinrich"
-		dynasty = "Nakonice"
+		name = "Henryk"
 		religion = catholic
 		adm = 2
 		dip = 1
@@ -38,6 +35,8 @@ capital = 854	# Mecklenburg
 	}
 }
 1127.3.22 = {
+	government = tribal_despotism
+	technology_group = western
 	monarch = {
 		name = "Niklot"
 		dynasty = "von Mecklenburg"
@@ -59,7 +58,9 @@ capital = 854	# Mecklenburg
 	}
 }
 1167.1.1 = {
+	government = despotic_monarchy
 	religion = catholic
+	government_rank = 1
 	monarch = {
 		name = "Pribislav"
 		dynasty = "von Mecklenburg"
@@ -72,8 +73,6 @@ capital = 854	# Mecklenburg
 }
 1178.12.30 = {
 	primary_culture = pommeranian
-	government = despotic_monarchy
-	government_rank = 1
 	monarch = {
 		name = "Heinrich Borwin"
 		dynasty = "von Mecklenburg"
@@ -190,6 +189,7 @@ capital = 854	# Mecklenburg
 		dynasty = "af Bjälbo"
 		birth_date = 1317.1.1
 		death_date = 1370.6.16
+		culture = swedish
 		female = yes
 		adm = 2
 		dip = 2
@@ -222,7 +222,7 @@ capital = 854	# Mecklenburg
 }
 1384.9.1 = {
 	monarch = {
-		name = "Albert III"
+		name = "Albrecht III"
 		dynasty = "von Mecklenburg"
 		birth_date = 1338.1.1
 		adm = 2

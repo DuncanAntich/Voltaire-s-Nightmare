@@ -6,6 +6,10 @@ technology_group = western
 capital = 2824
 fixed_capital = 2824
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1045.1.1 = {
 	monarch = {
 		name = "Geoffrey III"
@@ -130,6 +134,7 @@ fixed_capital = 2824
 		dynasty = "de Bourbon"
 		birth_date = 1407.9.7
 		death_date = 1463.1.1
+		culture = berrichon
 		female = yes
 		adm = 2
 		dip = 2
@@ -290,6 +295,7 @@ fixed_capital = 2824
 		dynasty = "d'Este"
 		birth_date = 1531.11.6
 		death_date = 1607.5.17
+		culture = emilian
 		female = yes
 		adm = 2
 		dip = 2

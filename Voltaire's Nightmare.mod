@@ -16,5 +16,5 @@ replace_path="gfx/loadingscreens"
 tags={
 	"Overhaul"
 }
-picture="thehohenstaufens.png"
+picture="hreuniversalis.png"
 supported_version="1.24.*.*"

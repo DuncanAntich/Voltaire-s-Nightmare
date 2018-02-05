@@ -1,7 +1,7 @@
 owner = ZGZ
 controller = ZGZ
-culture = catalan
-religion = catholic
+culture = andalucian
+religion = sunni
 hre = no
 base_tax = 2
 base_production = 2
@@ -21,6 +21,8 @@ discovered_by = muslim
 	add_core = URG
 	add_core = CAT
 	remove_core = ZGZ
+	culture = catalan
+	religion = catholic
 }
 1314.1.1 = {
 	owner = ARA
@@ -64,3 +66,5 @@ discovered_by = muslim
 }
 1823.7.28 = { controller = FRA }
 1823.10.1 = { controller = SPA }
+discovered_by = nomad_group
+discovered_by = north_american

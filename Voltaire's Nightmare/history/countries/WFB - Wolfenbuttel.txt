@@ -145,6 +145,7 @@ capital = 2794
 		dynasty = "von der Mark"
 		birth_date = 1423.1.1
 		death_date = 1471.1.1
+		culture = ripuarian
 		female = yes
 		adm = 1 
 		dip = 1

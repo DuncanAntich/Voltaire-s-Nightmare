@@ -5,6 +5,10 @@ religion = catholic
 technology_group = western
 capital = 2886
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1054.1.1 = {
 	monarch = {
 		name = "Herbert IV"
@@ -41,6 +45,7 @@ capital = 2886
 		dynasty = "Capet"
 		birth_date = 1057.1.1
 		death_date = 1101.10.18
+		culture = cosmopolitan_french
 		female = no
 		adm = 2
 		dip = 2

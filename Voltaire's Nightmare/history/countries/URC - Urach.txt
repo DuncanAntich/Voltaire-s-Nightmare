@@ -75,6 +75,7 @@ capital = 351	# Urach
 		dynasty = "von Zähringen"
 		birth_date = 1158.1.1
 		death_date = 1238.5.10
+		culture = boden_alemannic
 		female = yes
 		adm = 2
 		dip = 2

@@ -199,6 +199,7 @@ capital = 157
 		dynasty = "von Neuenahr"
 		birth_date = 1522.1.1
 		death_date = 1600.5.15
+		culture = moselle_franconian
 		female = yes
 		adm = 2
 		dip = 3

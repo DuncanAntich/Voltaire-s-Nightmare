@@ -269,7 +269,7 @@ capital = 165
 		mil = 2
 	}
 }
-1531.1.1 = { religion = zwinglianist }
+1531.1.1 = { religion = reformed }
 1535.10.30 = {
 	heir = {
 		name = "François"
@@ -303,7 +303,6 @@ capital = 165
 		mil = 2
 	}
 }
-1551.1.1 = { religion = reformed }
 1551.9.22 = {
 	monarch = {
 		name = "Léonor I"

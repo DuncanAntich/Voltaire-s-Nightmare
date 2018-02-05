@@ -433,6 +433,13 @@ defined_text = {
 			religion = catholic
         }
     }
+    #Catholiques
+	text = {
+        localisation_key = string_start_religion_catholique
+        trigger = {
+			religion = catholique
+        }
+    }
 	#Protestant (The Reformation)
 	text = {
         localisation_key = string_start_religion_protestant
@@ -459,20 +466,6 @@ defined_text = {
         localisation_key = string_start_religion_reformed
         trigger = {
 			religion = reformed
-        }
-    }
-    #Zwinglianist (The Reformation)
-	text = {
-        localisation_key = string_start_religion_zwinglianist
-        trigger = {
-			religion = zwinglianist
-        }
-    }
-    #Huguenot (The Reformation)
-	text = {
-        localisation_key = string_start_religion_huguenot
-        trigger = {
-			religion = huguenot
         }
     }
 	#Fraticelli
@@ -569,6 +562,13 @@ defined_text = {
         localisation_key = string_start_religion_slavic_pagan
         trigger = {
 			religion = slavic_pagan
+        }
+    }
+    #Finnish
+	text = {
+        localisation_key = string_start_religion_finnish_pagan
+        trigger = {
+			religion = finnish_pagan
         }
     }
     #Hellenic
@@ -675,22 +675,14 @@ defined_text = {
 	text = {
         localisation_key = string_fervor_info #Has to end with \n
         trigger = {
-			OR = {
-				religion = reformed
-				religion = zwinglianist
-				religion = huguenot
-			}
+			religion = reformed
 			has_dlc = "Wealth of Nations"
         }
     }
 	text = {
         localisation_key = string_fervor_info_no #\n
         trigger = {
-			OR = {
-				religion = reformed
-				religion = zwinglianist
-				religion = huguenot
-			}
+			religion = reformed
 			NOT = { has_dlc = "Wealth of Nations" }
         }
     }
