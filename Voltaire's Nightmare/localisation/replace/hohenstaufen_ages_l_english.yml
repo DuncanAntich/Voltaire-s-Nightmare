@@ -9,7 +9,7 @@
  age_of_revolutions_desc: "Questioning rights, authority, and world has killed the Ancient Regime."
  age_of_empire_short: "Empire"
  age_of_empire: "Age of Empire"
- age_of_empire_desc: "The influence of great old Caliphs, Caesars, and Emperors is still tangible."
+ age_of_empire_desc: "The influence of great old Caliphs, Caesars, and Emperors is still tangible.\n§YReform Desire is disabled during this age.§!\n"
  age_of_holy_wars_short: "Holy Wars"
  age_of_holy_wars: "Age of Holy Wars"
  age_of_holy_wars_desc: "The dead cry from heaven soliciting for vengeance on heathens. Deus Vult!"
