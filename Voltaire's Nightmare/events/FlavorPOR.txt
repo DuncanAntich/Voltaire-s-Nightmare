@@ -768,7 +768,7 @@ country_event = {
 	}
 	
 	option = {
-		#The Portuguese are now free
+		#Free Portugal.
 		name = "flavor_por.EVTOPTA11"
 		ai_chance = { factor = 75 }
 		every_owned_province = {
@@ -820,7 +820,7 @@ country_event = {
 	option = {
 		#Southwards to algarve!
 		name = "flavor_por.EVTOPTA12"
-		ai_chance = { factor = 80 }
+		ai_chance = { factor = 50 }
 		
 		every_province = {
 			limit = {
@@ -833,7 +833,7 @@ country_event = {
 	option = {
 		#We must liberate the Galicians first and foremost.
 		name = "flavor_por.EVTOPB12"
-		ai_chance = { factor = 80 }
+		ai_chance = { factor = 50 }
 		
 		every_province = {
 			limit = {
