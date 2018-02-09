@@ -831,7 +831,7 @@ country_event = {
 		}
 	}
 	option = {
-		#We must liberate the Galicians first and foremost
+		#We must liberate the Galicians first and foremost.
 		name = "flavor_por.EVTOPB12"
 		ai_chance = { factor = 80 }
 		
