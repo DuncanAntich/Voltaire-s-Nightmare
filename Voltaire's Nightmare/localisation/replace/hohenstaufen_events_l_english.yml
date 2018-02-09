@@ -589,3 +589,13 @@
  boleslaw.tt: "§RAll owned provinces outside your Primary Culture will break away.§!"
  reform_em.tt: "§RAll owned provinces outside your Culture Group will break away.§!"
  curtail_templars.tt: "The §YTemplar Estate§! will be removed.\nEvery §YTemplar§! province gains 8 unrest."
+ flavor_por.EVTNAME11: "Henry of Portugal"
+ flavor_por.EVTDESC11: "Portugal demands independence for their nation due to cultural diferences"
+ flavor_por.EVTOPTA11: "Free Portugal."
+ flavor_por.EVTOPTB11: "What is a Portugal?"
+ flavor_por.EVTNAME12: "Portuguese Ambitions"
+ flavor_por.EVTDESC12: "We emerge victorious, from the land to the seas, where should our glorious nation go next?"
+ flavor_por.EVTOPTA12: "Southwards to Algarve!"
+ flavor_por.EVTOPTB12: "We must liberate the galicians first and foremost"
+ 
+ 
