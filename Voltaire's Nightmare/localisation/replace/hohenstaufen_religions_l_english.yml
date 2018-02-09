@@ -380,3 +380,4 @@
  desc_pentecostalism_aspect: "Emphasize a direct personal experience of God and the notion of spiritual communion with the Holy Spirit."
  millenarianism_aspect: "Millenarianism"
  desc_millenarianism_aspect: "If everybody believes tomorrow may be their last day on earth, they will be much more willing to act for the Faith."
+ REFORM_DESIRE_TOOLTIP:0 "§YReform Desire§!\nThis is how much reform is desired in the Church. If it goes too high we may see large scale heresies forcing reformation upon the Church. This level is common through the entire Catholic world, and actions by any Catholic monarch may increase it.\n\n§YReform Desire is disabled during the Age of Empire.§!"
