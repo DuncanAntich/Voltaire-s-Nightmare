@@ -1,13 +1,14 @@
-owner = APL
-controller = APL
-add_core = APL
+owner = BJN
+controller = BJN
+add_core = BJN
+add_core = LRN
 culture = neapolitan
 religion = catholic 
 hre = no
-base_tax = 3
-base_production = 4
+base_tax = 2
+base_production = 2
 trade_goods = wine
-base_manpower = 4
+base_manpower = 2
 capital = "Larino" 
 is_city = yes
 discovered_by = eastern
@@ -15,11 +16,16 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1130.12.25 = {
+1061.1.1 = {
+	owner = LRN
+	controller = LRN
+	remove_core = BJN
+}
+1137.1.1 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC
-	remove_core = APL
+	remove_core = LRN
 	base_tax = 1
 	base_production = 1
 	base_manpower = 1
@@ -49,3 +55,5 @@ discovered_by = muslim
 	remove_core = SIC
 	remove_core = SPI
 }
+discovered_by = nomad_group
+discovered_by = north_american

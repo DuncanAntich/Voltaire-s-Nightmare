@@ -125,7 +125,10 @@ shamanism_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				owned_by = PAP
+				OR = {
+					owned_by = PAP
+					owned_by = AVI
+				}
 				is_capital = yes
 			}
 		}
@@ -194,7 +197,10 @@ shamanism_rebels = {
 		}
 		if = {
 			limit = {
-				tag = PAP
+				OR = {
+					tag = PAP
+					tag = AVI
+				}
 			}
 			add_stability = -1
 		}
@@ -233,6 +239,7 @@ shamanism_rebels = {
 				}
 				NOT = { religion = shamanism }
 				NOT = { tag = PAP }
+				NOT = { tag = AVI }
 			}
 			change_religion = shamanism
 			force_converted = yes

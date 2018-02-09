@@ -6,6 +6,10 @@ technology_group = western
 capital = 1177
 fixed_capital = 1177
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1218.1.1 = {
 	monarch = {
 		name = "Geoffroy VI"
@@ -32,6 +36,7 @@ fixed_capital = 1177
 		dynasty = "de Dreux"
 		birth_date = 1217.1.1
 		death_date = 1281.1.1
+		culture = cosmopolitan_french
 		female = no
 		adm = 2
 		dip = 2
@@ -55,6 +60,7 @@ fixed_capital = 1177
 		dynasty = "de Clermont"
 		birth_date = 1245.1.1
 		death_date = 1293.1.1
+		culture = cosmopolitan_french
 		female = no
 		adm = 2
 		dip = 2
@@ -77,6 +83,7 @@ fixed_capital = 1177
 		dynasty = "de Dampierre"
 		birth_date = 1249.1.1
 		death_date = 1311.1.1
+		culture = flemish
 		female = no
 		adm = 2
 		dip = 2
@@ -109,6 +116,7 @@ fixed_capital = 1177
 		dynasty = "de Craon"
 		birth_date = 1305.1.1
 		death_date = 1387.1.1
+		culture = cosmopolitan_french
 		female = no
 		adm = 2
 		dip = 3

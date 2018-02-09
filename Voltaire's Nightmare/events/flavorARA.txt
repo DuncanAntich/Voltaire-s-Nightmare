@@ -151,7 +151,10 @@ country_event = {
 		tag = ARA
 		NOT = { is_year = 1520 }
 		NOT = { has_country_modifier = ara_monastery_maria }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 	
 	mean_time_to_happen = {

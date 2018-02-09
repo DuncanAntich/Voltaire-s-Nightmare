@@ -91,6 +91,10 @@ country_event = {
 		}
 		add_devotion = -5
 		add_prestige = 10
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 10
+		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -170,6 +174,10 @@ country_event = {
 			} 
 			add_opinion = { who = ROOT modifier = opinion_theocracy_noble }
 		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 10
+		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -232,6 +240,10 @@ country_event = {
 		}
 		add_years_of_income = 0.35
 		add_devotion = -5
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 10
+		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -297,6 +309,10 @@ country_event = {
 			add_corruption = -1
 		}
 		add_devotion = 5
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 10
+		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -367,13 +383,20 @@ country_event = {
 		}
 		add_devotion = 10
 		add_prestige = -5
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 10
+		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
 	option = {
 		name = theocracy.1.d		# A Papal Protege
 		trigger = {
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 		}
 		if = {
 			limit = {
@@ -444,6 +467,10 @@ country_event = {
 			add_corruption = -1
 		}
 		add_papal_influence = 10
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 10
+		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -518,9 +545,7 @@ country_event = {
 				religion = reformed
 				religion = protestant
 				religion = anabaptist
-				religion = zwinglianist
 				religion = anglican
-				religion = huguenot
 			}
 		}
 		set_country_flag = theo_influential_reformer_flag # USED IN DEVOTION.TXT
@@ -578,13 +603,7 @@ country_event = {
 			}
 		}
 		if = { 
-			limit = {
-				OR = {
-					religion = reformed
-					religion = huguenot
-					religion = zwinglianist
-				}
-			}
+			limit = { religion = reformed }
 			add_fervor = 10
 		}
 		if = { 
@@ -667,6 +686,10 @@ country_event = {
 				loyalty = -10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 		set_country_flag = religious_restrictions
 		add_country_modifier = {
 			name = "religious_restriction"
@@ -697,6 +720,10 @@ country_event = {
 				estate = estate_dhimmi
 				loyalty = 10
 			}
+		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
 		}
 		random = {
 			chance = 40
@@ -782,6 +809,10 @@ country_event = {
 		name = "EVTOPTB1091" # Make preparations for a future attack
 		ai_chance = { factor = 55 }
 		set_country_flag = problematic_relations
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 		add_army_tradition = 10
 		add_treasury = -40
 	}

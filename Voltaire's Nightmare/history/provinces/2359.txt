@@ -1,9 +1,8 @@
 owner = TSZ
 controller = TSZ
-add_core = HUN
 add_core = TSZ
 culture = hungarian
-religion = catholic
+religion = tengri_pagan_reformed
 hre = no
 base_tax = 4
 base_production = 4
@@ -20,12 +19,14 @@ estate = estate_nobles
 1060.12.6 = {
 	owner = HUN
 	controller = HUN
+	add_core = HUN
 }
 1064.1.20 = {
 	owner = TSZ
 	controller = TSZ
+	religion = catholic
 }
-1107.1.1 = {
+1077.4.25 = {
 	owner = HUN
 	controller = HUN
 }
@@ -72,3 +73,5 @@ estate = estate_nobles
 	controller = EAH
 }
 1867.5.29 = { add_local_autonomy = 90 }
+discovered_by = nomad_group
+discovered_by = north_american

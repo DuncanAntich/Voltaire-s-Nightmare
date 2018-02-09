@@ -37,6 +37,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = ADU }
 			is_free_or_tributary_trigger = yes
+			is_nomad = no
 			is_at_war = no
 			is_tribal = no
 			owns_core_province = 267			# Murcia

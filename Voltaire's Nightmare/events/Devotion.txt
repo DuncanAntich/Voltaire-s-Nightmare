@@ -60,6 +60,10 @@ country_event = {
 				loyalty = -10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 		add_country_modifier = {
 			name = dev_general_hospital
 			duration = 3650
@@ -80,6 +84,10 @@ country_event = {
 				estate = estate_church
 				loyalty = 10
 			}
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
 		}
 		add_devotion = 10
 	}
@@ -117,10 +125,18 @@ country_event = {
 			name = dev_fort_maintenance
 			duration = 3650
 		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 	option = {
 		name = devotion_events.2.b
 		add_devotion = -10
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 	}
 }
 
@@ -174,6 +190,10 @@ country_event = {
 				loyalty = -10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 		add_country_modifier = {
 			name = dev_modern_forts
 			duration = 3650
@@ -196,6 +216,10 @@ country_event = {
 			}
 		}
 		add_devotion = -10
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"
@@ -245,6 +269,10 @@ country_event = {
 			}
 			add_local_autonomy = 10
 		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 	}
 	
 	option = {
@@ -255,6 +283,10 @@ country_event = {
 				NOT = { is_capital = yes }
 			}
 			add_unrest = 5
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
 		}
 	}
 }
@@ -288,11 +320,19 @@ country_event = {
 	option = {
 		name = devotion_events.5.a
 		add_devotion = 5
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = -3
+		}
 	}
 	
 	option = {
 		name = devotion_events.5.b
 		add_prestige = 10
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 }
 
@@ -310,10 +350,16 @@ country_event = {
 			government = crusader_order_government
 			government = monastic_order_government
 		}
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_religion_enabled = protestant
 		any_owned_province = {
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 			development = 10
 			is_capital = no
 			any_neighbor_province = {
@@ -326,7 +372,10 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					development = 10
 					is_capital = no
 					any_neighbor_province = {
@@ -377,6 +426,10 @@ country_event = {
 			add_base_production = -1
 			clr_province_flag = prov_wants_rel_free	
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 	option = {
 		name = devotion_events.6.b
@@ -399,6 +452,10 @@ country_event = {
 			change_religion = protestant
 			add_local_autonomy = 20
 			clr_province_flag = prov_wants_rel_free	
+		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
 		}
 	}
 }
@@ -458,6 +515,10 @@ country_event = {
 			}
 			add_base_production = -1
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 	
 	option = {
@@ -485,6 +546,10 @@ country_event = {
 				estate = estate_church
 				loyalty = -10
 			}
+		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
 		}
 		add_devotion = -5
 		add_prestige = -5
@@ -520,11 +585,19 @@ country_event = {
 		set_country_flag = dev_forged_documents_flag
 		add_corruption = 0.5
 		custom_tooltip = devotion_events.8.ct
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 	
 	option = {
 		name = devotion_events.8.b
 		add_devotion = 5
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = -3
+		}
 	}
 }
 
@@ -562,6 +635,10 @@ country_event = {
 	option = {
 		name = devotion_events.9.a
 		add_prestige = -10
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 }
 
@@ -598,6 +675,10 @@ country_event = {
 	option = {
 		name = devotion_events.10.a
 		add_devotion = 10
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 }
 
@@ -633,6 +714,10 @@ country_event = {
 	option = {
 		name = devotion_events.11.a
 		add_dip_power = 50
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 }
 
@@ -668,6 +753,10 @@ country_event = {
 	option = {
 		name = devotion_events.12.a
 		add_mercantilism = 1
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 }
 
@@ -703,6 +792,10 @@ country_event = {
 	option = {
 		name = devotion_events.13.a
 		add_adm_power = 50
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 }
 
@@ -739,6 +832,10 @@ country_event = {
 		name = devotion_events.14.a
 		add_prestige = 10
 		add_years_of_income = 0.1
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 }
 
@@ -814,6 +911,10 @@ country_event = {
 	option = {
 		name = devotion_events.15.a
 		add_devotion = -10
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 }
 
@@ -875,6 +976,10 @@ country_event = {
 				loyalty = -10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 	}
 	option = {
 		name = devotion_events.16.b
@@ -907,6 +1012,10 @@ country_event = {
 				estate = estate_burghers
 				loyalty = -10
 			}
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
 		}
 	}
 }
@@ -975,7 +1084,11 @@ province_event = {
 		add_province_modifier = {
 			name = add_unrest_5_modifier
 			duration = 3650
-		}			
+		}	
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}		
 	}
 	option = {
 		name = devotion_events.17.b
@@ -1008,6 +1121,10 @@ province_event = {
 					loyalty = -10
 				}
 			}
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
 		}
 	}
 }
@@ -1051,6 +1168,10 @@ country_event = {
 				loyalty = 10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 	option = {
 		name = devotion_events.18.b
@@ -1078,6 +1199,10 @@ country_event = {
 				estate = estate_church
 				loyalty = -10
 			}
+		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
 		}
 	}
 }
@@ -1114,10 +1239,18 @@ country_event = {
 			discount = yes
 			skill = 1
 		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = -3
+		}
 	}
 	option = {
 		name = devotion_events.19.b
 		add_devotion = 10
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 }
 
@@ -1184,6 +1317,10 @@ province_event = {
 			name = add_unrest_5_modifier
 			duration = 3650
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
+		}
 	}
 	option = {
 		name = devotion_events.20.b
@@ -1201,6 +1338,10 @@ province_event = {
 					loyalty = 10
 				}
 			}
+		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
 		}
 		owner = { add_devotion = 10 }
 	}
@@ -1281,7 +1422,7 @@ country_event = {
 					}
 				}
 			}
-			change_government = tribal_kingdom
+			change_government = tribal_despotism
 		}
 		kill_ruler = yes
 	}
@@ -1346,6 +1487,10 @@ country_event = {
 				loyalty = -10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 	}
 }
 
@@ -1392,6 +1537,10 @@ country_event = {
 			}
 		}
 		add_stability = -1
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"
@@ -1407,6 +1556,10 @@ country_event = {
 		name = devotion_events.23.b
 		ai_chance = {
 			factor = 50
+		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = -3
 		}
 		add_corruption = 4
 	}
@@ -1445,6 +1598,10 @@ country_event = {
 	option = {
 		name = devotion_events.24.a
 		add_yearly_manpower = 0.5
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 }
 
@@ -1518,6 +1675,10 @@ country_event = {
 				loyalty = 10
 			}
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 	
 	option = {
@@ -1569,6 +1730,10 @@ country_event = {
 				duration = 3650
 			}
 		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
+		}
 	}
 }
 
@@ -1608,11 +1773,19 @@ country_event = {
 		name = devotion_events.101.a
 		add_devotion = 10
 		add_prestige = -5
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 	}
 	option = {
 		name = devotion_events.101.b
 		add_devotion = -5
 		add_prestige = 10
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 }
 
@@ -1656,10 +1829,18 @@ country_event = {
 		country_event = {
 			id = devotion_events.103
 		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = -3
+		}
 	}
 	option = {
 		name = devotion_events.102.b
 		add_devotion = 5
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 	}
 }
 
@@ -1709,6 +1890,10 @@ country_event = {
 				remove_estate = estate_burghers
 			}
 		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = -3
+		}
 	}
 	
 	option = {
@@ -1725,6 +1910,10 @@ country_event = {
 				estate = estate_burghers
 				loyalty = 10
 			}
+		}
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
 		}
 	}
 }
@@ -1769,11 +1958,19 @@ country_event = {
 	option = {
 		name = devotion_events.104.a
 		add_devotion = 10
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 	
 	option = {
 		name = devotion_events.104.b
 		add_prestige = 5
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
+		}
 	}
 }
 
@@ -1835,6 +2032,10 @@ province_event = {
 				}
 			}
 		}
+		add_faction_influence = {
+			faction = abb_cluniac
+			influence = 3
+		}
 		add_local_autonomy = -10
 		add_province_modifier = {
 			name = add_unrest_5_modifier
@@ -1860,6 +2061,10 @@ province_event = {
 				}
 			}
 		}
+		add_faction_influence = {
+			faction = abb_cluniac
+			influence = -3
+		}
 		add_local_autonomy = 10
 	}
 }
@@ -1879,7 +2084,10 @@ country_event = {
 		NOT = {
 			has_country_flag = dev_jubilee_flag
 		}
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 	
 	is_triggered_only = yes
@@ -1909,11 +2117,33 @@ country_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				religion = catholique
+				exists = AVI
+				AVI = {
+					religion = catholique
+				}
+			}
+			AVI = {
+				country_event = {
+					id = devotion_events.108
+				}
+			}
+		}
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 	
 	option = {
 		name = devotion_events.107.b
 		add_devotion = 10
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = -3
+		}
 	}
 }
 
@@ -2013,7 +2243,10 @@ country_event = {
 			government = monastic_order_government
 		}
 		has_country_flag = theo_papal_protege_flag
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 	
 	is_triggered_only = yes
@@ -2031,6 +2264,10 @@ country_event = {
 	option = {
 		name = devotion_events.110.a
 		add_devotion = 10
+		add_faction_influence = {
+			faction = abb_benedictines
+			influence = 3
+		}
 	}
 }
 
@@ -2051,16 +2288,8 @@ country_event = {
 		}
 		religion_group = christian
 		NOT = { religion = reformed }
-		NOT = { religion = zwinglianist }
-		NOT = { religion = huguenot }
 		is_religion_enabled = reformed
-		any_owned_province = {
-			OR = {
-				religion = reformed
-				religion = zwinglianist
-				religion = huguenot
-			}
-		}
+		any_owned_province = { religion = reformed }
 	}
 	
 	is_triggered_only = yes
@@ -2073,16 +2302,16 @@ country_event = {
 		name = devotion_events.117.a
 		random_owned_province = {
 			limit = {
-				OR = {
-					religion = reformed
-					religion = zwinglianist
-					religion = huguenot
-				}
+				religion = reformed
 			}
 			add_province_modifier = {
 				name = dev_confiscated_reformed_church
 				duration = 3650
 			}
+		}
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
 		}
 	}
 }
@@ -2119,8 +2348,6 @@ country_event = {
 			OR = {
 				religion = reformed
 				religion = protestant
-				religion = huguenot
-				religion = zwinglianist
 				religion = anabaptist
 				religion = anglican
 			}
@@ -2135,14 +2362,16 @@ country_event = {
 				OR = {
 					religion = reformed
 					religion = protestant
-					religion = huguenot
-					religion = zwinglianist
 					religion = anabaptist
 					religion = anglican
 				}
 			}
 		}
 		add_stability_or_adm_power = yes
+		add_faction_influence = {
+			faction = abb_cluniacs
+			influence = 3
+		}
 		add_devotion = 10
 	}
 }
@@ -2173,10 +2402,18 @@ country_event = {
 	option = {
 		name = devotion_events.119.a
 		add_devotion = -10
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = 3
+		}
 	}
 	option = {
 		name = devotion_events.119.b
 		add_prestige = -10
+		add_faction_influence = {
+			faction = abb_cistercians
+			influence = -3
+		}
 	}
 }
 

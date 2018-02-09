@@ -6,6 +6,10 @@ technology_group = western
 capital = 2177
 fixed_capital = 2177
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1063.1.1 = {
 	monarch = { #later duke of NRM
 		name = "Robert I"
@@ -19,7 +23,7 @@ fixed_capital = 2177
 }
 1069.1.1 = {
 	monarch = {
-		name = "Hughes V"
+		name = "Hugues V"
 		dynasty = "d'Este"
 		culture = lombard
 		adm = 1

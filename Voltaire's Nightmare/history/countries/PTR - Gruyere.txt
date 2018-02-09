@@ -127,6 +127,8 @@ capital = 2284
 		mil = 5
 	}
 }
+1437.1.1 = { religion = catholique }
+1449.4.1 = { religion = catholic }
 1475.1.1 = {
 	monarch = {
 		name = "Jean II"

@@ -105,6 +105,7 @@ capital = 31
 		dynasty = "von Saarbrücken"
 		birth_date = 1246.1.1
 		death_date = 1274.1.1
+		culture = pfalzish
 		female = yes
 		adm = 2
 		dip = 3

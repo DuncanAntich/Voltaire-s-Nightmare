@@ -67,6 +67,7 @@ capital = 2926
 		dynasty = "Gisonen"
 		birth_date = 1098.1.1
 		death_date = 1148.1.1
+		culture = hessian
 		female = yes
 		adm = 2
 		dip = 3
@@ -106,6 +107,7 @@ capital = 2926
 		dynasty = "von Hohenstaufen"
 		birth_date = 1134.1.1
 		death_date = 1191.7.7
+		culture = swabian
 		female = yes
 		adm = 2
 		dip = 2
@@ -135,15 +137,16 @@ capital = 2926
 		mil = 2
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
 }
 1184.1.1 = {
 	queen = {
 		country_of_origin = POL
 		name = "Sophia"
-		dynasty = "Rurikovich"
+		dynasty = "Piast"
 		birth_date = 1140.1.1
 		death_date = 1198.5.5
+		culture = polish
 		female = yes
 		adm = 2
 		dip = 2
@@ -169,6 +172,7 @@ capital = 2926
 		dynasty = "von Wittelsbach"
 		birth_date = 1170.1.1
 		death_date = 1238.1.1
+		culture = bavarian
 		female = yes
 		adm = 2
 		dip = 2
@@ -198,7 +202,7 @@ capital = 2926
 		mil = 2
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
 }
 1221.12.1 = {
 	queen = {
@@ -207,14 +211,15 @@ capital = 2926
 		dynasty = "Árpád"
 		birth_date = 1207.7.7
 		death_date = 1231.11.17
+		culture = hungarian
 		female = yes
 		adm = 3
 		dip = 6
 		mil = 1
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = pious_personality
-	add_queen_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	add_queen_personality = zealot_personality
 	add_queen_personality = kind_hearted_personality
 }
 1222.3.28 = {
@@ -588,7 +593,6 @@ capital = 2926
 		mil = 1
 	}
 }
-1746.1.1 = { government = absolute_monarchy }
 1748.1.19 = {
 	monarch = {
 		name = "Ernst August II"
@@ -693,6 +697,7 @@ capital = 2926
 		dynasty = "van Oranje"
 		birth_date = 1824.4.8
 		death_date = 1897.3.23
+		culture = dutch
 		female = yes
 		adm = 2
 		dip = 2

@@ -46,6 +46,7 @@ capital = 70
 		female = yes
 		birth_date = 1072.1.1
 		death_date = 1143.9.24
+		culture = pfalzish
 		adm = 2
 		dip = 2
 		mil = 2

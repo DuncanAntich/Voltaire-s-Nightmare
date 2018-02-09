@@ -5,6 +5,10 @@ primary_culture = normand
 religion = catholic
 capital = 1172
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1035.7.3 = {
 	set_ruler_flag = eng_promised_throne_flag
 	monarch = {
@@ -36,6 +40,7 @@ capital = 1172
 		female = yes
 		birth_date = 1031.1.1
 		death_date = 1083.11.2
+		culture = flemish
 		adm = 2
 		dip = 2
 		mil = 2

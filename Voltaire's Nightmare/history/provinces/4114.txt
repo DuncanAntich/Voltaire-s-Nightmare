@@ -51,3 +51,5 @@ estate = estate_church
 	remove_core = BAV
 }
 1866.8.23 = { hre = no }
+discovered_by = nomad_group
+discovered_by = north_american

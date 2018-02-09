@@ -7,7 +7,7 @@ capital = 230
 
 1030.1.1 = {
 	monarch = {
-		name = "Burchard I"
+		name = "Burkhard I"
 		dynasty = "von Querfurt"
 		birth_date = 1015.1.1
 		dip = 5
@@ -40,8 +40,8 @@ capital = 230
 }
 1100.1.1 = {
 	heir = {
-		name = "Burchard"
-		monarch_name = "Burchard II"
+		name = "Burkhard"
+		monarch_name = "Burkhard II"
 		dynasty = "von Querfurt"
 		birth_date = 1100.1.1
 		death_date = 1161.1.1
@@ -53,7 +53,7 @@ capital = 230
 }
 1126.2.18 = {
 	monarch = {
-		name = "Burchard II"
+		name = "Burkhard II"
 		dynasty = "von Querfurt"
 		birth_date = 1100.1.1
 		dip = 3
@@ -63,7 +63,7 @@ capital = 230
 }
 1161.1.1 = {
 	monarch = {
-		name = "Burchard III"
+		name = "Burkhard III"
 		dynasty = "von Querfurt"
 		dip = 1
 		mil = 2

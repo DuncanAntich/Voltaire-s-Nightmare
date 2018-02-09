@@ -970,10 +970,10 @@ country_event = {
 			religion = reformed
 			religion = anglican
 			religion = anabaptist
-			religion = zwinglianist
 		}
 		OR = {
 			any_ally = { religion = catholic }
+			any_ally = { religion = catholique }
 			marriage_with = NED
 		}
 		NED = {
@@ -984,7 +984,6 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = zwinglianist
 			}
 			OR = {
 				AND = {
@@ -1128,11 +1127,13 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 		FRA = {
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 			OR = {
 				NOT = { has_country_modifier = edict_de_nantes }
 				is_neighbor_of = NED

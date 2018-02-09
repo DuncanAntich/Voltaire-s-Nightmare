@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 1
-technology_group = western
+technology_group = north_american
 primary_culture = east_frisian
 religion = catholic
 capital = 2204
@@ -15,26 +15,25 @@ capital = 2204
 	}
 }
 1356.1.1 = {
-	government = tribal_despotism
 	monarch = {
-		name = "Ewe"
-		dynasty = "Ewesma"
+		name = "Ewe Ewesma"
 		birth_date = 1335.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
-1380.1.1 = {
+1378.1.1 = {
 	monarch = {
-		name = "Ewo"
-		dynasty = "Ewesma"
-		adm = w
-		dip = w
+		name = "Ewo Ewesma"
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }
 1399.1.1 = {
+	government = tribal_despotism
+	technology_group = western
 	monarch = {
 		name = "Menneke"
 		dynasty = "Ewesma"

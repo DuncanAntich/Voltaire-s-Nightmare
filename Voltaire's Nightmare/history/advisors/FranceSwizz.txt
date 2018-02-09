@@ -459,17 +459,6 @@ advisor = {
 }
 
 advisor = {
-	advisor_id = 403
-	name = "Huldrych Zwingli" #the leader of the Protestant Reformation in Switzerland. Oecumenic reformist.
-	location = 1123 #Schwyz (Zürich)
-	discount = yes
-	skill = 3
-	type = theologian 
-	date = 1522.1.1 #on track of reforming the church and Christian faith
-	death_date = 1531.10.11 #dies
-}
-
-advisor = {
 	advisor_id = 404
 	name = "François Rabelais" #Monk then humanist, jurist, physician. Renaissance writer, author of 'Gargantua and Pantagruel'
 	location = 541 #Lyonnais (Lyon)

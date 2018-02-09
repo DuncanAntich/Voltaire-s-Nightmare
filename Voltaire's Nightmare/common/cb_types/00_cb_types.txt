@@ -359,6 +359,7 @@ cb_revolutionary = {
 		cb_on_government_enemies = yes
 		NOT = {
 			government = papal_government
+			government = steppe_horde
 			government = italian_monarchy
 			government = dutch_republic
 			government = celestial_empire
@@ -368,6 +369,7 @@ cb_revolutionary = {
 		FROM = {
 			NOT = {
 				government = papal_government
+				government = steppe_horde
 				government = italian_monarchy
 				government = dutch_republic
 				government = celestial_empire
@@ -435,7 +437,10 @@ cb_crusade = {
 		OR = {
 			AND = {
 				crusade_target = { tag = FROM }
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			cb_on_religious_enemies = yes
 		}
@@ -507,11 +512,17 @@ cb_excommunication = {
 	valid_for_subject = no
 
 	prerequisites = {
-		FROM = {
-			is_excommunicated = yes
-			religion = catholic
+		OR = {
+			AND = {
+				religion = catholic
+				FROM = { religion = catholic }
+			}
+			AND = {
+				religion = catholique
+				FROM = { religion = catholique }
+			}
 		}
-		religion = catholic
+		FROM = { is_excommunicated = yes }
 		is_excommunicated = no
 		FROM = {
 			is_neighbor_of = ROOT
@@ -677,6 +688,46 @@ cb_claim_throne = {
 	}
 
 	war_goal = take_capital_throne
+}
+
+# Horde vs Civilized
+cb_horde_vs_civ = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_neighbor_of = FROM
+		FROM = {
+			is_nomad = no
+		}
+		is_nomad = yes
+		is_revolution_target = no
+	}
+
+	attacker_disabled_po = {
+		po_become_tributary_state
+	}
+
+	war_goal = superiority_horde
+}
+
+# Tribal vs Tribal Feud
+cb_tribal_feud = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_nomad = yes
+		FROM = {
+			is_nomad = yes
+		}
+		is_neighbor_of = FROM
+		is_revolution_target = no
+	}
+
+	attacker_disabled_po = {
+		po_become_tributary_state
+	}
+
+	war_goal = take_province_tribal_feud
 }
 
 # Revoke electorate
@@ -942,6 +993,8 @@ cb_force_tributary = {
 			is_subject = no
 			culture_group = french
 			is_part_of_hre = no
+			NOT = { tag = AVI }
+			NOT = { tag = ORA }
 			capital_scope = {
 				OR = {
 					superregion = french_superregion

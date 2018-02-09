@@ -221,13 +221,19 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Mare Nostrum"
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_known_country = {
 			has_spy_network_from = {
 				who = ROOT
 				value = 10
 			}
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = catholique
+			}
 		}
 	}
 
@@ -239,7 +245,10 @@ country_event = {
 						who = ROOT
 						value = 10
 					}
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 				}
 				save_event_target_as = victim_country
 			}
@@ -260,6 +269,7 @@ country_event = {
 		if = {
 			limit = {
 				NOT = { TAG = PAP }
+				NOT = { TAG = AVI }
 			}
 			random = {
 				chance = 30

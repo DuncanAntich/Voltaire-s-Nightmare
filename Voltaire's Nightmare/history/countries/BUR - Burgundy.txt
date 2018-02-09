@@ -6,6 +6,10 @@ technology_group = western
 capital = 765
 add_army_professionalism = 0.1
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1032.1.1 = {
 	monarch = {
 		name = "Robert I"
@@ -25,6 +29,7 @@ add_army_professionalism = 0.1
 		dynasty = "de Gâtinais"
 		birth_date = 1018.1.1
 		death_date = 1076.1.1
+		culture = orleanais
 		female = yes
 		adm = 2
 		dip = 2
@@ -163,6 +168,7 @@ add_army_professionalism = 0.1
 		female = yes
 		birth_date = 1160.1.1
 		death_date = 1228.1.1
+		culture = arpitan
 		adm = 2
 		dip = 2
 		mil = 2
@@ -357,6 +363,7 @@ add_army_professionalism = 0.1
 		dynasty = "de Dampierre"
 		birth_date = 1350.4.13
 		death_date = 1405.3.21
+		culture = flemish
 		female = yes
 		dip = 2
 		adm = 2
@@ -439,21 +446,200 @@ add_army_professionalism = 0.1
 		dynasty = "York"
 		birth_date = 1446.5.3
 		death_date = 1503.11.23
+		culture = english
 		female = yes
 		adm = 5
 		dip = 4
 		mil = 1
 	}
 }
-1477.1.6 = {
+1477.1.5 = {
+	capital = 91
 	monarch = {
-		name = "Marie I"
+		name = "Maximilien"
+		dynasty = "von Habsburg"
+		birth_date = 1459.3.22
+		culture = austrian
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	queen = {
+		country_of_origin = BUR
+		name = "Marie"
 		dynasty = "de Bourgogne"
 		birth_date = 1457.2.13
+		death_date = 1482.3.27
+		female = yes
 		adm = 3
 		dip = 4
 		mil = 2
-		female = yes
 	}
 }
-1589.8.3 = { government = administrative_monarchy }
+1478.7.22 = {
+	heir = {
+		name = "Philippe"
+		monarch_name = "Philippe IV"
+		dynasty = "von Habsburg"
+		birth_date = 1478.7.22
+		death_date = 1506.9.25
+		claim = 60
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1493.7.22 = {
+	monarch = {
+		name = "Philippe IV"
+		dynasty = "von Habsburg"
+		birth_date = 1478.7.22
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1500.2.24 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles I"
+		dynasty = "von Habsburg"
+		birth_date = 1500.2.24
+		death_date = 1556.1.16
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+1504.11.26 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles I"
+		dynasty = "von Habsburg"
+		birth_date = 1500.2.24
+		death_date = 1556.1.16
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+1515.2.24 = {
+	monarch = {
+		name = "Charles I"
+		dynasty = "von Habsburg"
+		birth_date = 1500.2.24
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+#Governesses
+1516.1.23 = {
+	monarch = {
+		name = "Marguerite"
+		dynasty = "von Habsburg"
+		birth_date = 1480.1.10
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+1530.12.1 = {
+	monarch = {
+		name = "Marie"
+		dynasty = "von Habsburg"
+		birth_date = 1505.9.15
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1549.11.4 = { capital = 765 }
+#united under NED
+1579.1.23 = {
+	capital = 91
+	government = administrative_monarchy
+	government_rank = 1
+	monarch = {
+		name = "Ernest"
+		dynasty = "von Habsburg"
+		birth_date = 1553.6.15
+		culture = austrian
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1595.2.20 = {
+	monarch = {
+		name = "Isabelle Claire"
+		dynasty = "von Habsburg"
+		birth_date = 1566.8.12
+		culture = castillian
+		female = yes
+		adm = 4
+		dip = 2
+		mil = 0
+	}
+	queen = {
+		country_of_origin = HAB
+		name = "Albrecht"
+		dynasty = "von Habsburg"
+		birth_date = 1559.11.13
+		death_date = 1621.7.13
+		culture = austrian
+		female = no
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}
+1610.5.24 = {
+	heir = {
+		name = "Ferdinand"
+		monarch_name = "Ferdinand"
+		dynasty = "von Habsburg"
+		birth_date = 1610.5.24
+		death_date = 1641.11.9
+		claim = 75
+		culture = castillian
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1633.12.1 = {
+	monarch = {
+		name = "Ferdinand"
+		dynasty = "von Habsburg"
+		birth_date = 1610.5.24
+		culture = castillian
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1641.11.9 = {
+	monarch = {
+		name = "Léopold Guillaume"
+		dynasty = "von Habsburg"
+		birth_date = 1614.1.5
+		culture = austrian
+		adm = 0
+		dip = 0
+		mil = 4
+	}
+}
+1648.1.30 = { capital = 765 government_rank = 3 }
+#united under SPA

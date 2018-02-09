@@ -88,12 +88,22 @@ capital = 913
 #1340 done
 1349.1.1 = {
 	monarch = {
-		name = "Stefan II"
+		name = "Ludwig VI"
 		dynasty = "von Wittelsbach"
-		birth_date = 1319.1.1
-		adm = 2
-		dip = 4
+		birth_date = 1328.5.7
+		adm = 3
+		dip = 3
 		mil = 2
+	}	
+}
+1351.1.1 = {
+	monarch = {
+		name = "Ludwig V"
+		dynasty = "von Wittelsbach"
+		birth_date = 1315.5.1
+		adm = 1
+		dip = 4
+		mil = 3
 	}
 	heir = {
 		name = "Johann"
@@ -107,7 +117,7 @@ capital = 913
 		mil = 2
 	}
 }
-1375.5.13 = {
+1361.9.18 = {
 	monarch = {
 		name = "Johann II"
 		dynasty = "von Wittelsbach"
@@ -116,6 +126,8 @@ capital = 913
 		dip = 3
 		mil = 2
 	}
+}
+1373.1.1 = {
 	heir = {
 		name = "Ernst"
 		monarch_name = "Ernst I"
@@ -166,6 +178,7 @@ capital = 913
 		dynasty = "von Welf"
 		birth_date = 1414.1.1
 		death_date = 1474.4.14
+		culture = eastphalian
 		female = yes
 		adm = 2
 		dip = 3
@@ -244,6 +257,7 @@ capital = 913
 		dynasty = "von Habsburg"
 		birth_date = 1465.3.16
 		death_date = 1520.8.6
+		culture = austrian
 		female = yes
 		adm = 3
 		dip = 3

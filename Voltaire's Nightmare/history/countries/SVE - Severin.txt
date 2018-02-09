@@ -1,12 +1,26 @@
 government = feudal_monarchy
 government_rank = 3
 technology_group = eastern
-primary_culture = wallachian
-religion = orthodox
-capital = 2167
+primary_culture = hungarian
+religion = catholic
+capital = 2357
+
+1030.1.1 = {
+	monarch = {
+		name = "Csanád"
+		dynasty = "Árpád" #nephew
+		adm = 1
+		dip = 4
+		mil = 5
+	}
+}
+#1063.9.11
 
 1226.1.1 = {
 	government = noble_republic
+	primary_culture = wallachian
+	religion = orthodox
+	capital = 2167
 	monarch = {
 		name = "Buzád"
 		dynasty = "Hahót"

@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
-technology_group = western
+technology_group = north_american
 capital = 2746
 
 1054.1.1 = {

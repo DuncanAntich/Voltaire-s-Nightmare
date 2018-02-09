@@ -47,3 +47,5 @@ fort_14th = yes
 	controller = GRE
 }
 1829.9.12 = { remove_core = TUR }
+discovered_by = nomad_group
+discovered_by = north_american

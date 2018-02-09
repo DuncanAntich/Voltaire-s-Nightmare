@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 3
-technology_group = eastern
+technology_group = north_american
 primary_culture = lithuanian
 religion = animism
 capital = 807

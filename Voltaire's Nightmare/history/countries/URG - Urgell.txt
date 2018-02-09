@@ -176,6 +176,7 @@ capital = 1245
 		female = no
 		birth_date = 1187.2.23
 		death_date = 1258.6.2
+		culture = portugese
 		adm = 2
 		dip = 3
 		mil = 2

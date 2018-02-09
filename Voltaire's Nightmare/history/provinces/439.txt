@@ -1,28 +1,25 @@
-owner = WWS
-controller = WWS
+owner = RVA
+controller = RVA
 culture = swabian
 religion = catholic
 hre = yes
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 2
 trade_goods = grain
-base_manpower = 1
+base_manpower = 2
 capital = "Aulendorf" 
 is_city = yes	
-add_core = WWS
+add_core = RVA
 add_core = KGG
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1268.10.29 = {
+1191.12.15 = {
 	owner = KGG
 	controller = KGG
-	remove_core = WWS
-	base_tax = 2
-	base_production = 2
-	base_manpower = 2
+	remove_core = RVA
 }
 1806.7.12 = {
 	owner = WUR
@@ -39,3 +36,5 @@ discovered_by = muslim
 	base_production = 1
 	base_manpower = 1
 }
+discovered_by = nomad_group
+discovered_by = north_american

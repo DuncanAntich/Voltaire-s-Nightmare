@@ -83,6 +83,7 @@ historical_friend = ENG
 		female =  yes
 		birth_date = 1145.1.1
 		death_date = 1188.1.1
+		culture = irish
 		adm = 2
 		dip = 2
 		mil = 3

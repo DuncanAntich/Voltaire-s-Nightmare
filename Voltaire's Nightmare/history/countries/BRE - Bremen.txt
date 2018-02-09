@@ -188,7 +188,7 @@ fixed_capital = 429
 }
 1327.1.1 = {
 	monarch = {
-		name = "Burchard II"
+		name = "Burkhard II"
 		dynasty = "Grelle"
 		adm = 2
 		dip = 2

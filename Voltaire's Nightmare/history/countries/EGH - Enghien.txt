@@ -34,7 +34,7 @@ capital = 262
 }
 1158.1.1 = {
 	monarch = {
-		name = "Hughes I"
+		name = "Hugues I"
 		dynasty = "d'Enghien"
 		adm = 2
 		dip = 2
@@ -214,9 +214,10 @@ capital = 262
 }
 1394.3.17 = {
 	monarch = {
-		name = "Jean"
+		name = "Jean I"
 		dynasty = "von Luxemburg"
 		birth_date = 1370.1.1
+		culture = moselle_franconian
 		adm = 3
 		dip = 3
 		mil = 2
@@ -237,7 +238,7 @@ capital = 262
 		monarch_name = "Pierre I"
 		dynasty = "von Luxemburg"
 		birth_date = 1390.1.1
-		death_date = 1441.1.1
+		death_date = 1433.8.31
 		claim = 80
 		adm = 2
 		dip = 2
@@ -267,7 +268,7 @@ capital = 262
 		mil = 2
 	}
 }
-1441.1.1 = {
+1433.8.31 = {
 	monarch = {
 		name = "Louis II"
 		dynasty = "von Luxemburg"
@@ -276,6 +277,8 @@ capital = 262
 		dip = 2
 		mil = 2
 	}
+}
+1440.1.1 = {
 	heir = {
 		name = "Pierre"
 		monarch_name = "Pierre II"
@@ -298,3 +301,50 @@ capital = 262
 		mil = 2
 	}
 }
+1482.10.25 = {
+	monarch = {
+		name = "Françoise"
+		dynasty = "von Luxemburg"
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1523.1.1 = {
+	monarch = {
+		name = "Marie"
+		dynasty = "von Luxemburg"
+		birth_date = 1475.1.1
+		female = yes
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1528.1.1 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "de Bourbon"
+		birth_date = 1528.1.1
+		death_date = 1557.8.10
+		claim = 80
+		culture = angevin_culture
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1547.4.1 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "de Bourbon"
+		birth_date = 1528.1.1
+		culture = angevin_culture
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#done 1549

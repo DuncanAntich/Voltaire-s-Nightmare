@@ -181,7 +181,7 @@
 464 = "Sankt Jakobi"
 945 = "Windischgrätz"
 691 = "Cilli"
-915 = "Marburg"
+915 = "Mariburg"
 2945 = "Auschwitz"
 815 = "Ratibor"
 2825 = "Beuthen"

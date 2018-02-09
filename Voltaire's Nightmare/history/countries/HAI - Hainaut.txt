@@ -46,6 +46,7 @@ capital = 91	# Mons
 		dynasty = "de Reginar"
 		birth_date = 1056.1.1 #est
 		death_date = 1139.1.1
+		culture = brabantian
 		female = yes
 		adm = 2
 		dip = 3
@@ -145,6 +146,7 @@ capital = 91	# Mons
 		female = yes
 		birth_date = 1145.1.1
 		death_date = 1194.11.15
+		culture = flemish
 		adm = 2
 		dip = 3
 		mil = 2
@@ -180,6 +182,7 @@ capital = 91	# Mons
 		dynasty = "de Blois"
 		birth_date = 1174.1.1
 		death_date = 1204.8.9
+		culture = champenois
 		female = yes
 		adm = 2
 		dip = 2
@@ -252,5 +255,17 @@ capital = 91	# Mons
 	}
 }
 #under HOL
+1353.1.1 = {
+	monarch = {
+		name = "Margaretha"
+		dynasty = "d'Avesnes"
+		birth_date = 1311.1.1
+		culture = dutch
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
 #under various BAV states
 #under HOL

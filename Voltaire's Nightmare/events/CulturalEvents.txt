@@ -252,7 +252,10 @@ country_event = {
 	picture = IMPORTANT_STATUE_eventPicture
 
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = {
 			has_country_flag = guild_of_st_luke
 		}

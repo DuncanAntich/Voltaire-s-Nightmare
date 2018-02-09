@@ -20,13 +20,18 @@ discovered_by = muslim
 	base_production = 5
 	base_manpower = 5
 }
-1477.1.5 = { owner = HAB controller = HAB add_core = HAB hre = yes }
-1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
-1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = SPA }
+1477.1.5 = { hre = yes }
+1549.11.4 = { owner = NED controller = NED add_core = NED }
 1579.1.23 = {
+	owner = BUR
+	controller = BUR
+	add_core = BUR
+}
+1648.1.30 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	remove_core = BUR
 }
 1648.10.24 = { remove_core = NED }
 1659.11.7 = {
@@ -50,3 +55,5 @@ discovered_by = muslim
 1870.11.27 = { controller = PRU }
 1871.1.18 = { controller = GER }
 1871.5.10 = { controller = FRA }
+discovered_by = nomad_group
+discovered_by = north_american

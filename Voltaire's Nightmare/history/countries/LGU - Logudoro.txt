@@ -153,6 +153,7 @@ fixed_capital = 530
 		female = no
 		birth_date = 1218.1.1
 		death_date = 1272.3.14
+		culture = swabian
 		adm = 2
 		dip = 0
 		mil = 5

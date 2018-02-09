@@ -10,3 +10,6 @@ fixed_capital = 2924
 #1131.7.19 under PRO
 #1168.1.1 under ARA
 1307.1.1 = { government = theocratic_government }
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }

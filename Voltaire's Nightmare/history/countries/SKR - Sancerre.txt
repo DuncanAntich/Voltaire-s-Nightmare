@@ -6,6 +6,10 @@ technology_group = western
 capital = 2916
 fixed_capital = 2916
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1152.1.10 = {
 	monarch = {
 		name = "Étienne I"

@@ -8,9 +8,7 @@ war_goal = {
 1295.6.20 = {
 	add_attacker = TNC
 	add_defender = SIC
-	add_defender = ACH
 	add_defender = PRO
-	add_defender = DRZ
 	add_defender = ARA
 	add_defender = GEN
 }
@@ -62,7 +60,5 @@ war_goal = {
 1302.8.31 = {
 	rem_attacker = TNC
 	rem_defender = SIC
-	rem_defender = ACH
 	rem_defender = PRO
-	rem_defender = DRZ
 }

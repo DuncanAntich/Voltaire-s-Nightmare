@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 1
-technology_group = western
+technology_group = north_american
 primary_culture = east_frisian
 religion = catholic
 capital = 1238
@@ -14,41 +14,25 @@ capital = 1238
 		adm = 2
 	}
 }
-1283.1.1 = {
-	government = tribal_despotism
+1300.1.1 = {
 	monarch = {
-		name = "Wiard I"
-		dynasty = "Abdena"
-		birth_date = 1265.1.1
+		name = "Wiard Abdena"
 		dip = 2
 		mil = 2
 		adm = 4
 	}
 }
-1309.1.1 = {
+1315.1.1 = {
 	monarch = {
-		name = "Wiard II"
-		dynasty = "Abdena"
-		birth_date = 1285.1.1
-		dip = 2
-		mil = 2
-		adm = 2
-	}
-}
-1330.1.1 = {
-	monarch = {
-		name = "Hisko I"
-		dynasty = "Abdena"
-		birth_date = 1314.1.1
-		dip = 2
-		mil = 2
+		name = "Luerd Abdena"
+		dip = 1
+		mil = 0
 		adm = 2
 	}
 }
 1345.1.1 = {
 	monarch = {
-		name = "Luerd"
-		dynasty = "Abdena"
+		name = "Luerd Abdena"
 		dip = 2
 		mil = 2
 		adm = 2
@@ -56,16 +40,17 @@ capital = 1238
 }
 1360.1.1 = {
 	monarch = {
-		name = "Kampo"
-		dynasty = "Abdena"
+		name = "Kampo Abdena"
 		dip = 2
 		mil = 2
 		adm = 2
 	}
 }
 1381.1.1 = {
+	government = tribal_despotism
+	technology_group = western
 	monarch = {
-		name = "Hisko II"
+		name = "Hisko"
 		dynasty = "Abdena"
 		dip = 3
 		mil = 3

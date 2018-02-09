@@ -67,3 +67,5 @@ base_production = 10 }
 	remove_core = PRU
 	hre = no
 }
+discovered_by = nomad_group
+discovered_by = north_american

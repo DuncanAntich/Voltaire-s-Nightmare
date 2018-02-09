@@ -7,7 +7,7 @@ capital = 4118
 
 1135.1.1 = {
 	monarch = {
-		name = "Walther I"
+		name = "Walter I"
 		dynasty = "von Arnstein"
 		dip = 3
 		mil = 3
@@ -16,15 +16,15 @@ capital = 4118
 }
 1150.1.1 = {
 	monarch = {
-		name = "Walther II"
+		name = "Walter II"
 		dynasty = "von Arnstein"
 		dip = 2
 		mil = 2
 		adm = 2
 	}
 	heir = {
-		name = "Walther"
-		monarch_name = "Walther III"
+		name = "Walter"
+		monarch_name = "Walter III"
 		dynasty = "von Arnstein"
 		birth_date = 1150.1.1
 		death_date = 1196.1.1
@@ -36,7 +36,7 @@ capital = 4118
 }
 1170.1.1 = {
 	monarch = {
-		name = "Walther III"
+		name = "Walter III"
 		dynasty = "von Arnstein"
 		birth_date = 1150.1.1
 		dip = 4
@@ -55,7 +55,7 @@ capital = 4118
 }
 1236.1.1 = {
 	monarch = {
-		name = "Walther V"
+		name = "Walter V"
 		dynasty = "von Arnstein"
 		dip = 2
 		mil = 2
