@@ -827,7 +827,7 @@ country_event = {
 				region = { southportugal_region }
 				NOT = { owner = { tag = POR } }
 			}
-			add_core = POR
+			add_claim = POR
 		}
 	}
 	option = {
@@ -840,7 +840,7 @@ country_event = {
 				area = { galicia_area }
 				NOT = { owner = { tag = POR } }
 			}
-			add_core = POR
+			add_claim = POR
 		}
 	}
 }
