@@ -22,10 +22,10 @@ country_decisions = {
 		allow = {
 			adm_tech = 40		
 			is_at_war = no
+			is_nomad = no
 			OR = {
 				religion = reformed
 				religion = protestant
-				religion = zwinglianist
 				religion = anabaptist
 			}
 			owns_core_province = 2192	 # Kurland
@@ -52,10 +52,10 @@ country_decisions = {
 					}
 				}
 				change_government = feudal_monarchy
-			}
-			every_neighbor_country = {
-				limit = { government = monarchy }
-				add_opinion = { who = ROOT modifier = secularized_monastic_order }
+				every_neighbor_country = {
+					limit = { government = monarchy }
+					add_opinion = { who = ROOT modifier = secularized_monastic_order }
+				}
 			}
 		}
 		ai_will_do = {

@@ -649,7 +649,10 @@ country_event = {
 	trigger = {
 		has_dlc = "Mare Nostrum"
 		is_in_trade_league = yes
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_religion_enabled = protestant
 		is_religion_enabled = reformed
 		NOT = {
@@ -672,7 +675,6 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
 				}
 			}

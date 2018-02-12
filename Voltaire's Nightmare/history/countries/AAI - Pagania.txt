@@ -1,4 +1,4 @@
-government = tribal_democracy
+government = peasants_republic
 government_rank = 3
 technology_group = eastern
 religion = slavic_pagan
@@ -15,7 +15,4 @@ historical_rival = VEN
 		regent = yes
 	}
 }
-1066.1.1 = {
-	religion = catholic
-	government = peasants_republic
-}
+1066.1.1 = { religion = catholic }

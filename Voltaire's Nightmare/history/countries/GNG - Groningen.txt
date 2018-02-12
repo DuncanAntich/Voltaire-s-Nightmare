@@ -14,3 +14,4 @@ capital = 2383
 		adm = 2
 	}
 }
+1536.8.5 = { government = despotic_monarchy }

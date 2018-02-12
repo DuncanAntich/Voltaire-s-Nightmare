@@ -5,6 +5,10 @@ primary_culture = cosmopolitan_french
 religion = catholic
 capital = 4121
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1137.1.1 = {
 	monarch = {
 		name = "Robert I"
@@ -22,6 +26,7 @@ capital = 4121
 		dynasty = "de Salisbury"
 		birth_date = 1118.1.1
 		death_date = 1152.1.13
+		culture = english
 		female = yes
 		adm = 2
 		dip = 2

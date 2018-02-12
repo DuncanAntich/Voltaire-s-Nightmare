@@ -157,7 +157,10 @@ country_event = {
 			}
 			tag = PLC
 		}
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		has_regency = no
 		is_year = 1600 
 		NOT = { is_year = 1650 }
@@ -176,7 +179,10 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				has_country_modifier = counter_reformation
 			}
 			add_opinion = {
@@ -189,7 +195,10 @@ country_event = {
 		name = "flavor_pol.EVTOPTB3477" # The Catholic Faith are the First among Equals
 		every_country = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			add_opinion = {
 				who = ROOT
@@ -1504,7 +1513,10 @@ country_event = {
 		owns = 2902
 		is_year = 1560
 		NOT = { is_year = 1575 }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1520,8 +1532,18 @@ country_event = {
 				duration = -1
 			}
 			if = {
-				limit = { NOT = { religion = catholic } }
+				limit = {
+					NOT = { religion = catholic }
+					POL = { religion = catholic }
+				}
 				change_religion = catholic
+			}
+			if = {
+				limit = {
+					NOT = { religion = catholique }
+					POL = { religion = catholique }
+				}
+				change_religion = catholique
 			}
 		}
 	}
@@ -1547,7 +1569,10 @@ country_event = {
 		}
 		is_year = 1560
 		NOT = { is_year = 1570 }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_religion_enabled = reformed
 		owns = 2633
 	}
@@ -1562,7 +1587,10 @@ country_event = {
 				limit = {
 					is_capital = no
 					culture = polish
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					NOT = { province_id = 2633 }
 				}
 				set_province_flag = reading_brest_bible
@@ -1571,7 +1599,10 @@ country_event = {
 				limit = {
 					is_capital = no
 					culture = polish
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					NOT = { province_id = 2633 }
 					NOT = { has_province_flag = reading_brest_bible }
 				}
@@ -1637,6 +1668,7 @@ country_event = {
 			has_province_modifier = pol_collegium_hosianum
 		}
 		NOT = { religion = catholic }
+		NOT = { religion = catholique }
 	}
 	
 	mean_time_to_happen = {

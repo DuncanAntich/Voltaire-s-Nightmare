@@ -359,7 +359,11 @@ country_event = {
 		has_dlc = "Mandate of Heaven"
 		is_subject_of_type = tributary_state
 		num_of_ports = 1
-		overlord = { num_of_ports = 1 can_be_overlord = tributary_state }
+		overlord = {
+			num_of_ports = 1
+			can_be_overlord = tributary_state
+			NOT = { government = steppe_horde }
+		}
 		any_owned_province = {
 			has_port = yes
 			is_in_capital_area = yes
@@ -862,6 +866,7 @@ country_event = {
 		add_mandate_effect = yes
 		add_legitimacy = 5
 		add_devotion = 5
+		add_horde_unity = 5
 		add_republican_tradition = 2.5
 		add_estate_burghers_loyalty_effect = yes
 		event_target:exotic_tributary = {

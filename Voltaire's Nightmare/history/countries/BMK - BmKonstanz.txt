@@ -456,7 +456,7 @@ fixed_capital = 1870
 }
 1704.10.6 = {
 	monarch = {
-		name = "Johann Franz Schenk"
+		name = "Johann Franz"
 		dynasty = "von Stauffenberg"
 		birth_date = 1658.2.18
 		adm = 0

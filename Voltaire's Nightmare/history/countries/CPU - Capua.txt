@@ -28,6 +28,7 @@ capital = 2216
 	monarch = {
 		name = "Richard I"
 		dynasty = "Drengot"
+		birth_date = 1024.1.1
 		culture = normand
 		adm = 3
 		dip = 3

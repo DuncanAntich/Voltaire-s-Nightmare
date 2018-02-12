@@ -1,5 +1,5 @@
-government = tribal_democracy
-government_rank = 1
+government = tribal_kingdom
+government_rank = 2
 technology_group = western
 religion = catholic
 primary_culture = gallowglass
@@ -7,11 +7,29 @@ capital = 2308
 
 1054.1.1 = {
 	monarch = {
-		name = "Vedrafjordr Council"
-		regent = yes
+		name = "Wadter"
+		dynasty = "Ó Ímair"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1092.1.1 = {
+	monarch = {
+		name = "Smorth"
+		dynasty = "Ó Ímair"
 		adm = 2
 		dip = 2
 		mil = 2
+	}
+}
+1132.1.1 = {
+	monarch = {
+		name = "Ragnall"
+		dynasty = "Ó Ímair"
+		adm = 0
+		dip = 1
+		mil = 0
 	}
 }
 1171.8.25 = {

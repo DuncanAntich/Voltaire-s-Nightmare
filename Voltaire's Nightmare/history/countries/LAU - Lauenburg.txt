@@ -59,6 +59,7 @@ capital = 1857	# Lauenburg
 		dynasty = "Gryf"
 		birth_date = 1291.1.1
 		death_date = 1349.10.16
+		culture = pommeranian
 		female = yes
 		adm = 2
 		dip = 2

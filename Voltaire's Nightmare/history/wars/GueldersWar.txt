@@ -6,11 +6,17 @@ war_goal = {
 }
 
 1502.1.1 = {
-	add_attacker = HAB
+	add_attacker = BUR
+	add_attacker = FLA
+	add_attacker = HOL
+	add_attacker = BRB
 	add_defender = GEL
 }
 
 1514.1.1 = {
-	rem_attacker = HAB
+	rem_attacker = BUR
+	rem_attacker = FLA
+	rem_attacker = HOL
+	rem_attacker = BRB
 	rem_defender = GEL
 }

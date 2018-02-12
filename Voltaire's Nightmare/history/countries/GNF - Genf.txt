@@ -264,5 +264,4 @@ fixed_capital = 210
 		mil = 2
 	}
 }
-1533.7.15 = { religion = zwinglianist }
-1542.1.1 = { religion = reformed }
+1533.7.15 = { religion = reformed }

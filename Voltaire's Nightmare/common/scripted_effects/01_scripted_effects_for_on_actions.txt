@@ -586,8 +586,19 @@ sheik_ul_islam_effect = {
 			num_of_cities = 30
 			government_rank = 5
 			has_religious_school = yes
+			government = monarchy
+			NOT = { government = steppe_horde }
 		}
 		set_country_flag = had_sheikh_ul_islam_event
 		country_event = { id = muslim_school_events.2 days = 45 random = 7 } #New Grand Mufti/Sheik-ul-Islam
+	}
+}
+
+ambrosian_republic_effect = {
+	if = {
+		limit = {
+			tag = MLO
+		}
+		country_event = { id = flavor_mlo.1 days = 3 } # The Ambrosian Republic
 	}
 }

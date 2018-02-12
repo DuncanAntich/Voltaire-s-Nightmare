@@ -4,7 +4,6 @@ primary_culture = franconian
 religion = catholic
 technology_group = western
 capital = 227
-fixed_capital = 227
 
 #Margraves
 1054.1.1 = {
@@ -34,6 +33,7 @@ fixed_capital = 227
 #Free city
 1104.1.1 = {
 	government = imperial_city
+	fixed_capital = 227
 	government_rank = 1
 	mercantilism = 25
 	monarch = {

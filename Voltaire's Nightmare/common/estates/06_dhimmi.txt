@@ -19,7 +19,9 @@ estate_dhimmi = {
 		NOT = { government = merchant_republic }
 		NOT = { government = trading_city }
 		NOT = { government = revolutionary_republic }
+		is_nomad = no
 		is_colonial_nation = no
+		primitives = no
 		NOT = { government = celestial_empire }
 		NOT = { technology_group = western }
 		religion_group = muslim

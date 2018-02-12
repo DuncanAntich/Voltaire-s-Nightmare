@@ -13,20 +13,19 @@ finish_reconquista = {
 		normal_or_historical_nations = yes
 		NOT = { has_country_modifier = completing_the_reconquista }
 		NOT = { has_country_flag = granada_gone }
+		mil_tech = 5
 		NOT = { is_year = 1600 }
 		OR = {
 			tag = CAS
 			tag = SPA
-			tag = ARA
-			tag = CAT
-			tag = GAL
-			tag = POR
 			tag = LON
-			tag = NAV
 		}
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		iberia_superregion = {
 			owned_by = ROOT
 		}
@@ -36,7 +35,12 @@ finish_reconquista = {
 	}
 	abort = {
 		OR = {
-			NOT = { religion = catholic }
+			NOT = {
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
+			}
 			NOT = { iberia_superregion = { owned_by = ROOT } }
 		}
 	}
@@ -103,7 +107,10 @@ spain_must_be_christian = {
 			tag = LON
 			tag = GAL
 		}
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_at_war = no
 		NOT = {	exists = GRA }
 		iberia_superregion = {
@@ -113,7 +120,12 @@ spain_must_be_christian = {
 		NOT = { has_country_modifier = achieved_religious_unity_mission }
 	}
 	abort = {
-		NOT = {	religion = catholic  }
+		NOT = {
+			OR = {
+				religion = catholic
+				religion = catholique 
+			}
+		}
 	}	
 	success = {
 		NOT = {
@@ -238,7 +250,10 @@ bring_the_dutch_back_to_catholisism = {
 		NOT = { is_year = 1648 }
 		tag = SPA
 		is_free_or_tributary_trigger = yes
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique 
+		}
 		is_neighbor_of = NED
 		NED = {
 			is_subject = no
@@ -252,7 +267,12 @@ bring_the_dutch_back_to_catholisism = {
 	abort = {
 		OR = {
 			is_subject_other_than_tributary_trigger = yes
-			NOT = { religion = catholic }
+			NOT = {
+				OR = {
+					religion = catholic
+					religion = catholique 
+				}
+			}
 			NOT = {
 				lowlands_superregion = {
 					owned_by = ROOT
@@ -282,16 +302,29 @@ spanish_netherlands_should_be_catholic = {
 		normal_or_historical_nations = yes
 		tag = SPA
 		is_at_war = no
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique 
+		}
 		lowlands_superregion = {
 			owned_by = ROOT
 			religion_group = christian
-			NOT = { religion = catholic }
+			NOT = {
+				OR = {
+					religion = catholic
+					religion = catholique 
+				}
+			}
 		}
 	}
 	abort = {
 		OR = {
-			NOT = { religion = catholic }
+			NOT = {
+				OR = {
+					religion = catholic
+					religion = catholique 
+				}
+			}
 			NOT = {
 				lowlands_superregion = {
 					owned_by = ROOT
@@ -303,7 +336,12 @@ spanish_netherlands_should_be_catholic = {
 		NOT = {
 			lowlands_superregion = {
 				owned_by = ROOT
-				NOT = { religion = catholic }
+				NOT = {
+					OR = {
+						religion = catholic
+						religion = catholique 
+					}
+				}
 			}
 		}	
 	}

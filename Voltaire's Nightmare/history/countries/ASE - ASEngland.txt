@@ -37,7 +37,7 @@ national_focus = DIP
 }
 1045.1.1 = {
 	queen = {
-		country_of_origin = ENG
+		country_of_origin = ASE
 		name = "Ealdgyth"
 		dynasty = "Godwining"
 		female = yes
@@ -56,7 +56,7 @@ national_focus = DIP
 		duration = -1
 	}
 	monarch = {
-		name = "Hereweald I"
+		name = "Hereweald II"
 		dynasty = "Godwining"
 		birth_date = 1022.1.1
 		adm = 3

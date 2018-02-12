@@ -14,15 +14,15 @@ groups = {
 	}
 	eastern = {
 		start_level = 0
-		start_cost_modifier = 0.05
+		start_cost_modifier = 0
 	}
 	ottoman = {
 		start_level = 0
-		start_cost_modifier = 0.10
+		start_cost_modifier = 0.05
 	}
 	muslim = {
 		start_level = 0
-		start_cost_modifier = 0.15
+		start_cost_modifier = 0.05
 	}
 #	indian = {
 #		start_level = 0
@@ -42,22 +42,22 @@ groups = {
 #		start_level = 0
 #		start_cost_modifier = 0.6
 #	}
-#	nomad_group = {
-#		start_level = 0
-#		start_cost_modifier = 0.75
-#		nation_designer_trigger = {
-#			government = steppe_horde
-#		}
-#	}
+	nomad_group = {
+		start_level = 0
+		start_cost_modifier = 0.05
+		nation_designer_trigger = {
+			government = steppe_horde
+		}
+	}
 #	sub_saharan = { #West African
 #		start_level = 0
 #		start_cost_modifier = 0.6
 #	}
-#	north_american = {
-#		start_level = 0
-#		start_cost_modifier = 2.5
-#		is_primitive = yes
-#	}
+	north_american = {
+		start_level = 0
+		start_cost_modifier = 0
+		is_primitive = yes
+	}
 #	mesoamerican = {
 #		start_level = 0
 #		start_cost_modifier = 1.5

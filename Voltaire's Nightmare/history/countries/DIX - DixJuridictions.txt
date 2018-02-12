@@ -14,5 +14,4 @@ capital = 196
 		regent = yes
 	}
 }
-1524.1.1 = { religion = zwinglianist }
-1551.1.1 = { religion = reformed }
+1524.1.1 = { religion = reformed }

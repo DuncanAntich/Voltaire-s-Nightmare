@@ -1,5 +1,5 @@
-owner = WWS
-controller = WWS
+owner = MFO
+controller = MFO
 culture = swabian
 religion = catholic
 hre = yes
@@ -9,17 +9,17 @@ trade_goods = grain
 base_manpower = 1
 capital = "Waldburg" 
 is_city = yes
-add_core = WWS
+add_core = MFO
 add_core = WXL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1268.10.29 = {
+1135.1.1 = {
 	owner = WXL
 	controller = WXL
-	remove_core = WWS
+	remove_core = MFO
 	base_tax = 2
 	base_production = 2
 	base_manpower = 2
@@ -39,3 +39,5 @@ discovered_by = muslim
 	base_production = 1
 	base_manpower = 1
 }
+discovered_by = nomad_group
+discovered_by = north_american

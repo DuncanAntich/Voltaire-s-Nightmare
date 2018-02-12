@@ -12,19 +12,26 @@ country_event = {
 	picture = REFORM_eventPicture
 	
 	trigger = {
-		exists = PAP
-		NOT = { has_opinion = { who = PAP value = 0 } }
-		religion = catholic
+		OR = {
+			AND = {
+				exists = PAP
+				NOT = { has_opinion = { who = PAP value = 0 } }
+				religion = catholic
+			}
+			AND = {
+				exists = AVI
+				NOT = { has_opinion = { who = AVI value = 0 } }
+				religion = catholique
+			}
+		}
 		has_regency = no
 		government = monarchy
 		any_owned_province = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = zwinglianist
 				religion = anabaptist
 				religion = anglican
-				religion = huguenot
 			}
 		}
 		NOT = { has_country_flag = submission_of_the_clergy }
@@ -43,19 +50,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			dominant_religion = zwinglianist
-		}
-		modifier = {
-			factor = 0.9
 			dominant_religion = anabaptist
 		}
 		modifier = {
 			factor = 0.9
 			dominant_religion = anglican
-		}
-		modifier = {
-			factor = 0.9
-			dominant_religion = huguenot
 		}
 		modifier = {
 			factor = 0.9
@@ -85,13 +84,27 @@ country_event = {
 		add_prestige = 5
 		add_stability_or_adm_power = yes
 		add_papal_influence = -25
-		add_opinion = { who = PAP modifier = opinion_loyal_to_king }
+		if = {
+			limit = { religion = catholic }
+			add_opinion = { who = PAP modifier = opinion_loyal_to_king }
+		}
+		if = {
+			limit = { religion = catholique }
+			add_opinion = { who = AVI modifier = opinion_loyal_to_king }
+		}
 	}
 	option = {
 		name = "EVTOPTB9600" # Let the Clergy keep its authority
 		set_country_flag = submission_of_the_clergy
-		add_opinion = { who = PAP modifier =  opinion_loyal_to_pope }
 		add_papal_influence = 10
+		if = {
+			limit = { religion = catholic }
+			add_opinion = { who = PAP modifier =  opinion_loyal_to_pope }
+		}
+		if = {
+			limit = { religion = catholique }
+			add_opinion = { who = AVI modifier =  opinion_loyal_to_pope }
+		}
 	}
 }
 

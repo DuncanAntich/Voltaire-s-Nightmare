@@ -150,6 +150,7 @@ add_army_professionalism = 0.05
 	monarch = {
 		name = "Innocentius II"
 		culture = umbrian
+		birth_date = 1082.1.1
 		adm = 3
 		dip = 1
 		mil = 1
@@ -305,6 +306,7 @@ add_army_professionalism = 0.05
 	monarch = {
 		name = "Caelestinus IV"
 		culture = lombard
+		birth_date = 1187.1.1
 		adm = 1
 		dip = 1
 		mil = 1
@@ -741,7 +743,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-1524.1.1 = { set_global_flag = zwinglianist_reformation_g }
 1534.9.26 = {
 	monarch = {
 		name = "Paulus III"

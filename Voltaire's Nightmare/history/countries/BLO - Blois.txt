@@ -6,6 +6,10 @@ technology_group = western
 capital = 2088
 fixed_capital = 2088
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1037.1.1 = {
 	monarch = {
 		name = "Thiébaut III"
@@ -39,6 +43,7 @@ fixed_capital = 2088
 		dynasty = "de Normandie"
 		birth_date = 1067.1.1
 		death_date = 1137.3.8
+		culture = normand
 		female = yes
 		adm = 2
 		dip = 2
@@ -109,6 +114,7 @@ fixed_capital = 2088
 		dynasty = "Capet"
 		birth_date = 1150.7.1
 		death_date = 1198.1.1
+		culture = cosmopolitan_french
 		female = yes
 		adm = 2
 		dip = 3
@@ -163,6 +169,7 @@ fixed_capital = 2088
 		dynasty = "d'Avesnes"
 		birth_date = 1170.1.1
 		death_date = 1244.1.1
+		culture = wallonian
 		female = no
 		adm = 2
 		dip = 2
@@ -181,10 +188,11 @@ fixed_capital = 2088
 	}
 	queen = {
 		country_of_origin = FRA
-		name = "Hughes"
+		name = "Hugues"
 		dynasty = "de Châtillon"
 		birth_date = 1198.1.1
 		death_date = 1248.4.9
+		culture = champenois
 		female = no
 		adm = 2
 		dip = 2

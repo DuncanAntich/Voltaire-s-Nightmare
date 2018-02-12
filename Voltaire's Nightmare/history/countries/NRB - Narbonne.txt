@@ -5,6 +5,10 @@ religion = catholic
 technology_group = western
 capital = 4061
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 #Viscounts of Carcassone
 1012.1.1 = {
 	monarch = {

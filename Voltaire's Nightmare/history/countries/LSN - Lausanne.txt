@@ -268,6 +268,7 @@ fixed_capital = 2288
 		mil = 2
 	}
 }
+1437.1.1 = { religion = catholique }
 1440.4.1 = {
 	monarch = {
 		name = "Georges I"
@@ -278,6 +279,7 @@ fixed_capital = 2288
 		mil = 2
 	}
 }
+1447.2.23 = { religion = catholic }
 1461.11.5 = {
 	monarch = {
 		name = "Guillaume V"

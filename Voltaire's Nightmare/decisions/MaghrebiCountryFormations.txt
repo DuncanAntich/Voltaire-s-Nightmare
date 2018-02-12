@@ -44,6 +44,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = ALG }
 			is_at_war = no
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			owns_core_province = 1946 #Algiers
 			owns_core_province = 2854 #Tenes
@@ -79,6 +80,10 @@ country_decisions = {
 					is_tribal = yes	#Desert tribes settling down.
 				}
 				change_government = despotic_monarchy
+			}
+			if = {
+				limit = { primitives = yes }
+				set_primitive = no
 			}
 			add_prestige = 25
 			set_capital = 1946 #Algiers
@@ -137,6 +142,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = TUN }
 			is_at_war = no
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			owns_core_province = 586 #Tunis
 			owns_core_province = 697 #Kelibia
@@ -166,6 +172,10 @@ country_decisions = {
 					is_tribal = yes
 				}
 				change_government = despotic_monarchy #Desert tribes settling down.
+			}
+			if = {
+				limit = { primitives = yes }
+				set_primitive = no
 			}
 			add_prestige = 25
 			set_capital = 586

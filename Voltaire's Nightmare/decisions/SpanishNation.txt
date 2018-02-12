@@ -42,6 +42,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = SPA }
 			adm_tech = 40
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			owns_core_province = 1955	# Barcelona
@@ -153,6 +154,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 40
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			legitimacy = 100

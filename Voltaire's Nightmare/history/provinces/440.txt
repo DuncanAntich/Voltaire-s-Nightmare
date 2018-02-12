@@ -1,7 +1,5 @@
-owner = TSZ
-controller = TSZ
-add_core = HUN
-add_core = TSZ
+owner = SLO
+controller = SLO
 add_core = SLO
 culture = slovak
 religion = catholic
@@ -20,15 +18,15 @@ discovered_by = muslim
 1060.12.6 = {
 	owner = HUN
 	controller = HUN
+	add_core = HUN
 }
 1064.1.20 = {
-	owner = TSZ
-	controller = TSZ
+	owner = SLO
+	controller = SLO
 }
-1107.1.1 = {
+1108.1.1 = {
 	owner = HUN
 	controller = HUN
-	remove_core = TSZ
 }
 1301.1.14 = {
 	owner = SLO
@@ -65,3 +63,5 @@ discovered_by = muslim
 	controller = EAH
 }
 1867.5.29 = { add_local_autonomy = 90 }
+discovered_by = nomad_group
+discovered_by = north_american

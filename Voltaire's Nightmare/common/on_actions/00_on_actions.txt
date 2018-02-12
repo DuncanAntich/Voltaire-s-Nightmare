@@ -1,136 +1,64 @@
 # country
 on_startup = {
 	if = {
-		limit = { normal_or_historical_nations = yes }
-		random_country = {
+		limit = {
+			normal_or_historical_nations = yes
+			OR = {
+				AND = {
+					has_dlc = "Mandate of Heaven"
+					is_emperor_of_china = yes
+				}
+				AND = {
+					NOT = { has_dlc = "Mandate of Heaven" }
+					government = celestial_empire
+				}
+			}
+		}
+		french_superregion = {
 			limit = {
-				OR = {
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						is_emperor_of_china = yes
-					}
-					AND = {
-						NOT = { has_dlc = "Mandate of Heaven" }
-						government = celestial_empire
-					}
-				}
+				NOT = { is_core = PREV }
+				NOT = { is_part_of_hre = yes }
+				NOT = { region = brittany_region }
+				NOT = { owned_by = ENG }
+				NOT = { owned_by = PAP }
+				NOT = { owned_by = ORA }
+				NOT = { owned_by = SAV }
+				NOT = { owned_by = AVI }
 			}
-			french_superregion = {
-				limit = {
-					NOT = { is_core = PREV }
-					NOT = { is_part_of_hre = yes }
-					NOT = { region = brittany_region }
-					NOT = { owned_by = ENG }
-					NOT = { owned_by = PAP }
-					NOT = { owned_by = ORA }
-					NOT = { owned_by = SAV }
-				}
-				add_permanent_claim = PREV
+			add_permanent_claim = PREV
+		}
+		burgundian_superregion = {
+			limit = {
+				NOT = { is_core = PREV }
+				NOT = { is_part_of_hre = yes }
+				NOT = { region = brittany_region }
+				NOT = { owned_by = ENG }
+				NOT = { owned_by = PAP }
+				NOT = { owned_by = ORA }
+				NOT = { owned_by = SAV }
+				NOT = { owned_by = AVI }
 			}
-			burgundian_superregion = {
-				limit = {
-					NOT = { is_core = PREV }
-					NOT = { is_part_of_hre = yes }
-					NOT = { region = brittany_region }
-					NOT = { owned_by = ENG }
-					NOT = { owned_by = PAP }
-					NOT = { owned_by = ORA }
-					NOT = { owned_by = SAV }
-				}
-				add_permanent_claim = PREV
-			}
+			add_permanent_claim = PREV
 		}
 	}
 
 	if = {
-		limit = { 4061 = { religion = cathar } }
-		4061 = { add_reform_center = cathar }
-	}
-	if = {
-		limit = {
-			2433 = { religion = bogomilist }
-			NOT = { is_year = 1305 }
+		limit = { always = no } #???
+		every_province = {
+			limit = {
+				religion = catholic
+				owner = { religion = catholique }
+			}
+			change_religion = catholique
 		}
-		2433 = { add_reform_center = bogomilist }
 	}
+
 	if = {
-		limit = { 2383 = { religion = anabaptist } }
-		2383 = { add_reform_center = anabaptist }
-	}
-	if = {
-		limit = { 1837 = { religion = fraticelli } }
-		1837 = { add_reform_center = fraticelli }
-	}
-	if = {
-		limit = { 1238 = { religion = anabaptist } }
-		1238 = { add_reform_center = anabaptist }
-	}
-	if = {
-		limit = { 1133 = { religion = lollardy } }
-		1133 = { add_reform_center = lollardy }
-	}
-	if = {
-		limit = { 541 = { religion = waldensian } }
-		541 = { add_reform_center = waldensian }
-	}
-	if = {
-		limit = { 
-			781 = { religion = hussite }
-			NOT = { is_year = 1471 }
-		}
-		781 = { add_reform_center = hussite }
-	}
-	if = {
-		limit = { 781 = { religion = protestant } }
-		781 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 59 = { religion = protestant } }
-		59 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 656 = { religion = protestant } }
-		656 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 2458 = { religion = protestant } }
-		2458 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 81 = { religion = protestant } }
-		81 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 2230 = { religion = protestant } }
-		2230 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 2467 = { religion = reformed } }
-		2467 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 2621 = { religion = reformed } }
-		2621 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 328 = { religion = reformed } }
-		328 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 1123 = { religion = reformed } }
-		1123 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 1123 = { religion = zwinglianist } }
-		1123 = { add_reform_center = zwinglianist }
-	}
-	if = {
-		limit = { 2359 = { religion = reformed } }
-		2359 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 210 = { religion = zwinglianist } }
-		210 = { add_reform_center = zwinglianist }
+		limit = { NOT = { has_global_flag = init_rel } }
+		set_global_flag = init_rel
+		init_centre_of_reformation = yes
+		init_reform_desire = yes
+		calc_catholic_tags = yes
 	}
 
 	if = {
@@ -143,205 +71,6 @@ on_startup = {
 			limit = { government = celestial_empire }
 			change_government = feudal_monarchy
 		}
-	}
-
-	if = {
-		limit = {
-			tag = SMX
-			OR = {
-				AND = {
-					started_in = 1100.1.1
-					NOT = { started_in = 1110.1.1 }
-				}
-				AND = {
-					started_in = 1200.1.1
-					NOT = { started_in = 1210.1.1 }
-				}
-				AND = {
-					started_in = 1253.1.1
-					NOT = { started_in = 1260.1.1 }
-				}
-				AND = {
-					started_in = 1318.1.1
-					NOT = { started_in = 1330.1.1 }
-				}
-				AND = {
-					started_in = 1381.1.1
-					NOT = { started_in = 1385.1.1 }
-				}
-				AND = {
-					started_in = 1415.1.1
-					NOT = { started_in = 1430.1.1 }
-				}
-			}
-		}
-		add_reform_desire = 0.15
-	}
-
-	if = {
-		limit = {
-			tag = SMX
-			OR = {
-				AND = {
-					started_in = 1110.1.1
-					NOT = { started_in = 1120.1.1 }
-				}
-				AND = {
-					started_in = 1210.1.1
-					NOT = { started_in = 1220.1.1 }
-				}
-				AND = {
-					started_in = 1260.1.1
-					NOT = { started_in = 1270.1.1 }
-				}
-				AND = {
-					started_in = 1330.1.1
-					NOT = { started_in = 1340.1.1 }
-				}
-				AND = {
-					started_in = 1385.1.1
-					NOT = { started_in = 1390.1.1 }
-				}
-				AND = {
-					started_in = 1430.1.1
-					NOT = { started_in = 1445.1.1 }
-				}
-			}
-		}
-		add_reform_desire = 0.3
-	}
-
-	if = {
-		limit = {
-			tag = SMX
-			OR = {
-				AND = {
-					started_in = 1120.1.1
-					NOT = { started_in = 1130.1.1 }
-				}
-				AND = {
-					started_in = 1220.1.1
-					NOT = { started_in = 1225.1.1 }
-				}
-				AND = {
-					started_in = 1270.1.1
-					NOT = { started_in = 1280.1.1 }
-				}
-				AND = {
-					started_in = 1340.1.1
-					NOT = { started_in = 1350.1.1 }
-				}
-				AND = {
-					started_in = 1390.1.1
-					NOT = { started_in = 1395.1.1 }
-				}
-				AND = {
-					started_in = 1445.1.1
-					NOT = { started_in = 1460.1.1 }
-				}
-			}
-		}
-		add_reform_desire = 0.45
-	}
-
-	if = {
-		limit = {
-			tag = SMX
-			OR = {
-				AND = {
-					started_in = 1130.1.1
-					NOT = { started_in = 1140.1.1 }
-				}
-				AND = {
-					started_in = 1225.1.1
-					NOT = { started_in = 1230.1.1 }
-				}
-				AND = {
-					started_in = 1280.1.1
-					NOT = { started_in = 1290.1.1 }
-				}
-				AND = {
-					started_in = 1350.1.1
-					NOT = { started_in = 1360.1.1 }
-				}
-				AND = {
-					started_in = 1395.1.1
-					NOT = { started_in = 1400.1.1 }
-				}
-				AND = {
-					started_in = 1460.1.1
-					NOT = { started_in = 1475.1.1 }
-				}
-			}
-		}
-		add_reform_desire = 0.6
-	}
-
-	if = {
-		limit = {
-			tag = SMX
-			OR = {
-				AND = {
-					started_in = 1140.1.1
-					NOT = { started_in = 1150.1.1 }
-				}
-				AND = {
-					started_in = 1230.1.1
-					NOT = { started_in = 1240.1.1 }
-				}
-				AND = {
-					started_in = 1290.1.1
-					NOT = { started_in = 1300.1.1 }
-				}
-				AND = {
-					started_in = 1360.1.1
-					NOT = { started_in = 1370.1.1 }
-				}
-				AND = {
-					started_in = 1400.1.1
-					NOT = { started_in = 1405.1.1 }
-				}
-				AND = {
-					started_in = 1475.1.1
-					NOT = { started_in = 1490.1.1 }
-				}
-			}
-		}
-		add_reform_desire = 0.75
-	}
-
-	if = {
-		limit = {
-			tag = SMX
-			OR = {
-				AND = {
-					started_in = 1150.1.1
-					NOT = { started_in = 1167.1.1 }
-				}
-				AND = {
-					started_in = 1167.1.1
-					NOT = { started_in = 1173.1.1 }
-				}
-				AND = {
-					started_in = 1240.1.1
-					NOT = { started_in = 1253.1.1 }
-				}
-				AND = {
-					started_in = 1300.1.1
-					NOT = { started_in = 1318.1.1 }
-				}
-				AND = {
-					started_in = 1370.1.1
-					NOT = { started_in = 1381.1.1 }
-				}
-				AND = {
-					started_in = 1405.1.1
-					NOT = { started_in = 1415.1.1 }
-				}
-				started_in = 1490.1.1
-			}
-		}
-		add_reform_desire = 0.9
 	}
 
 	#Vanilla
@@ -645,12 +374,12 @@ on_new_monarch = {
 			remove_province_modifier = domain_of_spouses_family
 		}
 	}
+	ambrosian_republic_effect = yes
 	succession_culture_religion_effect = yes
 	sheik_ul_islam_effect = yes
 	events = {
 		tribal_succession.1		# Harsh anti-tribals
 		9492 					# Remove some event modifiers
-		flavor_mlo.1			# The Ambrosian Republic
 		flavor_boh.8			# Winter King in Prague
 		flavor_kol.1			# Bavarian Archbishop
 		war_of_the_roses.101	# WotR - House of Lancaster wins
@@ -1512,11 +1241,19 @@ on_bi_yearly_pulse = {
 		100 = reforms.3
 		100 = reforms.4		
 
+		100 = randomeventsstapehordes.4
+		100 = randomeventsstapehordes.5
+		100 = randomeventsstapehordes.6
+		100 = randomeventsstapehordes.7
+		100 = randomeventsstapehordes.8
+		100 = randomeventsstapehordes.13
 		100 = randomeventsstapehordes.17
 		100 = randomeventsstapehordes.18
 		100 = randomeventsstapehordes.19
 		100 = randomeventsstapehordes.20
 		100 = randomeventsstapehordes.21
+		100 = randomeventsstapehordes.22
+		100 = randomeventsstapehordes.23
 
 		# Sailor events
 		100 = sailor_event.1
@@ -1643,6 +1380,10 @@ on_bi_yearly_pulse_3 = {
 }
 
 on_bi_yearly_pulse_4 = {
+	if = {
+		limit = { owns = 2708 }
+		calc_catholic_tags = yes
+	}
 }
 
 # country random events
@@ -1688,7 +1429,30 @@ on_thri_yearly_pulse = {
 		100 = republics.40
 		100 = republics.41
 		100 = republics.42
-		100 = republics.43		
+		100 = republics.43	
+
+		#Cantons
+		100 = fbievents.31
+		100 = fbievents.32
+		100 = fbievents.33
+		100 = fbievents.34
+		100 = fbievents.35
+
+		#Communes
+		100 = fbievents.37
+		100 = fbievents.38
+		100 = fbievents.39
+		100 = fbievents.40
+		100 = fbievents.41
+		100 = fbievents.42
+
+		#Easterns
+		100 = fbievents.43
+		100 = fbievents.44
+		100 = fbievents.45
+		100 = fbievents.46
+		100 = fbievents.47
+		100 = fbievents.48
 		
 		# Theocracies
 		100 = devotion_events.1
@@ -1927,6 +1691,29 @@ on_four_year_pulse = {
 		100 = revolutionary_republic_factions.7
 		100 = revolutionary_republic_factions.8
 		100 = revolutionary_republic_factions.9
+
+		#Monastic Factions
+
+		100 = fbievents.11
+		100 = fbievents.12
+		100 = fbievents.13
+		100 = fbievents.14
+		100 = fbievents.15
+		100 = fbievents.16
+		100 = fbievents.17
+		100 = fbievents.18
+		100 = fbievents.19
+		100 = fbievents.20
+
+		#Turkish Factions
+
+		100 = fbievents.22
+		100 = fbievents.23
+		100 = fbievents.24
+		100 = fbievents.25
+		100 = fbievents.26
+		100 = fbievents.27
+		100 = fbievents.28
 
 		# Republican Dictatorship
 		100 = republican_dictatorship.1

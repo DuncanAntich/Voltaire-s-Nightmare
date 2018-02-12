@@ -9,7 +9,10 @@
 coptic_alexandria = {
 	potential = {
 		normal_or_historical_nations = yes
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 
 	trigger = {
@@ -30,6 +33,7 @@ non_catholic_rome = {
 	potential = {
 		normal_or_historical_nations = yes
 		NOT = { religion = catholic }
+		NOT = { religion = catholique }
 		OR = {
 			religion_group = christian
 			religion_group = muslim
@@ -44,8 +48,6 @@ non_catholic_rome = {
 	missionaries = 1
 	#icon = 9
 }
-
-
 
 ######################################
 # Catholic control of Rome.
@@ -79,6 +81,40 @@ papal_subjugation = {
 	trigger = {	
 		overlord_of = PAP
 		NOT = { tag = ITA }
+	}
+
+	diplomatic_reputation = -2
+	#icon = 9
+}
+
+######################################
+# Catholique control of Avignon.
+######################################
+catholique_avignon = {
+	potential = {
+		normal_or_historical_nations = yes
+		religion = catholique
+		NOT = { tag = AVI }
+	}
+
+	trigger = {	
+		NOT = { overlord_of = AVI }
+		owns_or_vassal_of = 202 # Avignon
+	}
+
+	papal_influence = -10
+	diplomatic_reputation = -1
+	#icon = 9
+}
+
+papal_subjugation_anti = {
+	potential = {
+		normal_or_historical_nations = yes
+		religion = catholique
+	}
+
+	trigger = {	
+		overlord_of = AVI
 	}
 
 	diplomatic_reputation = -2
@@ -186,15 +222,17 @@ reaction = {
 ######################################
 crusader = {
 	potential = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		crusade_target = {
 			exists = yes
 		}
 		
 	}
 
-	trigger = {
-		
+	trigger = {		
 		crusade_target = {
 			war_with = ROOT
 			any_province = {
@@ -218,7 +256,10 @@ crusader = {
 ######################################
 excommunication = {
 	potential = {
-		religion = catholic	
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 
 	trigger = {
@@ -267,15 +308,18 @@ hre_dominant_catholic = {
 		}
 		OR = {
 			religion = catholic
+			religion = catholique
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 	}
 
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		hre_religion = catholic
 		hre_religion_locked = yes
 	}
@@ -293,9 +337,9 @@ hre_dominant_protestant = {
 		}
 		OR = {
 			religion = catholic
+			religion = catholique
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 	}
@@ -304,7 +348,6 @@ hre_dominant_protestant = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 		}
 		hre_religion = protestant

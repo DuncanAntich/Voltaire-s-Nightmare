@@ -90,6 +90,7 @@ capital = 328	# Amsterdam
 		dynasty = "von Salm"
 		birth_date = 1120.1.1
 		death_date = 1176.9.26
+		culture = low_elbish
 		female = yes
 		adm = 2
 		dip = 2
@@ -126,6 +127,7 @@ capital = 328	# Amsterdam
 		dynasty = "Dùn Chailleann"
 		birth_date = 1146.1.1
 		death_date = 1206.1.1
+		culture = highland_scottish
 		female = yes
 		adm = 2
 		dip = 2
@@ -182,6 +184,7 @@ capital = 328	# Amsterdam
 		dynasty = "de Reginar"
 		birth_date = 1190.1.1
 		death_date = 1260.6.1
+		culture = brabantian
 		female = yes
 		adm = 2
 		dip = 2
@@ -341,7 +344,83 @@ capital = 328	# Amsterdam
 		mil = 2
 	}
 }
-#under various BAV states
+1345.9.26 = {
+	monarch = {
+		name = "Margaretha"
+		dynasty = "d'Avesnes"
+		birth_date = 1311.1.1
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	heir = {
+		name = "Willem"
+		monarch_name = "Willem V"
+		dynasty = "von Wittelsbach"
+		birth_date = 1330.5.12
+		death_date = 1389.4.15
+		claim = 85
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+}
+1353.1.1 = {
+	monarch = {
+		name = "Willem V"
+		dynasty = "von Wittelsbach"
+		birth_date = 1330.5.12
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+	queen = {
+		country_of_origin = ENG
+		name = "Maud"
+		dynasty = "Lancaster"
+		female = yes
+		culture = english
+		birth_date = 1339.4.4
+		death_date = 1362.4.10
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1368.1.1 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1368.1.1
+		death_date = 1397.1.21
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1389.4.15 = {
+	monarch = {
+		name = "Albrecht I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1368.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1397.1.21 = {
+	monarch = {
+		name = "Willem VI"
+		dynasty = "von Wittelsbach"
+		birth_date = 1365.4.5
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1417.5.31 = {
 	monarch = {
 		name = "Jakoba"

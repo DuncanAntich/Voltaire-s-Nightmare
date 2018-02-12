@@ -61,11 +61,22 @@ country_event = {
 				value = 75 
 			}
 		}
-		reverse_has_opinion = {
-			who = PAP
-			value = 50
+		OR = {
+			AND = {
+				reverse_has_opinion = {
+					who = PAP
+					value = 50
+				}
+				religion = catholic
+			}
+			AND = {
+				reverse_has_opinion = {
+					who = AVI
+					value = 50
+				}
+				religion = catholique
+			}
 		}
-		religion = catholic
 		NOT = {
 			num_of_cities = 12
 		}
@@ -83,10 +94,22 @@ country_event = {
 				modifier = opinion_emperor_tus_refused
 			}
 		}
-		PAP = {
-			add_opinion = {
-				who = TUS
-				modifier = opinion_papal_tus_refused
+		if = {
+			limit = { religion = catholic }
+			PAP = {
+				add_opinion = {
+					who = TUS
+					modifier = opinion_papal_tus_refused
+				}
+			}
+		}
+		if = {
+			limit = { religion = catholique }
+			AVI = {
+				add_opinion = {
+					who = TUS
+					modifier = opinion_papal_tus_refused
+				}
 			}
 		}
 		add_legitimacy = -10
@@ -106,10 +129,22 @@ country_event = {
 				modifier = opinion_emperor_tus_yielded
 			}
 		}
-		PAP = {
-			add_opinion = {
-				who = TUS
-				modifier = opinion_papal_tus_yielded
+		if = {
+			limit = { religion = catholic }
+			PAP = {
+				add_opinion = {
+					who = TUS
+					modifier = opinion_papal_tus_yielded
+				}
+			}
+		}
+		if = {
+			limit = { religion = catholique }
+			AVI = {
+				add_opinion = {
+					who = TUS
+					modifier = opinion_papal_tus_yielded
+				}
 			}
 		}
 	}

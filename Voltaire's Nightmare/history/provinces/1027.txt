@@ -24,3 +24,5 @@ fort_14th = yes
 1629.5.22 = { controller = DAN }
 1644.1.25 = { controller = SWE }
 1645.8.13 = { controller = DAN }
+discovered_by = nomad_group
+discovered_by = north_american

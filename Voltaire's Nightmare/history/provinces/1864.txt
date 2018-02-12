@@ -26,24 +26,18 @@ discovered_by = muslim
 	remove_core = HOL
 }
 1500.1.1 = {
-	owner = HAB
-	controller = HAB
-	add_core = HAB
+	owner = HOL
+	controller = HOL
+	add_core = HOL
 	remove_core = TSL
 	hre = yes
-}
-1519.1.12 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = HAB
 }
 1536.1.1 = { religion = anabaptist }
 1549.11.4 = { 
 	owner = NED
 	controller = NED
 	add_core = NED
-	remove_core = SPA
+	remove_core = HOL
 	religion = reformed
 }
 1648.10.24 = { hre = no }
@@ -57,3 +51,5 @@ discovered_by = muslim
 	controller = NED
 	remove_core = FRA
 }
+discovered_by = nomad_group
+discovered_by = north_american

@@ -5,6 +5,10 @@ religion = catholic
 primary_culture = arpitan
 capital = 544	# Vienne
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1054.1.1 = {
 	monarch = {
 		name = "Guigues I"

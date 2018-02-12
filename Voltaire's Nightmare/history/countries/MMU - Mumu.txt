@@ -37,11 +37,24 @@ capital = 921
 		monarch_name = "Muirchertach"
 		dynasty = "Ó Briain"
 		birth_date = 1050.1.1
-		death_date = 1119.3.10
+		death_date = 1072.1.1 #to DBL
 		claim = 95
 		adm = 2
 		dip = 1
 		mil = 2
+	}
+}
+1072.1.1 = {
+	heir = {
+		name = "Tadhg"
+		monarch_name = "Tadhg II"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		death_date = 1086.1.1
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
 	}
 }
 1086.1.1 = {
@@ -52,6 +65,17 @@ capital = 921
 		adm = 2
 		dip = 1
 		mil = 2
+	}
+	heir = {
+		name = "Diarmait"
+		monarch_name = "Diarmait I"
+		dynasty = "Ó Briain"
+		birth_date = 1060.1.1
+		death_date = 1118.1.1
+		claim = 85
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
 1114.1.1 = {

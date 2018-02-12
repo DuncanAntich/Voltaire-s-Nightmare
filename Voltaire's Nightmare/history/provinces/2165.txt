@@ -51,3 +51,5 @@ fort_14th = yes
 1812.5.28 = { controller = WAL }
 1853.10.1 = { controller = RUS } 
 1854.2.27 = { controller = WAL }
+discovered_by = nomad_group
+discovered_by = north_american

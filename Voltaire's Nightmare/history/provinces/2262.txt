@@ -51,3 +51,5 @@ fort_14th = yes
 1592.1.1 = { fort_15th = no fort_16th = yes }
 1648.1.1 = { fort_16th = no fort_17th = yes }
 1715.1.1 = { fort_17th = no fort_18th = yes }
+discovered_by = nomad_group
+discovered_by = north_american

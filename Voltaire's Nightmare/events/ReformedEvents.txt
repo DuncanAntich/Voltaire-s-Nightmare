@@ -419,7 +419,10 @@ province_event = {
 				continent = europe
 			}
 		}
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		continent = europe
 		NOT = { has_province_flag = iconoclastic_fury }
 		NOT = { has_province_flag = stopped_iconoclastic_fury }

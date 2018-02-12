@@ -108,6 +108,7 @@ capital = 2975
 		dynasty = "Karling"
 		birth_date = 1205.1.1
 		death_date = 1271.1.17
+		culture = wallonian
 		female = yes
 		adm = 2 
 		dip = 2

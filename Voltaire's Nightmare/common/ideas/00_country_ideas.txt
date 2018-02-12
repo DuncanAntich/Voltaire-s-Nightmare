@@ -2055,7 +2055,7 @@ ALB_ideas = {
 	
 	all_lands_under_skanderbeg = {
 		land_forcelimit_modifier = 0.2
-		diplomatic_upkeep = 4
+		diplomatic_upkeep = 2
 	}
 	land_of_ambushers = {
 		leader_land_manuever = 1		
@@ -2326,7 +2326,7 @@ HAM_ideas = {
 
 TRA_ideas = {
 	start = {
-		global_manpower_modifier = 0.1
+		tolerance_heretic = 3
 		defensiveness = 0.15
 	}
 
@@ -2352,7 +2352,7 @@ TRA_ideas = {
 		global_tax_modifier = 0.1
 	}
 	patent_of_toleration = {
-		tolerance_heretic = 3
+		global_manpower_modifier = 0.1
 	}
 	unitarian_zeal = {
 		tolerance_own = 2

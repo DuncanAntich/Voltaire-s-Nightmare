@@ -151,7 +151,10 @@ country_event = {
 		NOT = { war_with = FRA }
 		is_year = 1529
 		NOT = { is_year = 1555 }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -184,7 +187,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		tag = SCO
 		is_year = 1546
 		NOT = { is_year = 1570 }
@@ -232,7 +238,10 @@ country_event = {
 		tag = SCO
 		is_year = 1557
 		NOT = { is_year = 1583 }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -243,7 +252,12 @@ country_event = {
 		name = "flavor_sco.EVTOPTA5" #Support the Lords of the Congregation
 		add_stability = -1
 		every_owned_province = {
-			limit = { religion = catholic }
+			limit = {
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
+			}
 			add_province_modifier = {
 				name = add_unrest_5_modifier
 				duration = 1825
@@ -478,7 +492,10 @@ country_event = {
 		if = {
 			limit = {
 				is_excommunicated = no
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 			}
 			excommunicate = ROOT
 		}

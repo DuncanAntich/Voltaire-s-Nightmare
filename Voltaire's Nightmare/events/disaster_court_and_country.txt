@@ -755,6 +755,7 @@ country_event = {
 		add_legitimacy = 10
 		add_devotion = 10
 		add_republican_tradition = 5
+		add_horde_unity = 10
 		add_prestige = 10
 	}
 }

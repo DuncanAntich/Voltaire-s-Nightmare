@@ -72,3 +72,5 @@ fort_14th = yes
 1823.10.1 = { controller = SPA }
 1833.9.29 = { unrest = 8 }
 1839.5.13 = { unrest = 0 }
+discovered_by = nomad_group
+discovered_by = north_american

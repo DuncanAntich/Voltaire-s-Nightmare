@@ -1486,53 +1486,53 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_earthwork_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_earthwork.tga"
+		name = "GFX_native_earthwork"
+		texturefile = "gfx//interface//buildings//native_earthwork.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_palisade_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_palisade.tga"
+		name = "GFX_native_palisade"
+		texturefile = "gfx//interface//buildings//native_palisade.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_fortified_house_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_fortified_house.tga"
+		name = "GFX_native_fortified_house"
+		texturefile = "gfx//interface//buildings//native_fortified_house.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_three_sisters_field_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_three_sisters_field.tga"
+		name = "GFX_native_three_sisters_field"
+		texturefile = "gfx//interface//buildings//native_three_sisters_field.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_irrigation_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_irrigation.tga"
+		name = "GFX_native_irrigation"
+		texturefile = "gfx//interface//buildings//native_irrigation.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_storehouse_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_storehouse.tga"
+		name = "GFX_native_storehouse"
+		texturefile = "gfx//interface//buildings//native_storehouse.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_longhouse_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_longhouse.tga"
+		name = "GFX_native_longhouse"
+		texturefile = "gfx//interface//buildings//native_longhouse.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_sweat_lodge_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_sweat_lodge.tga"
+		name = "GFX_native_sweat_lodge"
+		texturefile = "gfx//interface//buildings//native_sweat_lodge.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_great_trail_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_great_trail.tga"
+		name = "GFX_native_great_trail"
+		texturefile = "gfx//interface//buildings//native_great_trail.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_native_ceremonial_fire_pit_northamericagfx"
-		texturefile = "gfx//interface//buildings//native_ceremonial_fire_pit.tga"
+		name = "GFX_native_ceremonial_fire_pit"
+		texturefile = "gfx//interface//buildings//native_ceremonial_fire_pit.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {

@@ -39,3 +39,5 @@ discovered_by = muslim
 }
 1798.5.23 = { unrest = 10 }
 1798.7.14 = { unrest = 0 }
+discovered_by = nomad_group
+discovered_by = north_american

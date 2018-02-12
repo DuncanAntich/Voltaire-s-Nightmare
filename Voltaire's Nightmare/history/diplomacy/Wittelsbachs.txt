@@ -1,16 +1,3 @@
-union = {
-	first = LSH
-	second = BRA
-	start_date = 1320.7.1
-	end_date = 1323.1.1
-}
-union = {
-	first = BRA
-	second = MUL
-	start_date = 1349.1.1
-	end_date = 1351.1.1
-}
-
 #Elector palatine originally BAV
 union = {
 	first = BAV

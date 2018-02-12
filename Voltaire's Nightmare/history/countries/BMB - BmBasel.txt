@@ -78,7 +78,7 @@ fixed_capital = 1759
 }
 1179.1.1 = {
 	monarch = {
-		name = "Hughes"
+		name = "Hugues"
 		dynasty = "von Hasenburg"
 		adm = 2
 		dip = 2
@@ -351,7 +351,7 @@ fixed_capital = 1759
 		mil = 2
 	}
 }
-1528.1.1 = { religion = zwinglianist }
+1528.1.1 = { religion = reformed }
 1533.1.1 = {
 	monarch = {
 		name = "Melchior"
@@ -362,7 +362,6 @@ fixed_capital = 1759
 		mil = 2
 	}
 }
-1551.1.1 = { religion = reformed }
 1575.1.1 = {
 	monarch = {
 		name = "Jacob"

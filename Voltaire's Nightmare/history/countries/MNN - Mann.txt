@@ -6,6 +6,21 @@ primary_culture = manxculture
 capital = 108
 fixed_capital = 108
 
+#Expelled from Dublin
+1052.1.1 = {
+	monarch = {
+		name = "Echmarcach"
+		dynasty = "” Õmair"
+		birth_date = 1010.1.1
+		culture = gallowglass
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+#united 1061
+
+#Kings of Mann
 1164.1.1 = {
 	monarch = {
 		name = "Rognvaldr"
@@ -35,7 +50,7 @@ fixed_capital = 108
 }
 1229.2.14 = {
 	monarch = {
-		name = "√ìl√°fr"
+		name = "”l·fr"
 		dynasty = "Crovan"
 		adm = 2
 		dip = 2

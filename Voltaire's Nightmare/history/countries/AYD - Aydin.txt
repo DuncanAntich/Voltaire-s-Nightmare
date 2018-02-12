@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = ottoman_government
 government_rank = 3
 primary_culture = turkish
 religion = sunni

@@ -22,7 +22,10 @@ country_event = {
 		is_year = 1446
 		NOT = { is_year = 1457 }
 		is_at_war = no
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_free_or_tributary_trigger = yes
 		NOT = { current_age = age_of_empire }
 		any_owned_province = {
@@ -72,12 +75,20 @@ country_event = {
 			duration = -1
 		}
 		set_country_flag = boh_supported_hussites
-		PAP = {
-			country_event = { id = flavor_boh.9 }
+		if = {
+			limit = { religion = catholic }
+			PAP = { country_event = { id = flavor_boh.9 } }
+		}
+		if = {
+			limit = { religion = catholique }
+			AVI = { country_event = { id = flavor_boh.9 } }
 		}
 		every_known_country = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				is_free_or_tributary_trigger = yes
 				OR = {
 					is_neighbor_of = ROOT
@@ -111,9 +122,25 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { exists = PAP }
+			limit = {
+				exists = PAP
+				religion = catholic
+			}
 			add_papal_influence = 5
 			PAP = {
+				add_opinion = {
+					who = root
+					modifier = boh_papal_reconciled
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = AVI
+				religion = catholique
+			}
+			add_papal_influence = 5
+			AVI = {
 				add_opinion = {
 					who = root
 					modifier = boh_papal_reconciled
@@ -215,7 +242,10 @@ country_event = {
 		custom_tooltip = flavor_boh.2.3
 		every_known_country = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				is_free_or_tributary_trigger = yes
 				OR = {
 					is_neighbor_of = ROOT
@@ -278,7 +308,10 @@ country_event = {
 			limit = {
 				is_neighbor_of = HUN
 				HUN = {
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					has_regency = no
 				}
 			}
@@ -413,7 +446,10 @@ country_event = {
 	trigger = {
 		owns = 781
 		is_religion_enabled = protestant
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		NOT = { religion_years = { protestant = 100 } }
 		NOT = { government = papal_government }
 		any_owned_province = {
@@ -429,8 +465,17 @@ country_event = {
 		months = 120
 		modifier = {
 			factor = 0.75
+			religion = catholic
 			num_of_religion = {
 				religion = catholic
+				value = 0.5
+			}			
+		}
+		modifier = {
+			factor = 0.75
+			religion = catholique
+			num_of_religion = {
+				religion = catholique
 				value = 0.5
 			}			
 		}
@@ -474,7 +519,10 @@ country_event = {
 	trigger = {
 		tag = BOH
 		is_emperor = no
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		any_owned_province = {
 			religion = protestant
 			culture = czech
@@ -507,7 +555,10 @@ country_event = {
 		every_neighbor_country = {
 			limit = {
 				is_emperor = no
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				num_of_cities = 10
 			}
 			add_casus_belli = {	
@@ -591,10 +642,22 @@ country_event = {
 	
 	option = {
 		name = flavor_boh.11.a
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = boh_papal_reconciled
+		if = {
+			limit = { religion = catholic }
+			PAP = {
+				add_opinion = {
+					who = ROOT
+					modifier = boh_papal_reconciled
+				}
+			}
+		}
+		if = {
+			limit = { religion = catholique }
+			AVI = {
+				add_opinion = {
+					who = ROOT
+					modifier = boh_papal_reconciled
+				}
 			}
 		}
 	}

@@ -25,5 +25,4 @@ fixed_capital = 1158
 	}
 }
 1353.1.1 = { government = canton_government }
-1531.1.1 = { religion = zwinglianist }
-1551.1.1 = { religion = reformed }
+1531.1.1 = { religion = reformed }

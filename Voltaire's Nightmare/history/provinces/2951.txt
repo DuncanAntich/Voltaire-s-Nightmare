@@ -57,3 +57,5 @@ fort_14th = yes
 	revolt = {}
 	controller = POR
 }
+discovered_by = nomad_group
+discovered_by = north_american

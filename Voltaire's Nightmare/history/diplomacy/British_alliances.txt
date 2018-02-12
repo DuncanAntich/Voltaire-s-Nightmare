@@ -478,17 +478,3 @@ royal_marriage = {
 	start_date = 1673.9.30
 	end_date = 1688.12.11
 }
-
-#some weird stuff
-alliance = {
-	first = LEI
-	second = GLY
-	start_date = 1061.1.1
-	end_date = 1070.1.1
-}
-union = {
-	first = LEI
-	second = GLY
-	start_date = 1070.1.1
-	end_date = 1072.2.7
-}

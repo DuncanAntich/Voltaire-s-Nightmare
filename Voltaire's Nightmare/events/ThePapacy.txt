@@ -629,7 +629,7 @@ country_event = {
 			has_country_modifier = pap_indulgences
 		}
 		reform_desire = 0.50
-		has_global_flag = hussite_heresy_g
+		has_institution = laytheology
 		NOT = { is_religion_enabled = protestant }
 	}
 	
@@ -686,8 +686,7 @@ country_event = {
 		NOT = {
 			has_country_modifier = pap_simony
 		}
-		reform_desire = 0.50
-		has_global_flag = hussite_heresy_g
+		reform_desire = 0.75
 		NOT = { is_religion_enabled = protestant }
 	}
 	
