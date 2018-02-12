@@ -1,4 +1,3 @@
-3190 = "Youghal"
 855 = "King's County"
 258 = "Cork"
 2959 = "Kerry"

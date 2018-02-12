@@ -1,6 +1,6 @@
-government = steppe_horde
+government = tribal_federation
 government_rank = 3
-technology_group = nomad_group
+technology_group = eastern
 primary_culture = cuman
 religion = tengri_pagan_reformed
 secondary_religion = orthodox

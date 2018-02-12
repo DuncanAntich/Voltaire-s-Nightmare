@@ -9,28 +9,15 @@ capital = 2425
 	monarch = {
 		name = "Manfredo"
 		dynasty = "Pico"
-		birth_date = 1282.1.1
 		adm = 3
 		dip = 4
 		mil = 3
-	}
-	heir = {
-		name = "Galasso"
-		monarch_name = "Galasso"
-		dynasty = "Pico"
-		birth_date = 1300.1.1
-		death_date = 1367.3.13
-		claim = 85
-		adm = 2
-		dip = 2
-		mil = 2
 	}
 }
 1348.9.12 = {
 	monarch = {
 		name = "Galasso"
 		dynasty = "Pico"
-		birth_date = 1300.1.1
 		adm = 2
 		dip = 2
 		mil = 2
@@ -46,34 +33,11 @@ capital = 2425
 		dip = 2
 		mil = 2
 	}
-	heir = {
-		name = "Giberto"
-		monarch_name = "Giberto"
-		dynasty = "Pico"
-		birth_date = 1319.1.1
-		death_date = 1389.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
-	}
 }
 1367.3.13 = {
 	monarch = {
 		name = "Giberto"
 		dynasty = "Pico"
-		birth_date = 1319.1.1
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-	heir = {
-		name = "Marco"
-		monarch_name = "Marco"
-		dynasty = "Pico"
-		birth_date = 1350.1.1
-		death_date = 1418.1.1
-		claim = 95
 		adm = 2
 		dip = 2
 		mil = 2
@@ -83,35 +47,22 @@ capital = 2425
 	monarch = {
 		name = "Marco"
 		dynasty = "Pico"
-		birth_date = 1350.1.1
 		adm = 2
 		dip = 2
 		mil = 2
-	}
-}
-1399.1.1 = {
-	heir = {
-		name = "Alberto"
-		monarch_name = "Alberto II"
-		dynasty = "Pico"
-		birth_date = 1399.1.1
-		death_date = 1463.1.1
-		claim = 95
-		adm = 5
-		dip = 4
-		mil = 5
 	}
 }
 1418.1.1 = {
 	monarch = {
 		name = "Alberto II"
 		dynasty = "Pico"
-		birth_date = 1399.1.1
+		birth_date = 1400.1.1
 		adm = 5
 		dip = 4
 		mil = 5
 	}
 }
+
 1440.1.1 = {
 	heir = {
 		name = "Lionello"
@@ -125,6 +76,7 @@ capital = 2425
 		mil = 6
 	}
 }
+
 1463.1.1 = {
 	monarch = {
 		name = "Lionello"
@@ -135,6 +87,7 @@ capital = 2425
 		mil = 6
 	}
 }
+
 1475.7.23 = {
 	heir = {
 		name = "Alberto"
@@ -148,6 +101,7 @@ capital = 2425
 		mil = 1
 	}
 }
+
 1480.1.1 = {
 	monarch = {
 		name = "Marco Pico (Regent)"
@@ -168,6 +122,7 @@ capital = 2425
 		mil = 1
 	}
 }
+
 1491.7.23 = {
 	monarch = {
 		name = "Alberto III"
@@ -178,4 +133,5 @@ capital = 2425
 		mil = 1
 	}
 }
+
 #1527 annexed by Ferrara

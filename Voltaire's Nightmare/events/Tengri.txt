@@ -601,18 +601,8 @@ country_event = {
 	}
 	option = {
 		name = tengri_events.11.b
-		if = {
-			limit = {
-				government = steppe_horde
-			}
-			add_country_modifier = {
-				name = "tengri_stood_up_for_yassa"
-				duration = 3650
-			}
-		}
 		add_prestige = -10
 		add_legitimacy = 10
-		add_horde_unity = 10
 		add_devotion = 5
 		add_republican_tradition = 5
 	}
@@ -675,7 +665,6 @@ country_event = {
 			}
 		}
 		add_legitimacy = 10
-		add_horde_unity = 10
 		add_devotion = 5
 		add_republican_tradition = 5
 		custom_tooltip = tengri_events.12.b.tt
@@ -1017,11 +1006,6 @@ country_event = {
 		add_stability = -5
 		kill_heir = yes
 		change_religion = sunni
-		if = {
-			limit = { technology_group = nomad_group }
-			change_technology_group = muslim
-			swap_free_idea_group = yes
-		}
 		define_ruler = {
 			DIP = 3		
 			ADM = 3
@@ -1153,7 +1137,6 @@ country_event = {
 		secondary_religion = catholic
 		exists = PAP
 		NOT = { war_with = PAP }
-		government = steppe_horde
 	}
 	
 	mean_time_to_happen = {
@@ -1179,13 +1162,13 @@ country_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { horde_unity = 50 }
+				NOT = { legitimacy = 50 }
 			}
 		}
 		add_adm_power = 15
 		add_dip_power = 15
 		add_mil_power = 15
-		add_horde_unity = -35
+		add_legitimacy = -35
 	}
 }
 
@@ -1210,10 +1193,11 @@ country_event = {
 			secondary_religion = fraticelli
 			secondary_religion = bogomilist
 			secondary_religion = paulician
+			secondary_religion = zwinglianist
 			secondary_religion = anabaptist
+			secondary_religion = huguenot
 			secondary_religion = anglican
 			secondary_religion = catholic
-			secondary_religion = catholique
 		}
 		any_owned_province = {
 			NOT = { religion_group = christian }
@@ -1374,10 +1358,11 @@ country_event = {
 			secondary_religion = fraticelli
 			secondary_religion = bogomilist
 			secondary_religion = paulician
+			secondary_religion = zwinglianist
 			secondary_religion = anabaptist
+			secondary_religion = huguenot
 			secondary_religion = anglican
 			secondary_religion = catholic
-			secondary_religion = catholique
 		}
 		any_subject_country = {
 			religion_group = christian
@@ -1427,10 +1412,11 @@ country_event = {
 			secondary_religion = fraticelli
 			secondary_religion = bogomilist
 			secondary_religion = paulician
+			secondary_religion = zwinglianist
 			secondary_religion = anabaptist
+			secondary_religion = huguenot
 			secondary_religion = anglican
 			secondary_religion = catholic
-			secondary_religion = catholique
 		}
 		NOT = { stability = 3 }
 	}
@@ -1455,7 +1441,6 @@ country_event = {
 			government = monarchy
 			has_ruler_modifier = tengri_devout_christian_ruler
 		}
-		add_horde_unity = -10
 		add_legitimacy = -10
 		add_devotion = -5
 		add_republican_tradition = -5
@@ -1487,10 +1472,11 @@ country_event = {
 			secondary_religion = fraticelli
 			secondary_religion = bogomilist
 			secondary_religion = paulician
+			secondary_religion = zwinglianist
 			secondary_religion = anabaptist
+			secondary_religion = huguenot
 			secondary_religion = anglican
 			secondary_religion = catholic
-			secondary_religion = catholique
 		}
 		dominant_religion = secondary
 		OR = {
@@ -1588,7 +1574,6 @@ country_event = {
 		OR = {
 			secondary_religion = animism
 			secondary_religion = slavic_pagan
-			secondary_religion = finnish_pagan
 			secondary_religion = hellenic_pagan
 		}
 		NOT = { has_country_modifier = tengri_animist_pantheon }
@@ -1669,7 +1654,6 @@ country_event = {
 	
 	option = {
 		name = tengri_events.57.a #
-		add_horde_unity = 10
 		add_legitimacy = 10
 		add_devotion = 10
 		add_republican_tradition = 5
@@ -1700,7 +1684,6 @@ country_event = {
 	}
 	option = {
 		name = tengri_events.58.b #
-		add_horde_unity = 10
 		add_legitimacy = 10
 		add_devotion = 10
 		add_republican_tradition = 5

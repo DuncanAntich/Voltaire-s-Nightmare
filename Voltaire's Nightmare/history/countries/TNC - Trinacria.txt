@@ -10,7 +10,6 @@ capital = 2041
 		name = "Frederico II"
 		dynasty = "d'Aragó"
 		birth_date = 1272.12.13
-		culture = aragonese
 		dip = 2
 		mil = 4
 		adm = 3
@@ -112,7 +111,6 @@ capital = 2041
 		female = yes
 	}
 }
-1378.9.20 = { religion = catholique }
 1390.1.1 = {
 	queen = {
 		country_of_origin = ARA
@@ -120,7 +118,6 @@ capital = 2041
 		dynasty = "d'Aragó"
 		birth_date = 1374.1.1
 		death_date = 1409.7.25
-		culture = aragonese
 		female = no
 		adm = 2
 		dip = 2
@@ -138,7 +135,6 @@ capital = 2041
 	}
 }
 #1409 done
-1429.7.26 = { religion = catholic }
 
 1806.3.11 = { government = enlightened_despotism }
 1806.3.11 = {

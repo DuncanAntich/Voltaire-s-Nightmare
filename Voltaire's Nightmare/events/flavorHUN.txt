@@ -284,10 +284,7 @@ country_event = {
 		has_regency = no
 		owns = 442 #Pressburg
 		dynasty = "Hunyadi"
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 	}
 	
 	mean_time_to_happen = {
@@ -1205,10 +1202,7 @@ country_event = {
 			tag = HUN
 			tag = TRA
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_year = 1560
 		NOT = { is_year = 1570 }
 		is_religion_enabled = reformed
@@ -1219,9 +1213,8 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					OR = {
-						2359 = { religion = catholic }
-						2359 = { religion = catholique }
+					2359 = {
+						religion = catholic
 					}
 				}
 				2359 = {
@@ -1606,7 +1599,6 @@ country_event = {
 					limit = {
 						OR = {
 							religion = catholic
-							religion = catholique
 							religion_group = muslim
 						}
 					}
@@ -1627,7 +1619,6 @@ country_event = {
 					limit = {
 						OR = {
 							religion = catholic
-							religion = catholique
 							religion_group = muslim
 						}
 					}
@@ -1649,7 +1640,6 @@ country_event = {
 					limit = {
 						OR = {
 							religion = catholic
-							religion = catholique
 							religion_group = muslim
 						}
 					}
@@ -1851,10 +1841,7 @@ country_event = {
 		owns = 2236
 		is_religion_enabled = protestant
 		any_owned_province = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 			culture = hungarian
 		}
 	}
@@ -1867,20 +1854,14 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 					culture = hungarian
 				}
 				set_province_flag = magyar_reform
 			}
 			random_owned_province = {
 				limit = {
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 					OR = {
 						culture = hungarian
 						culture = slovak
@@ -1913,37 +1894,18 @@ country_event = {
 	
 	option = {
 		name = flavor_hun.29.b
-		trigger = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
-		}
+		trigger = { religion = catholic }
 		every_owned_province = {
 			limit = { has_province_flag = magyar_reform }
 			clr_province_flag = magyar_reform
 		}
-		if = {
-			limit = { religion = catholic }
-			define_advisor = {
-				name = "Thomas Szalaházy"
-				culture = hungarian
-				religion = catholic
-				skill = 3
-				discount = yes
-				type = theologian
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			define_advisor = {
-				name = "Thomas Szalaházy"
-				culture = hungarian
-				religion = catholique
-				skill = 3
-				discount = yes
-				type = theologian
-			}
+		define_advisor = {
+			name = "Thomas Szalaházy"
+			culture = hungarian
+			religion = catholic
+			skill = 3
+			discount = yes
+			type = theologian
 		}
 	}
 }

@@ -1,6 +1,6 @@
-government = tribal_democracy
+government = tribal_despotism
 government_rank = 4
-technology_group = north_american
+technology_group = eastern
 religion = animism
 primary_culture = latvian
 capital = 2121
@@ -8,6 +8,7 @@ capital = 2121
 1180.1.1 = {
 	monarch = {
 		name = "Vetseke"
+		dynasty = "Rurikovich"
 		religion = orthodox
 		dip = 3
 		mil = 5

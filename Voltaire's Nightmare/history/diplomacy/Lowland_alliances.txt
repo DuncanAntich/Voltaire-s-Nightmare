@@ -3,7 +3,7 @@ union = {
 	first = BUR
 	second = FLA
 	start_date = 1384.1.30
-	end_date = 1549.11.4
+	end_date = 1477.1.5
 }
 union = {
 	first = FLA
@@ -33,50 +33,19 @@ union = {
 	first = BUR
 	second = BRB
 	start_date = 1406.11.1
-	end_date = 1549.11.4
+	end_date = 1477.1.5
 }
 union = {
 	first = BUR
 	second = HOL
 	start_date = 1433.4.12
-	end_date = 1549.11.4
+	end_date = 1477.1.5
 }
 union = {
 	first = BUR
 	second = GEL
 	start_date = 1473.2.23
 	end_date = 1477.1.5
-}
-union = {
-	first = BUR
-	second = GEL
-	start_date = 1477.6.27
-	end_date = 1492.1.1
-}
-union = {
-	first = BUR
-	second = GEL
-	start_date = 1543.9.7
-	end_date = 1549.11.4
-}
-#Provinces
-union = {
-	first = BUR
-	second = FRI
-	start_date = 1524.1.1
-	end_date = 1549.11.4
-}
-union = {
-	first = BUR
-	second = UTR
-	start_date = 1528.8.21
-	end_date = 1549.11.4
-}
-union = {
-	first = BUR
-	second = GNG
-	start_date = 1536.8.5
-	end_date = 1549.11.4
 }
 
 vassal = {
@@ -93,62 +62,48 @@ vassal = {
 	end_date = 1465.3.1
 }
 
-#Habsburg Netherlands
-royal_marriage = {
-	first = HAB
-	second = BUR
-	start_date = 1477.1.5
-	end_date = 1516.1.23
-}
-alliance = {
-	first = HAB
-	second = BUR
-	start_date = 1477.1.5
-	end_date = 1516.1.23
-}
-royal_marriage = {
-	first = SPA
-	second = BUR
-	start_date = 1516.1.23
-	end_date = 1549.11.4
-}
-alliance = {
-	first = SPA
-	second = BUR
-	start_date = 1516.1.23
-	end_date = 1549.11.4
-}
-royal_marriage = {
-	first = SPA
-	second = BUR
-	start_date = 1579.1.23
-	end_date = 1648.1.30
-}
-alliance = {
-	first = SPA
-	second = BUR
-	start_date = 1579.1.23
-	end_date = 1648.1.30
-}
-
 # Hainaut and Holland
 union = {
 	first = HOL
 	second = HAI
 	start_date = 1299.11.10
+	end_date = 1345.9.26
+}
+union = {
+	first = BAV
+	second = HAI
+	start_date = 1345.9.26
+	end_date = 1349.1.1
+}
+union = {
+	first = BAV
+	second = HOL
+	start_date = 1345.9.26
+	end_date = 1349.1.1
+}
+union = {
+	first = LSH
+	second = HAI
+	start_date = 1349.1.1
 	end_date = 1353.1.1
+}
+union = {
+	first = LSH
+	second = HOL
+	start_date = 1349.1.1
+	end_date = 1353.1.1
+}
+union = {
+	first = SAU
+	second = HAI
+	start_date = 1353.1.1
+	end_date = 1433.4.12
 }
 union = {
 	first = HOL
 	second = HAI
-	start_date = 1356.6.23
+	start_date = 1417.5.31
 	end_date = 1433.4.12
-}
-royal_marriage = {
-	first = BAV
-	second = HOL
-	start_date = 1345.9.26
-	end_date = 1347.10.11
 }
 
 # The Grand Duchy of Luxembourg
@@ -225,7 +180,7 @@ union = {
 union = {
 	first = LBG
 	second = BRD
-	start_date = 1099.7.22
+	start_date = 1100.7.18
 	end_date = 1106.1.1
 }
 

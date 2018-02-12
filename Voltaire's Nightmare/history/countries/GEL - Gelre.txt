@@ -295,7 +295,19 @@ capital = 291	#Gelderen not Coevorde
 		mil = 3
 	}
 }
-#1477.6.27 under BUR
+1477.6.27 = {
+	monarch = {
+		name = "Maria I"
+		dynasty = "de Bourgogne"
+		culture = burgundian
+		birth_date = 1457.2.13
+		adm = 3
+		dip = 4
+		mil = 2
+        female = yes
+	}
+}
+# The Reign of Philip the First is represented as HAB ownership.
 1492.1.1 = {
 	monarch = {
 		name = "Karel II"

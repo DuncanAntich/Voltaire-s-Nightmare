@@ -142,6 +142,7 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
+			religion = zwinglianist
 			religion = anabaptist
 		}
 		NOT = { religious_unity = 1.0 }

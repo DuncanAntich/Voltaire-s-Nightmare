@@ -169,7 +169,6 @@ capital = 2482	# BarDeLuc
 		dynasty = "Plantagenet"
 		birth_date = 1269.6.18
 		death_date = 1298.8.29
-		culture = english
 		female = yes
 		adm = 2
 		dip = 2

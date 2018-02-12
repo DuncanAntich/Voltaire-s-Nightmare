@@ -297,7 +297,6 @@ country_event = {
 		add_adm_power = 75
 		add_legitimacy = 15
 		add_devotion = 7
-		add_horde_unity = 15
 		add_republican_tradition = 7
 	}
 	

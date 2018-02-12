@@ -6,10 +6,6 @@ technology_group = western
 capital = 710
 fixed_capital = 710
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1230.11.11 = {
 	monarch = {
 		name = "Alphonse II"
@@ -25,7 +21,6 @@ fixed_capital = 710
 		dynasty = "de Toulouse"
 		birth_date = 1220.1.1
 		death_date = 1271.8.25
-		culture = occitain
 		female = yes
 		adm = 3
 		dip = 4

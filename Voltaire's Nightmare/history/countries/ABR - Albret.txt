@@ -6,10 +6,6 @@ technology_group = western
 capital = 1767
 fixed_capital = 1767
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1358.1.1 = {
 	monarch = {
 		name = "Arnaud-Amanieu I"

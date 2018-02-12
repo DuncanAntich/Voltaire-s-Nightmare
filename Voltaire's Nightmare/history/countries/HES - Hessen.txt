@@ -186,7 +186,6 @@ capital = 2541	# Marburg
 		dynasty = "von Wettin"
 		birth_date = 1420.6.5
 		death_date = 1462.9.17
-		culture = saxon
 		female = yes
 		adm = 2
 		dip = 2

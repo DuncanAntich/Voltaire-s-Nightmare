@@ -15,7 +15,7 @@ capital = 328
 		mil = 2
 	}
 }
-1558.6.4 = {
+1559.1.1 = {
 	monarch = {
 		name = "Willem I"
 		dynasty = "van Oranje"

@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
-technology_group = north_american
+technology_group = western
 capital = 2203
 
 1054.1.1 = {
@@ -16,7 +16,6 @@ capital = 2203
 }
 1399.1.1 = {
 	government = tribal_despotism
-	technology_group = western
 	monarch = {
 		name = "Bunno"
 		dynasty = "Alberda"

@@ -1,6 +1,6 @@
 # Rum
 government = ottoman_government
-government_rank = 4
+government_rank = 5
 technology_group = ottoman
 primary_culture = turkish
 religion = sunni
@@ -9,15 +9,15 @@ historical_rival = NKA
 historical_rival = BYZ
 religious_school = hanafi_school
 
-1073.1.1 = {
+1077.1.1 = {
 	monarch = {
-		name = "Suleiman I"
+		name = "Suleyman"
 		dynasty = "Seljuk"
 		adm = 4
 		dip = 4
 		mil = 6
 		leader = {
-			name = "Suleiman ibn Qutalmish"
+			name = "Suleyman ibn Qutalmish"
 			type = general
 			fire = 4
 			shock = 4
@@ -29,7 +29,6 @@ religious_school = hanafi_school
 	add_ruler_personality = strict_personality
 	add_ruler_personality = conqueror_personality
 }
-1077.1.1 = { government_rank = 5 }
 1081.1.1 = { capital = 1052 }
 1086.1.1 = {
 	monarch = {
@@ -42,7 +41,7 @@ religious_school = hanafi_school
 }
 1092.1.1 = {
 	monarch = {
-		name = "Kilij I"
+		name = "Kilij Arslan"
 		dynasty = "Seljuk"
 		birth_date = 1079.1.1
 		adm = 2
@@ -51,181 +50,4 @@ religious_school = hanafi_school
 	}
 }
 1097.6.19 = { capital = 57 }
-1107.1.1 = {
-	monarch = {
-		name = "Malik Shah"
-		dynasty = "Seljuk"
-		adm = 0
-		dip = 0
-		mil = 0
-	}
-}
-1116.1.1 = {
-	monarch = {
-		name = "Masud I"
-		dynasty = "Seljuk"
-		adm = 1
-		dip = 4
-		mil = 3
-	}
-}
-1156.1.1 = {
-	monarch = {
-		name = "Kilij II"
-		dynasty = "Seljuk"
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-1167.1.1 = {
-	heir = {
-		name = "Kaykhusraw"
-		monarch_name = "Kaykhusraw I"
-		dynasty = "Seljuk"
-		birth_date = 1167.1.1
-		death_date = 1211.1.1
-		claim = 60
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
-1192.1.1 = {
-	monarch = {
-		name = "Kaykhusraw I"
-		dynasty = "Seljuk"
-		birth_date = 1167.1.1
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-	heir = {
-		name = "Kaykaus"
-		monarch_name = "Kaykaus I"
-		dynasty = "Seljuk"
-		birth_date = 1187.1.1
-		death_date = 1220.1.1
-		claim = 95
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
-1196.1.1 = {
-	monarch = {
-		name = "Suleiman II"
-		dynasty = "Seljuk"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1204.1.1 = {
-	monarch = {
-		name = "Kilij III"
-		dynasty = "Seljuk"
-		adm = 0
-		dip = 1
-		mil = 1
-	}
-}
-1205.1.1 = {
-	monarch = {
-		name = "Kaykhusraw I"
-		dynasty = "Seljuk"
-		birth_date = 1167.1.1
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-	heir = {
-		name = "Kaykaus"
-		monarch_name = "Kaykaus I"
-		dynasty = "Seljuk"
-		birth_date = 1187.1.1
-		death_date = 1220.1.1
-		claim = 95
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
-1211.1.1 = {
-	monarch = {
-		name = "Kaykaus I"
-		dynasty = "Seljuk"
-		birth_date = 1187.1.1
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-	heir = {
-		name = "Kayqubad"
-		monarch_name = "Kayqubad I"
-		dynasty = "Seljuk"
-		birth_date = 1188.1.1
-		death_date = 1237.1.1
-		claim = 80
-		adm = 3
-		dip = 3
-		mil = 4
-	}
-}
-1220.1.1 = {
-	monarch = {
-		name = "Kayqubad I"
-		dynasty = "Seljuk"
-		birth_date = 1188.1.1
-		adm = 3
-		dip = 3
-		mil = 4
-	}
-}
-1237.1.1 = {
-	monarch = {
-		name = "Kaykhusraw II"
-		dynasty = "Seljuk"
-		adm = 0
-		dip = 2
-		mil = 1
-	}
-}
-1246.1.1 = {
-	monarch = {
-		name = "Kaykaus II"
-		dynasty = "Seljuk"
-		adm = 0
-		dip = 0
-		mil = 0
-	}
-}
-1248.1.1 = {
-	monarch = {
-		name = "Kilij IV"
-		dynasty = "Seljuk"
-		adm = 0
-		dip = 0
-		mil = 1
-	}
-}
-1265.1.1 = {
-	monarch = {
-		name = "Kaykhusraw III"
-		dynasty = "Seljuk"
-		birth_date = 1259.1.1
-		adm = 0
-		dip = 0
-		mil = 0
-	}
-}
-1284.1.1 = {
-	monarch = {
-		name = "Masud II"
-		dynasty = "Seljuk"
-		adm = 1
-		dip = 2
-		mil = 0
-	}
-}
-#done 1308
+#1098 done

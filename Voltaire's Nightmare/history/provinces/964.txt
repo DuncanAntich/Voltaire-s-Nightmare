@@ -31,7 +31,7 @@ fort_14th = yes
 }
 1446.9.27 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
 1461.7.22 = { revolt = {} controller = FRA }
-1560.1.1 = { religion = reformed }
+1560.1.1 = { religion = huguenot }
 1565.1.1 = { unrest = 8 }
 1568.9.1 = { unrest = 15 }
 1570.8.8 = { unrest = 10 }
@@ -58,5 +58,3 @@ fort_14th = yes
 	base_production = 3
 	base_manpower = 3
 }
-discovered_by = nomad_group
-discovered_by = north_american

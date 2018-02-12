@@ -6,8 +6,6 @@ go_legitimate = {
 
 	allow = {
 		government = monarchy
-		NOT = { government = steppe_horde }
-		NOT = { government = celestial_empire }
 		has_regency = no
 		NOT = { legitimacy = 50 }
 		is_at_war = no

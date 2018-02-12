@@ -87,7 +87,7 @@ horde_ideas = {
 	}
 	
 	trigger = {
-		government = steppe_horde
+		government = tribal_federation
 	}
 	free = yes
 	
@@ -255,10 +255,7 @@ irish_ideas = {
 		OR = {
 			tag = IRE
 			AND = {
-				OR = {
-					primary_culture = irish
-					primary_culture = gallowglass
-				}
+				primary_culture = irish
 				is_tribal = no
 			}
 		}

@@ -1,8 +1,18 @@
 pay_fervor = {
 	trigger = {
-		AND = {
-			religion = reformed
-			FROM = { religion = reformed }
+		OR = {
+			AND = {
+				religion = reformed
+				FROM = { religion = reformed }
+			}
+			AND = {
+				religion = zwinglianist
+				FROM = { religion = zwinglianist }
+			}
+			AND = {
+				religion = huguenot
+				FROM = { religion = huguenot }
+			}
 		}
 	}
 	

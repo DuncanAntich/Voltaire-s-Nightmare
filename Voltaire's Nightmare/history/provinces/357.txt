@@ -3,8 +3,8 @@ controller = WWS
 culture = swabian
 religion = catholic
 hre = yes
-base_tax = 2
-base_production = 2
+base_tax = 1
+base_production = 1
 trade_goods = livestock
 base_manpower = 2
 capital = "Burgau" 
@@ -21,6 +21,8 @@ fort_14th = yes
 	owner = BGX
 	controller = BGX
 	remove_core = WWS
+	base_tax = 2
+	base_production = 2
 }
 1301.8.15 = {
 	owner = HAB
@@ -64,5 +66,3 @@ fort_14th = yes
 	base_production = 1
 	base_manpower = 1
 }
-discovered_by = nomad_group
-discovered_by = north_american

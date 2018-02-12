@@ -80,7 +80,7 @@ discovered_by = muslim
 	controller = FRA
 	add_core = FRA
 }
-1550.1.1 = { religion = reformed }
+1550.1.1 = { religion = huguenot }
 1565.1.1 = { unrest = 8 }
 1568.9.1 = { unrest = 15 } 
 1570.8.8 = { unrest = 10 }
@@ -103,5 +103,3 @@ discovered_by = muslim
 1652.10.21 = { revolt = {} controller = FRA unrest = 0 } 
 1685.10.18 = { unrest = 8 }
 1689.1.1 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

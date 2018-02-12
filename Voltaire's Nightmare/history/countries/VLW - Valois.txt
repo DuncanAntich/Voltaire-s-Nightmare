@@ -6,10 +6,6 @@ technology_group = western
 capital = 1200
 fixed_capital = 1200
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1054.1.1 = {
 	monarch = {
 		name = "Raoul I"
@@ -95,7 +91,6 @@ fixed_capital = 1200
         dynasty = "de Bourgogne" 
         birth_date = 1293.6.24
         death_date = 1349.12.12
-        culture = burgundian
         female = yes
         adm = 2
         dip = 2

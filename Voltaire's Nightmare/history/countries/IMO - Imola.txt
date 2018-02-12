@@ -121,7 +121,6 @@ add_army_professionalism = 0.05
 		dynasty = "Sforza"
 		birth_date = 1463.1.1
 		death_date = 1509.5.28
-		culture = lombard
 		female = yes
 		adm = 4
 		dip = 4

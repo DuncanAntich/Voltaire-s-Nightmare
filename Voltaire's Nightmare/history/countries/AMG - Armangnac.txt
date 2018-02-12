@@ -204,7 +204,6 @@ fixed_capital = 1222
 		dynasty = "de Clermont"
 		birth_date = 1311.1.1
 		death_date = 1364.8.25
-		culture = burgundian
 		female = yes
 		adm = 2
 		dip = 3
@@ -246,7 +245,6 @@ fixed_capital = 1222
 		mil = 1
 	}
 }
-1378.9.20 = { religion = catholique }
 1384.5.26 = {
 	monarch = {
 		name = "Jean III"
@@ -303,7 +301,6 @@ fixed_capital = 1222
 		mil = 1
 	}
 }
-1437.1.1 = { religion = catholic }
 1450.11.6 = {
 	monarch = {
 		name = "Jean V"
@@ -383,5 +380,5 @@ fixed_capital = 1222
 	}
 }
 
-1560.1.1 = { religion = reformed }
+1560.1.1 = { religion = huguenot }
 1562.11.18 = { government = administrative_monarchy }

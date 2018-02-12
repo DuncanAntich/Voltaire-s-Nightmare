@@ -293,7 +293,6 @@ fixed_capital = 2192
 		dynasty = "Romanov"
 		birth_date = 1693.2.7
 		death_date = 1740.10.17
-		culture = russian
 		adm = 2
 		dip = 2
 		mil = 1

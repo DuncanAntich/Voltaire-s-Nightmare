@@ -24,16 +24,3 @@ capital = 842
 	}
 }
 #1057.6.26 dead, under stade
-
-#Margraves of Brandenburg-Salzwedel sorta
-1266.4.4 = {
-	monarch = {
-		name = "Konrad I"
-		dynasty = "Askanier"
-		birth_date = 1240.1.1
-		adm = 0
-		dip = 1
-		mil = 5
-	}
-}
-#1304 reunited

@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 3
-technology_group = north_american
+technology_group = western
 religion = slavic_pagan
 primary_culture = bremer_platt
 capital = 851
@@ -15,8 +15,10 @@ capital = 851
 	}
 }
 1080.1.1 = {
+	government = tribal_despotism
 	monarch = {
 		name = "Dumar"
+		dynasty = "Dumarice"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -25,6 +27,7 @@ capital = 851
 1114.1.1 = {
 	monarch = {
 		name = "Sventipolk"
+		dynasty = "Dumarice"
 		adm = 2
 		dip = 3
 		mil = 3
@@ -32,10 +35,7 @@ capital = 851
 }
 #1131 conquered by MKL
 #conquered by Dano-Rani
-1156.1.1 = {
-	government = feudal_monarchy
-	technology_group = western
-}
+1156.1.1 = { government = feudal_monarchy }
 1168.1.1 = {
 	religion = catholic
 	primary_culture = kashubian

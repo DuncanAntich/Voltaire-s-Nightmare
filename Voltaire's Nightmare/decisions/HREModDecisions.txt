@@ -1,49 +1,9 @@
 country_decisions = {
 
-	primi_adopt = {
-		major = yes
-		potential = {
-			primitives = no
-			technology_group = north_american
-		}
-		allow = {
-			primitives = no
-			technology_group = north_american
-			is_at_war = no
-		}
-		effect = {
-			if = {
-				limit = { primary_culture = east_frisian }
-				change_technology_group = western
-				change_unit_type = western
-			}
-			if = {
-				limit = {
-					religion_group = muslim
-					NOT = { primary_culture = east_frisian }
-				}
-				change_technology_group = muslim
-				change_unit_type = muslim
-			}
-			if = {
-				limit = {
-					NOT = { religion_group = muslim }
-					NOT = { primary_culture = east_frisian }
-				}
-				change_technology_group = eastern
-				change_unit_type = eastern
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	elevate_canton = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			primitives = no
 			OR = {
 				primary_culture = swiss
 				primary_culture = arpitan
@@ -55,7 +15,6 @@ country_decisions = {
 			NOT = { tag = SAV }
 			NOT = { tag = ARP }
 			NOT = { government = canton_government }
-			NOT = { government = steppe_horde }
 			NOT = { government = imperial_city }
 			NOT = { has_country_flag = unformable }
 			OR = {
@@ -157,7 +116,6 @@ country_decisions = {
 			government = monarchy
 			NOT = { has_country_flag = formed_albania }
 			normal_or_historical_nations = yes
-			NOT = { capital_scope = { area = arbanon_area } }
 		}
 		allow = {
 			arbanon_area = {
@@ -343,10 +301,7 @@ country_decisions = {
 
 	donate_to_holy_order = {
 		potential = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 			NOT = { government = theocracy }
 			NOT = { has_country_modifier = donated_ho }
 			normal_or_historical_nations = yes
@@ -354,10 +309,7 @@ country_decisions = {
 				exists = yes
 				is_free_or_tributary_trigger = yes
 				government = crusader_order_government
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 				NOT = { war_with = ROOT }
 			}
 		}
@@ -993,116 +945,5 @@ country_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
-
-	create_brandenburg = {
-		potential = {
-			NOT = { exists = BRA }
-			NOT = { exists = PRU }
-			NOT = { tag = PTH }
-			culture_group = germanic
-			berlin_area = { owned_by = ROOT }
-			government = monarchy
-			NOT = { has_country_flag = formed_brandenburg }
-			normal_or_historical_nations = yes
-			NOT = { is_year = 1160 }
-			NOT = { capital_scope = { area = berlin_area } }
-		}
-		allow = {
-			berlin_area = {
-				type = all
-				owned_by = ROOT
-			}
-			is_subject = no
-			is_at_war = no
-		}
-		effect = {
-			set_country_flag = formed_brandenburg
-			every_owned_province = {
-				limit = { area = berlin_area }
-				add_core = BRA
-				remove_core = ROOT
-				cede_province = BRA
-			}
-			BRA = {
-				set_government_rank = 2
-				define_ruler = { dynasty = ROOT }
-				add_opinion = { who = ROOT modifier = supported_independence }
-			}
-			hidden_effect = {
-				if = {
-					limit = { is_part_of_hre = yes }
-					BRA = { every_owned_province = { set_in_empire = yes } }
-				}
-			}
-			add_prestige = 15
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	form_brandenburg = {
-		major = yes
-		potential = {
-			normal_or_historical_nations = yes
-			NOT = { exists = BRA }
-			NOT = { exists = PRU }
-			NOT = { tag = PTH }
-			primitives = no
-			NOT = { has_country_flag = unformable }
-			primary_culture = central_margravian
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-		}
-		allow = {
-			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			is_nomad = no
-			adm_tech = 5
-			owns_core_province = 241 #Brandenburg
-			owns_core_province = 2652
-			owns_core_province = 2662
-			owns_core_province = 843
-		}
-		effect = {
-			change_tag = BRA
-			if = {
-				limit = { NOT = { government = monarchy } }
-				change_government = feudal_monarchy
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			brandenburg_region = {
-				limit = { NOT = { owned_by = ROOT } }
-				add_permanent_claim = BRA
-			}
-			add_prestige = 10
-			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
-			}
-			hidden_effect = {
-				if = {
-					limit = {
-						is_part_of_hre = no
-						any_neighbor_country = { is_part_of_hre = yes }
-					}
-					every_owned_province = { set_in_empire = yes }
-				}
-			}
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
 	}
 }

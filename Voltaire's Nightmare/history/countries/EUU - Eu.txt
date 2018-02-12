@@ -6,10 +6,6 @@ technology_group = western
 capital = 694
 fixed_capital = 694
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1050.1.1 = {
 	monarch = {
 		name = "Guillaume I"
@@ -117,7 +113,6 @@ fixed_capital = 694
 		dynasty = "de Brienne"
 		birth_date = 1228.1.1
 		death_date = 1270.8.25
-		culture = orleanais
 		female = no
 		adm = 3
 		dip = 3

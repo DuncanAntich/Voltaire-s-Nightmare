@@ -7,10 +7,7 @@ country_decisions = {
 				tag = POR
 				tag = SPA
 			}
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 			NOT = { has_country_modifier = the_societas_jesu }
 			NOT = { has_country_modifier = jesuits_expelled }
 		}
@@ -33,10 +30,7 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_modifier = de_heretico_comburendo }
 			NOT = { current_age = age_of_empire }
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 			has_global_flag = hussite_heresy_g
 			reform_desire = 0.10
 		}
@@ -199,8 +193,10 @@ country_decisions = {
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = zwinglianist
 				religion = anabaptist
 				religion = anglican
+				religion = huguenot
 			}
 		}
 		allow = {
@@ -223,14 +219,12 @@ country_decisions = {
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = zwinglianist
 				religion = anabaptist
 				religion = anglican
+				religion = huguenot
 				AND = {
 					religion = catholic
-					has_country_modifier = the_statue_in_restraint_of_appeals
-				}
-				AND = {
-					religion = catholique
 					has_country_modifier = the_statue_in_restraint_of_appeals
 				}
 			}
@@ -260,8 +254,10 @@ country_decisions = {
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = zwinglianist
 				religion = anabaptist
 				religion = anglican
+				religion = huguenot
 			}
 			adm_tech = 43
 		}
@@ -605,7 +601,7 @@ country_decisions = {
 			num_of_cities = 4
 		}
 		allow = {
-			legitimacy_or_horde_unity = 75
+			legitimacy = 75
 			NOT = { has_ruler_modifier = support_of_the_khojas }
 		}
 		effect = {

@@ -8,7 +8,9 @@ religious_turmoil = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
+			religion = zwinglianist
 			religion = anabaptist
+			religion = huguenot
 			religion = anglican
 		}
 		is_religion_enabled = protestant
@@ -31,7 +33,9 @@ religious_turmoil = {
 				religion = catholic
 				religion = protestant
 				religion = reformed
+				religion = zwinglianist
 				religion = anabaptist
+				religion = huguenot
 				religion = anglican
 			}
 		}
@@ -95,7 +99,9 @@ religious_turmoil = {
 								religion = catholic
 								religion = protestant
 								religion = reformed
+								religion = zwinglianist
 								religion = anabaptist
+								religion = huguenot
 								religion = anglican
 							}
 						}		

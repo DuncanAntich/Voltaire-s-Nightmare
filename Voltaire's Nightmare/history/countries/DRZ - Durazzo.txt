@@ -6,30 +6,7 @@ religion = catholic
 capital = 503
 
 1288.1.1 = { capital = 714 }
-1294.1.1 = {
-	capital = 624
-	monarch = {
-		name = "Filippo"
-		dynasty = "Durazzo"
-		birth_date = 1278.11.10
-		dip = 3
-		adm = 3
-		mil = 3
-	}
-	heir = {
-		name = "Giovanni"
-		monarch_name = "Giovanni"
-		dynasty = "Durazzo"
-		birth_date = 1294.1.1
-		death_date = 1318.1.1 #to ACH
-		claim = 90
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}
-1304.9.1 = { capital = 503 }
-#1306.5.5 to 1313.7.29 under ACH
+1294.1.1 = { capital = 503 }
 1332.12.23 = {
 	government_rank = 3
 	monarch = {
@@ -76,9 +53,8 @@ capital = 503
 1365.1.1 = {
 	monarch = {
 		name = "Louis"
-		dynasty = "d'Évreux"
+		dynasty = "de Evreux"
 		birth_date = 1341.1.1
-		culture = cosmopolitan_french
 		adm = 3
 		dip = 3
 		mil = 2

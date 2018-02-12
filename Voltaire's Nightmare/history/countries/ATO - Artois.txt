@@ -71,7 +71,6 @@ capital = 918
 		dynasty = "de Courtenay"
 		birth_date = 1250.1.1
 		death_date = 1275.1.1
-		culture = orleanais
 		female = yes
 		adm = 2
 		dip = 2

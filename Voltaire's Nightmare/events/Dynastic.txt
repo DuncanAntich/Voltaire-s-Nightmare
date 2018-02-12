@@ -33,9 +33,91 @@ country_event = {
 			claim = 30
 		}
 		add_papal_influence = -5
-		custom_tooltip = add_reform_desire_effect.4
-		add_reform_desire_effect = {
-			base_reform_desire = 0.04
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				NOT = { has_global_flag = hussite_heresy_g }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 100 } }
+			}
+			add_reform_desire = 0.05
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				NOT = { has_global_flag = hussite_heresy_g }
+				calc_true_if = { all_country = { religion = catholic } amount = 100 }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 200 } }
+			}
+			add_reform_desire = 0.03
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				NOT = { has_global_flag = hussite_heresy_g }
+				calc_true_if = { all_country = { religion = catholic } amount = 200 }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 400 } }
+			}
+			add_reform_desire = 0.01
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				NOT = { has_global_flag = hussite_heresy_g }
+				calc_true_if = { all_country = { religion = catholic } amount = 400 }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 600 } }
+			}
+			add_reform_desire = 0.005
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				NOT = { has_global_flag = hussite_heresy_g }
+				calc_true_if = { all_country = { religion = catholic } amount = 600 }
+			}
+			add_reform_desire = 0.003
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				has_global_flag = hussite_heresy_g
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 100 } }
+			}
+			add_reform_desire = 0.02
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				has_global_flag = hussite_heresy_g
+				calc_true_if = { all_country = { religion = catholic } amount = 100 }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 200 } }
+			}
+			add_reform_desire = 0.01
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				has_global_flag = hussite_heresy_g
+				calc_true_if = { all_country = { religion = catholic } amount = 200 }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 400 } }
+			}
+			add_reform_desire = 0.004
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				has_global_flag = hussite_heresy_g
+				calc_true_if = { all_country = { religion = catholic } amount = 400 }
+				NOT = { calc_true_if = { all_country = { religion = catholic } amount = 600 } }
+			}
+			add_reform_desire = 0.002
+		}
+		if = {
+			limit = {
+				NOT = { current_age = age_of_empire }
+				has_global_flag = hussite_heresy_g
+				calc_true_if = { all_country = { religion = catholic } amount = 600 }
+			}
+			add_reform_desire = 0.001
 		}
 	}
 	option = {

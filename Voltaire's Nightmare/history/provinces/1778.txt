@@ -16,11 +16,17 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1303.1.1 = {
+	owner = BRA
+	controller = BRA
+	add_core = BRA
+}
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1367.1.1 = {
 	owner = BOH
 	controller = BOH
 	add_core = BOH
+	remove_core = BRA
 }
 1419.12.1 = { unrest = 5 }
 1436.7.5 = { unrest = 0 }
@@ -61,6 +67,3 @@ fort_14th = yes
 	base_production = 2
 	base_manpower = 2
 }
-
-discovered_by = nomad_group
-discovered_by = north_american

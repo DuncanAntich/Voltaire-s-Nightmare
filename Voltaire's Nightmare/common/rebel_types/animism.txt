@@ -125,10 +125,7 @@ animism_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				OR = {
-					owned_by = PAP
-					owned_by = AVI
-				}
+				owned_by = PAP
 				is_capital = yes
 			}
 		}
@@ -197,10 +194,7 @@ animism_rebels = {
 		}
 		if = {
 			limit = {
-				OR = {
-					tag = PAP
-					tag = AVI
-				}
+				tag = PAP
 			}
 			add_stability = -1
 		}
@@ -239,7 +233,6 @@ animism_rebels = {
 				}
 				NOT = { religion = animism }
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 			}
 			change_religion = animism
 			force_converted = yes

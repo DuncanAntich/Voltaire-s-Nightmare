@@ -175,7 +175,6 @@ MOL = {
 
 # Ottomans
 TUR = {
-	is_year = 1300
 	religion = sunni
 }
 

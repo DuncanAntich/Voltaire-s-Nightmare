@@ -1,4 +1,3 @@
-3191 = "Verzelus"
 4107 = "Roca Cavardi"
 2169 = "Iculisma"
 2948 = "Caletes"

@@ -100,5 +100,3 @@ base_production = 8 base_manpower = 13 }
 	base_production = 3
 	base_manpower = 3
 }
-discovered_by = nomad_group
-discovered_by = north_american

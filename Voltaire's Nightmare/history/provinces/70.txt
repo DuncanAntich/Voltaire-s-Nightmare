@@ -57,5 +57,3 @@ discovered_by = western
 	base_production = 1
 	base_manpower = 1
 }
-discovered_by = nomad_group
-discovered_by = north_american

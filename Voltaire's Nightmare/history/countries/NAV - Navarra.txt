@@ -280,7 +280,7 @@ capital = 2160	# Pamplona
 1328.2.1 = {
 	monarch = {
 		name = "Filipe I"
-		dynasty = "d'Évreux"
+		dynasty = "de Évreux"
 		birth_date = 1306.3.27
 		adm = 2
 		dip = 4
@@ -302,7 +302,7 @@ capital = 2160	# Pamplona
 	heir = {
 		name = "Carlos"
 		monarch_name = "Carlos II"
-		dynasty = "d'Évreux"
+		dynasty = "de Évreux"
 		birth_date = 1332.10.10
 		death_date = 1387.1.1
 		claim = 85
@@ -324,7 +324,7 @@ capital = 2160	# Pamplona
 	heir = {
 		name = "Carlos"
 		monarch_name = "Carlos II"
-		dynasty = "d'Évreux"
+		dynasty = "de Évreux"
 		birth_date = 1332.10.10
 		death_date = 1387.1.1
 		claim = 85
@@ -337,7 +337,7 @@ capital = 2160	# Pamplona
 1349.10.6 = {
 	monarch = {
 		name = "Carlos II"
-		dynasty = "d'Évreux"
+		dynasty = "de Évreux"
 		birth_date = 1332.10.10
 		adm = 0
 		dip = 4
@@ -364,7 +364,7 @@ capital = 2160	# Pamplona
 	heir = {
 		name = "Carlos"
 		monarch_name = "Carlos III"
-		dynasty = "d'Évreux"
+		dynasty = "de Évreux"
 		birth_date = 1361.7.22
 		death_date = 1425.9.8
 		adm = 1
@@ -372,18 +372,16 @@ capital = 2160	# Pamplona
 		mil = 2
 	}
 }
-1378.9.20 = { religion = catholique }
 1387.1.1 = {
 	monarch = {
 		name = "Carlos III"
-		dynasty = "d'Évreux"
+		dynasty = "de Évreux"
 		birth_date = 1361.7.22
 		adm = 1
 		dip = 2
 		mil = 2
 	}
 }
-1417.10.18 = { religion = catholic }
 1425.9.8 = {
 	monarch = {
 		name = "Juan II"
@@ -396,7 +394,7 @@ capital = 2160	# Pamplona
 	queen = {
 		country_of_origin = NAV
         name = "Blanca"
-        dynasty = "d'Évreux" 
+        dynasty = "de Évreux" 
         birth_date = 1387.7.6
         death_date = 1441.4.1
         female = yes
@@ -545,7 +543,7 @@ capital = 2160	# Pamplona
 		leader = { 	name = "Enrique III"		type = general	fire = 4	shock = 4	manuever = 2	siege = 0 }
 	}
 }
-1560.1.1 = { religion = reformed government = administrative_monarchy }
+1560.1.1 = { religion = huguenot government = administrative_monarchy }
 1562.1.1 = { leader = {	name = "Louis I de Condé"	type = general	fire = 2	shock = 3	manuever = 4	siege = 3	death_date = 1569.1.1 } }
 1572.6.9 = {
 	monarch = {

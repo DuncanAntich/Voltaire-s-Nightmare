@@ -1,26 +1,28 @@
-owner = SUZ
-controller = SUZ
+owner = ZLX
+controller = ZLX
 culture = swabian
 religion = catholic
 hre = yes
-base_tax = 2
-base_production = 2
+base_tax = 1
+base_production = 1
 trade_goods = grain
 base_manpower = 1
 capital = "Haigerloch" 
-is_city = yes
-add_core = SUZ
+is_city = yes	
+add_core = ZLX
+add_core = HHB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-estate = estate_nobles
 
-1162.1.1 = {
+1125.1.1 = {
 	owner = HHB
 	controller = HHB
-	add_core = HHB
-	remove_core = SUZ
+	remove_core = ZLX
+	base_tax = 2
+	base_manpower = 2
+	base_production = 2
 }
 1381.1.1 = {
 	owner = TIR
@@ -54,5 +56,3 @@ estate = estate_nobles
 	remove_core = PRU
 	hre = no
 }
-discovered_by = nomad_group
-discovered_by = north_american

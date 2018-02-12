@@ -480,6 +480,7 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
+			religion = zwinglianist
 			religion = anabaptist
 		}
 	}
@@ -865,10 +866,7 @@ country_event = {
 		is_year = 1480
 		NOT = { is_year = 1500 }
 		owns = 411
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 	}
 	
 	mean_time_to_happen = {

@@ -5,22 +5,64 @@ primary_culture = hungarian
 religion = catholic
 capital = 2359
 
-#Appanage
-1054.1.1 = {
+#Dukes of the eponymous Duchy
+1048.1.1 = {
 	monarch = {
-		name = "László I"
+		name = "Béla I"
 		dynasty = "Árpád"
-		birth_date = 1040.1.1
+		birth_date = 1020.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = zealot_personality
-} #goes to rule HUN
-1077.4.25 = { government_rank = 1 }
-
-#Oligarchs
+	queen = {
+		country_of_origin = POL
+		name = "Richeza"
+		dynasty = "Piast"
+		birth_date = 1013.9.22
+		death_date = 1075.5.21
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1051.1.1 = {
+	heir = {
+		name = "Lampert"
+		monarch_name = "Lampert I"
+		dynasty = "Árpád"
+		birth_date = 1051.1.1
+		death_date = 1096.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1060.12.6 Bela succeeds the throne
+1064.1.20 = {
+	monarch = {
+		name = "Lampert I"
+		dynasty = "Árpád"
+		birth_date = 1051.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1096.1.1 = {
+	monarch = {
+		name = "Álmos I"
+		dynasty = "Árpád"
+		birth_date = 1070.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+#done
+1107.1.1 = { government_rank = 1 }
 1301.1.14 = {
 	monarch = {
 		name = "Kopasz"

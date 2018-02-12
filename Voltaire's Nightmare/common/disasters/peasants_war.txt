@@ -4,8 +4,6 @@ peasant_war = {
 			government = monarchy
 			government = theocracy
 		}
-		NOT = { government = celestial_empire }
-		NOT = { government = steppe_horde }	
 		num_of_cities = 10
 		is_free_or_tributary_trigger = yes
 		NOT = { has_country_flag = had_peasant_war }

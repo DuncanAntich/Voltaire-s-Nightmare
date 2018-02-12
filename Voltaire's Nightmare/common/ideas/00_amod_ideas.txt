@@ -220,7 +220,7 @@ FRN_ideas = {
         build_cost = -0.15
     }
     Frankfurt_Nationalism = {
-        fabricate_claims_cost = -0.2
+        fabricate_claims_cost = -0.25
     }
 }
 
@@ -920,7 +920,7 @@ slovenian_ideas = {
 FIU_ideas = {
     start = {
         num_accepted_cultures = 1
-        improve_relation_modifier = 0.25
+        improve_relation_modifier = 0.3
     }
     
     bonus = {
@@ -1321,7 +1321,7 @@ AAL_ideas = {
 
 ZGN_ideas = {
     start = {
-        embracement_cost = -0.2
+        all_power_cost = -0.05
         tolerance_heretic = 2
     }
  
@@ -1333,26 +1333,33 @@ ZGN_ideas = {
         tag = ZGN
     }
     free = yes
+    # Not Again Such Claims
     ZGN_idea_1 = {
         global_spy_defence = 0.2
     }
+    # Fulda Marshal
     ZGN_idea_2 = {
         leader_land_shock = 1
         diplomatic_reputation = 1
     }
+    # Wasserfestung Ziegenhain
     ZGN_idea_3 = {
         defensiveness = 0.25
     }
+    # Der Mutz
     ZGN_idea_4 = {
         artillery_power = 0.1
         siege_ability = 0.1
     }
+    # Knüllgebirgte
     ZGN_idea_5 = {
         hostile_attrition = 1
     }
+    # Salatkirmes
     ZGN_idea_6 = {
         development_cost = -0.1
     }
+    # Schwälmer Tracht
     ZGN_idea_7 = {
         prestige = 0.5
     }
@@ -1361,7 +1368,7 @@ ZGN_ideas = {
 
 FXI_ideas = {
     start = {
-        core_creation = -0.1
+        all_power_cost = -0.05
         land_forcelimit_modifier = 0.1
     }
  
@@ -1373,26 +1380,33 @@ FXI_ideas = {
         tag = FXI
     }
     free = yes
+    # title
     FXI_idea_1 = {
         yearly_corruption = -0.1
     }
+    # title
     FXI_idea_2 = {
         papal_influence = 1
         diplomats = 1
     }
+    # title
     FXI_idea_3 = {
         land_maintenance_modifier = -0.1
     }
+    # title
     FXI_idea_4 = {
         global_own_trade_power = 0.2
     }
+    # title
     FXI_idea_5 = {
         build_cost = -0.1
         manpower_recovery_speed = 0.10
     }
+    # title
     FXI_idea_6 = {
         land_morale = 0.10
     }
+    # title
     FXI_idea_7 = {
         technology_cost = -0.1
     }
@@ -1400,7 +1414,7 @@ FXI_ideas = {
 
 SYN_ideas = {
     start = {
-        adm_tech_cost_modifier = -0.1
+        all_power_cost = -0.05
         diplomatic_reputation = 1
     }
  
@@ -1415,22 +1429,28 @@ SYN_ideas = {
     SYN_idea_1 = {
         enemy_core_creation = 0.5
     }
+    # Numerous co-reigns
     SYN_idea_2 = {
-        diplomatic_upkeep = 1
+        diplomatic_upkeep = 2
     }
+    # Relic of apostle Simon
     SYN_idea_3 = {
         tolerance_own = 2
     }
+    # Killer Knights # Henry III of Sayn
     SYN_idea_4 = {
         cavalry_power = 0.1
         spy_offence = 0.1
     }
+    # Clashes with the Archbishops
     SYN_idea_5 = {
         land_forcelimit_modifier = 0.15
     }
+    # Westerwald landholdings
     SYN_idea_6 = {
         global_trade_goods_size_modifier = 0.1
     }
+    # Inspiration Movement
     SYN_idea_7 = {
         global_missionary_strength = 0.01
         tolerance_own = 1
@@ -1959,7 +1979,7 @@ PTR_ideas = {
 SMZ_ideas = {
     start = {
         enemy_core_creation = 0.5
-        caravan_power = 0.2
+        caravan_power = 0.1
     }
  
     bonus = {
@@ -2172,7 +2192,7 @@ KOF_ideas = {
         tolerance_own = 2
     }
     KOF_population = {
-        caravan_power = 0.2
+        caravan_power = 0.33
     }
     KOF_sparks = {
         core_creation = -0.10
@@ -3734,7 +3754,7 @@ angsax_ideas = {
         prestige = 1
     }
     angsax_idea_3 = {
-        advisor_cost = -0.2
+        advisor_cost = -0.3
     }
     angsax_idea_4 = {
         state_maintenance_modifier = -0.15
@@ -4070,7 +4090,7 @@ SICG_ideas = {
    
     trigger = {
         tag = SIC
-        dynasty = "von Hohenstaufen"
+        culture_group = germanic
     }
     free = yes
 
@@ -4111,24 +4131,22 @@ SIC_ideas = {
     }
    
     trigger = {
-        OR = {
-            tag = SIC
-            tag = TNC
-        }
-        NOT = { dynasty = "von Hohenstaufen" }
+        tag = SIC
+        NOT = { culture_group = germanic }
     }
     free = yes
 
     SIC_idea_1 = {
-        discipline = 0.025
+        discipline = 0.05
     }
     SIC_idea_2 = {
-        core_creation = -0.05
+        core_creation = -0.10
     }
     SIC_idea_3 = {
         papal_influence = 0.5
     }
     SIC_idea_4 = {
+        global_autonomy = -0.025
         global_tax_modifier = 0.05
     }
     SIC_idea_5 = {
@@ -5202,6 +5220,7 @@ PTH_ideas = {
     }  
     trigger = {
         tag = PTH
+        primary_culture = prussian
     }
     free = yes
     PTH_idea_1 = {
@@ -6295,269 +6314,5 @@ URB_ideas = {
     }
     URB_idea_7 = {
         tolerance_own = 1
-    }
-}
-
-NIC_ideas = {
-    start = {
-        infantry_power = 0.1
-        trade_steering = 0.1
-    }
-    bonus = {
-        artillery_cost = -0.15
-    }
-    
-    trigger = {
-        tag = NIC
-    }
-    free = yes
-    NIC_idea_1 = {
-        idea_cost = -0.05
-    }
-    NIC_idea_2 = {
-        defensiveness = 0.20
-    }
-    NIC_idea_3 = {
-        yearly_corruption = -0.1
-        tolerance_own = 1
-    }
-    NIC_idea_4 = {
-        trade_efficiency = 0.1
-    }
-    NIC_idea_5 = {
-        build_cost = -0.1
-    }
-    NIC_idea_6 = {
-        core_creation = -0.10
-        discipline = 0.025
-    }
-    NIC_idea_7 = {
-        num_accepted_cultures = 1
-    }
-}
-
-LUC_ideas = {
-    start = {
-        global_own_trade_power = 0.1
-        build_cost = -0.1
-    }
-    bonus = {
-        defensiveness = 0.1
-    }
-    
-    trigger = {
-        tag = LUC
-    }
-    free = yes
-    LUC_idea_1 = {
-        development_cost = -0.05
-        build_time = -0.1
-    }
-    LUC_idea_2 = {
-        global_unrest = -1
-    }
-    LUC_idea_3 = {
-        yearly_corruption = -0.1
-    }
-    LUC_idea_4 = {
-        war_exhaustion = -0.1
-    }
-    LUC_idea_5 = {
-        cavalry_flanking = 0.25
-        prestige_from_land = 0.5
-    }
-    LUC_idea_6 = {
-        tolerance_own = 1
-    }
-    LUC_idea_7 = {
-        enemy_core_creation = 0.45
-    }
-}
-
-LAN_ideas = {
-    start = {
-        diplomatic_reputation = 1
-        diplomatic_upkeep = 1
-    }
-    bonus = {
-        republican_tradition = 0.5
-    }
-    
-    trigger = {
-        tag = LAN
-    }
-    free = yes
-    LAN_idea_1 = {
-        production_efficiency = 0.2
-    }
-    LAN_idea_2 = {
-        global_tax_modifier = 0.1
-    }
-    LAN_idea_3 = {
-        idea_cost = -0.1
-    }
-    LAN_idea_4 = {
-        interest = -0.5
-    }
-    LAN_idea_5 = {
-        tolerance_heretic = 2
-    }
-    LAN_idea_6 = {
-        prestige = 1
-    }
-    LAN_idea_7 = {
-        num_accepted_cultures = 2
-    }
-}
-
-ORA_ideas = {
-    start = {
-        land_maintenance_modifier = -0.15
-        trade_efficiency = 0.05
-    }
-    bonus = {
-        production_efficiency = 0.1
-    }
-    
-    trigger = {
-        tag = ORA
-    }
-    free = yes
-    ORA_idea_1 = {
-        legitimacy = 1
-        imperial_authority = 0.05
-    }
-    ORA_idea_2 = {
-        dip_tech_cost_modifier = -0.15
-    }
-    ORA_idea_3 = {
-        prestige_decay = -0.01
-    }
-    ORA_idea_4 = {
-        diplomatic_reputation = 1
-        ae_impact = -0.05
-    }
-    ORA_idea_5 = {
-        global_heretic_missionary_strength = 0.01
-    }
-    ORA_idea_6 = {
-        stability_cost_modifier = -0.1
-    }
-    ORA_idea_7 = {
-        movement_speed = 0.1
-    }
-}
-
-LOO_ideas = {
-    start = {
-        shock_damage = 0.1
-        caravan_power = 0.2
-    }
-    bonus = {
-        diplomatic_upkeep = 1
-    }
-    
-    trigger = {
-        tag = LOO
-    }
-    free = yes
-    LOO_idea_1 = {
-        num_accepted_cultures = 2
-    }
-    LOO_idea_2 = {
-        prestige = 1
-    }
-    LOO_idea_3 = {
-        papal_influence = 1
-        church_power_modifier = 0.1
-        monthly_fervor_increase = 1
-    }
-    LOO_idea_4 = {
-        tolerance_own = 1
-    }
-    LOO_idea_5 = {
-        build_cost = -0.1
-    }
-    LOO_idea_6 = {
-        all_power_cost = -0.05
-    }
-    LOO_idea_7 = {
-        rebel_support_efficiency = 0.25
-        spy_offence = 0.15
-    }
-}
-
-POB_ideas = {
-    start = {
-        naval_forcelimit_modifier = 0.2
-        sunk_ship_morale_hit_recieved = -0.2
-    }
-    bonus = {
-        war_exhaustion = -0.1
-    }
-    
-    trigger = {
-        tag = POB
-    }
-    free = yes
-    POB_idea_1 = {
-        advisor_cost = -0.1
-    }
-    POB_idea_2 = {
-        trade_range_modifier = 0.2
-        merchants = 1
-    }
-    POB_idea_3 = {
-        production_efficiency = 0.1
-    }
-    POB_idea_4 = {
-        fort_maintenance_modifier = -0.1
-    }
-    POB_idea_5 = {
-        navy_tradition = 1
-    }
-    POB_idea_6 = {
-        fabricate_claims_cost = -0.2
-    }
-    POB_idea_7 = {
-        global_tax_modifier = 0.15
-    }
-}
-
-VMG_ideas = {
-    start = {
-        free_leader_pool = 1
-        light_ship_cost = -0.2
-    }
-    bonus = {
-        fire_damage = 0.1
-    }
-    
-    trigger = {
-        tag = VMG
-    }
-    free = yes
-    VMG_idea_1 = {
-        papal_influence = 2
-    }
-    VMG_idea_2 = {
-        legitimacy = 1
-        heir_chance = 0.25
-    }
-    VMG_idea_3 = {
-        tolerance_own = 1
-    }
-    VMG_idea_4 = {
-        garrison_size = 0.25
-    }
-    VMG_idea_5 = {
-        improve_relation_modifier = 0.15
-        spy_offence = 0.15
-    }
-    VMG_idea_6 = {
-        caravan_power = 0.2
-    }
-    VMG_idea_7 = {
-        hostile_attrition = 1
     }
 }

@@ -5,17 +5,7 @@ primary_culture = boden_alemannic
 religion = catholic
 capital = 1869 # Ravensburg
 
-1126.12.13 = {
-	monarch = {
-		name = "Welf VI"
-		dynasty = "von Welf"
-		birth_date = 1115.1.1
-		adm = 3
-		dip = 4
-		mil = 2
-	}
-}
-1191.12.15 = {
+1138.1.1 = {
 	government = imperial_city
 	fixed_capital = 1869
 	mercantilism = 25

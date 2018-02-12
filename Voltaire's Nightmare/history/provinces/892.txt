@@ -15,21 +15,19 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1477.1.5 = { hre = yes }
-1549.11.4 = { owner = NED controller = NED add_core = NED }
+1477.1.5 = { owner = HAB controller = HAB add_core = HAB hre = yes }
+1513.9.23 = { owner = ENG controller = ENG }
+1518.10.4 = { owner = HAB controller = HAB }
+1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = SPA }
 1579.1.23 = {
-	owner = BUR
-	controller = BUR
-	add_core = BUR
-	unrest = 5 
-}
-1635.5.1 = { controller = FRA }
-1648.1.30 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	remove_core = BUR
+	unrest = 5 
 }
+1635.5.1 = { controller = FRA }
+1648.1.30 = { controller = SPA }
 1648.10.24 = { unrest = 0 remove_core = NED }
 1665.9.17 = { add_claim = FRA }
 1672.5.1 = { controller = FRA }
@@ -71,5 +69,3 @@ discovered_by = muslim
 	base_production = 5
 	base_manpower = 5
 }
-discovered_by = nomad_group
-discovered_by = north_american

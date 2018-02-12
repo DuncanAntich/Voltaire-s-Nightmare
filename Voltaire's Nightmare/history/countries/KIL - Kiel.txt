@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
-technology_group = north_american
+technology_group = western
 capital = 360
 
 1054.1.1 = {
@@ -19,7 +19,6 @@ capital = 360
 	government_rank = 1
 	religion = catholic
 	primary_culture = low_elbish
-	technology_group = western
 }
 1261.7.8 = {
 	capital = 360
@@ -100,7 +99,6 @@ capital = 360
 	}
 }
 #1390 to RSB
-1529.1.1 = { religion = protestant }
 1544.1.1 = {
 	monarch = {
 		name = "Adolf IX"

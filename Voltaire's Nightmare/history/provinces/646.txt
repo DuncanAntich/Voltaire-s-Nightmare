@@ -72,5 +72,3 @@ estate = estate_church
 	controller = ITA
 	add_core = ITA
 }
-discovered_by = nomad_group
-discovered_by = north_american

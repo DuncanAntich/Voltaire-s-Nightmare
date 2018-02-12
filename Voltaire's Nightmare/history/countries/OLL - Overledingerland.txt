@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 1
-technology_group = north_american
+technology_group = western
 primary_culture = east_frisian
 religion = catholic
 capital = 2205

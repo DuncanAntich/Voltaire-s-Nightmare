@@ -41,7 +41,7 @@ fixed_capital = 541
 }
 1082.1.1 = {
 	monarch = {
-		name = "Hugues I"
+		name = "Hughes I"
 		dynasty = "de Die"
 		adm = 3
 		dip = 3

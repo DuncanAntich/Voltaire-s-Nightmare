@@ -93,12 +93,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				religion = catholique
-			}
-			reverse_add_opinion = { who = AVI modifier = opinion_too_tolerate }
-		}
-		if = {
-			limit = {
 				has_disaster = revolution
 			}
 			add_country_modifier = {

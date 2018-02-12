@@ -9,10 +9,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { is_religion_enabled = protestant }
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_defender_of_faith = no	
 		NOT = { government = papal_government }
 		reform_desire = 1.0

@@ -22,19 +22,13 @@ country_event = {
 		government = theocratic_government
 		is_elector = yes
 		is_free_or_tributary_trigger = yes
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_year = 1550
 		NOT = { is_rival = BAV }
 		NOT = { is_year = 1650 }
 		BAV = {
 			exists = yes
-			OR = {
-				religion = catholic	
-				religion = catholique
-			}
+			religion = catholic	
 			NOT = { is_rival = KOL }					
 		}
 	}
@@ -66,24 +60,12 @@ country_event = {
 				who = root
 				modifier = kol_bavarian_archbishop_replaced
 			}				
-		}
-		if = {
-			limit = { religion = catholic }
-			PAP = {
-				add_opinion = {
-					who = root
-					modifier = kol_bavarian_archbishop_replaced
-				}				
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = {
-				add_opinion = {
-					who = root
-					modifier = kol_bavarian_archbishop_replaced
-				}				
-			}
+		}	
+		PAP = {
+			add_opinion = {
+				who = root
+				modifier = kol_bavarian_archbishop_replaced
+			}				
 		}			
 	}
 }

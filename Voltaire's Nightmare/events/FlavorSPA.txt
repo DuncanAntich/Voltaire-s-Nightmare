@@ -203,10 +203,7 @@ country_event = {
 			}
 			tag = SPA
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_at_war = no
 		NOT = {
 			any_country = {
@@ -239,34 +236,18 @@ country_event = {
 			discount = yes
 			skill = 1
 		}
-		if = {
-			limit = { religion = catholic }
-			every_owned_province = {
-				limit = {
-					superregion = iberia_superregion
-					religion_group = muslim
-				}
-				change_religion = catholic
-				add_province_modifier = {
-					name = forced_conversion
-					duration = 3650
-				}
+		
+		every_owned_province = {
+			limit = {
+				superregion = iberia_superregion
+				religion_group = muslim
+			}
+			change_religion = catholic
+			add_province_modifier = {
+				name = forced_conversion
+				duration = 3650
 			}
 		}	
-		if = {
-			limit = { religion = catholique }
-			every_owned_province = {
-				limit = {
-					superregion = iberia_superregion
-					religion_group = muslim
-				}
-				change_religion = catholique
-				add_province_modifier = {
-					name = forced_conversion
-					duration = 3650
-				}
-			}
-		}
 		random_country = {
 			limit = {
 				religion_group = muslim
@@ -348,10 +329,7 @@ country_event = {
 		random_known_country = {
 			limit = {
 				NOT = { has_country_flag = turned_down_columbus }
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 				OR = {
 					exploration_ideas = 2
 					piracy_ideas = 2
@@ -434,10 +412,7 @@ country_event = {
 			}
 			tag = SPA
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_year = 1521
 		NOT = { is_year = 1556 }
 	}
@@ -451,27 +426,13 @@ country_event = {
 		name = "EXCELLENTMINISTER"
 		add_adm_power = 50
 		add_papal_influence = 25
-		if = {
-			limit = { religion = catholic }
-			define_advisor = {
-				type = theologian 
-				name = "Ignacio de Loyola"
-				culture = basque
-				religion = catholic
-				discount = yes
-				skill = 2
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			define_advisor = {
-				type = theologian 
-				name = "Ignacio de Loyola"
-				culture = basque
-				religion = catholique
-				discount = yes
-				skill = 2
-			}
+		define_advisor = {
+			type = theologian 
+			name = "Ignacio de Loyola"
+			culture = basque
+			religion = catholic
+			discount = yes
+			skill = 2
 		}
 	}
 }
@@ -747,10 +708,7 @@ country_event = {
 
 	trigger = {
 		tag = SPA
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { primary_culture = andalucian }
 		NOT = { exists = GRA }
 		is_year = 1600
@@ -1469,10 +1427,7 @@ country_event = {
 			}
 			tag = SPA
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_year = 1540
 		NOT = { is_year = 1570 }
 		colony = 1
@@ -1557,10 +1512,7 @@ country_event = {
 			tag = SPA
 		}
 		NOT = { exists = GRA }
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		has_idea = spanish_inquisition
 		is_at_war = no
 		is_year = 1480
@@ -1583,22 +1535,10 @@ country_event = {
 			name = "alhambra_decree"
 			duration = 3650
 		}
-		if = {
-			limit = { religion = catholic }
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = "alhambra_decree_opinion"
-				}
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = {
-				add_opinion = {
-					who = ROOT
-					modifier = "alhambra_decree_opinion"
-				}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = "alhambra_decree_opinion"
 			}
 		}
 	}
@@ -1835,10 +1775,7 @@ country_event = {
 			}
 			tag = SPA
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { is_year = 1600 } #Resurgent Granada unlikely
 		has_country_flag = spa_holy_inquisition
 		NOT = { exists = GRA }
@@ -1946,10 +1883,6 @@ country_event = {
 			}
 			tag = SPA
 		}
-		OR = {
-		 	religion = catholic
-		 	religion = catholique
-		}
 		has_country_flag = alpujarras_revolt_happened
 		NOT = { has_country_flag = end_of_granada }
 		NOT = { exists = GRA }
@@ -1973,25 +1906,12 @@ country_event = {
 		}
 		set_country_flag = end_of_granada
 		add_stability = -2
-		if = {
-			limit = { religion = catholic }
-			every_owned_province = {
-				limit = {
-					is_core = GRA
-				}
-				change_religion = catholic
-				remove_core = GRA
+		every_owned_province = {
+			limit = {
+				is_core = GRA
 			}
-		}
-		if = {
-			limit = { religion = catholique }
-			every_owned_province = {
-				limit = {
-					is_core = GRA
-				}
-				change_religion = catholique
-				remove_core = GRA
-			}
+			change_religion = catholic
+			remove_core = GRA
 		}
 		every_owned_province = {
 			limit = {
@@ -2055,10 +1975,7 @@ country_event = {
 		}
 		is_religion_enabled = protestant
 		government = monarchy
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_year = 1530
 		NOT = { is_year = 1560 }
 		NOT = {
@@ -2073,7 +1990,9 @@ country_event = {
 				OR = {
 					religion = reformed
 					religion = protestant
+					religion = zwinglianist
 					religion = anabaptist
+					religion = huguenot
 					religion = anglican
 				}
 			}
@@ -2132,10 +2051,7 @@ country_event = {
 			}
 			tag = SPA
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		OR = {
 			NOT = { exists = TUN }
 			TUN = { vassal_of = ROOT }
@@ -2261,10 +2177,7 @@ country_event = {
 	
 	trigger = {
 		tag = SPA 
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		colony = 1
 		is_year = 1750
 		OR = {
@@ -2289,10 +2202,7 @@ country_event = {
 		every_subject_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 			}
 			every_owned_province = {
 				limit = { has_province_modifier = jesuit_mission }

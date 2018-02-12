@@ -4,7 +4,7 @@ graphical_culture = westerngfx
 
 color = { 75  102  165 }
 
-preferred_religion = reformed
+preferred_religion = zwinglianist
 
 historical_idea_groups = {
 	manufacturing_ideas

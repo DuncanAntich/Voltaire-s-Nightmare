@@ -1,4 +1,4 @@
-government = ottoman_government
+government = despotic_monarchy
 government_rank = 3
 technology_group = ottoman
 religion = sunni

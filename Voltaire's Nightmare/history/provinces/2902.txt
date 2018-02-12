@@ -14,8 +14,6 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-discovered_by = nomad_group
-discovered_by = north_american
 
 1226.3.1 = { add_core = TEU }
 1240.1.1 = {
@@ -29,7 +27,6 @@ discovered_by = north_american
 	owner = WRM
 	controller = WRM
 	add_core = WRM
-	remove_core = TEU
 }
 1260.9.20 = { 
 	revolt = {
@@ -50,6 +47,7 @@ discovered_by = north_american
 	religion = catholic
 }
 1454.2.10 = { add_core = POL } 
+1466.10.19 = { remove_core = TEU }
 1479.7.1 = {
 	owner = POL
 	controller = POL

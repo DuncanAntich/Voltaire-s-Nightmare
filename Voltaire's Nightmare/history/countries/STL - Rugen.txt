@@ -1,29 +1,46 @@
-government = tribal_democracy
+government = tribal_despotism
 government_rank = 3
-technology_group = north_american
+technology_group = western
 primary_culture = bremer_platt
 religion = slavic_pagan
 capital = 2641
 
 1054.1.1 = {
 	monarch = {
-		name = "Gryn"
-		dip = 3
-		mil = 3
-		adm = 3
-	}
-}
-1093.1.1 = {
-	monarch = {
-		name = "Warcislaw"
+		name = "Grin"
+		dynasty = "Wizlawice"
 		dip = 2
 		mil = 2
 		adm = 2
 	}
 }
+1093.1.1 = {
+	monarch = {
+		name = "Wizlaw I"
+		dynasty = "Wizlawice"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+1100.1.1 = {
+	heir = {
+		name = "Ratze"
+		monarch_name = "Ratze"
+		dynasty = "Wizlawice"
+		birth_date = 1100.1.1
+		death_date = 1168.1.1
+		claim = 95
+		dip = 3
+		mil = 4
+		adm = 3
+	}
+}
 1120.1.1 = {
 	monarch = {
 		name = "Ratze"
+		dynasty = "Wizlawice"
+		birth_date = 1100.1.1
 		dip = 3
 		mil = 4
 		adm = 3
@@ -32,6 +49,7 @@ capital = 2641
 1141.1.1 = {
 	monarch = {
 		name = "Stoislaw"
+		dynasty = "Wizlawice"
 		dip = 2
 		mil = 2
 		adm = 2
@@ -40,7 +58,6 @@ capital = 2641
 1168.1.1 = {
 	religion = catholic
 	government = feudal_monarchy
-	technology_group = western
 	government_rank = 4
 	monarch = {
 		name = "Tezlaw I"
@@ -87,7 +104,7 @@ capital = 2641
 }
 1221.11.24 = {
 	monarch = {
-		name = "Wizlaw I"
+		name = "Wizlaw II"
 		dynasty = "Wizlawice"
 		birth_date = 1180.1.1
 		dip = 3

@@ -1,27 +1,15 @@
-government = tribal_democracy
+government = tribal_despotism
 government_rank = 3
-technology_group = north_american
+technology_group = western
 religion = slavic_pagan
 primary_culture = kashubian
 capital = 2199
 
 1116.1.1 = {
 	government = feudal_monarchy
-	technology_group = western
 	religion = catholic
 }
-1128.4.19 = {
-	monarch = {
-		name = "Racibor I"
-		dynasty = "Gryf"
-		birth_date = 1110.1.1
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-#1135.8.9 united with POM
-1156.4.1 = {
+1190.1.1 = {
 	monarch = {
 		name = "Swietopelk I"
 		dynasty = "Gryf"
@@ -31,7 +19,7 @@ capital = 2199
 		mil = 2
 	}
 }
-1190.1.1 = {
+1199.1.1 = {
 	monarch = {
 		name = "Boguslaw III"
 		dynasty = "Gryf"
@@ -42,26 +30,6 @@ capital = 2199
 }
 #1223 back to PML
 1240.1.1 = { primary_culture = pommeranian }
-
-#Swienca Lords under BRA
-1305.1.1 = {
-	government_rank = 1
-	government = despotic_monarchy
-	monarch = {
-		name = "Jesko"
-		dynasty = "Swenzonen"
-		birth_date = 1280.1.1
-		adm = 3
-		dip = 5
-		mil = 1
-	}
-}
-1317.11.24 = {
-	government_rank = 3
-	government = feudal_monarchy
-}
-#1317 back to Gryfs
-
 1368.1.1 = {
 	monarch = {
 		name = "Boguslaw V"

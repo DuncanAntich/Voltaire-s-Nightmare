@@ -11,10 +11,10 @@ country_decisions = {
 			NOT = { government = colonial_government }
 			NOT = { government = italian_monarchy }
 			NOT = { government = canton_government }
+			NOT = { government = bohemian_monarchy }
 			government = republic
 			NOT = { num_of_provinces_in_states = 31 }
 			has_institution = renaissance
-			primitives = no
 		}
 		allow =  {
 			stability = 1	
@@ -46,7 +46,6 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				technology_group = muslim
-				technology_group = north_american
 			}
 		}
 	}
@@ -55,7 +54,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { government = merchant_republic }
-			NOT = { government = steppe_horde }
 			NOT = { government = iqta }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
@@ -66,7 +64,6 @@ country_decisions = {
 			government = monarchy
 			NOT = { num_of_provinces_in_states = 31 }
 			has_institution = renaissance
-			primitives = no
 		}
 		allow =  {
 			stability = 1	
@@ -106,7 +103,6 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				technology_group = muslim
-				technology_group = north_american
 			}
 		}
 	}
@@ -114,7 +110,6 @@ country_decisions = {
 	oligarchic_administration = {
 		major = yes
 		potential = {
-			NOT = { government = steppe_horde }
 			NOT = { government = iqta }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
@@ -123,7 +118,6 @@ country_decisions = {
 			NOT = { government = elective_monarchy }
 			NOT = { government = revolutionary_empire }
 			has_institution = renaissance
-			primitives = no
 			OR = {
 				government = monarchy
 				government = merchant_republic
@@ -168,7 +162,6 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				technology_group = muslim
-				technology_group = north_american
 			}
 			modifier = {
 				factor = 0
@@ -182,7 +175,6 @@ country_decisions = {
 		potential = {
 			has_dlc = "Common Sense"
 			NOT = { government = theocratic_government }
-			NOT = { government = steppe_horde }
 			NOT = { government = iqta }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
@@ -194,12 +186,12 @@ country_decisions = {
 			NOT = { government = ambrosian_republic }
 			NOT = { government = canton_government }
 			NOT = { government = italian_monarchy }
+			NOT = { government = bohemian_monarchy }
 			NOT = { government = dutch_republic }
 			NOT = { government = colonial_government }
 			NOT = { government = revolutionary_empire }
 			NOT = { government = noble_republic }
 			has_institution = renaissance
-			primitives = no
 			OR = {
 				government = monarchy
 				government = republic
@@ -305,12 +297,7 @@ country_decisions = {
 			is_subject = no
 			is_elector = yes
 			OR = {
-				NOT = {
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
-				}
+				NOT = { religion = catholic }
 				papal_influence = 25
 			}
 		}
@@ -333,7 +320,9 @@ country_decisions = {
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = zwinglianist
 				religion = anabaptist
+				religion = huguenot
 				religion = anglican
 			}
 			NOT = {
@@ -404,8 +393,10 @@ country_decisions = {
 			religion_group = christian
 			NOT = { religion = protestant }
 			NOT = { religion = reformed }
+			NOT = { religion = zwinglianist }
 			NOT = { religion = anabaptist }
 			NOT = { religion = anglican }
+			NOT = { religion = huguenot }
 		}
 		allow = {
 			stability = 2
@@ -446,17 +437,6 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					religion = catholique
-				}
-				AVI = {
-					add_opinion = {
-						who = ROOT
-						modifier = opinion_displeased
-					}
-				}
-			}
-			if = {
-				limit = {
 					OR = {
 						NOT = { total_development = 300 }
 						is_subject_other_than_tributary_trigger = yes
@@ -480,7 +460,6 @@ country_decisions = {
 	become_russian_principality = {
 		major = yes
 		potential = {
-			NOT = { government = steppe_horde }
 			NOT = { government = principality }
 			NOT = { government = iqta }
 			NOT = { government = tribal_despotism }
@@ -492,7 +471,6 @@ country_decisions = {
 			NOT = { government = revolutionary_empire }
 			NOT = { government_rank = 6 }
 			culture_group = east_slavic
-			primitives = no
 		}
 		allow = {
 			NOT = { government_rank = 6 }
@@ -524,13 +502,11 @@ country_decisions = {
 			ai = no
 			is_colonial_nation = no
 			is_former_colonial_nation = no
-			primitives = no
 			government = principality
 		}
 		allow = {
 			adm_tech = 40
 			is_subject = no
-			is_nomad = no
 			is_at_war = no
 			total_development = 1000			
 		}

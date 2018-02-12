@@ -272,10 +272,7 @@ country_event = {
 				NOT = {
 					any_known_country = {
 						is_elector = yes
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 						is_league_enemy = ROOT
 						truce_with = ROOT
 					}		

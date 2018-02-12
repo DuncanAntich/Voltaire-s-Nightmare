@@ -6,7 +6,6 @@ technology_group = western
 capital = 202
 fixed_capital = 202
 
-1000.1.1 = { set_country_flag = unformable }
 1054.1.1 = {
 	monarch = {
 		name = "République d'Avignon"
@@ -16,67 +15,3 @@ fixed_capital = 202
 		mil = 2
 	}
 }
-
-#Antipopes
-1378.9.20 = {
-	government = papal_government
-	religion = catholique
-	government_rank = 5
-	monarch = {
-		name = "Clemens VII"
-		birth_date = 1342.1.1
-		culture = arpitan
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1394.9.16 = {
-	monarch = {
-		name = "Benedictus XIII"
-		birth_date = 1328.11.25
-		culture = aragonese
-		adm = 1
-		dip = 3
-		mil = 0
-	}
-}
-1423.5.23 = {
-	monarch = {
-		name = "Clemens VIII"
-		birth_date = 1369.1.1
-		culture = aragonese
-		adm = 0
-		dip = 2
-		mil = 0
-	}
-}
-1429.7.26 = {
-	monarch = {
-		name = "Benedictus XIV"
-		culture = occitain
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}
-1430.1.1 = {
-	monarch = {
-		name = "Benedictus XV"
-		culture = occitain
-		adm = 0
-		dip = 0
-		mil = 0
-	}
-}
-1437.1.1 = {
-	monarch = {
-		name = "Felix V"
-		birth_date = 1383.9.4
-		culture = arpitan
-		adm = 1
-		dip = 1
-		mil = 2
-	}
-}
-#done 1449.4.1

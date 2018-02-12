@@ -42,5 +42,3 @@ fort_14th = yes
 1870.9.1 = { controller = PRU }
 1871.1.18 = { controller = GER }
 1871.5.10 = { controller = FRA }
-discovered_by = nomad_group
-discovered_by = north_american

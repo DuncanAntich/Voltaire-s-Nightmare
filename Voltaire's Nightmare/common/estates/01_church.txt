@@ -55,8 +55,6 @@ estate_church =
 			NOT = { government = celestial_empire }
 			has_dlc = "Mandate of Heaven"
 		}
-		is_nomad = no
-		primitives = no
 		is_colonial_nation = no
 	}
 	
@@ -474,7 +472,13 @@ estate_church =
 			}
 			add_patriarch_authority = 0.05
 			if = {
-				limit = { religion = reformed }
+				limit = {
+					OR = {
+						religion = reformed
+						religion = zwinglianist
+						religion = huguenot
+					}
+				}
 				add_fervor = 10
 			}
 			add_estate_influence_modifier = {

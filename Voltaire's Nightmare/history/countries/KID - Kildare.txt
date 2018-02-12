@@ -41,7 +41,6 @@ capital = 853
 		dynasty = "de Ferrers"
 		birth_date = 1220.1.1 #estimate
 		death_date = 1290.5.11
-		culture = hiberno_norman
 		female = yes
 		adm = 3
 		dip = 3

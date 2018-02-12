@@ -77,7 +77,6 @@ capital = 82
 		name = "Gottfried I"
 		dynasty = "van Cuijk"
 		birth_date = 1100.1.1
-		culture = brabantian
 		adm = 2
 		dip = 3
 		mil = 2

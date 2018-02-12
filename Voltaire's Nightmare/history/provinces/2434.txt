@@ -1,6 +1,6 @@
-owner = TSZ
-controller = TSZ
-add_core = TSZ
+owner = HUN
+controller = HUN
+add_core = HUN
 culture = hungarian
 religion = tengri_pagan_reformed
 hre = no
@@ -15,21 +15,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1060.12.6 = {
-	owner = HUN
-	controller = HUN
-	add_core = HUN
-}
-1064.1.20 = {
-	owner = TSZ
-	controller = TSZ
-}
 1066.1.1 = { religion = catholic }
-1077.4.25 = {
-	owner = HUN
-	controller = HUN
-	remove_core = TSZ
-}
 1314.1.1 = { culture = transylvanian }
 1514.1.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB }
 1514.6.1 = { revolt = {} controller = HUN }
@@ -68,5 +54,3 @@ discovered_by = muslim
 	controller = EAH
 }
 1867.5.29 = { add_local_autonomy = 90 }
-discovered_by = nomad_group
-discovered_by = north_american

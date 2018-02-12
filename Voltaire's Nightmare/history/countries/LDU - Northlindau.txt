@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
-technology_group = north_american
+technology_group = western
 capital = 2442
 
 1054.1.1 = {
@@ -18,7 +18,6 @@ capital = 2442
 	government = despotic_monarchy
 	government_rank = 1
 	primary_culture = eastphalian
-	technology_group = western
 	religion = catholic
 }
 1214.1.1 = {

@@ -142,7 +142,6 @@ capital = 169
 		dynasty = "von Tyrol"
 		birth_date = 1220.1.1
 		death_date = 1256.10.10
-		culture = austrian
 		female = yes
 		dip = 2
 		mil = 2

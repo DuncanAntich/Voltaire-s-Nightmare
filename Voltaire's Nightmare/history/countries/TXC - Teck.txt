@@ -7,7 +7,7 @@ capital = 4129
 
 1187.1.1 = {
 	monarch = {
-		name = "Albrecht I"
+		name = "Adalbert I"
 		dynasty = "von Zähringen"
 		birth_date = 1135.1.1
 		adm = 2
@@ -17,7 +17,7 @@ capital = 4129
 }
 1195.1.1 = {
 	monarch = {
-		name = "Albrecht II"
+		name = "Adalbert II"
 		dynasty = "von Zähringen"
 		adm = 2
 		dip = 2

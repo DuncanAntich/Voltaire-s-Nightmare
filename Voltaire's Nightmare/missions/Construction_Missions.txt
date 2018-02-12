@@ -218,9 +218,6 @@ construct_navy = {
 			had_country_flag = { flag = construct_navy_mission days = 7300 }
 		}
 		NOT = { navy_size_percentage = 0.5 }
-		NOT = { technology_group = north_american }
-		NOT = { technology_group = nomad_group }
-		NOT = { has_country_modifier = thriving_ship_building_sector }
 	}
 	abort = {
 		NOT = {
@@ -356,8 +353,6 @@ rival_navy = {
 		NOT = { overlord_of = FROM }
 		num_of_ports = 3
 		FROM = {
-			NOT = { technology_group = north_american }
-			NOT = { technology_group = nomad_group }
 			any_owned_province = {
 				has_port = yes
 				is_core = owner

@@ -1,75 +1,6 @@
 # For specific government types
 # Will pick the first valid one it finds in list
 
-gov_steppe_horde = {
-	rank = {
-		1 = TRIBE
-		2 = TRIBE
-		3 = HORDE
-		4 = HORDE
-		5 = KHANATE
-		6 = KHAGANATE
-	}
-	
-	ruler_male = {
-		1 = CHIEF
-		2 = CHIEF
-		3 = JINONG
-		4 = JINONG
-		5 = KHAN
-		6 = KHAGAN
-	}
-	
-	ruler_female = {
-		1 = CHIEF
-		2 = CHIEF
-		3 = JINONG
-		4 = JINONG
-		5 = KHATUN
-		6 = GREAT_KHATUN
-	}
-	
-	consort_male = {
-		1 = BEILE
-		2 = BEILE
-		3 = BEILE
-		4 = BEILE
-		5 = KHAN
-		6 = KHAGAN
-	}
-
-	consort_female = {
-		1 = GEGE
-		2 = GEGE
-		3 = GEGE
-		4 = GEGE
-		5 = KHANUM
-		6 = KHANUM
-	}
-	
-	heir_male = {
-		1 = HEIR
-		2 = HEIR
-		3 = HEIR
-		4 = HEIR
-		5 = KHANZADEH
-		6 = KHANZADEH
-	}
-
-	heir_female = {
-		1 = KHANUM
-		2 = KHANUM
-		3 = KHANUM
-		4 = KHANUM
-		5 = KHANUM
-		6 = KHANUM
-	}
-	
-	trigger = {
-		government = steppe_horde
-	}
-}
-
 gov_religious_order = {
 	rank = {
 		1 = ABBACY
@@ -106,17 +37,14 @@ gov_religious_order = {
 
 gov_colonial_government = {
 	rank = {
-		2 = COLONY
 		3 = COLONY
 	}
 	
 	ruler_male = {
-		2 = GOVERNOR
 		3 = GOVERNOR
 	}
 	
 	ruler_female = {
-		2 = GOVERNESS
 		3 = GOVERNESS
 	}
 	

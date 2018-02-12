@@ -50,7 +50,7 @@ capital = 830 #Coburg
 	}
 }
 1638.10.23 = {
-	capital = 2884 #altenburg
+	capital = 743 #altenburg
 	monarch = {
 		name = "Friedrich Wilhelm II"
 		dynasty = "von Wettin"

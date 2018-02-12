@@ -65,5 +65,3 @@ base_production = 2 }
 	add_core = GBR
 	remove_core = ENG
 }
-discovered_by = nomad_group
-discovered_by = north_american

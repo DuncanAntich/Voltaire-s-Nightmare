@@ -6,108 +6,6 @@ technology_group = western
 capital = 2956
 fixed_capital = 2956
 
-1047.1.1 = {
-	monarch = {
-		name = "Heinrich II"
-		adm = 2
-		dip = 4
-		mil = 2
-	}
-}
-1063.1.1 = {
-	monarch = {
-		name = "Embricho"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1077.1.1 = {
-	monarch = {
-		name = "Wigolt"
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-}
-1088.1.1 = {
-	monarch = {
-		name = "Siegfried II"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1096.1.1 = {
-	monarch = {
-		name = "Hermann"
-		dynasty = "von Vohburg"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1133.1.1 = {
-	monarch = {
-		name = "Walter I"
-		dynasty = "von Dillingen"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1152.1.1 = {
-	monarch = {
-		name = "Konrad"
-		dynasty = "von Hirscheck"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1167.1.1 = {
-	monarch = {
-		name = "Hartwig I"
-		dynasty = "von Lierheim"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1184.1.1 = {
-	monarch = {
-		name = "Udalschalk"
-		adm = 1
-		dip = 0
-		mil = 1
-	}
-}
-1202.1.1 = {
-	monarch = {
-		name = "Hartwig II"
-		adm = 1
-		dip = 1
-		mil = 2
-	}
-}
-1208.1.1 = {
-	monarch = {
-		name = "Siegfried III"
-		dynasty = "von Rechberg"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1227.1.1 = {
-	monarch = {
-		name = "Siboto"
-		dynasty = "von Seefeld"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
 1248.1.1 = {
 	monarch = {
 		name = "Hartmann"
@@ -120,7 +18,7 @@ fixed_capital = 2956
 1276.1.1 = { capital = 79 }
 1286.7.5 = {
 	monarch = {
-		name = "Siegfried IV"
+		name = "Siegfried"
 		dynasty = "von Algertshausen"
 		adm = 2
 		dip = 2
@@ -372,7 +270,6 @@ fixed_capital = 2956
 		name = "Alexander Sigmund"
 		dynasty = "von Wittelsbach"
 		birth_date = 1663.4.16
-		culture = bavarian
 		adm = 1
 		dip = 2
 		mil = 0
@@ -380,7 +277,7 @@ fixed_capital = 2956
 }
 1737.1.1 = {
 	monarch = {
-		name = "Johann Franz"
+		name = "Johann Franz Schenk"
 		dynasty = "von Stauffenberg"
 		birth_date = 1658.2.18
 		adm = 0
@@ -391,9 +288,8 @@ fixed_capital = 2956
 1740.1.1 = {
 	monarch = {
 		name = "Joseph Ignaz Philipp"
-		dynasty = "von Hessen-Kassel"
+		dynasty = "von Hessen"
 		birth_date = 1699.1.22
-		culture = hessian
 		adm = 2
 		dip = 0
 		mil = 0
@@ -404,7 +300,6 @@ fixed_capital = 2956
 		name = "Clemens Wenzel"
 		dynasty = "von Wettin"
 		birth_date = 1739.9.28
-		culture = saxon
 		adm = 2
 		dip = 2
 		mil = 2
@@ -415,7 +310,6 @@ fixed_capital = 2956
 		name = "Franz Friedrich"
 		dynasty = "von Hohenlohe"
 		birth_date = 1758.12.11
-		culture = franconian
 		adm = 0
 		dip = 3
 		mil = 0

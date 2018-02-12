@@ -10,14 +10,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		OR = {
-			government = steppe_horde
-			government = tribal_federation
-		}
+		government = tribal_federation
 		NOT = { has_country_flag = no_new_succession_crisis_if_pretender_rebels }
 		num_of_cities = 8
 		OR = {
-			NOT = { legitimacy_or_horde_unity = 50 }
+			NOT = { legitimacy = 50 }
 			has_regency = yes
 		}
 	}
@@ -26,7 +23,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					NOT = { legitimacy_or_horde_unity = 50 }
+					NOT = { legitimacy = 50 }
 				}
 				random_owned_province = {
 					limit = {
@@ -45,7 +42,7 @@ country_event = {
 	
 	option = {
 		name = tribal_succession.1.a
-		trigger = { NOT = { legitimacy_or_horde_unity = 50 } }
+		trigger = { NOT = { legitimacy = 50 } }
 		if = {
 			limit = {
 				any_owned_province = {
@@ -75,7 +72,6 @@ country_event = {
 		trigger = { has_regency = yes }
 		define_ruler = { dynasty = ROOT }
 		kill_heir = yes
-		add_horde_unity = -25
 	}
 }
 
@@ -87,10 +83,7 @@ country_event = {
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
-		OR = {
-			government = steppe_horde
-			government = tribal_federation
-		}
+		government = tribal_federation
 		has_ruler_modifier = tribal_succession_crisis
 		NOT = { has_spawned_rebels = pretender_rebels }
 		has_regency = no
@@ -104,7 +97,6 @@ country_event = {
 		name = tribal_succession.2.a
 		remove_country_modifier = tribal_succession_crisis
 		add_stability_or_adm_power = yes
-		add_horde_unity = 25
 	}
 }
 	
