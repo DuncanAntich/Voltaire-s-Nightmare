@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 242 239 192 }
+color = { 61 152 180 }
 
 revolutionary_colors = { 13  8  5 } #Repubblica Ancona
 preferred_religion = catholic
