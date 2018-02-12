@@ -234,7 +234,7 @@ fixed_capital = 252
 }
 1406.12.6 = {
 	monarch = {
-		name = "Walther"
+		name = "Walter"
 		dynasty = "von Köckritz"
 		adm = 4
 		dip = 3

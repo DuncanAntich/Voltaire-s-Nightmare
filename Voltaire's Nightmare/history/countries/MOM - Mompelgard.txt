@@ -151,6 +151,7 @@ capital = 1770
 }
 #done 1407
 1617.1.1 = {
+	capital = 1770
 	monarch = {
 		name = "Louis Frédéric"
 		dynasty = "von Württemberg"

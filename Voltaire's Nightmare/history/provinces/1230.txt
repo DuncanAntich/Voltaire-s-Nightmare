@@ -75,3 +75,5 @@ discovered_by = ottoman
 1713.4.11 = { remove_core = CAS }
 1809.1.1 = { controller = FRA }
 1812.10.1 = { controller = SPA }
+discovered_by = nomad_group
+discovered_by = north_american

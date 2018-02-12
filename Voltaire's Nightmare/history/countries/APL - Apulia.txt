@@ -22,8 +22,8 @@ add_army_professionalism = 0.1
 		leader = {	
 			name = "Humphrey de Hauteville"
 			type = general
-			fire = 5
-			shock = 5
+			fire = 4
+			shock = 4
 			manuever = 0
 			siege = 0
 		}
@@ -43,25 +43,15 @@ add_army_professionalism = 0.1
 			name = "Robert Guiscard"
 			type = general
 			fire = 4
-			shock = 4
-			manuever = 4
+			shock = 3
+			manuever = 3
 			siege = 2
 		}
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = strict_personality
 	add_heir_personality = conqueror_personality
 	add_heir_personality = tactical_genius_personality
 	add_heir_personality = strict_personality
-	leader = {
-		name = "Richard Drengot"
-		type = general
-		fire = 4
-		shock = 3
-		manuever = 2
-		siege = 5
-		death_date = 1057.8.1
-	}
 }
 1057.8.1 = {
 	monarch = {
@@ -76,8 +66,8 @@ add_army_professionalism = 0.1
 			name = "Robert Guiscard"
 			type = general
 			fire = 4
-			shock = 4
-			manuever = 4
+			shock = 3
+			manuever = 3
 			siege = 2
 		}
 	}
@@ -133,6 +123,7 @@ add_army_professionalism = 0.1
 		dynasty = "von Vlaanderen"
 		birth_date = 1064.1.1
 		death_date = 1115.4.1
+		culture = flemish
 		female = yes
 		adm = 2
 		dip = 2

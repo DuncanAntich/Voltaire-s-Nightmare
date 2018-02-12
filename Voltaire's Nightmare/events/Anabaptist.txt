@@ -15,6 +15,7 @@ country_event = {
 		is_defender_of_faith = no
 		OR = {
 			religion = catholic
+			religion = catholique
 			religion = protestant
 		}
 		NOT = { government = papal_government }

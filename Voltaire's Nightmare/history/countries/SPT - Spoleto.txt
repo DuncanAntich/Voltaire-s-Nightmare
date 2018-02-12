@@ -5,10 +5,24 @@ religion = catholic
 primary_culture = umbrian
 capital = 1786
 
+1043.1.1 = {
+	monarch = {
+		name = "Beatrice"
+		dynasty = "di Canossa" #by marriage
+		female = yes
+		birth_date = 1020.1.1
+		culture = lorrainian
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+}
+#1076.4.18 under TUS
 1080.10.15 = {
 	monarch = {
 		name = "Ranieri II"
-		dynasty = "d'Ivrea"
+		dynasty = "von Urslingen"
+		culture = swabian
 		dip = 2
 		adm = 1
 		mil = 3
@@ -67,7 +81,7 @@ capital = 1786
 }
 1183.1.1 = {
 	monarch = {
-		name = "Corrado I"
+		name = "Corrado II"
 		dynasty = "von Urslingen"
 		culture = swabian
 		dip = 2
@@ -97,7 +111,7 @@ capital = 1786
 }
 1227.1.1 = {
 	monarch = {
-		name = "Corrado II"
+		name = "Corrado III"
 		dynasty = "von Urslingen"
 		culture = swabian
 		dip = 2

@@ -106,8 +106,8 @@ capital = 10
 }
 1421.1.1 = {
 	heir = {
-		name = "Walther"
-		monarch_name = "Walther I"
+		name = "Walter"
+		monarch_name = "Walter I"
 		dynasty = "von Eppstein"
 		birth_date = 1421.1.1
 		death_date = 1468.1.1
@@ -119,7 +119,7 @@ capital = 10
 }
 1443.7.3 = {
 	monarch = {
-		name = "Walther I"
+		name = "Walter I"
 		dynasty = "von Eppstein"
 		birth_date = 1421.1.1
 		adm = 2

@@ -16,7 +16,7 @@ capital = 2006
 }
 1061.1.1 = {
 	monarch = {
-		name = "Franco I"
+		name = "Franke I"
 		dynasty = "von Arenberg"
 		adm = 2
 		dip = 2
@@ -34,7 +34,7 @@ capital = 2006
 }
 1106.1.1 = {
 	monarch = {
-		name = "Franco II"
+		name = "Franke II"
 		dynasty = "von Arenberg"
 		adm = 2
 		dip = 2

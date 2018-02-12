@@ -96,21 +96,70 @@ country_decisions = {
 		major = yes
 		potential = {
 			government = tribal_democracy
+			primitives = yes
+			NOT = { has_dlc = "Conquest of Paradise" }
 		}
 		allow = {
 			adm_power = 200
 			republican_tradition = 99
 			stability = 3
-			has_institution = feudalism
+			any_neighbor_country = { has_institution = feudalism }
 			OR = {
 				full_idea_group = manufacturing_ideas
 				full_idea_group = administrative_ideas
 			}
 		}
 		effect = {
-			change_government = oligarchic_republic
+			change_government = tribal_despotism
+			set_primitive = no
 			add_stability = -5
 			add_adm_power = -200
+			set_country_flag = recently_changed_government_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	steppe_horde_reform = {
+		major = yes
+		potential = {
+			government = steppe_horde
+		}
+		allow = {
+			adm_power = 200
+			legitimacy_or_horde_unity = 60
+			stability = 3
+			has_institution = feudalism
+			OR = {
+				full_idea_group = manufacturing_ideas
+				full_idea_group = administrative_ideas
+			}
+			NOT = {
+				has_ruler_modifier = tribal_succession_crisis
+			}
+		}
+		effect = {
+			add_adm_power = -200
+			add_stability = -5
+			if = {
+				limit = {
+					technology_group = nomad_group
+					religion_group = muslim
+				}
+				change_government = iqta
+				change_technology_group = muslim
+				change_unit_type = muslim
+			}
+			if = {
+				limit = {
+					technology_group = nomad_group
+					NOT = { religion_group = muslim }
+				}
+				change_government = feudal_monarchy
+				change_technology_group = eastern
+				change_unit_type = eastern
+			}
 			set_country_flag = recently_changed_government_flag
 		}
 		ai_will_do = {

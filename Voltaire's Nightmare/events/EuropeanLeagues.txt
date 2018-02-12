@@ -56,12 +56,11 @@ country_event = {
 			limit = {
 				OR = {
 					religion = catholic
+					religion = catholique
 					religion = reformed
 					religion = protestant
-					religion = zwinglianist
 					religion = anabaptist
-					religion = anglican				
-					religion = huguenot
+					religion = anglican
 				}
 				NOT = { tag = ROOT }
 				NOT = { tag = FRA }
@@ -257,7 +256,10 @@ country_event = {
 
 	trigger = {
 		NOT = { has_dlc = "Art of War" }
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_part_of_hre = yes			
 		is_religion_enabled = protestant
 		is_year = 1605
@@ -280,7 +282,10 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				is_part_of_hre = yes			
 			}
 			add_opinion = { who = ROOT modifier = catholic_league_catholic }
@@ -290,10 +295,8 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
 					religion = anglican
-					religion = huguenot
 				}
 			}
 			add_opinion = { who = ROOT modifier = catholic_league_protestant }
@@ -322,10 +325,8 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
 			religion = anglican
-			religion = huguenot
 		}
 		is_year = 1615
 		is_at_war = no
@@ -346,7 +347,10 @@ country_event = {
 		ai_chance = { factor = 10 }
 		every_country = {
 			limit = {
-				religion = catholic
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
 				is_part_of_hre = yes			
 			}
 			add_opinion = { who = ROOT modifier = evangelical_union_catholic }
@@ -357,10 +361,8 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
 					religion = anglican
-					religion = huguenot
 				}
 			}
 			add_opinion = { who = ROOT modifier = evangelical_union_protestant }

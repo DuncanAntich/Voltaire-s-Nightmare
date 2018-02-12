@@ -105,8 +105,16 @@ country_event = {
 
 	trigger = {
 		tag = POR
-		religion = catholic
-		exists = PAP
+		OR = {
+			AND = {
+				religion = catholic
+				exists = PAP
+			}
+			AND = {
+				religion = catholique
+				exists = AVI
+			}
+		}
 		is_year = 1500
 		NOT = { is_year = 1600 }
 	}
@@ -151,7 +159,10 @@ country_event = {
 	trigger = {
 		tag = POR
 		is_year = 1500
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		is_free_or_tributary_trigger = yes
 		MOR = {
 			exists = yes
@@ -603,13 +614,19 @@ country_event = {
 						has_idea = quest_for_the_new_world
 						has_idea = pir_i2
 					}
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 				}
 			}
 			random_known_country = {
 				limit = {
 					NOT = { has_country_flag = turned_down_columbus }
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					OR = {
 						has_idea = quest_for_the_new_world
 						has_idea = pir_i2

@@ -43,6 +43,7 @@ capital = 1056
 		dynasty = "van Brederode"
 		birth_date = 1370.1.1
 		death_date = 1402.1.1
+		claim = 95
 		adm = 2
 		dip = 2
 		mil = 2
@@ -75,6 +76,7 @@ capital = 1056
 		dynasty = "van Brederode"
 		birth_date = 1415.1.1
 		death_date = 1473.10.16
+		claim = 95
 		adm = 2
 		dip = 2
 		mil = 4
@@ -97,6 +99,7 @@ capital = 1056
 		dynasty = "van Brederode"
 		birth_date = 1462.1.8
 		death_date = 1531.1.14
+		claim = 95
 		adm = 1
 		dip = 3
 		mil = 1
@@ -112,4 +115,28 @@ capital = 1056
 		mil = 1
 	}
 }
+1492.9.4 = {
+	heir = {
+		name = "Reinoud"
+		monarch_name = "Reinoud III"
+		dynasty = "van Brederode"
+		birth_date = 1492.9.4
+		death_date = 1556.9.25
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1531.1.14 = {
+	monarch = {
+		name = "Reinoud III"
+		dynasty = "van Brederode"
+		birth_date = 1492.9.4
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+#doen 1549
 1572.1.1 = { religion = reformed }

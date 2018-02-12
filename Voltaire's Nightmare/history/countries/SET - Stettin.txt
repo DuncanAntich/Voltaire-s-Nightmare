@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 3
-technology_group = western
+technology_group = north_american
 religion = slavic_pagan
 primary_culture = kashubian
 capital = 889
@@ -17,6 +17,7 @@ capital = 889
 1122.1.1 = {
 	religion = catholic
 	government = feudal_monarchy
+	technology_group = western
 	capital = 2417
 }
 1156.1.1 = {

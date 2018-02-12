@@ -22,27 +22,23 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	pre_eastern_infantry_1b
-	pre_eastern_cavalry_1a
-	pre_eastern_infantry_2b
-	pre_eastern_cavalry_2a
-	eastern_medieval_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	ottoman_sekban
-	ottoman_reformed_spahi
-	ottoman_reformed_janissary
-	ottoman_toprakli_hit_and_run
-	ottoman_nizami_cedid
-	ottoman_toprakli_dragoon
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	ottoman_new_model
-	ottoman_lancer
-	post_ottoman_infantry
-	post_ottoman_cavalry_b
+	pre_nomad_infantry0
+	pre_nomad_cavalry0
+	pre_nomad_infantry1
+	pre_nomad_cavalry1
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
+	post_nomad_infantry
+	post_nomad_cavalry
 }
 
 monarch_names = {

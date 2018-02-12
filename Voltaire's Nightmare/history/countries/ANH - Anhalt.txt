@@ -55,6 +55,7 @@ capital = 2923
 		dynasty = "von Winzenburg"
 		birth_date = 1105.1.1
 		death_date = 1160.7.7
+		culture = bavarian
 		female = yes
 		adm = 2
 		dip = 2
@@ -119,6 +120,7 @@ capital = 2923
 		dynasty = "af Bjälbo"
 		birth_date = 1245.1.1
 		death_date = 1289.1.1
+		culture = swedish
 		female = yes
 		adm = 2
 		dip = 2
@@ -327,9 +329,7 @@ capital = 2923
 	}
 }
 
-1608.5.14 = {
-	join_league = protestant
-}
+1608.5.14 = { join_league = protestant }
 		
 1618.1.1 = {
 	monarch = {
@@ -356,9 +356,7 @@ capital = 2923
 	}
 }
 
-1635.5.30 = {
-	leave_league = protestant
-}
+1635.5.30 = { leave_league = protestant }
 
 1660.7.2 = {
 	monarch = {
@@ -419,11 +417,8 @@ capital = 2923
 		dip = 3
 		mil = 4
 	}
-}
-
-1747.4.9 = {
 	heir = {
-		name = "Leopold Frederick Franz"
+		name = "Leopold Friedrich Franz"
 		monarch_name = "Leopold III"
 		dynasty = "Askanier"
 		birth_date = 1740.8.10
@@ -435,7 +430,6 @@ capital = 2923
 	}
 }
 		
-
 1751.5.16 = {
 	monarch = {
 		name = "Leopold III"

@@ -2,13 +2,15 @@ government = feudal_monarchy
 government_rank = 3
 technology_group = western
 religion = catholic
-primary_culture = greek
+primary_culture = neapolitan
+add_accepted_culture = greek
 capital = 564 # Napoli
 
 1036.1.1 = {
 	monarch = {
 		name = "Sergios V"
 		dynasty = "Sergii"
+		culture = greek
 		adm = 2
 		dip = 2
 		mil = 2
@@ -18,6 +20,7 @@ capital = 564 # Napoli
 	monarch = {
 		name = "Sergios VI"
 		dynasty = "Sergii"
+		culture = greek
 		adm = 2
 		dip = 4
 		mil = 3
@@ -27,6 +30,7 @@ capital = 564 # Napoli
 	monarch = {
 		name = "Ioannes VI"
 		dynasty = "Sergii"
+		culture = greek
 		adm = 2
 		dip = 2
 		mil = 2
@@ -36,13 +40,14 @@ capital = 564 # Napoli
 	monarch = {
 		name = "Sergios VII"
 		dynasty = "Sergii"
+		culture = greek
 		adm = 2
 		dip = 2
 		mil = 1
 	}
 }
 1137.10.30 = {
-	primary_culture = neapolitan
+	remove_accepted_culture = greek
 	monarch = {
 		name = "Alfonso I"
 		dynasty = "de Hauteville"
@@ -80,6 +85,7 @@ capital = 564 # Napoli
 		dynasty = "Árpád"
 		birth_date = 1261.1.1
 		death_date = 1323.3.25
+		culture = hungarian
 		female = yes
 		adm = 2
 		dip = 2
@@ -143,13 +149,16 @@ capital = 564 # Napoli
 		dynasty = "d'Anjou"
 		birth_date = 1320.1.1
 		death_date = 1362.5.26
+		culture = angevin_culture
 		female = no
 		adm = 3
 		dip = 2
 		mil = 5
 	}
 }
+1378.9.20 = { religion = catholique }
 1382.7.27 = {
+	religion = catholic
 	monarch = { 
 		name = "Carlo III"
 		dynasty = "Durazzo"
@@ -181,6 +190,7 @@ capital = 564 # Napoli
 	}
 }
 1389.1.1 = {
+	religion = catholique
 	monarch = { 
 		name = "Louis II"
 		dynasty = "d'Anjou"
@@ -192,6 +202,7 @@ capital = 564 # Napoli
 	}
 }
 1399.11.1 = {
+	religion = catholic
 	monarch = { 
 		name = "Ladislao I"
 		dynasty = "Durazzo"
@@ -200,8 +211,6 @@ capital = 564 # Napoli
 		mil = 1
 		adm = 2
 	}
-}
-1399.11.1 = {
 	heir = {
 		name = "Giovanna"
 		monarch_name = "Giovanna II"

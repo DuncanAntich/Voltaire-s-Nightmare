@@ -42,13 +42,12 @@ capital = 2773
 	}
 }
 1414.1.1 = {
-	religion = sunni
 	monarch = {
 		name = "Yaqub"
 		dynasty = "Shpata"
+		religion = sunni
 		adm = 1
 		dip = 2
 		mil = 1
 	}
 }
-1416.10.1 = { religion = orthodox }

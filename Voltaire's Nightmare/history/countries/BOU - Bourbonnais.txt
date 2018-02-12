@@ -5,6 +5,10 @@ religion = catholic
 technology_group = western
 capital = 1754
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1033.5.21 = {
 	monarch = {
 		name = "Archambaud IV"
@@ -424,4 +428,4 @@ capital = 1754
 	}
 }
 
-1562.11.18 = { religion = huguenot government = administrative_monarchy }
+1562.11.18 = { religion = reformed government = administrative_monarchy }

@@ -427,6 +427,7 @@ country_event = {
 		NOT = { has_ruler_modifier = ghib_ruler }
 		NOT = { government_rank = 5 }
 		NOT = { tag = PAP }
+		NOT = { tag = AVI }
 		culture_group = latin
 		capital_scope = {
 			OR = {

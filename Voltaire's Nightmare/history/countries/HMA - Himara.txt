@@ -1,4 +1,4 @@
-government = tribal_democracy
+government = peasants_republic
 government_rank = 1
 primary_culture = arvanite
 religion = orthodox
@@ -16,7 +16,7 @@ historical_friend = MON
 
 1417.1.1 = {
 	monarch = {
-		name = "Tribal Council"
+		name = "Himara Council"
 		regent = yes
 		adm = 2
 		dip = 2
@@ -24,11 +24,13 @@ historical_friend = MON
 	}
 }
 1473.8.1 = {
+	government = tribal_despotism
 	monarch = {
-		name = "Ioannes Blasis"
+		name = "Gjon"
+		dynasty = "Vlashi"
 		adm = 3
 		dip = 3
 		mil = 4
 	}
 }
-#1478 dome
+#1478 done

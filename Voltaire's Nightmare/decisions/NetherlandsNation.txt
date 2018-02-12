@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
+			primitives = no
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -29,6 +30,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 40
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			NOT = { exists = NED }
@@ -100,7 +102,21 @@ country_decisions = {
 			if = {
 				limit = {
 					government = theocracy
+					religion = catholique
+				}
+				change_government = administrative_monarchy
+				AVI = {
+					add_opinion = {
+						who = ROOT
+						modifier = opinion_displeased
+					}
+				}
+			}
+			if = {
+				limit = {
+					government = theocracy
 					NOT = { religion = catholic }
+					NOT = { religion = catholique }
 				}
 				change_government = administrative_monarchy
 			}

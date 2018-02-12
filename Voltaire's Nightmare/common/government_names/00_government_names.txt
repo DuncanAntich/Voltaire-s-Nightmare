@@ -1343,6 +1343,40 @@ austrian_monarchy = {
 	}
 }
 
+habsburg_netherlands_gov = {
+	rank = {
+		1 = GOVERNATE
+		2 = MARGRAVIATE
+		3 = DUCHY
+		4 = PRINCIPALITY
+		5 = KINGDOM
+		6 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = GOVERNOR_GENERAL
+		2 = MARGRAVE
+		3 = DUKE
+		4 = PRINCE
+		5 = KING
+		6 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = GOVERNESS_GENERAL
+		2 = MARGRAVINE
+		3 = DUCHESS
+		4 = PRINCESS
+		5 = QUEEN
+		6 = EMPRESS
+	}
+	
+	trigger = {
+		government = administrative_monarchy
+		tag = BUR
+	}
+}
+
 german_republican_bailiff = {
 	rank = {
 		1 = COUNTY
@@ -1865,6 +1899,7 @@ muslim_monarchy = {
 
 	trigger = {
 		government = monarchy
+		NOT = { government = steppe_horde }
 		religion_group = muslim
 	}
 }

@@ -28,14 +28,18 @@ fort_14th = yes
 	controller = BUR
 	add_core = BUR
 }
-1477.1.5 = { owner = HAB controller = HAB add_core = HAB remove_core = BUR }
-1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
-1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = SPA }
+1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = BUR }
 1579.1.23 = {
+	owner = BUR
+	controller = BUR
+	add_core = BUR
+	unrest = 5 
+}
+1648.1.30 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	unrest = 5 
+	remove_core = BUR
 }
 1648.10.24 = { unrest = 0 remove_core = NED }
 1657.1.1 = { controller = FRA }
@@ -49,3 +53,5 @@ fort_14th = yes
 1870.9.1 = { controller = PRU }
 1871.1.18 = { controller = GER }
 1871.5.10 = { controller = FRA }
+discovered_by = nomad_group
+discovered_by = north_american

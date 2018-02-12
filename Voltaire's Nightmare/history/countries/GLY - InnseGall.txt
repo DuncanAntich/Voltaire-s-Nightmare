@@ -7,26 +7,15 @@ capital = 2712
 
 1052.1.1 = {
 	monarch = {
-		name = "Echmarcach"
+		name = "Thorfinn"
 		dynasty = "Ó Ímair"
-		birth_date = 1010.1.1
-		adm = 2
+		birth_date = 1009.1.1
+		adm = 3
 		dip = 3
-		mil = 2
+		mil = 5
 	}
 }
 1061.1.1 = {
-	monarch = {
-		name = "Murchad"
-		dynasty = "Ó Chennselaig"
-		birth_date = 1019.1.1
-		adm = 4
-		dip = 3
-		mil = 4
-	}
-}
-#1070-1072 PU under LEI
-1072.2.7 = {
 	monarch = {
 		name = "Gofraid"
 		dynasty = "Ó Ímair"
@@ -91,7 +80,7 @@ capital = 2712
 1156.1.1 = {
 	monarch = {
 		name = "Somhairle"
-		dynasty = "Ó Chennselaig"
+		dynasty = "Mac Gabráin"
 		birth_date = 1113.1.1
 		adm = 4
 		dip = 2
@@ -102,7 +91,7 @@ capital = 2712
 	heir = {
 		name = "Dubhghaill"
 		monarch_name = "Dubhghaill"
-		dynasty = "Ó Chennselaig"
+		dynasty = "Mac Gabráin"
 		birth_date = 1143.1.1
 		death_date = 1175.1.1
 		claim = 80
@@ -114,7 +103,7 @@ capital = 2712
 1164.1.1 = {
 	monarch = {
 		name = "Dubhghaill"
-		dynasty = "Ó Chennselaig"
+		dynasty = "Mac Gabráin"
 		birth_date = 1143.1.1
 		adm = 1
 		dip = 5
@@ -124,7 +113,7 @@ capital = 2712
 1175.1.1 = {
 	monarch = {
 		name = "Raghnall"
-		dynasty = "Ó Chennselaig"
+		dynasty = "Mac Gabráin"
 		birth_date = 1141.1.1
 		adm = 3
 		dip = 3
@@ -193,6 +182,7 @@ capital = 2712
 		mil = 3
 	}
 }
+1378.9.20 = { religion = catholique }
 1386.1.1 = {
 	monarch = {
 		name = "Domhnaill"
@@ -202,6 +192,7 @@ capital = 2712
 		mil = 2
 	}
 }
+1417.10.18 = { religion = catholic }
 1423.1.1 = {
 	monarch = {
 		name = "Alasdair"

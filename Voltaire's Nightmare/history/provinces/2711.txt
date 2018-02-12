@@ -71,3 +71,5 @@ discovered_by = ottoman
 	remove_core = KNI
 	add_core = JAI
 }
+discovered_by = nomad_group
+discovered_by = north_american

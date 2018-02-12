@@ -41,3 +41,5 @@ fort_14th = yes
 }
 1870.10.29 = { controller = PRU }
 1870.12.18 = { controller = FRA }
+discovered_by = nomad_group
+discovered_by = north_american

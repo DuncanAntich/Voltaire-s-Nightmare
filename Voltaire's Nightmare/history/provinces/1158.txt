@@ -37,9 +37,8 @@ fort_14th = yes
 	controller = BRN
 	add_core = BRN
 	remove_core = SAV
-	religion = zwinglianist
+	religion = reformed
 }
-1551.1.1 = { religion = reformed }
 1648.10.24 = { 
 	hre = no
 	owner = SWI
@@ -51,3 +50,5 @@ fort_14th = yes
 1654.1.1 = { unrest = 0 }
 1656.1.1 = { unrest = 7 }
 1657.1.1 = { unrest = 2 }
+discovered_by = nomad_group
+discovered_by = north_american

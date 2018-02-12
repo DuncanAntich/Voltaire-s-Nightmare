@@ -7,6 +7,9 @@ war_goal = {
 
 1081.10.18 = {
 	add_attacker = APL
+	add_attacker = LRN
+	add_attacker = BJN
+	add_attacker = GGN
 	add_attacker = SIC
 	add_attacker = CPU
 	add_defender = BYZ
@@ -14,6 +17,9 @@ war_goal = {
 
 1085.7.17 = {
 	rem_attacker = APL
+	rem_attacker = LRN
+	rem_attacker = BJN
+	rem_attacker = GGN
 	rem_attacker = SIC
 	rem_attacker = CPU
 	rem_defender = BYZ

@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
-technology_group = western
+technology_group = north_american
 capital = 241
 
 1054.1.1 = {
@@ -15,20 +15,17 @@ capital = 241
 	}
 }
 1100.1.1 = {
-	government = tribal_despotism
 	monarch = {
 		name = "Meinfryd"
-		dynasty = "Meinfrydice"
 		religion = catholic
 		adm = 2
 		dip = 1
 		mil = 2
 	}
 }
-1127.1.1 = {
+1127.3.22 = {
 	monarch = {
 		name = "Przybyslaw"
-		dynasty = "Meinfrydice"
 		religion = catholic
 		adm = 3
 		dip = 5
@@ -42,6 +39,7 @@ capital = 241
 1150.1.1 = {
 	government = theocratic_government
 	primary_culture = central_margravian
+	technology_group = western
 	religion = catholic
 	government_rank = 4
 }

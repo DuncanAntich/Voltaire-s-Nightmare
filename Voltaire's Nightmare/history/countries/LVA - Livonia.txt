@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 3
-technology_group = eastern
+technology_group = north_american
 religion = animism
 primary_culture = latvian
 capital = 2059
@@ -23,7 +23,10 @@ capital = 2059
 	}
 }
 1206.1.1 = { religion = catholic }
-1299.1.1 = { government = feudal_monarchy }
+1299.1.1 = {
+	government = feudal_monarchy
+	technology_group = eastern
+}
 1542.1.1 = {
 	religion = protestant
 }

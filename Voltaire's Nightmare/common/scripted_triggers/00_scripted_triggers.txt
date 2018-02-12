@@ -310,7 +310,6 @@ can_have_center_of_reformation_trigger = {
 		religion = catholic
 		religion = reformed
 		religion = protestant
-		religion = zwinglianist
 		religion = anabaptist
 		religion = cathar
 		religion = waldensian

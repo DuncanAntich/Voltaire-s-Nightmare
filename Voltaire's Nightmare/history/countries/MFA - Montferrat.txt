@@ -76,6 +76,7 @@ add_army_professionalism = 0.05
 		dynasty = "d'Ivrea"
 		birth_date = 1075.1.1
 		death_date = 1135.5.1
+		culture = lorrainian
 		female = yes
 		adm = 2
 		dip = 3

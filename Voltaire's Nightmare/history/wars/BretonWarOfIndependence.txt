@@ -15,6 +15,7 @@ war_goal = {
 # Marriage of Anne of Brittany and Charles VIII
 1491.12.6 = {
 	rem_defender = BRI
+	add_attacker = BRI
 }
 
 # Maximilian declares war
@@ -30,5 +31,6 @@ war_goal = {
 # Peace of Senlis
 1493.5.23 = {
 	rem_attacker = FRA
+	rem_attacker = BRI
 	rem_defender = HAB
 }

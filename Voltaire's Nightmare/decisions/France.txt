@@ -73,15 +73,21 @@ country_decisions = {
 			}
 		}
 		allow = {
-			religion = catholic
-			dominant_religion = catholic
+			OR = {
+				AND = {
+					religion = catholic
+					dominant_religion = catholic
+				}
+				AND = {
+					religion = catholique
+					dominant_religion = catholique
+				}
+			}
 			NOT = { has_country_modifier = counter_reformation } 
 			OR = {
 				num_of_religion = { religion = protestant value = 6 }
 				num_of_religion = { religion = reformed value = 6 }
-				num_of_religion = { religion = huguenot value = 6 }
 				num_of_religion = { religion = anabaptist value = 6 }
-				num_of_religion = { religion = zwinglianist value = 6 }
 			}	
 		}
 		effect = {
@@ -115,13 +121,16 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
-				NOT = { religion = catholic }
+				NOT = {
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
+				}
 				AND = {
 					NOT = { num_of_religion = { religion = protestant value = 1 } }
 					NOT = { num_of_religion = { religion = reformed value = 1 } }
-					NOT = { num_of_religion = { religion = huguenot value = 1 } }
 					NOT = { num_of_religion = { religion = anabaptist value = 1 } }
-					NOT = { num_of_religion = { religion = zwinglianist value = 1 } }
 				}
 				548 = { controlled_by = REB }
 			}	

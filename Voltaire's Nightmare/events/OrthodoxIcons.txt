@@ -53,6 +53,7 @@ country_event = {
 		name = orthodox_icon_events.1.a
 		add_legitimacy = 10
 		add_devotion = 10
+		add_horde_unity = 10
 		add_republican_tradition = 5
 		add_war_exhaustion = -2
 		event_target:eleusa_church_province = {

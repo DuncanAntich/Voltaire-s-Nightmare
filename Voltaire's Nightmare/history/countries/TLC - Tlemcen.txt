@@ -1,10 +1,41 @@
 government = iqta 
 technology_group = muslim
 government_rank = 5
-religion = sunni
+religion = ibadi
 primary_culture = berber
 capital = 2854
 religious_school = maliki_school
+
+1054.1.1 = {
+	monarch = {
+		name = "Yusuf"
+		name = "Ifranid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_piety = 0.35
+}
+1056.1.1 = {
+	monarch = {
+		name = "Hammad"
+		name = "Ifranid"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1066.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		name = "Ifranid"
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+#to MOR
+1080.1.1 = { religion = sunni }
 
 1236.1.1 = {
 	monarch = {
@@ -15,7 +46,6 @@ religious_school = maliki_school
 		dip = 2
 		mil = 4
 	}
-	add_piety = 0.35
 }
 1283.1.1 = {
 	monarch = {

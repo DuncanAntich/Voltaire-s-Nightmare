@@ -3,14 +3,43 @@ government_rank = 3
 primary_culture = turkish
 religion = sunni
 technology_group = ottoman
-historical_rival = HAB
-historical_rival = BYZ
 capital = 57
 national_focus = MIL
 religious_school = hanafi_school
 
 1000.1.1 = { set_country_flag = unformable }
-1299.7.27 = {
+1231.1.1 = {
+	monarch = {
+		name = "Ertugrul"
+		dynasty = "Osmanoglu"
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+1258.2.13 = {
+	heir = {
+		name = "Osman"
+		monarch_name = "Osman I"
+		dynasty = "Osmanoglu"
+		birth_date = 1258.2.13
+		death_date = 1326.7.29
+		claim = 80
+		adm = 6
+		dip = 6
+		mil = 6
+		leader = {
+			name = "Osman Ghazi"
+			type = general
+			fire = 6
+			shock = 4
+			manuever = 5
+			siege = 2
+		}
+	}
+}
+1281.1.1 = {
+	historical_rival = BYZ
 	monarch = {
 		name = "Osman I"
 		dynasty = Osmanoglu
@@ -112,6 +141,7 @@ religious_school = hanafi_school
 	}
 }
 1396.9.25 = { add_accepted_culture = bulgarian }
+1399.1.1 = { historical_rival = HAB }
 1402.7.20 = { #what kinda empire you want fam?
 	monarch = {
 		name = "(JUST)"

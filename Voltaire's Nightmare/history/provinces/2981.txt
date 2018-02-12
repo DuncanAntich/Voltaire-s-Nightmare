@@ -1,37 +1,31 @@
-owner = PFU
-controller = PFU
+owner = HZS
+controller = HZS
 culture = swabian
 religion = catholic
 hre = yes
 base_tax = 2
-base_production = 1
+base_production = 2
 trade_goods = grain
-base_manpower = 1
+base_manpower = 2
 capital = "Messkirch" 
 is_city = yes	
-add_core = PFU
+add_core = HZS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1167.1.1 = {
-	owner = WWS
-	controller = WWS
-	add_core = WWS
-	remove_core = PFU
-	base_tax = 1
-	base_production = 0
-	base_manpower = 0
+1210.1.1 = {
+	owner = BGA
+	controller = BGA
+	add_core = BGA
+	remove_core = HZS
 }
-1268.10.29 = {
+1245.1.1 = {
 	owner = FNB
 	controller = FNB
 	add_core = FNB
-	remove_core = WWS
-	base_tax = 2
-	base_production = 2
-	base_manpower = 2
+	remove_core = BGA
 }
 1803.2.25 = {
 	owner = WUR
@@ -54,3 +48,5 @@ discovered_by = muslim
 	base_production = 1
 	base_manpower = 1
 }
+discovered_by = nomad_group
+discovered_by = north_american

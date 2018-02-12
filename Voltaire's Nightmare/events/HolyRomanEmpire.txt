@@ -150,7 +150,10 @@ country_event = {
 			random_country = {
 				limit = {
 					government = imperial_city 
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = catholique
+					}
 					is_at_war = no
 				}
 				country_event = {

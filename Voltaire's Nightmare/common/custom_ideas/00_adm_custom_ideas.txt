@@ -82,6 +82,7 @@ adm_idea_modifiers = {
 			modifier = {
 				factor = 0
 				NOT = { government = monarchy }
+				government = steppe_horde
 			}
 		}
 	}
@@ -92,7 +93,11 @@ adm_idea_modifiers = {
 		
 		# Used for random generation
 		chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { government = steppe_horde }
+			}
 		}
 	}
 	custom_idea_devotion = {

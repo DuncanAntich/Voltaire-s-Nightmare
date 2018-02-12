@@ -1,4 +1,6 @@
 ﻿l_english:
+ native_mil_ideas: "Tribal Military Ideas"
+ building_native_great_trail: "Roadworks"
 #ages
  START_GOLDEN_AGE: "Start"
  age_of_reformation_desc: "This is the age of religious conviction, debates, and mass movements."
@@ -7,7 +9,7 @@
  age_of_revolutions_desc: "Questioning rights, authority, and world has killed the Ancient Regime."
  age_of_empire_short: "Empire"
  age_of_empire: "Age of Empire"
- age_of_empire_desc: "The influence of great old Caliphs, Caesars, and Emperors is still tangible."
+ age_of_empire_desc: "The influence of great old Caliphs, Caesars, and Emperors is still tangible.\n§YReform Desire is disabled during this age.§!\n"
  age_of_holy_wars_short: "Holy Wars"
  age_of_holy_wars: "Age of Holy Wars"
  age_of_holy_wars_desc: "The dead cry from heaven soliciting for vengeance on heathens. Deus Vult!"
@@ -16,13 +18,13 @@
  age_of_crisis_desc: "Hordes ravage millions in the East, while Imperial authority faces extinction."
  age_of_dynasticism_short: "Dynasticism"
  age_of_dynasticism: "Age of Dynasticism"
- age_of_dynasticism_desc: "Memento Mori, Karling and Salian. New noble families rise to prominence."
+ age_of_dynasticism_desc: "Memento Mori, Karling and Salier. New noble families rise to prominence."
  age_of_ideology_short: "Ideology"
  age_of_ideology: "Age of Ideology"
  age_of_ideology_desc: "Marxists, Liberals, Nationalism, Balance of Power - Ideologies rule supreme."
 #objectives t. ayn rand
  obj_100_development_desc: "Reach a total of at least 150 development in your nation."
- obj_christian_convert_desc: "Change state religion to Lutheran, Zwinglianist, Anabaptist, Calvinist, Huguenot, or Anglican religion."
+ obj_christian_convert_desc: "Change state religion to Protestant, Anabaptist, Reformed, or Anglican religion."
  obj_asian_trade: "Exotic Trade"
  obj_asian_trade_desc: "Gain the trade bonus from either Silk, Peaches, or Carmine."
  obj_emperor_of_china: "King of the Franks"

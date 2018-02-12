@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
-technology_group = western
+technology_group = north_american
 capital = 415
 
 1054.1.1 = {
@@ -17,6 +17,7 @@ capital = 415
 #1139 conquered
 1139.1.1 = {
 	government = feudal_monarchy
+	technology_group = western
 	religion = catholic
 	government_rank = 1
 }

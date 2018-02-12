@@ -1,6 +1,6 @@
 government = tribal_democracy
 government_rank = 3
-technology_group = eastern
+technology_group = north_american
 primary_culture = wallachian
 religion = orthodox
 capital = 660
@@ -16,6 +16,7 @@ capital = 660
 }
 1240.1.1 = {
 	government = feudal_monarchy
+	technology_group = eastern
 	monarch = {
 		name = "Litovoi"
 		dynasty = "Basarab"

@@ -7,6 +7,10 @@ technology_group = western
 capital = 2423	# Toulouse
 fixed_capital = 2423
 
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+
 1037.9.1 = {
 	monarch = {
 		name = "Pons I"
@@ -57,26 +61,75 @@ fixed_capital = 2423
 			siege = 0
 		}
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = zealot_personality
-	add_ruler_personality = bold_fighter_personality
-}
-1105.2.28 = {
-	monarch = { #crusader king
-		name = "Bertrand I"
+	heir = {
+		name = "Bertrand"
+		monarch_name = "Bertrand I"
 		dynasty = "de Toulouse"
+		birth_date = 1065.1.1
+		death_date = 1102.1.1 #to Levant
+		claim = 95
 		adm = 5
 		dip = 2
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = bold_fighter_personality
 }
-1109.1.1 = {
-	monarch = {
+1102.1.1 = {
+	heir = {
 		name = "Alphonse Jourdain"
+		monarch_name = "Alphonse Jourdain"
 		dynasty = "de Toulouse"
+		birth_date = 1102.1.1
+		death_date = 1148.1.1
+		claim = 95
 		adm = 3
 		dip = 3
 		mil = 3
+	}
+}
+1105.2.28 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Alphonse Jourdain"
+		monarch_name = "Alphonse Jourdain"
+		dynasty = "de Toulouse"
+		birth_date = 1102.1.1
+		death_date = 1148.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1117.1.1 = {
+	monarch = {
+		name = "Alphonse Jourdain"
+		dynasty = "de Toulouse"
+		birth_date = 1102.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1134.1.1 = {
+	heir = {
+		name = "Raimond"
+		monarch_name = "Raimond V"
+		dynasty = "de Toulouse"
+		birth_date = 1134.1.1
+		death_date = 1194.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1148.1.1 = {
@@ -148,5 +201,5 @@ fixed_capital = 2423
 		mil = 4
 	}
 }
-1560.1.1 = { religion = huguenot }
+1560.1.1 = { religion = reformed }
 1589.8.3 = { government = administrative_monarchy }

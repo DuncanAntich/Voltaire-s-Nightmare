@@ -5,5 +5,8 @@ primary_culture = gascon
 religion = catholic
 capital = 2324
 
-1560.1.1 = { religion = huguenot }
+#Avignon
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
+1560.1.1 = { religion = reformed }
 1589.8.3 = { government = administrative_monarchy }

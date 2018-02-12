@@ -29,6 +29,7 @@ country_decisions = {
 		}
 		allow = {
 			LIT = { was_player = no }
+			is_nomad = no
 			LIT = {
 				NOT = { num_of_cities = 41 } #Keep this number the same as in potential. Original 31 +10
 			}
@@ -123,6 +124,7 @@ country_decisions = {
 		allow = {
 			POL = { NOT = { num_of_cities = 101 } } #Keep this number the same as in potential.
 			adm_tech = 40
+			is_nomad = no
 			is_subject = no
 			stability = 3
 			is_at_war = no
@@ -211,6 +213,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 40
+			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			stability = 3
 			is_at_war = no
