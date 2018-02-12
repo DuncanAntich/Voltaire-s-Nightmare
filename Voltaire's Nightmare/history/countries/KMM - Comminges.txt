@@ -212,7 +212,6 @@ fixed_capital = 2776
 		mil = 2
 	}
 }
-1378.9.20 = { religion = catholique }
 1419.1.1 = {
 	queen = {
 		country_of_origin = FOI
@@ -226,7 +225,6 @@ fixed_capital = 2776
 		mil = 3
 	}
 }
-1437.1.1 = { religion = catholic }
 1443.1.1 = {
 	monarch = {
 		name = "Mathieu I"

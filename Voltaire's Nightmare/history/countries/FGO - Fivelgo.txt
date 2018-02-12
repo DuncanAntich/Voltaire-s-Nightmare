@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
-technology_group = north_american
+technology_group = western
 capital = 2215
 
 1054.1.1 = {
@@ -14,26 +14,38 @@ capital = 2215
 		regent = yes
 	}
 }
-1248.1.1 = {
+1268.1.1 = {
+	government = tribal_despotism
 	monarch = {
-		name = "Ripperd Ripperda"
+		name = "Ripperd"
+		dynasty = "Ripperda"
 		adm = 3
 		dip = 5
 		mil = 4
 	}
 }
-1275.1.1 = {
+1310.1.1 = {
 	monarch = {
-		name = "Fryske frijheid"
+		name = "Aylwart"
+		dynasty = "Ripperda"
 		adm = 2
 		dip = 2
 		mil = 2
-		regent = yes
 	}
 }
-1375.1.1 = {
-	government = tribal_despotism
-	technology_group = western
+1335.1.1 = {
+	heir = {
+		name = "Uniko"
+		monarch_name = "Uniko I"
+		birth_date = 1335.1.1
+		death_date = 1380.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1350.1.1 = {
 	monarch = {
 		name = "Uniko I"
 		dynasty = "Ripperda"
@@ -42,10 +54,11 @@ capital = 2215
 		dip = 2
 		mil = 2
 	}
+}
+1365.1.1 = {
 	heir = {
 		name = "Hayo"
 		monarch_name = "Hayo"
-		dynasty = "Ripperda"
 		birth_date = 1365.1.1
 		death_date = 1410.1.1
 		claim = 95
@@ -54,7 +67,7 @@ capital = 2215
 		mil = 2
 	}
 }
-1390.1.1 = {
+1380.1.1 = {
 	monarch = {
 		name = "Hayo"
 		dynasty = "Ripperda"
@@ -68,7 +81,6 @@ capital = 2215
 	heir = {
 		name = "Bolo"
 		monarch_name = "Bolo"
-		dynasty = "Ripperda"
 		birth_date = 1395.1.1
 		death_date = 1442.1.1
 		claim = 95
@@ -91,7 +103,6 @@ capital = 2215
 	heir = {
 		name = "Uniko"
 		monarch_name = "Uniko II"
-		dynasty = "Ripperda"
 		birth_date = 1425.1.1
 		death_date = 1484.1.1
 		claim = 95

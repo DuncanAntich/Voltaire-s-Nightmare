@@ -25,7 +25,6 @@ feudalism = {
 						government = tribal_despotism
 						government = tribal_federation
 						government = tribal_democracy
-						government = steppe_horde
 					}
 				}
 				is_year = 950
@@ -130,22 +129,6 @@ feudalism = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
 		}
 	}
 }
@@ -324,22 +307,6 @@ investiture = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -490,22 +457,6 @@ universities = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
 		}
 	}
 }
@@ -665,22 +616,6 @@ guilds = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -813,22 +748,6 @@ chivalry = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
 		}
 	}
 }
@@ -977,22 +896,6 @@ publichealth = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -1134,22 +1037,6 @@ laytheology = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
 		}
 	}
 }
@@ -1349,22 +1236,6 @@ renaissance = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -1539,22 +1410,6 @@ new_world_i = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -1581,7 +1436,9 @@ printing_press = {
 				OR = {
 					religion = protestant
 					religion = reformed
+					religion = zwinglianist
 					religion = anabaptist
+					religion = huguenot
 					religion = anglican
 					superregion = italy_superregion
 					superregion = lombardy_superregion
@@ -1614,7 +1471,9 @@ printing_press = {
 		OR = {
 			religion = protestant
 			religion = reformed
+			religion = zwinglianist
 			religion = anabaptist
+			religion = huguenot
 			religion = anglican
 			superregion = austria_superregion
 			superregion = switzerland_superregion
@@ -1722,7 +1581,9 @@ printing_press = {
 					OR = {
 						religion = protestant
 						religion = reformed
+						religion = zwinglianist
 						religion = anabaptist
+						religion = huguenot
 						religion = anglican
 					}
 				}
@@ -1736,6 +1597,8 @@ printing_press = {
 					religion = reformed
 					religion = protestant
 					religion = anabaptist
+					religion = zwinglianist
+					religion = huguenot
 					religion = anglican
 				}
 			}
@@ -1783,22 +1646,6 @@ printing_press = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
 		}
 	}
 }
@@ -2016,22 +1863,6 @@ global_trade = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -2241,22 +2072,6 @@ manufactories = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -2434,22 +2249,6 @@ enlightenment = {
 			factor = 0.25
 			is_at_war = yes
 		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
 	}
 }
 
@@ -2595,22 +2394,6 @@ industrialism = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
 		}
 	}
 }

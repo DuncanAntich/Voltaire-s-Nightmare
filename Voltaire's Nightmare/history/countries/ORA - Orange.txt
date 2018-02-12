@@ -5,10 +5,6 @@ religion = catholic
 technology_group = western
 capital = 200
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1032.1.1 = {
 	monarch = {
 		name = "Raimbaud I"
@@ -167,7 +163,6 @@ capital = 200
 		name = "Jean I"
 		dynasty = "d'Ivrea"
 		birth_date = 1361.1.1
-		culture = lorrainian
 		adm = 3
 		dip = 4
 		mil = 2
@@ -348,7 +343,6 @@ capital = 200
 	}
 }
 #1618-1702.3.8 under NED
-1618.2.20 = { religion = reformed }
 1702.3.8 = {
 	monarch = {
 		name = "Jean Guillaume"
@@ -359,9 +353,18 @@ capital = 200
 		mil = 2
 	}
 }
+1711.7.14 = {
+	monarch = {
+		name = "(Interregnum)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1711.9.1 = {
 	monarch = {
-		name = "(Régence)"
+		name = "(Regency Council)"
 		regent = yes
 		adm = 2
 		dip = 2

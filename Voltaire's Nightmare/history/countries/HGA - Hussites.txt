@@ -1,5 +1,5 @@
-government = peasants_republic
-government_rank = 3
+government = bohemian_monarchy
+government_rank = 5
 primary_culture = czech
 religion = hussite
 technology_group = western

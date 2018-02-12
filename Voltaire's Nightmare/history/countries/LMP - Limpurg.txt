@@ -3,44 +3,8 @@ government_rank = 1
 primary_culture = swabian
 religion = catholic
 technology_group = western
-capital = 126
+capital = 123
 
-1136.1.1 = {
-	monarch = {
-		name = "Konrad Pris"
-		dynasty = "von Limpurg"
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-1152.1.1 = {
-	monarch = {
-		name = "Konrad I"
-		dynasty = "von Limpurg"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1200.1.1 = {
-	monarch = {
-		name = "Walter Schenk"
-		dynasty = "von Limpurg"
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}
-1226.1.1 = {
-	monarch = {
-		name = "Walter I"
-		dynasty = "von Limpurg"
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
 1249.1.1 = {
 	monarch = {
 		name = "Walter II"
@@ -50,7 +14,6 @@ capital = 126
 		mil = 2
 	}
 }
-1268.10.29 = { capital = 123 }
 1283.1.1 = {
 	monarch = {
 		name = "Friedrich I"

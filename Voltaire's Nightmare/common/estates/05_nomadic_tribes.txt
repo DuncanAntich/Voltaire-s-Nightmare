@@ -8,10 +8,7 @@ estate_nomadic_tribes = {
 
 	# If true, country will get estate
 	trigger = {	
-		OR = {
-			government = eastern_monarchy
-			government = steppe_horde
-		}
+		government = eastern_monarchy
 	}
 	
 	# If true, province can be granted to estate
@@ -39,8 +36,6 @@ estate_nomadic_tribes = {
 	}	
 	country_modifier_angry = {
 		legitimacy = -1
-		horde_unity = -2
-		raze_power_gain = -1
 		manpower_recovery_speed = -0.2
 	}
 	

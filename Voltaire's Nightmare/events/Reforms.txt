@@ -27,7 +27,6 @@ country_event = {
 		name = reforms.1.a		# Go through with the reforms
 		add_inflation = -1
 		add_legitimacy = -5
-		add_horde_unity = -5
 		add_republican_tradition = -5
 	}
 	option = {
@@ -65,7 +64,6 @@ country_event = {
 			add_base_production = 1
 		}
 		add_legitimacy = -5
-		add_horde_unity = -5
 		add_republican_tradition = -5
 		
 	}

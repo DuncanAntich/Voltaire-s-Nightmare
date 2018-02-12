@@ -55,7 +55,6 @@ capital = 2689
 		dynasty = "van Vlaanderen"
 		birth_date = 1030.1.1
 		death_date = 1095.3.5
-		culture = flemish
 		female = yes
 		adm = 2
 		dip = 2

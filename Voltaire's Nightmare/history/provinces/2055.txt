@@ -15,25 +15,21 @@ fort_14th = yes
 owner = SPT
 controller = SPT
 add_core = SPT
-add_core = CHT
 
 1070.1.1 = {
-	owner = CHT
-	controller = CHT
+	owner = APL
+	controller = APL
+	add_core = APL
 }
 1080.6.1 = {
-	owner = LRN
-	controller = LRN
-	add_core = LRN
-	remove_core = CHT
 	remove_core = SPT
 	hre = no
 }
-1137.1.1 = {
+1130.12.25 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC
-	remove_core = LRN
+	remove_core = APL
 }
 1302.8.31 = {
 	owner = NAP
@@ -61,5 +57,3 @@ add_core = CHT
 	remove_core = SIC
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

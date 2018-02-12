@@ -1094,7 +1094,6 @@ country_event = {
 		name = fetishist_flavor.130.b #
 		add_legitimacy = 10
 		add_republican_tradition = 2.5
-		add_horde_unity = 5
 		add_devotion = 5
 	}
 }
@@ -1330,11 +1329,6 @@ province_event = {
 					NOT = { republican_tradition = 75 }
 				}
 				AND = {
-					government = steppe_horde
-					NOT = { legitimacy = 80 }
-					NOT = { horde_unity = 75 }
-				}
-				AND = {
 					government = theocracy
 					NOT = { devotion = 80 }
 				}
@@ -1437,7 +1431,6 @@ province_event = {
 		owner = {
 			add_legitimacy = -5
 			add_republican_tradition = -2.5
-			add_horde_unity = -5
 			add_devotion = -5
 		}
 		hidden_effect = {
@@ -1464,7 +1457,6 @@ province_event = {
 			kill_consort = yes
 			add_legitimacy = 10
 			add_republican_tradition = 5
-			add_horde_unity = 10
 			add_devotion = 10
 			add_prestige = 10
 		}
@@ -1623,7 +1615,6 @@ country_event = {
 		add_adm_power = -25
 		add_legitimacy = -10
 		add_republican_tradition = -5
-		add_horde_unity = -10
 		add_devotion = -10
 		add_prestige = -10
 	}
@@ -2311,7 +2302,6 @@ country_event = {
 		set_country_flag = lost_ancestral_lands
 
 		add_legitimacy = -10
-		add_horde_unity = -10
 		add_republican_tradition = -10
 		add_devotion = -5
 

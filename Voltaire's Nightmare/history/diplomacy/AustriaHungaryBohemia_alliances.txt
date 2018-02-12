@@ -23,7 +23,7 @@ union = {
 union = {
 	first = BOH
 	second = MRV
-	start_date = 1411.1.18
+	start_date = 1411.1.16
 	end_date = 1419.8.16
 }
 union = {
@@ -248,10 +248,10 @@ vassal = {
 	start_date = 1349.1.1
 	end_date = 1387.3.31
 }
-#Interlude with BRA ruling MRV
+#Interlude with MRV ruling BRA
 union = {
-	first = BRA
-	second = MRV
+	first = MRV
+	second = BRA
 	start_date = 1387.3.31
 	end_date = 1411.1.18
 }
@@ -264,9 +264,9 @@ union = {
 	end_date = 1387.3.31
 }
 
-#Interlude with BRA ruling LUX
+#Interlude with MRV ruling LUX
 union = {
-	first = BRA
+	first = MRV
 	second = LUX
 	start_date = 1387.3.31
 	end_date = 1411.1.18
@@ -278,6 +278,14 @@ union = {
 	second = POL
 	start_date = 1370.11.5
 	end_date = 1384.10.16
+}
+
+#Hungary rules BRA after MRV stops
+union = {
+	first = HUN
+	second = BRA
+	start_date = 1411.1.18
+	end_date = 1415.1.1
 }
 
 #Conquests of the Hunyadi

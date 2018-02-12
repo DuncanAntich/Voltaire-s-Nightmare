@@ -133,16 +133,8 @@ country_event = {
 		is_year = 1520
 		NOT = { is_year = 1560 }
 		is_religion_enabled = protestant
-		OR = {
-			AND = {
-				religion = catholic
-				dominant_religion = catholic
-			}
-			AND = {
-				religion = catholique
-				dominant_religion = catholique
-			}
-		}
+		religion = catholic
+		dominant_religion = catholic
 		has_country_modifier = counter_reformation
 	}
 	

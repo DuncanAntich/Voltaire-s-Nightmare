@@ -176,10 +176,7 @@ country_event = {
 	
 	trigger ={
 		tag = VEN
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_at_war = no
 		NOT = { is_year = 1550 }
 	}		
@@ -191,13 +188,9 @@ country_event = {
 	option = {		
 		name = flavor_ven.9.a
 		ai_chance = { factor = 90 }
-		if = {
-			limit = { religion = catholic }
-			PAP = { add_opinion = { who = ROOT modifier = ven_venetian_first } }
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = { add_opinion = { who = ROOT modifier = ven_venetian_first } }
+
+		PAP = {
+			add_opinion = { who = ROOT modifier = ven_venetian_first }
 		}
 		add_country_modifier = {
 			name = ven_venetian_first
@@ -207,14 +200,9 @@ country_event = {
 	}
 	option = {		
 		name = flavor_ven.9.b
-		if = {
-			limit = { religion = catholic }
-			PAP = { add_opinion = { who = ROOT modifier = ven_christian_first } }
-		}	
-		if = {
-			limit = { religion = catholique }
-			AVI = { add_opinion = { who = ROOT modifier = ven_christian_first } }
-		}
+		PAP = {
+			add_opinion = { who = ROOT modifier = ven_christian_first }
+		}				
 		add_country_modifier = {
 			name = ven_christian_first
 			duration = -1

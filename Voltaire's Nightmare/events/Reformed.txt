@@ -14,12 +14,13 @@ country_event = {
 		is_defender_of_faith = no
 		OR = {
 			religion = catholic
-			religion = catholique
 			religion = protestant
+			religion = zwinglianist
 			religion = anabaptist
 		}
 		NOT = { government = papal_government }
-		had_global_flag = { flag = anabaptist_reformation_g days = 912 }
+		had_global_flag = { flag = anabaptist_reformation_g days = 1825 }
+		had_global_flag = { flag = zwinglianist_reformation_g days = 912 }
 		capital_scope = {
 			continent = europe
 		}
@@ -44,7 +45,7 @@ country_event = {
 		
 		modifier = {
 			factor = 0.5
-			culture = swiss
+			religion = zwinglianist
 		}
 		modifier = {
 			factor = 0.5

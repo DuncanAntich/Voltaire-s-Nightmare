@@ -6,10 +6,6 @@ technology_group = western
 capital = 681
 fixed_capital = 681
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1047.1.1 = {
 	monarch = {
 		name = "Aldebert II"

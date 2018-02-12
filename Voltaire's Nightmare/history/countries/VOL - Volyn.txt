@@ -187,7 +187,6 @@ capital = 1140	# Volhynia
 		dynasty = "Piast"
 		birth_date = 1265.1.1
 		death_date = 1308.3.18
-		culture = polish
 		female = yes
 		adm = 2
 		dip = 2

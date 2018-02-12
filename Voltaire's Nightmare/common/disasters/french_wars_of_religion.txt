@@ -9,7 +9,9 @@ french_wars_of_religion = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
+			religion = zwinglianist
 			religion = anabaptist
+			religion = huguenot
 		}
 		is_force_converted = no
 	}
@@ -31,7 +33,9 @@ french_wars_of_religion = {
 				religion = catholic
 				religion = protestant
 				religion = reformed
+				religion = huguenot
 				religion = anabaptist
+				religion = zwinglianist
 			}
 		}
 	}

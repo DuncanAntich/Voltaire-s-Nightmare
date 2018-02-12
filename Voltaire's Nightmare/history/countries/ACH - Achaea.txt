@@ -36,17 +36,6 @@ capital = 611 # Mystras
 		adm = 3
 		mil = 3
 	}
-	heir = {
-		name = "Geoffrey"
-		monarch_name = "Geoffrey II"
-		dynasty = "de Villehardouin"
-		birth_date = 1195.1.1
-		death_date = 1246.5.6
-		claim = 95
-		dip = 2
-		adm = 2
-		mil = 2
-	}
 }
 1229.1.1 = {
 	monarch = {
@@ -57,23 +46,11 @@ capital = 611 # Mystras
 		adm = 2
 		mil = 2
 	}
-	heir = {
-		name = "Guillaume"
-		monarch_name = "Guillaume II"
-		dynasty = "de Villehardouin"
-		birth_date = 1211.1.1
-		death_date = 1278.5.1
-		claim = 95
-		dip = 4
-		adm = 3
-		mil = 3
-	}
 }
 1246.5.6 = {
 	monarch = {
 		name = "Guillaume II"
 		dynasty = "de Villehardouin"
-		birth_date = 1211.1.1
 		dip = 4
 		adm = 3
 		mil = 3
@@ -81,138 +58,7 @@ capital = 611 # Mystras
 }
 1262.1.1 = { capital = 601 }
 #1278.5.1 under NAP
-1289.9.16 = {
-	monarch = {
-		name = "Isabelle"
-		dynasty = "de Villehardouin"
-		birth_date = 1263.1.1
-		female = yes
-		dip = 2
-		adm = 3
-		mil = 2
-	}
-	queen = {
-		country_of_origin = HAI
-		culture = wallonian
-		name = "Florent"
-		dynasty = "d'Avesnes"
-		birth_date = 1255.1.1
-		death_date = 1297.1.23
-		female = no
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1301.2.12 = {
-	queen = {
-		country_of_origin = SAV
-		culture = piedmontese
-		name = "Filippo"
-		dynasty = "di Savoia"
-		birth_date = 1278.1.1
-		death_date = 1334.9.25
-		female = no
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1306.5.5 = {
-	monarch = {
-		name = "Philippe I"
-		dynasty = "d'Anjou"
-		birth_date = 1278.11.10
-		dip = 3
-		adm = 3
-		mil = 3
-	}
-	heir = {
-		name = "Jean"
-		monarch_name = "Jean I"
-		dynasty = "d'Anjou"
-		birth_date = 1294.1.1
-		death_date = 1313.7.29 #not really
-		claim = 90
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}
-1313.7.29 = {
-	monarch = {
-		name = "Mathilde"
-		dynasty = "de Villehardouin" #cognatic
-		birth_date = 1293.11.29
-		female = yes
-		dip = 2
-		adm = 1
-		mil = 2
-	}
-}
-1318.1.1 = {
-	monarch = {
-		name = "Jean I"
-		dynasty = "d'Anjou"
-		birth_date = 1294.1.1
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-	heir = {
-		name = "Robert"
-		monarch_name = "Robert I"
-		dynasty = "d'Anjou"
-		birth_date = 1318.1.1
-		death_date = 1364.9.10
-		claim = 95
-		dip = 2
-		adm = 2
-		mil = 2
-	}
-} #to DRZ as Giovanni Durazzo
-1332.12.23 = {
-	monarch = {
-		name = "Robert I"
-		dynasty = "d'Anjou"
-		birth_date = 1318.1.1
-		dip = 2
-		adm = 2
-		mil = 2
-	}
-	heir = {
-		name = "Philippe"
-		monarch_name = "Philippe II"
-		dynasty = "d'Anjou"
-		birth_date = 1329.1.1
-		death_date = 1374.11.25
-		claim = 95
-		dip = 1
-		adm = 2
-		mil = 2
-	}
-}
-1364.9.10 = {
-	monarch = {
-		name = "Philippe II"
-		dynasty = "d'Anjou"
-		birth_date = 1329.1.1
-		dip = 1
-		adm = 2
-		mil = 2
-	}
-}
-1374.11.25 = {
-	monarch = {
-		name = "James I"
-		dynasty = "d'Orange"
-		birth_date = 1354.1.1
-		dip = 1
-		adm = 3
-		mil = 3
-	}
-}
-1383.7.7 = {
+1386.2.7 = {
 	monarch = {
 		name = "(Interregnum)"
 		regent = yes
@@ -236,7 +82,6 @@ capital = 611 # Mystras
 		dynasty = "Zaccaria"
 		birth_date = 1365.1.1 #est
 		death_date = 1404.1.1
-		culture = ligurian
 		female = yes
 		dip = 1
 		adm = 3

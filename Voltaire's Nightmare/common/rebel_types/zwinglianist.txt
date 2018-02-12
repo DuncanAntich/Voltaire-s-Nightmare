@@ -1,17 +1,17 @@
 ######################################################################
-# Norse Pagan Reformed rebels. Disgruntled fanatics.
+# zwinglianist rebels. Disgruntled fanatics.
 ######################################################################
-norse_pagan_reformed_rebels = {
+zwinglianist_rebels = {
 
 	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = norse_pagan_reformed
-	defection = religion			# Defects to countries of their religion
+	religion = zwinglianist
+	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
-	unit_transfer = yes
+	unit_transfer = no
 	gfx_type = culture_province
 	will_relocate = yes	
 	
@@ -45,7 +45,7 @@ norse_pagan_reformed_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = norse_pagan_reformed }
+			NOT = { religion = zwinglianist }
 		}
 		modifier = {
 			factor = 0.001
@@ -57,8 +57,12 @@ norse_pagan_reformed_rebels = {
 		}
 		modifier = {
 			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
+			owner = { has_disaster = religious_turmoil }
+		}	
+		modifier = {
+			factor = 10.0
+			owner = { has_disaster = french_wars_of_religion }
+		}			
 		modifier = {
 			factor = 2000
 			has_missionary = yes
@@ -90,21 +94,21 @@ norse_pagan_reformed_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = norse_pagan_reformed
-			owner = { religion = norse_pagan_reformed }
+			religion = zwinglianist
+			owner = { religion = zwinglianist }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = norse_pagan_reformed }
+			NOT = { religion = zwinglianist }
 			any_neighbor_province = {
-	 			religion = norse_pagan_reformed
+	 			religion = zwinglianist
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			has_missionary = yes
-			religion = norse_pagan_reformed
+			religion = zwinglianist
 		}
 		modifier = {
 			factor = 1.5
@@ -124,48 +128,45 @@ norse_pagan_reformed_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				OR = {
-					owned_by = PAP
-					owned_by = AVI
-				}
+				owned_by = PAP
 				is_capital = yes
 			}
 		}
  	}
 	siege_won_effect = {
-		custom_tooltip = religious_rebels_seige_effect_tooltip
-		hidden_effect = {
-			if = {
-				limit = {
-					OR = {
-						religion = norse_pagan_reformed
-						is_reformation_center = yes
-						owner = { religion = norse_pagan_reformed }
-					}
-				}
-				add_province_modifier = {
-					name = "religious_violence"
-					duration = 730
+		if = {
+			limit = {
+				OR = {
+					religion = zwinglianist
+					is_reformation_center = yes
+					owner = { religion = zwinglianist }
 				}
 			}
-			if = {
-				limit = {
-					NOT = { religion = norse_pagan_reformed }
-					is_reformation_center = no
-					NOT = { owner = { religion = norse_pagan_reformed } }
-				}
-				change_religion = norse_pagan_reformed
-				add_province_modifier = {
-					name = "forced_conversion"
-					duration = 730
-				}
+			add_province_modifier = {
+				name = "religious_violence"
+				duration = 730
+			}
+		}
+		if = {
+			limit = {
+				NOT = { religion = zwinglianist }
+				is_reformation_center = no
+				NOT = { owner = { religion = zwinglianist } }
+			}
+			change_religion = zwinglianist
+			add_province_modifier = {
+				name = "forced_conversion"
+				duration = 730
 			}
 		}
 	}
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = christian
+			dominant_religion = zwinglianist
+		}
 	}
 	
 	# Country scope
@@ -174,13 +175,13 @@ norse_pagan_reformed_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "norse_pagan_reformed_rebels_demand"
+	demands_description = "zwinglianist_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = pagan }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -192,16 +193,13 @@ norse_pagan_reformed_rebels = {
 		}
 		if = {
 			limit = {
-				OR = {
-					tag = PAP
-					tag = AVI
-				}
+				tag = PAP
 			}
 			add_stability = -1
 		}
 		if = {
 			limit = {
-				religion = norse_pagan_reformed
+				religion = zwinglianist
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -210,7 +208,7 @@ norse_pagan_reformed_rebels = {
 		}
 		if = {
 			limit = {
-				religion = norse_pagan_reformed
+				religion = zwinglianist
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
@@ -228,16 +226,36 @@ norse_pagan_reformed_rebels = {
 		}
 		if = {
 			limit = {
-				OR = {
-					religion_group = pagan
-					dominant_religion = norse_pagan_reformed
-				}
-				NOT = { religion = norse_pagan_reformed }
+				NOT = { religion = zwinglianist }
+				dominant_religion = zwinglianist
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 			}
-			change_religion = norse_pagan_reformed
+			change_religion = zwinglianist
 			force_converted = yes
+		}
+		if = {
+			limit = {
+				NOT = { religion = zwinglianist }
+				NOT = { dominant_religion = zwinglianist }
+				NOT = { tag = PAP }
+				religion_group = christian
+			}
+			add_country_modifier = {
+				name = "heretic_tolerance"
+				duration = 3650
+			}
+		}
+		if = {
+			limit = { has_disaster = french_wars_of_religion }
+			end_disaster = french_wars_of_religion
+			remove_country_modifier = french_catholics
+			remove_country_modifier = french_protestants
+			remove_country_modifier = support_heretics
+			set_country_flag = FRA_had_event_3199
+			set_country_flag = FRA_wars_of_religion_ended
+			capital_scope = {
+				remove_province_modifier = religious_fanatics
+			}
 		}
 	}
 }

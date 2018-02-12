@@ -5,42 +5,6 @@ religion = catholic
 technology_group = western
 capital = 1196
 
-1191.12.15 = {
-	monarch = {
-		name = "Meingoz"
-		dynasty = "von Lechsgemünd"
-		adm = 5
-		dip = 5
-		mil = 5
-	}
-}
-1200.1.1 = {
-	monarch = {
-		name = "Berthold"
-		dynasty = "von Heimburg"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1232.1.1 = {
-	monarch = {
-		name = "Hugo"
-		dynasty = "von Werdenberg"
-		adm = 4
-		dip = 2
-		mil = 2
-	}
-}
-1242.1.1 = {
-	monarch = {
-		name = "Konrad"
-		dynasty = "von Wagenbach"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
 1265.1.1 = {
 	monarch = {
 		name = "Hermann"

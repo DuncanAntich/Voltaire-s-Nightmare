@@ -7,10 +7,7 @@ country_event = {
 	trigger = {
 		always = no # removed from religions.txt
 		has_country_modifier = the_popery_act
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 	}
 
 	mean_time_to_happen = {

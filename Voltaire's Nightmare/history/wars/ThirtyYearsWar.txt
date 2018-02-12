@@ -24,7 +24,6 @@ war_goal = {
 	add_defender = HAB
 	add_defender = HUN
 	add_defender = BAV
-	add_defender = PAL
 	add_defender = MAI
 	add_defender = WBG
 	add_defender = PAA
@@ -201,7 +200,10 @@ war_goal = {
 
 1635.5.1 = { #too OP to have Spain in from start
 	add_attacker = FRA
-	add_defender = BUR
+	add_defender = SPA
+	add_defender = NAP
+	add_defender = MLO
+	add_defender = POR
 }
 
 # Peace of Prague
@@ -280,7 +282,7 @@ war_goal = {
 			cavalry = 6000
 			artillery = 20
 			losses = 3	# percent
-			country = BUR
+			country = SPA
 		}
 		result = no
 	}
@@ -308,7 +310,7 @@ war_goal = {
 			cavalry = 5000
 			artillery = 20
 			losses = 20	# percent
-			country = BUR
+			country = SPA
 		}
 		result = yes
 	}
@@ -342,12 +344,13 @@ war_goal = {
 # Treaty of Ulm
 1647.3.15 = {
 	rem_defender = BAV
-	rem_defender = PAL
 }
 
 # Peace of Westphalia
 1648.1.30 = {
-	rem_defender = BUR
+	rem_defender = SPA
+	rem_defender = NAP
+	rem_defender = MLO
 }
 
 1648.8.20 = {

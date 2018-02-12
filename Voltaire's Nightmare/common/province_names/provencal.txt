@@ -1,6 +1,5 @@
 2058 = "Valinço"
 202 = "Venessin"
-200 = "Aurenja"
 2671 = "Marselha"
 991 = "Ais"
 2558 = "Draguinhan"

@@ -138,25 +138,3 @@ capital = 2945
 	}
 }
 #1457 done
-1492.1.1 = {
-	capital = 2904
-	monarch = {
-		name = "Jan V"
-		dynasty = "von Schellenberg"
-		culture = boden_alemannic
-		adm = 4
-		dip = 3
-		mil = 0
-	}
-}
-1506.1.1 = {
-	monarch = {
-		name = "Georg I"
-		dynasty = "von Schellenberg"
-		culture = boden_alemannic
-		adm = 0
-		dip = 0
-		mil = 0
-	}
-}
-1523.1.1 = { capital = 2945 }

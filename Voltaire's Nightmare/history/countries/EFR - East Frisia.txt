@@ -172,8 +172,8 @@ capital = 2217	# Emden
 }
 1632.10.29 = {
 	heir = {
-		name = "Enno Laodewyk"
-		monarch_name = "Enno Laodewyk"
+		name = "Enno Louis"
+		monarch_name = "Enno Louis"
 		dynasty = "Cirksena"
 		birth_date = 1632.10.29
 		death_date = 1660.4.4
@@ -185,7 +185,7 @@ capital = 2217	# Emden
 }
 1648.11.1 = {
 	monarch = {
-		name = "Enno Laodewyk"
+		name = "Enno Louis"
 		dynasty = "Cirksena"
 		birth_date = 1632.10.29
 		adm = 2
@@ -195,7 +195,7 @@ capital = 2217	# Emden
 }
 1660.4.4 = {
 	monarch = {
-		name = "Jaoris Christian"
+		name = "George Christian"
 		dynasty = "Cirksena"
 		birth_date = 1634.2.6
 		adm = 2
@@ -215,8 +215,8 @@ capital = 2217	# Emden
 }
 1690.6.13 = {
 	heir = {
-		name = "Jaoris Albrecht"
-		monarch_name = "Jaoris Albrecht"
+		name = "George Albert"
+		monarch_name = "George Albert"
 		dynasty = "Cirksena"
 		birth_date = 1690.6.13
 		death_date = 1734.6.12
@@ -228,7 +228,7 @@ capital = 2217	# Emden
 }
 1708.6.30 = {
 	monarch = {
-		name = "Jaoris Albrecht"
+		name = "George Albert"
 		dynasty = "Cirksena"
 		birth_date = 1690.6.13
 		adm = 3
@@ -238,8 +238,8 @@ capital = 2217	# Emden
 }
 1716.6.18 = {
 	heir = {
-		name = "Karel Edzard"
-		monarch_name = "Karl Edzard"
+		name = "Charles Edzard"
+		monarch_name = "Charles Edzard"
 		dynasty = "Cirksena"
 		birth_date = 1716.6.18
 		death_date = 1744.5.25
@@ -251,7 +251,7 @@ capital = 2217	# Emden
 }
 1734.6.12 = {
 	monarch = {
-		name = "Karel Edzard"
+		name = "Charles Edzard"
 		dynasty = "Cirksena"
 		birth_date = 1716.6.18
 		adm = 2

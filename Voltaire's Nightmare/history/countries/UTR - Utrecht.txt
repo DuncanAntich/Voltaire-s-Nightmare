@@ -340,4 +340,3 @@ fixed_capital = 1846
 }
 #under Worms
 #Sold to Charles V on 21 August 1528
-1528.8.21 = { government = despotic_monarchy government_rank = 1 }

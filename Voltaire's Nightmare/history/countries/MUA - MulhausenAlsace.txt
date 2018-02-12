@@ -25,4 +25,5 @@ historical_friend = WAC
 		regent = yes
 	}
 }
-1529.1.1 = { religion = reformed }
+1529.1.1 = { religion = zwinglianist }
+1551.1.1 = { religion = reformed }

@@ -7,7 +7,7 @@ capital = 447
 historical_friend = TRA
 historical_friend = SZK
 
-1224.1.1 = {
+1162.5.31 = {
 	government = oligarchic_republic
 	monarch = {
 		name = "Saxon Burghers"

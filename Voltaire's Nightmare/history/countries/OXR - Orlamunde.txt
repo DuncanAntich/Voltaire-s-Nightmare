@@ -87,7 +87,6 @@ capital = 375
 		dynasty = "von Andechs"
 		birth_date = 1210.1.1
 		death_date = 1271.2.9
-		culture = bavarian
 		female = yes
 		adm = 2
 		dip = 2

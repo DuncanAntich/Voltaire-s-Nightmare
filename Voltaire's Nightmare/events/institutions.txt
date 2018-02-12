@@ -818,7 +818,6 @@ country_event = {
 	}
 	option = {
 		name = institution_events.10.a
-		add_horde_unity = -10
 		add_legitimacy = -10
 		add_republican_tradition = -5
 		add_devotion = -5

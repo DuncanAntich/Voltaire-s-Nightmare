@@ -253,13 +253,11 @@ vassalize_mission = {
 	category = DIP
 
 	allow = {
-		NOT = { government = steppe_horde }
 		NOT = { government = imperial_city }
 		is_subject = no
 		has_regency = no
 		FROM = { 
-			is_subject = no
-			NOT = { government = steppe_horde }
+			is_subject = no 
 			num_of_cities = 5
 			NOT = { has_country_modifier = foreign_contacts }
 		}
@@ -377,7 +375,6 @@ royal_marriage_mission = {
 				is_core = FROM
 			}
 		}
-		NOT = { government = steppe_horde }
 	}
 	abort = {
 		OR = {

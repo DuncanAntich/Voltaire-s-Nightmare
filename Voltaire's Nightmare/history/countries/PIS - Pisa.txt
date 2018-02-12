@@ -16,57 +16,28 @@ fixed_capital = 115
 		adm = 2
 	}
 }
-1190.1.1 = {
+1285.1.1 = {
 	monarch = {
-		name = "Tedicio"
-		dynasty = "della Gherardesca"
-		adm = 3
-		dip = 4
-		mil = 2
-	}
-}
-1210.1.1 = {
-	monarch = {
-		name = "Silvano"
-		dynasty = "della Gherardesca"
-		adm = 1
-		dip = 1
-		mil = 2
-	}
-}
-1228.1.1 = {
-	monarch = {
-		name = "Guelfo"
-		dynasty = "della Gherardesca"
+		name = "Ugolino della Gherardesca"
+		birth_date = 1210.1.1
 		adm = 2
 		dip = 3
-		mil = 2
-	}
-}
-1248.1.1 = {
-	monarch = {
-		name = "Ugolino"
-		dynasty = "della Gherardesca"
-		birth_date = 1220.1.1
-		adm = 2
-		dip = 3
-		mil = 5
+		mil = 3
 	}
 	add_ruler_modifier = { name = guelph_ruler }
 }
-1289.3.1 = {
+1289.1.1 = {
 	monarch = {
-		name = "Alberto"
-		dynasty = "Morosini"
+		name = "Repubblica"
+		regent = yes
 		dip = 2
 		mil = 2
 		adm = 2
 	}
 }
-1309.1.1 = {
+1313.1.1 = {
 	monarch = {
-		name = "Uguccione"
-		dynasty = "della Faggiola"
+		name = "Uguccione della Faggiola"
 		birth_date = 1250.1.1
 		adm = 1
 		dip = 1
@@ -75,8 +46,7 @@ fixed_capital = 115
 }
 1316.1.1 = {
 	monarch = {
-		name = "Gherardo"
-		dynasty = "della Gherardesca"
+		name = "Gherardo della Gherardesca"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -85,8 +55,7 @@ fixed_capital = 115
 }
 1324.1.1 = {
 	monarch = {
-		name = "Rinieri"
-		dynasty = "della Gherardesca"
+		name = "Rinieri della Gherardesca"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -94,8 +63,7 @@ fixed_capital = 115
 }
 1327.1.1 = {
 	monarch = {
-		name = "Fazio"
-		dynasty = "della Gherardesca"
+		name = "Fazio della Gherardesca"
 		birth_date = 1305.1.1
 		adm = 2
 		dip = 2
@@ -104,8 +72,7 @@ fixed_capital = 115
 }
 1341.1.1 = {
 	monarch = {
-		name = "Rinieri"
-		dynasty = "della Gherardesca"
+		name = "Rinieri della Gherardesca"
 		adm = 1
 		dip = 2
 		mil = 2
@@ -113,8 +80,7 @@ fixed_capital = 115
 }
 1347.1.1 = {
 	monarch = {
-		name = "Andrea"
-		dynasty = "Gambacorta"
+		name = "Andrea Gambacorta"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -122,8 +88,7 @@ fixed_capital = 115
 }
 1354.1.1 = {
 	monarch = {
-		name = "Francesco"
-		dynasty = "Gambacorta"
+		name = "Francesco Gambacorta"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -131,8 +96,7 @@ fixed_capital = 115
 }
 1364.1.1 = {
 	monarch = {
-		name = "Giovanni"
-		dynasty = "dell'Agnello"
+		name = "Giovanni dell'Agnello"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -140,8 +104,7 @@ fixed_capital = 115
 }
 1368.1.1 = {
 	monarch = {
-		name = "Pietro"
-		dynasty = "Gambacorta"
+		name = "Pietro Gambacorta"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -149,8 +112,7 @@ fixed_capital = 115
 }
 1392.1.1 = {
 	monarch = {
-		name = "Jacopo"
-		dynasty = "Appiano"
+		name = "Jacopo d'Appiano"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -158,11 +120,9 @@ fixed_capital = 115
 }
 1398.1.1 = {
 	monarch = {
-		name = "Gherardo"
-		dynasty = "Appiano"
-		birth_date = 1370.1.1
-		adm = 3
-		dip = 3
+		name = "Gherardo d'Appiano"
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }

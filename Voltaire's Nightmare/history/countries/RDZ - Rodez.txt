@@ -5,10 +5,6 @@ religion = catholic
 technology_group = western
 capital = 4073
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1050.1.1 = {
 	monarch = {
 		name = "Bérenger I"
@@ -48,7 +44,6 @@ capital = 4073
 		female = yes
 		birth_date = 1060.1.1
 		death_date = 1112.2.3
-		culture = provencal
 		adm = 2
 		dip = 2
 		mil = 2

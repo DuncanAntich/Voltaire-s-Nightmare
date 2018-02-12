@@ -74,7 +74,7 @@ monarch_names = {
 	"Eadræd #1" = 30
 	"Eadgar #1" = 30
 	"Æthelræd #1" = 30
-	"Hereweald #1" = 30
+	"Hereweald #0" = 30
 
 	"Seaxburh #0" = -1
 	"Ealhswith #0" = -1

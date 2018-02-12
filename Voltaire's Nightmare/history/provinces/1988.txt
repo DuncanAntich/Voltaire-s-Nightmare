@@ -80,5 +80,3 @@ discovered_by = muslim
 	remove_core = MLO
 	remove_core = CRM
 }
-discovered_by = nomad_group
-discovered_by = north_american

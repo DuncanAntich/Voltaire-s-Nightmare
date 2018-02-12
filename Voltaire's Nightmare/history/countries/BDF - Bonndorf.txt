@@ -68,7 +68,6 @@ capital = 60
 		dynasty = "von Habsburg"
 		birth_date = 1230.1.1
 		death_date = 1251.1.1
-		culture = swiss
 		female = yes
 		adm = 2
 		dip = 2

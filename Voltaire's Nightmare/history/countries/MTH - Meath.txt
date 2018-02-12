@@ -159,7 +159,6 @@ capital = 2622
 		female = no
 		birth_date = 1233.1.1
 		death_date = 1314.10.21
-		culture = champenois
 		adm = 3
 		dip = 3
 		mil = 3

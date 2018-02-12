@@ -128,10 +128,7 @@ anabaptist_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				OR = {
-					owned_by = PAP
-					owned_by = AVI
-				}
+				owned_by = PAP
 				is_capital = yes
 			}
 		}
@@ -196,10 +193,7 @@ anabaptist_rebels = {
 		}
 		if = {
 			limit = {
-				OR = {
-					tag = PAP
-					tag = AVI
-				}
+				tag = PAP
 			}
 			add_stability = -1
 		}
@@ -235,7 +229,6 @@ anabaptist_rebels = {
 				NOT = { religion = anabaptist }
 				dominant_religion = anabaptist
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 			}
 			change_religion = anabaptist
 			force_converted = yes
@@ -245,7 +238,6 @@ anabaptist_rebels = {
 				NOT = { religion = anabaptist }
 				NOT = { dominant_religion = anabaptist }
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 				religion_group = christian
 			}
 			add_country_modifier = {

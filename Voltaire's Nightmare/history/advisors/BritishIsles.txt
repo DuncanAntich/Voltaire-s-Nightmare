@@ -349,7 +349,7 @@ advisor = {
 	discount = yes
 	skill = 3
 	type = statesman #could also be diplomat 
-	date = 1518.10.4 #back from TOR
+	date = 1505.1.1 #30 years old
 	death_date = 1530.11.28 #died
 }
 

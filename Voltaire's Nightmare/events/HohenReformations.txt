@@ -14,10 +14,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		NOT = { current_age = age_of_empire }
@@ -154,10 +151,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = cathar_heresy_g
@@ -295,10 +289,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = waldensian_heresy_g
@@ -441,10 +432,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = bogomilist_heresy_g
@@ -583,10 +571,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = fraticelli_heresy_g
@@ -727,10 +712,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = lollard_heresy_g

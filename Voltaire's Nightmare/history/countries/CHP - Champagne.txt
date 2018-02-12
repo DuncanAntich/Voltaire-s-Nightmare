@@ -6,10 +6,6 @@ primary_culture = champenois
 capital = 183
 fixed_capital = 183
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1047.1.1 = {
 	monarch = {
 		name = "Eudes II"
@@ -31,8 +27,8 @@ fixed_capital = 183
 		mil = 3
 	}
 	heir = {
-		name = "Hugues"
-		monarch_name = "Hugues I"
+		name = "Hughes"
+		monarch_name = "Hughes I"
 		dynasty = "de Blois"
 		birth_date = 1074.1.1
 		death_date = 1125.1.1
@@ -44,23 +40,11 @@ fixed_capital = 183
 }
 1093.1.1 = {
 	monarch = {
-		name = "Hugues I"
+		name = "Hughes I"
 		dynasty = "de Blois"
 		birth_date = 1074.1.1
 		adm = 2
 		dip = 1
-		mil = 2
-	}
-	queen = {
-		country_of_origin = FRA
-		culture = cosmopolitan_french
-		name = "Constance"
-		dynasty = "Capet"
-		birth_date = 1078.1.1
-		death_date = 1104.12.25 #divorced
-		female = yes
-		adm = 2
-		dip = 2
 		mil = 2
 	}
 }
@@ -83,7 +67,6 @@ fixed_capital = 183
 		female = yes
 		birth_date = 1145.1.1
 		death_date = 1198.3.11
-		culture = cosmopolitan_french
 		adm = 2
 		dip = 2
 		mil = 2

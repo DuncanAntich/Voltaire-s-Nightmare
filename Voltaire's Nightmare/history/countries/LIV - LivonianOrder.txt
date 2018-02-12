@@ -72,7 +72,7 @@ add_army_professionalism = 0.1
 }
 1256.1.1 = {
 	monarch = {
-		name = "Burkhard"
+		name = "Burchard"
 		dynasty = "von Hornhausen"
 		culture = eastphalian
 		adm = 2
@@ -112,7 +112,7 @@ add_army_professionalism = 0.1
 }
 1270.1.1 = {
 	monarch = {
-		name = "Walter"
+		name = "Walther"
 		dynasty = "von Nordeck"
 		culture = hessian
 		adm = 2
@@ -234,7 +234,7 @@ add_army_professionalism = 0.1
 }
 1340.1.1 = {
 	monarch = {
-		name = "Burkhard"
+		name = "Burchard"
 		dynasty = "von Dreileben"
 		culture = hannoverian
 		adm = 2

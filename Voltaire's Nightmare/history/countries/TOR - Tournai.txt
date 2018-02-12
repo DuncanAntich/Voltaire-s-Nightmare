@@ -169,7 +169,6 @@ fixed_capital = 892
 	monarch = { #cambrai
 		name = "Guy I"
 		dynasty = "d'Auvergne"
-		culture = auvergnat
 		adm = 2
 		dip = 2
 		mil = 2
@@ -179,7 +178,6 @@ fixed_capital = 892
 	monarch = {
 		name = "Elie"
 		dynasty = "de Ventadour"
-		culture = limousin
 		adm = 2
 		dip = 2
 		mil = 2
@@ -189,7 +187,6 @@ fixed_capital = 892
 	monarch = {
 		name = "Guillaume I"
 		dynasty = "de Ventadour"
-		culture = limousin
 		adm = 2
 		dip = 2
 		mil = 2
@@ -271,7 +268,6 @@ fixed_capital = 892
 	monarch = {
 		name = "Jean VI"
 		dynasty = "d'Harcourt"
-		culture = normand
 		adm = 2
 		dip = 2
 		mil = 2
@@ -300,58 +296,8 @@ fixed_capital = 892
 	monarch = {
 		name = "Ferry I"
 		dynasty = "de Clugny"
-		birth_date = 1430.1.1
 		adm = 2
 		dip = 2
-		mil = 1
-	}
-}
-1483.10.7 = {
-	monarch = {
-		name = "(Vacant)"
-		regent = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1505.1.1 = {
-	monarch = {
-		name = "Charles I"
-		dynasty = "de Hautbois"
-		adm = 1
-		dip = 1
-		mil = 1
-	}
-}
-1513.9.23 = {
-	monarch = {
-		name = "Thomas"
-		dynasty = "Wolsey"
-		birth_date = 1473.3.1
-		culture = english
-		adm = 3
-		dip = 5
-		mil = 5
-	}
-}
-1518.10.4 = {
-	monarch = {
-		name = "Josse"
-		dynasty = "van Clichtove"
-		culture = brabantian
-		adm = 1
-		dip = 2
-		mil = 2
-	}
-}
-1524.1.1 = {
-	monarch = {
-		name = "Charles II"
-		dynasty = "de Cröy"
-		birth_date = 1506.1.1
-		adm = 1
-		dip = 3
 		mil = 1
 	}
 }

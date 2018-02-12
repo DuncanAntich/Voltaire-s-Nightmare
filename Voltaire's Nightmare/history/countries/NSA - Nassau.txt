@@ -143,7 +143,6 @@ capital = 344	# Nassau
 		dynasty = "von Isenburg"
 		birth_date = 1255.1.1
 		death_date = 1313.9.29
-		culture = moselle_franconian
 		female = yes
 		adm = 2
 		dip = 2
@@ -313,8 +312,8 @@ capital = 344	# Nassau
 }
 1537.12.26 = {
 	heir = {
-		name = "Albrecht"
-		monarch_name = "Albrecht"
+		name = "Albert"
+		monarch_name = "Albert"
 		dynasty = "von Nassau"
 		birth_date = 1537.12.26
 		death_date = 1593.11.11
@@ -326,7 +325,7 @@ capital = 344	# Nassau
 }
 1559.10.4 = {
 	monarch = {
-		name = "Albrecht"
+		name = "Albert"
 		dynasty = "von Nassau"
 		birth_date = 1537.12.26
 		adm = 5

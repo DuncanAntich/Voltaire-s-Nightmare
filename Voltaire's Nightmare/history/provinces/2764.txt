@@ -103,5 +103,3 @@ fort_14th = yes
 	base_production = 2
 	base_manpower = 2
 }
-discovered_by = nomad_group
-discovered_by = north_american

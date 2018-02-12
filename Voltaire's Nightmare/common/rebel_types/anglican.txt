@@ -128,10 +128,7 @@ anglican_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				OR = {
-					owned_by = PAP
-					owned_by = AVI
-				}
+				owned_by = PAP
 				is_capital = yes
 			}
 		}
@@ -196,10 +193,7 @@ anglican_rebels = {
 		}
 		if = {
 			limit = {
-				OR = {
-					tag = PAP
-					tag = AVI
-				}
+				tag = PAP
 			}
 			add_stability = -1
 		}
@@ -235,7 +229,6 @@ anglican_rebels = {
 				NOT = { religion = anglican }
 				dominant_religion = anglican
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 			}
 			change_religion = anglican
 			force_converted = yes
@@ -245,7 +238,6 @@ anglican_rebels = {
 				NOT = { religion = anglican }
 				NOT = { dominant_religion = anglican }
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 				religion_group = christian
 			}
 			add_country_modifier = {

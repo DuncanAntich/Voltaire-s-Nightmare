@@ -266,6 +266,3 @@ capital = 2582	# Dole
 		mil = 2
 	}
 }
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }

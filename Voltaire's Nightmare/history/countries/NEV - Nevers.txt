@@ -6,10 +6,6 @@ primary_culture = burgundian
 capital = 2917	# Nevers
 fixed_capital = 2917 
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 #Counts
 1040.5.29 = {
 	monarch = {
@@ -458,3 +454,4 @@ fixed_capital = 2917
 	}
 }
 1659.7.11 = { government = administrative_monarchy }
+1661.3.9 = { government = absolute_monarchy }

@@ -22,10 +22,7 @@ country_event = {
 		NOT = { current_age = age_of_empire }
 		has_global_flag = lollard_heresy_g
 		num_of_cities = 15
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		num_of_religion = {
 			religion = lollardy
 			value = 0.15
@@ -76,10 +73,7 @@ country_event = {
 			limit = {
 				FRA = {
 					exists = yes
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			FRA ={
@@ -93,10 +87,7 @@ country_event = {
 			limit = {
 				BUR = {
 					exists = yes
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			BUR = {
@@ -110,10 +101,7 @@ country_event = {
 			limit = {
 				BRI = {
 					exists = yes
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			BRI = {
@@ -421,10 +409,7 @@ country_event = {
 			}
 			tag = GBR
 		}
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		primary_culture = english
 		has_regency = no
 		any_owned_province = {
@@ -640,10 +625,7 @@ country_event = {
 			junior_union_with = SPA
 		}
 		SPA = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 		}
 	}
 	
@@ -1968,10 +1950,7 @@ country_event = {
 			limit = {
 				SPA = {
 					exists = yes
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			SPA = {
@@ -1986,10 +1965,7 @@ country_event = {
 			limit = {
 				FRA = {
 					exists = yes
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			FRA = {

@@ -237,7 +237,6 @@ capital = 2458	# Stuttgart
 		dynasty = "de Montfaucon"
 		birth_date = 1387.1.1
 		death_date = 1444.1.1
-		culture = lorrainian
 		female = yes
 		adm = 2
 		dip = 2

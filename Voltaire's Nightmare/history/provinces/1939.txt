@@ -38,5 +38,3 @@ discovered_by = muslim
 	religion = jewish
 	culture = byelorussian
 }
-discovered_by = nomad_group
-discovered_by = north_american

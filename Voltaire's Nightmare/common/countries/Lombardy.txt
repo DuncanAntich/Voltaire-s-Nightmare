@@ -88,8 +88,7 @@ monarch_names = {
 }
 
 leader_names = {
-	Letingi Gausi Arodingi Longobardi Unrochingi
-	Atenulfingi Bonifaci Dauferidi Landolfidi
+	Letingi Gausi Arodingi Longobardi
 	"di Venezia" "di Friuli" "di Benevento"
 	"di Salerno" "di Capua" "di Gaeta"
 	"di Puglio" "di Bari" "di Lecce" "di Lazio"

@@ -252,7 +252,6 @@ capital = 930
 		dynasty = "Plantagenet"
 		birth_date = 1275.3.15
 		death_date = 1333.1.1
-		culture = english
 		female = yes
 		adm = 2
 		dip = 2

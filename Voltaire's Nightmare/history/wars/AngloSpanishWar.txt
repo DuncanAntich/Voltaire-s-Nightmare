@@ -9,7 +9,6 @@ war_goal = {
 	add_attacker = SPA
 	add_attacker = MLO
 	add_attacker = NAP
-	add_attacker = POR
 	add_defender = ENG
 }
 
@@ -39,6 +38,5 @@ war_goal = {
 	rem_attacker = SPA
 	rem_attacker = MLO
 	rem_attacker = NAP
-	rem_attacker = POR
 	rem_defender = ENG
 }

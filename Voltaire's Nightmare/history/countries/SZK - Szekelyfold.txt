@@ -7,11 +7,20 @@ capital = 509
 historical_friend = KLY
 historical_friend = TRA
 
-1224.1.1 = {
+1162.5.31 = {
 	government = noble_republic
 	monarch = {
+		name = "Szoboszló"
+		dynasty = "Szoboszló"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+1204.1.1 = {
+	monarch = {
 		name = "Bogomer"
-		dynasty = "Ludány"
+		dynasty = "Szoboszló"
 		adm = 3
 		dip = 3
 		mil = 3

@@ -171,17 +171,11 @@ country_event = {
 	trigger = {
 		NOT = { has_country_flag = ENG_had_event_9228 }
 		has_country_flag = supports_parliamentarians
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { exists = SCO }
 		any_owned_province = {
 			region = scotland_region
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 		}
 		any_province = {
 			superregion = british_isles_superregion
@@ -203,10 +197,7 @@ country_event = {
 		every_owned_province = {
 			limit = {
 				region = scotland_region
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 			}
 			change_religion = anglican
 		}
@@ -238,17 +229,11 @@ country_event = {
 	trigger = {
 		NOT = { has_country_flag = ENG_had_event_9229 }
 		has_country_flag = supports_royalists
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { exists = SCO }
 		any_owned_province = {
 			region = scotland_region
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 		}
 		any_province = {
 			superregion = british_isles_superregion
@@ -270,10 +255,7 @@ country_event = {
 		every_owned_province = {
 			limit = {
 				region = scotland_region
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 			}
 			change_religion = anglican
 		}

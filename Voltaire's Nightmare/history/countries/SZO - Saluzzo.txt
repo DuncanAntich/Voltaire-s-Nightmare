@@ -114,11 +114,10 @@ capital = 1007
 	}
 	queen = {
 		country_of_origin = WWS
-		name = "Beatrix"
+		name = "Beatrice"
 		dynasty = "von Hohenstaufen"
 		birth_date = 1260.1.1
 		death_date = 1307.1.1
-		culture = swabian
 		female = yes
 		adm = 2
 		dip = 2

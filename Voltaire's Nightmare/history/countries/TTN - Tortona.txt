@@ -23,7 +23,6 @@ add_army_professionalism = 0.05
 		dynasty = "von Welf"
 		birth_date = 1020.1.1
 		death_date = 1054.8.31
-		culture = boden_alemannic
 		female = yes
 		adm = 2
 		dip = 4

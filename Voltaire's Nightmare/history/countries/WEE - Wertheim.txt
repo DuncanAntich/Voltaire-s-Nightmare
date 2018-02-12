@@ -170,7 +170,6 @@ capital = 272
 		dynasty = "von Limpurg"
 		birth_date = 1500.1.1
 		death_date = 1561.4.29
-		culture = swabian
 		female = yes
 		dip = 4
 		adm = 3

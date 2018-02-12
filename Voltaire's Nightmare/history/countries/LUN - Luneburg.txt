@@ -67,7 +67,6 @@ capital = 2627 # Lüneburg
 		dynasty = "von Mecklenburg"
 		birth_date = 1293.1.1
 		death_date = 1358.1.1
-		culture = pommeranian
 		female = yes
 		adm = 2
 		dip = 2

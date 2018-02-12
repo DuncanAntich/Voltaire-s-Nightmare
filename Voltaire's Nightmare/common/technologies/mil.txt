@@ -25,9 +25,6 @@ technology = {
 	enable = pre_eastern_cavalry_0
 	enable = pre_muslim_cavalry_0
 	enable = pre_ottoman_cavalry_0
-	enable = pre_nomad_cavalry0
-	enable = pre_nomad_infantry0
-	enable = pre_tribal_infantry0
 }
 
 technology = {
@@ -49,7 +46,6 @@ technology = {
 	# Tech 3
 	year = 1085
 	
-	enable = pre_tribal_cavalry0
 	cavalry_shock  		= 	0.1
 }
 
@@ -107,7 +103,6 @@ technology = {
 	cavalry_shock  		= 	0.10
 	enable = pre_muslim_infantry_1a
 	enable = pre_muslim_infantry_1b
-	enable = pre_nomad_cavalry1
 }
 
 technology = {
@@ -130,7 +125,6 @@ technology = {
 	enable = pre_western_cavalry_1b
 	enable = pre_eastern_infantry_1a
 	enable = pre_eastern_infantry_1b
-	enable = pre_nomad_infantry1
 }
 
 technology = {
@@ -155,7 +149,6 @@ technology = {
 	year = 1217
 	
 	land_morale 		= 	0.15
-	enable = pre_tribal_infantry1
 }
 
 technology = {
@@ -163,7 +156,6 @@ technology = {
 	year = 1228
 	
 	combat_width = 1
-	enable = pre_tribal_cavalry1
 }
 
 technology = {
@@ -290,9 +282,6 @@ technology = {
 	enable = bardiche_infantry
 	enable = western_medieval_infantry
 	enable = eastern_medieval_infantry
-	enable = mongol_bow	
-	enable = native_clubmen
-	enable = native_indian_archer
 	infantry_shock 		= 	0.10
 }
 
@@ -302,8 +291,6 @@ technology = {
 
 	enable = eastern_knights
 	enable = druzhina_cavalry
-	enable = mongol_swarm
-	enable = mongol_steppe
 	cavalry_shock  		= 	0.15
 }
 
@@ -365,9 +352,6 @@ technology = {
 	enable = eastern_militia
 	enable = mamluk_duel  
 	enable = ottoman_azab
-	enable = algonkin_tomahawk_charge
-	enable = native_indian_tribal_warfare
-	enable = pueblo_ambush
 	
 	combat_width = 2
 }
@@ -383,8 +367,7 @@ technology = {
 	barracks = yes
 
 	enable = slavic_stradioti	
-	enable = ottoman_timariot
-	enable = north_american_horsemen
+	enable = ottoman_timariot	
 	enable = shaybani
 }
 
@@ -431,7 +414,6 @@ technology = {
 	enable = swiss_landsknechten
 	enable = gaelic_mercenary
 	enable = germanized_pike
-	enable = steppe_raiders
 	combat_width = 1	
 }
 
@@ -454,11 +436,8 @@ technology = {
 	enable = ottoman_spahi		
 	enable = culverin		
 	enable = pedrero 
-	enable = schwarze_reiter
+	enable = schwarze_reiter	
 	enable = qizilbash_cavalry
-	enable = steppe_riders
-	enable = native_indian_mountain_warfare	
-	enable = north_american_rifle_cavalry
 }
 
 technology = {
@@ -489,7 +468,6 @@ technology = {
 	enable = gaelic_free_shooter	
 	enable = polish_musketeer 
 	enable = muscovite_musketeer
-	enable = steppe_footmen
 }
 
 technology = {
@@ -517,10 +495,6 @@ technology = {
 	enable = muscovite_caracolle	
 	enable = zaporoghian_cossack	
 	enable = topchis_artillery
-	enable = steppe_lancers
-	enable = huron_arquebusier	 
-	enable = creek_arquebusier
-	enable = north_american_hussar
 	
 	combat_width = 2
 }
@@ -538,7 +512,6 @@ technology = {
 	enable = afsharid_reformed_infantry	
 	enable = muscovite_soldaty	
 	enable = polish_tercio
-	enable = steppe_musketeers
 }
 
 technology = {
@@ -580,7 +553,6 @@ technology = {
 	enable = mamluk_musket_charge 
 	enable = afsharid_reformed	
 	enable = leather_cannon	
-	enable = steppe_mounted_raiders
 	combat_width = 2
 }
 
@@ -599,9 +571,6 @@ technology = {
 	enable = scottish_highlander	
 	enable = saxon_infantry	
 	enable = ottoman_reformed_janissary
-	enable = steppe_infantry
-	enable = iroquois_rifle_scout
-	enable = north_american_swarm
 }
 
 technology = {
@@ -668,8 +637,6 @@ technology = {
 	enable = muslim_dragoon
 	enable = ali_bey_reformed_infantry	
 	enable = russian_petrine	
-	enable = steppe_cavalry
-	enable = north_american_dragoon
 }
 
 technology = {
@@ -724,8 +691,6 @@ technology = {
 	enable = russian_green_coat		
 	enable = muslim_mass_infantry		
 	enable = eastern_carabinier
-	enable = steppe_rifles
-	enable = apache_guerilla
 }
 
 technology = {
@@ -751,7 +716,6 @@ technology = {
 	enable = napoleonic_lancers
 	enable = french_impulse
 	enable = british_square
-	enable = steppe_uhlans
 }
 
 technology = {
@@ -791,8 +755,6 @@ technology = {
 	enable = napoleonic_square
 	enable = persian_rifle
 	enable = ottoman_new_model
-	enable = reformed_steppe_rifles
-	enable = american_western_franchise_warfare
 }
 
 technology = {
@@ -846,8 +808,6 @@ technology = {
 	enable = post_muslim_cavalry_b
 	enable = post_ottoman_cavalry_a
 	enable = post_ottoman_cavalry_b
-	enable = post_tribal_cavalry
-	enable = post_nomad_cavalry
 }
 
 technology = {
@@ -861,8 +821,6 @@ technology = {
 	enable = post_eastern_infantry
 	enable = post_muslim_infantry
 	enable = post_ottoman_infantry
-	enable = post_tribal_infantry
-	enable = post_nomad_infantry
 }
 
 technology = {

@@ -195,10 +195,7 @@ country_event = {
 		is_at_war = no
 		NOT = { has_country_flag = KNIGHT_WANTS_MALTA }
 		has_global_flag = KNIGHT_WANTS_RHODES
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { exists = KNI }
 		is_year = 1310
 		597 = { owner = { religion_group = muslim } }
@@ -228,22 +225,10 @@ country_event = {
 				modifier = spa_ceded_malta
 			}
 		}
-		if = {
-			limit = { religion = catholic }
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_ceded_malta_pap
-				}
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_ceded_malta_pap
-				}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = spa_ceded_malta_pap
 			}
 		}
 	}
@@ -251,22 +236,10 @@ country_event = {
 	option = {		# Don't give them anything
 		name = "flavor_spa.EVTOPTC3156"
 		ai_chance = { factor = 0 }
-		if = {
-			limit = { religion = catholic }
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_refused_ceding_malta
-				}
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_refused_ceding_malta
-				}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = spa_refused_ceding_malta
 			}
 		}
 	}
@@ -288,10 +261,7 @@ country_event = {
 		}
 		NOT = { is_subject = yes }
 		is_at_war = no
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		NOT = { has_global_flag = KNIGHT_WANTS_RHODES }
 		NOT = { culture_group = byzantine }
 		NOT = { culture_group = oghuz }
@@ -319,22 +289,10 @@ country_event = {
 				modifier = spa_ceded_malta
 			}
 		}
-		if = {
-			limit = { religion = catholic }
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_ceded_malta_pap
-				}
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_ceded_malta_pap
-				}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = spa_ceded_malta_pap
 			}
 		}
 	}
@@ -342,22 +300,10 @@ country_event = {
 	option = {
 		name = "flavor_kni.EVTOPTB6"
 		ai_chance = { factor = 0 }
-		if = {
-			limit = { religion = catholic }
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_refused_ceding_malta
-				}
-			}
-		}
-		if = {
-			limit = { religion = catholique }
-			AVI = {
-				add_opinion = {
-					who = ROOT
-					modifier = spa_refused_ceding_malta
-				}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = spa_refused_ceding_malta
 			}
 		}
 	}

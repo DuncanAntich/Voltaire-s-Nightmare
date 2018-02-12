@@ -274,22 +274,3 @@ capital = 1016
 		mil = 2
 	}
 }
-1498.6.2 = {
-	monarch = {
-		name = "Louis II"
-		dynasty = "von der Mark"
-		adm = 1
-		dip = 1
-		mil = 2
-	}
-}
-1525.9.6 = {
-	monarch = {
-		name = "Louis III"
-		dynasty = "von der Mark"
-		adm = 1
-		dip = 2
-		mil = 0
-	}
-}
-#done 1549

@@ -55,5 +55,3 @@ fort_14th = yes
 	fort_16th = no
 	fort_17th = yes
 }
-discovered_by = nomad_group
-discovered_by = north_american

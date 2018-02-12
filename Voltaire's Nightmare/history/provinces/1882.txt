@@ -50,5 +50,3 @@ fort_14th = yes
 	controller = GER
 	add_core = GER
 }
-discovered_by = nomad_group
-discovered_by = north_american

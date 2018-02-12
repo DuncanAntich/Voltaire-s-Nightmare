@@ -31,7 +31,6 @@ fixed_capital = 1901
 		dynasty = "de Bellême"
 		birth_date = 1056.1.1
 		death_date = 1130.1.1
-		culture = normand
 		female = no
 		adm = 2
 		dip = 3

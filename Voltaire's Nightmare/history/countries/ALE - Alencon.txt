@@ -6,10 +6,6 @@ technology_group = western
 capital = 672	# Alencon
 fixed_capital = 672
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
 1269.1.1 = {
 	monarch = {
 		name = "Pierre I"
@@ -165,7 +161,6 @@ fixed_capital = 672
 		dynasty = "de Valois"
 		birth_date = 1492.4.11
 		death_date = 1549.12.21
-		culture = poitevin
 		female = yes
 		adm = 2
 		dip = 4

@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
-technology_group = north_american
+technology_group = western
 capital = 883
 
 1054.1.1 = {
@@ -16,25 +16,9 @@ capital = 883
 }
 1167.1.1 = {
 	government = feudal_monarchy
-	technology_group = western
 	religion = catholic
 }
 1178.12.30 = { primary_culture = pommeranian }
-
-#Margraves of Brandenburg-Salzwedel sorta
-1266.4.4 = {
-	monarch = {
-		name = "Albrecht III"
-		dynasty = "Askanier"
-		birth_date = 1250.1.1
-		culture = central_margravian
-		adm = 1
-		dip = 2
-		mil = 2
-	}
-}
-#1300.12.1 reunited
-
 1352.11.25 = {
 	monarch = {
 		name = "Johann I"

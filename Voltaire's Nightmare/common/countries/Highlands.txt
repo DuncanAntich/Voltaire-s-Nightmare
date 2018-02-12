@@ -54,7 +54,7 @@ monarch_names = {
 	"Domhnall #2" = 10	# Donald
 	"Daidh #0" = 1		# David
 	"Donnchadh #1" = 1	# Duncan
-	"Coinneach #3" = 5	# Kenneth
+	"Coinneach #0" = 5	# Kenneth
 	"Connal #0" = 10	# Conall
 	"Dughlas #0" = 10	# Douglas
 

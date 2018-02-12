@@ -26,8 +26,6 @@ estate_burghers =
 			NOT = { government = celestial_empire }
 			has_dlc = "Mandate of Heaven"
 		}
-		is_nomad = no
-		primitives = no
 		is_colonial_nation = no
 	}
 	

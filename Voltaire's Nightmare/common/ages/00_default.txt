@@ -149,7 +149,7 @@ age_of_empire = {
 				tag = APL
 			}
 			modifier = {
-				discipline = 0.05
+				discipline = 0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -469,7 +469,7 @@ age_of_crisis = {
 				tag = BRA
 			}
 			modifier = {
-				all_power_cost = -0.1
+				all_power_cost = -0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -865,10 +865,7 @@ age_of_reformation = {
 	
 	can_start = {
 		OR = {
-			AND = {
-				is_religion_enabled = protestant
-				is_year = 1490
-			}
+			is_religion_enabled = protestant
 			is_year = 1520
 		}
 	}
@@ -880,7 +877,9 @@ age_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = zwinglianist
 				religion = anabaptist
+				religion = huguenot
 				religion = anglican
 			}
 		}		

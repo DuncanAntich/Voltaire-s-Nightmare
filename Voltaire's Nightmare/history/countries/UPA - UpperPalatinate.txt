@@ -54,7 +54,6 @@ capital = 2542 #Neumarkt
 		female = yes
 		birth_date = 1030.1.1 #est
 		death_date = 1119.8.9
-		culture = boden_alemannic
 		adm = 2
 		dip = 2
 		mil = 2

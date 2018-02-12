@@ -37,7 +37,6 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes	
-			is_nomad = no
 			NOT = { exists = FRA }
 			owns_core_province = 2177	# Maine
 			owns_core_province = 2088	# Blois

@@ -3,5 +3,3 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 #sea
-discovered_by = nomad_group
-discovered_by = north_american

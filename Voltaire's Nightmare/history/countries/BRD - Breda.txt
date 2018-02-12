@@ -21,8 +21,8 @@ capital = 95
 1095.11.27 = {
 	monarch = {
 		name = "Godefroid III"
-		dynasty = "de Boulogne"
-		culture = picard
+		dynasty = "de Bouillon"
+		culture = wallonian
 		birth_date = 1060.9.18
 		adm = 5
 		dip = 5
@@ -41,7 +41,7 @@ capital = 95
 	add_ruler_personality = tactical_genius_personality
 	add_ruler_personality = inspiring_leader_personality
 }
-#1099.7.22 under Limburg
+#1100.7.18 under Limburg
 #1106 annexed to BRB
 1106.1.1 = {
 	government = despotic_monarchy

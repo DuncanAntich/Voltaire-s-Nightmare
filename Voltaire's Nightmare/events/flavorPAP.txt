@@ -224,10 +224,7 @@ country_event = {
 			religion = protestant
 		}
 		any_known_country = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 		}
 	}
 	
@@ -249,10 +246,7 @@ country_event = {
 		hidden_effect = {
 			every_known_country = {
 				limit = {
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 					NOT = { war_with = ROOT }
 				}
 				country_event = {

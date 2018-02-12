@@ -42,7 +42,6 @@ country_decisions = {
 			adm_tech = 54
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			is_nomad = no
 			is_emperor = no
 			owns_core_province = 1084	# Hamburg
 			owns_core_province = 2643	# Rostock

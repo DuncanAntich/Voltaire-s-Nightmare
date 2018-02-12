@@ -257,10 +257,6 @@ ai_militarist = {
 			invasion_nation = yes
 		}
 		modifier = {
-			factor = 3
-			government = steppe_horde
-		}
-		modifier = {
 			factor = 2
 			is_march = yes
 		}

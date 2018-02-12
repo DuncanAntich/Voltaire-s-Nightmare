@@ -7,8 +7,14 @@ war_goal = {
 
 # Union of Utrecht
 1579.1.23 = {
-	add_attacker = NED
-	add_defender = BUR
+	add_attacker = SPA
+	add_attacker = MLO
+	add_attacker = NAP
+	add_defender = NED
+}
+
+1580.8.26 = {
+	add_attacker = POR
 }
 
 1597.1.23 = {
@@ -21,7 +27,7 @@ war_goal = {
 			cavalry = 550
 			artillery = 5
 			losses = 38	# percent
-			country = BUR
+			country = SPA
 		}
 		defender = {
 			commander = "Maurice de Nassau"	# Maurice de Nassau
@@ -45,7 +51,7 @@ war_goal = {
 			cavalry = 1200
 			artillery = 10
 			losses = 36	# percent
-			country = BUR
+			country = SPA
 		}
 		defender = {
 			commander = "Maurits of Nassau"	# Maurits of Nassau
@@ -68,7 +74,7 @@ war_goal = {
 			heavy_ship = 10
 			light_ship = 11
 			losses = 100	# percent
-			country = BUR
+			country = SPA
 		}
 		defender = {
 			commander = "Jacob van Heemskerk"	# Jacob van Heemskerk
@@ -89,7 +95,7 @@ war_goal = {
 			heavy_ship = 60
 			light_ship = 10
 			losses = 86	# percent
-			country = BUR
+			country = SPA
 		}
 		defender = {
 			commander = "Maarten Tromp"	# Maarten Tromp
@@ -102,8 +108,14 @@ war_goal = {
 	}
 }
 
+1640.12.1 = {
+	rem_attacker = POR
+}
+
 # Treaty of Münster
 1648.1.30 = {
-	rem_attacker = NED
-	rem_defender = BUR
+	rem_attacker = SPA
+	rem_attacker = MLO
+	rem_attacker = NAP
+	rem_defender = NED
 }

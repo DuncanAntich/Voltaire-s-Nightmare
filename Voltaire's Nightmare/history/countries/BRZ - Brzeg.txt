@@ -22,7 +22,6 @@ capital = 817
 		dynasty = "Šubic"
 		birth_date = 1292.1.1 #est
 		death_date = 1358.3.4
-		culture = croatian
 		female = yes
 		adm = 2
 		dip = 2

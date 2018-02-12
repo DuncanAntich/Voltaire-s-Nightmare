@@ -1,8 +1,8 @@
 government = tribal_democracy
 government_rank = 3
 primary_culture = livlander
-religion = finnish_pagan
-technology_group = north_american
+religion = animism
+technology_group = eastern
 capital = 712
 
 1054.1.1 = {

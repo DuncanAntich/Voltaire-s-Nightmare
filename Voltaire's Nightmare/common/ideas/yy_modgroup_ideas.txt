@@ -282,10 +282,7 @@ irishclan_ideas = {
     }
     
     trigger = {
-        OR = {
-            primary_culture = irish
-            primary_culture = gallowglass
-        }
+        primary_culture = irish
         is_tribal = yes
     }
     free = yes

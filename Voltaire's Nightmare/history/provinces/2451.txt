@@ -1,5 +1,5 @@
-owner = PFU
-controller = PFU
+owner = RVA
+controller = RVA
 culture = boden_alemannic
 religion = catholic
 hre = yes
@@ -9,13 +9,13 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Oberteuringen" 
 is_city = yes	
-add_core = PFU
+add_core = RVA
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1167.1.1 = {
+1138.1.1 = {
 	owner = WWS
 	controller = WWS
 	add_core = WWS
@@ -23,7 +23,7 @@ discovered_by = muslim
 	base_tax = 1
 	base_production = 0
 	base_manpower = 0
-	remove_core = PFU
+	remove_core = RVA
 }
 1268.10.29 = {
 	owner = WGT
@@ -75,5 +75,3 @@ discovered_by = muslim
 	controller = GER
 	add_core = GER
 }
-discovered_by = nomad_group
-discovered_by = north_american

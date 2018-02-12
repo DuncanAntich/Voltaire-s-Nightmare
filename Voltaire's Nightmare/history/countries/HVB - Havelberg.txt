@@ -2,7 +2,7 @@ government = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
-technology_group = north_american
+technology_group = western
 capital = 233
 fixed_capital = 233
 
@@ -26,7 +26,6 @@ fixed_capital = 233
 1147.8.1 = { #wendish crusade
 	government = theocratic_government
 	government_rank = 4
-	technology_group = western
 	primary_culture = central_margravian
 	religion = catholic
 	monarch = {

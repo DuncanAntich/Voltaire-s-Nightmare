@@ -98,4 +98,3 @@
 2544 = "Babenberg"
 227 = "Swinfurt"
 2431 = "Ingoldestat"
-2981 = "Messankilche"

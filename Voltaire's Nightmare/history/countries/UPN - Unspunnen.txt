@@ -7,7 +7,7 @@ capital = 2278
 
 1173.1.1 = {
 	monarch = {
-		name = "Walter I"
+		name = "Walther I"
 		dynasty = "von Eschenbach"
 		dip = 3
 		mil = 3
@@ -16,7 +16,7 @@ capital = 2278
 }
 1185.1.1 = {
 	monarch = {
-		name = "Walter II"
+		name = "Walther II"
 		dynasty = "von Eschenbach"
 		dip = 2
 		mil = 2
@@ -34,7 +34,7 @@ capital = 2278
 }
 1236.12.19 = {
 	monarch = {
-		name = "Walter III"
+		name = "Walther III"
 		dynasty = "von Eschenbach"
 		dip = 2
 		mil = 2
@@ -61,7 +61,7 @@ capital = 2278
 }
 1300.1.1 = {
 	monarch = {
-		name = "Walter IV"
+		name = "Walther IV"
 		dynasty = "von Eschenbach"
 		dip = 3
 		mil = 2

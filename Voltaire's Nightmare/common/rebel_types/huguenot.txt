@@ -1,13 +1,13 @@
 ######################################################################
-# Protestant rebels. Disgruntled fanatics.
+# huguenot rebels. Disgruntled fanatics.
 ######################################################################
-protestant_rebels = {
+huguenot_rebels = {
 
 	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = protestant
+	religion = huguenot
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -45,7 +45,7 @@ protestant_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = protestant }
+			NOT = { religion = huguenot }
 		}
 		modifier = {
 			factor = 0.001
@@ -94,21 +94,21 @@ protestant_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = protestant
-			owner = { religion = protestant }
+			religion = huguenot
+			owner = { religion = huguenot }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = protestant }
+			NOT = { religion = huguenot }
 			any_neighbor_province = {
-	 			religion = protestant
+	 			religion = huguenot
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			has_missionary = yes
-			religion = protestant
+			religion = huguenot
 		}
 		modifier = {
 			factor = 1.5
@@ -128,41 +128,35 @@ protestant_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				OR = {
-					owned_by = PAP
-					owned_by = AVI
-				}
+				owned_by = PAP
 				is_capital = yes
 			}
 		}
  	}
 	siege_won_effect = {
-		custom_tooltip = religious_rebels_seige_effect_tooltip
-		hidden_effect = {
-			if = {
-				limit = {
-					OR = {
-						religion = protestant
-						is_reformation_center = yes
-						owner = { religion = protestant }
-					}
-				}
-				add_province_modifier = {
-					name = "religious_violence"
-					duration = 730
+		if = {
+			limit = {
+				OR = {
+					religion = huguenot
+					is_reformation_center = yes
+					owner = { religion = huguenot }
 				}
 			}
-			if = {
-				limit = {
-					NOT = { religion = protestant }
-					is_reformation_center = no
-					NOT = { owner = { religion = protestant } }
-				}
-				change_religion = protestant
-				add_province_modifier = {
-					name = "forced_conversion"
-					duration = 730
-				}
+			add_province_modifier = {
+				name = "religious_violence"
+				duration = 730
+			}
+		}
+		if = {
+			limit = {
+				NOT = { religion = huguenot }
+				is_reformation_center = no
+				NOT = { owner = { religion = huguenot } }
+			}
+			change_religion = huguenot
+			add_province_modifier = {
+				name = "forced_conversion"
+				duration = 730
 			}
 		}
 	}
@@ -171,7 +165,7 @@ protestant_rebels = {
 	can_negotiate_trigger = {
 		OR = {
 			religion_group = christian
-			dominant_religion = protestant
+			dominant_religion = huguenot
 		}
 	}
 	
@@ -181,7 +175,7 @@ protestant_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "protestant_rebels_demand"
+	demands_description = "huguenot_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
@@ -199,16 +193,13 @@ protestant_rebels = {
 		}
 		if = {
 			limit = {
-				OR = {
-					tag = PAP
-					tag = AVI
-				}
+				tag = PAP
 			}
 			add_stability = -1
 		}
 		if = {
 			limit = {
-				religion = protestant
+				religion = huguenot
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -217,7 +208,7 @@ protestant_rebels = {
 		}
 		if = {
 			limit = {
-				religion = protestant
+				religion = huguenot
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
@@ -235,20 +226,18 @@ protestant_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = protestant }
-				dominant_religion = protestant
+				NOT = { religion = huguenot }
+				dominant_religion = huguenot
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 			}
-			change_religion = protestant
+			change_religion = huguenot
 			force_converted = yes
 		}
 		if = {
 			limit = {
-				NOT = { religion = protestant }
-				NOT = { dominant_religion = protestant }
+				NOT = { religion = huguenot }
+				NOT = { dominant_religion = huguenot }
 				NOT = { tag = PAP }
-				NOT = { tag = AVI }
 				religion_group = christian
 			}
 			add_country_modifier = {

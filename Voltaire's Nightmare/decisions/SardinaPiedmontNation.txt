@@ -25,7 +25,6 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 40
-			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			OR = {
@@ -93,7 +92,6 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 40
-			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			prestige = 50

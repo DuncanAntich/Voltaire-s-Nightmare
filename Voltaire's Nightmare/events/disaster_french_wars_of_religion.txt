@@ -22,15 +22,13 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+	
 
 	option = {		# French Catholics
 		name = "flavor_fra.EVTOPTA3110"
 		if = {
 			limit = {
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 			}
 			add_stability = -2
 			add_country_modifier = {
@@ -42,7 +40,6 @@ country_event = {
 		if = {
 			limit = {
 				NOT = { religion = catholic }
-				NOT = { religion = catholique }
 			}
 			add_stability = -4
 			add_country_modifier = {
@@ -56,7 +53,7 @@ country_event = {
 		name = "flavor_fra.EVTOPTB3110"
 		if = {
 			limit = {
-				religion = reformed
+				religion = huguenot
 			}
 			add_stability = -2
 			add_country_modifier = {
@@ -67,7 +64,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = reformed }
+				NOT = { religion = huguenot }
 			}
 			add_stability = -4
 			add_country_modifier = {
@@ -707,10 +704,7 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			spawn_rebels = {
@@ -743,11 +737,33 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
+					religion = zwinglianist
+				}
+			}
+			spawn_rebels = {
+				type = zwinglianist_rebels
+				size = 2
+			}
+		}
+		if = {
+			limit = {
+				owner = {
 					religion = anabaptist
 				}
 			}
 			spawn_rebels = {
 				type = anabaptist_rebels
+				size = 2
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					religion = huguenot
+				}
+			}
+			spawn_rebels = {
+				type = huguenot_rebels
 				size = 2
 			}
 		}
@@ -770,10 +786,7 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					OR = {
-						religion = catholic
-						religion = catholique
-					}
+					religion = catholic
 				}
 			}
 			spawn_rebels = {
@@ -806,11 +819,33 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
+					religion = zwinglianist
+				}
+			}
+			spawn_rebels = {
+				type = zwinglianist_rebels
+				size = 1
+			}
+		}
+		if = {
+			limit = {
+				owner = {
 					religion = anabaptist
 				}
 			}
 			spawn_rebels = {
 				type = anabaptist_rebels
+				size = 1
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					religion = huguenot
+				}
+			}
+			spawn_rebels = {
+				type = huguenot_rebels
 				size = 1
 			}
 		}
@@ -1072,7 +1107,6 @@ country_event  = {
 			}
 			AND = {
 				FRA = {
-					NOT = { religion = catholique }
 					NOT = { religion = catholic }
 					religion = PREV
 				}
@@ -1098,7 +1132,6 @@ country_event  = {
 			factor = 0.75
 			FRA = {
 				NOT = { religion = catholic }
-				NOT = { religion = catholique }
 				religion = PREV
 			}
 		}
@@ -1403,13 +1436,10 @@ country_event = {
 				}
 				if = {
 					limit = {
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 					}
 					spawn_rebels = {
-						type = reformed_rebels
+						type = huguenot_rebels
 						size = 2
 						friend = FROM
 					}
@@ -1436,7 +1466,27 @@ country_event = {
 				}
 				if = {
 					limit = {
+						religion = zwinglianist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 2
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
 						religion = anabaptist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 2
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
+						religion = huguenot
 					}
 					spawn_rebels = {
 						type = catholic_rebels
@@ -1462,13 +1512,10 @@ country_event = {
 				}
 				if = {
 					limit = {
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 					}
 					spawn_rebels = {
-						type = reformed_rebels
+						type = huguenot_rebels
 						size = 2
 						friend = FROM
 					}
@@ -1495,7 +1542,27 @@ country_event = {
 				}
 				if = {
 					limit = {
+						religion = zwinglianist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 2
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
 						religion = anabaptist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 2
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
+						religion = huguenot
 					}
 					spawn_rebels = {
 						type = catholic_rebels
@@ -1523,13 +1590,10 @@ country_event = {
 				}
 				if = {
 					limit = {
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 					}
 					spawn_rebels = {
-						type = reformed_rebels
+						type = huguenot_rebels
 						size = 2
 						friend = FROM
 					}
@@ -1556,7 +1620,27 @@ country_event = {
 				}
 				if = {
 					limit = {
+						religion = zwinglianist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 2
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
 						religion = anabaptist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 2
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
+						religion = huguenot
 					}
 					spawn_rebels = {
 						type = catholic_rebels
@@ -1585,13 +1669,10 @@ country_event = {
 				}
 				if = {
 					limit = {
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 					}
 					spawn_rebels = {
-						type = reformed_rebels
+						type = huguenot_rebels
 						size = 1
 						friend = FROM
 					}
@@ -1618,7 +1699,27 @@ country_event = {
 				}
 				if = {
 					limit = {
+						religion = zwinglianist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 1
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
 						religion = anabaptist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 1
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
+						religion = huguenot
 					}
 					spawn_rebels = {
 						type = catholic_rebels
@@ -1644,13 +1745,10 @@ country_event = {
 				}
 				if = {
 					limit = {
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 					}
 					spawn_rebels = {
-						type = reformed_rebels
+						type = huguenot_rebels
 						size = 1
 						friend = FROM
 					}
@@ -1677,7 +1775,27 @@ country_event = {
 				}
 				if = {
 					limit = {
+						religion = zwinglianist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 1
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
 						religion = anabaptist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 1
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
+						religion = huguenot
 					}
 					spawn_rebels = {
 						type = catholic_rebels
@@ -1705,13 +1823,10 @@ country_event = {
 				}
 				if = {
 					limit = {
-						OR = {
-							religion = catholic
-							religion = catholique
-						}
+						religion = catholic
 					}
 					spawn_rebels = {
-						type = reformed_rebels
+						type = huguenot_rebels
 						size = 1
 						friend = FROM
 					}
@@ -1738,7 +1853,27 @@ country_event = {
 				}
 				if = {
 					limit = {
+						religion = zwinglianist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 1
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
 						religion = anabaptist
+					}
+					spawn_rebels = {
+						type = catholic_rebels
+						size = 1
+						friend = FROM
+					}
+				}
+				if = {
+					limit = {
+						religion = huguenot
 					}
 					spawn_rebels = {
 						type = catholic_rebels
@@ -1860,10 +1995,7 @@ country_event = {
 	option = {		# Paris is worth a mass
 		name = "flavor_fra.EVTOPTA3197"
 		trigger = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 		}
 		capital_scope = {
 			remove_province_modifier = religious_fanatics
@@ -1880,7 +2012,6 @@ country_event = {
 		name = "flavor_fra.EVTOPTB3197"
 		trigger = {
 			NOT = { religion = catholic }
-			NOT = { religion = catholique }
 		}
 		capital_scope = {
 			remove_province_modifier = religious_fanatics
@@ -1936,10 +2067,7 @@ country_event = {
 		name = "flavor_fra.EVTOPTA3198"
 		trigger = {
 			capital_scope = {
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 			}
 		}
 		capital_scope = {
@@ -1958,7 +2086,6 @@ country_event = {
 		trigger = {
 			capital_scope = {
 				NOT = { religion = catholic }
-				NOT = { religion = catholique }
 			}
 		}
 		capital_scope = {
