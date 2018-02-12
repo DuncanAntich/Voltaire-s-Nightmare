@@ -104,7 +104,7 @@ alliance = {
 }
 
 #Cesare borgia
-march = {
+vassal = {
 	first = PAP
 	second = RMG
 	start_date = 1500.1.1
