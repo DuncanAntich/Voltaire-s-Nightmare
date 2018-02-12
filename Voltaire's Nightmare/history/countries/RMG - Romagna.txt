@@ -95,11 +95,11 @@ historical_friend = PAP
 }
 1500.1.1 = {
 	monarch = {
-		name = "Cesare I"
+		name = "Cesare"
 		dynasty = "Borgia"
 		birth_date = 1475.9.13
 		adm = 3
-		dip = 4
+		dip = 5
 		mil = 6
 	}
 }
