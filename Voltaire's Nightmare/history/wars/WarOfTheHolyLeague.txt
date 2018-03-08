@@ -47,6 +47,11 @@ war_goal = {
 	rem_attacker = RSZ
 }
 
+# Russia joins the alliance
+1686.1.1 = {
+	add_defender = RUS
+}
+
 1687.8.12 = {
 	battle = { 
 		name = "Mt. Harsany" 
@@ -119,13 +124,19 @@ war_goal = {
 
 # Treaty of Karlowitz
 1699.1.26 = {
-	rem_attacker = TUR
-	rem_attacker = TRA
-	rem_attacker = WAL
-	rem_attacker = MOL
 	rem_defender = HAB
 	rem_defender = HUN
 	rem_defender = PLC
 	rem_defender = KUR
 	rem_defender = VEN
+}
+
+#Treaty of of Constantinople
+
+1700.6.13 = {
+	rem_attacker = TUR
+	rem_attacker = TRA
+	rem_attacker = WAL
+	rem_attacker = MOL
+	rem_defender = RUS
 }

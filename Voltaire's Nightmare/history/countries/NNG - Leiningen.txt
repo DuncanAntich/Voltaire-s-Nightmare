@@ -5,9 +5,18 @@ religion = catholic
 technology_group = western
 capital = 1764
 
-1125.5.23 = {
+1054.1.1 = {
 	monarch = {
 		name = "Emicho I"
+		dynasty = "von Leiningen"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1098.1.1 = {
+	monarch = {
+		name = "Emicho II"
 		dynasty = "von Leiningen"
 		adm = 2
 		dip = 2
@@ -16,7 +25,7 @@ capital = 1764
 }
 1138.1.1 = {
 	monarch = {
-		name = "Emicho II"
+		name = "Emicho III"
 		dynasty = "von Leiningen"
 		adm = 2
 		dip = 2
@@ -43,7 +52,7 @@ capital = 1764
 }
 1237.1.1 = {
 	monarch = {
-		name = "Emicho III"
+		name = "Emicho IV"
 		dynasty = "von Saarbrücken"
 		birth_date = 1215.1.1
 		adm = 5
@@ -118,7 +127,7 @@ capital = 1764
 }
 1434.1.1 = {
 	monarch = {
-		name = "Emicho IV"
+		name = "Emicho V"
 		dynasty = "von Saarbrücken"
 		adm = 3
 		dip = 3
@@ -136,7 +145,7 @@ capital = 1764
 }
 1467.1.1 = {
 	monarch = {
-		name = "Emicho V"
+		name = "Emicho VI"
 		dynasty = "von Saarbrücken"
 		adm = 1
 		dip = 2
@@ -145,7 +154,7 @@ capital = 1764
 }
 1495.1.1 = {
 	monarch = {
-		name = "Emicho VI"
+		name = "Emicho VII"
 		dynasty = "von Saarbrücken"
 		adm = 3
 		dip = 4
@@ -155,7 +164,7 @@ capital = 1764
 1498.1.1 = {
 	heir = {
 		name = "Emicho"
-		monarch_name = "Emicho VII"
+		monarch_name = "Emicho VIII"
 		dynasty = "von Saarbrücken"
 		birth_date = 1498.1.1
 		death_date = 1541.1.10
@@ -167,7 +176,7 @@ capital = 1764
 }
 1535.2.18 = {
 	monarch = {
-		name = "Emicho VII"
+		name = "Emicho VIII"
 		dynasty = "von Saarbrücken"
 		birth_date = 1498.1.1
 		adm = 2
@@ -177,7 +186,7 @@ capital = 1764
 }
 1541.1.10 = {
 	monarch = {
-		name = "Emicho VIII"
+		name = "Emicho IX"
 		dynasty = "von Saarbrücken"
 		adm = 2
 		dip = 2
@@ -187,7 +196,7 @@ capital = 1764
 1562.11.4 = {
 	heir = {
 		name = "Emicho"
-		monarch_name = "Emicho IX"
+		monarch_name = "Emicho X"
 		dynasty = "von Saarbrücken"
 		birth_date = 1562.11.4
 		death_date = 1607.11.24
@@ -199,7 +208,7 @@ capital = 1764
 }
 1593.3.13 = {
 	monarch = {
-		name = "Emicho IX"
+		name = "Emicho X"
 		dynasty = "von Saarbrücken"
 		birth_date = 1562.11.4
 		adm = 2
@@ -231,7 +240,7 @@ capital = 1764
 1612.6.12 = {
 	heir = {
 		name = "Emicho"
-		monarch_name = "Emicho X"
+		monarch_name = "Emicho XI"
 		dynasty = "von Saarbrücken"
 		birth_date = 1612.6.12
 		death_date = 1658.1.1
@@ -243,7 +252,7 @@ capital = 1764
 }
 1625.6.19 = {
 	monarch = {
-		name = "Emicho X"
+		name = "Emicho XI"
 		dynasty = "von Saarbrücken"
 		birth_date = 1612.6.12
 		adm = 2

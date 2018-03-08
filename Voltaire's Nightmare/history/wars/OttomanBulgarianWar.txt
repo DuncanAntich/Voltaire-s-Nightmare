@@ -7,6 +7,7 @@ war_goal = {
 1380.1.1 = {
 	add_attacker = TUR
 	add_defender = BUL
+	add_defender = VDN
 	add_defender = KRV
 }
 
@@ -21,5 +22,6 @@ war_goal = {
 1389.1.1 = {
 	rem_attacker = TUR
 	rem_defender = BUL
+	rem_defender = VDN
 	rem_defender = KRV
 }

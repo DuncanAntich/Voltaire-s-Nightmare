@@ -1,4 +1,4 @@
-government = eastern_monarchy
+government = feudal_monarchy
 government_rank = 3
 primary_culture = polish
 religion = catholic
@@ -6,8 +6,8 @@ technology_group = eastern
 capital = 2419
 historical_rival = TEU
 historical_neutral = POM
-
 national_focus = ADM
+
 1039.1.1 = {
 	monarch = {
 		name = "Kazimierz I"
@@ -113,16 +113,6 @@ national_focus = ADM
 }
 1102.6.4 = {
 	monarch = {
-		name = "Zbigniew I"
-		dynasty = "Piast"
-		birth_date = 1073.1.1
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1113.7.8 = {
-	monarch = {
 		name = "Boleslaw III"
 		dynasty = "Piast"
 		birth_date = 1080.8.20
@@ -130,6 +120,8 @@ national_focus = ADM
 		dip = 3
 		mil = 5
 	}
+}
+1105.1.1 = {
 	heir = {
 		name = "Wladyslaw"
 		monarch_name = "Wladyslaw II"
@@ -157,7 +149,6 @@ national_focus = ADM
 	}
 }
 1138.10.28 = {
-	government = feudal_monarchy
 	monarch = {
 		name = "Wladyslaw II"
 		dynasty = "Piast"
@@ -490,7 +481,7 @@ national_focus = ADM
 1392.1.1 = { #leaves LIT to Vytautas
 	monarch = {
 		name = "Wladyslaw II"
-		dynasty = Jagiellon
+		dynasty = "Jagiellon"
 		culture = lithuanian
 		birth_date = 1352.1.1
 		adm = 3
@@ -514,7 +505,7 @@ national_focus = ADM
 	heir = {
 		name = "Wladyslaw"
 		monarch_name = "Wladyslaw III"
-		dynasty = Jagiellon
+		dynasty = "Jagiellon"
 		birth_date = 1424.10.31
 		death_date = 1444.11.11
 		claim = 90
@@ -526,7 +517,7 @@ national_focus = ADM
 1434.6.1 = {
 	monarch = {
 		name = "Wladyslaw III"
-		dynasty = Jagiellon
+		dynasty = "Jagiellon"
 		birth_date = 1424.10.31
 		adm = 2
 		dip = 4
@@ -555,7 +546,7 @@ national_focus = ADM
 1447.6.25 = {
 	monarch = {
 		name = "Kazimierz IV"
-		dynasty = Jagiellon
+		dynasty = "Jagiellon"
 		birth_date = 1427.11.30
 		adm = 4
 		dip = 4
@@ -594,43 +585,13 @@ national_focus = ADM
 	clear_scripted_personalities = yes
 	add_heir_personality = silver_tongue_personality
 }
-1461.1.1 = {
-	leader = {
-		name = "Piotr Dunin"
-		type = general
-		fire = 2
-		shock = 3
-		manuever = 3
-		siege = 1
-		death_date = 1484.1.1
-	}
-}
-1465.1.1 = {
-	leader = {
-		name = "Feliks Paniewski"
-		type = general
-		fire = 2
-		shock = 3
-		manuever = 2
-		siege = 0
-		death_date = 1488.1.1
-	}
-}
-1475.1.1 = {
-	leader = {
-		name = "Dobieslaw Kurozwecki"
-		type = general
-		fire = 2
-		shock = 3
-		manuever = 2
-		siege = 0
-		death_date = 1496.1.1
-	}
-}
+1461.1.1 = { leader = { name = "Piotr Dunin" type = general fire = 2 shock = 3 manuever = 3 siege = 1 death_date = 1484.1.1 } }
+1465.1.1 = { leader = { name = "Feliks Paniewski" type = general fire = 2 shock = 3 manuever = 2 siege = 0 death_date = 1488.1.1 } }
+1475.1.1 = { leader = { name = "Dobieslaw Kurozwecki" type = general fire = 2 shock = 3 manuever = 2 siege = 0 death_date = 1496.1.1 } }
 1492.6.8 = {
 	monarch = {
 		name = "Jan I Olbracht"
-		dynasty = Jagiellon
+		dynasty = "Jagiellon"
 		birth_date = 1459.12.27
 		adm = 2
 		dip = 0
@@ -746,17 +707,7 @@ national_focus = ADM
 	add_heir_personality = infertile_personality
 	add_heir_personality = industrious_personality
 }
-1521.1.1 = {
-	leader = {
-		name = "Jan Tarnowski"
-		type = general
-		fire = 2
-		shock = 4
-		manuever = 4
-		siege = 1
-		death_date = 1561.5.16
-	}
-}
+1521.1.1 = { leader = { name = "Jan Tarnowski" type = general fire = 2 shock = 4 manuever = 4 siege = 1 death_date = 1561.5.16 } }
 1543.5.6 = {
 	queen = {
 		country_of_origin = HAB
@@ -812,25 +763,6 @@ national_focus = ADM
 		mil = 0
 	}
 }
-1560.1.1 = {
-	leader = {
-		name = "Sebastian Lubomirski"
-		type = general
-		fire = 2
-		shock = 3
-		manuever = 3
-		siege = 0
-		death_date = 1613.7.20
-	}
-}
-1565.1.1 = {
-	leader = {
-		name = "Andrzej Kurbski"
-		type = general
-		fire = 2
-		shock = 1
-		manuever = 3
-		siege = 0
-		death_date = 1575.1.1
-	}
-}
+1560.1.1 = { leader = { name = "Sebastian Lubomirski" type = general fire = 2 shock = 3 manuever = 3 siege = 0 death_date = 1613.7.20 } }
+1565.1.1 = { leader = { name = "Andrzej Kurbski" type = general fire = 2 shock = 1 manuever = 3 siege = 0 death_date = 1575.1.1 } }
+1596.1.1 = { capital = 1138 }

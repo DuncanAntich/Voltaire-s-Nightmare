@@ -9,17 +9,14 @@ country_event = {
 	
 	trigger = {
 		is_religion_enabled = protestant
-		religion_years = { protestant = 15 }
+		religion_years = { protestant = 10 }
 		NOT = { is_religion_enabled = reformed }
 		is_defender_of_faith = no
 		OR = {
 			religion = catholic
-			religion = catholique
 			religion = protestant
-			religion = anabaptist
 		}
 		NOT = { government = papal_government }
-		had_global_flag = { flag = anabaptist_reformation_g days = 912 }
 		capital_scope = {
 			continent = europe
 		}
@@ -27,8 +24,7 @@ country_event = {
 			can_have_center_of_reformation_trigger = {
 					RELIGION = reformed
 			}
-		}
-		
+		}	
 	}
 	
 	immediate = {

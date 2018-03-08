@@ -1,11 +1,25 @@
 government = feudal_monarchy
 government_rank = 4
 technology_group = eastern
-primary_culture = serbian
+primary_culture = aromanian
 religion = orthodox
 capital = 2355
 
+#Doboromir
+1196.1.1 = {
+	monarch = {
+		name = "Dobromir"
+		dynasty = "Chrysos"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+#done 1203
+
+#Serbian despots
 1355.12.20 = {
+	primary_culture = serbian
 	monarch = {
 		name = "Vukašin"
 		dynasty = "Mrnjavcevic"

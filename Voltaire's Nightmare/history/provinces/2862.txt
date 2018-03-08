@@ -1,5 +1,5 @@
-owner = ZGL
-controller = ZGL
+owner = ZGR
+controller = ZGR
 culture = semigallian
 religion = animism
 hre = no
@@ -9,17 +9,17 @@ trade_goods = lumber
 base_manpower = 1
 capital = "Joniškis"
 is_city = yes
-add_core = ZGL
+add_core = ZGR
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1230.1.1 = {
+1255.1.1 = {
 	owner = ZMG
 	controller = ZMG
 	add_core = ZMG
-	remove_core = ZGL
+	remove_core = ZGR
 	culture = lithuanian
 }
 1422.1.1 = {

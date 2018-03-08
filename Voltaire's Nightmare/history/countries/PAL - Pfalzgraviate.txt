@@ -4,6 +4,7 @@ primary_culture = pfalzish
 religion = catholic
 technology_group = western
 capital = 2732 #Heidelberg
+elector = yes
 
 1047.9.7 = {
 	monarch = {
@@ -42,20 +43,44 @@ capital = 2732 #Heidelberg
 	}
 }
 1085.9.20 = {
-	government = noble_republic
 	monarch = {
 		name = "Heinrich"
-		dynasty = "von Laach"
+		dynasty = "d'Ardenne"
+		birth_date = 1050.1.1
 		adm = 2
 		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Siegfried"
+		monarch_name = "Siegfried"
+		dynasty = "Askanier"
+		birth_date = 1074.1.1
+		death_date = 1113.3.9
+		claim = 60
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }
 1095.1.1 = {
 	monarch = {
 		name = "Siegfried"
-		dynasty = "von Weimar"
+		dynasty = "Askanier"
 		birth_date = 1074.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1112.1.1 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm"
+		dynasty = "Askanier"
+		birth_date = 1112.1.1
+		death_date = 1139.1.1
+		claim = 80
 		adm = 2
 		dip = 2
 		mil = 2
@@ -63,25 +88,35 @@ capital = 2732 #Heidelberg
 }
 1113.3.9 = {
 	monarch = {
-		name = "Gottfried"
-		dynasty = "von Calw"
-		birth_date = 1080.1.1
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm"
+		dynasty = "Askanier"
+		birth_date = 1112.1.1
+		death_date = 1139.1.1
+		claim = 80
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1129.1.1 = {
+1127.1.1 = {
 	monarch = {
 		name = "Wilhelm"
-		dynasty = "von Weimar"
+		dynasty = "Askanier"
 		birth_date = 1112.1.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1139.1.1 = {
+1140.2.13 = {
 	monarch = {
 		name = "Heinrich"
 		dynasty = "von Babenberg"
@@ -100,9 +135,7 @@ capital = 2732 #Heidelberg
 		mil = 2
 	}
 }
-1155.1.1 = {
-	government = feudal_monarchy
-	elector = yes
+1156.9.20 = {
 	monarch = {
 		name = "Konrad I"
 		dynasty = "von Hohenstaufen"
@@ -730,4 +763,4 @@ capital = 2732 #Heidelberg
 	}
 }
 1750.1.1 = { leader = {	name = "Friedrich Riedesel"          	type = general	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1800.1.6 } }
-1777.12.30 = { elector = no } # Maximilian III dies, Karl becomes elector of both the Pawesternate and Bavaria
+1777.12.30 = { elector = no }

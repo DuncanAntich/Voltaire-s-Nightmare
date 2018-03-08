@@ -1,5 +1,5 @@
-owner = MUZ
-controller = MUZ
+owner = SLS
+controller = SLS
 culture = hessian
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = grain
 base_manpower = 2
 capital = "Solms"
 is_city = yes
-add_core = MUZ
 add_core = SLS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1129.1.1 = {
-	owner = SLS
-	controller = SLS
-	remove_core = MUZ
-}
 1806.7.12 = {
 	owner = NSA
 	controller = NSA

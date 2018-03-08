@@ -228,7 +228,7 @@ capital = 2652
 }
 1806.7.12 = { elector = no }
 1807.1.1 = { leader = { name = "August von Gneisenau"	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1831.8.23 } }
-1815.3.16 = { elector = yes }
+1813.10.13 = { elector = yes }
 1839.1.1 = { leader = { name = "Helmuth von Moltke"	type = general	fire = 3	shock = 4	manuever = 2	siege = 2	death_date = 1891.4.24 } }
 1840.6.7 = {
 	monarch = {
@@ -274,4 +274,4 @@ capital = 2652
 		mil = 3
 	}
 }
-1871.1.18 = { elector = no }
+1866.9.20 = { elector = no }

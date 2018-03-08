@@ -5,25 +5,50 @@ primary_culture = saxon
 religion = catholic
 capital = 2804
 
-1143.1.1 = {
+#Burgraves of Groitzsch
+1054.1.1 = {
 	monarch = {
-		name = "Heinrich Groitzsch"
-		dynasty = "von Leisnig"
+		name = "Wiprecht I"
+		dynasty = "von Groitzsch"
 		dip = 2
 		mil = 2
 		adm = 2
 	}
+	heir = {
+		name = "Wiprecht"
+		monarch_name = "Wiprecht II"
+		dynasty = "von Groitzsch"
+		birth_date = 1054.1.1
+		death_date = 1124.5.22
+		claim = 95
+		dip = 2
+		mil = 3
+		adm = 2
+	}
 }
-1160.1.1 = {
+1061.1.1 = {
 	monarch = {
-		name = "Heinrich I"
+		name = "Wiprecht II"
+		dynasty = "von Groitzsch"
+		birth_date = 1054.1.1
+		dip = 2
+		mil = 3
+		adm = 2
+	}
+}
+#1085 under DHN
+#Burgraves of Leisnig
+1158.1.1 = {
+	monarch = {
+		name = "Heinrich II"
 		dynasty = "von Leisnig"
+		birth_date = 1143.1.1
 		dip = 4
 		mil = 2
 		adm = 4
 	}
 }
-1203.1.1 = {
+1198.1.1 = {
 	monarch = {
 		name = "Gebhard I"
 		dynasty = "von Leisnig"

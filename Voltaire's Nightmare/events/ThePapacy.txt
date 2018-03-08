@@ -629,7 +629,6 @@ country_event = {
 			has_country_modifier = pap_indulgences
 		}
 		reform_desire = 0.50
-		has_institution = laytheology
 		NOT = { is_religion_enabled = protestant }
 	}
 	
@@ -686,7 +685,7 @@ country_event = {
 		NOT = {
 			has_country_modifier = pap_simony
 		}
-		reform_desire = 0.75
+		reform_desire = 0.50
 		NOT = { is_religion_enabled = protestant }
 	}
 	
@@ -744,7 +743,6 @@ country_event = {
 			has_country_modifier = pap_veneration_relics
 		}
 		reform_desire = 0.25
-		has_global_flag = hussite_heresy_g
 		NOT = { is_religion_enabled = protestant }
 	}
 	
@@ -969,11 +967,8 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		is_year = 1399
-		has_global_flag = hussite_heresy_g
-		NOT = {
-			is_year = 1550
-		}
+		has_institution = laytheology
+		NOT = { is_year = 1550 }
 		OR = {
 			AND = {
 				tag = PAP
@@ -1002,15 +997,11 @@ country_event = {
 		}				
 	}
 	
-	mean_time_to_happen = {
-		months = 200
-	}
+	mean_time_to_happen = { months = 200 }
 	
 	option = {
 		name = papacy_events.22.a
-		trigger = {
-			tag = PAP
-		}
+		trigger = { tag = PAP }
 		random_known_country = {
 			limit = {
 				religion = catholic
@@ -1022,39 +1013,23 @@ country_event = {
 				}
 			}
 			set_country_flag = pap_condemn_witchtrials_flag
-			country_event = {
-				id = papacy_events.23
-			}
+			country_event = { id = papacy_events.23 }
 		}
 	}
 	
 	option = {
 		name = papacy_events.22.b
-		trigger = {
-			tag = PAP
-		}
+		trigger = { tag = PAP }
 		add_stability_or_adm_power = yes
 	}
 	option = {
 		name = papacy_events.22.c
-		trigger = {
-			NOT = {
-				tag = PAP
-			}
-		}
-		PAP = {
-			country_event = {
-				id = papacy_events.26
-			}
-		}
+		trigger = { NOT = { tag = PAP } }
+		PAP = { country_event = { id = papacy_events.26 } }
 	}
 	option = {
 		name = papacy_events.22.e
-		trigger = {
-			NOT = {
-				tag = PAP
-			}
-		}
+		trigger = { NOT = { tag = PAP } }
 		add_stability_or_adm_power = yes
 	}
 }
@@ -1210,9 +1185,7 @@ country_event = {
 	
 	option = {
 		name = papacy_events.26.a
-		ai_chance = {
-			factor = 90
-		}
+		ai_chance = { factor = 90 }
 		add_devotion = 2
 		FROM = {
 			country_event = {
@@ -1224,9 +1197,7 @@ country_event = {
 	
 	option = {
 		name = papacy_events.26.b
-		ai_chance = {
-			factor = 10
-		}
+		ai_chance = { factor = 10 }
 		add_reform_desire = -0.01
 		FROM = {
 			country_event = {

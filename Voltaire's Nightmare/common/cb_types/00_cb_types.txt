@@ -226,20 +226,14 @@ cb_humiliate = {
 
 	prerequisites = {
 		has_dlc = "Conquest of Paradise"
-		government = native_council
+		government = tribal_democracy
 		NOT = {
 			truce_with = FROM
-			num_of_cities = 2
-			FROM = {
-				num_of_cities = 2
-			}
+			num_of_cities = 3
+			FROM = { num_of_cities = 3 }
 		}
 		is_neighbor_of = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = humiliate
@@ -254,10 +248,6 @@ cb_conquest = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = take_claim
 }
 
@@ -267,10 +257,6 @@ cb_core = {
 	prerequisites = {
 		core_claim = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_core
@@ -288,10 +274,6 @@ cb_independence_war = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = defend_capital_independence
 }
 
@@ -306,10 +288,6 @@ cb_colonial_independance_war = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = defend_capital_independence
 }
 
@@ -321,10 +299,6 @@ cb_nationalist = {
 		is_free_or_tributary_trigger = yes
 		culture_group_claim = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_province_nationalist
@@ -341,10 +315,6 @@ cb_imperial = {
 		}
 		is_free_or_tributary_trigger = yes
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_capital_imperial
@@ -390,10 +360,6 @@ cb_revolutionary = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = war_goal_change_government_mutual
 }
 
@@ -405,10 +371,6 @@ cb_colonial = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = take_colony
 }
 
@@ -417,10 +379,6 @@ cb_liberation = {
 
 	prerequisites = {
 		always = no		#just for some historical wars.
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_capital_liberation
@@ -447,10 +405,6 @@ cb_crusade = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = superiority_crusade
 }
 
@@ -469,10 +423,6 @@ cb_defender_of_the_faith = {
 			capital_scope = { is_part_of_hre = no }
 			FROM = { capital_scope = { is_part_of_hre = no } }
 		}
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = defend_country_faith
@@ -498,10 +448,6 @@ cb_heretic = {
 
 	allowed_provinces = {
 		always = yes
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = superiority_heretic
@@ -542,10 +488,6 @@ cb_excommunication = {
 			FROM = { capital_scope = { is_part_of_hre = no } }
 		}
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_province_excommunication
@@ -623,10 +565,6 @@ cb_imperial_ban = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = take_province_ban
 }
 
@@ -642,10 +580,6 @@ cb_liberate_elector = {
 			}
 		}
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = superiority_liberation
@@ -666,10 +600,6 @@ cb_super_badboy = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = superiority_punitive
 }
 
@@ -681,10 +611,6 @@ cb_claim_throne = {
 	prerequisites = {
 		succession_claim = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_capital_throne
@@ -703,10 +629,6 @@ cb_horde_vs_civ = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = superiority_horde
 }
 
@@ -721,10 +643,6 @@ cb_tribal_feud = {
 		}
 		is_neighbor_of = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_province_tribal_feud
@@ -744,10 +662,6 @@ cb_revoke_electorate = {
 		is_emperor = yes
 		NOT = { religion = FROM }
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = revoke_elector
@@ -785,10 +699,6 @@ cb_privateers = {
 		is_revolution_target = no
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = blockade_ports
 }
 
@@ -801,10 +711,6 @@ cb_support_rebels = {
 		has_dlc = "Art of War"
 		has_spawned_supported_rebels = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = take_capital_support_rebels
@@ -848,10 +754,6 @@ cb_crush_the_revolution = {
 		}
 	}
 
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
-
 	war_goal = take_capital_revolution
 }
 
@@ -868,10 +770,6 @@ cb_spread_the_revolution = {
 			NOT = { is_subject_of = ROOT }
 			NOT = { government = revolutionary_republic }
 		}
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = superiority_revolution
@@ -894,10 +792,6 @@ cb_religious_league = {
 		hre_heretic_religion = ROOT
 		is_league_enemy = FROM
 		is_revolution_target = no
-	}
-
-	attacker_disabled_po = {
-		po_become_tributary_state
 	}
 
 	war_goal = superiority_religious_league
@@ -946,6 +840,7 @@ cb_take_mandate = {
 		}
 		FROM = { is_emperor_of_china = yes }
 		religion_group = christian
+		government = monarchy
 	}
 
 	war_goal = take_capital_take_mandate
@@ -974,10 +869,6 @@ cb_forced_break_alliance = {
 	valid_for_subject = no
 	is_triggered_only = yes
 	months = 120
-
-	attacker_disabled_po = {
-		po_become_tributary_state
-	}
 	
 	war_goal = superiority_insult
 }
@@ -1006,4 +897,3 @@ cb_force_tributary = {
 	
 	war_goal = take_capital_force_tributary
 }
-

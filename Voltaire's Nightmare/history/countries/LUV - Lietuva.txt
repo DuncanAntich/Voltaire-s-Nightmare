@@ -1,0 +1,111 @@
+government = tribal_democracy
+government_rank = 3
+primary_culture = lithuanian
+religion = animism
+technology_group = north_american
+capital = 1152
+
+1054.1.1 = {
+	monarch = {
+		name = "Kukovaitis"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Utenis"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1105.1.1 = {
+	monarch = {
+		name = "Sventaragis"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1130.1.1 = {
+	monarch = {
+		name = "Skirmantas"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1155.1.1 = {
+	monarch = {
+		name = "Koliginas"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1180.1.1 = {
+	monarch = {
+		name = "Romanas"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1204.1.1 = {
+	government = tribal_despotism
+	technology_group = eastern
+	monarch = {
+		name = "Zvelgaitis"
+		dynasty = "Mindaugai"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1205.1.1 = {
+	monarch = {
+		name = "Daugirutis"
+		dynasty = "Mindaugai"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1213.1.1 = {
+	monarch = {
+		name = "Steksys"
+		dynasty = "Mindaugai"
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+1214.1.1 = {
+	monarch = {
+		name = "Ringaudas"
+		dynasty = "Mindaugai"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1219.1.1 = {
+	monarch = {
+		name = "Dausprungas"
+		dynasty = "Mindaugai"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1228.1.1 = {
+	monarch = {
+		name = "Vilikaila"
+		dynasty = "Mindaugai"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

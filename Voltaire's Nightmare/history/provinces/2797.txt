@@ -5,10 +5,10 @@ add_core = DNN
 culture = hungarian
 religion = catholic
 hre = no
-base_tax = 3
-base_production = 3
+base_tax = 2
+base_production = 2
 trade_goods = livestock
-base_manpower = 3
+base_manpower = 2
 capital = "Nagyatád"
 is_city = yes
 discovered_by = eastern
@@ -16,6 +16,11 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1200.1.1 = {
+	base_tax = 3
+	base_production = 3
+	base_manpower = 3
+}
 1301.1.14 = {
 	owner = DNN
 	controller = DNN

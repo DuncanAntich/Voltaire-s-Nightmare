@@ -1,26 +1,20 @@
-owner = POL
-controller = POL
+owner = MAZ
+controller = MAZ
 capital = "Gostynin"
 culture = polish
 religion = catholic
 trade_goods = carpet
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-add_core = POL
 add_core = MAZ
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1138.10.28 = {
-	base_tax = 2
-	base_production = 2
-	base_manpower = 2
-}
 1138.10.28 = {
 	owner = MAZ
 	controller = MAZ
@@ -66,7 +60,7 @@ discovered_by = muslim
 	controller = MAZ
 	remove_core = POL
 }
-1495.2.16 = {
+1526.3.9 = {
 	owner = POL 
 	controller = POL
 	add_core = POL

@@ -7,6 +7,12 @@ religion = catholic
 capital = 656	#Stockholm
 national_focus = MIL
 
+1000.1.1 = {
+	add_country_modifier = {
+		name = "extensive_holdings"
+		duration = -1
+	}
+}
 1050.1.1 = {
 	monarch = {
 		name = "Emund I"

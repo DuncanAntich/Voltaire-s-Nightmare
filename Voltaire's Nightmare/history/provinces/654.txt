@@ -3,10 +3,10 @@ controller = DAN
 culture = scanian
 religion = catholic
 hre = no
-base_tax = 7
-base_production = 7
+base_tax = 5
+base_production = 4
 trade_goods = fish
-base_manpower = 6
+base_manpower = 4
 capital = "Lund"
 is_city = yes	
 add_core = DAN
@@ -49,7 +49,14 @@ fort_14th = yes
 	fort_15th = no
 	fort_16th = yes
 }
-1658.2.26 = { controller = SWE owner = SWE add_core = SWE }
+1658.2.26 = {
+	controller = SWE
+	owner = SWE
+	add_core = SWE
+	base_tax = 7
+	base_production = 7
+	base_manpower = 6
+}
 1680.1.1 = { remove_core = DAN remove_core = SKN }
 1685.1.1 = {
 	fort_16th = no

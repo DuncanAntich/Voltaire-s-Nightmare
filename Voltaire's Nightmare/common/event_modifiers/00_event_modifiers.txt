@@ -22,6 +22,7 @@ ghib_ruler = {
 
 donated_ho = {
 	papal_influence = 0.5
+	religion = yes
 }
 
 kilkennystatutesmod = {
@@ -29,13 +30,6 @@ kilkennystatutesmod = {
 	enemy_core_creation = 0.2
 	num_accepted_cultures = -2
 	tolerance_own = -3
-}
-
-lithuanianconquests = {
-	global_manpower = 10.0
-	global_tax_income = 75
-	land_forcelimit = 20
-	global_regiment_recruit_speed = -0.2
 }
 
 assize_of_arms = {
@@ -92,6 +86,12 @@ theodosian_walls = {
 	picture = "theodosian_icon"
 }
 
+romuva_prov = {
+	local_missionary_strength = -0.05
+	local_development_cost = -0.1
+	picture = "romuva_prov_icon"
+}
+
 hanseatic_city = {
 	province_trade_power_value = 5
 	allowed_num_of_buildings = 1
@@ -135,9 +135,8 @@ byz_defunding_states = {
 }
 
 invasion_nation_m = {
-	global_manpower = 10.0
-	global_tax_income = 80
-	land_forcelimit = 20
+	global_tax_income = 25
+	land_forcelimit = 5
 	discipline = 0.05
 	tur_militarists_influence = 0.25
 }
@@ -176,6 +175,42 @@ tur_pac_m = {
 free_commune_m = {
 	global_institution_spread = 0.05
 	idea_cost = -0.05
+}
+
+privateer_integration = {
+	naval_forcelimit_modifier = 0.2
+}
+
+piracy_rampant_m = {
+	yearly_corruption = 0.01
+	prestige_decay = 0.01
+	privateer_efficiency = 0.33
+	navy_tradition = 1
+}
+
+piracy_controlled_m = {
+	global_ship_trade_power = 0.2
+}
+
+freeze_peaches = {
+	trade_goods_size = 5.0
+}
+
+babylonian_captivity = {
+	papal_influence = 5
+	religion = yes
+}
+
+mother_russia_m = {
+	global_tax_income = 120
+	land_forcelimit = 50
+	global_manpower = 25.0
+}
+
+extensive_holdings = {
+	global_tax_income = 50
+	land_forcelimit = 15
+	global_manpower = 10.0
 }
 
 ##############################
@@ -2302,6 +2337,7 @@ kongo_estuary_modifier = {
 lollards = {
 	local_unrest = 20
 	local_autonomy = 0.1
+	local_missionary_strength = -1
 }
 
 justices_of_peace = {

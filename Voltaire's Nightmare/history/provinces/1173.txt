@@ -1,5 +1,5 @@
-owner = RMG
-controller = RMG
+owner = FNO
+controller = FNO
 culture = romagnan
 religion = catholic
 hre = yes
@@ -9,20 +9,16 @@ trade_goods = olive
 base_manpower = 2
 capital = "Fano"
 is_city = yes
-add_core = RMG
 add_core = FNO
+add_core = PAP
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1177.7.24 = {
-	owner = FNO
-	controller = FNO
-	remove_core = RMG
-	add_core = PAP
-	hre = no
-}
+1177.7.24 = { hre = no }
 1303.10.11 = {
 	owner = PSO
 	controller = PSO
@@ -95,5 +91,3 @@ discovered_by = muslim
 	add_core = ITA
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

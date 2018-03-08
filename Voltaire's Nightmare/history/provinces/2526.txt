@@ -1,5 +1,5 @@
-owner = UPA
-controller = UPA
+owner = NGF
+controller = NGF
 culture = bavarian
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Kemnath"
 is_city = yes
-add_core = UPA
 add_core = NGF
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1146.4.8 = {
-	owner = NGF
-	controller = NGF
-	remove_core = UPA
-}
 1283.1.1 = {
 	owner = MUL
 	controller = MUL

@@ -108,6 +108,7 @@ recover_the_coast_of_asia_minor = {
 			province_id = 68
 			province_id = 2453
 			province_id = 2486
+			province_id = 4286
 		}
 		NOT = { owned_by = ROOT }
 	}
@@ -134,6 +135,7 @@ recover_the_coast_of_asia_minor = {
 			NOT = { owns = 68 }
 			NOT = { owns = 2453 }
 			NOT = { owns = 2486 }
+			NOT = { owns = 4286 }
 		}
 		NOT = { has_country_flag = BYZ_asia_minor }
 		NOT = { has_country_modifier = byzantium_resurgent }

@@ -1,7 +1,7 @@
 #Karsovia
 graphical_culture = easterngfx
 
-color = { 177  54  147 }
+color = { 224 139 186 }
 
 historical_idea_groups = {
 	logistics_ideas
@@ -127,4 +127,12 @@ ship_names = {
 	Taurage Telsiai Trakai
 	Utena
 	Vilkmerge
+}
+
+army_names = {
+	"Armenija $PROVINCE$"
+}
+
+fleet_names = {
+	"$PROVINCE$ Flotile"
 }

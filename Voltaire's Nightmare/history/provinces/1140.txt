@@ -1,5 +1,6 @@
-owner = VOL
-controller = VOL
+owner = VHN
+controller = VHN
+add_core = VHN
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -20,6 +21,7 @@ fort_14th = yes
 	owner = ONU
 	controller = ONU
 	add_core = ONU
+	remove_core = VHN
 }
 1124.3.19 = {
 	owner = VOL

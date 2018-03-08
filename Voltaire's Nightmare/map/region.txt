@@ -2,6 +2,36 @@
 # EUROPE                               #
 ########################################
 
+turovpinsk_region = {
+	areas = {
+		turov_area
+		slonim_area
+		brest_area
+	}
+}
+
+polotsk_region = {
+	areas = {
+		polotsk_area
+		pskov_area
+	}
+}
+
+minsk_region = {
+	areas = {
+		minsk_area
+		mazyr_area
+	}
+}
+
+kiev_region = {
+	areas = {
+		kiev_area
+		letychiv_area
+		zhitomir_area
+	}
+}
+
 treviso_region = {
 	areas = {
 		venice_area
@@ -843,6 +873,9 @@ halicia_region = {
 volhynia_region = {
 	areas = {
 		podolia_area
+		bratslav_area
+		volodymyr_area
+		dubno_area
 	}
 }
 

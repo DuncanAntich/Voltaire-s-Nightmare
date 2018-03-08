@@ -1,5 +1,5 @@
-owner = MFX
-controller = MFX
+owner = ARS
+controller = ARS
 culture = thuringian
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = grain
 base_manpower = 1
 capital = "Arnstein"
 is_city = yes
-add_core = MFX
 add_core = ARS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1135.1.1 = {
-	owner = ARS
-	controller = ARS
-	remove_core = MFX
-}
 1296.1.1 = {
 	owner = MFX
 	controller = MFX

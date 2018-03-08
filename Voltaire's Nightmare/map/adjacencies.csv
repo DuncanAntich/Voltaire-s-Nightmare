@@ -2,7 +2,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1335;1587;canal;360;-1;-1;-1;-1;kiel_canal
 1408;1355;canal;614;-1;-1;-1;-1;suez_canal
 319;2601;sea;1352;-1;-1;-1;-1;mod
-1187;2283;sea;1360;-1;-1;-1;-1;mod
 551;2703;sea;1450;-1;-1;-1;-1;mod
 328;326;sea;1602;3420;1790;3417;1791;mod
 556;564;sea;1642;-1;-1;-1;-1;mod

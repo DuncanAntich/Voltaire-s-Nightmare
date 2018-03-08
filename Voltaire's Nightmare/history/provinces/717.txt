@@ -67,6 +67,21 @@ discovered_by = muslim
 	}
 	controller = REB
 }
+1343.1.1 = {
+	revolt = {}
+	owner = PPO
+	controller = PPO
+	add_core = PPO
+}
+1345.7.7 = {
+	owner = BYZ
+	controller = REB
+	remove_core = PPO
+	revolt = {
+		type = pretender_rebels
+		size = 0
+	}
+}
 1347.2.8 = {
 	revolt = {}
 	controller = BYZ

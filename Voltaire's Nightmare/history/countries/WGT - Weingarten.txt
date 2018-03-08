@@ -1,11 +1,106 @@
 government = monastic_order_government
-government_rank = 1
+government_rank = 4
 primary_culture = boden_alemannic
 religion = catholic
 technology_group = western
 capital = 1196
 
-1191.12.15 = {
+1040.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1070.1.1 = {
+	monarch = {
+		name = "Beringer"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Adilhelm"
+		dynasty = "von Luxemburg"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+1088.1.1 = {
+	monarch = {
+		name = "Walicho"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1108.1.1 = {
+	monarch = {
+		name = "Kuno"
+		dynasty = "von Waldburg"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1132.1.1 = {
+	monarch = {
+		name = "Arnold"
+		dynasty = "von Kuppingen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1141.1.1 = {
+	monarch = {
+		name = "Gebhard"
+		dynasty = "von Waldburg"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1149.1.1 = {
+	monarch = {
+		name = "Burchard"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1160.1.1 = {
+	monarch = {
+		name = "Dietmar"
+		dynasty = "von Matsch"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1180.1.1 = {
+	monarch = {
+		name = "Marquard"
+		dynasty = "von Triberg"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1181.1.1 = {
+	monarch = {
+		name = "Werner"
+		dynasty = "von Markdorff"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1188.1.1 = {
 	monarch = {
 		name = "Meingoz"
 		dynasty = "von Lechsgemünd"
@@ -50,7 +145,6 @@ capital = 1196
 		mil = 2
 	}
 }
-1274.1.1 = { government_rank = 4 }
 1299.1.1 = {
 	monarch = {
 		name = "Friedrich Heller"

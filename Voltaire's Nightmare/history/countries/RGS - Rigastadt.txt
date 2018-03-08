@@ -1,39 +1,28 @@
-government = tribal_democracy
-government_rank = 3
-primary_culture = livlander
-religion = finnish_pagan
-technology_group = north_american
+government = administrative_republic
+government_rank = 1
+mercantilism = 25
+primary_culture = prussian
+religion = catholic
+technology_group = western
 capital = 712
+fixed_capital = 712
+historical_friend = HAM
+historical_friend = CYB
+historical_friend = GSL
+historical_friend = HSA
+historical_friend = KOF
+historical_friend = DMD
+historical_friend = SOE
+historical_friend = DNZ
 
 1054.1.1 = {
 	monarch = {
-		name = "Veinala"
-		adm = 2
-		dip = 2
-		mil = 2
-		regent = yes
-	}
-}
-1201.1.1 = {
-	religion = catholic
-	primary_culture = prussian
-	mercantilism = 25
-	government = merchant_republic
-	technology_group = western
-	government_rank = 1
-	capital = 712
-	fixed_capital = 712
-	monarch = {
 		name = "Stadtrat"
+		regent = yes
 		adm = 2
 		dip = 2
 		mil = 2
-		regent = yes
 	}
-	historical_friend = HSA #Lübeck
-	historical_friend = BRE #Bremen
-	historical_friend = HAM #Hamburg
 }
 1522.1.1 = { religion = protestant }
-#City of Riga becomes a Free Imperial City
 1561.1.1 = { government = imperial_city }

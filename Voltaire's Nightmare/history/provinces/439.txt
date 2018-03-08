@@ -16,7 +16,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1191.12.15 = {
+1130.1.1 = {
 	owner = KGG
 	controller = KGG
 	remove_core = RVA

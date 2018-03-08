@@ -1,5 +1,5 @@
-owner = VOL
-controller = VOL
+owner = VHN
+controller = VHN
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -9,38 +9,44 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Cholm"
 is_city = yes
-add_core = VOL
-add_core = SND
+add_core = VHN
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 fort_14th = yes
 
-1085.1.1 = {
-	owner = SND
-	controller = SND
-	remove_core = VOL
-}
-1234.1.1 = {
+1199.1.1 = {
 	owner = VOL
 	controller = VOL
 	add_core = VOL
 }
-1349.1.1 = {
-	owner = SND
-	controller = SND
-}
-1352.1.1 = {
-	owner = VOL
-	controller = VOL
-}
-1366.1.1 = {
-	owner = SND
-	controller = SND
+1238.1.1 = {
+	owner = VHN
+	controller = VHN
 	remove_core = VOL
 }
-1377.1.1 = {
+1245.1.1 = {
+	owner = SND
+	controller = SND
+	add_core = SND
+	remove_core = VHN
+}
+1292.1.1 = {
+	owner = VOL
+	controller = VOL
+	add_core = VOL
+	remove_core = SND
+	add_core = VHN
+}
+1323.1.1 = {
+	owner = VHN
+	controller = VHN
+	remove_core = VOL
+}
+1340.4.7 = {
 	owner = POL
 	controller = POL
 	add_core = POL
@@ -49,13 +55,24 @@ fort_14th = yes
 	base_production = 2
 	base_manpower = 1
 }
+1366.1.1 = {
+	owner = SND
+	controller = SND
+	add_core = SND
+	remove_core = POL
+}
+1388.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = SND
+}
 1399.1.1 = { religion = jewish }
 1569.7.1 = {
 	owner = PLC
 	controller = PLC
 	add_core = PLC
 	remove_core = POL
-	remove_core = SND
 }
 1588.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1589.1.1 = { revolt = {} controller = PLC }
@@ -87,5 +104,3 @@ fort_14th = yes
 	controller = RUS
 	add_core = RUS
 }
-discovered_by = nomad_group
-discovered_by = north_american

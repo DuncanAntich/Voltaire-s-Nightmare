@@ -4,7 +4,6 @@ primary_culture = pfalzish
 religion = catholic
 technology_group = western
 capital = 2962
-elector = yes
 
 #Salian rulers of Wormsgau/Nahegau/Speyergau/Franconia
 1039.6.4 = {
@@ -117,7 +116,7 @@ elector = yes
 }
 1089.8.18 = {
 	queen = {
-		country_of_origin = VOL
+		country_of_origin = KIE
 		name = "Eupraxia"
 		dynasty = "Rurikovich"
 		birth_date = 1070.1.1
@@ -155,7 +154,6 @@ elector = yes
 	}
 }
 1125.5.23 = {
-	elector = no
 	government_rank = 1
 	government = imperial_city
 	fixed_capital = 2962

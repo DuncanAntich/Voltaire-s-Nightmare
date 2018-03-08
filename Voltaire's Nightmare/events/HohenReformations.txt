@@ -4,38 +4,14 @@ namespace = hohenref_events
 # Early Heresies
 ########################################
 
-country_event = {
+province_event = {
 	id = hohenref_events.1
 	title = "hohenref_events.1.t"
 	desc = "hohenref_events.1.d"
 	picture = RELIGION_eventPicture
 	
 	major = yes
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
-		NOT = { government = papal_government }
-		reform_desire = 1.0
-		NOT = { current_age = age_of_empire }
-		is_year = 1100
-		NOT = { has_global_flag = cathar_heresy_g }
-		OR = {
-			capital_scope = { superregion = french_superregion }
-			NOT = { any_country = { capital_scope = { superregion = french_superregion } } }
-		}
-		capital_scope = {
-			continent = europe
-		}
-		any_owned_province = {
-			can_have_center_of_reformation_trigger = {
-				RELIGION = cathar
-			}
-		}	
-	}
+	is_triggered_only = yes
 
 	immediate = {
 		hidden_effect = {
@@ -43,249 +19,43 @@ country_event = {
 			enable_religion = cathar
 		}
 	}
-	
-	mean_time_to_happen = {
-		months = 500
-		
-		modifier = {
-			factor = 0.1
-			NOT = {
-				calc_true_if = {
-					all_country = { capital_scope = { superregion = french_superregion } }
-					amount = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.10
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.15
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.20
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.25
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.30
-		}
-		modifier = {
-			factor = 0.9
-			NOT = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -50 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -100 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -150 } }
-		}		
-		modifier = {
-			factor = 0.85
-			num_of_rebel_controlled_provinces = 1
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
-		}
-		modifier = {
-			factor = 4.0
-			NOT = { is_year = 1135 }
-		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				culture_group = latin
-				culture_group = rhaetic
-				culture_group = basquegroup
-				culture_group = iberian
-			}
-		}
-	}
+	mean_time_to_happen = { days = 1 }
 
 	option = {
-		name = "hohenref_events.1.b"
-		random_owned_province = {
-			limit = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = cathar
-				}
-			}
-			change_religion = cathar
-			add_reform_center = cathar
-			add_permanent_province_modifier = {
-				name = "religious_zeal_at_conv"
-				duration = 9000
-			}
+		name = "hohenref_events.1.a"
+		change_religion = cathar
+		add_reform_center = cathar
+		add_permanent_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 9000
 		}
-		capital_scope = { change_religion = cathar }
-		add_papal_influence = 10
-		add_reform_desire = -2.00
-		set_country_flag = cathar_reformation
 	}
 }
 
-country_event = {
+province_event = {
 	id = hohenref_events.2
 	title = "hohenref_events.2.t"
 	desc = "hohenref_events.2.d"
 	picture = RELIGION_eventPicture
 	
 	major = yes
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
-		NOT = { government = papal_government }
-		reform_desire = 1.0
-		has_global_flag = cathar_heresy_g
-		is_year = 1100
-		NOT = { has_global_flag = waldensian_heresy_g }
-		NOT = { has_country_flag = cathar_reformation }
-		OR = {
-			capital_scope = { superregion = burgundian_superregion }
-			NOT = { any_country = { capital_scope = { superregion = burgundian_superregion } } }
-		}
-		capital_scope = {
-			continent = europe
-		}
-		any_owned_province = {
-			can_have_center_of_reformation_trigger = {
-				RELIGION = waldensian
-			}
-		}	
-	}
+	is_triggered_only = yes
 
-	immediate = {
-		hidden_effect = {
-			set_global_flag = waldensian_heresy_g
-			enable_religion = waldensian
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 500
-		
-		modifier = {
-			factor = 0.1
-			NOT = {
-				calc_true_if = {
-					all_country = { capital_scope = { superregion = burgundian_superregion } }
-					amount = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.10
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.15
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.20
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.25
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.30
-		}
-		modifier = {
-			factor = 0.9
-			NOT = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -50 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -100 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -150 } }
-		}		
-		modifier = {
-			factor = 0.85
-			num_of_rebel_controlled_provinces = 1
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
-		}
-		modifier = {
-			factor = 4.0
-			NOT = { is_year = 1185 }
-		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				culture_group = latin
-				culture_group = rhaetic
-				culture_group = basquegroup
-				culture_group = iberian
-			}
-		}
-	}
+	immediate = { hidden_effect = { enable_religion = waldensian } }
+	mean_time_to_happen = { days = 1 }
 
 	option = {
-		name = "hohenref_events.2.b"
-		random_owned_province = {
-			limit = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = waldensian
-				}
-			}
-			change_religion = waldensian
-			add_reform_center = waldensian
-			add_permanent_province_modifier = {
-				name = "religious_zeal_at_conv"
-				duration = 9000
-			}
+		name = "hohenref_events.2.a"
+		change_religion = waldensian
+		add_reform_center = waldensian
+		add_permanent_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 9000
 		}
-		capital_scope = { change_religion = waldensian }
-		add_papal_influence = 10
-		add_reform_desire = -2.00
-		set_country_flag = waldensian_reformation
 	}
 }
 
-country_event = {
+province_event = {
 	id = hohenref_events.3
 	title = "hohenref_events.3.t"
 	desc = "hohenref_events.3.d"
@@ -293,124 +63,29 @@ country_event = {
 	
 	major = yes
 	fire_only_once = yes
-	
+
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
-		NOT = { government = papal_government }
-		reform_desire = 1.0
-		has_global_flag = waldensian_heresy_g
-		is_year = 1200
-		NOT = { has_global_flag = bogomilist_heresy_g }
-		NOT = { has_country_flag = cathar_reformation }
-		NOT = { has_country_flag = waldensian_reformation }
-		OR = {
-			capital_scope = { superregion = balkans_superregion }
-			NOT = { any_country = { capital_scope = { superregion = balkans_superregion } } }
-		}
-		capital_scope = {
-			continent = europe
-		}
-		any_owned_province = {
-			can_have_center_of_reformation_trigger = {
-				RELIGION = bogomilist
-			}
-		}
+		is_year = 1248
+		NOT = { started_in = 1253.1.1 }
+		tag = BOS
+		religion_group = christian
+		NOT = { religion = bogomilist }
+		normal_or_historical_nations = yes
+		NOT = { has_country_modifier = conversion_zeal }
 	}
 
-	immediate = {
-		hidden_effect = {
-			set_global_flag = bogomilist_heresy_g
-			enable_religion = bogomilist
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 500
-		
-		modifier = {
-			factor = 0.1
-			NOT = {
-				calc_true_if = {
-					all_country = { capital_scope = { superregion = balkans_superregion } }
-					amount = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			primary_culture = bosnian
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.10
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.15
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.20
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.25
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.30
-		}
-		modifier = {
-			factor = 0.9
-			NOT = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -50 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -100 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -150 } }
-		}		
-		modifier = {
-			factor = 0.85
-			num_of_rebel_controlled_provinces = 1
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
-		}
-		modifier = {
-			factor = 4.0
-			NOT = { is_year = 1235 }
-		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				culture_group = latin
-				culture_group = rhaetic
-				culture_group = basquegroup
-				culture_group = iberian
-			}
-		}
-	}
+	mean_time_to_happen = { months = 120 }
 
 	option = {
-		name = "hohenref_events.3.b"
+		name = "hohenref_events.3.a"
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				is_papal_controller = yes
+			}
+		}
+		change_religion = bogomilist
 		random_owned_province = {
 			limit = {
 				can_have_center_of_reformation_trigger = {
@@ -419,52 +94,54 @@ country_event = {
 			}
 			change_religion = bogomilist
 			add_reform_center = bogomilist
-			add_permanent_province_modifier = {
-				name = "religious_zeal_at_conv"
-				duration = 9000
+		}
+		every_neighbor_country = {
+			limit = {
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+				is_free_or_tributary_trigger = yes
+			}
+			add_opinion = {
+				who = root
+				modifier = christian_unorthodoxy
 			}
 		}
-		capital_scope = { change_religion = bogomilist }
-		add_papal_influence = 10
-		add_reform_desire = -2.00
-		set_country_flag = bogomilist_reformation
+	}
+	option = {
+		name = "hohenref_events.3.b"
+		ai_chance = { factor = 5 }
+		add_karma = 5
+		add_papal_influence = 5
+		add_patriarch_authority = 0.05
+		change_personal_deity = vishnu
 	}
 }
 
-country_event = {
+province_event = {
 	id = hohenref_events.4
 	title = "hohenref_events.4.t"
 	desc = "hohenref_events.4.d"
-	picture = RELIGION_eventPicture
+	picture = POPE_PREACHING_eventPicture
 	
 	major = yes
 	fire_only_once = yes
-	
+
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
-		NOT = { government = papal_government }
-		reform_desire = 1.0
-		has_global_flag = bogomilist_heresy_g
-		is_year = 1200
+		current_age = age_of_dynasticism
 		NOT = { has_global_flag = fraticelli_heresy_g }
-		NOT = { has_country_flag = cathar_reformation }
-		NOT = { has_country_flag = waldensian_reformation }
-		NOT = { has_country_flag = bogomilist_reformation }
-		OR = {
-			capital_scope = { superregion = lombardy_superregion }
-			NOT = { any_country = { capital_scope = { superregion = lombardy_superregion } } }
-		}
-		capital_scope = {
-			continent = europe
-		}
-		any_owned_province = {
+		NOT = { government = papal_government }
+		religion = catholic
+		papacy_active = yes
+		NOT = { any_province = { religion = fraticelli } }
+		any_province = {
+			region = umbria_region
+			owned_by = ROOT
 			can_have_center_of_reformation_trigger = {
 				RELIGION = fraticelli
 			}
-		}	
+		}
 	}
 
 	immediate = {
@@ -473,88 +150,15 @@ country_event = {
 			enable_religion = fraticelli
 		}
 	}
-	
-	mean_time_to_happen = {
-		months = 500
-		
-		modifier = {
-			factor = 0.1
-			NOT = {
-				calc_true_if = {
-					all_country = { capital_scope = { superregion = lombardy_superregion } }
-					amount = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.10
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.15
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.20
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.25
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.30
-		}
-		modifier = {
-			factor = 0.9
-			NOT = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -50 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -100 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -150 } }
-		}		
-		modifier = {
-			factor = 0.75
-			num_of_rebel_controlled_provinces = 1
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
-		}
-		modifier = {
-			factor = 4.0
-			NOT = { is_year = 1285 }
-		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				culture_group = rhaetic
-				culture_group = basquegroup
-				culture_group = iberian
-			}
-		}
-	}
+
+	mean_time_to_happen = { months = 240 }
 
 	option = {
-		name = "hohenref_events.4.b"
+		name = "hohenref_events.4.a"
+		ai_chance = { factor = 70 }
 		random_owned_province = {
 			limit = {
+				region = umbria_region
 				can_have_center_of_reformation_trigger = {
 					RELIGION = fraticelli
 				}
@@ -566,193 +170,64 @@ country_event = {
 				duration = 9000
 			}
 		}
-		capital_scope = { change_religion = fraticelli }
-		add_papal_influence = 10
-		add_reform_desire = -2.00
-		set_country_flag = fraticelli_reformation
+	}
+	option = {
+		name = "hohenref_events.4.b"
+		highlight = yes
+		trigger = { any_owned_province = { trade_goods = peaches } }
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_papal_controller = yes
+			}
+		}
+		if = {
+			limit = { exists = PAP }
+			reverse_add_opinion = { who = PAP modifier = opinion_upset_pope }
+		}
+		change_religion = fraticelli
+		random_owned_province = {
+			limit = {
+				region = umbria_region
+				can_have_center_of_reformation_trigger = {
+					RELIGION = fraticelli
+				}
+			}
+			change_religion = fraticelli
+			add_reform_center = fraticelli
+		}
+		random_owned_province = {
+			limit = { trade_goods = peaches }
+			add_province_modifier = {
+				name = "freeze_peaches"
+				duration = 3650
+			}
+		}
 	}
 }
 
-country_event = {
+province_event = {
 	id = hohenref_events.5
 	title = "hohenref_events.5.t"
 	desc = "hohenref_events.5.d"
-	picture = RELIGION_eventPicture
+	picture = RELIGIOUS_TURMOIL_eventPicture
 	
 	major = yes
 	fire_only_once = yes
-	
+
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
-		NOT = { government = papal_government }
-		reform_desire = 1.0
-		has_global_flag = fraticelli_heresy_g
-		is_year = 1300
-		NOT = { has_global_flag = lollard_heresy_g }
-		NOT = { has_country_flag = cathar_reformation }
-		NOT = { has_country_flag = waldensian_reformation }
-		NOT = { has_country_flag = bogomilist_reformation }
-		NOT = { has_country_flag = fraticelli_reformation }
-		OR = {
-			capital_scope = { superregion = british_isles_superregion }
-			NOT = { any_country = { capital_scope = { superregion = british_isles_superregion } } }
-		}
-		capital_scope = {
-			continent = europe
-		}
-		any_owned_province = {
-			can_have_center_of_reformation_trigger = {
-				RELIGION = lollardy
-			}
-		}	
-	}
-
-	immediate = {
-		hidden_effect = {
-			set_global_flag = lollard_heresy_g
-			enable_religion = lollardy
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 500
-		
-		modifier = {
-			factor = 0.1
-			NOT = {
-				calc_true_if = {
-					all_country = { capital_scope = { superregion = british_isles_superregion } }
-					amount = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.10
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.15
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.20
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.25
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.30
-		}
-		modifier = {
-			factor = 0.9
-			NOT = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -50 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -100 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -150 } }
-		}		
-		modifier = {
-			factor = 0.95
-			num_of_rebel_controlled_provinces = 1
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
-		}
-		modifier = {
-			factor = 4.0
-			NOT = { is_year = 1335 }
-		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				culture_group = rhaetic
-				culture_group = latin
-				culture_group = basquegroup
-				culture_group = iberian
-			}
-		}
-	}
-
-	option = {
-		name = "hohenref_events.5.b"
-		random_owned_province = {
-			limit = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = lollardy
-				}
-			}
-			change_religion = lollardy
-			add_reform_center = lollardy
-			add_permanent_province_modifier = {
-				name = "religious_zeal_at_conv"
-				duration = 9000
-			}
-		}
-		capital_scope = { change_religion = lollardy }
-		add_papal_influence = 10
-		add_reform_desire = -2.00
-		set_country_flag = lollard_reformation
-	}
-}
-
-country_event = {
-	id = hohenref_events.6
-	title = "hohenref_events.6.t"
-	desc = "hohenref_events.6.d"
-	picture = RELIGION_eventPicture
-	
-	major = yes
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
-		NOT = { government = papal_government }
-		reform_desire = 1.0
-		has_global_flag = lollard_heresy_g
-		is_year = 1300
 		NOT = { has_global_flag = hussite_heresy_g }
-		NOT = { has_country_flag = cathar_reformation }
-		NOT = { has_country_flag = waldensian_reformation }
-		NOT = { has_country_flag = bogomilist_reformation }
-		NOT = { has_country_flag = fraticelli_reformation }
-		NOT = { has_country_flag = lollard_reformation }
-		OR = {
-			capital_scope = { superregion = bohemia_superregion }
-			NOT = { any_country = { capital_scope = { superregion = bohemia_superregion } } }
-		}
-		capital_scope = {
-			continent = europe
-		}
-		any_owned_province = {
+		is_institution_enabled = laytheology
+		religion_group = christian
+		NOT = { any_province = { religion = hussite } }
+		any_province = {
+			superregion = bohemia_superregion
+			owned_by = ROOT
 			can_have_center_of_reformation_trigger = {
 				RELIGION = hussite
 			}
-		}	
+		}
 	}
 
 	immediate = {
@@ -761,93 +236,14 @@ country_event = {
 			enable_religion = hussite
 		}
 	}
-	
-	mean_time_to_happen = {
-		months = 500
-		
-		modifier = {
-			factor = 0.1
-			NOT = {
-				calc_true_if = {
-					all_country = { capital_scope = { superregion = bohemia_superregion } }
-					amount = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			primary_culture = czech
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.10
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.15
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.20
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.25
-		}
-		modifier = {
-			factor = 0.9
-			reform_desire = 1.30
-		}
-		modifier = {
-			factor = 0.9
-			NOT = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -50 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -100 } }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { has_opinion = { who = PAP value = -150 } }
-		}		
-		modifier = {
-			factor = 0.85
-			num_of_rebel_controlled_provinces = 1
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
-		}
-		modifier = {
-			factor = 4.0
-			NOT = { is_year = 1385 }
-		}
-		modifier = {
-			factor = 8.0
-			OR = {
-				culture_group = rhaetic
-				culture_group = latin
-				culture_group = basquegroup
-				culture_group = iberian
-			}
-		}
-	}
+
+	mean_time_to_happen = { months = 240 }
 
 	option = {
-		name = "hohenref_events.6.b"
+		name = "hohenref_events.4.a"
 		random_owned_province = {
 			limit = {
+				superregion = bohemia_superregion
 				can_have_center_of_reformation_trigger = {
 					RELIGION = hussite
 				}
@@ -859,9 +255,5 @@ country_event = {
 				duration = 9000
 			}
 		}
-		capital_scope = { change_religion = hussite }
-		add_papal_influence = 10
-		add_reform_desire = -2.00
-		set_country_flag = hussite_reformation
 	}
 }

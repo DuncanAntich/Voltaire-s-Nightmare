@@ -2,7 +2,7 @@ owner = BOS
 controller = BOS
 add_core = BOS
 culture = bosnian
-religion = catholic
+religion = bogomilist
 hre = no
 base_tax = 1
 base_production = 1
@@ -15,7 +15,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1252.1.1 = { religion = bogomilist }
 1392.1.1 = {
 	owner = HUM
 	controller = HUM

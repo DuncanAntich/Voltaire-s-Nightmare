@@ -1,7 +1,7 @@
 #Inversely scales reform desire with # of catholic tags.
 add_reform_desire_effect = {
 	if = {
-		limit = { NOT = { current_age = age_of_empire } }
+		limit = { is_institution_enabled = laytheology }
 		hidden_effect = {
 			REB = { ROOT = { change_variable = { which = num_of_tags_catholic which = PREV } } }
 			set_variable = { which = reform_desire_gain value = $base_reform_desire$ }
@@ -14,7 +14,7 @@ add_reform_desire_effect = {
 				divide_variable = { which = reform_desire_gain value = 100 }
 			}
 			if = {
-				limit = { has_global_flag = hussite_heresy_g }
+				limit = { is_institution_enabled = laytheology}
 				divide_variable = { which = reform_desire_gain value = 2 }
 			}
 			while = {
@@ -36,7 +36,7 @@ add_reform_desire_effect = {
 #Inversely scales reform desire with # of catholic tags.
 remove_reform_desire_effect = {
 	if = {
-		limit = { NOT = { current_age = age_of_empire } }
+		limit = { is_institution_enabled = laytheology }
 		hidden_effect = {
 			REB = { ROOT = { change_variable = { which = num_of_tags_catholic which = PREV } } }
 			set_variable = { which = reform_desire_gain value = $base_reform_desire$ }
@@ -49,7 +49,7 @@ remove_reform_desire_effect = {
 				divide_variable = { which = reform_desire_gain value = 100 }
 			}
 			if = {
-				limit = { has_global_flag = hussite_heresy_g }
+				limit = { is_institution_enabled = laytheology }
 				divide_variable = { which = reform_desire_gain value = 2 }
 			}
 			while = {
@@ -81,133 +81,82 @@ calc_catholic_tags = {
 
 #Should only be called by on_startup
 init_centre_of_reformation = {
-	NOT = { is_year = 1600 } #Age of absolutism
 	if = {
-		limit = { 4061 = { religion = cathar } }
-		4061 = { add_reform_center = cathar }
-	}
-	if = {
-		limit = {
-			2433 = { religion = bogomilist }
-			NOT = { is_year = 1305 }
+		limit = { NOT = { is_year = 1600 } }
+		if = {
+			limit = { 4061 = { religion = cathar } }
+			4061 = { add_reform_center = cathar }
 		}
-		2433 = { add_reform_center = bogomilist }
-	}
-	if = {
-		limit = { 2383 = { religion = anabaptist } }
-		2383 = { add_reform_center = anabaptist }
-	}
-	if = {
-		limit = { 1837 = { religion = fraticelli } }
-		1837 = { add_reform_center = fraticelli }
-	}
-	if = {
-		limit = { 1238 = { religion = anabaptist } }
-		1238 = { add_reform_center = anabaptist }
-	}
-	if = {
-		limit = { 2272 = { religion = lollardy } }
-		2272 = { add_reform_center = lollardy }
-	}
-	if = {
-		limit = { 541 = { religion = waldensian } }
-		541 = { add_reform_center = waldensian }
-	}
-	if = {
-		limit = { 
-			781 = { religion = hussite }
-			NOT = { is_year = 1471 }
+		if = {
+			limit = {
+				2433 = { religion = bogomilist }
+				is_year = 1248
+				NOT = { is_year = 1305 }
+			}
+			2433 = { add_reform_center = bogomilist }
 		}
-		781 = { add_reform_center = hussite }
-	}
-	if = {
-		limit = { 781 = { religion = protestant } }
-		781 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 59 = { religion = protestant } }
-		59 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 656 = { religion = protestant } }
-		656 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 2458 = { religion = protestant } }
-		2458 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 81 = { religion = protestant } }
-		81 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 2230 = { religion = protestant } }
-		2230 = { add_reform_center = protestant }
-	}
-	if = {
-		limit = { 2467 = { religion = reformed } }
-		2467 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 2621 = { religion = reformed } }
-		2621 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 328 = { religion = reformed } }
-		328 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 1123 = { religion = reformed } }
-		1123 = { add_reform_center = reformed }
-	}
-	if = {
-		limit = { 2359 = { religion = reformed } }
-		2359 = { add_reform_center = reformed }
-	}
-}
-
-#Should only be called by on_startup
-init_reform_desire = {
-	trigger_switch = {
-		on_trigger = is_year
-		#Reformation
-		1490 = { add_reform_desire = 0.90 }
-		1475 = { add_reform_desire = 0.75 }
-		1460 = { add_reform_desire = 0.60 }
-		1445 = { add_reform_desire = 0.45 }
-		1430 = { add_reform_desire = 0.30 }
-		1415 = { add_reform_desire = 0.15 } # Hussites
-		1405 = { add_reform_desire = 0.90 }
-		1400 = { add_reform_desire = 0.75 }
-		1395 = { add_reform_desire = 0.60 }
-		1390 = { add_reform_desire = 0.45 }
-		1385 = { add_reform_desire = 0.30 }
-		1381 = { add_reform_desire = 0.15 } # Lollards
-		1370 = { add_reform_desire = 0.90 }
-		1360 = { add_reform_desire = 0.75 }
-		1350 = { add_reform_desire = 0.60 }
-		1340 = { add_reform_desire = 0.45 }
-		1330 = { add_reform_desire = 0.30 }
-		1318 = { add_reform_desire = 0.15 } # Fraticelli
-		1300 = { add_reform_desire = 0.90 }
-		1290 = { add_reform_desire = 0.75 }
-		1280 = { add_reform_desire = 0.60 }
-		1270 = { add_reform_desire = 0.45 }
-		1260 = { add_reform_desire = 0.30 }
-		1252 = { add_reform_desire = 0.15 } # Bogomilist
-		1240 = { add_reform_desire = 0.90 }
-		1225 = { add_reform_desire = 0.75 }
-		1210 = { add_reform_desire = 0.60 }
-		1195 = { add_reform_desire = 0.45 }
-		1180 = { add_reform_desire = 0.30 }
-		1173 = { add_reform_desire = 0.15 } # Waldensian
-		1167 = { add_reform_desire = 1.20 } # Cathar - abnormally high reform desire precedes as both happened in quick succession
-		1160 = { add_reform_desire = 2.80 }
-		1150 = { add_reform_desire = 2.40 }
-		1140 = { add_reform_desire = 2.00 }
-		1130 = { add_reform_desire = 1.60 }
-		1120 = { add_reform_desire = 1.20 }
-		1110 = { add_reform_desire = 0.80 }
-		1100 = { add_reform_desire = 0.40 }
+		if = {
+			limit = { 1837 = { religion = fraticelli } }
+			1837 = { add_reform_center = fraticelli }
+		}
+		if = {
+			limit = { 2272 = { religion = lollardy } }
+			2272 = { add_reform_center = lollardy }
+		}
+		if = {
+			limit = { 541 = { religion = waldensian } }
+			541 = { add_reform_center = waldensian }
+		}
+		if = {
+			limit = { 
+				781 = { religion = hussite }
+				NOT = { is_year = 1471 }
+			}
+			781 = { add_reform_center = hussite }
+		}
+		if = {
+			limit = { 781 = { religion = protestant } }
+			781 = { add_reform_center = protestant }
+		}
+		if = {
+			limit = { 59 = { religion = protestant } }
+			59 = { add_reform_center = protestant }
+		}
+		if = {
+			limit = { 656 = { religion = protestant } }
+			656 = { add_reform_center = protestant }
+		}
+		if = {
+			limit = { 2458 = { religion = protestant } }
+			2458 = { add_reform_center = protestant }
+		}
+		if = {
+			limit = { 81 = { religion = protestant } }
+			81 = { add_reform_center = protestant }
+		}
+		if = {
+			limit = { 2230 = { religion = protestant } }
+			2230 = { add_reform_center = protestant }
+		}
+		if = {
+			limit = { 2467 = { religion = reformed } }
+			2467 = { add_reform_center = reformed }
+		}
+		if = {
+			limit = { 2621 = { religion = reformed } }
+			2621 = { add_reform_center = reformed }
+		}
+		if = {
+			limit = { 328 = { religion = reformed } }
+			328 = { add_reform_center = reformed }
+		}
+		if = {
+			limit = { 1123 = { religion = reformed } }
+			1123 = { add_reform_center = reformed }
+		}
+		if = {
+			limit = { 2359 = { religion = reformed } }
+			2359 = { add_reform_center = reformed }
+		}
 	}
 }

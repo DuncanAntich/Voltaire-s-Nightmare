@@ -1,6 +1,5 @@
-government = imperial_city
+government = monastic_order_government
 government_rank = 1
-mercantilism = 25
 primary_culture = boden_alemannic
 religion = catholic
 technology_group = western
@@ -16,7 +15,20 @@ historical_friend = RSH
 historical_friend = SDT
 historical_friend = WAC
 
+#Abtei Munster
 1054.1.1 = {
+	monarch = {
+		name = "Canons"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+#FC
+1235.1.1 = {
+	government = imperial_city
+	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"
 		adm = 2

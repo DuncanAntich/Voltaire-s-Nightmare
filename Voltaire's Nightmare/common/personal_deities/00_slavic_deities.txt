@@ -25,7 +25,7 @@ perun =
 veles =
 {
 	production_efficiency = 0.1
-	adm_tech_cost_modifier = -0.05
+	technology_cost = -0.05
 	
 	allow = { religion = slavic_pagan }
 	sprite = 26
@@ -45,7 +45,7 @@ veles =
 
 jarilo =
 {
-	heir_chance = 0.33
+	heir_chance = 0.25
 	core_creation = -0.05
 	
 	allow = { religion = slavic_pagan }

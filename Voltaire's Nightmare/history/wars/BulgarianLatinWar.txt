@@ -6,7 +6,6 @@ war_goal = {
 
 1205.4.1 = {
 	add_attacker = BUL
-	add_attacker = OLT
 	add_defender = LEM
 	add_defender = SIA
 	add_defender = TSS
@@ -60,7 +59,6 @@ war_goal = {
 
 1208.6.30 = {
 	rem_attacker = BUL
-	rem_attacker = OLT
 	rem_defender = LEM
 	rem_defender = TSS
 }

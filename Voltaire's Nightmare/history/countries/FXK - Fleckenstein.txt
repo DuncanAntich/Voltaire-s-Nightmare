@@ -5,6 +5,26 @@ religion = catholic
 technology_group = western
 capital = 302
 
+1054.1.1 = {
+	monarch = {
+		name = "Gottfried I"
+		dynasty = "von Fleckenstein"
+		dip = 4
+		adm = 2
+		mil = 2
+	}
+}
+1094.1.1 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Fleckenstein"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}
+#done 1125
+#Again
 1268.10.29 = {
 	monarch = {
 		name = "Wolfram I"

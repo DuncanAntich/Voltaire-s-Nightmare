@@ -4,7 +4,7 @@
 zeus =
 {
 	prestige_decay = -0.01
-	war_exhaustion_cost = -0.15
+	war_exhaustion_cost = -0.1
 	
 	allow = { religion = hellenic_pagan }
 	sprite = 19
@@ -67,7 +67,7 @@ hades =
 hera =
 {
 	culture_conversion_cost = -0.1
-	spy_offence = 0.2
+	spy_offence = 0.15
 	
 	allow = { religion = hellenic_pagan }
 	sprite = 22
@@ -114,7 +114,7 @@ athena =
 aphrodite =
 {
 	vassal_income = 0.2
-	tolerance_heathen = 2
+	tolerance_heathen = 1
 	
 	allow = { religion = hellenic_pagan }
 	sprite = 24

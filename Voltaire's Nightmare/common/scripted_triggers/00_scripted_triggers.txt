@@ -61,6 +61,7 @@ has_russian_government_interaction = {
 	OR = {
 		government = tsardom
 		government = principality
+		government = veche_republic
 	}
 }
 
@@ -306,27 +307,12 @@ consort_has_bad_mil_personality = {
  
 can_have_center_of_reformation_trigger = {
 	continent = europe
-	OR = {
-		religion = catholic
-		religion = reformed
-		religion = protestant
-		religion = anabaptist
-		religion = cathar
-		religion = waldensian
-		religion = fraticelli
-		religion = bogomilist
-		religion = lollardy
-		religion = hussite
-	}
+	religion_group = christian
 	NOT = { province_id = 2708 }
-	is_in_capital_area = yes
 	is_reformation_center = no
 	is_island = no
-	development = 8
 	NOT = {
-		any_neighbor_province = {
-			is_reformation_center = yes
-		}
+		any_neighbor_province = { is_reformation_center = yes }
 	}
 	NOT = {
 		any_province = {
@@ -335,6 +321,4 @@ can_have_center_of_reformation_trigger = {
 			religion = $RELIGION$
 		}
 	}
-	NOT = { has_terrain = coastline }
-	NOT = { has_terrain = coastal_desert }
 }

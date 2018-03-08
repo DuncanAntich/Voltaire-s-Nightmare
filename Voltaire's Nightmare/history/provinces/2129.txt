@@ -1,5 +1,5 @@
-owner = RMG
-controller = RMG
+owner = OSI
+controller = OSI
 culture = umbrian
 religion = catholic
 hre = yes
@@ -9,20 +9,16 @@ trade_goods = wool
 base_manpower = 3
 capital = "Macerata"
 is_city = yes
-add_core = RMG
+add_core = OSI
 add_core = MCE
+add_core = PAP
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1100.1.1 = {
-	owner = OSI
-	controller = OSI
-	add_core = OSI
-	remove_core = RMG
-	add_core = PAP
-}
 1138.8.1 = {
 	owner = MCE
 	controller = MCE
@@ -79,5 +75,3 @@ discovered_by = muslim
 	add_core = ITA
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

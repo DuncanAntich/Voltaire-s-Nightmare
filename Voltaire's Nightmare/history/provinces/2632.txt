@@ -1,7 +1,7 @@
 owner = POL
 controller = POL
 culture = polish
-religion = slavic_pagan
+religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
@@ -17,7 +17,6 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1125.1.1 = { religion = catholic }
 1138.10.28 = {
 	owner = WKP
 	controller = WKP

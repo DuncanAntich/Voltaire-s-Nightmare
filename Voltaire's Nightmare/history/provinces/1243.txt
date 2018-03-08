@@ -1,5 +1,5 @@
-owner = TUS
-controller = TUS
+owner = RGO
+controller = RGO
 culture = emilian
 religion = catholic
 hre = yes
@@ -9,7 +9,6 @@ trade_goods = peaches
 base_manpower = 0
 capital = "Mirandola" 
 is_city = yes
-add_core = TUS	
 add_core = RGO
 add_core = MIR
 discovered_by = eastern
@@ -17,11 +16,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1115.7.24 = {
-	owner = RGO
-	controller = RGO
-	remove_core = TUS
-}
 1311.1.1 = {
 	owner = MIR
 	controller = MIR

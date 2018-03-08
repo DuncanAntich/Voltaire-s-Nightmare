@@ -1,3 +1,7 @@
+4237 = "Kiev"
+4287 = "Tavas"
+4286 = "Fethiye"
+2966 = "Lâdik"
 2486 = "Bodrum"
 19 = "Ahirli"
 2445 = "Palez"

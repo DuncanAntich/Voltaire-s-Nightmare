@@ -1,11 +1,38 @@
-government = monastic_order_government
-government_rank = 4
+government = feudal_monarchy
+government_rank = 1
 primary_culture = bavarian
 religion = catholic
 technology_group = western
 capital = 957
 
-1102.1.1 = {
+#Grafs of the Grafengaden
+1054.1.1 = {
+	monarch = {
+		name = "Aribo II"
+		dynasty = "Aribonen"
+		birth_date = 1024.1.1
+		adm = 2
+		dip = 0
+		mil = 6
+	}
+}
+1054.1.1 = {
+	heir = {
+		name = "Hartwig"
+		monarch_name = "Hartwig"
+		dynasty = "Aribonen"
+		birth_date = 1054.1.1
+		death_date = 1102.3.18
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#Reichsproptei Berchtesgaden
+1102.3.18 = {
+	government = monastic_order_government
+	government_rank = 4
 	monarch = {
 		name = "Eberwin"
 		adm = 2

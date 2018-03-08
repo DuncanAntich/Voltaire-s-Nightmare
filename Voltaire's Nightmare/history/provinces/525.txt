@@ -22,13 +22,19 @@ add_core = PLM
 	remove_core = PLM
 }
 1071.1.1 = {
-	owner = SIC
-	controller = SIC
-	add_core = SIC
+	owner = TNC
+	controller = TNC
+	add_core = TNC
 	remove_core = SYC
 }
 1074.1.1 = { culture = sicilian }
 1081.1.1 = { religion = catholic }
+1130.12.25 = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+	remove_core = TNC
+}
 1282.3.30 = {
 	add_core = TNC
 	revolt = { 

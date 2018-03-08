@@ -1,14 +1,13 @@
-owner = POL
-controller = POL
-add_core = POL
+owner = MAZ
+controller = MAZ
 add_core = MAZ
 culture = polish
 religion = catholic
 hre = no
-base_tax = 2
-base_production = 1
+base_tax = 4
+base_production = 3
 trade_goods = iron
-base_manpower = 1
+base_manpower = 3
 capital = "Dobrzyn"
 is_city = yes
 discovered_by = eastern
@@ -16,14 +15,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1138.10.28 = {
-	owner = MAZ
-	controller = MAZ
-	remove_core = POL
-	base_tax = 4
-	base_production = 3
-	base_manpower = 3
-}
 1146.1.1 = {
 	owner = POL
 	controller = POL

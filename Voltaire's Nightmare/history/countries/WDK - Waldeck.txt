@@ -5,6 +5,27 @@ religion = catholic
 technology_group = western
 capital = 931
 
+#Ittergau
+1054.1.1 = {
+	monarch = {
+		name = "Rember"
+		dynasty = "von Itter"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1094.1.1 = {
+	monarch = {
+		name = "Volkmar"
+		dynasty = "von Itter"
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+#1123 to SLB
+#Waldeckers
 1228.1.1 = {
 	monarch = { #previously schwalen
 		name = "Adolf I"

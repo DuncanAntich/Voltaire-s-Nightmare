@@ -1,13 +1,25 @@
-government = imperial_city
+government = feudal_monarchy
 government_rank = 1
-mercantilism = 25
 primary_culture = franconian
 religion = catholic
 technology_group = western
 capital = 126
-fixed_capital = 126
 
+#Maulachgau
 1054.1.1 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Lobenhausen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#Free City
+1090.5.18 = {
+	government = imperial_city
+	mercantilism = 25
+	fixed_capital = 126
 	monarch = {
 		name = "Stadtrat"
 		adm = 2

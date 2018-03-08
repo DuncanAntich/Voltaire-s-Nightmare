@@ -5,7 +5,39 @@ primary_culture = emilian
 religion = catholic
 capital = 727
 
-1097.8.20 = {
+1054.1.1 = {
+	monarch = {
+		name = "Placido"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1073.1.1 = {
+	monarch = {
+		name = "Guarnerio"
+		dip = 2
+		mil = 2
+		adm = 5
+	}
+}
+1076.1.1 = {
+	monarch = {
+		name = "Lanfranco"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1087.1.1 = {
+	monarch = {
+		name = "Iacopo"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1096.1.1 = {
 	monarch = {
 		name = "Gandolfo"
 		dip = 2

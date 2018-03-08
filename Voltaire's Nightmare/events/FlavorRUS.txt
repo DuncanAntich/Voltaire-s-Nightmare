@@ -5,11 +5,172 @@
 namespace = flavor_rus
 normal_or_historical_nations = yes
 
+# The Pomjestija Reform
+country_event = {
+	id = flavor_rus.1
+	title = "flavor_rus.EVTNAME3401"
+	desc = "flavor_rus.EVTDESC3401"
+	picture = REFORM_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 1450
+		NOT = { is_year = 1550 }
+		tag = RUS
+	}
+
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+
+	option = {		# Let us reform
+		name = "flavor_rus.EVTOPTA3401"
+		ai_chance = { factor = 95 }
+		add_country_modifier = {
+			name = pomjestija_reform
+			duration = 9125
+		}
+	}
+	option = {		# Let us become like Novgorod
+		name = "flavor_rus.EVTOPTB3401"
+		ai_chance = { factor = 5 }
+		add_country_modifier = {
+			name = novgorodian_reform
+			duration = 9125
+		}
+	}
+}
+
+# Malyuta Skuratov
+country_event = {
+	id = flavor_rus.2
+	
+	title = "flavor_rus.EVTNAME3202"
+	desc = "flavor_rus.EVTDESC3202"
+	picture = ADVISOR_eventPicture
+
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 1560
+		NOT = { is_year = 1573 }
+		tag = RUS
+	}
+
+	mean_time_to_happen = {
+		months = 38
+	}
+
+	
+	option = {			# An Excellent Minister!
+		name = "EXCELLENTMINISTER"
+		add_adm_power = 40
+		add_dip_power = 40
+		add_mil_power = 40
+		define_advisor = {
+			type = spymaster
+			name = "Malyuta Skuratov"
+			discount = yes
+			skill = 3
+		}
+	}
+}
+
+# The Chosen Council
+country_event = {
+	id = flavor_rus.6
+	
+	title = "flavor_rus.EVTNAME3410"
+	desc = "flavor_rus.EVTDESC3410"
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 1540
+		NOT = { is_year = 1560 }
+		tag = RUS
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {		# Excellent Ministers!
+		name = "flavor_rus.EVTOPTA3410"
+		add_adm_power = 25
+		define_advisor = {
+			type = statesman
+			name = "Alexi Adashev"
+			discount = yes
+			skill = 2
+		}
+		define_advisor = {
+			type = theologian
+			name = "Sylvestr"
+			discount = yes
+			skill = 3
+		}
+	}
+}
+
+# The Treasury Reform and the Abolishing of the Kormlenije System
+country_event = {
+	id = flavor_rus.8
+	title = "flavor_rus.EVTNAME3413"
+	desc = "flavor_rus.EVTDESC3413"
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1550
+		NOT = { is_year = 1650 }
+		tag = RUS
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+
+	option = {		# Reform Treasury and Abolish Kormlenije
+		name = "flavor_rus.EVTOPTA3413"
+		ai_chance = { factor = 50 }
+		add_adm_power = -50
+		add_country_modifier = {
+			name = chamber_of_finance
+			duration = 9125
+		}
+		add_country_modifier = {
+			name = kormlenije_abolished
+			duration = 9125
+		}
+	}
+	option = {		# Only Reform Treasury
+		name = "flavor_rus.EVTOPTB3413"
+		ai_chance = { factor = 25 }
+		add_country_modifier = {
+			name = chamber_of_finance
+			duration = 9125
+		}
+	}
+	option = {		# Only Abolish Kormlenije
+		name = "flavor_rus.EVTOPTC3413"
+		ai_chance = { factor = 25 }
+		add_country_modifier = {
+			name = kormlenije_abolished
+			duration = 9125
+		}
+	}
+}
+
 # The Russian Orthodox Church declared independent of Constantinople
 country_event = {
 	id = flavor_rus.9
-	
-	
 	title = "flavor_rus.EVTNAME3415"
 	desc = "flavor_rus.EVTDESC3415"
 	picture = ORTHODOX_eventPicture
@@ -28,8 +189,6 @@ country_event = {
 	mean_time_to_happen = {
 		months = 120
 	}
-	
-	
 
 	option = {		# Let us lead the True Faith from Moscow
 		name = "flavor_rus.EVTOPTA3415"
@@ -82,6 +241,107 @@ country_event = {
 	}
 }
 
+# The Peasantry is brought into Serfdom
+country_event = {
+	id = flavor_rus.10
+	title = "flavor_rus.EVTNAME3416"
+	desc = "flavor_rus.EVTDESC3416"
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		tag = RUS
+		is_year = 1600
+		NOT = { is_year = 1700 }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {		# Enserf the peasants
+		name = "flavor_rus.EVTOPTA3416"
+		ai_chance = { factor = 75 }
+		add_country_modifier = {
+			name = enserfed_peasants
+			duration = -1
+		}
+	}
+	option = {		# Do not enserf them
+		name = "flavor_rus.EVTOPTB3416"
+		ai_chance = { factor = 25 }
+		add_legitimacy = -10
+	}
+}
+
+# Hundred Chapter Synod
+country_event = {
+	id = flavor_rus.11
+	
+	title = "flavor_rus.EVTNAME1005"
+	desc = "flavor_rus.EVTDESC1005"
+	picture = ORTHODOX_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		is_year = 1500
+		NOT = { is_year = 1600 }
+		religion = orthodox
+	}
+
+	mean_time_to_happen = {
+		months = 100
+	}
+	
+
+	option = {		# Affirm these changes
+		name = "flavor_rus.EVTOPTA1005"
+		ai_chance = { factor = 75 }
+		add_patriarch_authority = 0.10
+	}
+	option = {		# Prohibit these ideas
+		name = "flavor_rus.EVTOPTB1005"
+		ai_chance = { factor = 25 }
+		add_stability_or_adm_power = yes
+		add_patriarch_authority = -0.10
+	}
+}
+
+# Boris Morozov
+country_event = {
+	id = flavor_rus.12
+	title = "flavor_rus.EVTNAME3203"
+	desc = "flavor_rus.EVTDESC3203"
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = RUS
+		is_year = 1620
+		NOT = { is_year = 1660 }
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {			# An Excellent Minister!
+		name = "EXCELLENTMINISTER"
+		add_adm_power = 50
+		define_advisor = {
+			type = treasurer
+			name = "Boris Morozov"
+			discount = yes
+			skill = 2
+		}
+	}
+}
+
 # Full Serfdom enforced by Sobornoj Ulozjenije
 country_event = {
 	id = flavor_rus.13
@@ -106,6 +366,12 @@ country_event = {
 	option = {		# Enforce
 		name = "flavor_rus.EVTOPTA3417"
 		ai_chance = { factor = 90 }
+		if = {
+			limit = {
+				has_country_modifier = enserfed_peasants
+			}
+			remove_country_modifier = enserfed_peasants
+		}
 		add_country_modifier = {
 			name = legal_serfdom
 			duration = -1
@@ -114,11 +380,16 @@ country_event = {
 	option = {		# Accept deteriorating Economy and Burgher Uprisings
 		name = "flavor_rus.EVTOPTB3417"
 		ai_chance = { factor = 10 }
+		if = {
+			limit = {
+				has_country_modifier = enserfed_peasants
+			}
+			remove_country_modifier = enserfed_peasants
+		}
 		add_country_modifier = {
 			name = deteriorating_economy
 			duration = 3650
 		}
-		
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"

@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = ESC
+controller = ESC
 culture = bavarian
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 3
 trade_goods = grain
 base_manpower = 3
 capital = "Werdenfels"
-is_city = yes	
-add_core = BAV	
+is_city = yes
 add_core = ESC
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1157.1.1 = {
-	owner = ESC
-	controller = ESC
-	remove_core = BAV
-}
 1294.1.1 = {
 	owner = FXI
 	controller = FXI

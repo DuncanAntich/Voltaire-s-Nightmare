@@ -22,7 +22,7 @@ national_focus = DIP
 }
 1051.1.1 = {
 	queen = {
-		country_of_origin = VOL
+		country_of_origin = KIE
 		name = "Anna"
 		dynasty = "Rurikovich"
 		birth_date = 1030.1.1
@@ -433,6 +433,12 @@ national_focus = DIP
 	}
 }
 1307.10.13 = { set_country_flag = removed_templars }
+1309.3.9 = {
+	add_country_modifier = {
+		name = babylonian_captivity
+		duration = -1
+	}
+}
 1314.11.29 = {
 	monarch = {
 		name = "Louis X"
@@ -573,7 +579,10 @@ national_focus = DIP
 		mil = 0
 	}
 }
-1378.9.20 = { religion = catholique }
+1378.9.20 = {
+	remove_country_modifier = babylonian_captivity
+	religion = catholique
+}
 1380.9.16 = {
 	monarch = {
 		name = "Charles VI"
@@ -946,7 +955,7 @@ national_focus = DIP
 		monarch_name = "Henri III"
 		dynasty = "de Valois"
 		birth_date = 1551.9.19
-		death_date = 1589.8.2
+		death_date = 1572.7.7 #to POL
 		claim = 95
 		adm = 5
 		dip = 1

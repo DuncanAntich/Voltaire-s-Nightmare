@@ -1,0 +1,15 @@
+name = "Invasion of Pskov"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1240.10.1 = {
+	add_attacker = LIV
+	add_defender = PSK
+}
+
+1242.4.5 = {
+	rem_attacker = LIV
+	rem_defender = PSK
+}

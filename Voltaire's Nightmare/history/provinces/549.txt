@@ -1,5 +1,5 @@
-owner = BGA
-controller = BGA
+owner = HRB
+controller = HRB
 culture = boden_alemannic
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 3
 trade_goods = glassware
 base_manpower = 3
 capital = "Hornberg" 
-is_city = yes	
-add_core = BGA
+is_city = yes
 add_core = HRB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1080.1.1 = {
-	owner = HRB
-	controller = HRB
-	remove_core = BGA
-}
 1423.1.1 = {
 	owner = WUR
 	controller = WUR

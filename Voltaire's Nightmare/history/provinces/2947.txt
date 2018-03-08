@@ -1,6 +1,6 @@
-owner = LIT
-controller = LIT
-culture = lithuanian
+owner = DNV
+controller = DNV
+culture = sudovian
 religion = animism
 hre = no
 base_tax = 3
@@ -9,12 +9,19 @@ trade_goods = wax
 base_manpower = 3
 capital = "Trakai"
 is_city = yes
-add_core = LIT
+add_core = DNV
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1236.1.1 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = DNV
+	culture = lithuanian
+}
 1387.1.1 = { religion = catholic }
 1543.1.1 = { unrest = 3 }
 1569.7.1 = {

@@ -3,19 +3,9 @@ government_rank = 3
 technology_group = nomad_group
 primary_culture = cuman
 religion = tengri_pagan_reformed
-secondary_religion = orthodox
 capital = 1789
 
-1054.1.1 = {
-	monarch = {
-		name = "Sokal"
-		dynasty = "Terteroba"
-		dip = 3
-		mil = 3
-		adm = 3
-	}
-}
-1080.1.1 = {
+1090.1.1 = {
 	monarch = {
 		name = "Tugorkan"
 		dynasty = "Terteroba"
@@ -23,10 +13,6 @@ capital = 1789
 		mil = 4
 		adm = 3
 	}
-}
-1091.1.1 = { 
-	capital = 587
-	add_accepted_culture = wallachian
 }
 1099.1.1 = {
 	monarch = {
@@ -82,7 +68,6 @@ capital = 1789
 		adm = 3
 	}
 }
-1238.1.1 = { religion = catholic }
 1239.1.1 = {
 	religion = orthodox
 	monarch = {

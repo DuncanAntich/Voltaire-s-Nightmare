@@ -1,4 +1,4 @@
-government = italian_monarchy
+government = feudal_monarchy
 government_rank = 1
 technology_group = western
 primary_culture = venetian
@@ -6,7 +6,47 @@ religion = catholic
 capital = 2654
 add_army_professionalism = 0.05
 
+#County
+1054.1.1 = {
+	monarch = {
+		name = "Rambaldo III"
+		dynasty = "di Collalto"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}
+1085.1.1 = {
+	monarch = {
+		name = "Arsedisio"
+		dynasty = "di Collalto"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1115.1.1 = {
+	monarch = {
+		name = "Widotto"
+		dynasty = "di Collalto"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1145.1.1 = {
+	monarch = {
+		name = "Sofia"
+		dynasty = "di Collalto"
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+#League
 1164.1.1 = {
+	government = italian_monarchy
 	monarch = {
 		name = "Repubblica"
 		regent = yes

@@ -5,7 +5,16 @@ religion = catholic
 technology_group = western
 capital = 167
 
-1146.4.8 = {
+1054.1.1 = {
+	monarch = {
+		name = "Marquard I"
+		dynasty = "von Leuchtenberg"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1100.1.1 = {
 	monarch = {
 		name = "Gebhard I"
 		dynasty = "von Leuchtenberg"

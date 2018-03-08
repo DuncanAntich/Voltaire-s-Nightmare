@@ -1,10 +1,47 @@
-government = feudal_monarchy
-government_rank = 1
+government = monastic_order_government
+government_rank = 4
 primary_culture = ripuarian
 religion = catholic
 technology_group = western
 capital = 157
 
+#Kloster Echternach
+1054.1.1 = {
+	monarch = {
+		name = "Reginbert"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1081.1.1 = {
+	monarch = {
+		name = "Theofried"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+1110.1.1 = {
+	monarch = {
+		name = "Godfried"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#counts
+1150.1.1 = {
+	government = feudal_monarchy
+	government_rank = 1
+	monarch = {
+		name = "Wilhelm I"
+		dynasty = "von Mörs"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1186.1.1 = {
 	monarch = {
 		name = "Elger I"

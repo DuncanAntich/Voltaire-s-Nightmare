@@ -89,14 +89,14 @@ monarch_names = {
 }
 
 leader_names = {
-	Balina
+	Balina Terter
 	Djordjic Dobrovski
-	Frujin
+	Frujin Asen
 	Karposh Konstantin
 	Marinov
 	Peyachevich
 	Radic Rali
-	Shishman Sorkochovich Strahil Stratimirovich
+	Šišman Sorkochovich Strahil Stratimirovich
 }
 
 ship_names = {
@@ -107,4 +107,12 @@ ship_names = {
 	Rezovo
 	Sarafovo Sinemorets Sozopol
 	Varara
+}
+
+army_names = {
+	"Armiya na $PROVINCE$"
+}
+
+fleet_names = {
+	"$PROVINCE$ Flota"
 }

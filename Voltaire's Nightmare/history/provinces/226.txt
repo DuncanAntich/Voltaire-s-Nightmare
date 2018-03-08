@@ -1,5 +1,5 @@
-owner = THU
-controller = THU
+owner = HHN
+controller = HHN
 culture = thuringian
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = iron
 base_manpower = 2
 capital = "Hohnstein"
 is_city = yes
-add_core = THU
 add_core = HHN
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1154.1.1 = {
-	owner = HHN
-	controller = HHN
-	remove_core = THU
-}
 1417.1.1 = {
 	owner = SXT
 	controller = SXT

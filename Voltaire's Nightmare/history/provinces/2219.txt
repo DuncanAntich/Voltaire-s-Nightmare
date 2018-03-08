@@ -1,5 +1,5 @@
-owner = GLS
-controller = GLS
+owner = EVE
+controller = EVE
 culture = eastphalian
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = fur
 base_manpower = 3
 capital = "Everstein"
 is_city = yes
-add_core = GLS
 add_core = EVE
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1116.1.1 = {
-	owner = EVE
-	controller = EVE
-	remove_core = GLS
-}
 1408.1.1 = {
 	owner = WFB
 	controller = WFB

@@ -1,5 +1,5 @@
-owner = POL
-controller = POL
+owner = MAZ
+controller = MAZ
 culture = pruthenian
 religion = catholic
 hre = no
@@ -9,7 +9,6 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Chelmno"
 is_city = yes
-add_core = POL
 add_core = MAZ
 discovered_by = eastern
 discovered_by = ottoman
@@ -17,11 +16,6 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1138.10.28 = {
-	owner = MAZ
-	controller = MAZ
-	remove_core = POL
-}
 1146.1.1 = {
 	owner = POL
 	controller = POL

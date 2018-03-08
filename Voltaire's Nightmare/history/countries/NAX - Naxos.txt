@@ -77,10 +77,10 @@ capital = 2686	# Naxos
 1371.1.1 = {
 	monarch = {
 		name = "Niccolò II"
-		dynasty = "dalle Carceri"
-		adm = 2
+		dynasty = "dalle Carcera"
+		adm = 1
 		dip = 2
-		mil = 2
+		mil = 1
 	}
 }
 1383.1.1 = {

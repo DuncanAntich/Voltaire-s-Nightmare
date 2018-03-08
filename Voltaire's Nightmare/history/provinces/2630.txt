@@ -1,9 +1,8 @@
-owner = PHE
-controller = PHE
-add_core = PHE
-add_core = MNT
+owner = BNZ
+controller = BNZ
+add_core = BNZ
 culture = pecheneg
-religion = tengri_pagan_reformed
+religion = orthodox
 hre = no
 base_tax = 1
 base_production = 1
@@ -16,25 +15,13 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1091.1.1 = {
-	owner = CMN
-	controller = CMN
-	add_core = CMN
-	remove_core = PHE
-	culture = cuman
-}
-1239.1.1 = { religion = orthodox }
-1241.1.1 = {
-	owner = MNT
-	controller = MNT
-	remove_core = CMN
-	culture = wallachian
-}
+1091.4.29 = { culture = cuman }
 1290.1.1 = {
 	owner = OLT
 	controller = OLT
 	add_core = OLT
-	remove_core = MNT
+	remove_core = BNZ
+	culture = wallachian
 }
 1309.1.1 = {
 	owner = WAL

@@ -1,11 +1,23 @@
-government = feudal_monarchy
+government = monastic_order_government
 government_rank = 1
 primary_culture = pfalzish
 religion = catholic
 technology_group = western
 capital = 2408
 
+#Kloster Hornbach
+1054.1.1 = {
+	monarch = {
+		name = "Canons"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#Counts
 1182.1.1 = {
+	government = feudal_monarchy
 	monarch = {
 		name = "Heinrich I"
 		dynasty = "von Saarbrücken"

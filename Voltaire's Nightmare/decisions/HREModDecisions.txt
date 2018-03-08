@@ -210,39 +210,6 @@ country_decisions = {
 		}
 	}
 
-	stop_free_beyliks = {
-		major = yes
-		potential = {
-			always = no #not in yet
-			ai = no
-			NOT = { has_global_flag = beyliks_finished_off }
-			any_owned_province = {
-				OR = {
-					region = bithynia_region
-					region = ephesian_region
-				}
-			}
-			NOT = { is_year = 1290 }
-		}
-		allow = {
-			bithynia_region = {
-				type = all
-				owned_by = ROOT
-			}
-			ephesian_region = {
-				type = all
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			hidden_effect = { set_global_flag = beyliks_finished_off }
-			custom_tooltip = disable_beyliks_tooltip
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
 	end_frankish_monarchy = {
 		major = yes
 		potential = { government = celestial_empire }
@@ -284,48 +251,10 @@ country_decisions = {
 		}
 	}
 
-	conquer_russian_lith = {
-		potential = {
-			tag = LIT
-			NOT = { exists = RUS }
-			NOT = { exists = UKR }
-			normal_or_historical_nations = yes
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { has_country_modifier = lithuanianconquests }
-		}
-		allow = {
-			is_free_or_tributary_trigger = yes
-			has_institution = feudalism
-			owns = 1152 #Vilna
-			is_at_war = no
-			is_tribal = no
-			adm_power = 200
-			dip_power = 200
-			mil_power = 200
-			mil_tech = 24
-			manpower = 5
-		}
-		effect = {
-			add_manpower = -2.5
-			add_adm_power = -200
-			add_dip_power = -200
-			add_mil_power = -200
-			add_country_modifier = {
-				name = "lithuanianconquests"
-				duration = -1
-			}		
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	assize_of_arms_act = {
 		potential = {
 			NOT = { has_country_modifier = assize_of_arms }
+			primitives = no
 		}
 		allow = {
 			mil_tech = 20
@@ -343,10 +272,7 @@ country_decisions = {
 
 	donate_to_holy_order = {
 		potential = {
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
+			religion = catholic
 			NOT = { government = theocracy }
 			NOT = { has_country_modifier = donated_ho }
 			normal_or_historical_nations = yes
@@ -354,10 +280,7 @@ country_decisions = {
 				exists = yes
 				is_free_or_tributary_trigger = yes
 				government = crusader_order_government
-				OR = {
-					religion = catholic
-					religion = catholique
-				}
+				religion = catholic
 				NOT = { war_with = ROOT }
 			}
 		}
@@ -565,7 +488,7 @@ country_decisions = {
 			government = eastern_monarchy
 		}
 		allow = {
-			adm_tech = 10
+			adm_tech = 12
 			stability = 1
 			is_at_war = no
 		}
@@ -573,389 +496,178 @@ country_decisions = {
 			change_government = feudal_monarchy
 			add_prestige = 25
 			hidden_effect = {
-				if = {
-					limit = { NOT = { tag = POL } }
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture_group = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture_group = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-				}
-			}
-			hidden_effect = {
-				if = {
-					limit = { tag = POL }
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-					random_owned_province = {
-						limit = {
-							NOT = { culture = ROOT }
-							any_core_country = { NOT = { tag = ROOT } }
-						}
-						random_core_country = {
-							limit = { NOT = { tag = ROOT } }
-							every_core_province = {
-								limit = {
-									owned_by = ROOT
-									NOT = { culture = ROOT }
-								}
-								remove_core = ROOT
-								cede_province = PREV
-							}
-						}
-					}
-				}
-			}
-			if = {
-				limit = { NOT = { tag = POL } }
-				custom_tooltip = reform_em.tt
-			}
-			if = {
-				limit = { tag = POL }
-				custom_tooltip = boleslaw.tt
-			}
-			hidden_effect = {
-				if = {
+				random_owned_province = {
 					limit = {
-						tag = POL
-						ai = yes
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
 					}
-					if = {
-						limit = { NOT = { exists = MAZ } }
-						MAZ = { define_ruler = { dynasty = ROOT } }
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
 					}
-					every_owned_province = {
-						limit = { is_core = MAZ }
-						cede_province = MAZ
-						remove_core = POL
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
 					}
-					if = {
-						limit = { NOT = { exists = WKP } }
-						WKP = { define_ruler = { dynasty = ROOT } }
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
 					}
-					every_owned_province = {
-						limit = { is_core = WKP }
-						cede_province = WKP
-						remove_core = POL
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						any_core_country = { NOT = { tag = ROOT } }
+					}
+					random_core_country = {
+						limit = { NOT = { tag = ROOT } }
+						every_core_province = {
+							limit = {
+								owned_by = ROOT
+								NOT = { culture_group = ROOT }
+							}
+							remove_core = ROOT
+							cede_province = PREV
+						}
 					}
 				}
 			}
+			custom_tooltip = reform_em.tt
 		}
 		ai_will_do = {
 			factor = 1
@@ -1007,6 +719,11 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			NOT = { is_year = 1160 }
 			NOT = { capital_scope = { area = berlin_area } }
+			NOT = { any_owned_province = { is_core = BRA } }
+			OR = {
+				NOT = { primary_culture = central_margravian }
+				ai = no
+			}
 		}
 		allow = {
 			berlin_area = {
@@ -1104,5 +821,39 @@ country_decisions = {
 			factor = 1
 		}
 		ai_importance = 400
+	}
+
+	abandon_avignon = {
+		major = yes
+		potential = {
+			religion = catholique
+			NOT = { tag = AVI }
+			NOT = { government = papal_government }
+			NOT = { is_religion_enabled = protestant }
+		}
+		allow = {
+			has_institution = laytheology
+			reverse_has_opinion = { who = PAP value = 0 }
+		}
+		effect = {
+			change_religion = catholic
+			reverse_add_opinion = { who = PAP modifier = accepted_supremacy_of_rome }
+			add_prestige = -15
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					is_subject = yes
+					war_with = PAP
+					is_rival = PAP
+					is_enemy = PAP
+					religious_unity = 0.9
+					is_papal_controller = yes
+					is_defender_of_faith = yes
+				}	
+			}
+		}
 	}
 }

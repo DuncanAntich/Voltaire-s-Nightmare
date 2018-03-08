@@ -1,6 +1,4 @@
-#See Filename
-
-graphical_culture = westerngfx
+graphical_culture = easterngfx
 
 color = { 217  168  87 }
 

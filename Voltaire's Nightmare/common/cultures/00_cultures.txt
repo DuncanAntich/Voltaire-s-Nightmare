@@ -2518,7 +2518,7 @@ baltic	= {
 		}
 	}
 	semigallian = {
-		primary = SMG
+		primary = TVT
 		dynasty_names = {
 			Viestardis Nameisis Detzkitis Jakitis Kuitis Purwinis 
 		}
@@ -2533,13 +2533,17 @@ baltic	= {
 	}
 	livlander = {
 		primary = RGS
+		male_names = {
+			Ylo Kulewene Viezo Viliendi Uldenago Wade Waldeko
+			Gerverder Vietzo Ymaut Anno Alo Ako Meluke Warigribbe
+		}
 		dynasty_names = {
 			Karasi Ingrija Revala Virumaa L‰‰nemaa Ingeri
 			Ridala Saaremaa Vaiga Turaida Livo Harjumaa
 		}
 	}
 	male_names = {
-		Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
+		Aishno Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
 		Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
 		Elmede Erasts Erdzivil Galeine Gastile Gedere Gerden Gibedats Giemund Golovke Gotene Gunvald 
 		Janis John Jaunule Jedetus Juvage Kage Likiik

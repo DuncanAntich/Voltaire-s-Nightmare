@@ -1,5 +1,5 @@
-owner = TTN
-controller = TTN
+owner = PCZ
+controller = PCZ
 culture = emilian
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 2
 trade_goods = peaches
 base_manpower = 2
 capital = "Bardi" 
-is_city = yes	
-add_core = TTN
+is_city = yes
 add_core = PCZ
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1097.8.20 = {
-	owner = PCZ
-	controller = PCZ
-	remove_core = TTN
-}
 1336.1.1 = {
 	owner = MLO
 	controller = MLO

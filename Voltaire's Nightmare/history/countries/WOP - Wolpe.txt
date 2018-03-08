@@ -5,7 +5,16 @@ primary_culture = eastphalian
 religion = catholic
 capital = 382
 
-1124.1.1 = {
+1054.1.1 = {
+	monarch = {
+		name = "Gerbert I"
+		dynasty = "von Wölpe"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1102.1.1 = {
 	monarch = {
 		name = "Egilbert I"
 		dynasty = "von Wölpe"

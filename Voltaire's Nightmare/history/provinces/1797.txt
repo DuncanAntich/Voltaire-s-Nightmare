@@ -1,5 +1,5 @@
-owner = AQU
-controller = AQU
+owner = GRZ
+controller = GRZ
 culture = venetian
 religion = catholic
 hre = yes
@@ -9,22 +9,12 @@ trade_goods = olive
 base_manpower = 3
 capital = "Pordenone"
 is_city = yes
-add_core = VNN
-add_core = AQU
+add_core = GRZ
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1077.1.1 = {
-	remove_core = VNN
-}
-1082.1.1 = {
-	owner = GRZ
-	controller = GRZ
-	add_core = GRZ
-	remove_core = AQU
-}
 1278.1.1 = {
 	owner = STY
 	controller = STY

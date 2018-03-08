@@ -1,5 +1,5 @@
-owner = ZMG
-controller = ZMG
+owner = SUA
+controller = SUA
 culture = lithuanian
 religion = animism
 hre = no
@@ -9,12 +9,18 @@ trade_goods = grain
 base_manpower = 1
 capital = "Radviliškis"
 is_city = yes
-add_core = ZMG
+add_core = SUA
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1236.1.1 = {
+	owner = ZMG
+	controller = ZMG
+	add_core = ZMG
+	remove_core = SUA
+}
 1413.1.1 = { religion = catholic }
 1422.1.1 = {
 	owner = LIT

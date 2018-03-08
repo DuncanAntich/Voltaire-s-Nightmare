@@ -2591,6 +2591,17 @@ country_event = {
 					name = "invasion_nation_m"
 					duration = 2920
 				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = extensive_holdings
+						}
+					}
+					add_country_modifier = {
+						name = "extensive_holdings"
+						duration = -1
+					}
+				}
 				random_owned_province = {
 					build_to_forcelimit = {
 						infantry = 0.7
@@ -2838,17 +2849,11 @@ country_event = {
 	desc = "HREMD63"
 	picture = NEW_HEIR_eventPicture
 
-	fire_only_once = yes
-
 	trigger = {
-		tag = BYZ
-		government = monarchy
-		has_heir = no
+		government = eastern_monarchy
 		is_lesser_in_union = no
-		has_regency = no
-		ruler_age = 54
-		NOT = { is_year = 1066 }
-		NOT = { started_in = 1056.9.1 }
+		ruler_age = 55
+		has_heir = no
 	}
 	
 	mean_time_to_happen = {
@@ -2857,7 +2862,7 @@ country_event = {
 
 	option = {
 		name = "HREMA63"
-		ai_chance = { factor = 60 }
+		ai_chance = { factor = 35 }
 		define_heir = {
 			dynasty = "Doukas"
 			age = 20
@@ -2865,7 +2870,7 @@ country_event = {
 	}
 	option = {
 		name = "HREMB63"
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 35 }
 		define_heir = {
 			dynasty = "Komnenos"
 			age = 20
@@ -2873,15 +2878,12 @@ country_event = {
 	}
 	option = {
 		name = "HREMC63"
-		ai_chance = { factor = 10 }
-		define_heir = {
-			dynasty = "Bringas"
-			age = 20
-		}
+		ai_chance = { factor = 30 }
+		define_heir = { age = 20 }
 	}
 	option = {
 		name = "HREMDD63"
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 0 }
 		add_legitimacy = 5
 	}
 }

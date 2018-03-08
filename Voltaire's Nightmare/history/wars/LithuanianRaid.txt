@@ -11,6 +11,11 @@ war_goal = {
 	add_defender = LIT
 	add_defender = ZMG
 	add_defender = BLR
+	add_defender = PLT
+	add_defender = KIE
+	add_defender = PNK
+	add_defender = SND
+	add_defender = VOL
 }
 
 1352.1.1 = {
@@ -20,4 +25,9 @@ war_goal = {
 	rem_defender = LIT
 	rem_defender = ZMG
 	rem_defender = BLR
+	rem_defender = PLT
+	rem_defender = KIE
+	rem_defender = PNK
+	rem_defender = SND
+	rem_defender = VOL
 }

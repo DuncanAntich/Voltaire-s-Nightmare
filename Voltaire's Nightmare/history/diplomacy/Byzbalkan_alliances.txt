@@ -95,13 +95,13 @@ alliance = {
 }
 
 #Overlord of Thessaly
-vassal = {
+guarantee = {
 	first = NKA
 	second = WTH
 	start_date = 1247.1.1
 	end_date = 1261.7.25
 }
-vassal = {
+guarantee = {
 	first = BYZ
 	second = WTH
 	start_date = 1261.7.25
@@ -152,14 +152,14 @@ union = {
 
 #Bulgarian relations
 #Vidin first
-vassal = {
+march = {
 	first = BUL
 	second = VDN
 	start_date = 1248.1.1
 	end_date = 1263.1.1
 }
 #vidin again
-vassal = {
+march = {
 	first = BUL
 	second = VDN
 	start_date = 1273.1.1
@@ -171,13 +171,31 @@ alliance = {
 	start_date = 1356.1.1
 	end_date = 1395.6.3
 }
-vassal = {
+march = {
 	first = BUL
 	second = SIA
 	start_date = 1246.1.1
-	end_date = 1257.1.1
+	end_date = 1334.1.1
 }
-vassal = {
+march = {
+	first = BUL
+	second = KRN
+	start_date = 1277.1.1
+	end_date = 1334.1.1
+}
+march = {
+	first = BUL
+	second = LVC
+	start_date = 1277.1.1
+	end_date = 1331.3.1
+}
+march = {
+	first = BUL
+	second = KRV
+	start_date = 1323.1.1
+	end_date = 1340.1.1
+}
+alliance = {
 	first = BUL
 	second = KRV
 	start_date = 1340.1.1
@@ -185,12 +203,6 @@ vassal = {
 }
 
 #Byz Staufen alliance
-alliance = {
-	first = NKA
-	second = SIC
-	start_date = 1244.1.1
-	end_date = 1250.12.13
-}
 royal_marriage = {
 	first = NKA
 	second = SIC
@@ -413,14 +425,6 @@ vassal = {
 	end_date = 1273.1.1
 }
 
-#Overlord
-march = {
-	first = VOL
-	second = SSN
-	start_date = 1245.8.17
-	end_date = 1323.1.1
-}
-
 #Byzantine despotate
 march = {
 	first = NKA
@@ -435,20 +439,6 @@ march = {
 	second = TSS
 	start_date = 1230.3.9
 	end_date = 1237.1.1
-}
-
-guarantee = {
-	first = BUL
-	second = CMN
-	start_date = 1185.1.1
-	end_date = 1241.1.1
-}
-
-march = {
-	first = BUL
-	second = OLT
-	start_date = 1185.1.1
-	end_date = 1226.1.1
 }
 
 march = {

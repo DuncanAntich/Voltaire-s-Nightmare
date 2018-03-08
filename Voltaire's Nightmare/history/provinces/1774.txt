@@ -1,5 +1,5 @@
-owner = VNN
-controller = VNN
+owner = TRV
+controller = TRV
 culture = venetian
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 2
 trade_goods = hemp
 base_manpower = 2
 capital = "Ceneda" 
-is_city = yes	
-add_core = VNN
+is_city = yes
 add_core = TRV
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1164.1.1 = {
-	owner = TRV
-	controller = TRV
-	remove_core = VNN
-}
 1329.7.2 = {
 	owner = VNN
 	controller = VNN

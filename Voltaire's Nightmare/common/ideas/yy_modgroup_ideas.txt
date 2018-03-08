@@ -668,7 +668,11 @@ walduc_ideas = {
         manpower_recovery_speed = 0.15
     }  
     trigger = {
-        primary_culture = wallachian 
+        OR = {
+            primary_culture = wallachian
+            tag = BZG
+            tag = BNZ
+        }
     }
     free = yes
     walduc_idea_1 = {

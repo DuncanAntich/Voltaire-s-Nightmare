@@ -3,9 +3,9 @@ controller = BYZ
 add_core = BYZ
 add_core = BUL
 culture = bulgarian
-religion = orthodox
+religion = paulician
 hre = no
-base_tax = 2
+base_tax = 1
 base_production = 1
 trade_goods = linen
 base_manpower = 1
@@ -16,6 +16,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1081.4.4 = { religion = orthodox }
 1185.1.1 = {
 	owner = BUL
 	controller = BUL
@@ -23,6 +24,16 @@ discovered_by = muslim
 	base_tax = 4
 	base_production = 3
 	base_manpower = 3
+}
+1277.1.1 = {
+	owner = KRN
+	controller = KRN
+	add_core = KRN
+}
+1334.1.1 = {
+	owner = BUL
+	controller = BUL
+	remove_core = KRN
 }
 1389.1.1 = {
 	owner = TUR

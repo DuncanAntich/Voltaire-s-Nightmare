@@ -1,3 +1,5 @@
+4255 = "Vinitsa"
+4237 = "Chiu"
 2150 = "Conita"
 676 = "Tulcea"
 2381 = "Istria"

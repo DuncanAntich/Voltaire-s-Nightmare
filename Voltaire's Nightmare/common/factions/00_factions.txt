@@ -101,7 +101,7 @@ abb_cluniacs = {
 	modifier = {
 		diplomatic_reputation = 1
 		build_cost = -0.1
-		devotion = -0.3
+		devotion = -0.5
 	}
 }
 
@@ -111,7 +111,7 @@ abb_cistercians = {
 	modifier = {
 		global_garrison_growth = 0.2
 		shock_damage_received = -0.1
-		diplomatic_upkeep = -1
+		diplomatic_upkeep = -2
 	}
 }
 

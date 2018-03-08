@@ -15,7 +15,6 @@ war_goal = {
 	add_attacker = PLL
 	add_attacker = LGU
 	add_attacker = PAP
-	add_attacker = RMG
 	add_defender = MLL
 	add_defender = MOR
 }
@@ -31,7 +30,6 @@ war_goal = {
 	rem_attacker = PLL
 	rem_attacker = LGU
 	rem_attacker = PAP
-	rem_attacker = RMG
 	rem_defender = MLL
 	rem_defender = MOR
 }

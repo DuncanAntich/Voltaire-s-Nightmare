@@ -76,6 +76,14 @@ guarantee = {
 	end_date = 1560.1.1
 }
 
+#Babylon
+guarantee = {
+	first = FRA
+	second = PAP
+	start_date = 1309.3.9
+	end_date = 1377.1.17
+}
+
 # France and Venice (Treaty of Bles)
 alliance = {
 	first = FRA

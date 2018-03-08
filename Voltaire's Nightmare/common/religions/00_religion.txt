@@ -22,7 +22,6 @@ christian = {
 		allowed_conversion = {
 			reformed
 			protestant
-			anabaptist
 		}
 		country = {
 			tolerance_own = 1
@@ -230,12 +229,11 @@ christian = {
 	}
 
 	catholique = { #color153
-		color = { 204 204 0 }
+		color = { 204 204 53 }
 		icon = 14
 		allowed_conversion = {
 			reformed
 			protestant
-			anabaptist
 		}
 		country = {
 			tolerance_own = -1
@@ -254,6 +252,7 @@ christian = {
 			remove_country_modifier = the_test_act
 			remove_country_modifier = superintendent_office
 			remove_country_modifier = the_popery_act
+			remove_country_modifier = babylonian_captivity
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -264,7 +263,7 @@ christian = {
 
 		harmonized_modifier = harmonized_christian
 		
-		heretic = { BOGOMILIST_HER MORAVIAN HENRICIAN FREE_SPIRIT }
+		heretic = { MORAVIAN HENRICIAN FREE_SPIRIT }
 		
 		papacy = {
 			papal_tag = AVI
@@ -449,7 +448,6 @@ christian = {
 		allowed_conversion = {
 			reformed
 			catholic
-			anabaptist
 		}
 		allowed_center_conversion = {
 			catholic
@@ -500,6 +498,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 	
 			if = {
 				limit = {
@@ -680,6 +679,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 	
 			if = {
 				limit = {
@@ -800,7 +800,7 @@ christian = {
 		
 		heretic = { AMISH HUTTERITE MENNONITE }
 		
-		date = 1521.12.27
+		date = 1517.10.31
 	}
 
 	reformed = {
@@ -809,7 +809,6 @@ christian = {
 		allowed_conversion = {
 			protestant
 			catholic
-			anabaptist
 		}
 		allowed_center_conversion = {
 			catholic
@@ -843,6 +842,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			
 			if = {
 				limit = {
@@ -1026,6 +1026,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -1087,6 +1088,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -1153,6 +1155,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -1226,6 +1229,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -1279,6 +1283,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -1309,7 +1314,7 @@ christian = {
 		}
 		harmonized_modifier = harmonized_buddhism
 		personal_deity = yes
-		date = 1173.1.1
+		date = 1167.1.1
 		
 		heretic = { TRICLAVIAN }
 	}
@@ -1475,6 +1480,7 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
+			remove_country_modifier = babylonian_captivity
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -1504,8 +1510,8 @@ christian = {
             local_unrest = -1
         }
 		heretic = { MESSALIAN MONOTHELITE }
-		date = 1252.1.1
 
+		date = 1054.1.1
 		uses_harmony = yes
 		misguided_heretic = yes		# Other christians hate them less
 	}
@@ -1526,6 +1532,76 @@ christian = {
 		harmonized_modifier = harmonized_muslim
 		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
+
+		orthodox_icons = {
+
+			icon_ph1 = { allow = { always = no } }
+			icon_ph2 = { allow = { always = no } }
+			icon_ph3 = { allow = { always = no } }
+			icon_ph4 = { allow = { always = no } }
+			icon_ph5 = { allow = { always = no } }
+
+			icon_paul = {
+				global_missionary_strength = 0.01
+				tolerance_heretic = 2
+				
+				allow = { religion = paulician }
+				ai_will_do = {
+					factor = 0
+				}
+			}
+
+			icon_maria = {
+				prestige = 1
+				legitimacy = 1
+				horde_unity = 0.1
+        		devotion = 0.5
+        		republican_tradition = 0.5
+				
+				allow = { religion = paulician }
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			icon_tapeinosis = {
+				recover_army_morale_speed = 0.1
+				war_exhaustion = -0.02
+				
+				allow = { religion = paulician }
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+	
+			icon_silvanus = {
+				core_creation = -0.1
+				build_time = -0.25
+				
+				allow = { religion = paulician }
+				ai_will_do = {
+					factor = 0.5
+				}
+			}
+
+			icon_chrysostom = {
+				diplomatic_reputation = 1
+				diplomats = 1
+
+				allow = { religion = paulician }
+				ai_will_do = {
+					factor = 1
+				}
+			}
+		}
 	}
 
 	crusade_name = CRUSADE

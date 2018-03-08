@@ -24,9 +24,9 @@ fixed_capital = 198
 	monarch = {
 		name = "Altmann"
 		birth_date = 1015.1.1
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 5
+		mil = 3
 	}
 }
 1091.8.8 = {

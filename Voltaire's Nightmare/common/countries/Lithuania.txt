@@ -135,3 +135,11 @@ ship_names = {
 	Utena
 	Vilkmerge
 }
+
+army_names = {
+	"Armenija $PROVINCE$"
+}
+
+fleet_names = {
+	"$PROVINCE$ Flotile"
+}

@@ -45,9 +45,8 @@ ENG_ideas = {
 
 SWE_ideas = {
 	start = {
-		global_tax_income = 75
-		land_forcelimit = 10
 		infantry_power = 0.2
+		merc_maintenance_modifier = -0.25
 	}
 
 	bonus = {
@@ -64,13 +63,11 @@ SWE_ideas = {
 	}
 	swedish_steel = {
 		discipline = 0.05
-		land_forcelimit = 10
 	}
 	hakkapelitta = {
 		cavalry_cost = -0.1
 	}
 	indelningsverket = {
-		global_manpower = 15.0
 		manpower_recovery_speed = 0.2
 	}
 	swedish_absolutism = {
@@ -103,18 +100,16 @@ RUS_ideas = {
 
 	land_of_the_rus = {
 		ae_impact = -0.1
-		global_tax_income = 120
 	}
 	siberian_frontier = {
-		land_forcelimit = 50
-		culture_conversion_cost = -0.2
+		culture_conversion_cost = -0.25
 	}
 	russian_artillery_yard = {
 		artillery_cost = -0.1
 		artillery_power = 0.1
 	}
 	life_long_conscription  = {
-		global_manpower = 25.0
+		land_forcelimit_modifier = 0.50
 	}
 	abolish_the_mestnichestvo = {
 		yearly_corruption = -0.1
@@ -1180,7 +1175,7 @@ LIT_ideas = {
 	}
 	
 	trigger = {
-			tag = LIT
+		primary_culture = lithuanian
 	}
 	free = yes		#will be added at load.
 	
@@ -1806,6 +1801,43 @@ KRA_ideas = {
 	}
 }
 
+PSK_ideas = {
+	start = {
+		caravan_power = 0.15
+		merchants = 1		
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = PSK
+	}
+	free = yes
+	
+	veche_of_pskov = {
+		advisor_pool = 1
+	}
+	legacy_of_daumantas = {
+		recover_army_morale_speed = 0.05
+	}
+	balt_mercenaries = {
+		merc_maintenance_modifier = -0.2
+	}
+	pskov_charter = {
+		global_unrest = -2
+	}
+	psk_knights_guard = {
+		possible_mercenaries = 0.25
+	}
+	arts_and_crafts_of_pskov = {
+ 		global_trade_power = 0.1
+	}
+	pskov_before_all_others = {
+		trade_steering = 0.20
+	}
+}
 
 BOS_ideas = {
 	start = {	
@@ -2078,6 +2110,45 @@ ALB_ideas = {
 	}
 }
 
+PLT_ideas = {
+	start = {
+		infantry_cost = -0.1
+		hostile_attrition = 1	
+	}
+	
+	bonus = {
+		infantry_power = 0.1
+	}
+	
+	trigger = {
+		tag = PLT
+	}
+	free = yes
+	
+	legacy_of_the_werewolf_prince = {
+		fabricate_claims_cost = -0.25
+	}	
+	heritage_of_the_rus = {
+		legitimacy = 1	
+	}
+	cultural_center = {
+		idea_cost = -0.1	
+	}
+	land_of_strongholds = {
+		defensiveness = 0.1
+	}
+	trade_hub = {
+		trade_efficiency = 0.1
+	}
+	diplomatic_initiative = {
+		diplomatic_upkeep = 1
+	}
+	forest_of_europe = {
+		build_cost = -0.1
+		development_cost = -0.1
+	}
+}
+
 
 TEU_ideas = {
 	start = {
@@ -2155,6 +2226,45 @@ BUL_ideas = {
 	}
 	bul_idea_7 = {
 		legitimacy = 1
+	}
+}
+
+KIE_ideas = {
+	start = {
+		global_unrest = -1	
+		global_heretic_missionary_strength = 0.01
+	}
+	
+	bonus = {
+		land_morale = 0.1
+	}
+	
+	trigger = {
+		tag = KIE
+	}
+	free = yes
+	
+	mother_of_all_cities = {
+		prestige = 1
+	}
+	heritage_of_rus = {
+		diplomatic_reputation = 1		
+	}
+	fending_off_the_invaders = {
+		defensiveness = 0.15		
+	}
+	chernozem_land = {
+		production_efficiency = 0.1
+	}
+	center_of_orthodox_church = {
+		global_missionary_strength = 0.01
+		tolerance_own = 1		
+	}
+	support_local_traders = {
+		merchants = 1
+	}
+	centralized_rule = {
+		global_tax_modifier = 0.1
 	}
 }
 
@@ -3431,5 +3541,42 @@ HAN_ideas = {
 	}
 	han_kings_legion = {
 		fire_damage_received = -0.1
+	}
+}
+
+EST_ideas = {
+	start = {
+		sailor_maintenance_modifer = -0.1
+		ship_durability = 0.05
+	}
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	trigger = {
+		tag = VNL
+	}
+	free = yes
+	
+	est_brotherhood_of_blackheads = {
+		global_manpower_modifier = 0.15
+	}
+	est_baltic_cooperation = {
+		naval_forcelimit_modifier = 0.25
+		sailors_recovery_speed = 0.05
+	}
+	est_castles_of_estonia = {
+		fort_maintenance_modifier = -0.2
+	}
+	est_academia_gustaviana = {
+		technology_cost = -0.05
+	}
+	est_baltic_trade = {
+		merchants = 1
+	}
+	est_estophilia = {
+		prestige = 1
+	}
+	est_national_awakening = {
+		global_unrest = -1
 	}
 }

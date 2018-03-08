@@ -5,6 +5,54 @@ primary_culture = dutch
 religion = catholic
 capital = 1056
 
+#Herren
+1054.1.1 = {
+	monarch = {
+		name = "Simon"
+		dynasty = "van Brederode"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Gerard"
+		dynasty = "van Brederode"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1120.1.1 = {
+	monarch = {
+		name = "Gerrit"
+		dynasty = "van Brederode"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+1164.1.1 = {
+	monarch = {
+		name = "Hugo"
+		dynasty = "van Brederode"
+		adm = 0
+		dip = 1
+		mil = 2
+	}
+}
+1172.1.1 = {
+	monarch = {
+		name = "Willem"
+		dynasty = "van Brederode"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#1175
+#Back
 1318.12.16 = {
 	monarch = {
 		name = "Dirk III"

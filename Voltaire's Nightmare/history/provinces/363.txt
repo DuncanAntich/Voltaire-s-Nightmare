@@ -3,10 +3,10 @@ controller = DAN
 culture = jutlandic
 religion = catholic
 hre = no
-base_tax = 5
-base_production = 5
+base_tax = 2
+base_production = 1
 trade_goods = wine
-base_manpower = 5
+base_manpower = 2
 capital = "Ålborg"
 is_city = yes	
 add_core = DAN
@@ -20,6 +20,11 @@ discovered_by = muslim
 1536.1.1 = { religion = protestant }
 1644.1.25 = { controller = SWE }
 1645.8.13 = { controller = DAN }
+1658.2.26 = {
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
 1700.1.1 = {
 	base_tax = 7
 	base_production = 7

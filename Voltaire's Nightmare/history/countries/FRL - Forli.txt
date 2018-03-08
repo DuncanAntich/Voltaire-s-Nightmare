@@ -6,7 +6,7 @@ primary_culture = romagnan
 capital = 2603
 add_army_professionalism = 0.05
 
-1058.1.1 = {
+1054.1.1 = {
 	monarch = {
 		name = "Repubblica"
 		regent = yes

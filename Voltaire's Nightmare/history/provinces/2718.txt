@@ -3,10 +3,10 @@ controller = LON
 culture = leonese
 religion = catholic
 hre = no
-base_tax = 6
-base_production = 6
+base_tax = 4
+base_production = 4
 trade_goods = grain
-base_manpower = 7
+base_manpower = 4
 capital = "Salamanca"
 is_city = yes
 add_core = LON
@@ -16,6 +16,11 @@ discovered_by = western
 discovered_by = muslim
 estate = estate_church
 
+1066.1.1 = {
+	base_tax = 6
+	base_production = 6
+	base_manpower = 7
+}
 1301.1.1 = {
 	owner = CAS
 	controller = CAS

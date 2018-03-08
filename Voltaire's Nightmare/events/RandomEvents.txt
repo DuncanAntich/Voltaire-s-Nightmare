@@ -2528,22 +2528,13 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA5061"		# We have truly been blessed
-		ai_chance = {
-			factor = 55
-		}
+		ai_chance = { factor = 55 }
 		add_stability_or_adm_power = yes
-		custom_tooltip = add_reform_desire_effect.2
-		add_reform_desire_effect = {
-			base_reform_desire = 0.02
-		}
 	}
 	option = {
 		name = "EVTOPTB5061"		# Their actions have shown us the true path
 		ai_chance = { factor = 45 }
-		trigger = {
-			NOT = { tag = PAP }
-			NOT = { tag = AVI }
-		}
+		trigger = { NOT = { tag = PAP } }
 		add_papal_influence = 20
 	}
 	option = {
@@ -2562,10 +2553,6 @@ country_event = {
 			}
 		}
 		add_years_of_income = 0.5
-		custom_tooltip = add_reform_desire_effect.2
-		add_reform_desire_effect = {
-			base_reform_desire = 0.02
-		}
 	}
 }
 
@@ -10639,10 +10626,7 @@ province_event = {
 	option = {
 		name = "random_event.EVTOPTA21" # Heresy! Burn the priest and his books!
 		owner = {
-			add_reform_desire = -0.01
-			PAP = {
-				add_opinion = { who = ROOT modifier = opinion_grateful }
-			}
+			PAP = { add_opinion = { who = ROOT modifier = opinion_grateful } }
 			every_neighbor_country = {
 				limit = {
 					OR = {
@@ -10670,20 +10654,41 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					NOT = { religion = catholic }
-					NOT = { religion = catholique }
+					OR = {
+						religion = catholic
+						religion = catholique
+						religion = protestant
+					}
 				}
 			}
-			change_religion = owner
-		}
-		else = {
 			change_religion = protestant
 		}
-		owner = {
-			add_reform_desire = 0.02
-			PAP = {
-				add_opinion = { who = ROOT modifier = opinion_angry }
+		if = {
+			limit = {
+				owner = {
+					religion = reformed
+				}
 			}
+			change_religion = reformed
+		}
+		if = {
+			limit = {
+				owner = {
+					religion = anabaptist
+				}
+			}
+			change_religion = anabaptist
+		}
+		if = {
+			limit = {
+				owner = {
+					religion = anglican
+				}
+			}
+			change_religion = anglican
+		}
+		owner = {
+			PAP = { add_opinion = { who = ROOT modifier = opinion_angry } }
 			every_neighbor_country = {
 				limit = {
 					OR = {

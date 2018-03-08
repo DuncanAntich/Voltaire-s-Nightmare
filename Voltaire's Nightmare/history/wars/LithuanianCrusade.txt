@@ -10,9 +10,12 @@ war_goal = {
 	add_attacker = WRM
 	add_attacker = RIG
 	add_attacker = KUR
+	add_attacker = RGS
 	add_defender = LIT
 	add_defender = ZMG
 	add_defender = BLR
+	add_defender = PLT
+	add_defender = PNK
 }
 
 1348.2.2 = { 
@@ -41,7 +44,10 @@ war_goal = {
 	rem_attacker = WRM
 	rem_attacker = RIG
 	rem_attacker = KUR
+	rem_attacker = RGS
 	rem_defender = LIT
 	rem_defender = ZMG
 	rem_defender = BLR
+	rem_defender = PLT
+	rem_defender = PNK
 }

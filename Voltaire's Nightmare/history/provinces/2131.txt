@@ -31,9 +31,9 @@ fort_14th = yes
 	base_manpower = 4
 }
 1204.5.16 = {
-	owner = SIA
-	controller = SIA
-	add_core = SIA
+	owner = PPO
+	controller = PPO
+	add_core = PPO
 	base_manpower = 2
 }
 1207.1.1 = {
@@ -41,13 +41,13 @@ fort_14th = yes
 	controller = BUL
 }
 1208.6.30 = {
-	owner = SIA
-	controller = SIA
+	owner = PPO
+	controller = PPO
 }
 1230.3.9 = {
 	owner = BUL
 	controller = BUL
-	remove_core = SIA
+	remove_core = PPO
 }
 1246.1.1 = {
 	owner = NKA
@@ -70,11 +70,17 @@ fort_14th = yes
 	controller = BYZ
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
+1334.1.1 = {
+	owner = PPO
+	controller = PPO
+	add_core = PPO
+	remove_core = BYZ
+}
 1343.1.1 = {
 	owner = BUL
 	controller = BUL
 	add_core = BUL
-	remove_core = BYZ
+	remove_core = PPO
 	capital = "Plovdiv"
 }
 1371.9.27 = {

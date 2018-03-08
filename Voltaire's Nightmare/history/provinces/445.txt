@@ -5,8 +5,8 @@ add_core = DNN
 culture = hungarian
 religion = catholic
 hre = no
-base_tax = 5
-base_production = 4
+base_tax = 3
+base_production = 3
 trade_goods = grain
 base_manpower = 2
 capital = "Sopron"
@@ -17,6 +17,10 @@ discovered_by = western
 discovered_by = muslim
 estate = estate_church
 
+1100.1.1 = {
+	base_tax = 5
+	base_production = 4
+}
 1301.1.14 = {
 	owner = DNN
 	controller = DNN

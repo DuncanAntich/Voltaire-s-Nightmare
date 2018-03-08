@@ -620,10 +620,7 @@ country_decisions = {
 			NOT = { tag = LBV }
 			NOT = { has_country_flag = unformable }
 			capital_scope = { superregion = italy_superregion }
-			OR = {
-				culture_group = latin
-				primary_culture = normand
-			}
+			culture_group = latin
 		}
 		allow = {
 			OR = {
@@ -2563,5 +2560,66 @@ country_decisions = {
 			factor = 1
 		}
 		ai_importance = 200
+	}
+
+	lithuanian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			primary_culture = lithuanian
+			NOT = { has_country_flag = unformable }
+			NOT = { tag = LIT }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				ai = no
+				NOT = { exists = LIT }
+			}
+		}
+		allow = {
+			adm_tech = 14
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_nomad = no
+			NOT = { exists = LIT }
+			owns_core_province = 1152 #Vilna
+			owns_core_province = 2816 #Kaunas
+			owns_core_province = 2834 #Svencionys
+			owns_core_province = 2947 #Trakai
+			OR = {
+				owns_core_province = 2290 #Smurgainys
+				owns_core_province = 2845 #Panevezys
+			}
+		}
+		effect = {
+			change_tag = LIT
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					government = tribal_democracy
+				}
+				change_government = tribal_despotism
+			}
+			if = {
+				limit = { primitives = yes }
+				set_primitive = no
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			lithuania_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LIT
+			}
+			add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 }

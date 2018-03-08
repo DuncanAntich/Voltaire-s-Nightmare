@@ -1,5 +1,5 @@
-owner = ADE
-controller = ADE
+owner = NUO
+controller = NUO
 culture = franconian
 religion = catholic
 hre = yes
@@ -9,13 +9,19 @@ trade_goods = wax
 base_manpower = 5
 capital = "Koburg"
 is_city = yes
-add_core = ADE
+add_core = NUO
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1105.1.1 = {
+	owner = ADE
+	controller = ADE
+	add_core = ADE
+	remove_core = NUO
+}
 1180.1.1 = {
 	owner = MER
 	controller = MER

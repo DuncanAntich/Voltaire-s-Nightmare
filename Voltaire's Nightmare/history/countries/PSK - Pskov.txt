@@ -1,0 +1,501 @@
+government = principality
+government_rank = 4
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 4281
+fixed_capital = 4281
+
+#Princes of NOV
+1054.2.20 = {
+	monarch = {
+		name = "Mstislav I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1069.1.1 = {
+	monarch = {
+		name = "Gleb I"
+		dynasty = "Rurikovich"
+		birth_date = 1050.1.1
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1078.5.30 = {
+	monarch = {
+		name = "Svyatopolk I"
+		dynasty = "Rurikovich"
+		birth_date = 1050.11.8
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+1088.1.1 = {
+	monarch = {
+		name = "Mstislav II"
+		dynasty = "Rurikovich"
+		birth_date = 1076.6.1
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+1103.1.1 = {
+	heir = {
+		name = "Vsevolod"
+		monarch_name = "Vsevolod I"
+		dynasty = "Rurikovich"
+		birth_date = 1103.1.1
+		death_date = 1138.2.11
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}
+1117.1.1 = {
+	monarch = {
+		name = "Vsevolod I"
+		dynasty = "Rurikovich"
+		birth_date = 1103.1.1
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}
+1138.2.11 = {
+	monarch = {
+		name = "Svyatopolk II"
+		dynasty = "Rurikovich"
+		birth_date = 1097.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1154.2.20 = {
+	monarch = {
+		name = "Mstislav III"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 1
+		mil = 2
+	}	
+}
+1161.1.1 = {
+	monarch = {
+		name = "Mstislav IV"
+		dynasty = "Rurikovich"
+		adm = 3
+		dip = 3
+		mil = 0
+	}	
+}
+#Princes of Pskov
+1178.4.20 = {
+	monarch = {
+		name = "Mstislav"
+		dynasty = "Rurikovich"
+		birth_date = 1156.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1195.1.1 = {
+	monarch = {
+		name = "Vladimir"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1225.1.1 = {
+	monarch = {
+		name = "Yuri"
+		dynasty = "Rurikovich"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+1240.1.1 = {
+	monarch = {
+		name = "Yaroslav"
+		dynasty = "Rurikovich"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+1242.1.1 = {
+	monarch = {
+		name = "Svyatoslav"
+		dynasty = "Rurikovich"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1266.1.1 = {
+	monarch = {
+		name = "Daimont"
+		dynasty = "Rurikovich"
+		birth_date = 1240.1.1
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+1299.5.17 = {
+	monarch = {
+		name = "Feodor"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1312.1.1 = {
+	monarch = {
+		name = "David"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1327.1.1 = {
+	monarch = {
+		name = "Seloga"
+		dynasty = "Rurikovich"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1331.1.1 = {
+	monarch = {
+		name = "Vsevold"
+		dynasty = "Rurikovich"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+#Republic Established
+1348.1.1 = {
+	government = veche_republic
+	mercantilism = 25
+	government_rank = 3
+	monarch = {
+		name = "Eustaphy"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1360.1.1 = {
+	monarch = {
+		name = "Aleksandr I"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1369.1.1 = {
+	monarch = {
+		name = "Matvei"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1386.1.1 = {
+	monarch = {
+		name = "Ivan"
+		adm = 3
+		dip = 0
+		mil = 2
+	}
+}
+1401.1.1 = {
+	monarch = {
+		name = "Daniil"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1407.1.1 = {
+	monarch = {
+		name = "Konstantin"
+		birth_date = 1389.1.1
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+1408.1.1 = {
+	monarch = {
+		name = "Daniil"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1410.1.1 = {
+	monarch = {
+		name = "Aleksandr IV"
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+}
+1412.1.1 = {
+	monarch = {
+		name = "Konstantin"
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+1415.1.1 = {
+	monarch = {
+		name = "Andrei II"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1417.1.1 = {
+	monarch = {
+		name = "Fyodor I"
+		birth_date = 1380.1.1
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+}
+1421.1.1 = {
+	monarch = {
+		name = "Aleksandr IV"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1424.1.1 = {
+	monarch = {
+		name = "Fyodor II"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1428.1.1 = {
+	monarch = {
+		name = "Dmitriy I"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1429.1.1 = {
+	monarch = {
+		name = "Aleksandr IV"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1434.1.1 = {
+	monarch = {
+		name = "Vladimir II"
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+1439.1.1 = {
+	monarch = {
+		name = "Aleksandr V"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1443.1.1 = {
+	monarch = {
+		name = "Aleksandr VI"
+		dynasty = "Chartoryski"
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+1447.1.1 = {
+	monarch = {
+		name = "Vasiliy III"
+		dynasty = "Shuysky"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1454.1.1 = {
+	monarch = {
+		name = "Aleksandr VI"
+		dynasty = "Chartoryski"
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+1460.1.1 = {
+	monarch = {
+		name = "Ivan IV"
+		dynasty = "Obolenski"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1461.1.1 = {
+	monarch = {
+		name = "Valdimir III"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1463.1.1 = {
+	monarch = {
+		name = "Ivan V"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1466.1.1 = {
+	monarch = {
+		name = "Fyodor III"
+		dynasty = "Shuiski"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1472.1.1 = {
+	monarch = {
+		name = "Yaroslav II"
+		dynasty = "Obolenski"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1474.1.1 = {
+	monarch = {
+		name = "Daniil II"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+1475.1.1 = {
+	monarch = {
+		name = "Yaroslav II"
+		dynasty = "Obolenski"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1477.1.1 = {
+	monarch = {
+		name = "Vasiliy IV"
+		dynasty = "Shuiski"
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+1480.1.1 = {
+	monarch = {
+		name = "Yaroslav II"
+		dynasty = "Obolenski"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1488.1.1 = {
+	monarch = {
+		name = "Semyon"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1491.1.1 = {
+	monarch = {
+		name = "Vasiliy IV"
+		dynasty = "Shuiski"
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+1496.1.1 = {
+	monarch = {
+		name = "Aleksandr VI"
+		dynasty = "Rostovsky"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+1499.1.1 = {
+	monarch = {
+		name = "Vasiliy V"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1502.1.1 = {
+	monarch = {
+		name = "Ivan VI"
+		dynasty = "Shuiski"
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}
+1503.1.1 = {
+	monarch = {
+		name = "Dmitriy"
+		dynasty = "Rostinski"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+1507.1.1 = {
+	monarch = {
+		name = "Ivan VII"
+		dynasty = "Obolenski"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#1510.1.13 done

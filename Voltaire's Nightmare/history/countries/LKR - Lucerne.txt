@@ -1,4 +1,4 @@
-government = administrative_republic
+government = monastic_order_government
 government_rank = 1
 primary_culture = swiss
 religion = catholic
@@ -14,7 +14,19 @@ historical_friend = SCH
 historical_friend = ZUR
 historical_friend = VDX
 
+#Kloster Leodegar
 1054.1.1 = {
+	monarch = {
+		name = "Canons"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+#City
+1178.1.1 = {
+	government = administrative_republic
 	monarch = {
 		name = "Patriziat"
 		adm = 2

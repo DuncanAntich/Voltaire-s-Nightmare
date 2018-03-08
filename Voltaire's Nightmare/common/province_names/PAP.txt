@@ -1,3 +1,7 @@
+4288 = "Stenemachus"
+4287 = "Caria"
+4286 = "Telmessus"
+2966 = "Laodicea"
 3191 = "Verzelus"
 4107 = "Roca Cavardi"
 2169 = "Iculisma"

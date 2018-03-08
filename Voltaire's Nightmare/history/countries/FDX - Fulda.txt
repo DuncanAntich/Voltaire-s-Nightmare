@@ -50,6 +50,7 @@ capital = 3
 	monarch = {
 		name = "Erlolf"
 		dynasty = "von Bergholz"
+		birth_date = 1070.1.1
 		adm = 2
 		dip = 2
 		mil = 2

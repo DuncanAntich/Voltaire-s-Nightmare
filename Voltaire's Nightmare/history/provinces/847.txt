@@ -1,5 +1,5 @@
-owner = BDI
-controller = BDI
+owner = IAS
+controller = IAS
 culture = moldovan
 religion = orthodox
 hre = no
@@ -9,7 +9,7 @@ trade_goods = grain
 base_manpower = 1
 capital = "Botosani"
 is_city = yes
-add_core = BDI
+add_core = IAS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -19,7 +19,7 @@ discovered_by = muslim
 	owner = MOL
 	controller = MOL
 	add_core = MOL
-	remove_core = BDI
+	remove_core = IAS
 }
 1484.1.1 = { controller = TUR }
 1489.1.1 = { controller = MOL }

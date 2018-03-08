@@ -1023,8 +1023,18 @@ laytheology = {
 
 	can_start = {
 		is_year = 1400
-		is_island = no
-		is_state = yes
+		superregion = bohemia_superregion
+		OR = {
+			NOT = {
+				any_province = {
+					religion_group = christian
+					superregion = bohemia_superregion
+				}
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = hussite
+			}
+		}
 		OR = {
 			development = 15
 			is_capital = yes

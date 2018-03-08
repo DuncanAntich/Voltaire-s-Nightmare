@@ -1,5 +1,5 @@
-owner = VNN
-controller = VNN
+owner = TRV
+controller = TRV
 culture = venetian
 religion = catholic
 hre = yes
@@ -9,7 +9,6 @@ trade_goods = tin
 base_manpower = 3
 capital = "Treviso"
 is_city = yes
-add_core = VNN	
 add_core = TRV
 discovered_by = eastern
 discovered_by = ottoman
@@ -17,11 +16,6 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1164.1.1 = {
-	owner = TRV
-	controller = TRV
-	remove_core = VNN
-}
 1329.7.2 = {
 	owner = VNN
 	controller = VNN

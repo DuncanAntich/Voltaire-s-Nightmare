@@ -23,10 +23,16 @@ discovered_by = muslim
 	religion = catholic
 }
 1071.1.1 = {
+	owner = TNC
+	controller = TNC
+	add_core = TNC
+	remove_core = APL
+}
+1130.12.25 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC
-	remove_core = APL
+	remove_core = TNC
 }
 1282.3.30 = {
 	add_core = TNC

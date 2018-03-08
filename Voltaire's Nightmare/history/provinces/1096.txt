@@ -1,5 +1,5 @@
-owner = TUS
-controller = TUS
+owner = RGO
+controller = RGO
 culture = emilian
 religion = catholic
 hre = yes
@@ -9,7 +9,7 @@ trade_goods = glassware
 base_manpower = 2
 capital = "Castelnovo Monti" 
 is_city = yes
-add_core = TUS
+add_core = RGO
 add_core = FGN
 discovered_by = eastern
 discovered_by = ottoman
@@ -19,7 +19,7 @@ discovered_by = muslim
 1115.7.24 = {
 	owner = FGN
 	controller = FGN
-	remove_core = TUS
+	remove_core = RGO
 }
 1321.1.1 = {
 	owner = RGO

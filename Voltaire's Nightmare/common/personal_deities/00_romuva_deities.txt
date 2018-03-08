@@ -4,7 +4,7 @@
 ausrine =
 {
 	global_missionary_strength = 0.01
-	naval_attrition = -0.2
+	naval_attrition = -0.1
 	
 	allow = { religion = animism }
 	sprite = 31
@@ -24,7 +24,7 @@ ausrine =
 
 laima =
 {
-	heir_chance = 0.25
+	heir_chance = 0.2
 	advisor_pool = 1
 	
 	allow = { religion = animism }
@@ -46,7 +46,7 @@ laima =
 milda =
 {
 	diplomatic_upkeep = 1
-	dip_tech_cost_modifier = -0.05
+	technology_cost = -0.05
 	
 	allow = { religion = animism }
 	sprite = 33
@@ -66,7 +66,7 @@ milda =
 
 perkunas =
 {
-	discipline = 0.025
+	discipline = 0.05
 	land_forcelimit_modifier = 0.05
 	
 	allow = { religion = animism }
@@ -88,7 +88,7 @@ perkunas =
 saule =
 {
 	recover_army_morale_speed = 0.05
-	republican_tradition = 0.5
+	republican_tradition = 0.25
 	legitimacy = 0.5
 	devotion = 0.5
 	
@@ -111,7 +111,7 @@ saule =
 
 zemyna =
 {
-	production_efficiency = 0.15
+	production_efficiency = 0.1
 	enemy_core_creation = 0.2
 	
 	allow = { religion = animism }

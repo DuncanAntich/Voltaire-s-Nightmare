@@ -46,11 +46,11 @@ capital = 2065
 	monarch = {
 		name = "Latcu I"
 		dynasty = "Musat"
+		religion = catholic
 		adm = 2
 		dip = 2
 		mil = 2
 	}
-	religion = catholic
 }
 1375.1.1 = {
 	monarch = {
@@ -60,7 +60,6 @@ capital = 2065
 		dip = 2
 		mil = 2
 	}
-	religion = orthodox
 }
 1391.12.1 = {
 	monarch = {
@@ -302,6 +301,18 @@ capital = 2065
 	monarch = {
 		name = "Alexandru IV"
 		dynasty = "Musat"
+		birth_date = 1499.1.1
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Ioan"
+		monarch_name = "Ioan III cel Cumplit"
+		dynasty = "Musat"
+		birth_date = 1521.1.1
+		death_date = 1574.6.14
+		claim = 95
 		adm = 1
 		dip = 3
 		mil = 4
@@ -320,7 +331,8 @@ capital = 2065
 1574.6.14 = {
 	monarch = {
 		name = "Petru V Schiopul"
-		dynasty = "Musat"
+		dynasty = "Draculesti"
+		birth_date = 1537.1.1
 		adm = 1
 		dip = 3
 		mil = 3
@@ -328,7 +340,7 @@ capital = 2065
 }
 1591.8.29 = {
 	monarch = {
-		name = "Stefan VIII"
+		name = "Aron Tiranul"
 		dynasty = "Musat"
 		adm = 1
 		dip = 3
@@ -339,6 +351,7 @@ capital = 2065
 	monarch = {
 		name = "Ieremia Movila"
 		dynasty = "Movilesti"
+		birth_date = 1555.1.1
 		adm = 3
 		dip = 4
 		mil = 2
@@ -355,22 +368,23 @@ capital = 2065
 }
 1611.11.21 = {
 	monarch = {
-		name = "Stefan IX Tomsa"
+		name = "Alexandru VI"
+		dynasty = "Movilesti"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1620.1.1 = {
+	monarch = {
+		name = "Miron Barnovschi"
 		dynasty = "Movilesti"
 		adm = 3
 		dip = 4
 		mil = 2
 	}
 }
-1623.8.15 = {
-	monarch = {
-		name = "Alexandru VIII Coronul"
-		dynasty = "Draculesti"
-		adm = 1
-		dip = 0
-		mil = 1
-	}
-}
+1627.11.14 = { government = noble_republic }
 1633.4.2 = {
 	monarch = {
 		name = "Vasile"
@@ -413,6 +427,7 @@ capital = 2065
 	monarch = {
 		name = "Gheorge III"
 		dynasty = "Duca"
+		birth_date = 1620.1.1
 		adm = 1
 		dip = 2
 		mil = 1
@@ -441,6 +456,7 @@ capital = 2065
 	monarch = {
 		name = "Mahai III"
 		dynasty = "Racovita"
+		birth_date = 1660.1.1
 		adm = 1
 		dip = 2
 		mil = 2
@@ -470,6 +486,7 @@ capital = 2065
 	monarch = {
 		name = "Mahai III"
 		dynasty = "Racovita"
+		birth_date = 1660.1.1
 		adm = 1
 		dip = 2
 		mil = 2
@@ -479,6 +496,7 @@ capital = 2065
 	monarch = {
 		name = "Grigore I"
 		dynasty = "Ghica"
+		birth_date = 1695.1.1
 		adm = 0
 		dip = 1
 		mil = 1
@@ -517,6 +535,7 @@ capital = 2065
 	monarch = {
 		name = "Grigore III"
 		dynasty = "Ghica"
+		birth_date = 1724.1.1
 		adm = 2
 		dip = 0
 		mil = 1
@@ -526,6 +545,7 @@ capital = 2065
 	monarch = {
 		name = "Constantin VII"
 		dynasty = "Moruzi"
+		birth_date = 1730.1.1
 		adm = 2
 		dip = 1
 		mil = 2
@@ -623,6 +643,7 @@ capital = 2065
 	monarch = {
 		name = "Ioan IV"
 		dynasty = "Sturdza"
+		birth_date = 1762.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -638,7 +659,6 @@ capital = 2065
 		mil = 2
 	}
 }
-1848.4.9 = { government = administrative_monarchy }
 1849.1.1 = {
 	monarch = {
 		name = "Grigore IV"
@@ -669,4 +689,5 @@ capital = 2065
 		mil = 2
 	}
 }
+1859.1.5 = { government = administrative_monarchy }
 #done 1859.1.5

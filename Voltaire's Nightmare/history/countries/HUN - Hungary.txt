@@ -1,4 +1,4 @@
-government = eastern_monarchy
+government = feudal_monarchy
 government_rank = 5
 primary_culture = hungarian
 add_accepted_culture = slovak
@@ -19,7 +19,7 @@ capital = 444
 	clear_scripted_personalities = yes
 	add_ruler_personality = zealot_personality
 	queen = {
-		country_of_origin = VOL
+		country_of_origin = KIE
 		name = "Anastasia"
 		dynasty = "Rurikovich"
 		birth_date = 1023.1.1
@@ -239,7 +239,7 @@ capital = 444
 }
 1146.1.1 = {
 	queen = {
-		country_of_origin = VOL
+		country_of_origin = KIE
 		name = "Euphrosyne"
 		dynasty = "Rurikovich"
 		birth_date = 1130.1.1
@@ -339,7 +339,6 @@ capital = 444
 	}
 }
 1196.4.23 = {
-	government = feudal_monarchy
 	monarch = {	
 		name = "Imre I"
 		dynasty = "Árpád"

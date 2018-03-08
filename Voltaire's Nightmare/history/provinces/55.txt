@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = OLD
+controller = OLD
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 5
 trade_goods = carpet
 base_manpower = 5
 capital = "Oldenburg" 
-is_city = yes	
-add_core = SAX
+is_city = yes
 add_core = OLD
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1101.1.1 = {
-	owner = OLD
-	controller = OLD
-	remove_core = SAX
-}
 1531.1.1 = { religion = protestant }
 1667.1.1 = {
 	owner = DAN

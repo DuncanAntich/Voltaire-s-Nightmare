@@ -27,10 +27,7 @@ country_event = {
 			religion = catholique
 		}
 		is_free_or_tributary_trigger = yes
-		NOT = { current_age = age_of_empire }
-		any_owned_province = {
-			religion = hussite
-		}
+		any_owned_province = { religion = hussite }
 	}
 	
 	mean_time_to_happen = {
@@ -68,7 +65,6 @@ country_event = {
 			}
 			hidden_effect = { add_ruler_personality = zealot_personality }
 		}
-		add_reform_desire = 0.03
 		change_religion = hussite
 		add_ruler_modifier = {
 			name = "boh_hussite_king"
@@ -163,7 +159,7 @@ country_event = {
 		tag = BOH
 		has_country_flag = boh_supported_hussites
 		NOT = { is_religion_enabled = protestant }
-		NOT = { current_age = age_of_empire }
+		has_global_flag = fraticelli_heresy_g
 		has_regency = no
 	}
 	
@@ -202,22 +198,17 @@ country_event = {
 				}
 			}
 		}
-		add_reform_desire = -0.01
 		clr_country_flag = boh_supported_hussites
 		if = {
-			limit = {
-				religion = hussite
-			}
+			limit = { religion = hussite }
 			change_religion = catholic
 		}
 		if = {
-			limit = {
-				NOT = { is_year = 1490 }
-			}
+			limit = { NOT = { is_year = 1490 } }
 			random_owned_province = {
 				limit = { is_state = yes }
 				spawn_rebels = {
-					type = heretic_rebels
+					type = hussite_rebels
 					size = 2
 				}
 			}
@@ -233,12 +224,9 @@ country_event = {
 			duration = -1
 		}
 		if = {
-			limit = {
-				exists = PAP
-			}
+			limit = { exists = PAP }
 			PAP = { country_event = { id = flavor_boh.9 } }
 		}
-		add_reform_desire = 0.01
 		custom_tooltip = flavor_boh.2.3
 		every_known_country = {
 			limit = {
@@ -588,7 +576,6 @@ country_event = {
 		name = flavor_boh.9.a #Condemn the [From.Monarch.GetTitle]
 		ai_chance = { factor = 90 }
 		add_devotion = 10
-		add_reform_desire = -0.01
 		FROM = {
 			country_event = { id = flavor_boh.10 }
 			add_opinion = {
@@ -600,7 +587,6 @@ country_event = {
 	option = {
 		name = flavor_boh.9.b #We must seek Reconciliation
 		ai_chance = { factor = 10 }
-		add_reform_desire = 0.01
 		add_devotion = -10
 		FROM = {
 			country_event = { id = flavor_boh.11 }

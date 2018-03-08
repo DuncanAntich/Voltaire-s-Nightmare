@@ -1,3 +1,5 @@
+4278 = "Palteskja"
+4237 = "Kiev"
 2308 = "Vedrafjordr"
 2614 = "Veisafjordr"
 1810 = "Malmö"

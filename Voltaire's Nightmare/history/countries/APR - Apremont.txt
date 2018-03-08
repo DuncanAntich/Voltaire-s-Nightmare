@@ -1,12 +1,118 @@
-government = feudal_monarchy
+government = despotic_monarchy
 government_rank = 1
 technology_group = western
 primary_culture = lorrainian
 religion = catholic
 capital = 2483
 
+#Lords
+1040.1.1 = {
+	monarch = {
+		name = "Gobert I"
+		dynasty = "d'Aspremont"
+		birth_date = 1027.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1047.1.1 = {
+	heir = {
+		name = "Gobert"
+		monarch_name = "Gobert II"
+		dynasty = "d'Aspremont"
+		birth_date = 1047.1.1
+		death_date = 1096.1.1
+		claim = 95
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1061.1.1 = {
+	monarch = {
+		name = "Gobert II"
+		dynasty = "d'Aspremont"
+		birth_date = 1047.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1085.1.1 = {
+	heir = {
+		name = "Gobert"
+		monarch_name = "Gobert III"
+		dynasty = "d'Aspremont"
+		birth_date = 1085.1.1
+		death_date = 1141.1.1
+		claim = 95
+		dip = 1
+		mil = 1
+		adm = 4
+	}
+}
+1096.1.1 = {
+	monarch = {
+		name = "Gobert III"
+		dynasty = "d'Aspremont"
+		birth_date = 1085.1.1
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
+1125.1.1 = {
+	heir = {
+		name = "Gobert"
+		monarch_name = "Gobert IV"
+		dynasty = "d'Aspremont"
+		birth_date = 1125.1.1
+		death_date = 1163.1.1
+		claim = 95
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1141.1.1 = {
+	monarch = {
+		name = "Gobert IV"
+		dynasty = "d'Aspremont"
+		birth_date = 1125.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1145.1.1 = {
+	heir = {
+		name = "Gobert"
+		monarch_name = "Gobert V"
+		dynasty = "d'Aspremont"
+		birth_date = 1145.1.1
+		death_date = 1190.11.26
+		claim = 95
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1163.1.1 = {
+	monarch = {
+		name = "Gobert V"
+		dynasty = "d'Aspremont"
+		birth_date = 1145.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1190.11.26 done
+#Counts
 #1354-1480
 1354.1.1 = {
+	government = feudal_monarchy
 	monarch = {
 		name = "Geoffroi IV"
 		dynasty = "d'Aspremont"

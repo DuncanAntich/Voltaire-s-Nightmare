@@ -5,16 +5,17 @@ religion = catholic
 primary_culture = arpitan
 capital = 2284
 
-1075.1.1 = {
+1054.1.1 = {
 	monarch = { #crusader king
 		name = "Guillaume I"
 		dynasty = "de Gruyère"
+		birth_date = 1044.1.1
 		adm = 3
 		dip = 3
 		mil = 4
 	}
 }
-1115.1.1 = {
+1100.1.1 = {
 	monarch = {
 		name = "Raimond I"
 		dynasty = "de Gruyère"

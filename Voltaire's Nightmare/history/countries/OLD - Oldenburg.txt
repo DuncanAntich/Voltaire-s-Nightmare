@@ -5,7 +5,7 @@ religion = catholic
 technology_group = western
 capital = 55	# Oldenburg
 
-1101.1.1 = {
+1054.1.1 = {
 	monarch = {
 		name = "Egilmar I"
 		dynasty = "von Oldenburg"

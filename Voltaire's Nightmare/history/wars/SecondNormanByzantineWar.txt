@@ -10,7 +10,7 @@ war_goal = {
 	add_attacker = LRN
 	add_attacker = BJN
 	add_attacker = GGN
-	add_attacker = SIC
+	add_attacker = TNC
 	add_attacker = CPU
 	add_defender = BYZ
 }
@@ -20,7 +20,7 @@ war_goal = {
 	rem_attacker = LRN
 	rem_attacker = BJN
 	rem_attacker = GGN
-	rem_attacker = SIC
+	rem_attacker = TNC
 	rem_attacker = CPU
 	rem_defender = BYZ
 }

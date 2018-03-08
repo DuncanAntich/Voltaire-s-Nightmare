@@ -3,7 +3,7 @@ government_rank = 3
 technology_group = western
 primary_culture = bavarian
 religion = catholic
-capital = 913	# München!
+capital = 177
 elector = yes
 
 1054.6.1 = {
@@ -201,6 +201,7 @@ elector = yes
 		mil = 2
 	}
 }
+1207.1.1 = { capital = 913 }
 1214.3.26 = { elector = no }
 #inherit Electoral Palatinate, disallowed from having 2
 1231.9.15  = {
@@ -535,7 +536,6 @@ elector = yes
 	}
 }
 1706.5.23   = { elector = no }
-1714.9.7   = { elector = yes }
 1726.2.25  = {
 	monarch = {
 		name = "Karl Albrecht I"
@@ -608,6 +608,7 @@ elector = yes
 	}
 }
 1777.12.30 = {
+	elector = yes
 	monarch = {
 		name = "Karl Theodor I"
 		dynasty = "von Wittelsbach"

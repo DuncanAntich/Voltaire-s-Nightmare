@@ -3,7 +3,8 @@ country_decisions = {
 	statue_in_restraint_of_appeals = {
 		potential = {
 			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
-			NOT = { current_age = age_of_empire }
+			is_institution_enabled = laytheology
+			NOT = { has_country_modifier = babylonian_captivity }
 			religion = catholic
 			exists = PAP
 			NOT = { tag = PAP }
@@ -43,7 +44,8 @@ country_decisions = {
 	statue_in_restraint_of_appeals_anti = {
 		potential = {
 			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
-			NOT = { current_age = age_of_empire }
+			is_institution_enabled = laytheology
+			NOT = { has_country_modifier = babylonian_captivity }
 			religion = catholique
 			exists = AVI
 			NOT = { tag = AVI }
@@ -55,7 +57,6 @@ country_decisions = {
 		}
 		effect = {
 			add_prestige = 10
-			add_reform_desire  = 0.005
 			every_neighbor_country = {
 				limit = { 
 					religion = catholique

@@ -101,7 +101,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1252.1.1 = {
 	monarch = {
 		name = "Siegfried I"
@@ -112,7 +111,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1259.10.17 = {
 	queen = {
 		country_of_origin = SWE
@@ -127,7 +125,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1290.1.1 = {
 	monarch = {
 		name = "Albrecht I"
@@ -137,7 +134,6 @@ capital = 2923
 		mil = 3
 	}
 }
-
 1316.8.17 = {
 	monarch = {
 		name = "Albrecht II"
@@ -147,7 +143,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1362.7.17 = {
 	monarch = {
 		name = "Johann II"
@@ -157,7 +152,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1368.1.1 = {
 	heir = {
 		name = "Sigismund"
@@ -171,7 +165,6 @@ capital = 2923
 		mil = 1
 	}
 }
-
 1382.1.1 = {
 	monarch = {
 		name = "Sigismund I"
@@ -182,7 +175,6 @@ capital = 2923
 		mil = 1
 	}
 }
-
 1390.1.1 = {
 	heir = {
 		name = "Georg"
@@ -196,8 +188,6 @@ capital = 2923
 		mil = 2
 	}
 }
-		
-
 1405.1.19 = {
 	monarch = {
 		name = "Georg I"
@@ -212,7 +202,6 @@ capital = 2923
 	add_ruler_personality = benevolent_personality
 	add_ruler_personality = charismatic_negotiator_personality
 }
-
 1450.1.1 = {
 	heir = {
 		name = "Ernst"
@@ -226,7 +215,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1474.9.2 = {
 	monarch = {
 		name = "Ernst I"
@@ -237,7 +225,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1504.9.4 = {
 	heir = {
 		name = "Johann"
@@ -251,7 +238,6 @@ capital = 2923
 		mil = 1
 	}
 }
-
 1516.3.2 = {
 	monarch = {
 		name = "Johann II"
@@ -262,9 +248,7 @@ capital = 2923
 		mil = 1
 	}
 }
-
 1529.1.1 = { religion = protestant }
-
 1536.10.21 = {
 	heir = {
 		name = "Joachim Ernst"
@@ -278,7 +262,6 @@ capital = 2923
 		mil = 3
 	}
 }
-
 1551.4.2 = {
 	monarch = {
 		name = "Joachim Ernst"
@@ -289,7 +272,6 @@ capital = 2923
 		mil = 3
 	}
 }
-
 1567.5.9 = {
 	heir = {
 		name = "Johann Georg"
@@ -302,8 +284,7 @@ capital = 2923
 		dip = 2
 		mil = 1
 	}
-}
-	
+}	
 1586.3.2 = {
 	monarch = {
 		name = "Johann Georg I"
@@ -314,7 +295,6 @@ capital = 2923
 		mil = 1
 	}
 }
-
 1596.9.7 = {
 	heir = {
 		name = "Johann Kasimir"
@@ -328,9 +308,7 @@ capital = 2923
 		mil = 2
 	}
 }
-
-1608.5.14 = { join_league = protestant }
-		
+1608.5.14 = { join_league = protestant }		
 1618.1.1 = {
 	monarch = {
 		name = "Johann Kasimir I"
@@ -341,7 +319,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1627.11.17 = {
 	heir = {
 		name = "Johann Georg"
@@ -355,9 +332,7 @@ capital = 2923
 		mil = 3
 	}
 }
-
 1635.5.30 = { leave_league = protestant }
-
 1660.7.2 = {
 	monarch = {
 		name = "Johann Georg II"
@@ -368,7 +343,6 @@ capital = 2923
 		mil = 3
 	}
 }
-
 1676.7.3 = {
 	heir = {
 		name = "Leopold"
@@ -382,7 +356,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1693.5.12 = {
 	monarch = {
 		name = "Leopold I"
@@ -393,7 +366,6 @@ capital = 2923
 		mil = 2
 	}
 }
-
 1700.12.25 = {
 	heir = {
 		name = "Leopold Maximilian"
@@ -407,7 +379,6 @@ capital = 2923
 		mil = 4
 	}
 }
-
 1747.4.9 = {
 	monarch = {
 		name = "Leopold II Maximilian"
@@ -429,7 +400,6 @@ capital = 2923
 		mil = 0
 	}
 }
-		
 1751.5.16 = {
 	monarch = {
 		name = "Leopold III"
@@ -440,7 +410,6 @@ capital = 2923
 		mil = 0
 	}
 }
-
 1794.10.1 = {
 	heir = {
 		name = "Leopold Friedrich"
@@ -454,8 +423,7 @@ capital = 2923
 		mil = 1
 	}
 }
-
-1806.1.1 = { government_rank = 2 }
+1806.7.12 = { government_rank = 3 }
 1817.1.1 = {
 	capital = 2923
 	monarch = {

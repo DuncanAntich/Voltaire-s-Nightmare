@@ -9,14 +9,11 @@ country_event = {
 	
 	trigger = {
 		NOT = { is_religion_enabled = protestant }
-		OR = {
-			religion = catholic
-			religion = catholique
-		}
+		religion = catholic
 		is_defender_of_faith = no	
 		NOT = { government = papal_government }
-		reform_desire = 1.0
-		has_global_flag = hussite_heresy_g
+		reform_desire = 0.95
+		is_year = 1485
 		capital_scope = {
 			continent = europe
 		}
@@ -24,12 +21,12 @@ country_event = {
 			can_have_center_of_reformation_trigger = {
 				RELIGION = protestant
 			}
-		}
-		
+		}	
 	}
 
 	immediate = {
 		hidden_effect = {
+			enable_religion = anabaptist
 			capital_scope = {
 				set_province_flag = start_of_protestant_reformation
 			}
@@ -37,8 +34,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 2500
-		
+		months = 2500	
 		modifier = {
 			factor = 0.4
 			culture_group = germanic
@@ -154,4 +150,3 @@ country_event = {
 		set_country_flag = "protestant_reformation" 
 	}
 }
-

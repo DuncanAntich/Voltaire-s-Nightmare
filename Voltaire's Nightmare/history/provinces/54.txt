@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = OLD
+controller = OLD
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 2
 trade_goods = livestock
 base_manpower = 2
 capital = "Wildeshausen" 
-is_city = yes	
-add_core = SAX
+is_city = yes
 add_core = OLD
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1101.1.1 = {
-	owner = OLD
-	controller = OLD
-	remove_core = SAX
-}
 1270.1.1 = {
 	owner = BRE
 	controller = BRE

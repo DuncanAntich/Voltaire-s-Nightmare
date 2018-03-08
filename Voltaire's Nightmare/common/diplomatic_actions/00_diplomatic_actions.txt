@@ -72,6 +72,17 @@
 # counterespionage
 # abandon_union_action
 
+fabricate_claim = {
+	condition = {
+		tooltip = CANTPRIMITIVE
+		potential = {
+		}
+		allow = {
+			FROM = { primitives = no }
+		}
+	}
+}
+
 grant_freecity = {
 	condition = {
 		tooltip = CANTFREECITY

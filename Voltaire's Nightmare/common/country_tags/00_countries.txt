@@ -67,6 +67,7 @@ RIG	= "countries/Riga.txt"
 TEU	= "countries/Teutonicorder.txt"
 PLC = "countries/TheCommonwealth.txt"
 VOL	= "countries/Volyn.txt"
+KIE	= "countries/Kiev.txt"
 
 #France 
 ALE = "countries/Alencon.txt"
@@ -192,8 +193,10 @@ NED	= "countries/Netherlands.txt"
 UTR	= "countries/Utrecht.txt"
 
 #Russia
+PSK	= "countries/Pskov.txt"
 RUS	= "countries/Russia.txt"
 UKR	= "countries/Ukraine.txt"
+PLT	= "countries/Polotsk.txt"
 		
 #Asia Minor
 AYD	= "countries/Aydin.txt"

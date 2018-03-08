@@ -28,21 +28,21 @@ fort_14th = yes
 	base_manpower = 2
 }
 1310.1.1 = { culture = wallachian }
+1323.1.1 = {
+	owner = KRV
+	controller = KRV
+}
 1330.11.12 = {
 	owner = WAL
 	controller = WAL
 	add_core = WAL
 }
 1334.1.1 = {
-	owner = BUL
-	controller = BUL
+	owner = KRV
+	controller = KRV
 	remove_core = WAL
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
-1340.1.1 = {
-	owner = KRV
-	controller = KRV
-}
 1389.1.1 = {
 	owner = WAL
 	controller = WAL

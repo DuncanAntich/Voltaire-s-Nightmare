@@ -503,10 +503,8 @@ capital = 2541	# Marburg
 		mil = 0
 	}
 }
-1803.2.25 = { elector = yes government_rank = 4 }
-1806.7.12 = { elector = no } # The HRE is formally abolished
-1813.10.13 = { capital = 81 }
-1815.3.16 = { elector = yes }
+1803.2.25 = { government_rank = 4 }
+1813.10.13 = { capital = 81 elector = yes }
 1821.2.27 = {
 	monarch = {
 		name = "Wilhelm X"

@@ -1,25 +1,30 @@
 owner = POL
 controller = POL
+add_core = POL
 culture = schlesian
 religion = catholic
 hre = no
-base_tax = 2
-base_production = 2
+base_tax = 1
+base_production = 1
 trade_goods = grain
-base_manpower = 2
+base_manpower = 1
 capital = "Oswiecim"
 is_city = yes
-add_core = POL	
 add_core = SIL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1138.10.28 = {
+1163.1.1 = {
 	owner = SIL
 	controller = SIL
 	remove_core = POL
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
 }
 1173.1.5 = {
 	owner = RCB
@@ -81,5 +86,3 @@ discovered_by = muslim
 1807.7.9 = { remove_core = PLC }
 1815.3.16 = { hre = yes }
 1866.8.23 = { hre = no }
-discovered_by = nomad_group
-discovered_by = north_american

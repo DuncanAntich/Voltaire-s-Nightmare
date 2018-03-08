@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = DPH
+controller = DPH
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -9,8 +9,7 @@ trade_goods = salt
 base_manpower = 2
 capital = "Vechta"
 is_city = yes
-add_core = SAX
-add_core = NRV
+add_core = DPH
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -19,7 +18,8 @@ discovered_by = muslim
 1100.1.1 = {
 	owner = NRV
 	controller = NRV
-	remove_core = SAX
+	add_core = NRV
+	remove_core = DPH
 }
 1252.1.1 = {
 	owner = MUN

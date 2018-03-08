@@ -5,6 +5,24 @@ primary_culture = thuringian
 religion = catholic
 capital = 4118
 
+1054.1.1 = {
+	monarch = {
+		name = "Walter I Steusslingen"
+		dynasty = "von Arnstein"
+		dip = 3
+		mil = 4
+		adm = 2
+	}
+}
+1090.1.1 = {
+	monarch = {
+		name = "Walter II Steusslingen"
+		dynasty = "von Arnstein"
+		dip = 2
+		mil = 1
+		adm = 2
+	}
+}
 1135.1.1 = {
 	monarch = {
 		name = "Walter I"

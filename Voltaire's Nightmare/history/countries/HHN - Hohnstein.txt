@@ -1,11 +1,31 @@
-government = feudal_monarchy
+government = monastic_order_government
 government_rank = 1
 primary_culture = thuringian
 religion = catholic
 technology_group = western
 capital = 226
 
+#abbacy of Kamp
+1054.1.1 = {
+	monarch = {
+		name = "Arnulf"
+		dynasty = "von Schwarzenburg"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1104.1.1 = {
+	monarch = {
+		name = "Gerhard"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+#Counts of Hohnstein
 1154.1.1 = {
+	government = feudal_monarchy
 	monarch = {
 		name = "Elger I"
 		dynasty = "von Hohnstein"

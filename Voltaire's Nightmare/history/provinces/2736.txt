@@ -1,5 +1,5 @@
-owner = MIN
-controller = MIN
+owner = HBE
+controller = HBE
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 2
 trade_goods = iron
 base_manpower = 1
 capital = "Hausberge"
-is_city = yes	
-add_core = MIN
+is_city = yes
 add_core = HBE
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1124.1.1 = {
-	owner = HBE
-	controller = HBE
-	remove_core = MIN
-}
 1368.7.17 = {
 	owner = MIN
 	controller = MIN

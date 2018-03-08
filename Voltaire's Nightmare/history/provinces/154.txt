@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = DPH
+controller = DPH
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = lumber
 base_manpower = 3
 capital = "Diepholz"
 is_city = yes
-add_core = SAX
 add_core = DPH
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1090.1.1 = {
-	owner = DPH
-	controller = DPH
-	remove_core = SAX
-}
 1528.1.1 = { religion = protestant }
 1585.1.1 = {
 	owner = LUN

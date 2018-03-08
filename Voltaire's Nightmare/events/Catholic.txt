@@ -102,14 +102,13 @@ country_event = {
 	}
 }
 
-
 # The Pentarchy
 country_event = {
 	id = catholic_flavor.3
 	title = catholic_flavor.3.t
 	desc = catholic_flavor.3.d
 	picture = ORTHODOX_eventPicture
-
+	
 	is_triggered_only = yes
 	major = yes
 
@@ -141,21 +140,22 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
-		NOT = { has_global_flag = pap_disables_simony_flag }
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
+		NOT = { has_global_flag = pap_disables_simony_flag }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+	mean_time_to_happen = { days = 1 }
+
 	option = {
 		name = catholic_flavor.4.a
 		add_years_of_income = 0.2
-		custom_tooltip = add_reform_desire_effect.2
-		add_reform_desire_effect = {
-			base_reform_desire = 0.02
+		if = {
+			limit = { is_institution_enabled = laytheology }
+			custom_tooltip = add_reform_desire_effect.2
+			add_reform_desire_effect = {
+				base_reform_desire = 0.02
+			}
 		}
 	}
 	option = {
@@ -177,23 +177,22 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
-		has_institution = laytheology
-		NOT = { has_global_flag = pap_disables_indulgences_flag }
+		is_institution_enabled = laytheology
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
+		is_year = 1480
+		NOT = { has_global_flag = pap_disables_indulgences_flag }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+	mean_time_to_happen = { days = 1 }
+
 	option = {
 		name = catholic_flavor.5.a
-		add_years_of_income = 0.10
 		custom_tooltip = add_reform_desire_effect.4
 		add_reform_desire_effect = {
 			base_reform_desire = 0.04
 		}
+		add_years_of_income = 0.10
 		PAP = {
 			add_opinion = {
 				who = root
@@ -222,16 +221,16 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
-		has_global_flag = hussite_heresy_g
-		NOT = { has_global_flag = pap_disables_veneration_relics_flag }
+		is_institution_enabled = laytheology
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
+		any_owned_province = { religion = catholic }
+		is_year = 1490
+		NOT = { has_global_flag = pap_disables_veneration_relics_flag }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+	mean_time_to_happen = { days = 1 }
+
 	option = {
 		name = catholic_flavor.6.a
 		custom_tooltip = add_reform_desire_effect.6
@@ -267,15 +266,13 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
+		is_institution_enabled = laytheology
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
-
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+	mean_time_to_happen = { days = 1 }
+
 	option = {
 		name = catholic_flavor.7.a
 		add_papal_influence = 2
@@ -307,14 +304,14 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
+		is_institution_enabled = laytheology
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
+		any_owned_province = { religion = catholic }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+	mean_time_to_happen = { days = 1 }
+
 	option = {
 		name = catholic_flavor.8.a
 		custom_tooltip = add_reform_desire_effect.4
@@ -330,9 +327,7 @@ country_event = {
 			base_reform_desire = -0.04
 		}
 		random_owned_province = {
-			limit = {
-				religion = catholic
-			}
+			limit = { religion = catholic }
 			add_unrest = 5
 		}
 	}
@@ -350,15 +345,14 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
-		reform_desire = 0.5
+		is_institution_enabled = laytheology
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
+		reform_desire = 0.5
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+	mean_time_to_happen = { days = 1 }
+
 	option = {
 		name = catholic_flavor.9.a
 		custom_tooltip = add_reform_desire_effect.4
@@ -390,15 +384,14 @@ country_event = {
 	trigger = {
 		religion = catholic
 		NOT = { is_religion_enabled = protestant }
-		has_global_flag = hussite_heresy_g
-		reform_desire = 0.75
+		is_institution_enabled = laytheology
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
+		reform_desire = 0.75
+		is_year = 1510
 	}
 	
-	mean_time_to_happen = {
-		days = 1	
-	}
+	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = catholic_flavor.10.a

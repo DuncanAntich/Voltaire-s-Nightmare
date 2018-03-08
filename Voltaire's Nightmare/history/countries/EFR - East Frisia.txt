@@ -68,6 +68,7 @@ capital = 2217	# Emden
 	}
 }
 1528.2.14 = {
+	religion = anabaptist
 	monarch = {
 		name = "Enno II"
 		dynasty = "Cirksena"
@@ -77,7 +78,6 @@ capital = 2217	# Emden
 		mil = 2
 	}
 }
-1528.6.1 = { religion = anabaptist } # Unknown date, but early
 1532.6.24 = {
 	heir = {
 		name = "Edzard"

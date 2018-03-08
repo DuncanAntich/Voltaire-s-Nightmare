@@ -9,7 +9,6 @@ trade_goods = linen
 base_manpower = 2
 capital = "Udine" 
 is_city = yes
-add_core = VNN
 add_core = AQU
 discovered_by = eastern
 discovered_by = ottoman
@@ -17,9 +16,6 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1077.1.1 = {
-	remove_core = VNN
-}
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1420.6.7 = {
 	controller = VEN

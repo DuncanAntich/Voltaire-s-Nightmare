@@ -1,11 +1,35 @@
 government = feudal_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = swabian
 religion = catholic
 technology_group = western
 capital = 4129
 
+#Neckargau
+1054.1.1 = {
+	monarch = {
+		name = "Werner III"
+		dynasty = "von Maden"
+		birth_date = 1040.1.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1065.2.24 = {
+	monarch = {
+		name = "Werner IV"
+		dynasty = "von Maden"
+		birth_date = 1060.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1121.2.22
+#Zahringens
 1187.1.1 = {
+	government_rank = 3
 	monarch = {
 		name = "Albrecht I"
 		dynasty = "von Zähringen"

@@ -24,7 +24,10 @@ province_event = {
 	trigger = {
 		has_dlc = "Res Publica"
 		owner = {
-			government = merchant_republic
+			OR = {
+				government = merchant_republic
+				government = veche_republic
+			}
 		}
 		NOT = { has_province_modifier = free_trade_of_goods }
 		NOT = { has_province_modifier = strong_guild }
@@ -95,7 +98,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 	}
 
 	mean_time_to_happen = {
@@ -143,7 +149,10 @@ province_event = {
 	trigger = {
 		has_dlc = "Res Publica"
 		owner = {
-			government = merchant_republic
+			OR = {
+				government = merchant_republic
+				government = veche_republic
+			}
 		}
 		NOT = { has_province_modifier = strong_guild }
 	}
@@ -217,7 +226,10 @@ province_event = {
 	trigger = {
 		has_dlc = "Res Publica"
 		owner = {
-			government = merchant_republic
+			OR = {
+				government = merchant_republic
+				government = veche_republic
+			}
 		}
 		NOT = { has_province_modifier = influential_nobles }
 		NOT = { has_province_modifier = influential_guild_members }
@@ -279,7 +291,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { has_country_modifier = paranoid_recruitment }
 	}
 
@@ -364,7 +379,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { has_country_modifier = foreign_guild_infiltrated }
 		NOT = { has_country_modifier = guilds_compromised }
 		NOT = { has_country_modifier = suspended_diplomat }
@@ -432,7 +450,10 @@ province_event = {
 	trigger = {
 		has_dlc = "Res Publica"
 		owner = {
-			government = merchant_republic
+			OR = {
+				government = merchant_republic
+				government = veche_republic
+			}
 		}
 		NOT = { has_province_modifier = trade_with_neighbor }
 		any_neighbor_province = {
@@ -513,7 +534,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 	}
 
 	mean_time_to_happen = {
@@ -583,7 +607,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		any_rival_country = {
 			NOT = { war_with = ROOT }
 			NOT = { trade_embargo_by = ROOT }
@@ -664,7 +691,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		faction_in_power = mr_guilds
 		advisor = artist
 	}
@@ -707,7 +737,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		faction_in_power = mr_traders
 		advisor = trader
 	}
@@ -746,7 +779,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		faction_in_power = mr_aristocrats
 		advisor = commandant
 	}
@@ -789,7 +825,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { faction_in_power = mr_guilds }
 	}
 
@@ -823,7 +862,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { faction_in_power = mr_traders }
 	}
 
@@ -857,7 +899,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { faction_in_power = mr_aristocrats }
 	}
 
@@ -895,7 +940,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		faction_in_power = mr_guilds
 	}
 
@@ -923,7 +971,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		faction_in_power = mr_traders
 	}
 
@@ -951,7 +1002,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		faction_in_power = mr_aristocrats
 	}
 
@@ -984,7 +1038,10 @@ province_event = {
 	trigger = {
 		has_dlc = "Res Publica"
 		owner = {
-			government = merchant_republic
+			OR = {
+				government = merchant_republic
+				government = veche_republic
+			}
 			NOT = { faction_in_power = mr_guilds }
 		}
 	}
@@ -1021,7 +1078,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { faction_in_power = mr_traders }
 	}
 
@@ -1053,7 +1113,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { faction_in_power = mr_aristocrats }
 	}
 
@@ -1087,7 +1150,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { faction_in_power = mr_aristocrats }
 	}
 
@@ -1122,7 +1188,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { has_ruler_flag = republic_revolution }
 		faction_influence = {
 			faction = mr_guilds
@@ -1290,7 +1359,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		NOT = { has_ruler_flag = republic_revolution }
 		faction_influence = {
 			faction = mr_traders
@@ -1458,7 +1530,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Res Publica"
-		government = merchant_republic
+		OR = {
+			government = merchant_republic
+			government = veche_republic
+		}
 		OR = {
 			NOT = { has_ruler_flag = republic_revolution }
 			had_ruler_flag = { flag = republic_revolution days = 3650 }

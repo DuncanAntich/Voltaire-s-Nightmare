@@ -22,7 +22,6 @@ fixed_capital = 1943
 1810.2.16 = {
 	government = administrative_monarchy
 	government_rank = 4
-	elector = yes
 	monarch = {
 		name = "Karl Theodor"
 		dynasty = "von Dalberg"
@@ -32,4 +31,3 @@ fixed_capital = 1943
 		mil = 1
 	}
 }
-1813.10.13 = { elector = no }

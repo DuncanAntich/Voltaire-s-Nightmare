@@ -13,6 +13,7 @@ historical_friend = DNZ
 historical_friend = KOF
 historical_friend = DMD
 historical_friend = SOE
+historical_friend = RGS
 
 1226.1.1 = {
 	monarch = {

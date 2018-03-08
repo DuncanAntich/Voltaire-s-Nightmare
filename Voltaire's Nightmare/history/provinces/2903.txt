@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = NLS
+controller = NLS
 culture = lithuanian
 religion = animism
 hre = no
@@ -9,12 +9,20 @@ trade_goods = fur
 base_manpower = 1
 capital = "Maladecina"
 is_city = yes
-add_core = LIT
+add_core = NLS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
+1242.1.1 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = NLS
+}
 1387.1.1 = { religion = catholic }
 1543.1.1 = { unrest = 3 }
 1569.7.1 = {
@@ -32,9 +40,9 @@ discovered_by = muslim
 	add_core = RUS
 }
 1807.7.9 = { remove_core = PLC }
+1812.6.28 = { controller = POL }
+1812.12.10 = { controller = RUS }
 1848.1.1 = {
 	religion = orthodox
 	culture = byelorussian
 }
-discovered_by = nomad_group
-discovered_by = north_american

@@ -6,7 +6,6 @@ technology_group = western
 capital = 2230	# Hannover
 
 1692.1.1 = {
-	elector = yes
 	monarch = {
 		name = "Ernst I August"
 		dynasty = "von Hannover"
@@ -37,10 +36,11 @@ capital = 2230	# Hannover
 		mil = 5
 	}
 }
+1706.5.23 = { elector = yes }
 #1714-1837 under GBR
 1806.7.12 = { elector = no }
+1813.10.13 = { elector = yes }
 1814.10.12 = { government_rank = 5 }
-1815.3.16 = { elector = yes }
 1837.6.20 = {
 	monarch = {
 		name = "Ernst II August"

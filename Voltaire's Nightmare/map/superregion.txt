@@ -116,7 +116,6 @@ poland_superregion = {
 	silesia_region
 	neumark_region
 	halicia_region
-	volhynia_region
 }
 
 baltic_superregion = {
@@ -182,4 +181,12 @@ scandinavia_superregion = {
 	danishislands_region
 	skania_region
 	sweden_region
+}
+
+russia_superregion = {
+	turovpinsk_region
+	polotsk_region
+	minsk_region
+	kiev_region
+	volhynia_region
 }

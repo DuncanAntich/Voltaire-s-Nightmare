@@ -3,7 +3,7 @@ controller = BYZ
 add_core = BYZ
 add_core = BUL
 culture = bulgarian
-religion = paulician
+religion = orthodox
 hre = no
 base_tax = 1
 base_production = 1
@@ -16,7 +16,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1081.4.4 = { religion = orthodox }
 1185.1.1 = { unrest = 10 }
 1189.7.1 = { controller = WWS }
 1190.1.1 = { controller = BYZ }
@@ -27,22 +26,22 @@ discovered_by = muslim
 	remove_core = BYZ
 }
 1204.5.16 = {
-	owner = SIA
-	controller = SIA
-	add_core = SIA
+	owner = PPO
+	controller = PPO
+	add_core = PPO
 }
 1207.1.1 = {
 	owner = BUL
 	controller = BUL
 }
 1208.6.30 = {
-	owner = SIA
-	controller = SIA
+	owner = PPO
+	controller = PPO
 }
 1230.3.9 = {
 	owner = BUL
 	controller = BUL
-	remove_core = SIA
+	remove_core = PPO
 }
 1246.1.1 = {
 	owner = NKA
@@ -56,15 +55,7 @@ discovered_by = muslim
 	add_core = BYZ
 	remove_core = NKA
 }
-1322.1.1 = {
-	owner = BUL
-	controller = BUL
-}
-1323.1.1 = {
-	owner = BYZ
-	controller = BYZ
-}
-1343.1.1 = {
+1334.1.1 = {
 	owner = BUL
 	controller = BUL
 	add_core = BUL
