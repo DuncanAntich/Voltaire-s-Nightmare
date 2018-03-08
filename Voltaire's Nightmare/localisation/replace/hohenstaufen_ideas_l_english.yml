@@ -1,4 +1,22 @@
 ﻿l_english:
+#Philadelphia
+ PHI_ideas: "Philadelphian Ideas"
+ PHI_ideas_start: "Philadelphian Traditions"
+ PHI_ideas_bonus: "Philadelphian Ambitions"
+ PHI_idea_1: "The Sixth Church of Asia"
+ PHI_idea_1_desc: "The sixth of the mythical, Biblical Seven Churches of Asia was "located" in the city of Philadelphia."
+ PHI_idea_2: "Little Athens"
+ PHI_idea_2_desc: "In the sixth century, during Byzantine reign, Philadelphia was known for its frequent festivals, which ganered it the nickname of "Little Athens.""
+ PHI_idea_3: "Legacy of the Crusades"
+ PHI_idea_3_desc: "During the First Crusade, Philadelphia was occupied by the forces of the Seljuk Turks for twenty-four years, before the Byzantine Empire recovered it during the First Crusade. Wars between the Byzantines and the Turks have turned Philadelphia into a powerful fort."
+ PHI_idea_4: "Red City"
+ PHI_idea_4_desc: "The Turkish name for Philadelphia means "red city," a nomenclature which can be traced back to blooming red-dyed silk industry in the city during the thirteenth and fourteenth centuries."
+ PHI_idea_5: "The Last Bastion"
+ PHI_idea_5_desc: "In the fourteenth century, Philadelphia was an independent, Christian city surrounded entirely by Turkish emirates. It became the last city in Anatolia to surrender to the Turks when taken in 1390 by Sultan Bayezid I of the Ottoman Empire."
+ PHI_idea_6: "Bishopric of Philadelphia"
+ PHI_idea_6_desc: "In the fourteenth century, Philadelphia was an independent, Christian city surrounded entirely by Turkish emirates. It became the last city in Anatolia to surrender to the Turks when taken in 1390 by Sultan Bayezid I of the Ottoman Empire."
+ PHI_idea_7: "Rebuilding of Philadelphia"
+ PHI_idea_7_desc: "During the Greco-Turkish War of 1919-1922, the city of Philadelphia was destroyed and burned, claiming over three thousand lives. Much of the city had to be rebuilt entirely from scratch."
 #Hohenzollern
  ZLX_ideas: "Hohenzollern Ideas"
  ZLX_ideas_start: "Hohenzollern Traditions"
@@ -17,7 +35,7 @@
  ZLX_idea_6_desc: "Our cousins to the north are famous for their military prowess. We could learn a few lessons from them next time we visit."
  ZLX_idea_7: "Cadet Branches"
  ZLX_idea_7_desc: "The core realm of the County split at various times between Hechingen, Haigerloch, and Sigmaringen. Such Cadet branches will ensure our dynasty stability."
-#Mantua 
+#Mantua
  MAN_ideas: "Mantuan Ideas"
  MAN_ideas_start: "Mantuan Traditions"
  MAN_ideas_bonus: "Mantuan Ambitions"
@@ -35,7 +53,7 @@
  MAN_idea_6_desc: "By minting our own coins we can ensure control over the economy and allow for efficient trade and taxation."
  MAN_idea_7: "Cisalpine Power"
  MAN_idea_7_desc: "When Napoleon invaded Italy, he organized a Cisalpine Republic after he gained control of Modena. While we have a monarchical background, we can easily transition to democracy."
-#Aquileia 
+#Aquileia
  friulan_ideas: "Friulan Ideas"
  friulan_ideas_start: "Friulan Traditions"
  friulan_ideas_bonus: "Friulan Ambitions"
@@ -53,7 +71,7 @@
  friulan_idea_6_desc: "Built in 1593 in the very centre of Friuli, the fortress of Palma is universally considered a masterpiece of Renaissance-era military architecture; requiring more than thirty years to be completed, it was the prototype of the star fort, which would be imitated across Italy and Europe."
  friulan_idea_7: "Expand Friulan Agriculture"
  friulan_idea_7_desc: "Agriculture has always been the main productive output of our realm, but it is still tied to archaic and obsolete technologies and means of production; the time has come to reform Friulan agriculture to make more modern and efficient."
-#Sette Comuni 
+#Sette Comuni
  STC_ideas: "Cimbrian Ideas"
  STC_ideas_start: "Cimbrian Traditions"
  STC_ideas_bonus: "Cimbrian Ambitions"
@@ -70,7 +88,7 @@
  STC_idea_6: "Reformation of the Regency"
  STC_idea_6_desc: "Our daily life is governed by many ancient sets of laws; if we were to reform them to create a unifed Constitution, our realm would gain international recognition as a proper nation."
  STC_idea_7: "Eternal Serenìsima"
- STC_idea_7_desc: "As foreign powers encroach upon Italy, our ancient republican roots allow us to continue our traditions into the modern age." 
+ STC_idea_7_desc: "As foreign powers encroach upon Italy, our ancient republican roots allow us to continue our traditions into the modern age."
 #Latin Empire
  LEM_ideas: "Latin Imperial Ideas"
  LEM_ideas_start: "Latin Imperial Traditions"
@@ -92,7 +110,7 @@
 #Konigsegg
  KGG_ideas: "Königsegger Ideas"
  KGG_ideas_start: "Königsegger Traditions"
- KGG_ideas_bonus: "Königsegger Ambitions" 
+ KGG_ideas_bonus: "Königsegger Ambitions"
  KGG_idea_1: "Collapse of the Duchy of Swabia"
  KGG_idea_1_desc: "In 1268, the Duchy of Swabia (in which Königsegg existed) collapsed and was divided between numerous houses and counties. As a result, Königsegg needed to develop, and thus had to control its own territory with a strong grip."
  KGG_idea_2: "Landvogt von Oberschwaben"
@@ -124,7 +142,7 @@
  Frankfurt_Nationalism_desc: "We are the birth place of German Nationalism and as such we are prone to expand quickly and have good reasons behind it."
  FRN_ideas: "Frankfurter Ideas"
  FRN_ideas_bonus: "Frankfurter Ambition"
- FRN_ideas_start: "Frankfurter Tradition" 
+ FRN_ideas_start: "Frankfurter Tradition"
 #Zurich
  ZUR_ideas_bonus: "Zürcher Ambitions"
  ZUR_ideas_start: "Zürcher Traditions"
@@ -142,43 +160,43 @@
  The_reformation_by_zwingli: "The Reformation by Zwingli"
  The_reformation_by_zwingli_desc: "Zwingli was together with Calvin the most important figure of the Swiss reformation. From the Grossmünster he preached  ideas of reforming the catholic church. Zwingli's ideas came to the attention of Martin Luther and other reformers. They met at the Marburg Colloquy and although they agreed on many points of doctrine, they could not reach an accord on the doctrine of the Real Presence of Christ in the Eucharist. The Reformation spread but some cantons remained catholic which lead to the religious wars of Kappel."
  Zuercher_Ramparts: "Zürcher Ramparts"
- Zuercher_Ramparts_desc: "From 1642, an impressive set of ramparts was built based on plans by Hans Georg Werdmüller and Johann Ardüser, at an immense cost and completed only in the second half of the 18th century. The ramparts included fifteen bastions, one of them built inside the Limmat" 
+ Zuercher_Ramparts_desc: "From 1642, an impressive set of ramparts was built based on plans by Hans Georg Werdmüller and Johann Ardüser, at an immense cost and completed only in the second half of the 18th century. The ramparts included fifteen bastions, one of them built inside the Limmat"
 #Waldstatt
  WDS_ideas_bonus: "Waldstättian Ambitions"
  WDS_ideas_start: "Waldstättian Traditions"
- WDS_ideas: "Waldstättian Ideas" 
+ WDS_ideas: "Waldstättian Ideas"
  Ruetlischwur: "Rütlischwur"
- Ruetlischwur_desc: "In 1291 three envoys from Uri, Schwyz und Unterwalden swore oath, on Rütli above Lake Lucerne, to combine forces and fight against the Heabsburgs. The Swiss Confederation was born." 
+ Ruetlischwur_desc: "In 1291 three envoys from Uri, Schwyz und Unterwalden swore oath, on Rütli above Lake Lucerne, to combine forces and fight against the Heabsburgs. The Swiss Confederation was born."
  Battle_of_morgarten: "Battle of Morgarten"
- Battle_of_morgarten_desc: "In 1315 a 1’500-strong force from Swiss Confederacy  ambushed a 7’000 men strong army of Austrian soldiers of the Holy Roman Empire on the shores of Lake Ägeri near the Morgarten Pass in Switzerland. The swiss troops were poorly equipped but thanks to their braveness and tactics they managed to beat heavy the Habsburgs army. ." 
+ Battle_of_morgarten_desc: "In 1315 a 1’500-strong force from Swiss Confederacy  ambushed a 7’000 men strong army of Austrian soldiers of the Holy Roman Empire on the shores of Lake Ägeri near the Morgarten Pass in Switzerland. The swiss troops were poorly equipped but thanks to their braveness and tactics they managed to beat heavy the Habsburgs army. ."
  Teufelsbruecken: "Teufelsbrücken"
- Teufelsbruecken_desc: "To be able to cross the Alps and have a connection with North Italy the three Cantons builded bridges, which connected North and South Europe.Some say these bridges were built by Satan himself.." 
+ Teufelsbruecken_desc: "To be able to cross the Alps and have a connection with North Italy the three Cantons builded bridges, which connected North and South Europe.Some say these bridges were built by Satan himself.."
  Gotthardpass: "Gotthardpass"
- Gotthardpass_desc: "The three Cantons had gained a lot of attention with the opening of the Gotthardroute. It became the most important route during middle ages because trade could now easily travel trough the Swiss Alps from North Italy to South Germany." 
+ Gotthardpass_desc: "The three Cantons had gained a lot of attention with the opening of the Gotthardroute. It became the most important route during middle ages because trade could now easily travel trough the Swiss Alps from North Italy to South Germany."
  New_friends: "New friends"
- New_friends_desc: "A long time the three cantons stayed alone but after some decade’s new  cantons joined the confederation: Luzern (1332), Zurich (1351), Glarus und Zug (1352), Bern (1353). " 
+ New_friends_desc: "A long time the three cantons stayed alone but after some decade’s new  cantons joined the confederation: Luzern (1332), Zurich (1351), Glarus und Zug (1352), Bern (1353). "
  The_legend_of_winkelried: "The Legend of Winkelried "
- The_legend_of_winkelried_desc: "Arnold Winkelried is a legendary figure which fought against the Habsburgs in the battle of Sempach. As the Swiss couldn't break the Austrian line of pikes, Winkelrad  threw himself upon the Austrian pikes, taking some of them down with his body. This broke up the Austrian front, and made an opening through which the Swiss could attack. Thanks to his sacrifice the old confederates won the battle." 
+ The_legend_of_winkelried_desc: "Arnold Winkelried is a legendary figure which fought against the Habsburgs in the battle of Sempach. As the Swiss couldn't break the Austrian line of pikes, Winkelrad  threw himself upon the Austrian pikes, taking some of them down with his body. This broke up the Austrian front, and made an opening through which the Swiss could attack. Thanks to his sacrifice the old confederates won the battle."
  The_Fatherland_of_uri: "The Fatherland"
- The_Fatherland_of_uri_desc: "Durning the Helvetic Republic Uri was together with Schwyz and Unterwalden forced into one canton. This hadn’t gained much popularity and so during the whole time of the Republic the conservative elites tried to right the new order. " 
+ The_Fatherland_of_uri_desc: "Durning the Helvetic Republic Uri was together with Schwyz and Unterwalden forced into one canton. This hadn’t gained much popularity and so during the whole time of the Republic the conservative elites tried to right the new order. "
 #Bern
  BRN_ideas_bonus: "Bernese Ambitions"
  BRN_ideas_start: "Bernese Traditions"
- BRN_ideas: "Bernese Ideas" 
+ BRN_ideas: "Bernese Ideas"
  The_bear_of_bern: "The Bear of Bern"
- The_bear_of_bern_desc: "Local Legend says that the founder of Bern Berchtold V, Duke of Zähringen named the city after the first animal which he met on the hunt as this turned out to be a bear. In the late medieval period, Bern was very strongly identified with its heraldic animal, which was used as an allegory of the military and feudal power of the canton within the Old Swiss Confederacy. The Bernese citizen-soldiers were depicted as armed bears." 
+ The_bear_of_bern_desc: "Local Legend says that the founder of Bern Berchtold V, Duke of Zähringen named the city after the first animal which he met on the hunt as this turned out to be a bear. In the late medieval period, Bern was very strongly identified with its heraldic animal, which was used as an allegory of the military and feudal power of the canton within the Old Swiss Confederacy. The Bernese citizen-soldiers were depicted as armed bears."
  By_fire_and_sword: "By fire and sword"
- By_fire_and_sword_desc: "Bern invaded and conquered Aargau in 1415 and Vaud in 1536, as well as other smaller territories, thereby becoming the largest city-state north of the Alps, by the 18th century comprising most of what is today the canton of Bern and the canton of Vaud. The expansionist policy of the city of Bern led them into the Bernese Oberland. Through conquest, purchase, mortgage or marriage politics Bern was able to acquire the majority of the Oberland from the indebted local barons between 1323 and 1400." 
+ By_fire_and_sword_desc: "Bern invaded and conquered Aargau in 1415 and Vaud in 1536, as well as other smaller territories, thereby becoming the largest city-state north of the Alps, by the 18th century comprising most of what is today the canton of Bern and the canton of Vaud. The expansionist policy of the city of Bern led them into the Bernese Oberland. Through conquest, purchase, mortgage or marriage politics Bern was able to acquire the majority of the Oberland from the indebted local barons between 1323 and 1400."
  Bernese_glass_paintings: "Bernese glass paintings"
- Bernese_glass_paintings_desc: "As Bern was not situated at any of the major trading routes, agriculture quickly became of principal economic importance and remained so throughout Bernese history.  Tannery also became an important industry, and leather goods one of Bern's main exports." 
+ Bernese_glass_paintings_desc: "As Bern was not situated at any of the major trading routes, agriculture quickly became of principal economic importance and remained so throughout Bernese history.  Tannery also became an important industry, and leather goods one of Bern's main exports."
  Baeuerten_and_Talverbaenden: "Bäuerten and Talverbänden"
- Baeuerten_and_Talverbaenden_desc: "Lands under Bernese control enjoyed extensive rights and far-reaching autonomy in the Bäuerten (farming cooperative municipalities) and Talverbänden (rural alpine communities)." 
+ Baeuerten_and_Talverbaenden_desc: "Lands under Bernese control enjoyed extensive rights and far-reaching autonomy in the Bäuerten (farming cooperative municipalities) and Talverbänden (rural alpine communities)."
  The_alliance_with_the_Confederacy: "The alliance with the Confederacy"
- The_alliance_with_the_Confederacy_desc: "In 1323 Bern entered an alliance with the Forest Cantons of Uri, Schwyz and Unterwalden. Two years later Bern upgraded its pact with the forest cantons to an eternal alliance, thus becoming a permanent member of the Old Swiss Confederacy. With Bern's accession, the confederacy had now reached the count Eight Cantons, concluding its formative period and entering its period of successful consolidation. " 
+ The_alliance_with_the_Confederacy_desc: "In 1323 Bern entered an alliance with the Forest Cantons of Uri, Schwyz and Unterwalden. Two years later Bern upgraded its pact with the forest cantons to an eternal alliance, thus becoming a permanent member of the Old Swiss Confederacy. With Bern's accession, the confederacy had now reached the count Eight Cantons, concluding its formative period and entering its period of successful consolidation. "
  The_bernese_pikes: "The Bernese pikes"
- The_bernese_pikes_desc: "In 1339 Habsburg-leaning Fribourg went into a war against Bern.  When the Fribourg forces laid siege to the Bernese border town of Laupen, the Bernese army marched out to raise the siege. While outnumbered two to one, the Bernese forces formed strong pike blocks that destroyed the Fribourg infantry and the heavy cavalry.The decisive Bernese victory allowed Bern to consolidate their power and brought them closer to the Forest Cantons." 
+ The_bernese_pikes_desc: "In 1339 Habsburg-leaning Fribourg went into a war against Bern.  When the Fribourg forces laid siege to the Bernese border town of Laupen, the Bernese army marched out to raise the siege. While outnumbered two to one, the Bernese forces formed strong pike blocks that destroyed the Fribourg infantry and the heavy cavalry.The decisive Bernese victory allowed Bern to consolidate their power and brought them closer to the Forest Cantons."
  Battle_of_grauholz: "Battle of Grauholz"
- Battle_of_grauholz_desc: "In 1798 French-speaking Vaud revolted against Bern. Napoleon rushed to aid his republican friends. Bernese forces bravely fought against the French in the battle of Grauholz even if their own government surrendered to Napoleon. They finally got beaten, ending Bernese resistance against the French invasion. " 
+ Battle_of_grauholz_desc: "In 1798 French-speaking Vaud revolted against Bern. Napoleon rushed to aid his republican friends. Bernese forces bravely fought against the French in the battle of Grauholz even if their own government surrendered to Napoleon. They finally got beaten, ending Bernese resistance against the French invasion. "
 #Basel
  BSL_ideas_bonus: "Basler Ambitions"
  BSL_ideas_start: "Basler Traditions"
@@ -192,11 +210,11 @@
  The_cultural_capital_of_switzerland: "The Cultural Capital of Switzerland"
  The_cultural_capital_of_switzerland_desc: "Thanks to the spread of printing the culture life could boom in Basel. It was a residence to many Humanists like Erasmus von Rotterdam or Paracelsus."
  Zuenfte_of_basel: "Baseler zünfte"
- Zuenfte_of_basel_desc: "Like in many other germans towns, the burghers were an economic powerhouse but didn't have any politcal rights. This changed in Basel in 1521." 
+ Zuenfte_of_basel_desc: "Like in many other germans towns, the burghers were an economic powerhouse but didn't have any politcal rights. This changed in Basel in 1521."
  The_abolishment_of_the_bishop: "The Abolishment of the Bishop "
- The_abolishment_of_the_bishop_desc: "After the reformation many Catholic priest had to leave the city. The same happened to the bishop. All the belongings of the church were taken by the town." 
+ The_abolishment_of_the_bishop_desc: "After the reformation many Catholic priest had to leave the city. The same happened to the bishop. All the belongings of the church were taken by the town."
  Urban_rural_conflict: "Urban-Rural Conflict"
- Urban_rural_conflict_desc: "The town of Basel dominated the whole time over the rural areas which lead to uprising. Most of them were brutally pacified which gave stability and order in these lands again." 
+ Urban_rural_conflict_desc: "The town of Basel dominated the whole time over the rural areas which lead to uprising. Most of them were brutally pacified which gave stability and order in these lands again."
 #Ulm
  ULM_ideas: "Ulmer Ideas"
  ULM_ideas_bonus: "Ulmer Ambitions"
@@ -214,7 +232,7 @@
  ULM_rennisance: "The Late Renaissance of Ulm"
  ULM_rennisance_desc: "Although later than prefered, the flourishing economy from both colonialism and textiles has given the state funds to hire such great minds as Hans Multscher and Jörg Syrlin the Elder."
  ULM_stockpile: "The Ulmer Stockpile"
- ULM_stockpile_desc: "Not many would suspect the small hill-city of Ulm to be a center for supplies and ammunition in Southern Germany, but over many years we have built a stockpile of supplies and ammunition in our town that our forces may now use." 
+ ULM_stockpile_desc: "Not many would suspect the small hill-city of Ulm to be a center for supplies and ammunition in Southern Germany, but over many years we have built a stockpile of supplies and ammunition in our town that our forces may now use."
 #Anjou
  ANJ_ideas: "Angevin Ideas"
  ANJ_ideas_start: "Angevin Traditions"
@@ -324,7 +342,7 @@
  TOU_idea_7: "Remember the Montsegur"
  TOU_idea_7_desc: "None can say Good Men were sinners, without being a sinner himself. None can say Cathars were vile and malicious, without being vile and malicious himself. None can say crusaders saved the souls of people they burned at stakes, without having his soul bound eternally to the Satanic construct of Earth. Yet they said those lies, and repeat them while walking upon ashes of murdered people, and we may justly tell our troops, marching on to fight enemies of Toulouse, paraphrasing words of Arnaud Amaury, butcher of Beziers: kill them all, Satan will sort out his own."
 #Liege
- LIE_ideas: "Liegian Ideas" 
+ LIE_ideas: "Liegian Ideas"
  LIE_ideas_start: "Liegian Traditions"
  LIE_ideas_bonus: "Liegian Ambitions"
  LIE_idea_1: "Guarding the Imperial Border"
@@ -342,7 +360,7 @@
  LIE_idea_7: "Liegian Revolution"
  LIE_idea_7_desc: "The sudden switch from an enlightened to an authoritarian Prince-Bishop has led to unrest so large that when the French Revolution began, almost immediately a Liegian Revolution broke out. We should resurrect the legacy of the 'Athens of three Gauls', as Liège was called in the Dark Ages, wherein liberal city government and progressive reforms created a short-lived but powerful rebellion against high-class oppression, bigotry, and intolerance."
 #Champagne
- CHP_ideas: "Champagnian Ideas" 
+ CHP_ideas: "Champagnian Ideas"
  CHP_ideas_start: "Champagnian Traditions"
  CHP_ideas_bonus: "Champagnian Ambitions"
  CHP_idea_1: "Royal Seneschals"
@@ -379,7 +397,7 @@
  KOL_idea_7_desc: "You can have a feast for the eyes in Cologne, watching the monumental cathedral; feast for the ears, hearing merry tunes of carnival; feast for the taste drinking Kolsch beer; feast for the touch admiring cloth in markets; and finally a feast for the smell through the aroma of Eau de Cologne, a one-of-a-kind perfume manufactured only here. Smell like an Archbishop, Archbishop. And don't drink it, despite the fact that it smells nice and is 80% alcohol. Kolsch is better and cheaper anyways."
 #Avignon
  AVI_ideas: "Venaissin Ideas"
- AVI_ideas_start: "Venaissin Traditions" 
+ AVI_ideas_start: "Venaissin Traditions"
  AVI_ideas_bonus: "Venaissin Ambitions"
  AVI_idea_1: "Sieges of Avignon"
  AVI_idea_1_desc: "The city of Avignon was sieged multiple times - first in antiquity, then the Dark Ages and the medieval period – as we are no mere village, but an important metropolis! We have learned what it means to be prepared for diseases, lack of food and water, and we will be always prepared to survive even years of siege. God helps those who help themselves..."
@@ -397,7 +415,7 @@
  AVI_idea_7_desc: "We must remember the times when we were the seat of the spritual ruler of half of Europe: the Pope of Avignon was supported by kings of France, Scotland, Aragon and Castile. The time of Glory will come once more, hovever, not by the power of the Church, but by the power of our armies and subjects."
 #Flanders
  FLA_ideas: "Flemish Ideas"
- FLA_ideas_start: "Flemish Traditions" 
+ FLA_ideas_start: "Flemish Traditions"
  FLA_ideas_bonus: "Flemish Ambitions"
  FLA_idea_1: "The Battle of the Golden Spurs"
  FLA_idea_1_desc: "Since the times of Pieter de Konnick, when we slaughtered the undisciplined French knightly rabble, Flanders had to buy herself independence with blood. Burghers and peasants, whose ancestors with simple flails and goedendags ended the age of chivalrous cavalry charges, will join the ranks of our zealous infantry, which will keep even the strongest enemies at bay."
@@ -413,9 +431,9 @@
  FLA_idea_6_desc: "Rich merchants – despite what some may think – have more tolerance to improvements and philosophical progress than anybody else. Of course, only if these help them gain more wealth – but the more money we come across, the more refuge-seeking thinkers we see..."
  FLA_idea_7: "Stroppendragers"
  FLA_idea_7_desc: "When the citizens of Ghent rebelled against unjust taxes and the tyranny of emperor Charles VI n 1540, he stripped them of privileges, guild laws, city walls, and even clothes; and made them beg for mercy barefoot, with noose on their necks as the symbols of their guilt. Flamands, hovever, never lose their spirits. Even after such misfortunes we stand bravely in defence of our freedom, and Ghentiles, as well as every Flemish person, can proudly call himself a Stroppendrager – a man that despots would like to sentence to death."
-#Electoral 
+#Electoral
  Electoral_ideas: "Electoral Ideas"
- Electoral_ideas_start: "Electoral Traditions" 
+ Electoral_ideas_start: "Electoral Traditions"
  Electoral_ideas_bonus: "Electoral Ambitions"
  Electoral_idea_1: "Declaration of Rhense"
  Electoral_idea_1_desc: "We, the Electors of the Reich, hereby declare that is is only in our right to choose the Emperor, and neither Pope nor foreign kings shall influence our decisions. We shall thus form an alliance within ourselves, to ensure that we will not be forced to accept any dominion. Let Virgin Mary bless our men of state and Archbishops so that they will be always understood in good trust, even if their sinful minds have no good intentions."
@@ -449,7 +467,7 @@
  die_idea_6_desc: "Worms has been chosen as the site of several Imperial diets and concordats, most notably the 1521 Diet of Worms which declared Martin Luther a heretic. We are thus on the forefront of political issues."
  die_idea_7: "Strengthen the City Walls"
  die_idea_7_desc: "In order for such a city as Worms to survive against powerful neighboring states, we need to keep an alert garrison and sufficient defenses at the ready. Upgrading our city walls will go a long way in establishing our sovereignty, and we'll make Speyer pay for it!"
-#Fiume 
+#Fiume
  FIU_ideas: "Fiume Ideas"
  FIU_ideas_start: "Fiuman Traditions"
  FIU_ideas_bonus: "Fiuman Ambitions"
@@ -468,8 +486,8 @@
  FIU_idea_7: "Indeficienter"
  FIU_idea_7_desc: "Starting from the early XIX century, the city of Fiume underwent tremendous architectural development, modernizing the city's infrastructure and turning it into the Mediterranean's fifth most important port. This age of blossoming optimism and economic welfare is reflected in the city's motto: Indeficienter (Without End)."
 #Stavelot-Malmedy
- SMM_ideas: "Stavelot-Malmedian Ideas" 
- SMM_ideas_start: "Stavelot-Malmedian Traditions" 
+ SMM_ideas: "Stavelot-Malmedian Ideas"
+ SMM_ideas_start: "Stavelot-Malmedian Traditions"
  SMM_ideas_bonus: "Stavelot-Malmedian Ambitions"
  hre_univ_ssm_tanning_industry: "Tanning Industry"
  hre_univ_ssm_tanning_industry_desc: "Malmedy began to flourish particularly in the 16th century with the development of tannery. In the 17th century, Stavelot and Malmedy were major centres of tanning in Europe."
@@ -485,9 +503,9 @@
  hre_univ_ssm_xenodochium_desc: "This is the monastery's hospice, where poor pilgrims are granted hospitality. Maybe some of them even want to join our army?"
  hre_univ_ssm_votum_virile: "Votum Virile"
  hre_univ_ssm_votum_virile_desc: "As a prince-abbot, the abbot of Stavelot-Malmedy sat in the College of Ruling Princes of the Ecclesiastical Bench of the Imperial Diet. Along with the handful of other prince-abbots, he cast a full vote (votum virile), in contrast to the majority of imperial abbots who were only entitled to a collective vote on their respective curial benches."
-#Fulda 
- FDX_ideas: "Fuldan Ideas" 
- FDX_ideas_start: "Fuldan Traditions" 
+#Fulda
+ FDX_ideas: "Fuldan Ideas"
+ FDX_ideas_start: "Fuldan Traditions"
  FDX_ideas_bonus: "Fuldan Ambitions"
  hre_univ_fdx_carolingian_center: "Carolingian center"
  hre_univ_fdx_carolingian_center_desc: "Fulda was an important cultural center to the Carolingian Empire, and Charlemagne hoped to ensure the continued salvation of his population through the religious activity of Fulda."
@@ -503,9 +521,9 @@
  hre_univ_fdx_episcopal_see_desc: "An episcopal see is the area of a bishop's ecclesiastical jurisdiction."
  hre_univ_fdx_fulda_gap: "The Fulda Gap"
  hre_univ_fdx_fulda_gap_desc: "The Fulda Gap is an strategically important area between the Hesse-Thuringian border and Frankfurt. Because of that, there is always an army present."
-#Saint Gallen 
- STX_ideas: "Saint-Gallener Ideas" 
- STX_ideas_start: "Saint-Gallener Traditions" 
+#Saint Gallen
+ STX_ideas: "Saint-Gallener Ideas"
+ STX_ideas_start: "Saint-Gallener Traditions"
  STX_ideas_bonus: "Saint-Gallener Ambitions"
  hre_univ_glx_swiss_protectorate: "Protectorate of the Swiss Confederation"
  hre_univ_glx_swiss_protectorate_desc: "Since the succesful intervention of the Swiss against an invasion, we and our enemies know that they will always help us agian."
@@ -548,7 +566,7 @@
  frisia6: "Marital Unity"
  frisia6_desc: "Frisians take family ties very seriously. The only way to halt a Frisian succession is with a sword, as is the only way to ensure one."
  frisia7: "Marine Engineer Corps"
- frisia7_desc: "I've heard of your famed Frisian engineers who can turn rocks into replicators." 
+ frisia7_desc: "I've heard of your famed Frisian engineers who can turn rocks into replicators."
 #Basic Ideas
  piracy_ideas: "Piracy Ideas"
  piracy_ideas_bonus: "Full Piracy Focus"
@@ -664,7 +682,7 @@
  abbacy_idea_6: "Reform Canon Law"
  abbacy_idea_6_desc: "Canon Law fundamentally dictates how the head of an Abbacy can act. By reviewing the existing codes and clarifying discrepancies, we should be able to streamline our bureaucracy."
  abbacy_idea_7: "Devotion of the Faithful"
- abbacy_idea_7_desc: "Heresy lurks around every corner, but considering our religious roots we are well prepared to deal with it swiftly and efficiently. No citizen will heed hell's corruptive grasp!" 
+ abbacy_idea_7_desc: "Heresy lurks around every corner, but considering our religious roots we are well prepared to deal with it swiftly and efficiently. No citizen will heed hell's corruptive grasp!"
 #RVA
  RVA_ideas_bonus: "Ravensburger Ambitions"
  RVA_ideas_start: "Ravensburger Traditions"
@@ -862,7 +880,7 @@
  dutch_ducal_idea_6: "Statenbijbel"
  dutch_ducal_idea_6_desc: "This is the first official Bible translated in the Dutch language. Because before this translation there was no real standard for the the Dutch language, so they had to make one; an important step in standardize the language. Due to the Eighty Years' War, many Flemish intellectuals fled to the Netherlands, and thus they also influenced the language used."
  dutch_ducal_idea_7: "Bloemencultuur"
- dutch_ducal_idea_7_desc: "Even from the 16th century the Netherlands had a real flower culture. When later the tulps arrived, they became so popular, that the price of these costly flowers became much higher. This was known as the tulip mania. In the 18th century, the tulips became more reasonable priced, so that the more common people could buy them. Since then, these flowers became an import export good." 
+ dutch_ducal_idea_7_desc: "Even from the 16th century the Netherlands had a real flower culture. When later the tulps arrived, they became so popular, that the price of these costly flowers became much higher. This was known as the tulip mania. In the 18th century, the tulips became more reasonable priced, so that the more common people could buy them. Since then, these flowers became an import export good."
 #Eichstatt
  ECH_ideas: "Eichstätter Ideas"
  ECH_ideas_start: "Eichstätter Traditions"
@@ -1024,7 +1042,7 @@
  GNF_idea_6: "Huguenot Haven"
  GNF_idea_6_desc: "Many protestants are finding refuge in our city as religious wars are ravaging Europe, bringing with them their artisanal skills."
  GNF_idea_7: "Escalade"
- GNF_idea_7_desc: "When foreign invaders tried to destroy our glorious city, every man, women, and senior rose up and joined the soldiers to defend their home. This uprising shall forever be memorated and celebrated." 
+ GNF_idea_7_desc: "When foreign invaders tried to destroy our glorious city, every man, women, and senior rose up and joined the soldiers to defend their home. This uprising shall forever be memorated and celebrated."
 #Lausanne
  LSN_ideas: "Lausannois Ideas"
  LSN_ideas_start: "Lausannois Traditions"
@@ -1078,7 +1096,7 @@
  SMZ_idea_6: "Capuchin Presence"
  SMZ_idea_6_desc: "Recently, many members of the Order of Friars Minor Capuchin have started settling in our domain. Their practice have started attracting many of our subjects, inculcating religious ideas in their lifestyles, pacifying a number of them."
  SMZ_idea_7: "Roads Revision"
- SMZ_idea_7_desc: "After a complete overhaul of our road networks, we have succeded in establishing a more efficient system that ensure a better tarrif system throughout our territory." 
+ SMZ_idea_7_desc: "After a complete overhaul of our road networks, we have succeded in establishing a more efficient system that ensure a better tarrif system throughout our territory."
 #Sion
  STT_ideas: "Sionois Ideas"
  STT_ideas_start: "Sionois Traditions"
@@ -1114,7 +1132,7 @@
  VLL_idea_6: "Simplon Pass Routes"
  VLL_idea_6_desc: "By reopening the Simplon Pass to trade, convoys from Italy can now directly go through Valais instead of going around the Alps, enriching our domain."
  VLL_idea_7: "Binn Valley Minerals"
- VLL_idea_7_desc: "We have discovered incredible amounts of shiny stones near Binn, we can begin their exploitation to bring great wealth to Valais!" 
+ VLL_idea_7_desc: "We have discovered incredible amounts of shiny stones near Binn, we can begin their exploitation to bring great wealth to Valais!"
 #Normandy
  NRM_ideas: "Norman Ideas"
  NRM_ideas_bonus: "Norman Ambitions"
@@ -1258,7 +1276,7 @@
  GLY_idea_6: "Oceanic Obstacle"
  GLY_idea_6_desc: "Water protects us from Britain, making it easier to defend our nation and makes them suffer more on the way to our isles."
  GLY_idea_7: "Modernize the Army"
- GLY_idea_7_desc: "Our army has been modernized, allowing it to excel in new things, sadly our old viking strategies became obsolete..." 
+ GLY_idea_7_desc: "Our army has been modernized, allowing it to excel in new things, sadly our old viking strategies became obsolete..."
 #Mann
  MNN_ideas: "Manx Ideas"
  MNN_ideas_start: "Manx Traditions"
@@ -1294,7 +1312,7 @@
  LGV_idea_6: "Catalan Origin"
  LGV_idea_6_desc: "Our country is renown for its catalan roots, giving us more diplomatic chances with the catalans in the south."
  LGV_idea_7: "Tax Haven"
- LGV_idea_7_desc: "Our nation is a low taxes nation, so naturally alot of merchants come to live here, off whom we can live richer!" 
+ LGV_idea_7_desc: "Our nation is a low taxes nation, so naturally alot of merchants come to live here, off whom we can live richer!"
 #Albarracin
  ARR_ideas: "Albarracinense Ideas"
  ARR_ideas_start: "Albarracinense Traditions"
@@ -1348,7 +1366,7 @@
  MLL_idea_6: "Prevent the Fall"
  MLL_idea_6_desc: "Mallorca is threatened by big nations and their big conflicts, putting our country at risk - but we are already planning how to make it not worth for them to take our lands!"
  MLL_idea_7: "Sailors Over Army"
- MLL_idea_7_desc: "Our nation is surrounded by seas, we need to protect our own waters first, then the land combat comes." 
+ MLL_idea_7_desc: "Our nation is surrounded by seas, we need to protect our own waters first, then the land combat comes."
 #Rendsburg
  RSB_ideas: "Rendsburger Ideas"
  RSB_ideas_start: "Rendsburger Traditions"
@@ -1366,7 +1384,7 @@
  RSB_idea_6: "Germanification of Schleswig"
  RSB_idea_6_desc: "Although we were not Germanized, our intelligent local culture-converting experts have participated in it, learning quite a few things, and helping us to convert some foreigners next time."
  RSB_idea_7: "The Kiel Canal"
- RSB_idea_7_desc: "Although the Eider is navigable for small craft from its mouth on the North Sea to Rendsburg, the town's importance rose in 1895, when the Kiel Canal was finished. The much larger ships that could navigate the Kiel Canal meant that, although situated inland, Rendsburg became a seaport and a dockyard." 
+ RSB_idea_7_desc: "Although the Eider is navigable for small craft from its mouth on the North Sea to Rendsburg, the town's importance rose in 1895, when the Kiel Canal was finished. The much larger ships that could navigate the Kiel Canal meant that, although situated inland, Rendsburg became a seaport and a dockyard."
 #Schauenburg
  SMB_ideas: "Schauenburger Ideas"
  SMB_ideas_start: "Schauenburger Traditions"
@@ -1384,7 +1402,7 @@
  SMB_idea_6: "Extensive Cadets"
  SMB_idea_6_desc: "The house originating with Schauenburg Castle, having inherited the Holstein area, eventually split into countless cadet branches and sub-duchies. Itzehoe, Kiel, Rendsburg, Pinneberg, Plön, Segeberg, and even the many Schleswiger states spread from us over time."
  SMB_idea_7: "Sympathy of the Danes"
- SMB_idea_7_desc: "Since the foreigners seem to like us, we can easily use this situation to make relations even better, helping us snowball the mutual goodwill." 
+ SMB_idea_7_desc: "Since the foreigners seem to like us, we can easily use this situation to make relations even better, helping us snowball the mutual goodwill."
 #Lauenburg
  LAU_ideas: "Lauenburger Ideas"
  LAU_ideas_start: "Lauenburger Traditions"
@@ -1402,7 +1420,7 @@
  LAU_idea_6: "Proffesional Espionage"
  LAU_idea_6_desc: "Our spies have been experimenting with alot types of espionage, discovering which is the best, and still discovering better ways to build spy network."
  LAU_idea_7: "Castle Reconstruction"
- LAU_idea_7_desc: "After a fire in our residential castle, Johann V has decided to reconstruct the castle and improve the design of it, also improving our engineers." 
+ LAU_idea_7_desc: "After a fire in our residential castle, Johann V has decided to reconstruct the castle and improve the design of it, also improving our engineers."
 #Aquitaine
  AQT_ideas: "Aquitinian Ideas"
  AQT_ideas_start: "Aquitinian Traditions"
@@ -1420,7 +1438,7 @@
  AQT_idea_6: "Stronghold of Huguenots"
  AQT_idea_6_desc: "After the Hundred Years' War the region served as a stronghold for the Protestant Huguenot, who suffered persecution at the hands of the French Catholics."
  AQT_idea_7: "Bordeaux Trade"
- AQT_idea_7_desc: "Bordeaux is at the west end of europe, allowing us to collect goods from the New World. This allows us to offer some exotic goods and scam others just because they don't have them and we do." 
+ AQT_idea_7_desc: "Bordeaux is at the west end of europe, allowing us to collect goods from the New World. This allows us to offer some exotic goods and scam others just because they don't have them and we do."
 #Enghien
  EGH_ideas: "Enghiener Ideas"
  EGH_ideas_start: "Enghiener Traditions"
@@ -1438,7 +1456,7 @@
  EGH_idea_6: "Found a Proffesional Army"
  EGH_idea_6_desc: "Enghien has been long relying off skilless conscripts who hardly know how to fire our guns, so we decided that we would be better off with a smaller army, but which can shoot guns properly..."
  EGH_idea_7: "Dutch Influence"
- EGH_idea_7_desc: "The Dutch have been members of our community for a long time, allowing them to be more integrated." 
+ EGH_idea_7_desc: "The Dutch have been members of our community for a long time, allowing them to be more integrated."
 #Hainaut
  HAI_ideas: "Hainautian Ideas"
  HAI_ideas_start: "Hainautian Traditions"
@@ -1456,7 +1474,7 @@
  HAI_idea_6: "Legacy of the Army"
  HAI_idea_6_desc: "Hainaut is renown for having a strong army, which was commonly used by foreign powers in their pesky wars."
  HAI_idea_7: "Waux Hall"
- HAI_idea_7_desc: "Waux Hall park was built in the 19th century (1862–1864) at the initiative of the Society of Waux Hall created for this purpose by members of the bourgeoisie - but still, it is a marvel of our architecture." 
+ HAI_idea_7_desc: "Waux Hall park was built in the 19th century (1862–1864) at the initiative of the Society of Waux Hall created for this purpose by members of the bourgeoisie - but still, it is a marvel of our architecture."
 #Franche-Comte
  FCM_ideas: "Franche-Comtois Ideas"
  FCM_ideas_bonus: "Franche-Comtois Ambitions"
@@ -1492,7 +1510,7 @@
  GEL_idea_6: "Preußisch Gelre"
  GEL_idea_6_desc: "Guelders have formed quite known communities in Prussia, sharing the glory of our nation to the peasants in there."
  GEL_idea_7: "Surrounded by Hostiles"
- GEL_idea_7_desc: "Gelre is surrounded by strong powers, making it need to defend its independence in the cultural side of things." 
+ GEL_idea_7_desc: "Gelre is surrounded by strong powers, making it need to defend its independence in the cultural side of things."
 #Brabant
  BRB_ideas: "Brabantian Ideas"
  BRB_ideas_start: "Brabantian Traditions"
@@ -1672,7 +1690,7 @@
  ICN_idea_6: "The Rugged Coast"
  ICN_idea_6_desc: "The west coast of Connacht is more rugged and inhospitable than almost anywhere else in Ireland. However, it does provide an excellent training ground for our navies for fighting in shallow waters and around dangerous terrain."
  ICN_idea_7: "Repopulation"
- ICN_idea_7_desc: "Connacht has been hit hard by the famines that have ravaged Ireland, killing many of our people. We must pursue policies that allow us to get our population back to what it once was." 
+ ICN_idea_7_desc: "Connacht has been hit hard by the famines that have ravaged Ireland, killing many of our people. We must pursue policies that allow us to get our population back to what it once was."
 #Irish Clan
  irishclan_ideas: "Irish Clan Ideas"
  irishclan_ideas_start: "Irish Clan Traditions"
@@ -1816,7 +1834,7 @@
  HUM_idea_6: "Anti-Serbian Interests"
  HUM_idea_6_desc: "We have come into conflict with the Serbs many times in our Nation's history. We have always held our own against them and we shall continue to do so."
  HUM_idea_7: "Siege Of Dubrovnik"
- HUM_idea_7_desc: "Stjepan Vukčić Kosača sieged Dubrovnik, a Ragusan city, in 1451. We have learned many lessons about the art of siege warfare from it." 
+ HUM_idea_7_desc: "Stjepan Vukčić Kosača sieged Dubrovnik, a Ragusan city, in 1451. We have learned many lessons about the art of siege warfare from it."
 #Pagania
  AAI_ideas: "Paganian Ideas"
  AAI_ideas_start: "Paganian Traditions"
@@ -1852,7 +1870,7 @@
  POJ_idea_6: "Law Of The People"
  POJ_idea_6_desc: "Our laws change as our nation changes. Being a glorious peasant republic, the people drive the changes, not the nobles. This has created a unifying force for our nation that is shown on the battlefield."
  POJ_idea_7: "Legacy of Poljicka"
- POJ_idea_7_desc: "Even hundreds of years after our republic has fallen, there are still people who believe in it and agree with it's ways and beliefs. Poljicka shall never be erased from history." 
+ POJ_idea_7_desc: "Even hundreds of years after our republic has fallen, there are still people who believe in it and agree with it's ways and beliefs. Poljicka shall never be erased from history."
 #Split
  DKJ_ideas: "Splitian Ideas"
  DKJ_ideas_start: "Splitian Traditions"
@@ -1906,7 +1924,7 @@
  KRJ_idea_6: "De Facto Rule"
  KRJ_idea_6_desc: "Our political maneourvers and successful plotting has allowed us to rse to the top of the anarchical and fractured Bosnian Kingdom. We have gained a reputation for cunning and ruthless diplomacy from our triumph here."
  KRJ_idea_7: "Espionage Expertise"
- KRJ_idea_7_desc: "He who lives by the sword dies by the sword; such is true for spies as welll. Our lands were eventually divided by a conspiracy that fragmented our duchy. However, our people will never forget the lessons learned on the art of Espionage."  
+ KRJ_idea_7_desc: "He who lives by the sword dies by the sword; such is true for spies as welll. Our lands were eventually divided by a conspiracy that fragmented our duchy. However, our people will never forget the lessons learned on the art of Espionage."
 #Anglo-Saxons
  angsax_ideas: "Anglo-Saxon Ideas"
  angsax_ideas_start: "Anglo-Saxon Traditions"
@@ -1924,7 +1942,7 @@
  angsax_idea_6: "Battle of Maldon"
  angsax_idea_6_desc: "The Battle of Maldon was an attempt by Aethelred the Unready centuries ago to end the Danegeld in his own time. An Anglo-Saxon army under Byrhtnoth refused the demand of tribute and began to successfully prevent the Vikings from coming ashore, but overconfidence led to the collapse of the famed Shield Wall tactic. When a cowardly soldier took off on the Earl's horse, the troops mistook it for the Earl himself and routed. The matter has been immortalized in a poem and will never be forgotten by us."
  angsax_idea_7: "Reclaim the Wash"
- angsax_idea_7_desc: "The expertise of Dutch engineers has allowed for the extensive reclamation of swamp lands called Fens, especially around Yorkshire and the East Anglian inlet called 'the Wash'. Spreading out the nation's population will be much easier now." 
+ angsax_idea_7_desc: "The expertise of Dutch engineers has allowed for the extensive reclamation of swamp lands called Fens, especially around Yorkshire and the East Anglian inlet called 'the Wash'. Spreading out the nation's population will be much easier now."
 #Halych
  VOL_ideas: "Halychian Ideas"
  VOL_ideas_start: "Halychian Traditions"
@@ -1942,8 +1960,8 @@
  VOL_idea_6: "Exiles From Other Duchies"
  VOL_idea_6_desc: "Halych and Volhynia was one of the few lands of ancient Rus that escaped the Tatar yoke. So many banished individuals arrived to our country to work and develop science and crafts."
  VOL_idea_7: "Ties with the World"
- VOL_idea_7_desc: "Our duchy has a lot of common history with neighbors. Our dukes constantly married Lithuanian and Polish women as well as other Russian states. So many dynasties have Halychian roots in their history." 
-#Como 
+ VOL_idea_7_desc: "Our duchy has a lot of common history with neighbors. Our dukes constantly married Lithuanian and Polish women as well as other Russian states. So many dynasties have Halychian roots in their history."
+#Como
  CMO_ideas: "Comaschian Ideas"
  CMO_ideas_start: "Comaschian Traditions"
  CMO_ideas_bonus: "Comaschian Ambition"
@@ -1990,7 +2008,7 @@
  LFF_idea_6: "Disastrous Thirty Years' War"
  LFF_idea_6_desc: "Due to it's strategic location, the prosperous town suffered a lot from the Thirty Year's War. It changed many times from hands, was frequently plundered, it's defences were demolished, crops and cattle were all seized, and almost nothing else was undamaged. After the war only about 150 people lived in Lauffen, although during the war the lowest had been 30. But it didn't end here: for the next two centuries, the town would suffer from many more wars with similar effects."
  LFF_idea_7: "Lauffener Katzenbeisser"
- LFF_idea_7_desc: "The land around Lauffen on the Neckar has always been considered fertile and is widely used for agriculture. The friendly warm climate also allows for winegrowing, which can be traced back to the time of the Romans. Like no other element, the wine has shaped the cultivated landscape of Lauffen on the Neckar, especially in the terraced steep slopes of the Neckar." 
+ LFF_idea_7_desc: "The land around Lauffen on the Neckar has always been considered fertile and is widely used for agriculture. The friendly warm climate also allows for winegrowing, which can be traced back to the time of the Romans. Like no other element, the wine has shaped the cultivated landscape of Lauffen on the Neckar, especially in the terraced steep slopes of the Neckar."
 #Belz
  SND_ideas: "Belzian Ideas"
  SND_ideas_start: "Belzian Traditions"
@@ -2044,7 +2062,7 @@
  ONU_idea_6: "Russian Governorate"
  ONU_idea_6_desc: "After the third Commonwealth partition most of Podolia became a part of Russian Empire. It became Podolian Governorate. In 1815 the rest part of Podolia was given to Russia by Austria."
  ONU_idea_7: "Nature of Podolia"
- ONU_idea_7_desc: "Nature of Podolia is truely beautiful. In the 19th century there were discoverd few wonderful caves. Ozernaya and Khrustalnaya are two greatest of them." 
+ ONU_idea_7_desc: "Nature of Podolia is truely beautiful. In the 19th century there were discoverd few wonderful caves. Ozernaya and Khrustalnaya are two greatest of them."
 #Peremyshl
  PRY_ideas: "Peremyshlian Ideas"
  PRY_ideas_start: "Peremyshlian Traditions"
@@ -2206,7 +2224,7 @@
  WRC_idea_6: "Renowned Printing Industry"
  WRC_idea_6_desc: "In 1475 the first printed text in the Polish language, 'Statuta Synodalia Episcoporum Wratislaviensium', was printed at Wroclaw."
  WRC_idea_7: "Silesian School of Poets"
- WRC_idea_7_desc: "Throughout the 17th and 18th centuries the arts in Breslau flourished, with the First and Second Silesian School of Poets being founded in the city. It also became a major centre for German baroque literature." 
+ WRC_idea_7_desc: "Throughout the 17th and 18th centuries the arts in Breslau flourished, with the First and Second Silesian School of Poets being founded in the city. It also became a major centre for German baroque literature."
 #Wielkopolska
  WKP_ideas: "Wielkopolish Ideas"
  WKP_ideas_start: "Wielkopolish Traditions"
@@ -2224,7 +2242,7 @@
  WKP_idea_6: "Resistance to Occupation"
  WKP_idea_6_desc: "When foreign armies come knocking, they will know our strength and morale in the face of their incursions. The people shall take what weapons they can find and fight as one."
  WKP_idea_7: "Greater Polish Uprisings"
- WKP_idea_7_desc: "March, march Dabrowski,\nTo Poland from the Italian land.\nUnder your command\nWe shall rejoin the nation."  
+ WKP_idea_7_desc: "March, march Dabrowski,\nTo Poland from the Italian land.\nUnder your command\nWe shall rejoin the nation."
 #Mecklenburg
  MKL_ideas: "Mecklenburger Ideas"
  MKL_ideas_start: "Mecklenburger Traditions"
@@ -2368,7 +2386,7 @@
  DSS_idea_6: "Unstable Southern Border"
  DSS_idea_6_desc: "The southern border of Dassel varies a lot. We must pressure our influence there with our military."
  DSS_idea_7: "Hunnesrück"
- DSS_idea_7_desc: "Hunnesrück was a small village near the old town of Dassel, where after the Thirty Year's War new administrative buildings were placed, although they could also be used as barracks, mainly for cavalry units, as it was the place of an important stud farm." 
+ DSS_idea_7_desc: "Hunnesrück was a small village near the old town of Dassel, where after the Thirty Year's War new administrative buildings were placed, although they could also be used as barracks, mainly for cavalry units, as it was the place of an important stud farm."
 #Hohenburg
  HBG_ideas: "Hohenburger Ideas"
  HBG_ideas_start: "Hohenburger Traditions"
@@ -2927,7 +2945,7 @@
  PAA_idea_6_desc: "More than in other bishoprics, Passau carried many visitations of discipline, life and morals."
  PAA_idea_7: "Reduction of the Old Diocese of Passau"
  PAA_idea_7_desc: "The Diocese of Passau is much older than the neighboring dioceses, as Passau can be considered as the successor of the ancient Roman diocese of Lorch. It was also on of the earliest states to gain princely powers.\n\nWe are, or to be more correct, were the largest diocese of the Holy Roman Empire, stretching even into Hungary, but the Pope, Austria Bavaria and all the other neighbors don't seem to care about us, and just took away much of our influence to create more dioceses like Vienna. We should solve this militarily."
-#Salzburg 
+#Salzburg
  SLZ_ideas: "Salzburger Ideas"
  SLZ_ideas_start: "Salzburger Traditions"
  SLZ_ideas_bonus: "Salzburger Ambitions"
@@ -3088,7 +3106,7 @@
  BBB_idea_6: "Support Baroque Art"
  BBB_idea_6_desc: "Our neighbours all hire Baroque architects and artists. Therefore, we will build new residences and an unprecedented theatre to show the world that we can compete culturally, too!"
  BBB_idea_7: "Vierzehnheiligen"
- BBB_idea_7_desc: "In 1445 and 1446 a shepherd had two visions of fourteen children revealing themself as the Fourteen Holy Helpers near Lichtenfels, a terminally ill maid was miraculously cured. Ever since, the amount of pilgrims increased and now has reached an gigantic dimension, so that the old, small church is no longer able to sustain. Commissioning the famous architect, Balthasar Neumann, with a new rococo church would not only help to create enough space but also show greatness of God making the devotion of our poor subordinate souls thrive!" 
+ BBB_idea_7_desc: "In 1445 and 1446 a shepherd had two visions of fourteen children revealing themself as the Fourteen Holy Helpers near Lichtenfels, a terminally ill maid was miraculously cured. Ever since, the amount of pilgrims increased and now has reached an gigantic dimension, so that the old, small church is no longer able to sustain. Commissioning the famous architect, Balthasar Neumann, with a new rococo church would not only help to create enough space but also show greatness of God making the devotion of our poor subordinate souls thrive!"
 #Bayreuth
  NUO_ideas: "Bayreuther Ideas"
  NUO_ideas_start: "Bayreuther Traditions"
@@ -3142,7 +3160,7 @@
  ROE_idea_6: "Vine Land of the Tauber Valley"
  ROE_idea_6_desc: "The lovely Tauber valley and Rothenburg are the southern part of the Franconian vineyards. As we now control large parts of these, we can now compete with the vineyards around the river Main and so we are an equal trade partner. Therefore, both regions will prot from trading, and we might be even able to secure the privilege to bottle our vine into Bocksbeutel, a remarkable and famous ellipsoid bottle."
  ROE_idea_7: "Schneeballen"
- ROE_idea_7_desc: "Our bakers have created small ball like pastry called Schneeballen, because they look like snowballs. They are made out of short pastry through cutting the dough in small slices and twirling it around with a spoon. Thereafter they are boiled in fat and then powdered with sugar. Now already for years, they are eaten during festivals like Christmas and weddings and have become an integral part of our traditions." 
+ ROE_idea_7_desc: "Our bakers have created small ball like pastry called Schneeballen, because they look like snowballs. They are made out of short pastry through cutting the dough in small slices and twirling it around with a spoon. Thereafter they are boiled in fat and then powdered with sugar. Now already for years, they are eaten during festivals like Christmas and weddings and have become an integral part of our traditions."
 #South German Confederation
  SGC_ideas: "South German Ideas"
  SGC_ideas_start: "South German Traditions"
@@ -3160,7 +3178,7 @@
  SGC_idea_6: "Prestigious Kingdoms"
  SGC_idea_6_desc: "There is no doubt, that the world knows about the Grand Duchy of Baden, The Kingdom of Bavaria, The Kingdom of Swabia and The Archduchy of Austria, therefore no one can truly usurp the right of the dynasty sitting on the throne"
  SGC_idea_7: "Sought-After Advisors"
- SGC_idea_7_desc: "Numerous universities and high quality education makes our advisors wanted abroad, but thanks to their patriotism, they are willing to use their skills for their country without any hesitation"  
+ SGC_idea_7_desc: "Numerous universities and high quality education makes our advisors wanted abroad, but thanks to their patriotism, they are willing to use their skills for their country without any hesitation"
 #North German Confederation
  NGC_ideas: "North German Ideas"
  NGC_ideas_start: "North German Traditions"
@@ -3394,7 +3412,7 @@
  ORA_idea_6: "Théâtre Antique d'Orange"
  ORA_idea_6_desc: "In ancient times, Orange was a Roman colony known as Arausio, or Colonia Julia Firma Secundanorum Arausio. As such, it was fitted with a Roman-style theater, which still stands to this day as one of Europe's greatest."
  ORA_idea_7: "Cadastre d'Orange"
- ORA_idea_7_desc: "One of the best preserved Roman maps ever discovered, the Cadastre dates from the reign of Vespasian and covers the land surrounding Orange. This marvelous artifact will attract many visitors to our city!" 
+ ORA_idea_7_desc: "One of the best preserved Roman maps ever discovered, the Cadastre dates from the reign of Vespasian and covers the land surrounding Orange. This marvelous artifact will attract many visitors to our city!"
 #Loon
  LOO_ideas: "Loony Ideas"
  LOO_ideas_start: "Loony Traditions"
@@ -3448,4 +3466,4 @@
  VMG_idea_6: "Col de Tende"
  VMG_idea_6_desc: "Separating the Maritime Alps and the Ligurian Alps, the Col de Tende is a high mountain pass between Italy and France. Its roots are as ancient as the region's Hellenistic colonies, and we should use it to our advantage, exacting tolls for its continued maintenance."
  VMG_idea_7: "Last French Conquest"
- VMG_idea_7_desc: "Over the centuries France carved out much land that had been traditionally aligned with Italy, including an exchange that saw the original Savoyard lands themselves lost to the house of Savoy. Tenda, the later capital of our county, was the last Italian commune to ever join the French Republic." 
+ VMG_idea_7_desc: "Over the centuries France carved out much land that had been traditionally aligned with Italy, including an exchange that saw the original Savoyard lands themselves lost to the house of Savoy. Tenda, the later capital of our county, was the last Italian commune to ever join the French Republic."
