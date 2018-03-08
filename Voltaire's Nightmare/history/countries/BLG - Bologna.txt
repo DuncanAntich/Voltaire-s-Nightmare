@@ -1,12 +1,56 @@
-government = italian_monarchy
-government_rank = 1
+government = theocratic_government
+government_rank = 3
 technology_group = western
 religion = catholic
 primary_culture = emilian
 capital = 974
 add_army_professionalism = 0.05
 
+1031.1.1 = {
+	monarch = {
+		name = "Adalfredo"
+		culture = pfalzish
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1061.1.1 = {
+	monarch = {
+		name = "Lamberto"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1078.1.1 = {
+	monarch = {
+		name = "Gerardo"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1089.1.1 = {
+	monarch = {
+		name = "Bernardo"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1104.4.15 = {
+	monarch = {
+		name = "Vittorio"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+#City
 1115.7.24 = {
+	government = italian_monarchy
+	government_rank = 1
 	monarch = {
 		name = "Repubblica"
 		regent = yes

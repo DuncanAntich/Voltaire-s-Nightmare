@@ -14,13 +14,15 @@ capital = 1770
 		dip = 3
 		mil = 3
 	}
-	queen = {
-		country_of_origin = BAR
-		name = "Sophie"
-		dynasty = "d'Ardenne"
-		birth_date = 1018.1.1
-		death_date = 1093.6.21
-		female = yes
+}
+1045.1.1 = {
+	heir = {
+		name = "Thierry"
+		monarch_name = "Thierry I"
+		dynasty = "de Montbéliard"
+		birth_date = 1045.1.1
+		death_date = 1103.1.2
+		claim = 95
 		adm = 2
 		dip = 2
 		mil = 2
@@ -33,6 +35,19 @@ capital = 1770
 		birth_date = 1045.1.1
 		adm = 2
 		dip = 2
+		mil = 2
+	}
+}
+1078.1.1 = {
+	heir = {
+		name = "Thierry"
+		monarch_name = "Thierry II"
+		dynasty = "de Montbéliard"
+		birth_date = 1078.1.1
+		death_date = 1163.1.2
+		claim = 95
+		adm = 2
+		dip = 3
 		mil = 2
 	}
 }
@@ -149,7 +164,7 @@ capital = 1770
 		mil = 2
 	}
 }
-#done 1407
+#done 1444
 1617.1.1 = {
 	capital = 1770
 	monarch = {

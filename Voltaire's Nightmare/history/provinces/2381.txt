@@ -24,19 +24,19 @@ discovered_by = muslim
 	remove_core = BYZ
 }
 1310.1.1 = { culture = wallachian }
+1323.1.1 = {
+	owner = KRV
+	controller = KRV
+}
 1330.11.12 = {
 	owner = WAL
 	controller = WAL
 	add_core = WAL
 }
 1334.1.1 = {
-	owner = BUL
-	controller = BUL
-	remove_core = WAL
-}
-1340.1.1 = {
 	owner = KRV
 	controller = KRV
+	remove_core = WAL
 }
 1389.1.1 = {
 	owner = WAL

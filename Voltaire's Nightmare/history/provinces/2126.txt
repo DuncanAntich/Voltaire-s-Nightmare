@@ -3,7 +3,7 @@ controller = HUN
 add_core = HUN
 add_core = UNG
 culture = slovak
-religion = tengri_pagan_reformed
+religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
@@ -16,7 +16,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1059.1.1 = { religion = catholic }
 1301.1.14 = {
 	owner = UNG
 	controller = UNG

@@ -73,8 +73,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_hindu_deities_strip"
 		texturefile = "gfx//interface//hindu_deities_strip.dds"
-		noOfFrames = 42
+		noOfFrames = 48
 	}
+
+	spriteType = {
+		name = "GFX_russian_icons_strip"
+		texturefile = "gfx//interface//russian_icons_strip.dds"
+		noOfFrames = 10
+	}	
 
 	# Turkey
 	
@@ -133,27 +139,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_faction_abb_benedictines"	
 		texturefile = "gfx//interface//benedictines_icon.tga"
-	}
-
-	# Hussite
-	
-	spriteType = {
-		name = "GFX_faction_bg_taborites"	
-		texturefile = "gfx//interface//faction_blue_frame.tga"
-		transparencecheck = yes
-	}	
-	spriteType = {
-		name = "GFX_faction_taborites"	
-		texturefile = "gfx//interface//guilds_icon.tga"
-	}
-	spriteType = {
-		name = "GFX_faction_bg_utraquists"	
-		texturefile = "gfx//interface//faction_blue_frame.tga"
-		transparencecheck = yes
-	}	
-	spriteType = {
-		name = "GFX_faction_utraquists"	
-		texturefile = "gfx//interface//traders_icon.tga"
 	}
 
 	#Ideas

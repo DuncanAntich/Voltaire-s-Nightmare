@@ -2658,7 +2658,7 @@ guiTypes = {
 				name = "provinces_listbox"
 				backGround = ""
 				position = { x= 20 y = 250 }
-				size = { x=480 y=388 }
+				size = { x=473 y=353 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2707,7 +2707,7 @@ guiTypes = {
 			iconType = {
 				name = "patriarch_bg"
 				spriteType = "GFX_patriarchy_slot"
-				position = { x = 12 y = 419 }
+				position = { x = 12 y = 610 }
 			}			
 	
 			guiButtonType = {
@@ -2716,21 +2716,21 @@ guiTypes = {
 				buttonFont = "vic_18"
 				buttonText = "CONSECRATE_BUTTON"
 
-				position = { x = 30 y = 427 }
+				position = { x = 30 y = 618 }
 			}
 
 			iconType =
 			{
 				name = "consecrate_patriarch"
 				spriteType = "GFX_patriarch_icon"
-				position = { x = 234 y = 426 }
+				position = { x = 234 y = 617 }
 			}
 
 			# Ottoman Pasha
 			iconType = {
 				name = "pasha_bg"
 				spriteType = "GFX_patriarchy_slot"
-				position = { x = 12 y = 419 }
+				position = { x = 12 y = 610 }
 			}			
 	
 			guiButtonType = {
@@ -2739,14 +2739,14 @@ guiTypes = {
 				buttonFont = "vic_18"
 				buttonText = "ADD_PASHA_BUTTON"
 
-				position = { x = 30 y = 427 }
+				position = { x = 30 y = 618 }
 			}
 
 			iconType =
 			{
 				name = "add_pasha"
 				spriteType = "GFX_pasha_icon"
-				position = { x = 234 y = 426 }
+				position = { x = 234 y = 617 }
 			}
 
 			guiButtonType = {
@@ -2755,7 +2755,7 @@ guiTypes = {
 				buttonFont = "vic_18"
 				buttonText = "CREATE_JANISSARIES_BUTTON"
 
-				position = { x = 283 y = 427 }
+				position = { x = 283 y = 618 }
 			}			
 		}
 		

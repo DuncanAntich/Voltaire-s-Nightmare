@@ -1,5 +1,5 @@
-owner = GLD
-controller = GLD
+owner = SNI
+controller = SNI
 culture = pruthenian
 religion = animism
 hre = no
@@ -9,7 +9,7 @@ trade_goods = munitions
 base_manpower = 1
 capital = "Kajkawo"
 is_city = yes
-add_core = GLD
+add_core = SNI
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -24,7 +24,7 @@ discovered_by = muslim
 1287.1.1 = {
 	culture = prussian
 	religion = catholic
-	remove_core = GLD
+	remove_core = SNI
 }
 1454.3.6 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1466.10.19 = { revolt = {} controller = TEU }

@@ -18,6 +18,14 @@ vassal = {
 	end_date = 1295.1.1
 }
 
+#Parts
+union = {
+	first = TUS
+	second = RGO
+	start_date = 1000.1.1
+	end_date = 1115.7.24
+}
+
 #Changes hands many times
 union = {
 	first = ORL
@@ -34,10 +42,10 @@ union = {
 
 #Brief rule before kingdom declared
 union = {
-	first = SIC
+	first = TNC
 	second = APL
 	start_date = 1127.7.1
-	end_date = 1130.1.1
+	end_date = 1130.12.25
 }
 
 #Norman counties
@@ -104,7 +112,7 @@ alliance = {
 }
 
 #Cesare borgia
-march = {
+vassal = {
 	first = PAP
 	second = RMG
 	start_date = 1500.1.1
@@ -187,30 +195,6 @@ union = {
 	second = WWS
 	start_date = 1250.12.13
 	end_date = 1258.1.1
-}
-alliance = {
-	first = SIC
-	second = WWS
-	start_date = 1194.10.1
-	end_date = 1208.6.21
-}
-alliance = {
-	first = SIC
-	second = WWS
-	start_date = 1225.11.29
-	end_date = 1250.12.13
-}
-royal_marriage = {
-	first = SIC
-	second = WWS
-	start_date = 1194.10.1
-	end_date = 1208.6.21
-}
-royal_marriage = {
-	first = SIC
-	second = WWS
-	start_date = 1225.11.29
-	end_date = 1250.12.13
 }
 
 #vassal of savoy
@@ -355,14 +339,6 @@ union = {
 	second = TUS
 	start_date = 1859.12.8
 	end_date = 1861.3.20
-}
-
-#estates
-vassal = {
-	first = PAP
-	second = RMG
-	start_date = 1054.1.1
-	end_date = 1177.7.24
 }
 
 #breddy much united

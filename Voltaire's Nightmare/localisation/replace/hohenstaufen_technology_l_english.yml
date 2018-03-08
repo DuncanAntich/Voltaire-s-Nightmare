@@ -479,3 +479,4 @@
  smoke_ceremonies: "Formal Ceremonies"
  smoke_ceremonies_desc: "The use of ceremonies among our people is an ancient art. By using those ceremonies to seal peaces and covenants, we can lend greater authority to our agreements and deals."
  REFNATIVE_1: "We are no longer a primitive tribe!"
+ NATIVES_CANT_FABRICATE: "Tribes cannot fabricate claims.\n"

@@ -1,7 +1,7 @@
 owner = SWE
 controller = SWE
 culture = swedish
-religion = catholic
+religion = norse_pagan_reformed
 hre = no
 base_tax = 3
 base_production = 3
@@ -16,6 +16,7 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1060.1.1 = { religion = catholic }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1527.6.1 = { religion = protestant}
 1598.8.15 = { controller = PLC }

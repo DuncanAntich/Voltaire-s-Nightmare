@@ -1,5 +1,5 @@
-owner = RMG
-controller = RMG
+owner = FAE
+controller = FAE
 culture = romagnan
 religion = catholic
 hre = yes
@@ -9,18 +9,20 @@ trade_goods = peaches
 base_manpower = 2
 capital = "Tredozio"
 is_city = yes
-add_core = RMG
+add_core = FAE
 add_core = TDZ
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
 1140.1.1 = {
 	owner = PRT
 	controller = PRT
 	add_core = PRT
-	remove_core = RMG
+	remove_core = FAE
 }
 1164.8.29 = {
 	owner = TDZ
@@ -67,5 +69,3 @@ discovered_by = muslim
 	controller = ITA
 	add_core = ITA
 }
-discovered_by = nomad_group
-discovered_by = north_american

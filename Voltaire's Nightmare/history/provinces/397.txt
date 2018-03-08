@@ -15,11 +15,17 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1206.1.1 = {
+	owner = TVT
+	controller = TVT
+	add_core = TVT
+	remove_core = ZGL
+}
 1230.1.1 = {
 	owner = LIV
 	controller = LIV
 	add_core = LIV
-	remove_core = ZGL
+	remove_core = TVT
 	religion = catholic
 	capital = "Bauske"
 }

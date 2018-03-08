@@ -32,12 +32,8 @@ country_decisions = {
 	de_heretico_comburendo_act = {
 		potential = {
 			NOT = { has_country_modifier = de_heretico_comburendo }
-			NOT = { current_age = age_of_empire }
-			OR = {
-				religion = catholic
-				religion = catholique
-			}
-			has_global_flag = hussite_heresy_g
+			religion = catholic
+			has_institution = laytheology
 			reform_desire = 0.10
 		}
 		allow = {
@@ -48,7 +44,6 @@ country_decisions = {
 				name = "de_heretico_comburendo"
 				duration = -1
 			}
-			add_reform_desire = 0.001
 		}
 		ai_will_do = {
 			factor = 1

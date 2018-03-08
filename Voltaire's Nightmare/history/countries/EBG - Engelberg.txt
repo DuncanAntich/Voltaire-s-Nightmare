@@ -1,11 +1,33 @@
-government = monastic_order_government
-government_rank = 4
+government = despotic_monarchy
+government_rank = 1
 primary_culture = swiss
 religion = catholic
 technology_group = western
 capital = 2241
 
+#Freiherren
+1054.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		dynasty = "von Sellenbüren"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1087.1.1 = {
+	monarch = {
+		name = "Konrad"
+		dynasty = "von Sellenbüren"
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+#Kloster Engelberg
 1120.1.1 = {
+	government = monastic_order_government
+	government_rank = 4
 	monarch = {
 		name = "Adelhelm"
 		adm = 2

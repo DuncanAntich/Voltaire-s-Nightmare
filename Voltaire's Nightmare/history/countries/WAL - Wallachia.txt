@@ -14,7 +14,6 @@ capital = 2165 # Tîrgoviste
 		mil = 4
 	}
 }
-
 1352.1.1 = {
 	monarch = {
 		name = "Nicolae I"
@@ -24,21 +23,21 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
-1364.11.1 = {
+1364.11.16 = {
 	monarch = {
 		name = "Vlad I"
 		dynasty = "Basarab"
+		birth_date = 1325.1.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-
 1377.1.1 = {
 	monarch = {
 		name = "Radu I"
 		dynasty = "Basarab"
+		birth_date = 1330.1.1
 		adm = 3
 		dip = 3
 		mil = 2
@@ -55,7 +54,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1383.1.1 = {
 	monarch = {
 		name = "Dan I"
@@ -66,11 +64,11 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1386.9.23 = {
 	monarch = {
 		name = "Mircea I"
 		dynasty = "Basarab"
+		birth_date = 1355.1.1
 		adm = 2
 		dip = 2
 		mil = 1
@@ -109,9 +107,6 @@ capital = 2165 # Tîrgoviste
 		dip = 0
 		mil = 1
 	}
-}
-
-1408.1.1 = {
 	heir = {
 		name = "Radu"
 		monarch_name = "Radu II Chelul"
@@ -124,7 +119,6 @@ capital = 2165 # Tîrgoviste
 		mil = 0
 	}
 }
-
 1420.1.1 = {
 	monarch = {
 		name = "Radu II Chelul"
@@ -135,7 +129,6 @@ capital = 2165 # Tîrgoviste
 		mil = 0
 	}
 }
-
 1422.1.1 = {
 	monarch = {
 		name = "Dan II"
@@ -145,7 +138,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1431.1.1 = {
 	monarch = {
 		name = "Alexandru I"
@@ -159,20 +151,17 @@ capital = 2165 # Tîrgoviste
 	add_ruler_personality = secretive_personality
 	add_ruler_personality = martial_educator_personality
 }
-
 1436.12.1 = {
 	monarch = {
 		name = "Vlad II"
 		dynasty = "Draculesti"
-		birth_date = 1390.1.1
+		birth_date = 1397.1.1
 		adm = 2
 		dip = 1
 		mil = 1
 		leader = { name = "Vlad II"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0 }
-
 	}
 }
-
 1442.1.1 = {
 	monarch = {
 		name = "Mircea II"
@@ -182,7 +171,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1442.8.1 = {
 	monarch = {
 		name = "Basarab II"
@@ -192,19 +180,15 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1443.1.1 = {
 	monarch = {
 		name = "Vlad II"
 		dynasty = "Draculesti"
-		birth_date = 1390.1.1
+		birth_date = 1397.1.1
 		adm = 2
 		dip = 1
 		mil = 1
 	}
-}
-
-1443.1.1 = {
 	heir = {
 		name = "Mircea"
 		monarch_name = "Mircea II"
@@ -217,7 +201,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1447.1.1 = {
 	monarch = {
 		name = "Vladislav II"
@@ -227,7 +210,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1456.4.1 = {
 	monarch = {
 		name = "Vlad III Tepes"
@@ -239,17 +221,16 @@ capital = 2165 # Tîrgoviste
 		leader = { name = "Vlad III Tepes"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0}
 	}
 }
-
 1462.11.1 = {
 	monarch = {
 		name = "Radu II cel Frumos"
 		dynasty = "Draculesti"
+		birth_date = 1439.1.1
 		adm = 1
 		dip = 1
 		mil = 0
 	}
 }
-
 1475.1.1 = {
 	monarch = {
 		name = "Basarab II Laoiota"
@@ -259,7 +240,6 @@ capital = 2165 # Tîrgoviste
 		mil = 0
 	}
 }
-
 1477.11.1 = {
 	monarch = {
 		name = "Basarab III cel Tînar"
@@ -269,7 +249,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1482.3.1 = {
 	monarch = {
 		name = "Vlad IV Calugarul"
@@ -279,8 +258,18 @@ capital = 2165 # Tîrgoviste
 		dip = 2
 		mil = 2
 	}
+	heir = {
+		name = "Radu"
+		monarch_name = "Radu IV cel Mare"
+		dynasty = "Draculesti"
+		birth_date = 1467.1.1
+		death_date = 1509.4.2
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 5
+	}
 }
-
 1495.9.17 = {
 	monarch = {
 		name = "Radu IV cel Mare"
@@ -291,17 +280,16 @@ capital = 2165 # Tîrgoviste
 		mil = 5
 	}
 }
-
 1509.4.2 = {
 	monarch = {
 		name = "Neagoe Basarab"
 		dynasty = "Craiovesti"
+		birth_date = 1459.1.1
 		adm = 4
 		dip = 1
 		mil = 2
 	}
 }
-
 1521.9.16 = {
 	monarch = {
 		name = "Radu V de la Afumati"
@@ -311,7 +299,6 @@ capital = 2165 # Tîrgoviste
 		mil = 5
 	}
 }
-
 1545.3.18 = {
 	monarch = {
 		name = "Mircea III Ciobanul"
@@ -320,19 +307,28 @@ capital = 2165 # Tîrgoviste
 		dip = 0
 		mil = 4
 	}
-}
-
-1559.9.22 = {
-	monarch = {
-		name = "Petru cel Tînar"
+	heir = {
+		name = "Petru"
+		monarch_name = "Petru cel Tînar"
 		dynasty = "Draculesti"
-		birth_date = 1546.1.1
+		birth_date = 1545.3.18
+		death_date = 1568.6.15
+		claim = 95
 		adm = 1
 		dip = 4
 		mil = 4
 	}
 }
-
+1559.9.22 = {
+	monarch = {
+		name = "Petru cel Tînar"
+		dynasty = "Draculesti"
+		birth_date = 1545.3.18
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}
 1568.6.15 = {
 	monarch = {
 		name = "Alexandru II"
@@ -342,8 +338,18 @@ capital = 2165 # Tîrgoviste
 		dip = 2
 		mil = 3
 	}
+	heir = {
+		name = "Mihnea"
+		monarch_name = "Mihnea II Turcitul"
+		dynasty = "Draculesti"
+		birth_date = 1564.1.1
+		death_date = 1591.2.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
-
 1577.6.26 = {
 	monarch = {
 		name = "Mihnea II Turcitul"
@@ -354,7 +360,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1591.2.1 = {
 	monarch = {
 		name = "Mihai II Viteazul"
@@ -365,8 +370,18 @@ capital = 2165 # Tîrgoviste
 		mil = 6
 		leader = { name = "Mihai II Viteazul"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0}
 	}
+	heir = {
+		name = "Radu"
+		monarch_name = "Radu IX Mihnea"
+		dynasty = "Draculesti"
+		birth_date = 1585.1.1
+		death_date = 1623.8.2
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
 }
-
 1602.8.20 = {
 	monarch = {
 		name = "Radu IX Mihnea"
@@ -377,18 +392,31 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
-1623.8.2 = {
-	monarch = {
-		name = "Alexandru V Coconul"
+1611.8.14 = {
+	heir = {
+		name = "Alexandru"
+		monarch_name = "Alexandru V Coconul"
 		dynasty = "Draculesti"
+		birth_date = 1611.8.14
+		death_date = 1627.11.14
+		claim = 95
 		adm = 1
 		dip = 0
 		mil = 3
 	}
 }
-
+1623.8.2 = {
+	monarch = {
+		name = "Alexandru V Coconul"
+		dynasty = "Draculesti"
+		birth_date = 1611.8.14
+		adm = 1
+		dip = 0
+		mil = 3
+	}
+}
 1627.11.14 = {
+	government = noble_republic
 	monarch = {
 		name = "Leon"
 		dynasty = "Tomsa"
@@ -397,7 +425,6 @@ capital = 2165 # Tîrgoviste
 		mil = 0
 	}
 }
-
 1632.7.30 = {
 	monarch = {
 		name = "Matei I Basarab"
@@ -408,7 +435,6 @@ capital = 2165 # Tîrgoviste
 		mil = 3
 	}
 }
-
 1654.4.20 = {
 	monarch = {
 		name = "Constantin I"
@@ -418,7 +444,6 @@ capital = 2165 # Tîrgoviste
 		mil = 0
 	}
 }
-
 1658.3.2 = {
 	monarch = {
 		name = "Grigore I"
@@ -429,17 +454,16 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1674.11.2 = {
 	monarch = {
 		name = "Gheorge II"
 		dynasty = "Duca"
+		birth_date = 1620.1.1
 		adm = 1
 		dip = 1
 		mil = 2
 	}
 }
-
 1678.11.2 = {
 	monarch = {
 		name = "Serban II"
@@ -450,7 +474,6 @@ capital = 2165 # Tîrgoviste
 		mil = 4
 	}
 }
-
 1688.11.10 = {
 	monarch = {
 		name = "Constantin II"
@@ -461,7 +484,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1714.4.7 = {
 	monarch = {
 		name = "Nicolae II"
@@ -472,7 +494,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1730.9.15 = {
 	monarch = {
 		name = "Constantin III"
@@ -483,7 +504,6 @@ capital = 2165 # Tîrgoviste
 		mil = 3
 	}
 }
-
 1763.3.21 = {
 	monarch = {
 		name = "Alexandru VII"
@@ -493,17 +513,16 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1768.10.29 = {
 	monarch = {
 		name = "Grigore III"
 		dynasty = "Ghica"
+		birth_date = 1724.1.1
 		adm = 1
 		dip = 0
 		mil = 0
 	}
 }
-
 1774.9.27 = {
 	monarch = {
 		name = "Alexandru VII"
@@ -514,17 +533,16 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1782.1.1 = {
 	monarch = {
 		name = "Mihai IV Sutu"
 		dynasty = "Soutzos"
+		birth_date = 1730.1.1
 		adm = 3
 		dip = 1
 		mil = 3
 	}
 }
-
 1793.1.1 = {
 	monarch = {
 		name = "Alexandru VIII"
@@ -535,7 +553,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1796.8.30 = {
 	monarch = {
 		name = "Alexandru VII"
@@ -546,17 +563,16 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1797.12.5 = {
 	monarch = {
 		name = "Constantin V"
 		dynasty = "Hangerli"
+		birth_date = 1760.1.1
 		adm = 1
 		dip = 2
 		mil = 1
 	}
 }
-
 1799.3.3 = {
 	monarch = {
 		name = "Alexandru VIII"
@@ -567,7 +583,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1801.10.22 = {
 	monarch = {
 		name = "Constantin VI"
@@ -578,7 +593,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1812.9.10 = {
 	monarch = {
 		name = "Ioan II"
@@ -589,7 +603,6 @@ capital = 2165 # Tîrgoviste
 		mil = 1
 	}
 }
-
 1818.10.14 = {
 	monarch = {
 		name = "Alexandru IX Sutu"
@@ -600,7 +613,6 @@ capital = 2165 # Tîrgoviste
 		mil = 0
 	}
 }
-
 1822.1.1 = {
 	monarch = {
 		name = "Grigore IV"
@@ -611,7 +623,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1828.1.1 = {
 	monarch = {
 		name = "(Interregnum)"
@@ -621,7 +632,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1834.1.1 = {
 	monarch = {
 		name = "Alexandru II"
@@ -632,7 +642,6 @@ capital = 2165 # Tîrgoviste
 		mil = 2
 	}
 }
-
 1842.1.1 = {
 	monarch = {
 		name = "Gheorghe"
@@ -654,16 +663,7 @@ capital = 2165 # Tîrgoviste
 	}
 }
 1848.9.25 = {
-	government = administrative_monarchy
-	monarch = {
-		name = "(Interregnum)"
-		regent = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1849.5.1 = {
+	government = noble_republic
 	monarch = {
 		name = "Barbu"
 		dynasty = "Stirbei"
@@ -694,6 +694,7 @@ capital = 2165 # Tîrgoviste
 	}
 }
 1866.1.1 = {
+	government = administrative_monarchy
 	monarch = {
 		name = "Carol I"
 		dynasty = "von Hohenzollern"

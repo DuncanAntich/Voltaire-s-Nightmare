@@ -1,4 +1,22 @@
 # Polish vassals
+alliance = {
+	first = POL
+	second = MAZ
+	start_date = 1054.1.1
+	end_date = 1065.1.28
+}
+union = {
+	first = POL
+	second = MAZ
+	start_date = 1065.1.28
+	end_date = 1102.6.4
+}
+union = {
+	first = POL
+	second = MAZ
+	start_date = 1107.1.1
+	end_date = 1138.10.28
+}
 vassal = {
 	first = POL
 	second = MAZ
@@ -29,18 +47,12 @@ vassal = {
 	start_date = 1384.10.16
 	end_date = 1388.2.29
 }
-vassal = {
-	first = POL
-	second = ONU
-	start_date = 1366.1.1
-	end_date = 1370.11.5
-}
 
 #Same ruler
 union = {
 	first = POL
 	second = SIL
-	start_date = 1138.10.28
+	start_date = 1047.1.1
 	end_date = 1163.1.1
 }
 union = {
@@ -163,45 +175,13 @@ alliance = {
 	end_date = 1656.1.17
 }
 
-#Old Lithuanian relations
-vassal = {
-	first = LIT
-	second = ZMG
-	start_date = 1237.1.1
-	end_date = 1381.8.1
-}
-vassal = {
-	first = LIT
-	second = ZMG
-	start_date = 1384.7.1
-	end_date = 1398.1.1
-}
+#Crusaders
 march = {
 	first = TEU
 	second = ZMG
 	start_date = 1404.1.1
 	end_date = 1409.5.26
 }
-vassal = {
-	first = LIT
-	second = ZMG
-	start_date = 1411.2.1
-	end_date = 1422.1.1
-}
-vassal = {
-	first = LIT
-	second = YTV
-	start_date = 1219.1.1
-	end_date = 1283.1.1
-}
-vassal = {
-	first = LIT
-	second = BLR
-	start_date = 1341.1.1
-	end_date = 1392.1.1
-}
-
-#Crusaders
 alliance = {
 	first = TEU
 	second = LIV
@@ -231,10 +211,95 @@ vassal = {
 	end_date = 1561.11.28
 }
 
-#Dynasty
+#Old Lithuanian relations
+vassal = {
+	first = LIT
+	second = ZMG
+	start_date = 1236.9.22
+	end_date = 1381.8.1
+}
+vassal = {
+	first = LIT
+	second = ZMG
+	start_date = 1384.7.1
+	end_date = 1398.1.1
+}
+vassal = {
+	first = LIT
+	second = ZMG
+	start_date = 1411.2.1
+	end_date = 1422.1.1
+}
+vassal = {
+	first = LIT
+	second = YTV
+	start_date = 1236.1.1
+	end_date = 1283.1.1
+}
+vassal = {
+	first = LIT
+	second = NLS
+	start_date = 1236.1.1
+	end_date = 1242.1.1
+}
+vassal = {
+	first = LIT
+	second = BLR
+	start_date = 1341.1.1
+	end_date = 1392.1.1
+}
+vassal = {
+	first = LIT
+	second = PLT
+	start_date = 1315.1.1
+	end_date = 1399.8.12
+}
+vassal = {
+	first = LIT
+	second = KIE
+	start_date = 1362.10.1
+	end_date = 1447.6.25
+}
+vassal = {
+	first = LIT
+	second = PNK
+	start_date = 1341.1.1
+	end_date = 1447.6.25
+}
+vassal = {
+	first = LIT
+	second = SKS
+	start_date = 1395.1.1
+	end_date = 1447.6.25
+}
+vassal = {
+	first = LIT
+	second = VHN
+	start_date = 1440.1.1
+	end_date = 1447.6.25
+}
+#Southern princes
+alliance = {
+	first = LIT
+	second = SND
+	start_date = 1340.4.7
+	end_date = 1388.1.1
+}
+alliance = {
+	first = LIT
+	second = ONU
+	start_date = 1362.10.1
+	end_date = 1394.1.1
+}
 alliance = {
 	first = LIT
 	second = VOL
 	start_date = 1340.4.7
-	end_date = 1349.1.1
+	end_date = 1392.1.1
+}
+alliance = {
+	first = LIT
+	second = KIE
+	start_date = 1321.1.1
+	end_date = 1362.10.1
 }

@@ -8,14 +8,30 @@ war_goal = {
 	add_attacker = TEU
 	add_attacker = WRM
 	add_attacker = ZMG
+	add_attacker = LIV
+	add_attacker = KUR
+	add_attacker = RIG
+	add_attacker = RGS
 	add_defender = LIT
 	add_defender = BLR
+	add_defender = VOL
+	add_defender = PNK
+	add_defender = KIE
+	add_defender = PLT
 }
 
 1384.7.1 = {
 	rem_attacker = TEU
 	rem_attacker = WRM
 	rem_attacker = ZMG
+	rem_attacker = LIV
+	rem_attacker = KUR
+	rem_attacker = RIG
+	rem_attacker = RGS
 	rem_defender = LIT
 	rem_defender = BLR
+	rem_defender = VOL
+	rem_defender = PNK
+	rem_defender = KIE
+	rem_defender = PLT
 }

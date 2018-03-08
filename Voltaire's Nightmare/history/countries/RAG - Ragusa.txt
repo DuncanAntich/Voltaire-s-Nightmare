@@ -1,4 +1,4 @@
-government = merchant_republic
+government = oligarchic_republic
 government_rank = 3
 mercantilism = 25
 primary_culture = croatian
@@ -15,5 +15,8 @@ fixed_capital = 137
            mil = 2
            regent = yes
       }
-} # Noble councils. 
-1204.5.16 = { primary_culture = dalmatian }
+}
+1204.5.16 = {
+	primary_culture = dalmatian
+	government = merchant_republic
+}

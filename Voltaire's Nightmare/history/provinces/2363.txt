@@ -1,9 +1,8 @@
-owner = TRA
-controller = TRA
-add_core = TRA
-add_core = HUN
-culture = transylvanian
-religion = tengri_pagan_reformed
+owner = FAS
+controller = FAS
+add_core = FAS
+culture = wallachian
+religion = orthodox
 hre = no
 base_tax = 1
 base_production = 1
@@ -16,17 +15,13 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1060.1.1 = { religion = orthodox }
-1162.5.31 = {
-	culture = szaszok
-	religion = catholic
-	add_core = KLY
-}
 1224.1.1 = {
 	owner = KLY
 	controller = KLY
-	remove_core = TRA
-	remove_core = HUN
+	add_core = KLY
+	remove_core = FAS
+	culture = szaszok
+	religion = catholic
 }
 1479.1.1 = {
 	owner = TRA

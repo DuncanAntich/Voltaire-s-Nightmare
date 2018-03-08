@@ -1,3 +1,6 @@
+4243 = "Minszk"
+4281 = "Pszkov"
+4237 = "Kijev"
 1015 = "Egyedhalma"
 4119 = "Németvásár"
 1832 = "Szucsáva"

@@ -4,8 +4,9 @@ technology_group = eastern
 primary_culture = ruthenian
 religion = orthodox
 capital = 604
+fixed_capital = 604
 
-#princes of terebovl
+#Princes of Terebovl
 1085.1.1 = {
 	monarch = {
 		name = "Vasylko I"
@@ -17,17 +18,53 @@ capital = 604
 }
 1124.1.1 = {
 	monarch = {
-		name = "Ihor I"
+		name = "Igor I"
 		dynasty = "Rurikovich"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1141.1.1 = { government_rank = 3 }
-1349.1.1 = {
+#done 1141
+#Princes of Peresopnytsia
+1143.10.14 = {
+	capital = 4252
 	monarch = {
-		name = "Koriat"
+		name = "Vyacheslav I"
+		dynasty = "Rurikovich"
+		birth_date = 1083.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1149.1.1 = {
+	monarch = {
+		name = "Volodymyr I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1170.2.28 = {
+	monarch = {
+		name = "Mstislav I"
+		dynasty = "Rurikovich"
+		birth_date = 1166.1.1 #est
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1220 back to Lutsk
+1220.1.1 = {
+	government_rank = 3
+	capital = 604
+}
+1362.10.1 = {
+	monarch = {
+		name = "Karijotas"
 		dynasty = "Gediminai"
 		culture = lithuanian
 		birth_date = 1308.1.1
@@ -38,10 +75,9 @@ capital = 604
 }
 1366.1.1 = {
 	monarch = {
-		name = "Aleksandr"
+		name = "Aleksandras"
 		dynasty = "Gediminai"
 		culture = lithuanian
-		religion = catholic
 		adm = 3
 		dip = 2
 		mil = 2
@@ -49,10 +85,9 @@ capital = 604
 }
 1378.1.1 = {
 	monarch = {
-		name = "Fyodor"
+		name = "Fiodoras"
 		dynasty = "Gediminai"
 		culture = lithuanian
-		religion = catholic
 		adm = 2
 		dip = 1
 		mil = 2

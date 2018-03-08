@@ -9,16 +9,12 @@ trade_goods = amber
 base_manpower = 3
 capital = "Monfalcone" 
 is_city = yes
-add_core = VNN
 add_core = AQU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1077.1.1 = {
-	remove_core = VNN
-}
 1420.7.1 = {
 	owner = VEN
 	controller = VEN

@@ -12,6 +12,7 @@ historical_friend = DNZ
 historical_friend = KOF
 historical_friend = HSA
 historical_friend = SOE
+historical_friend = RGS
 fixed_capital = 1936
 
 1054.1.1 = {

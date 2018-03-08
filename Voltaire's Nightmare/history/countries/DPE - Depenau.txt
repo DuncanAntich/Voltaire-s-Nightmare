@@ -5,7 +5,7 @@ primary_culture = eastphalian
 religion = catholic
 capital = 1855
 
-1054.1.1 = {
+1108.1.1 = {
 	monarch = {
 		name = "Bernhard I"
 		dynasty = "von Depenau"
@@ -14,16 +14,7 @@ capital = 1855
 		adm = 2
 	}
 }
-1100.1.1 = {
-	monarch = {
-		name = "Konrad I"
-		dynasty = "von Depenau"
-		dip = 2
-		mil = 2
-		adm = 2
-	}
-}
-1130.1.1 = {
+1133.1.1 = {
 	monarch = {
 		name = "Bernhard II"
 		dynasty = "von Depenau"
@@ -32,7 +23,7 @@ capital = 1855
 		adm = 3
 	}
 }
-1150.1.1 = {
+1154.1.1 = {
 	monarch = {
 		name = "Konrad II"
 		dynasty = "von Depenau"

@@ -3,8 +3,8 @@
 
 tapio =
 {
-	movement_speed = 0.15
-	development_cost = -0.1
+	movement_speed = 0.1
+	development_cost = -0.05
 	
 	allow = { religion = finnish_pagan }
 	sprite = 37
@@ -24,7 +24,7 @@ tapio =
 
 jumi =
 {
-	heir_chance = 0.33
+	heir_chance = 0.2
 	legitimacy = 0.5
     republican_tradition = 0.25
 	
@@ -85,7 +85,7 @@ ahti =
 ukko =
 {
 	shock_damage = 0.1
-	reinforce_speed = 0.15
+	reinforce_speed = 0.05
 	
 	allow = { religion = finnish_pagan }
 	sprite = 41
@@ -107,7 +107,7 @@ ukko =
 ilmarinen =
 {
 	build_cost = -0.1
-	global_tax_modifier = 0.05
+	global_tax_modifier = 0.1
 	
 	allow = { religion = finnish_pagan }
 	sprite = 42

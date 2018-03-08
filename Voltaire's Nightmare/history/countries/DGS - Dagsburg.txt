@@ -32,7 +32,7 @@ capital = 2537
 		mil = 2
 	}
 }
-1098.1.1 = {
+1098.8.24 = {
 	monarch = {
 		name = "Hugo IX"
 		dynasty = "von Dagsburg"

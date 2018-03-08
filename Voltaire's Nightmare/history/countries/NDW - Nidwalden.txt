@@ -1,4 +1,4 @@
-government = administrative_republic
+government = despotic_monarchy
 government_rank = 1
 primary_culture = swiss
 religion = catholic
@@ -14,7 +14,81 @@ historical_friend = LKR
 historical_friend = ZUR
 historical_friend = VDX
 
-1054.1.1 = {
+#Freiherr von Regensburg
+1044.1.1 = {
+	monarch = {
+		name = "Luitold I"
+		dynasty = "von Affoltern"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Luitold"
+		monarch_name = "Luitold II"
+		dynasty = "von Affoltern"
+		birth_date = 1040.1.1
+		death_date = 1088.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1066.1.1 = {
+	monarch = {
+		name = "Luitold II"
+		dynasty = "von Affoltern"
+		birth_date = 1040.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1088.1.1 = {
+	monarch = {
+		name = "Luitold III"
+		dynasty = "von Affoltern"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1120.1.1 = {
+	monarch = {
+		name = "Luitold IV"
+		dynasty = "von Affoltern"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1140.1.1 = {
+	heir = {
+		name = "Luitold"
+		monarch_name = "Luitold V"
+		dynasty = "von Affoltern"
+		birth_date = 1140.1.1
+		death_date = 1218.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1155.1.1 = {
+	monarch = {
+		name = "Luitold V"
+		dynasty = "von Affoltern"
+		birth_date = 1140.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#Canton
+1218.2.18 = {
+	government = administrative_republic
 	monarch = {
 		name = "Patriziat"
 		adm = 2

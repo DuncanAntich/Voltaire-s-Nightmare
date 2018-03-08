@@ -1,20 +1,61 @@
 government = feudal_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = saxon
+add_accepted_culture = sorbian
 religion = catholic
 technology_group = western
-capital = 246
+capital = 834
 
-1113.1.1 = {
+#Grafs of Upper Lusatia
+#1054-1085 under MEI then inherits Dohna
+1085.1.1 = {
+	capital = 246
 	monarch = {
-		name = "Erkembert I"
-		dynasty = "von Tegkwitz"
+		name = "Wiprecht I"
+		dynasty = "von Groitzsch"
+		birth_date = 1060.1.1
 		adm = 2
-		dip = 1
+		dip = 3
 		mil = 2
 	}
 }
-1143.1.1 = {
+1090.1.1 = {
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich I"
+		dynasty = "von Groitzsch"
+		birth_date = 1090.1.1
+		death_date = 1135.12.31
+		claim = 95
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}	
+1109.12.24 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Groitzsch"
+		birth_date = 1090.1.1
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1135.12.31 = {
+	monarch = {
+		name = "Bertha"
+		dynasty = "von Groitzsch" #by marriage
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#Burgraves of Dohna
+1158.1.1 = {
+	remove_accepted_culture = sorbian
+	government_rank = 2
 	monarch = {
 		name = "Heinrich I"
 		dynasty = "von Dohna"
@@ -32,7 +73,7 @@ capital = 246
 		mil = 2
 	}
 }
-1225.1.1 = {
+1221.1.1 = {
 	monarch = {
 		name = "Otto I"
 		dynasty = "von Dohna"

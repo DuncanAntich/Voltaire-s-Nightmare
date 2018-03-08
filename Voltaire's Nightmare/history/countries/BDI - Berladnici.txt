@@ -3,7 +3,7 @@ government_rank = 3
 technology_group = north_american
 primary_culture = moldovan
 religion = orthodox
-capital = 1185
+capital = 2930
 
 1054.1.1 = {
 	monarch = {
@@ -14,4 +14,3 @@ capital = 1185
 		mil = 2
 	}	
 }
-1241.1.1 = { capital = 636 }

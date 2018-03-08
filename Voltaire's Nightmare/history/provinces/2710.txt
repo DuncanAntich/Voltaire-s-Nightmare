@@ -16,11 +16,17 @@ discovered_by = muslim
 discovered_by = ottoman
 
 1123.1.1 = {
+	owner = TNC
+	controller = TNC
+	add_core = TNC
+	remove_core = TUN
+	religion = catholic
+}
+1130.12.25 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC
-	remove_core = TUN
-	religion = catholic
+	remove_core = TNC
 }
 1282.3.30 = {
 	add_core = TNC

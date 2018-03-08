@@ -1,5 +1,5 @@
-owner = MFO
-controller = MFO
+owner = LNU
+controller = LNU
 culture = boden_alemannic
 religion = catholic
 hre = yes
@@ -9,13 +9,17 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Lindau" 
 is_city = yes
-add_core = MFO	
 add_core = LNU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1182.1.1 = {
+	owner = MFO
+	controller = MFO
+	add_core = MFO
+}
 1274.1.1 = {
 	owner = LNU
 	controller = LNU

@@ -35,6 +35,16 @@ discovered_by = muslim
 	base_production = 1 
 	base_manpower = 2
 }
+1196.1.1 = {
+	owner = PRP
+	controller = PRP
+	add_core = PRP
+}
+1203.1.1 = {
+	owner = BUL
+	controller = BUL
+	remove_core = PRP
+}
 1246.1.1 = {
 	owner = NKA
 	controller = NKA

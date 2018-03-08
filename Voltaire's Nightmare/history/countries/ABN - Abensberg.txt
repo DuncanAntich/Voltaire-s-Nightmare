@@ -5,10 +5,29 @@ primary_culture = bavarian
 religion = catholic
 capital = 2430
 
-
+1054.1.1 = {
+	monarch = {
+		name = "Willibirg"
+		dynasty = "von Abensberg"
+		female = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1098.1.1 = {
+	monarch = {
+		name = "Liutgard"
+		dynasty = "von Abensberg"
+		female = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
 1138.1.1 = {
 	monarch = {
-		name = "Gebhard"
+		name = "Gebhard I"
 		dynasty = "von Abensberg"
 		dip = 2
 		mil = 2

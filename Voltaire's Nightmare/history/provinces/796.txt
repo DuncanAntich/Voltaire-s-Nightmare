@@ -32,12 +32,18 @@ add_core = SYC
 	remove_core = SYC
 }
 1087.1.1 = {
-	owner = SIC
-	controller = SIC
-	add_core = SIC
+	owner = TNC
+	controller = TNC
+	add_core = TNC
 	remove_core = AGR
 }
 1088.1.1 = { religion = catholic }
+1130.12.25 = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+	remove_core = TNC
+}
 1282.3.30 = {
 	add_core = TNC
 	revolt = { 

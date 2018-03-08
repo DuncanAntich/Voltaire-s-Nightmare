@@ -20,7 +20,7 @@ capital = 95
 #1065.5.18 under Bouillon
 1095.11.27 = {
 	monarch = {
-		name = "Godefroid III"
+		name = "Godefroid"
 		dynasty = "de Boulogne"
 		culture = picard
 		birth_date = 1060.9.18

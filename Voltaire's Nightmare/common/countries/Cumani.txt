@@ -88,8 +88,13 @@ monarch_names = {
 }
 
 leader_names = {
-	Terteroba Surenchar Bayangge Kobiakovych Konchakovych Jasz
-	Asen Shishman Terter Borschol Csertan Olas Iloncsuk Kor Koncsog
+	Durut Djartan Karabirkli Kotan
+	Berish Olberli Phalagi Iloncsuk
+	Csertan Kor Kay Koncsog Olelric
+	Kochoba Toqsoba Urosoba Etioba Terteroba
+	Burdjoba Kulabaoba Kangaroba Andjoba Itoba
+	Toksoba Ulashoba Chitieoba Eloba Koloba
+	Yeltunoba Yetoba Kobiakoba Konchakoba
 }
 
 ship_names = {

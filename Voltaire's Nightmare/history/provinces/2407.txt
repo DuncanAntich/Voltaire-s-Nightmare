@@ -1,5 +1,5 @@
-owner = BRD
-controller = BRD
+owner = LBG
+controller = LBG
 culture = wallonian
 religion = catholic
 hre = yes
@@ -9,18 +9,14 @@ trade_goods = steel
 base_manpower = 2
 capital = "Esneux"
 is_city = yes
-add_core = BRD
 add_core = LBG
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1065.1.1 = {
-	owner = LBG
-	controller = LBG
-	remove_core = BRD
-}
 1288.6.5 = {
 	owner = BRB
 	controller = BRB
@@ -75,5 +71,3 @@ discovered_by = muslim
 	base_production = 4
 	base_manpower = 4
 }
-discovered_by = nomad_group
-discovered_by = north_american

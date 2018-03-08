@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 184  99  146 }
+color = { 234 149 196 }
 
 historical_idea_groups = {
 	logistics_ideas
@@ -130,4 +130,12 @@ ship_names = {
 	Taurage Telsiai Trakai
 	Utena
 	Vilkmerge
+}
+
+army_names = {
+	"Armenija $PROVINCE$"
+}
+
+fleet_names = {
+	"$PROVINCE$ Flotile"
 }

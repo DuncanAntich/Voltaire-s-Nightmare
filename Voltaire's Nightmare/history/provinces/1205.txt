@@ -1,5 +1,5 @@
-owner = HDS
-controller = HDS
+owner = WLD
+controller = WLD
 culture = eastphalian
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = beer
 base_manpower = 2
 capital = "Woldenburg"
 is_city = yes
-add_core = HDS
 add_core = WLD
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1128.1.1 = {
-	owner = WLD
-	controller = WLD
-	remove_core = HDS
-}
 1275.1.1 = {
 	owner = HDS
 	controller = HDS

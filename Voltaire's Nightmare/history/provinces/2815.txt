@@ -1,5 +1,5 @@
-owner = POL
-controller = POL
+owner = SIL
+controller = SIL
 culture = schlesian
 religion = catholic
 hre = no
@@ -8,19 +8,15 @@ base_production = 1
 trade_goods = iron
 base_manpower = 1
 capital = "Opole"
-is_city = yes	
-add_core = POL
+is_city = yes
 add_core = SIL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1138.10.28 = {
-	owner = SIL
-	controller = SIL
-	remove_core = POL
-}
 1173.1.5 = {
 	owner = OPO
 	controller = OPO
@@ -60,5 +56,3 @@ discovered_by = muslim
 	remove_core = PRU
 	hre = no
 }
-discovered_by = nomad_group
-discovered_by = north_american

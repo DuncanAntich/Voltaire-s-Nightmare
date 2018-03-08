@@ -225,115 +225,13 @@ reformed_center_of_reformation = {
 	}
 }
 
-anabaptist_center_of_reformation = {
-
-	religion = anabaptist
-	
-	map_icon = GFX_religious_conversion_center_protestant
-
-	max_distance = 300.0
-	base_conversion_speed = 5.0
-
-	target_province_weights = {
-		factor = 5
-		
-		modifier = {
-			factor = 0
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 0
-			is_empty = yes
-		}
-		modifier = {
-			factor = 0
-			province_id = 2708 # Rome, seat of Papacy
-		}
-		modifier = {
-			factor = 0
-			has_province_modifier = religious_center
-		}
-		modifier = {
-			factor = 0
-			has_province_modifier = religious_zeal_at_conv
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { religion_group = christian }
-		}
-		modifier = {
-			factor = 0
-			NOT = { continent = FROM }
-		}
-		modifier = {
-			factor = 0.7
-			owner = {
-				num_of_cardinals = 1
-			}
-		}
-		modifier = {
-			factor = 0.7
-			owner = {
-				num_of_cardinals = 2
-			}
-		}
-		modifier = {
-			factor = 0.7
-			owner = {
-				num_of_cardinals = 3
-			}
-		}
-		modifier = {
-			factor = 0.7
-			owner = {
-				num_of_cardinals = 4
-			}
-		}
-		modifier = {
-			factor = 0.7
-			owner = {
-				num_of_cardinals = 5
-			}
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				religion = anabaptist
-			}
-		}
-		modifier = {
-			factor = 1.5
-			culture_group = FROM
-		}
-		modifier = {
-			factor = 2
-			culture = FROM
-		}
-		modifier = {
-			factor = 0.01
-			OR = {
-				religion = paulician
-				religion = orthodox
-			}
-		}		
-	}
-}
-
 lollardy_center_of_reformation = {
 
 	religion = lollardy
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 200.0
 	base_conversion_speed = 5.0
 
 	target_province_weights = {
@@ -441,7 +339,7 @@ cathar_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 200.0
 	base_conversion_speed = 5.0
 
 	target_province_weights = {
@@ -549,7 +447,7 @@ waldensian_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 200.0
 	base_conversion_speed = 5.0
 
 	target_province_weights = {
@@ -657,7 +555,7 @@ fraticelli_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 200.0
 	base_conversion_speed = 5.0
 
 	target_province_weights = {
@@ -765,7 +663,7 @@ hussite_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 200.0
 	base_conversion_speed = 5.0
 
 	target_province_weights = {
@@ -873,7 +771,7 @@ bogomilist_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 200.0
 	base_conversion_speed = 5.0
 
 	target_province_weights = {

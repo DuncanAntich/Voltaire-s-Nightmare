@@ -2,6 +2,7 @@ government = tribal_democracy
 government_rank = 3
 technology_group = north_american
 primary_culture = lithuanian
+add_accepted_culture = curonian
 religion = animism
 capital = 807
 
@@ -14,4 +15,5 @@ capital = 807
 		adm = 2
 	}
 }
+1236.1.1 = { add_accepted_culture = sudovian }
 1276.1.1 = { capital = 2392 }

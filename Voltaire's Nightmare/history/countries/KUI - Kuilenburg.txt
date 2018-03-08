@@ -5,6 +5,33 @@ primary_culture = dutch
 religion = catholic
 capital = 635
 
+1054.1.1 = {
+	monarch = {
+		name = "Rudolf I"
+		dynasty = "van Bosinchem"
+		dip = 2
+		mil = 2
+		adm = 3
+	}
+}
+1090.1.1 = {
+	monarch = {
+		name = "Rudolf II"
+		dynasty = "van Bosinchem"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1135.1.1 = {
+	monarch = {
+		name = "Rudolf III"
+		dynasty = "van Bosinchem"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
 1175.1.1 = {
 	monarch = {
 		name = "Hubert I"

@@ -228,6 +228,13 @@ spriteTypes = {
 		noOfFrames = 2
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
+
+	spriteType = {
+		name = "GFX_build_interface_exploit_tab"
+		texturefile = "gfx//interface//build_interface_exploit_tab.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
 	
 	spriteType = {
 		name = "GFX_build_interface_buildings_tab"

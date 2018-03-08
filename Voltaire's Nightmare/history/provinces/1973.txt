@@ -5,9 +5,9 @@ culture = hungarian
 religion = catholic
 hre = no
 base_tax = 3
-base_production = 3
+base_production = 1
 trade_goods = linen
-base_manpower = 3
+base_manpower = 2
 capital = "Moson"
 is_city = yes
 discovered_by = eastern
@@ -15,10 +15,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1176.1.1 = {
-	base_production = 1
-	base_manpower = 2
-}
 1545.1.1 = { religion = protestant }
 1620.1.1 = { religion = catholic }
 1804.1.1 = {

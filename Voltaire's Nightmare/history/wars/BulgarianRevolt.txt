@@ -7,14 +7,12 @@ war_goal = {
 
 1185.1.1 = {
 	add_attacker = BUL
-	add_attacker = OLT
 	add_attacker = CMN
 	add_defender = BYZ
 }
 
 1195.1.1 = {
 	rem_attacker = BUL
-	rem_attacker = OLT
 	rem_attacker = CMN
 	rem_defender = BYZ
 }

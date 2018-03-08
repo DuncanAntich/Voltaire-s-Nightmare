@@ -17,6 +17,7 @@ estate_dhimmi = {
 	# If true, country will get estate
 	trigger = {	
 		NOT = { government = merchant_republic }
+		NOT = { government = veche_republic }
 		NOT = { government = trading_city }
 		NOT = { government = revolutionary_republic }
 		is_nomad = no

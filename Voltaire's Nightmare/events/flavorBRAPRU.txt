@@ -336,7 +336,6 @@ country_event = {
 			religion = catholique
 		}
 		has_regency = no
-		NOT = { current_age = age_of_empire }
 	}
 	
 	mean_time_to_happen = {
@@ -346,7 +345,6 @@ country_event = {
 	option = {
 		name = "flavor_brapru.EVTOPTA2" #Sell Indulgences
 		add_ruler_modifier = { name = bra_sell_indulgences }
-		add_reform_desire = 0.02
 	}
 	option = {
 		name = "flavor_brapru.EVTOPTB2" #Ignore it

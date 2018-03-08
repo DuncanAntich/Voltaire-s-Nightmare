@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = OLD
+controller = OLD
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -9,19 +9,13 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Bruchhausen"
 is_city = yes
-add_core = SAX
+add_core = OLD
 add_core = BCH
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1101.1.1 = {
-	owner = OLD
-	controller = OLD
-	add_core = OLD
-	remove_core = SAX
-}
 1142.1.1 = {
 	owner = BCH
 	controller = BCH

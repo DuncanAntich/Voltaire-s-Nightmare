@@ -5,6 +5,34 @@ primary_culture = lorrainian
 religion = catholic
 capital = 181
 
+1054.1.1 = {
+	monarch = {
+		name = "Hermann"
+		dynasty = "de Briey"
+		dip = 3
+		mil = 2
+		adm = 2
+	}
+}
+1079.1.1 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "de Briey"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1114.10.14 = {
+	monarch = {
+		name = "Thierry"
+		dynasty = "de Briey"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+#1128 done
 1248.1.1 = {
 	monarch = {
 		name = "Herbrand I"

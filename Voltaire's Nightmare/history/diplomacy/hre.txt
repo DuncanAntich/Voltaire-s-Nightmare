@@ -25,6 +25,7 @@
 1745.1.21 = { emperor = TUS }
 1765.1.1 = { emperor = HAB }
 1804.1.1 = { emperor = EAH }
+1806.7.12 = { emperor = BRG }
 1807.7.9 = { emperor = WES }
 1813.10.13 = { emperor = EAH }
 1866.8.23 = { emperor = PRU }

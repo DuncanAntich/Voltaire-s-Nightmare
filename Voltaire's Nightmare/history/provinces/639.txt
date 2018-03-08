@@ -3,7 +3,7 @@ controller = KBA
 add_core = KBA
 add_core = BNB
 culture = kabyle
-religion = sunni
+religion = ibadi
 hre = no
 base_tax = 3
 base_production = 3
@@ -16,6 +16,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1080.1.1 = { religion = sunni }
 1152.1.1 = {
 	owner = MOR
 	controller = MOR

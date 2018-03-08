@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = ABN
+controller = ABN
 culture = bavarian
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 3
 trade_goods = beer
 base_manpower = 3
 capital = "Abensberg"
-is_city = yes	
-add_core = BAV
+is_city = yes
 add_core = ABN
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1138.1.1 = {
-	owner = ABN
-	controller = ABN
-	remove_core = BAV
-}
 1485.2.28 = {
 	owner = MUL
 	controller = MUL

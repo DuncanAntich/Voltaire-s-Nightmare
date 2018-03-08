@@ -15,14 +15,12 @@ war_goal = {
 	add_attacker = KUR
 	add_attacker = LIV
 	add_attacker = RIG
+	add_attacker = RGS
 	add_defender = POL
 	add_defender = KUJ
 	add_defender = LIT
 	add_defender = ZMG
-	add_defender = HUN
-	add_defender = SVE
-	add_defender = SVA
-	add_defender = CRO
+	add_defender = PLT
 }
 
 1331.9.27 = {
@@ -35,12 +33,10 @@ war_goal = {
 	rem_attacker = KUR
 	rem_attacker = LIV
 	rem_attacker = RIG
+	rem_attacker = RGS
 	rem_defender = POL
 	rem_defender = KUJ
 	rem_defender = LIT
-	rem_defender=  ZMG
-	rem_defender = HUN
-	rem_defender = SVE
-	rem_defender = SVA
-	rem_defender = CRO
+	rem_defender = ZMG
+	rem_defender = PLT
 }

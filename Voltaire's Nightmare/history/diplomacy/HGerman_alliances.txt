@@ -20,6 +20,14 @@ royal_marriage = {
 	end_date = 1057.9.28
 }
 
+#Gaus
+union = {
+	first = MFO
+	second = WXL
+	start_date = 1035.1.1
+	end_date = 1135.1.1
+}
+
 #Old Zurich War
 union = {
 	first = GLA
@@ -64,10 +72,22 @@ union = {
 	end_date = 1101.1.1
 }
 union = {
+	first = MEI
+	second = DHN
+	start_date = 1033.1.1
+	end_date = 1067.1.1
+}
+union = {
 	first = BRU
 	second = MEI
 	start_date = 1067.1.1
 	end_date = 1089.1.1
+}
+union = {
+	first = BRU
+	second = DHN
+	start_date = 1067.1.1
+	end_date = 1085.1.1
 }
 
 #Primary title
@@ -201,6 +221,18 @@ union = {
 	first = MEI
 	second = LST
 	start_date = 1089.1.1
+	end_date = 1124.5.22
+}
+union = {
+	first = DHN
+	second = LST
+	start_date = 1124.5.22
+	end_date = 1135.12.31
+}
+union = {
+	first = MEI
+	second = LST
+	start_date = 1135.12.31
 	end_date = 1156.11.30
 }
 union = {
@@ -231,6 +263,12 @@ union = {
 	start_date = 1328.1.1
 	end_date = 1557.6.15
 }
+union = {
+	first = ZTP
+	second = TCK
+	start_date = 1046.1.1
+	end_date = 1100.1.1
+}
 
 # Zurich War
 alliance = {
@@ -255,31 +293,17 @@ union = {
 }
 
 #Jure Uxoris rulers
-union = {
+royal_marriage = {
 	first = WUR
 	second = MOM
 	start_date = 1407.1.1
-	end_date = 1442.1.25
+	end_date = 1419.7.2
 }
-union = {
-	first = URC
-	second = MOM
-	start_date = 1442.1.25
-	end_date = 1444.2.14
-}
-
-#Jure Uxoris
-union = {
+royal_marriage = {
 	first = MOM
 	second = BAR
 	start_date = 1038.1.1
 	end_date = 1076.1.1
-}
-union = {
-	first = MOM
-	second = BAR
-	start_date = 1093.6.21
-	end_date = 1103.1.2
 }
 
 #Burgraves of meissen

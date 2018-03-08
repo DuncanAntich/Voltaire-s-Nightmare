@@ -1,5 +1,5 @@
-owner = YTV
-controller = YTV
+owner = PLK
+controller = PLK
 culture = sudovian
 religion = animism
 hre = no
@@ -9,16 +9,23 @@ trade_goods = horses
 base_manpower = 2
 capital = "Goniondzas"
 is_city = yes
-add_core = YTV
+add_core = PLK
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1242.1.1 = {
+	owner = YTV
+	controller = YTV
+	add_core = YTV
+	remove_core = PLK
+}
 1283.1.1 = {
 	owner = LIT
 	controller = LIT
 	add_core = LIT
+	remove_core = PLK
 	culture = lithuanian
 }
 1341.1.1 = {
@@ -34,6 +41,14 @@ discovered_by = muslim
 	add_core = MAZ
 	remove_core = BLR
 	capital = "Goniadz"
+}
+1382.12.2 = {
+	owner = TEU
+	controller = TEU
+}
+1402.1.1 = {
+	owner = MAZ
+	controller = MAZ
 }
 1526.3.9 = {
 	owner = POL

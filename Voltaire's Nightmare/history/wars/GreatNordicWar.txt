@@ -7,6 +7,7 @@ war_goal = {
 
 1699.12.10 = {
 	add_attacker = DAN
+	add_attacker = RUS
 	add_attacker = SHL
 	add_attacker = PLC
 	add_attacker = KUR
@@ -30,7 +31,7 @@ war_goal = {
 			infantry = 30000
 			cavalry = 10000
 			losses = 45	# percent
-			country = PLC
+			country = RUS
 		}
 		defender = {
 			commander = "Karl XII"	# Karl XII
@@ -95,7 +96,7 @@ war_goal = {
 			infantry = 20000
 			cavalry = 18000
 			losses = 7	# percent
-			country = PLC
+			country = RUS
 		}
 		defender = {
 			commander = "Karl XII"	#  Karl XII
@@ -117,7 +118,7 @@ war_goal = {
 			infantry = 8000
 			cavalry = 5500
 			losses = 9	# percent
-			country = PLC
+			country = RUS
 		}
 		defender = {
 			commander = "Adam Ludwig Lewenhaupt"	# Adam Ludwig Lewenhaupt
@@ -140,7 +141,7 @@ war_goal = {
 			cavalry = 10000
 			artillery = 30
 			losses = 10	# percent
-			country = PLC
+			country = RUS
 		}
 		defender = {
 			commander = "Karl XII"	# Karl XII
@@ -157,10 +158,6 @@ war_goal = {
 1709.10.28 = {
 	add_attacker = DAN
 	add_attacker = SHL
-}
-
-1710.10.10 = {
-	add_attacker = RUS
 }
 
 1710.11.10 = {

@@ -7,6 +7,195 @@ technology_group = western
 capital = 597
 add_army_professionalism = 0.1
 
+#1144 Crac to KNI
+1120.9.3 = {
+	monarch = {
+		name = "Raymond"
+		dynasty = "du Puy"
+		birth_date = 1083.1.1
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+1160.1.1 = {
+	monarch = {
+		name = "Auger"
+		dynasty = "de Balben"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1162.1.1 = {
+	monarch = {
+		name = "Arnaud"
+		dynasty = "de Comps"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1163.1.1 = {
+	monarch = {
+		name = "Gilbert"
+		dynasty = "d'Aissailly"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1170.1.1 = {
+	monarch = {
+		name = "Gastone"
+		dynasty = "de Murols"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1172.1.1 = {
+	monarch = {
+		name = "Joubert"
+		dynasty = "de Syrie"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+#1186 Margat to KNI
+1177.1.1 = {
+	monarch = {
+		name = "Roger"
+		dynasty = "de Moulins"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1187.5.1 = {
+	monarch = {
+		name = "Armengol"
+		dynasty = "de Aspa"
+		culture = aragonese
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1190.1.1 = {
+	monarch = {
+		name = "Garnier"
+		dynasty = "de Naplouse"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1192.1.1 = {
+	monarch = {
+		name = "Geoffroi"
+		dynasty = "de Donjon"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1202.1.1 = {
+	monarch = {
+		name = "Afonso"
+		dynasty = "de Portugal"
+		birth_date = 1135.1.1
+		culture = portugese
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1206.1.1 = {
+	monarch = {
+		name = "Geoffroi"
+		dynasty = "le Rat"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1207.1.1 = {
+	monarch = {
+		name = "Guérin"
+		dynasty = "de Montaigu"
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+}
+1228.1.1 = {
+	monarch = {
+		name = "Bertrand"
+		dynasty = "de Thercy"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1231.1.1 = {
+	monarch = {
+		name = "Guérin"
+		dynasty = "de Montacute"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1236.1.1 = {
+	monarch = {
+		name = "Bertrand"
+		dynasty = "de Comps"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1240.1.1 = {
+	monarch = {
+		name = "Pierre"
+		dynasty = "de Vielle-Bride"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1242.1.1 = {
+	monarch = {
+		name = "Guillaume"
+		dynasty = "de Chateauneuf"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1258.1.1 = {
+	monarch = {
+		name = "Hugues"
+		dynasty = "Reynell"
+		culture = english
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1277.1.1 = {
+	monarch = {
+		name = "Nicolas"
+		dynasty = "Lorgne"
+		adm = 1
+		dip = 3
+		mil = 0
+	}
+}
+#1285.5.23 done
+
 1304.1.1 = {
 	monarch = {
 		name = "Foulques"

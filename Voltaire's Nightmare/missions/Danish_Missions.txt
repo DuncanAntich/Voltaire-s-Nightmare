@@ -197,6 +197,7 @@ danish_controlled_cot = {
 		NOT = { has_country_flag = did_danish_trade }
 		NOT = { has_country_modifier = baltic_ambition }
 		is_free_or_tributary_trigger = yes
+		is_institution_enabled = guilds
 		13 = {
 			NOT = { owned_by = DAN }
 			NOT = { owner = { alliance_with = DAN } }

@@ -1,5 +1,5 @@
-owner = THU
-controller = THU
+owner = HHN
+controller = HHN
 culture = thuringian
 religion = catholic
 hre = yes
@@ -9,7 +9,7 @@ trade_goods = beer
 base_manpower = 1
 capital = "Stolberg"
 is_city = yes
-add_core = THU
+add_core = HHN
 add_core = SXT
 discovered_by = eastern
 discovered_by = ottoman
@@ -19,7 +19,7 @@ discovered_by = muslim
 1200.1.1 = {
 	owner = SXT
 	controller = SXT
-	remove_core = THU
+	remove_core = HHN
 }
 1529.1.1 = { religion = protestant }
 1803.2.25 = {

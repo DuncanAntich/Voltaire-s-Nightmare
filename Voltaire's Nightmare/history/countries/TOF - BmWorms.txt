@@ -10,7 +10,34 @@ fixed_capital = 2962
 1610.1.1 = { join_league = catholic }
 1648.10.24 = { leave_league = catholic }
 
-1115.1.1 = {
+1044.1.1 = {
+	monarch = {
+		name = "Arnold I"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1065.4.1 = {
+	monarch = {
+		name = "Albrecht I"
+		dynasty = "von Rheinfelden"
+		birth_date = 1020.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1070.8.6 = {
+	monarch = {
+		name = "Albrecht II"
+		birth_date = 1035.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1107.7.6 = {
 	monarch = {
 		name = "Burkhard II"
 		dynasty = "von Ahorn"

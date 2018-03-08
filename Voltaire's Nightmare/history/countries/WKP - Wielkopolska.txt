@@ -29,7 +29,7 @@ capital = 4052
 }
 1154.12.1 = {
 	queen = {
-		country_of_origin = VOL
+		country_of_origin = KIE
 		name = "Eudoxia"
 		dynasty = "Rurikovich"
 		birth_date = 1131.1.1

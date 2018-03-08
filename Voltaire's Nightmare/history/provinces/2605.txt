@@ -1,5 +1,5 @@
-owner = RMG
-controller = RMG
+owner = CAL
+controller = CAL
 culture = romagnan
 religion = catholic
 hre = yes
@@ -9,19 +9,15 @@ trade_goods = honey
 base_manpower = 2
 capital = "Cagli"
 is_city = yes
-add_core = RMG
 add_core = CAL
+add_core = PAP
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1140.1.1 = {
-	owner = CAL
-	controller = CAL
-	remove_core = RMG
-	add_core = PAP
-}
 1177.7.27 = { hre = no }
 1376.2.1 = {
 	owner = URB
@@ -79,5 +75,3 @@ discovered_by = muslim
 	add_core = ITA
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

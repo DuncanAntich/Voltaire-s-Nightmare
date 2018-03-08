@@ -281,23 +281,11 @@ country_event = {
 			country_event = {  id = flavor_spa.3151 days = 10 tooltip = "flavor_spa.EVTTOOLTIP3150" }
 		}
 		set_country_flag = torquemada_expelled
-		if = {
-			limit = {
-				NOT = { current_age = age_of_empire }
-			}
-			add_reform_desire = 0.02
-		}
 	}
 	option = {		# Toleration is key to the nation's prosperity
 		name = "flavor_spa.EVTOPTC3150"
 		ai_chance = { factor = 0 }
 		custom_tooltip = flavor_spa.c.3150.tt
-		if = {
-			limit = {
-				NOT = { current_age = age_of_empire }
-			}
-			add_reform_desire = -0.01
-		}
 		add_stability_or_adm_power = yes
 		add_ruler_modifier = {
 			name = religious_tolerance

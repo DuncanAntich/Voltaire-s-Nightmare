@@ -5,7 +5,37 @@ primary_culture = low_elbish
 religion = catholic
 capital = 2736
 
-1124.1.1 = {
+1054.1.1 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Wedekind Fra"
+		monarch_name = "Wedekind I"
+		dynasty = "von Schalksberg"
+		birth_date = 1054.1.1
+		death_date = 1120.1.1
+		claim = 95
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1069.1.1 = {
+	monarch = {
+		name = "Wedekind Fra"
+		dynasty = "von Schalksberg"
+		birth_date = 1054.1.1
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1120.1.1 = {
 	monarch = {
 		name = "Wedekind I"
 		dynasty = "von Schalksberg"
@@ -14,7 +44,7 @@ capital = 2736
 		adm = 3
 	}
 }
-1174.1.1 = {
+1170.1.1 = {
 	monarch = {
 		name = "Wedekind II"
 		dynasty = "von Schalksberg"
@@ -23,7 +53,7 @@ capital = 2736
 		adm = 2
 	}
 }
-1224.1.1 = {
+1220.1.1 = {
 	monarch = {
 		name = "Wedekind III"
 		dynasty = "von Schalksberg"

@@ -219,10 +219,7 @@ country_event = {
 			SPA = { has_country_modifier = the_societas_jesu }
 		}
 		is_religion_enabled = protestant
-		NOT = { current_age = age_of_empire }
-		any_known_country = {
-			religion = protestant
-		}
+		any_known_country = { religion = protestant }
 		any_known_country = {
 			OR = {
 				religion = catholic
@@ -240,9 +237,7 @@ country_event = {
 		add_prestige = 10
 		add_years_of_income = -0.5
 		if = {
-			limit = {
-				corruption = 0.01
-			}
+			limit = { corruption = 0.01 }
 			add_corruption = -1
 		}
 		custom_tooltip = flavor_pap.7.tt
@@ -273,7 +268,6 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pap.EVTOPTB7"
-		add_reform_desire = 0.1
 		add_prestige = -5
 	}
 }

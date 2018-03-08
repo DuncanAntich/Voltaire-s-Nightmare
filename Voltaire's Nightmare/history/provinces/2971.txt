@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = HOY
+controller = HOY
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = iron
 base_manpower = 1
 capital = "Hoya"
 is_city = yes
-add_core = SAX
 add_core = HOY
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1101.1.1 = {
-	owner = HOY
-	controller = HOY
-	remove_core = SAX
-}
 1523.1.1 = { religion = protestant }
 1582.2.25 = {
 	owner = LUN

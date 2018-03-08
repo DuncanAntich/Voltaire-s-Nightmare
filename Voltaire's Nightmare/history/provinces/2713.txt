@@ -1,31 +1,28 @@
-owner = TTN
-controller = TTN
+owner = PCZ
+controller = PCZ
 culture = lombard
 religion = catholic
 hre = yes
-base_tax = 4
-base_production = 3
+base_tax = 1
+base_production = 1
 trade_goods = grain
-base_manpower = 3
+base_manpower = 1
 capital = "Fiorenzuola d'Arda" 
 is_city = yes
-add_core = TTN
+add_core = PCZ
 add_core = FZU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1097.8.20 = {
-	owner = PCZ
-	controller = PCZ
-	add_core = PCZ
-	remove_core = TTN
-}
 1210.1.1 = {
 	owner = FZU
 	controller = FZU
 	remove_core = PCZ
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
 }
 1336.1.1 = {
 	owner = MLO

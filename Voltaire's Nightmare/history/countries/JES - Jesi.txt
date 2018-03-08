@@ -1,12 +1,30 @@
-government = italian_monarchy
-government_rank = 1
+government = theocratic_government
+government_rank = 3
 technology_group = western
 primary_culture = umbrian
 religion = catholic
 capital = 1787
 add_army_professionalism = 0.05
 
+1054.1.1 = {
+	monarch = {
+		name = "Marziano"
+		adm = 3
+		dip = 0
+		mil = 3
+	}
+}
+1098.1.1 = {
+	monarch = {
+		name = "Rinaldo"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
 1130.1.1 = {
+	government = italian_monarchy
+	government_rank = 1
 	monarch = {
 		name = "Repubblica"
 		regent = yes

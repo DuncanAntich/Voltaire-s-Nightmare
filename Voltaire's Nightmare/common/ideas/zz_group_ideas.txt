@@ -173,6 +173,8 @@ anatolian_beyliks_ideas = {
 			tag = KSI
 			tag = SRU
 			tag = MEN
+			tag = TVS
+			tag = LAD
 		}
 	}
 	free = yes

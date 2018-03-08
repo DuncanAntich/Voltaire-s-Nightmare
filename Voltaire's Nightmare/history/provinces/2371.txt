@@ -15,11 +15,17 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1196.1.1 = {
+	owner = SIA
+	controller = SIA
+	add_core = SIA
+}
 1204.5.16 = {
 	owner = TSS
 	controller = TSS
 	add_core = TSS
 	remove_core = BYZ
+	remove_core = SIA
 	base_tax = 5
 	base_production = 5
 	base_manpower = 5

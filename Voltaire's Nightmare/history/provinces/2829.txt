@@ -1,5 +1,5 @@
-owner = YTV
-controller = YTV
+owner = NRS
+controller = NRS
 culture = sudovian
 religion = animism
 hre = no
@@ -9,12 +9,18 @@ trade_goods = beer
 base_manpower = 1
 capital = "Prienai"
 is_city = yes
-add_core = YTV
+add_core = NRS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1236.1.1 = {
+	owner = YTV
+	controller = YTV
+	add_core = YTV
+	remove_core = NRS
+}
 1283.1.1 = {
 	owner = LIT
 	controller = LIT

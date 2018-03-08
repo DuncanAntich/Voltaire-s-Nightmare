@@ -8,17 +8,13 @@ base_production = 3
 trade_goods = fish
 base_manpower = 3
 capital = "Aquileia" 
-is_city = yes	
-add_core = VNN
+is_city = yes
 add_core = AQU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1077.1.1 = {
-	remove_core = VNN
-}
 1420.7.1 = {
 	owner = VEN
 	controller = VEN

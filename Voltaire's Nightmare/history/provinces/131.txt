@@ -1,5 +1,5 @@
-owner = WBG
-controller = WBG
+owner = ROE
+controller = ROE
 culture = franconian
 religion = catholic
 hre = yes
@@ -9,13 +9,17 @@ trade_goods = honey
 base_manpower = 3
 capital = "Rothenburg ob der Tauber" 
 is_city = yes
-add_core = WBG
 add_core = ROE
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1116.1.1 = {
+	owner = WBG
+	controller = WBG
+	add_core = WBG
+}
 1153.1.1 = {
 	owner = WWS
 	controller = WWS

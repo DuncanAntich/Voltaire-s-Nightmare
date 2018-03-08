@@ -42,45 +42,19 @@ historical_units = {
 }
 
 monarch_names = {
-	"Koloman #0" = 20
-	"Petar #0" = 20
-	"Todor #0" = 20
-	"Michael #0" = 15
-	"Aleksandar #0" = 15
-	"Iwan #0" = 15
-	"Kalojan #0" = 15
+	"Koloman #0" = 10
+	"Petar #0" = 10
+	"Todor #0" = 10
+	"Michael #0" = 10
+	"Aleksandar #0" = 10
+	"Iwan #0" = 10
+	"Kalojan #0" = 10
 	"Georgi #0" = 10
 	"Konstantin #0" = 10
 	"Stepan #0" = 10
 	"Stracimir #0" = 10
-	"Boris #0" = 5
-	"Simeon #0" = 5
-	"Andon #0" = 1
-	"Andrei #0" = 1
-	"Angel #0" = 1
-	"Atanas #0" = 1
-	"Bogdan #0" = 1
-	"Bogomil #0" = 1
-	"Branimir #0" = 1
-	"Damyan #0" = 1
-	"Dimitar #0" = 1
-	"Emil #0" = 1
-	"Gavril #0" = 1
-	"Hristo #0" = 1
-	"Iordan #0" = 1
-	"Kliment #0" = 1
-	"Krasimir #0" = 1
-	"Lazar #0" = 1
-	"Marko #0" = 1
-	"Mikhail #0" = 1
-	"Miroslav #0" = 1
-	"Nikola #0" = 1
-	"Pavel #0" = 1
-	"Radomir #0" = 1
-	"Samuil #0" = 1
-	"Vasil #0" = 1
-	"Vladimir #0" = 1
-	"Zhivko #0" = 1
+	"Boris #0" = 10
+	"Simeon #0" = 10
 	
 	"Bogomilia #0" = -1
 	"Sofija #0" = -1
@@ -92,10 +66,11 @@ leader_names = {
 	Djordjic Dobrovski
 	Frujin
 	Karposh Konstantin
-	Marinov
+	Marinov Strahil
 	Peyachevich
 	Radic Rali
-	Shishman Sorkochovich Strahil Stratimirovich
+	Šišman Sorkochovich
+	Stratimirovich
 }
 
 ship_names = {
@@ -106,4 +81,12 @@ ship_names = {
 	Rezovo
 	Sarafovo Sinemorets Sozopol
 	Varara
+}
+
+army_names = {
+	"Armiya na $PROVINCE$"
+}
+
+fleet_names = {
+	"$PROVINCE$ Flota"
 }

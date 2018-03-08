@@ -219,6 +219,7 @@ sicilian_albania = {
 				dynasty = "d'Anjou"
 			}
 		}
+		NOT = { exists = DRZ }
 		is_free_or_tributary_trigger = yes
 		durres_area = {
 			NOT = { owned_by = ROOT }
@@ -265,7 +266,6 @@ sicilian_albania = {
 spa_conquer_siena = {
 	
 	type = country
-
 	category = MIL
 	ai_mission = yes
 	
@@ -275,6 +275,7 @@ spa_conquer_siena = {
 	}
 	allow = {
 		normal_or_historical_nations = yes
+		mil_tech = 35
 		tag = SPA
 		NOT = { has_country_modifier = military_victory }
 		is_free_or_tributary_trigger = yes
@@ -1168,6 +1169,63 @@ conquer_the_livs = {
 		set_country_flag = beat_livs
 		add_country_modifier = { 
 			name = teu_moderate_inquisition 
+			duration = 3650
+		}
+	}
+}
+
+conquer_sizily = {
+	type = country
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		region = sicilia_region
+		NOT = { owned_by = ROOT }
+		owner = {
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+		}
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		tag = APL
+		NOT = { exists = SIC }
+		NOT = { exists = TNC }
+		sicilia_region = {
+			NOT = { owned_by = ROOT }
+			NOT = { owner = { alliance_with = ROOT } }
+			NOT = { owner = { is_subject_of = ROOT } }
+			NOT = { owner = { overlord_of = ROOT } }
+		}
+		is_free_or_tributary_trigger = yes
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+	}
+	immediate = {
+		every_target_province = { add_claim = ROOT }
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = { NOT = { is_permanent_claim = ROOT } }
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
 			duration = 3650
 		}
 	}

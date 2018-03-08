@@ -1,5 +1,5 @@
-owner = TTN
-controller = TTN
+owner = BOB
+controller = BOB
 culture = emilian
 religion = catholic
 hre = yes
@@ -8,19 +8,13 @@ base_production = 3
 trade_goods = rice
 base_manpower = 3
 capital = "Bobbio" 
-is_city = yes	
-add_core = TTN
+is_city = yes
 add_core = BOB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1097.8.20 = {
-	owner = BOB
-	controller = BOB
-	remove_core = TTN
-}
 1341.1.1 = {
 	owner = MLO
 	controller = MLO

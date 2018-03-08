@@ -1,11 +1,41 @@
 government = feudal_monarchy
-government_rank = 1
+government_rank = 2
 primary_culture = boden_alemannic
 religion = catholic
 technology_group = western
 capital = 2568
 
+#Landgraves of Sundgau
+1052.1.1 = {
+	monarch = {
+		name = "Cuno I"
+		dynasty = "de Montbéliard"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+1063.1.1 = {
+	monarch = {
+		name = "Rodolphe I"
+		dynasty = "de Montbéliard"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1084.1.1 = {
+	monarch = {
+		name = "Henri I"
+		dynasty = "de Montbéliard"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+#Counts of Pfirt
 1103.1.2 = {
+	government_rank = 1
 	monarch = {
 		name = "Frédéric I"
 		dynasty = "de Montbéliard"

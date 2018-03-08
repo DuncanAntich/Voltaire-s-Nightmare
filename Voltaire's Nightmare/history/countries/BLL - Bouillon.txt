@@ -7,25 +7,37 @@ capital = 259
 
 1044.4.19 = {
 	monarch = {
-		name = "Godefroid II"
-		dynasty = "de Bouillon"
+		name = "Godefroid III"
+		dynasty = "d'Ardenne"
 		birth_date = 997.1.1
 		adm = 2
 		dip = 4
 		mil = 2
 	}
+	heir = {
+		name = "Godefroid"
+		monarch_name = "Godefroid IV"
+		dynasty = "d'Ardenne"
+		birth_date = 1040.1.1
+		death_date = 1076.2.27
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 2
+	}
 }
 1069.1.1 = {
 	monarch = {
-		name = "Godefroid III"
-		dynasty = "de Bouillon"
+		name = "Godefroid IV"
+		dynasty = "d'Ardenne"
+		birth_date = 1040.1.1
 		adm = 1
 		dip = 2
 		mil = 2
 	}
 	heir = {
 		name = "Godefroid"
-		monarch_name = "Godefroid III"
+		monarch_name = "Godefroid V"
 		dynasty = "de Boulogne"
 		birth_date = 1060.9.18
 		death_date = 1100.7.18
@@ -50,7 +62,7 @@ capital = 259
 }
 1076.2.27 = {
 	monarch = {
-		name = "Godefroid III"
+		name = "Godefroid V"
 		dynasty = "de Boulogne"
 		birth_date = 1060.9.18
 		culture = picard

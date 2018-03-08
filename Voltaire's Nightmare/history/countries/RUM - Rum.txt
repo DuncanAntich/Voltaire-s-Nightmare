@@ -9,6 +9,12 @@ historical_rival = NKA
 historical_rival = BYZ
 religious_school = hanafi_school
 
+1000.1.1 = {
+	add_country_modifier = {
+		name = "extensive_holdings"
+		duration = -1
+	}
+}
 1073.1.1 = {
 	monarch = {
 		name = "Suleiman I"
@@ -50,7 +56,7 @@ religious_school = hanafi_school
 		mil = 4
 	}
 }
-1097.6.19 = { capital = 57 }
+1097.6.19 = { capital = 2966 }
 1107.1.1 = {
 	monarch = {
 		name = "Malik Shah"

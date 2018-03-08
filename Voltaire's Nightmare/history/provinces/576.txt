@@ -4,10 +4,10 @@ add_core = HUN
 culture = hungarian
 religion = catholic
 hre = no
-base_tax = 4
-base_production = 3
+base_tax = 2
+base_production = 1
 trade_goods = grain
-base_manpower = 3
+base_manpower = 2
 capital = "Solt"
 is_city = yes
 discovered_by = eastern
@@ -15,11 +15,6 @@ discovered_by = western
 discovered_by = ottoman
 discovered_by = muslim
 
-1176.1.1 = {
-	base_tax = 3
-	base_production = 1
-	base_manpower = 2
-}
 1510.1.1 = { trade_goods = corn }
 1514.4.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB }
 1515.1.1 = { revolt = {} controller = HUN }

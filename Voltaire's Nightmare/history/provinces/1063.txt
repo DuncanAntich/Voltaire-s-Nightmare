@@ -15,11 +15,17 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1196.1.1 = {
+	owner = SIA
+	controller = SIA
+	add_core = SIA
+}
 1204.5.16 = {
 	owner = TSS
 	controller = TSS
 	add_core = TSS
 	remove_core = BYZ
+	remove_core = SIA
 }
 1224.1.1 = {
 	owner = LEM
@@ -58,14 +64,14 @@ discovered_by = muslim
 }
 1343.1.1 = {
 	revolt = {}
-	owner = SIA
-	controller = SIA
-	add_core = SIA
+	owner = PPO
+	controller = PPO
+	add_core = PPO
 }
 1345.7.7 = {
 	owner = BYZ
 	controller = REB
-	remove_core = SIA
+	remove_core = PPO
 	revolt = {
 		type = pretender_rebels
 		size = 0

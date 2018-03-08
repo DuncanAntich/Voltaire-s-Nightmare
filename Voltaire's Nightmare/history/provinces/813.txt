@@ -1,5 +1,5 @@
-owner = POL
-controller = POL
+owner = SIL
+controller = SIL
 culture = schlesian
 religion = catholic
 hre = no
@@ -9,18 +9,12 @@ trade_goods = grain
 base_manpower = 2
 capital = "Scinawa"
 is_city = yes
-add_core = POL	
 add_core = SIL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1138.10.28 = {
-	owner = SIL
-	controller = SIL
-	remove_core = POL
-}
 1173.1.5 = {
 	owner = WRC
 	controller = WRC

@@ -1,8 +1,8 @@
 name = "War of the Lombard League"
 war_goal = {
-	type = defend_capital_independence
-	casus_belli = cb_independence_war
-	tag = MLO
+	type = superiority_punitive
+	casus_belli = cb_super_badboy
+	province = 2041
 }
 
 1237.11.26 = {

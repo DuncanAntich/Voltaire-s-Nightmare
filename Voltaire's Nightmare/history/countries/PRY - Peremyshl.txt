@@ -4,6 +4,7 @@ technology_group = eastern
 primary_culture = ruthenian
 religion = orthodox
 capital = 620
+fixed_capital = 620
 
 1085.1.1 = {
 	monarch = {

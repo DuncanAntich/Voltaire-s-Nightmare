@@ -1,10 +1,102 @@
 government = feudal_monarchy
-government_rank = 5
+government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = sicilian
-capital = 2041
+capital = 2703
 
+#Norman Counts
+1071.1.1 = {
+	monarch = {
+		name = "Roger I"
+		dynasty = "de Hauteville"
+		culture = normand
+		birth_date = 1031.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1072.1.1 = { capital = 2041 }
+1089.1.1 = {
+	queen = {
+		country_of_origin = SZO
+		name = "Adelasia"
+		dynasty = "Aleramici"
+		female = yes
+		birth_date = 1075.1.1
+		death_date = 1118.4.16
+		culture = piedmontese
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1093.1.1 = {
+	heir = {
+		name = "Simon"
+		monarch_name = "Simon I"
+		dynasty = "de Hauteville"
+		culture = normand
+		birth_date = 1093.1.1
+		death_date = 1105.1.1
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1101.6.22 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Simon"
+		monarch_name = "Simon I"
+		dynasty = "de Hauteville"
+		culture = normand
+		birth_date = 1093.1.1
+		death_date = 1105.1.1
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1105.1.1 = {
+	monarch = {
+		name = "Roger II"
+		dynasty = "de Hauteville"
+		culture = normand
+		birth_date = 1095.12.22
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = incorruptible_personality
+}
+1117.1.1 = {
+	queen = {
+		country_of_origin = CAS
+		name = "Elvira"
+		dynasty = "Jiménez"
+		birth_date = 1100.1.1
+		death_date = 1135.2.8
+		culture = castillian
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1130.12.25 = { government_rank = 5 }
+#Aragonese Kings
 1295.6.20 = {
 	monarch = {
 		name = "Frederico II"

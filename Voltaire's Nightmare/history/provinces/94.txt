@@ -1,5 +1,6 @@
 owner = URC
 controller = URC
+add_core = URC
 culture = swabian
 religion = catholic
 hre = yes
@@ -9,12 +10,13 @@ trade_goods = horses
 base_manpower = 5
 capital = "Reutlingen" 
 is_city = yes
-add_core = URC	
 add_core = REU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
 1230.1.1 = {
 	owner = REU
@@ -47,5 +49,3 @@ discovered_by = muslim
 	controller = GER
 	add_core = GER
 }
-discovered_by = nomad_group
-discovered_by = north_american

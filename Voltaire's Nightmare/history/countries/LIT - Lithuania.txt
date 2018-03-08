@@ -1,117 +1,11 @@
-government = tribal_democracy
-government_rank = 3
+government = tribal_despotism
+government_rank = 4
 primary_culture = lithuanian
-add_accepted_culture = polish
 religion = animism
-technology_group = north_american
+technology_group = eastern
 capital = 1152 # Vilnius
 
-1054.1.1 = {
-	monarch = {
-		name = "Kukovaitis"
-		adm = 3
-		dip = 2
-		mil = 2
-	}
-}
-1080.1.1 = {
-	monarch = {
-		name = "Utenis"
-		adm = 4
-		dip = 2
-		mil = 2
-	}
-}
-1105.1.1 = {
-	monarch = {
-		name = "Sventaragis"
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-1130.1.1 = {
-	monarch = {
-		name = "Skirmantas"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1155.1.1 = {
-	monarch = {
-		name = "Koliginas"
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}
-1180.1.1 = {
-	monarch = {
-		name = "Romanas"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1204.1.1 = {
-	government = tribal_despotism
-	technology_group = eastern
-	monarch = {
-		name = "Zvelgaitis"
-		dynasty = "Mindaugai"
-		adm = 4
-		dip = 2
-		mil = 2
-	}
-}
-1205.1.1 = {
-	monarch = {
-		name = "Daugirutis"
-		dynasty = "Mindaugai"
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}
-1213.1.1 = {
-	monarch = {
-		name = "Steksys"
-		dynasty = "Mindaugai"
-		adm = 1
-		dip = 3
-		mil = 3
-	}
-}
-1214.1.1 = {
-	monarch = {
-		name = "Ringaudas"
-		dynasty = "Mindaugai"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1219.1.1 = {
-	monarch = {
-		name = "Dausprungas"
-		dynasty = "Mindaugai"
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-1228.1.1 = {
-	monarch = {
-		name = "Vilikaila"
-		dynasty = "Mindaugai"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
 1236.1.1 = {
-	government_rank = 4
 	monarch = {
 		name = "Mindaugas"
 		dynasty = "Mindaugai"
@@ -124,6 +18,7 @@ capital = 1152 # Vilnius
 	add_ruler_personality = well_advised_personality
 	add_ruler_personality = lawgiver_personality
 }
+1242.1.1 = { add_accepted_culture = byelorussian }
 1251.7.17 = {
 	government_rank = 5
 	government = feudal_monarchy
@@ -221,12 +116,6 @@ capital = 1152 # Vilnius
 		mil = 2
 	}
 }
-1318.1.1 = {
-	add_country_modifier = {
-		name = lithuanianconquests
-		duration = -1
-	}
-}
 1341.1.1 = {
 	monarch = {
 		name = "Jaunutis"
@@ -250,7 +139,7 @@ capital = 1152 # Vilnius
 1377.5.25 = {
 	monarch = {
 		name = "Jogaila"
-		dynasty = "Jagiellon"
+		dynasty = "Gediminai"
 		birth_date = 1352.1.1
 		adm = 3
 		dip = 5
@@ -270,7 +159,7 @@ capital = 1152 # Vilnius
 1382.1.1 = {
 	monarch = {
 		name = "Jogaila"
-		dynasty = "Jagiellon"
+		dynasty = "Gediminai"
 		birth_date = 1352.1.1
 		adm = 3
 		dip = 5
@@ -280,6 +169,7 @@ capital = 1152 # Vilnius
 1386.2.15 = {
 	religion = catholic
 	historical_friend = POL
+	add_accepted_culture = polish
 	queen = {
 		country_of_origin = POL
 		name = "Hedwige"
@@ -294,6 +184,7 @@ capital = 1152 # Vilnius
 	}
 }
 1392.1.1 = {
+	add_accepted_culture = ruthenian
 	monarch = {
 		name = "Vytautas"
 		dynasty = "Gediminai"
@@ -327,8 +218,8 @@ capital = 1152 # Vilnius
 }
 1440.1.1 = {
 	monarch = {
-		name = "Kazimierz"
-		dynasty = "Jagiellon"
+		name = "Kazimieras"
+		dynasty = "Gediminai"
 		birth_date = 1427.11.30
 		adm = 4
 		dip = 4

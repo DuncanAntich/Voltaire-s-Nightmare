@@ -1,5 +1,5 @@
-owner = BRU
-controller = BRU
+owner = GTT
+controller = GTT
 culture = eastphalian
 religion = catholic
 hre = yes
@@ -9,13 +9,21 @@ trade_goods = wool
 base_manpower = 3
 capital = "Einbeck"
 is_city = yes
-add_core = BRU
-add_core = WFB
+add_core = GTT
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
+1100.1.1 = {
+	owner = BRU
+	controller = BRU
+	add_core = BRU
+	add_core = WFB
+	remove_core = GTT
+}
 1269.1.1 = {
 	owner = WFB
 	controller = WFB
@@ -86,5 +94,3 @@ discovered_by = muslim
 	base_production = 1
 	base_manpower = 1
 }
-discovered_by = nomad_group
-discovered_by = north_american

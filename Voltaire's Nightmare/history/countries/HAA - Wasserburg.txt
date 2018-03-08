@@ -5,15 +5,19 @@ religion = catholic
 technology_group = western
 capital = 953
 
+#Counts of Rott
 1054.1.1 = {
 	monarch = {
-		name = "Arnold I"
-		dynasty = "von Andechs"
+		name = "Kuno I"
+		dynasty = "Pilgrimiden"
+		birth_date = 1015.1.1
 		adm = 3
 		dip = 3
-		mil = 2
+		mil = 3
 	}
 }
+#1086.3.27 to ADE
+#Andechs Counts
 1098.1.1 = {
 	monarch = {
 		name = "Gebhard I"

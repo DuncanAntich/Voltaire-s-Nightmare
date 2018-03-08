@@ -1,9 +1,8 @@
-owner = PHE
-controller = PHE
-add_core = PHE
+owner = MNT
+controller = MNT
 add_core = MNT
-culture = pecheneg
-religion = tengri_pagan_reformed
+culture = wallachian
+religion = orthodox
 hre = no
 base_tax = 4
 base_production = 3
@@ -17,21 +16,17 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1091.1.1 = {
-	owner = CMN
-	controller = CMN
-	add_core = CMN
-	remove_core = PHE
-	culture = cuman
+1290.1.1 = {
+	owner = OLT
+	controller = OLT
+	add_core = OLT
+	remove_core = MNT
 }
-1239.1.1 = { religion = orthodox }
-1241.1.1 = { remove_core = MNT }
-1248.1.1 = { culture = wallachian }
 1309.1.1 = {
 	owner = WAL
 	controller = WAL
 	add_core = WAL
-	remove_core = CMN
+	remove_core = OLT
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1399.1.1 = {

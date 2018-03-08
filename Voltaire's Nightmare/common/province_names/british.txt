@@ -1,3 +1,5 @@
+4237 = "Kiev"
+4281 = "Plescow"
 3190 = "Youghal"
 855 = "King's County"
 258 = "Cork"

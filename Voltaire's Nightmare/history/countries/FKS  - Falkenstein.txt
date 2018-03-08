@@ -5,9 +5,18 @@ religion = catholic
 technology_group = western
 capital = 149
 
-1125.5.23 = {
+1054.1.1 = {
 	monarch = {
 		name = "Werner I"
+		dynasty = "von Falkenstein"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1095.1.1 = {
+	monarch = {
+		name = "Werner II"
 		dynasty = "von Falkenstein"
 		adm = 3
 		dip = 3
@@ -16,7 +25,7 @@ capital = 149
 }
 1135.1.1 = {
 	monarch = {
-		name = "Werner II"
+		name = "Werner III"
 		dynasty = "von Falkenstein"
 		adm = 2
 		dip = 2
@@ -25,7 +34,7 @@ capital = 149
 }
 1170.1.1 = {
 	monarch = {
-		name = "Philipp Bolanden"
+		name = "Philipp I"
 		dynasty = "von Falkenstein"
 		adm = 2
 		dip = 2
@@ -34,7 +43,7 @@ capital = 149
 }
 1198.1.1 = {
 	monarch = {
-		name = "Werner III"
+		name = "Werner IV"
 		dynasty = "von Falkenstein"
 		adm = 2
 		dip = 2
@@ -67,7 +76,7 @@ capital = 149
 1237.1.1 = {
 	heir = {
 		name = "Werner"
-		monarch_name = "Werner IV"
+		monarch_name = "Werner V"
 		dynasty = "von Falkenstein"
 		birth_date = 1237.1.1
 		death_date = 1298.5.25
@@ -79,7 +88,7 @@ capital = 149
 }
 1271.10.4 = {
 	monarch = {
-		name = "Werner IV"
+		name = "Werner V"
 		dynasty = "von Falkenstein"
 		birth_date = 1237.1.1
 		adm = 2

@@ -564,3 +564,5 @@ fixed_capital = 2523
 		mil = 3
 	}
 }
+1805.12.26 = { elector = yes }
+1813.10.13 = { elector = no }

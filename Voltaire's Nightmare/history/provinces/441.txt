@@ -3,10 +3,10 @@ controller = HUN
 culture = hungarian
 religion = catholic
 hre = no
-base_tax = 6
-base_production = 6
+base_tax = 2
+base_production = 3
 trade_goods = grain
-base_manpower = 6
+base_manpower = 3
 capital = "Székesfehérvár"
 is_city = yes
 add_core = HUN
@@ -16,6 +16,11 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1100.1.1 = {
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1526.8.30 = {
 	owner = TRA

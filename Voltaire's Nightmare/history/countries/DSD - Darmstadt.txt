@@ -294,10 +294,9 @@ capital = 163
 		mil = 3
 	}
 }
-1806.7.12 = { 
-	government_rank = 4
-	elector = yes
-}
+1806.7.12 = { government_rank = 4 }
+1810.2.16 = { elector = yes }
+1813.10.13 = { elector = no }
 1830.4.6 = {
 	monarch = {
 		name = "Ludwig XI"
@@ -329,4 +328,3 @@ capital = 163
 		mil = 3
 	}
 }
-1866.9.20 = { elector = no }

@@ -68,50 +68,6 @@ despotic_monarchy = {
 	}
 }
 
-
-
-eastern_monarchy = {
-	monarchy = yes
-	
-	valid_for_new_country = no
-	allow_convert = no
-	nation_designer_trigger = {
-		technology_group = eastern
-	}
-	
-	color = { 159 25 25 }
-		
-	min_autonomy = 40
-	max_states = 8
-
-	rank = {
-		1 = {
-			development_cost = -0.05
-		}
-		2 = {
-			development_cost = -0.05
-		}
-		3 = {
-			vassal_income = 0.05
-			development_cost = -0.05
-		}
-		4 = {
-			vassal_income = 0.075
-			development_cost = -0.05
-		}
-		5 = {
-			vassal_income = 0.1
-			development_cost = -0.05
-		}
-		6 = {
-			vassal_income = 0.15
-			development_cost = -0.05
-		}
-	}
-}
-
-
-
 feudal_monarchy = {
 	monarchy = yes
 	
@@ -1825,7 +1781,7 @@ ottoman_government = {
 		}
 		3 = {	
 			unjustified_demands = -0.1
-			legitimacy = -0.5
+			legitimacy = -1
 			global_autonomy = -0.01
 			max_absolutism = 5
 		}
@@ -1910,6 +1866,28 @@ prussian_monarchy = {
 			monarch_military_power = 3
 		}
 	}
+}
+
+eastern_monarchy = {
+	monarchy = yes
+	
+	unique_government = yes
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = no
+	
+	color = { 179 95 152 }
+		
+	min_autonomy = 40
+	max_states = 10
+
+	rank = {
+		6 = {
+			vassal_income = 0.15
+			development_cost = -0.05
+		}
+	}
+	fixed_rank = 6
 }
 
 celestial_empire = {
@@ -2088,6 +2066,55 @@ peasants_republic = {
 			global_autonomy = -0.075
 			max_absolutism = -50
 		}
+	}
+}
+
+# Unique Russian Governments
+
+veche_republic = {
+	republic = yes
+	
+	color = { 60 120 180 }
+	
+	unique_government = yes
+	
+	duration = 4
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+	republican_name = yes
+	royal_marriage = no
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40	
+	
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}
+	
+	max_states = 3
+	
+	rank = {
+		3 = {
+			merchants = 1
+		}
+	}
+	fixed_rank = 3
+	
+	government_abilities = {
+		russian_mechanic
+	}
+	
+	boost_income = yes
+	can_use_trade_post = yes
+
+	faction = mr_aristocrats
+	faction = mr_traders
+	faction = mr_guilds		
+
+	ai_will_do = {
+		factor = 0	
 	}
 }
 

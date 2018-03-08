@@ -51,6 +51,7 @@ estate_church =
 		NOT = { government = merchant_republic }
 		NOT = { government = trading_city }
 		NOT = { government = revolutionary_republic }
+		NOT = { government = veche_republic }
 		OR = {
 			NOT = { government = celestial_empire }
 			has_dlc = "Mandate of Heaven"

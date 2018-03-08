@@ -3,4 +3,5 @@ technology_group = eastern
 religion = orthodox
 government_rank = 4
 primary_culture = ruthenian
-capital = 620	# Peremyshl
+capital = 4237	# Kiev
+fixed_capital = 4237

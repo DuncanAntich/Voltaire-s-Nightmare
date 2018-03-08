@@ -5,7 +5,16 @@ religion = catholic
 technology_group = western
 capital = 439
 
-1191.12.15 = {
+1130.1.1 = {
+	monarch = {
+		name = "Mengoz I"
+		dynasty = "von Königsegg"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1171.1.1 = {
 	monarch = {
 		name = "Berthold I"
 		dynasty = "von Königsegg"

@@ -93,10 +93,11 @@ capital = 2335
 }
 1358.1.1 = {
 	monarch = {
-		name = "Niccolò"
-		dynasty = "dalle Carcera"
-		adm = 1
-		dip = 2
+		name = "Bartolommeo"
+		dynasty = "Ghisi"
+		birth_date = 1343.1.1
+		adm = 3
+		dip = 1
 		mil = 1
 	}
 }

@@ -4,10 +4,6 @@ primary_culture = umbrian
 religion = catholic
 technology_group = western
 capital = 2235
-fixed_capital = 2235
-historical_friend = RMG
-historical_friend = LEM
-historical_neutral = TUS
 historical_rival = VEN
 historical_rival = BYZ
 add_army_professionalism = 0.05
@@ -217,7 +213,6 @@ add_army_professionalism = 0.05
 	}
 }
 1167.1.1 = { set_global_flag = cathar_heresy_g }
-1173.1.1 = { set_global_flag = waldensian_heresy_g }
 1181.8.30 = {
 	monarch = {
 		name = "Lucius III"
@@ -322,7 +317,6 @@ add_army_professionalism = 0.05
 		adm = 2
 	}
 }
-1252.1.1 = { set_global_flag = bogomilist_heresy_g }
 1254.12.7 = {
 	monarch = {
 		name = "Alexander IV"
@@ -594,7 +588,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1431.2.20 = {
 	monarch = {
 		name = "Eugenius IV"
@@ -605,7 +598,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1447.2.23 = {
 	monarch = {
 		name = "Nicholaus V"
@@ -616,7 +608,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1455.3.25 = {
 	monarch = {
 		name = "Callistus III"
@@ -627,7 +618,6 @@ add_army_professionalism = 0.05
 		mil = 4
 	}
 }
-
 1458.8.7 = {
 	monarch = {
 		name = "Pius II"
@@ -638,7 +628,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1464.8.16 = {
 	monarch = {
 		name = "Paulus II"
@@ -649,7 +638,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1471.7.27 = {
 	monarch = {
 		name = "Xystus IV"
@@ -660,7 +648,6 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
 1484.8.13 = {
 	monarch = {
 		name = "Innocentius VIII"
@@ -671,7 +658,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1492.7.26 = {
 	monarch = {
 		name = "Alexander VI"
@@ -682,9 +668,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1497.1.1 = { leader = {	name = "Cesare Borgia"             	type = general	fire = 2	shock = 1	manuever = 2	siege = 3	death_date = 1500.1.1 } }
-
 1503.8.19 = {
 	monarch = {
 		name = "Pius III"
@@ -695,7 +679,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1503.10.19 = {
 	monarch = {
 		name = "Iulius II"
@@ -710,7 +693,6 @@ add_army_professionalism = 0.05
 	add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = architectural_visionary_personality
 }
-
 1513.2.22 = {
 	monarch = {
 		name = "Leo X"
@@ -721,7 +703,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-1521.12.27 = { set_global_flag = anabaptist_reformation_g }
 1522.1.1 = {
 	monarch = {
 		name = "Hadrianus VI"
@@ -732,7 +713,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-
 1523.9.15 = {
 	monarch = {
 		name = "Clemens VII"
@@ -753,11 +733,8 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
-1545.12.13 = { set_global_flag = counter_reformation }	# Council of Trent
-
+1545.12.13 = { set_global_flag = counter_reformation }
 1550.1.1 = { leader = {	name = "M. Colonna"               	type = admiral	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1577.1.1 } }
-
 1550.1.1 = {
 	monarch = {
 		name = "Iulius III"
@@ -768,7 +745,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-
 1555.3.24 = {
 	monarch = {
 		name = "Marcellus II"
@@ -779,7 +755,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-
 1555.5.2 = {
 	monarch = {
 		name = "Paulus IV"
@@ -790,7 +765,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1559.8.19 = {
 	monarch = {
 		name = "Pius IV"
@@ -801,7 +775,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1565.12.10 = {
 	monarch = {
 		name = "Pius V"
@@ -812,7 +785,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1572.5.2 = {
 	monarch = {
 		name = "Gregorius XIII"
@@ -863,7 +835,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1592.1.1 = {
 	monarch = {
 		name = "Clemens VIII"
@@ -874,7 +845,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-
 1605.3.4 = {
 	monarch = {
 		name = "Leo XI"
@@ -885,7 +855,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1605.4.28 = {
 	monarch = {
 		name = "Paulus V"
@@ -896,7 +865,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1621.1.29 = {
 	monarch = {
 		name = "Gregorius XV"
@@ -907,7 +875,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-
 1623.7.9 = {
 	monarch = {
 		name = "Urbanus VIII"
@@ -918,7 +885,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1644.7.30 = {
 	monarch = {
 		name = "Innocentius X"
@@ -929,7 +895,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1655.1.8 = {
 	monarch = {
 		name = "Alexander VII"
@@ -940,7 +905,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1667.5.23 = {
 	monarch = {
 		name = "Clemens IX"
@@ -951,7 +915,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1669.12.10 = {
 	monarch = {
 		name = "Clemens X"
@@ -962,7 +925,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-
 1676.7.23 = {
 	monarch = {
 		name = "Innocentius XI"
@@ -973,7 +935,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1689.8.13 = {
 	monarch = {
 		name = "Alexander VIII"
@@ -984,7 +945,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1691.3.20 = {
 	monarch = {
 		name = "Innocentius XII"
@@ -995,7 +955,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1700.9.28 = {
 	monarch = {
 		name = "Clemens XI"
@@ -1006,7 +965,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1721.3.20 = {
 	monarch = {
 		name = "Innocentius XIII"
@@ -1017,7 +975,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1724.3.8 = {
 	monarch = {
 		name = "Benedictus XIII"
@@ -1028,8 +985,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
-
 1730.2.22 = {
 	monarch = {
 		name = "Clemens XII"
@@ -1040,8 +995,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
-
 1740.2.7 = {
 	monarch = {
 		name = "Benedictus XIV"
@@ -1052,7 +1005,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1758.5.4 = {
 	monarch = {
 		name = "Clemens XIII"
@@ -1063,7 +1015,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1769.2.3 = {
 	monarch = {
 		name = "Clemens XIV"
@@ -1074,7 +1025,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1774.9.22 = {
 	monarch = {
 		name = "Pius VI"

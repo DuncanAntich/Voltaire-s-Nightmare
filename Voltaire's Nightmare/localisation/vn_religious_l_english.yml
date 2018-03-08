@@ -1,8 +1,0 @@
-﻿l_english:
- add_reform_desire_effect.2:1 "Catholicism gains up to §R2%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."
- add_reform_desire_effect.4:1 "Catholicism gains up to §R4%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."
- add_reform_desire_effect.6:1 "Catholicism gains up to §R6%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."
- add_reform_desire_effect.8:1 "Catholicism gains up to §R8%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."
- add_reform_desire_effect.10:1 "Catholicism gains up to §R10%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."
- remove_reform_desire_effect.2:1 "Catholicism loses up to §G2%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."
- remove_reform_desire_effect.4:1 "Catholicism loses up to §G4%§! Reform Desire.\nThis amount will be divided by the §Y[REB.num_of_tags_catholic.GetValue]§! Catholic countries that currently exist."

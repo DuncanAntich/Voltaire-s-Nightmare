@@ -1,7 +1,7 @@
 owner = SWE
 controller = SWE
 culture = swedish
-religion = catholic
+religion = norse_pagan_reformed
 hre = no
 base_tax = 3
 base_production = 3
@@ -14,8 +14,11 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-estate = estate_church
 
+1060.1.1 = {
+	religion = catholic
+	estate = estate_church
+}
 1527.6.1 = { religion = protestant}
 1598.8.15 = { controller = PLC }
 1598.12.15 = { controller = SWE }

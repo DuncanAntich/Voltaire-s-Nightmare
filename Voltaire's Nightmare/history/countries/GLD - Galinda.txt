@@ -3,7 +3,7 @@ government_rank = 3
 technology_group = north_american
 primary_culture = pruthenian
 religion = animism
-capital = 384
+capital = 2329
 
 1054.1.1 = {
 	monarch = {

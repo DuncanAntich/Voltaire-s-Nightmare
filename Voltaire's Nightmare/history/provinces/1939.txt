@@ -1,5 +1,5 @@
-owner = LIT
-controller = LIT
+owner = DZK
+controller = DZK
 culture = lithuanian
 religion = animism
 hre = no
@@ -9,12 +9,20 @@ trade_goods = lumber
 base_manpower = 2
 capital = "Valazinas"
 is_city = yes
-add_core = LIT
+add_core = DZK
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
+1236.1.1 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = DZK
+}
 1387.1.1 = { religion = catholic }
 1543.1.1 = { unrest = 3 }
 1569.7.1 = {
@@ -34,9 +42,4 @@ discovered_by = muslim
 1807.7.9 = { remove_core = PLC }
 1812.6.28 = { controller = POL }
 1812.12.10 = { controller = RUS }
-1848.1.1 = {
-	religion = jewish
-	culture = byelorussian
-}
-discovered_by = nomad_group
-discovered_by = north_american
+1848.1.1 = { culture = byelorussian }

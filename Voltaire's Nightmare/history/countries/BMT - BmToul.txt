@@ -3,7 +3,7 @@ government_rank = 4
 primary_culture = lorrainian
 religion = catholic
 technology_group = western
-capital = 29
+capital = 2574
 fixed_capital = 29
 
 1052.1.1 = {
@@ -49,6 +49,7 @@ fixed_capital = 29
 		mil = 2
 	}
 }
+1186.1.1 = { capital = 29 }
 1192.1.1 = {
 	monarch = {
 		name = "Eudes I"

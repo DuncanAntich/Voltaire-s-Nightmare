@@ -510,6 +510,12 @@ defined_text = {
 			religion = hussite
         }
     }
+    text = {
+        localisation_key = string_start_religion_paulician
+        trigger = {
+			religion = paulician
+        }
+    }
 	#Muslims (Piety):
 	text = {
         localisation_key = string_start_religion_muslim_sunni
@@ -627,14 +633,20 @@ defined_text = {
 	text = {
         localisation_key = string_orthodox_icons #Has to end with \n
         trigger = {
-			religion = orthodox
+			OR = {
+				religion = orthodox
+				religion = paulician
+			}
 			has_dlc = "Third Rome"
         }
     }
 	text = {
         localisation_key = string_orthodox_icons_no #\n
         trigger = {
-			religion = orthodox
+			OR = {
+				religion = orthodox
+				religion = paulician
+			}
 			NOT = { has_dlc = "Third Rome" }
         }
     }

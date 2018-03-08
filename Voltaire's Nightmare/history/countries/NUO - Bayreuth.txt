@@ -1,20 +1,33 @@
 government = feudal_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = franconian
 religion = catholic
 technology_group = western
-capital = 2967
+capital = 67
 
-1105.1.1 = {
+#Lords of later Andechs Franconia
+1054.1.1 = {
 	monarch = {
-		name = "Gottfried I"
-		dynasty = "von Raabs"
-		adm = 3
-		dip = 3
-		mil = 2
+		name = "Meinhard III"
+		dynasty = "von Gilching"
+		adm = 2
+		dip = 2
+		mil = 3
 	}
 }
-1106.1.1 = {
+1075.1.1 = {
+	monarch = {
+		name = "Meinhard IV"
+		dynasty = "von Gilching"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+#Burgraves
+1105.1.1 = {
+	government_rank = 2
+	capital = 2967
 	monarch = {
 		name = "Gottfried II"
 		dynasty = "von Raabs"

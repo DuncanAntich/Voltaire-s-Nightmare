@@ -1,0 +1,65 @@
+government = principality
+government_rank = 4
+primary_culture = byelorussian
+religion = orthodox
+technology_group = eastern
+capital = 4243
+fixed_capital = 4243
+historical_friend = VHN
+historical_friend = LSK
+historical_friend = KIE
+historical_friend = DGO
+historical_friend = TUV
+historical_friend = SKS
+historical_friend = PNK
+historical_friend = PLT
+historical_friend = VOL
+historical_friend = BTY
+historical_friend = BLR
+
+1101.1.1 = {
+	monarch = {
+		name = "Gleb I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1119.9.3 = {
+	monarch = {
+		name = "Rostislav I"
+		dynasty = "Rurikovich"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1151.1.1 = {
+	monarch = {
+		name = "Volodar I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1182.1.1 = {
+	monarch = {
+		name = "Vladimir I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1212.1.1 = {
+	monarch = {
+		name = "Vasily I"
+		dynasty = "Rurikovich"
+		adm = 0
+		dip = 3
+		mil = 0
+	}
+}
+#done 1242

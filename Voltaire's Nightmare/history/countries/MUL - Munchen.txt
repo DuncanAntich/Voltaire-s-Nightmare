@@ -5,7 +5,6 @@ religion = catholic
 technology_group = western
 capital = 913
 
-#lower bavaria
 1253.1.1 = {
 	monarch = {
 		name = "Heinrich XIII"

@@ -41,32 +41,25 @@ historical_units = {
 }
 
 leader_names = {
-	Bielke Horn Tott
-	Fleming Paijkull Bonde
-	Wrede Soop Seli
-	Mannerheim Furuhjelm Aminoff
-	Armfelt Carpelan Rehbinder Schulman
+	Imnantis Vetsekis Visvaldis Talivaldis
+	Dabrelis Ninnis Kaupis Varidotis Rusinis
 }
 
 ship_names = {
-	Dorpat Wenden Fellin Dünaburg Riga
-	Wolmar Kokenhusen Segewold Dobeln Karkus
+	Talava Atzele Jersika Koknese
+	Latgali Seli Idumea
 }
 
 monarch_names = {
-	"Kaupo #0" = 20
-	"Shutr #0" = 20
-	"Narvait #0" = 20
-	"Dovyat #0" = 10
-	"Likiik #0" = 10
-	"Priidu #0" = 10
-	"Klavess #0" = 5
-	"Janis #0" = 5
-	"Talivaldis #0" = 5
-	"Jürgen #0" = 5
-	"Vetseke #0" = 5
-	"Vaishvilkas #0" = 0
-	"Yudki #0" = 0
+	"Kaupo #0" = 10
+	"Imnants #0" = 10
+	"Vetseke #0" = 10
+	"Visvaldis #0" = 10
+	"Talivaldis #0" = 10
+	"Dabrelis #0" = 10
+	"Ninnis #0" = 5
+	"Varidotis #0" = 5
+	"Rusinis #0" = 5
 	
 	"Savna #0" = -1
 	"Brita #0" = -1

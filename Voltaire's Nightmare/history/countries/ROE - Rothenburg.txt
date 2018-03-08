@@ -1,13 +1,24 @@
-government = imperial_city
+government = feudal_monarchy
 government_rank = 1
-mercantilism = 25
 primary_culture = franconian
 religion = catholic
 technology_group = western
 capital = 131
-fixed_capital = 131
 
 1054.1.1 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Rothenburg"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+#Free City
+1116.1.1 = {
+	government = imperial_city
+	mercantilism = 25
+	fixed_capital = 131
 	monarch = {
 		name = "Stadtrat"
 		adm = 2

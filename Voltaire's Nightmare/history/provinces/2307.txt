@@ -1,5 +1,5 @@
-owner = LOB
-controller = LOB
+owner = KLU
+controller = KLU
 culture = pruthenian
 religion = animism
 hre = no
@@ -9,7 +9,7 @@ trade_goods = wax
 base_manpower = 1
 capital = "Wambresia"
 is_city = yes
-add_core = LOB
+add_core = KLU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -22,7 +22,7 @@ discovered_by = muslim
 	controller = TEU
 	culture = prussian
 	capital = "Briesen"
-	remove_core = LOB
+	remove_core = KLU
 }
 1454.2.10 = { add_core = POL } 
 1466.10.19 = {

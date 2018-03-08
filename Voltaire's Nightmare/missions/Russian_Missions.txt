@@ -9,8 +9,13 @@ russia_partitions_poland = {
 		OR = {
 			owned_by = POL
 			owned_by = PLC
+			owner = { is_subject_of = POL }
+			owner = { is_subject_of = PLC }
 		}
-		region = lithuania_region
+		OR = {
+			region = lithuania_region
+			superregion = russia_superregion
+		}
 	}
 	
 	allow = {
@@ -21,7 +26,11 @@ russia_partitions_poland = {
 			is_neighbor_of = POL
 			is_neighbor_of = PLC
 		}
-		NOT = { is_neighbor_of = LIT }
+		OR ={
+			NOT = { is_neighbor_of = LIT }
+			LIT = { is_subject_of = POL }
+			LIT = { is_subject_of = PLC }
+		}
 		OR = {
 			PLC = {
 				is_neighbor_of = ROOT
@@ -32,6 +41,7 @@ russia_partitions_poland = {
 				is_free_or_tributary_trigger = yes
 				any_owned_province = {
 					region = lithuania_region
+					superregion = russia_superregion
 				}
 			}
 			AND = {
@@ -45,6 +55,7 @@ russia_partitions_poland = {
 					is_free_or_tributary_trigger = yes
 					any_owned_province = {
 						region = lithuania_region
+						superregion = russia_superregion
 					}
 				}
 			}
@@ -64,9 +75,31 @@ russia_partitions_poland = {
 	chance = {
 		factor = 2000
 		modifier = {
+			factor = 4
+			any_owned_province = {
+				superregion = russia_superregion
+			}
+		}
+		modifier = {
 			factor = 2
 			any_owned_province = {
 				region = lithuania_region
+			}
+		}
+		modifier = {
+			factor = 2
+			russia_superregion = {
+				OR = {
+					owned_by = POL
+					owned_by = PLC
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			russia_superregion = {
+				type = all
+				owned_by = ROOT
 			}
 		}
 		modifier = {
@@ -123,7 +156,10 @@ russia_partitions_lithuania = {
 	
 	target_provinces = {
 		owned_by = LIT
-		region = lithuania_region
+		OR = {
+			region = lithuania_region
+			superregion = russia_superregion
+		}
 	}
 	
 	allow = {
@@ -137,9 +173,7 @@ russia_partitions_lithuania = {
 			NOT = { overlord_of = ROOT }
 			num_of_cities = 20
 			is_free_or_tributary_trigger = yes
-			any_owned_province = {
-				region = lithuania_region
-			}
+			any_owned_province = { superregion = russia_superregion }
 		}
 		NOT = { has_country_modifier = polish_partitions }
 		NOT = { has_country_flag = partitioned_poland }
@@ -156,9 +190,28 @@ russia_partitions_lithuania = {
 	chance = {
 		factor = 2000
 		modifier = {
+			factor = 4
+			any_owned_province = {
+				superregion = russia_superregion
+			}
+		}
+		modifier = {
 			factor = 2
 			any_owned_province = {
 				region = lithuania_region
+			}
+		}
+		modifier = {
+			factor = 2
+			russia_superregion = {
+				owned_by = LIT
+			}
+		}
+		modifier = {
+			factor = 2
+			russia_superregion = {
+				type = all
+				owned_by = ROOT
 			}
 		}
 		modifier = {

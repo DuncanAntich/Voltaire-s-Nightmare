@@ -1,5 +1,5 @@
-owner = GLS
-controller = GLS
+owner = SGB
+controller = SGB
 culture = eastphalian
 religion = catholic
 hre = yes
@@ -9,24 +9,12 @@ trade_goods = lumber
 base_manpower = 3
 capital = "Spiegelberg"
 is_city = yes
-add_core = GLS
 add_core = SGB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1083.1.11 = {
-	owner = HMB
-	controller = HMB
-	add_core = HMB
-	remove_core = GLS
-}
-1215.1.1 = {
-	owner = SGB
-	controller = SGB
-	remove_core = HMB
-}
 1557.1.1 = {
 	owner = CLB
 	controller = CLB

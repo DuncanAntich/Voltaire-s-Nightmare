@@ -1,5 +1,5 @@
-owner = SAX
-controller = SAX
+owner = TCK
+controller = TCK
 culture = low_elbish
 religion = catholic
 hre = yes
@@ -9,18 +9,12 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Lathen"
 is_city = yes
-add_core = SAX
 add_core = TCK
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1139.1.1 = {
-	owner = TCK
-	controller = TCK
-	remove_core = SAX
-}
 1252.1.1 = {
 	owner = MUN
 	controller = MUN

@@ -5,6 +5,33 @@ primary_culture = swiss
 religion = catholic
 capital = 2278
 
+1054.1.1 = {
+	monarch = {
+		name = "Arnold"
+		dynasty = "von Ringgenberg"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1093.1.1 = {
+	monarch = {
+		name = "Diethelm"
+		dynasty = "von Ringgenberg"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1133.1.1 = {
+	monarch = {
+		name = "Kuno"
+		dynasty = "von Ringgenberg"
+		adm = 0
+		dip = 4
+		mil = 0
+	}
+}
 1173.1.1 = {
 	monarch = {
 		name = "Walter I"

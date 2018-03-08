@@ -28,12 +28,18 @@ add_permanent_province_modifier = {
 	remove_core = PLM
 }
 1071.1.1 = {
-	owner = SIC
-	controller = SIC
-	add_core = SIC
+	owner = TNC
+	controller = TNC
+	add_core = TNC
 	remove_core = APL
 }
 1074.1.1 = { culture = sicilian religion = catholic }
+1130.12.25 = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+	remove_core = TNC
+}
 1190.10.1 = {
 	revolt = { 
 		type = anti_tax_rebels 

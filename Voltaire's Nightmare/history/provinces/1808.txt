@@ -1,5 +1,5 @@
-owner = TUS
-controller = TUS
+owner = RGO
+controller = RGO
 culture = tuscan
 religion = catholic
 hre = yes
@@ -9,7 +9,7 @@ trade_goods = silk
 base_manpower = 1
 capital = "Barga"
 is_city = yes	
-add_core = TUS
+add_core = RGO
 add_core = LUC
 discovered_by = eastern
 discovered_by = ottoman
@@ -19,7 +19,7 @@ discovered_by = muslim
 1084.1.1 = {
 	owner = LUC
 	controller = LUC
-	remove_core = TUS
+	remove_core = RGO
 }
 1429.1.1 = {
 	owner = LAN

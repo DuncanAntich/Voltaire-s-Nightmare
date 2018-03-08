@@ -1,13 +1,48 @@
-government = merchant_republic
+government = theocratic_government
 government_rank = 3
-mercantilism = 25
 technology_group = western
 religion = catholic
 primary_culture = umbrian
 capital = 874
 fixed_capital = 874
 
-1137.1.1 = {
+#Bishops
+1051.1.1 = {
+	monarch = {
+		name = "Gerardo"
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+1068.1.1 = {
+	monarch = {
+		name = "Transberto"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1100.1.1 = {
+	monarch = {
+		name = "Marcellino"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1128.1.1 = {
+	monarch = {
+		name = "Bernardo"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#City
+1130.1.1 = {
+	government = merchant_republic
+	mercantilism = 25
 	monarch = {
 		name = "Repubblica"
 		dip = 2

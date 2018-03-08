@@ -9,6 +9,7 @@ capital = 70
 	monarch = {
 		name = "Friedrich I"
 		dynasty = "von Hohenstaufen"
+		birth_date = 1047.1.1
 		adm = 3
 		dip = 3
 		mil = 3

@@ -3,7 +3,7 @@ government_rank = 4
 primary_culture = bavarian
 religion = catholic
 technology_group = western
-capital = 177
+capital = 178
 fixed_capital = 177
 
 1036.3.17 = {
@@ -116,7 +116,6 @@ fixed_capital = 177
 		mil = 2
 	}
 }
-1207.1.1 = { capital = 178 }
 1226.4.9 = {
 	monarch = {
 		name = "Siegfried I"
@@ -467,10 +466,11 @@ fixed_capital = 177
 		mil = 1
 	}
 }
+1797.10.17 = { elector = yes }
 1803.3.25 = {
+	elector = no
 	capital = 78
-	government = absolute_monarchy
-	elector = yes
+	government = administrative_monarchy
 	monarch = {
 		name = "Karl Theodor"
 		dynasty = "von Dalberg"
@@ -480,4 +480,5 @@ fixed_capital = 177
 		mil = 1
 	}
 }
+1806.7.12 = { elector = yes }
 1810.2.16 = { elector = no }

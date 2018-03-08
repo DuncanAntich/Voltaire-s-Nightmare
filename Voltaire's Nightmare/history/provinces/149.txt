@@ -1,5 +1,5 @@
-owner = DIE
-controller = DIE
+owner = FKS
+controller = FKS
 culture = pfalzish
 religion = catholic
 hre = yes
@@ -9,7 +9,6 @@ trade_goods = steel
 base_manpower = 3
 capital = "Falkenstein"
 is_city = yes
-add_core = DIE
 add_core = FKS
 discovered_by = eastern
 discovered_by = ottoman
@@ -17,11 +16,6 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1125.5.23 = {
-	owner = FKS
-	controller = FKS
-	remove_core = DIE
-}
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1407.3.21 = {
 	owner = PAL

@@ -1,6 +1,6 @@
-owner = OLT
-controller = OLT
-add_core = OLT
+owner = COV
+controller = COV
+add_core = COV
 culture = wallachian
 religion = orthodox
 hre = no
@@ -15,17 +15,17 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1226.3.1 = {
-	owner = SVE
-	controller = SVE
-	add_core = SVE
-	remove_core = OLT
+1290.1.1 = {
+	owner = OLT
+	controller = OLT
+	add_core = OLT
+	remove_core = COV
 }
-1355.1.1 = {
+1309.1.1 = {
 	owner = WAL
 	controller = WAL
 	add_core = WAL
-	remove_core = SVE
+	remove_core = OLT
 }
 1650.1.1 = { revolt = { type = noble_rebels size = 0 } controller = REB }
 1658.1.1 = { revolt = {} controller = WAL }

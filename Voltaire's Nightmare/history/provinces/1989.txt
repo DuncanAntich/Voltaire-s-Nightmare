@@ -1,5 +1,5 @@
-owner = TUS
-controller = TUS
+owner = RGO
+controller = RGO
 culture = lombard
 religion = catholic
 hre = yes
@@ -9,7 +9,7 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Guastalla"
 is_city = yes	
-add_core = TUS
+add_core = RGO
 add_core = MAN
 add_core = GST
 discovered_by = eastern
@@ -20,7 +20,7 @@ discovered_by = muslim
 1115.7.24 = {
 	owner = MAN
 	controller = MAN
-	remove_core = TUS
+	remove_core = RGO
 }
 1406.1.1 = {
 	owner = GST

@@ -1,7 +1,7 @@
-owner = PHE
-controller = PHE
-culture = pecheneg
-religion = tengri_pagan_reformed
+owner = BDC
+controller = BDC
+culture = moldovan
+religion = orthodox
 hre = no
 base_tax = 1
 base_production = 1
@@ -9,32 +9,17 @@ trade_goods = horses
 base_manpower = 1
 capital = "Galati"
 is_city = yes
-add_core = PHE
-add_core = BDI
+add_core = BDC
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1068.1.1 = {
-	owner = CMN
-	controller = CMN
-	add_core = CMN
-	remove_core = PHE
-	culture = cuman
-}
-1239.1.1 = { religion = orthodox }
-1241.1.1 = {
-	owner = BDI
-	controller = BDI
-	culture = moldovan
-	remove_core = CMN
-}
 1346.1.1 = {
 	owner = MOL
 	controller = MOL
 	add_core = MOL
-	remove_core = BDI
+	remove_core = BDC
 }
 1484.1.1 = { controller = TUR }
 1489.1.1 = { controller = MOL }

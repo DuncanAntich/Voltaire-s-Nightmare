@@ -1,5 +1,5 @@
-owner = VOL
-controller = VOL
+owner = VHN
+controller = VHN
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -9,7 +9,7 @@ trade_goods = copper
 base_manpower = 1
 capital = "Buchach" 
 is_city = yes	
-add_core = VOL
+add_core = VHN
 add_core = ONU
 discovered_by = eastern
 discovered_by = ottoman
@@ -19,7 +19,7 @@ discovered_by = muslim
 1085.1.1 = {
 	owner = ONU
 	controller = ONU
-	remove_core = VOL
+	remove_core = VHN
 }
 1141.1.1 = {
 	owner = VOL

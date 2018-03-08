@@ -463,8 +463,6 @@ fixed_capital = 1951
 		mil = 1
 	}
 }
-1706.5.23   = { elector = no }
-1714.9.7   = { elector = yes }
 1723.11.13 = {
 	monarch = {
 		name = "Clemens August I"

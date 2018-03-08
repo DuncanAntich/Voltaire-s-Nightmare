@@ -5,9 +5,18 @@ religion = catholic
 technology_group = western
 capital = 154
 
-1090.1.1 = {
+1054.1.1 = {
 	monarch = {
 		name = "Gottschalk I"
+		dynasty = "von Diepholz"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1090.1.1 = {
+	monarch = {
+		name = "Gottschalk II"
 		dynasty = "von Diepholz"
 		adm = 3
 		dip = 3
@@ -25,7 +34,7 @@ capital = 154
 }
 1177.1.1 = {
 	monarch = {
-		name = "Gottschalk II"
+		name = "Gottschalk III"
 		dynasty = "von Diepholz"
 		adm = 2
 		dip = 2

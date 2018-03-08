@@ -5,6 +5,24 @@ religion = catholic
 technology_group = western
 capital = 277
 
+1054.1.1 = {
+	monarch = {
+		name = "Reinbold"
+		dynasty = "von Isenburg"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1097.1.1 = {
+	monarch = {
+		name = "Gerlach"
+		dynasty = "von Isenburg"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1137.1.1 = {
 	monarch = {
 		name = "Rembold I"

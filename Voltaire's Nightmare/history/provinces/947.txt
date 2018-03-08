@@ -1,5 +1,5 @@
-owner = AQU
-controller = AQU
+owner = GRZ
+controller = GRZ
 culture = slovenian
 religion = catholic
 hre = yes
@@ -9,7 +9,6 @@ trade_goods = iron
 base_manpower = 3
 capital = "Görz" 
 is_city = yes
-add_core = AQU
 add_core = GRZ
 discovered_by = eastern
 discovered_by = ottoman
@@ -17,11 +16,6 @@ discovered_by = western
 discovered_by = muslim
 fort_15th = yes
 
-1082.1.1 = {
-	owner = GRZ
-	controller = GRZ
-	remove_core = AQU
-}
 1500.4.12 = {
 	owner = HAB
 	controller = HAB
