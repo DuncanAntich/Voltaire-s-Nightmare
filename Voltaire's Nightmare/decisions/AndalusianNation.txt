@@ -49,11 +49,6 @@ country_decisions = {
 			owns_core_province = 2920			# Cadiz
 			owns_core_province = 1212			# Badajoz
 			owns_core_province = 403			# Almeria
-			owns_core_province = 711			# Zaragoza
-			owns_core_province = 1178			# Laridah
-			owns_core_province = 2243			# Qulumriyah
-			owns_core_province = 1208			# Toledo
-			stability = 2
 			OR = {
 				AND = {
 					owns_core_province = 1121			# Algarve
@@ -67,7 +62,6 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ADU
-			change_government = gov_caliphate
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -106,53 +100,6 @@ country_decisions = {
 				}
 				add_permanent_claim = ADU
 			}
-			southportugal_region = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
-				add_permanent_claim = ADU
-			}
-			valencian_region = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
-				add_permanent_claim = ADU
-			}
-			aragon_region = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
-				add_permanent_claim = ADU
-			}
-			castile_region = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
-				add_permanent_claim = ADU
-			}
-			leonese_region = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
-				add_permanent_claim = ADU
-			}
-				
-				
-			2670 = {
-					add_base_tax = 3
-					add_base_production = 3
-					add_base_manpower = 3
-				}
 		}
 		ai_will_do = {
 			factor = 400
