@@ -6444,6 +6444,7 @@ LAN_ideas = {
     }
     LAN_idea_4 = {
         interest = -0.5
+		inflation_reduction = 0.1
     }
     LAN_idea_5 = {
         tolerance_heretic = 2
@@ -6606,4 +6607,120 @@ VMG_ideas = {
     VMG_idea_7 = {
         hostile_attrition = 1
     }
+}
+
+VNN_ideas = {
+	start = {
+		defensiveness = 0.1
+		global_tax_modifier = 0.05
+	}
+
+	bonus = {
+		diplomats = 1
+		}
+
+	trigger = {
+		tag = VNN
+		}
+	free = yes
+	VNN_idea_1 = {
+		core_creation = -0.05
+	}
+	VNN_idea_2 = {
+		infantry_power = 0.1
+	}
+	VNN_idea_3 = {
+		diplomatic_upkeep = 1
+	}
+	VNN_idea_4 = {
+		army_tradition_decay = -0.01
+	}
+	VNN_idea_5 = {
+		build_time = -0.3
+	}
+	VNN_idea_6 = {
+		development_cost = -0.1
+	}
+	VNN_idea_7 = {
+		global_institution_spread = 0.2
+	}
+}
+
+VEN_ideas = {
+	start = {
+		merchants = 1
+		global_trade_power = 0.1
+	}
+
+	bonus = {
+		galley_power = 0.25
+		}
+
+	trigger = {
+		tag = VEN
+		}
+	free = yes
+	VEN_idea_1 = {
+		trade_efficiency = 0.10
+		justify_trade_conflict_cost = -0.2
+	}
+	VEN_idea_2 = {
+		global_sailors_modifier = 0.35
+	}
+	VEN_idea_3 = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	VEN_idea_4 = {
+		global_spy_defence = 0.3
+	}
+	VEN_idea_5 = {
+		naval_maintenance_modifier = -0.2
+	}
+	VEN_idea_6 = {
+		naval_forcelimit_modifier = 0.35
+	}
+	VEN_idea_7 = {
+		land_attrition = -0.10
+		naval_attrition = -0.10
+	}
+}
+
+GEN_ideas = {
+	start = {
+		global_trade_power = 0.1
+		interest = -1
+	}
+
+	bonus = {
+		naval_maintenance_modifier = -0.25
+		}
+
+	trigger = {
+		tag = GEN
+		}
+	free = yes
+	GEN_idea_1 = {
+		stability_cost_modifier = -0.15
+	}
+	GEN_idea_2 = {
+		leader_naval_fire = 1
+		leader_naval_shock = 1
+	}
+	GEN_idea_3 = {
+		global_foreign_trade_power = 0.15
+		global_sailors_modifier = 0.2
+	}
+	GEN_idea_4 = {
+		naval_forcelimit_modifier = 0.25
+	}
+	GEN_idea_5 = {
+		production_efficiency = 0.1
+	}
+	GEN_idea_6 = {
+		core_creation = -0.1
+	}
+	GEN_idea_7 = {
+		global_ship_recruit_speed = -0.2
+		galley_cost = -0.3
+	}
 }
