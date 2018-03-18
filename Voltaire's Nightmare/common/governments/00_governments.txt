@@ -2187,7 +2187,7 @@ tsardom = {
 
 all_mechanics = {
 	monarchy = yes
-	valid_for_new_country = no
+	valid_for_new_country = yes
 	valid_for_nation_designer = no
 
 	government_abilities = {
@@ -2198,3 +2198,72 @@ all_mechanics = {
 		iqta_mechanic
 	}
 }
+
+#Caliphate
+
+
+gov_caliphate = {
+	monarchy = yes
+	
+	color = { 42 145 30 }
+	
+	unique_government = yes
+
+	
+	valid_for_new_country = yes
+	allow_convert = no
+	
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 60
+	nation_designer_trigger = {
+		religion_group = muslim
+	}
+	
+	max_states = 1
+	
+	rank = {
+		1 = {
+			num_accepted_cultures = 2
+			global_missionary_strength = 0.01
+			max_absolutism = 5
+		}
+		2 = {
+			num_accepted_cultures = 2
+			global_missionary_strength = 0.01
+			max_absolutism = 5
+		}
+		3 = {
+			num_accepted_cultures = 2
+			global_missionary_strength = 0.01
+			max_absolutism = 5
+		}
+		4 = {
+			global_autonomy = -0.01
+			num_accepted_cultures = 3
+			global_missionary_strength = 0.01
+			max_absolutism = 5
+		} 
+		5 = {
+			global_autonomy = -0.015
+			num_accepted_cultures = 4
+			discipline = 0.05
+			global_missionary_strength = 0.01
+			max_absolutism = 5
+		}
+		6 = {
+			global_autonomy = -0.02
+			num_accepted_cultures = 4
+			land_morale = 0.05
+			discipline = 0.05
+			global_missionary_strength = 0.01
+			max_absolutism = 5
+	}
+	
+	government_abilities = {
+		feudal_theocracy_mechanic
+	}
+}
+	
+	
+	

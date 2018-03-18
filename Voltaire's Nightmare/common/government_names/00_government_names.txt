@@ -2800,3 +2800,38 @@ pagan_theocracy = {
 		government = theocracy
 	}
 }
+
+gov_caliphate = {
+	rank = {
+		1 = CALIPHATE
+		2 = CALIPHATE
+		3 = CALIPHATE
+		4 = CALIPHATE
+		5 = CALIPHATE
+		6 = CALIPHATE
+	}
+
+	ruler_male = {
+		1 = CALIPH
+		2 = CALIPH
+		3 = CALIPH
+		4 = CALIPH
+		5 = CALIPH
+		6 = CALIPH
+	}
+
+	ruler_female = {
+		1 = CALIPH
+		2 = CALIPH
+		3 = CALIPH
+		4 = CALIPH
+		5 = CALIPH
+		6 = CALIPH
+	}
+
+	trigger = {
+		religion_group = muslim
+		government = gov_caliphate
+	}
+	
+}
