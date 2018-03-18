@@ -196,9 +196,6 @@
  GOVERNATE: "Governate"
  GOVERNOR_GENERAL: "Governor-General"
  GOVERNESS_GENERAL: "Governess-General"
- CALIPH: "Khalifa"
- CALIPHATE: "Caliphate"
- gov_caliphate: "Caliphate"
 #Actual governments
  SET_CELESTIAL_EMPEROR_DESC: "$COUNTRYNAME$ becomes King of the Franks.\n"
  DISMANTLE_CELESTIAL_EMPIRE_DESC: "Kingdom of the Franks is dismantled.\n"
@@ -271,8 +268,6 @@
  support_tur_militarists_faction_desc: "We can encourage young industrious men to join the War viziers to strengthen their influence at the court."
  support_tur_lalas_faction_title: "Encourage the Lalas"
  support_tur_lalas_faction_desc: "The Lalas' power at court has been dwindling recently, we need to strengthen their power."
- gov_caliphate: "Caliphate"
- gov_caliphate_desc: "The Caliphate is a Muslim Government ruled by a Khalifa, someone who is religiously considered to be a successor to the last Prophet Muhammad, and is considered the ultimate authority for the Religion of Islam as well as all Muslims regardless of Sect or School of thought. 
 #Dutch
  statists: "Republicans in Power"
  orangists: "Monarchists in Power"
