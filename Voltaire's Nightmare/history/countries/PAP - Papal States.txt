@@ -668,7 +668,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-1497.1.1 = { leader = {	name = "Cesare Borgia"             	type = general	fire = 2	shock = 1	manuever = 2	siege = 3	death_date = 1500.1.1 } }
+1497.1.1 = { leader = {	name = "Cesare Borgia"             	type = general	fire = 2	shock = 2	manuever = 2	siege = 3	death_date = 1500.1.1 } }
 1503.8.19 = {
 	monarch = {
 		name = "Pius III"
