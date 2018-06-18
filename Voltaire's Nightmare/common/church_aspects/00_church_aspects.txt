@@ -1,5 +1,5 @@
 organised_through_bishops_aspect = {
-	effect = {
+	modifier = {
 		development_cost = -0.05
 	}
 	ai_will_do = {
@@ -12,7 +12,7 @@ organised_through_bishops_aspect = {
 }
 
 priests_may_marry_aspect = {
-	effect = {
+	modifier = {
 		stability_cost_modifier = -0.10
 	}
 	ai_will_do = {
@@ -30,7 +30,7 @@ priests_may_marry_aspect = {
 }
 
 adult_baptism_aspect = {
-	effect = { 
+	modifier = { 
 		global_missionary_strength = 0.01
 	}
 	ai_will_do = {
@@ -43,7 +43,7 @@ adult_baptism_aspect = {
 }
 
 holy_sacraments_aspect = {
-	effect = { 
+	modifier = { 
 		discipline = 0.025
 	}
 	ai_will_do = {
@@ -56,7 +56,7 @@ holy_sacraments_aspect = {
 }
 
 saints_accept_prayers_aspect = {
-	effect = { 
+	modifier = { 
 		land_morale = 0.05
 		naval_morale = 0.05
 	}
@@ -70,7 +70,7 @@ saints_accept_prayers_aspect = {
 }
 
 icons_images_aspect = {
-	effect = { 
+	modifier = { 
 		prestige = 0.5
 	}
 	ai_will_do = {
@@ -83,7 +83,7 @@ icons_images_aspect = {
 }
 
 legalised_divorces_aspect = {
-	effect = {
+	modifier = {
 		legitimacy = 0.25
 		devotion = 0.25
 		republican_tradition = 0.1
@@ -110,7 +110,7 @@ legalised_divorces_aspect = {
 }
 
 heretics_deported_aspect = {
-	effect = {
+	modifier = {
 		global_colonial_growth = 15
 	}
 	ai_will_do = {
@@ -127,7 +127,7 @@ heretics_deported_aspect = {
 }
 
 parish_registers_aspect = {
-	effect = {
+	modifier = {
 		manpower_recovery_speed = 0.1
 	}
 	ai_will_do = {
@@ -145,7 +145,7 @@ parish_registers_aspect = {
 }
 
 individual_creeds_aspect = {
-	effect = { 
+	modifier = { 
 		idea_cost = -0.05
 	}
 	ai_will_do = {
@@ -154,7 +154,7 @@ individual_creeds_aspect = {
 }
 
 allow_usury_aspect = {
-	effect = { 
+	modifier = { 
 		production_efficiency = 0.1
 	}
 	ai_will_do = {
@@ -171,7 +171,7 @@ allow_usury_aspect = {
 }
 
 translated_bibles_aspect = {
-	effect = {
+	modifier = {
 		global_unrest = -1
 	}
 	ai_will_do = {
@@ -188,7 +188,7 @@ translated_bibles_aspect = {
 }
 
 piety_works_aspect = {
-	effect = {
+	modifier = {
 		global_spy_defence = 0.1
 	}
 	ai_will_do = {
@@ -197,7 +197,7 @@ piety_works_aspect = {
 }
 
 pentecostalism_aspect = {
-	effect = {
+	modifier = {
 		years_of_nationalism = -2
 	}
 	ai_will_do = {
@@ -206,7 +206,7 @@ pentecostalism_aspect = {
 }
 
 millenarianism_aspect = {
-	effect = {
+	modifier = {
 		reinforce_speed = 0.075
 	}
 	ai_will_do = {
@@ -217,7 +217,7 @@ millenarianism_aspect = {
 #Anabaptist
 
 biblical_literalism_aspect = {
-	effect = {
+	modifier = {
 		tolerance_own = 1
 	}
 	ai_will_do = {
@@ -226,7 +226,7 @@ biblical_literalism_aspect = {
 }
 
 banned_oaths_aspect = {
-	effect = {
+	modifier = {
 		inflation_reduction = 0.1
 	}
 	ai_will_do = {
@@ -243,7 +243,7 @@ banned_oaths_aspect = {
 }
 
 conscientious_objectors_aspect = {
-	effect = {
+	modifier = {
 		war_exhaustion_cost = -0.075
 	}
 	ai_will_do = {
@@ -257,7 +257,7 @@ conscientious_objectors_aspect = {
 }
 
 charismatic_manifestations_aspect = {
-	effect = {
+	modifier = {
 		culture_conversion_cost = -0.075
 	}
 	ai_will_do = {
@@ -270,7 +270,7 @@ charismatic_manifestations_aspect = {
 }
 
 nonconformity_world_aspect = {
-	effect = {
+	modifier = {
 		yearly_corruption = -0.05
 	}
 	ai_will_do = {
@@ -279,7 +279,7 @@ nonconformity_world_aspect = {
 }
 
 church_and_state_aspect = {
-	effect = {
+	modifier = {
 		religious_unity = 0.1
 	}
 	ai_will_do = {
@@ -296,7 +296,7 @@ church_and_state_aspect = {
 }
 
 restricted_communion_aspect = {
-	effect = {
+	modifier = {
 		hostile_attrition = 1
 	}
 	ai_will_do = {
@@ -305,7 +305,7 @@ restricted_communion_aspect = {
 }
 
 communion_symbolism_aspect = {
-	effect = {
+	modifier = {
 		land_maintenance_modifier = -0.05
 	}
 	ai_will_do = {
@@ -314,7 +314,7 @@ communion_symbolism_aspect = {
 }
 
 polygamy_aspect = {
-	effect = {
+	modifier = {
 		global_tax_modifier = 0.05
 		heir_chance = 0.1
 	}
@@ -332,7 +332,7 @@ polygamy_aspect = {
 }
 
 ban_property_aspect = {
-	effect = {
+	modifier = {
 		build_cost = -0.05
 	}
 	ai_will_do = {
@@ -341,7 +341,7 @@ ban_property_aspect = {
 }
 
 celestial_flesh_aspect = {
-	effect = {
+	modifier = {
 		siege_ability = 0.05
 		province_warscore_cost = -0.05
 	}
@@ -357,7 +357,7 @@ celestial_flesh_aspect = {
 #Anglican
 
 prosecute_recusants_aspect = {
-	effect = {
+	modifier = {
 		global_sailors_modifier = 0.075
 	}
 	ai_will_do = {
@@ -370,7 +370,7 @@ prosecute_recusants_aspect = {
 }
 
 state_supremacy_aspect = {
-	effect = {
+	modifier = {
 		global_own_trade_power = 0.05
 	}
 	ai_will_do = {
@@ -379,7 +379,7 @@ state_supremacy_aspect = {
 }
 
 election_doctrine_aspect = {
-	effect = {
+	modifier = {
 		infantry_power = 0.05
 	}
 	ai_will_do = {
@@ -392,7 +392,7 @@ election_doctrine_aspect = {
 }
 
 vernacular_services_aspect = {
-	effect = {
+	modifier = {
 		global_institution_spread = 0.05
 	}
 	ai_will_do = {
@@ -401,7 +401,7 @@ vernacular_services_aspect = {
 }
 
 prayer_books_aspect = {
-	effect = {
+	modifier = {
 		global_autonomy = -0.02
 	}
 	ai_will_do = {
@@ -410,7 +410,7 @@ prayer_books_aspect = {
 }
 
 episcopate_aspect = {
-	effect = {
+	modifier = {
 		diplomatic_reputation = 1
 	}
 	ai_will_do = {
@@ -423,7 +423,7 @@ episcopate_aspect = {
 }
 
 state_homilies_aspect = {
-	effect = {
+	modifier = {
 		state_maintenance_modifier = -0.1
 	}
 	ai_will_do = {
@@ -436,7 +436,7 @@ state_homilies_aspect = {
 }
 
 incarnationalism_aspect = {
-	effect = {
+	modifier = {
 		army_tradition_decay = -0.01
 	}
 	ai_will_do = {
@@ -449,7 +449,7 @@ incarnationalism_aspect = {
 }
 
 via_media_aspect = {
-	effect = {
+	modifier = {
 		ae_impact = -0.05
 	}
 	ai_will_do = {
@@ -458,7 +458,7 @@ via_media_aspect = {
 }
 
 predestination_aspect = {
-	effect = {
+	modifier = {
 		tolerance_heretic = 1
 	}
 	ai_will_do = {

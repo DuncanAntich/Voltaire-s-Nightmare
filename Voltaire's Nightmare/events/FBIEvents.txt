@@ -1170,7 +1170,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = anglican
+			religion = vn_anglican
 		}
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1875,7 +1875,7 @@ country_event = {
 			religion = catholique
 			religion = anabaptist
 			religion = protestant
-			religion = anglican
+			religion = vn_anglican
 			religion = reformed
 			religion = orthodox
 			religion = paulician
@@ -3104,7 +3104,7 @@ country_event = {
 		papacy_active = yes
 		government = papal_government
 		is_free_or_tributary_trigger = yes
-		had_global_flag = { flag = guelph_ghib_enabled years = 50 }
+		had_global_flag = { flag = guelph_ghib_enabled days = 18250 }
 		NOT = { has_global_flag = mod_sk_allowed }
 		is_at_war = no
 		is_part_of_hre = yes

@@ -44,13 +44,11 @@ fort_14th = yes
 	remove_core = COA
 	remove_core = MOR
 }
-1240.1.1 = {
+1248.11.23 = {
 	owner = CAS
 	controller = CAS
-	capital = "Carmona"
-}
-1248.11.23 = {
 	add_core = CAS
+	capital = "Carmona"
 }
 1296.1.1 = { religion = catholic }
 1337.1.1 = { fort_14th = no fort_15th = yes }

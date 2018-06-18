@@ -3,10 +3,10 @@ controller = TTO
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 5
-base_production = 5
+base_tax = 4
+base_production = 4
 trade_goods = horses
-base_manpower = 2
+base_manpower = 3
 capital = "Tarragona"
 is_city = yes
 add_core = TTO
@@ -25,20 +25,26 @@ discovered_by = muslim
 	controller = TTO
 	remove_core = ZGZ
 }
-1099.1.1 = {
+1110.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
 }
-1118.1.1 = {
-	owner = ARA
-	controller = ARA
-	add_core = ARA
+1119.1.1 = {
+	owner = BRC
+	controller = BRC
+	add_core = BRC
 	add_core = CAT
 	remove_core = TTO
 	remove_core = MOR
 	culture = catalan
 	religion = catholic
+}
+1137.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	remove_core = BRC
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }

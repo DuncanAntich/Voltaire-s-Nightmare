@@ -24,7 +24,7 @@ capital = 2372
 		adm = 1
 	}
 }
-1063.8.5 = {
+1063.8.6 = {
 	monarch = {
 		name = "Rhys I"
 		dynasty = "Dinefwr"

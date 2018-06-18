@@ -1,0 +1,21 @@
+government = iqta
+government_rank = 1
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 1178 # Lleida
+religious_school = maliki_school
+
+1046.1.1 = {
+	monarch = {
+		name = "Yusuf"
+		dynasty = "Huddid"
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+}
+
+#1081 Zaragoza
+
+#1082 Tortosa - done

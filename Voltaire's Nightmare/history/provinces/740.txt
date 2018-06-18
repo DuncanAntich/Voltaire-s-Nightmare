@@ -1,5 +1,5 @@
-owner = LON
-controller = LON
+owner = GAL
+controller = GAL
 culture = galician
 religion = catholic
 hre = no
@@ -9,7 +9,6 @@ trade_goods = livestock
 base_manpower = 3
 capital = "La Coruña"
 is_city = yes
-add_core = LON
 add_core = GAL
 discovered_by = eastern
 discovered_by = ottoman
@@ -18,9 +17,6 @@ discovered_by = muslim
 fort_14th = yes
 
 1065.12.24 = {
-	owner = GAL
-	controller = GAL
-	remove_core = LON
 	base_tax = 6
 	base_production = 5
 	base_manpower = 6

@@ -1,5 +1,6 @@
-owner = CAT
-controller = CAT
+owner = BRC
+controller = BRC
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -9,7 +10,7 @@ trade_goods = olive
 base_manpower = 3
 capital = "Girona"
 is_city = yes
-add_core = CAT
+add_core = BRC
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -21,6 +22,7 @@ fort_14th = yes
 	owner = ARA
 	controller = ARA
 	add_core = ARA
+	remove_core = BRC
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }

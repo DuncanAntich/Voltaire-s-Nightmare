@@ -90,6 +90,7 @@ capital = 2430
 }
 1441.1.1 = {
 	heir = {
+		claim = 95
 		name = "Nikolaus"
 		monarch_name = "Nikolaus I"
 		dynasty = "von Abensberg"

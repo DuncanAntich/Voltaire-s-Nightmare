@@ -12,6 +12,7 @@ fallback_wargoal = {
 		po_gold
 		po_concede_defeat
 		po_trade_power
+		po_steer_trade
 	}
 }
 
@@ -61,6 +62,7 @@ superiority_loan = {
 		po_gold
 		po_concede_defeat
 		po_trade_power
+		po_steer_trade
 	}
 	
 	war_name = FINANCIAL_WAR_NAME
@@ -848,6 +850,7 @@ superiority_trade = {
 		po_gold
 		po_concede_defeat
 		po_trade_power
+		po_steer_trade
 	}
 	
 	
@@ -867,6 +870,7 @@ superiority_trade_mutual = {
 			po_gold
 			po_concede_defeat
 			po_trade_power
+			po_steer_trade
 		}
 	}
 	
@@ -880,6 +884,7 @@ superiority_trade_mutual = {
 			po_gold
 			po_concede_defeat
 			po_trade_power
+			po_steer_trade
 		}
 	}
 	
@@ -1286,6 +1291,7 @@ humiliate_rotw = {
 		po_gold
 		po_annul_treaties
 		po_trade_power
+		po_steer_trade
 		po_humiliate
 		po_humiliate_rival
 	}
@@ -1304,6 +1310,7 @@ blockade_ports = {
 		po_gold
 		po_concede_defeat
 		po_trade_power
+		po_steer_trade
 	}
 	
 	transfer_trade_cost_factor = 0.5	

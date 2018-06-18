@@ -3,7 +3,7 @@ controller = LON
 culture = castillian
 religion = catholic
 hre = no
-base_tax = 4
+base_tax = 3
 base_production = 3
 trade_goods = wine
 base_manpower = 3
@@ -16,7 +16,7 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1072.1.1 = {
+1065.12.24 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS

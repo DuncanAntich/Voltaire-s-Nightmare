@@ -10601,7 +10601,7 @@ province_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 		is_religion_enabled = protestant
@@ -10642,7 +10642,7 @@ province_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = anglican
+						religion = vn_anglican
 					}
 				}
 				add_opinion = { who = ROOT modifier = opinion_angry }
@@ -10682,10 +10682,10 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
-			change_religion = anglican
+			change_religion = vn_anglican
 		}
 		owner = {
 			PAP = { add_opinion = { who = ROOT modifier = opinion_angry } }
@@ -10704,7 +10704,7 @@ province_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = anglican
+						religion = vn_anglican
 					}
 				}
 				add_opinion = { who = ROOT modifier = opinion_grateful }
@@ -10950,7 +10950,7 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 	}
@@ -10985,7 +10985,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 			add_unrest = 10
@@ -11059,11 +11059,11 @@ country_event = {
 			if = {
 				limit = {
 					owner = {
-						religion = anglican
+						religion = vn_anglican
 					}
 					is_reformation_center = no
 				}
-				change_religion = anglican
+				change_religion = vn_anglican
 			}
 		}
 	}

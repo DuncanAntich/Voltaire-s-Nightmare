@@ -148,9 +148,9 @@ add_army_professionalism = 0.05
 	monarch = {
 		name = "Girolamo Savonarola"
 		birth_date = 1452.1.1
-		adm = 4
-		dip = 2
-		mil = 2
+		adm = 5
+		dip = 5
+		mil = 3
 	}
 }
 1498.1.1 = { leader = {	name = "Machiavelli"           	type = general	fire = 1	shock = 1	manuever = 3	siege = 2 death_date = 1512.8.1 }}

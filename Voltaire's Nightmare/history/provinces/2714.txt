@@ -15,17 +15,22 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1091.1.1 = {
+1085.1.1 = {
+	owner = ARR
+	add_core = ARR
+	controller = ARR
+}
+1104.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = ARR
 }
-1106.1.1 = {
+1128.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS
 	remove_core = MOR
-	remove_core = TLD
 	culture = castillian
 	religion = catholic
 }

@@ -69,7 +69,7 @@ capital = 506
 		mil = 2
 	}
 	queen = {
-		country_of_origin = SFA
+		country_of_origin = SNO
 		name = "Cecília"
 		dynasty = "Aldobrandeschi"
 		birth_date = 1415.1.1

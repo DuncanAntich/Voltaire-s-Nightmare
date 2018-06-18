@@ -4,7 +4,7 @@ primary_culture = aragonese
 add_accepted_culture = catalan
 religion = catholic
 technology_group = western
-capital = 1219
+capital = 432 # Jaca
 historical_friend = CAT
 add_army_professionalism = 0.05
 
@@ -108,6 +108,9 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
+
+1096.1.1 = { capital = 4030 }
+
 1097.8.1 = {
 	queen = {
 		country_of_origin = SAV

@@ -918,7 +918,7 @@ national_focus = DIP
 		mil = 2
 	}
 }
-1534.1.1 = { religion = anglican }
+1534.1.1 = { religion = vn_anglican }
 1536.1.1 = {
 	decision = dissolution_of_the_monasteries
 	queen = {
@@ -1046,7 +1046,7 @@ national_focus = DIP
 1556.1.1 = { leader = {	name = "William Fitzwilliam"           	type = admiral	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1599.2.6 } }
 1558.1.1 = { leader = {	name = "Edward Clinton"               	type = admiral	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1585.1.16 } }
 1558.11.17 = {
-	religion = anglican
+	religion = vn_anglican
 	monarch = {
 		name = "Elizabeth I"
 		dynasty = "Tudor"
@@ -1183,7 +1183,7 @@ national_focus = DIP
 		mil = 2
 		regent = yes
 	}
-	religion = anglican
+	religion = vn_anglican
 	government = noble_republic
 } # The protectorate is Abolished
 1660.5.29 = {
@@ -1281,7 +1281,7 @@ national_focus = DIP
 	}
 }
 1688.12.11 = {
-	religion = anglican
+	religion = vn_anglican
 	monarch = {
 		name = "Convention Parliament"
 		regent = yes

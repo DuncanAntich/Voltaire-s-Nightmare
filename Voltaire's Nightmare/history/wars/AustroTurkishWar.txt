@@ -24,6 +24,6 @@ war_goal = {
 	rem_defender = NAP
 	rem_defender = SAR
 	rem_defender = MLO
-	rem_refender = HUN
+	rem_defender = HUN
 	rem_defender = VEN
 }

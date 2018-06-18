@@ -483,21 +483,21 @@ alliance = {
 	start_date = 1000.1.1
 	end_date = 1065.12.24
 }
+#	alliance = {
+#		first = LON
+#		second = NAV
+#		start_date = 1000.1.1
+#		end_date = 1065.12.24
+#	}
 alliance = {
 	first = LON
-	second = NAV
-	start_date = 1000.1.1
-	end_date = 1065.12.24
-}
-alliance = {
-	first = LON
-	second = CAT
+	second = BRC
 	start_date = 1000.1.1
 	end_date = 1065.12.24
 }
 alliance = {
 	first = ARA
-	second = CAT
+	second = BRC
 	start_date = 1000.1.1
 	end_date = 1065.12.24
 }
@@ -508,8 +508,52 @@ alliance = {
 	end_date = 1065.12.24
 }
 alliance = {
-	first = CAT
+	first = BRC
 	second = NAV
 	start_date = 1000.1.1
 	end_date = 1065.12.24
+}
+
+#1.25 Diplomacy
+
+union = {
+	first = LON
+	second = GAL
+	start_date = 1037.9.4
+	end_date = 1065.12.24
+}
+
+vassal = {
+	first = LON
+	second = POR
+	start_date = 1050.1.1
+	end_date = 1065.12.24
+}
+
+vassal = {
+	first = LON
+	second = CBR
+	start_date = 1064.1.1
+	end_date = 1065.12.24
+}
+
+vassal = {
+	first = GAL
+	second = CBR
+	start_date = 1065.12.24
+	end_date = 1096.1.1
+}
+
+vassal = {
+	first = GAL
+	second = POR
+	start_date = 1065.12.24
+	end_date = 1071.2.18
+}
+
+vassal = {
+	first = ZGZ
+	second = LER
+	start_date = 1046.1.1
+	end_date = 1081.1.1
 }

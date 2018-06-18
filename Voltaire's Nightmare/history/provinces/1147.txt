@@ -1,5 +1,5 @@
-owner = LON
-controller = LON
+owner = GAL
+controller = GAL
 culture = galician
 religion = catholic
 hre = no
@@ -9,7 +9,6 @@ trade_goods = gold
 base_manpower = 1
 capital = "Pontevedra"
 is_city = yes
-add_core = LON
 add_core = GAL
 discovered_by = eastern
 discovered_by = ottoman
@@ -17,9 +16,6 @@ discovered_by = western
 discovered_by = muslim
 
 1065.12.24 = {
-	owner = GAL
-	controller = GAL
-	remove_core = LON
 	base_tax = 4
 	base_production = 4
 	base_manpower = 4

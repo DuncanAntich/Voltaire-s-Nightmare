@@ -212,7 +212,7 @@ estate_church =
 			OR = {
 				religion = protestant
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 		loyalty = 10
@@ -468,7 +468,7 @@ estate_church =
 					OR = {
 						religion = protestant
 						religion = anabaptist
-						religion = anglican
+						religion = vn_anglican
 					}
 				}
 				add_church_power = 10

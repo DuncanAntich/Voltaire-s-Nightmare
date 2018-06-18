@@ -185,7 +185,7 @@ country_event = {
 		}
 		any_province = {
 			superregion = british_isles_superregion
-			religion = anglican
+			religion = vn_anglican
 		}
 	}
 	
@@ -208,7 +208,7 @@ country_event = {
 					religion = catholique
 				}
 			}
-			change_religion = anglican
+			change_religion = vn_anglican
 		}
 	}
 	option = {			# Who are they to demand anything!
@@ -252,7 +252,7 @@ country_event = {
 		}
 		any_province = {
 			superregion = british_isles_superregion
-			religion = anglican
+			religion = vn_anglican
 		}
 	}
 	
@@ -275,7 +275,7 @@ country_event = {
 					religion = catholique
 				}
 			}
-			change_religion = anglican
+			change_religion = vn_anglican
 		}
 	}
 

@@ -559,10 +559,15 @@ fort_18th = {
 # Manufactories
 ################################################
 
-
-wharf = {
+manufactory = {
 	cost = 500
 	time = 60
+	modifier = {
+		trade_goods_size = 1.0
+	}
+}
+
+wharf = {
 	manufactory = {
 		naval_supplies
 		fish
@@ -571,9 +576,6 @@ wharf = {
 		hemp
 		wax
 		slaves
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 	
@@ -593,15 +595,13 @@ wharf = {
 			base_production = 15
 		}
 		modifier = {
-			NOT = { num_free_building_slots  = 3 }
+			NOT = { num_free_building_slots = 3 }
 			factor = 1.5
 		}
 	}
 }
 
 weapons = {
-	cost = 500
-	time = 60
 	manufactory = {
 		copper
 		iron
@@ -612,9 +612,6 @@ weapons = {
 		munitions
 		horses
 	}
-	modifier = {
-		trade_goods_size = 1.0
-	}
 	onmap = yes	
 	
 	ai_will_do = {
@@ -623,8 +620,6 @@ weapons = {
 }
 
 textile = {
-	cost = 500
-	time = 60
 	manufactory = {
 		wool
 		linen
@@ -635,9 +630,6 @@ textile = {
 		livestock
 		fur
 	}
-	modifier = {
-		trade_goods_size = 1.0
-	}
 	onmap = yes
 	
 	ai_will_do = {
@@ -645,11 +637,7 @@ textile = {
 	}
 }
 
-
-
 plantations = {
-	cost = 500
-	time = 60
 	manufactory = {
 		rice
 		sugar
@@ -660,9 +648,6 @@ plantations = {
 		beer
 		olive
 	}
-	modifier = {
-		trade_goods_size = 1.0	
-	}
 	onmap = yes
 	
 	ai_will_do = {
@@ -671,23 +656,61 @@ plantations = {
 }
 
 tradecompany = {
-	cost = 500
-	time = 60
 	manufactory = {
 		ivory
 		amber
-		glassware
-		chinaware
 		wine
-		marble
 		honey
 		cheese
 	}
-	modifier = {
-		trade_goods_size = 1.0	
-	}
 	onmap = yes
 
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+farm_estate = {
+	manufactory = {
+		grain
+		livestock
+		wine
+	}
+	onmap = yes
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+mills = {
+	manufactory = {
+		glassware
+		chinaware
+		marble
+	}
+	onmap = yes
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+furnace = {
+	manufactory = {
+		coal
+	}
+
+	potential = {
+		has_dlc = "Rule Britannia"
+	}
+
+	modifier = {
+		global_trade_goods_size_modifier = 0.05 #National Bonus
+	}
+	onmap = yes
+	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	
 	ai_will_do = {
 		factor = 1
 	}

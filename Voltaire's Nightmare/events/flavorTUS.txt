@@ -475,14 +475,14 @@ country_event = {
 		capital = 640
 		OR = {
 			NOT = {
-				republican_tradition = 90
+				republican_tradition = 85
 			}
 			government = monarchy
 		}
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 300
 		modifier = {
 			factor = 0.8
 			is_at_war = yes
@@ -538,7 +538,7 @@ country_event = {
 	option = {
 		name = flavor_tus.9.a
 		ai_chance = {
-			factor = 85
+			factor = 75
 		}
 		define_ruler = {
 			name = "Girolamo"
@@ -549,8 +549,6 @@ country_event = {
 			MIL = 2
 		}
 		add_republican_tradition = 20
-		add_stability = -1
-		
 		set_country_flag = tus_savonarola_seized_power
 	}
 
@@ -558,9 +556,9 @@ country_event = {
 	option = {
 		name = flavor_tus.9.b
 		ai_chance = {
-			factor = 15
+			factor = 25
 		}
-		add_stability = -2
+		add_stability = -1
 		capital_scope = {
 			spawn_rebels = {
 				type = catholic_rebels
@@ -586,7 +584,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 8
+		months = 12
 	}
 
 	immediate = {
@@ -602,13 +600,13 @@ country_event = {
 	#We Will Convince the People to Burn Their Sin
 	option = {
 		name = flavor_tus.10.a
-		add_adm_power = -50
+		add_adm_power = -20
 	}
 
 	#Seize Their Vanities!
 	option = {
 		name = flavor_tus.10.b
-		add_republican_tradition = -15
+		add_republican_tradition = -5
 	}
 }
 
@@ -628,7 +626,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 10
+		months = 6
 	}
 
 	immediate = {
@@ -644,13 +642,13 @@ country_event = {
 	#Whatever it Takes to Root Them Out
 	option = {
 		name = flavor_tus.11.a
-		add_dip_power = -50
+		add_dip_power = -20
 	}
 
 	#Expel anyone who might have loyalties to the Medicis!
 	option = {
 		name = flavor_tus.11.b
-		add_republican_tradition = -10
+		add_republican_tradition = -5
 	}
 }
 
@@ -692,7 +690,7 @@ country_event = {
 	#Invent something a little calmer
 	option = {
 		name = flavor_tus.12.b
-		add_republican_tradition = -15
+		add_republican_tradition = -10
 	}
 }
 
@@ -766,15 +764,15 @@ country_event = {
 	#We govern for the people of Florence
 	option = {
 		name = flavor_tus.14.a
-		add_adm_power = -50
-		add_republican_tradition = 15
+		add_adm_power = -25
+		add_republican_tradition = 10
 	}
 
 	#The people need strict guidance
 	option = {
 		name = flavor_tus.14.b
-		add_adm_power = 50
-		add_republican_tradition = -15
+		add_adm_power = 25
+		add_republican_tradition = -10
 	}
 }
 
@@ -814,7 +812,7 @@ country_event = {
 	option = {
 		name = flavor_tus.15.a
 		random_list = {
-			99 = {
+			98 = {
 				if = {
 					limit = {
 						NOT = {
@@ -827,7 +825,7 @@ country_event = {
 					dynasty = "de' Medici"
 				}
 			}
-			1 = {
+			2 = {
 				change_government = theocratic_government
 			}
 		}
@@ -868,8 +866,7 @@ country_event = {
 		trigger = {
 			government = republic
 		}
-		add_republican_tradition = 15
-		add_stability = 1
+		add_republican_tradition = 10
 	}
 
 	option = {
@@ -877,152 +874,6 @@ country_event = {
 		trigger = {
 			government = monarchy
 		}
-		add_legitimacy = 15
-		add_stability = 1
+		add_legitimacy = 10
 	}
 }
-
-#Niccolò Machiavelli
-country_event = {
-	id = flavor_tus.17
-	title = flavor_tus.17.t 
-	desc = flavor_tus.17.d 
-	picture = ADVISOR_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			tag = LAN
-			tag = TUS
-		}
-		NOT = {
-			is_year = 1527
-		}
-		is_year = 1500
-		capital = 640
-	
-	}
-	
-	mean_time_to_happen = {
-		months = 6
-		}
-		
-	immediate = {
-			}
-	
-	option = {
-		name = "flavor_tus.17.o"
-		add_prestige = 10
-		add_country_modifier = {
-				name = Niccolo_Machiavelli
-				duration = -1
-	}
-		
-}
-}
-
-
-#Death of Niccolò Machiavelli
-country_event = {
-	id = flavor_tus.18
-	title = flavor_tus.18.t 
-	desc = flavor_tus.18.d 
-	picture = KING_SICK_IN_BED_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			tag = LAN
-			tag = TUS 
-		}
-		is_year = 1527
-		has_country_modifier = Niccolo_Machiavelli
-		}
-		
-		mean_time_to_happen = {
-			months = 6
-			}
-			
-			
-			option = {
-		name = "flavor_tus.18.o"
-		remove_country_modifier = Niccolo_Machiavelli
-		}
-		 
-		
-	}
-	
-#Francesco Petrarca
-country_event = {
-	id = flavor_tus.19
-	title = flavor_tus.19.t 
-	desc = flavor_tus.19.d 
-	picture = BIG_BOOK_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			tag = LAN
-			tag = TUS
-		}
-		NOT = {
-			is_year = 1373
-		}
-		is_year = 1337
-		capital = 640
-	
-	}
-	
-	mean_time_to_happen = {
-		months = 4
-		}
-		
-	immediate = {
-			}
-	
-	option = {
-		name = "flavor_tus.19.o"
-		add_prestige = 10
-		add_country_modifier = {
-				name = Francesco_Petrarca
-				duration = -1
-	}
-		
-}
-}
-
-#Petrarch dies
-country_event = {
-	id = flavor_tus.20
-	title = flavor_tus.20.t 
-	desc = flavor_tus.20.d 
-	picture = DEATH_OF_HEIR_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			tag = LAN
-			tag = TUS 
-		}
-		is_year = 1374
-		has_country_modifier = Francesco_Petrarca
-		}
-		
-		mean_time_to_happen = {
-			months = 7
-			}
-			
-			
-			option = {
-		name = "flavor_tus.20.o"
-		remove_country_modifier = Francesco_Petrarca
-		}
-		 
-		
-	}
-	
-

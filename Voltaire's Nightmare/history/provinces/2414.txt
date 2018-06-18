@@ -30,7 +30,7 @@ discovered_by = north_american
 	remove_core = WRC
 }
 1335.1.1 = { hre = yes }
-1409.1.12 {
+1409.1.12 = {
 	owner = LNN
 	controller = LNN
 	add_core = LNN

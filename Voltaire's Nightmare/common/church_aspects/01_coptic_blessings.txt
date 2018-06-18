@@ -1,7 +1,7 @@
 legitimize_government = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		legitimacy = 0.5
 		republican_tradition = 0.2
 		devotion = 0.5
@@ -24,7 +24,7 @@ legitimize_government = {
 encourage_warriors_of_the_faith = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		manpower_recovery_speed = 0.1
 	}
 	ai_will_do = {
@@ -41,7 +41,7 @@ encourage_warriors_of_the_faith = {
 send_monks_to_establish_monasteries = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		global_missionary_strength = 0.015
 	}
 	ai_will_do = {
@@ -70,7 +70,7 @@ send_monks_to_establish_monasteries = {
 promote_territorial_rights = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		core_creation = -0.1
 	}
 	ai_will_do = {
@@ -89,7 +89,7 @@ promote_territorial_rights = {
 will_of_the_martyrs = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		discipline = 0.025
 	}
 	ai_will_do = {

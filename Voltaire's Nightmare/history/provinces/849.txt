@@ -26,7 +26,7 @@ discovered_by = muslim
 	add_core = VLK
 	remove_core = MOR 
 }
-1147.1.1 = {
+1149.1.1 = {
 	owner = MCA
 	controller = MCA
 	add_core = MCA

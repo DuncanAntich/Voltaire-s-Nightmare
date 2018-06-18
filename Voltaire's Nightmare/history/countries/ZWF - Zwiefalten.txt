@@ -61,7 +61,7 @@ capital = 1872
 		mil = 2
 	}
 }
-1193.1.1 = {
+1196.1.1 = {
 	monarch = {
 		name = "Hermann"
 		dynasty = "de Bosson"

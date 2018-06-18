@@ -143,7 +143,8 @@ capital = 2426
 		mil = 1
 	}
 	heir = {
-		name = "Niccolò I"
+		name = "Niccolò"
+		monarch_name = "Niccolò I"
 		dynasty = "da Correggio"
 		birth_date = 1420.1.1
 		death_date = 1449.1.1

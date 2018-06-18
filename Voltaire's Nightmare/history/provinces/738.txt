@@ -3,7 +3,7 @@ controller = ARR
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 4
+base_tax = 3
 base_production = 3
 trade_goods = bananas
 base_manpower = 3
@@ -26,7 +26,7 @@ discovered_by = muslim
 	add_core = VLK
 	remove_core = MOR 
 }
-1147.1.1 = {
+1149.1.1 = {
 	owner = MCA
 	controller = MCA
 	add_core = MCA

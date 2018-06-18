@@ -34,7 +34,7 @@ country_event = {
 			religion = catholique
 		}
 		any_owned_province = {
-			religion = anglican
+			religion = vn_anglican
 			is_in_capital_area = yes
 		}
 		NOT = {
@@ -54,12 +54,12 @@ country_event = {
 	
 	option = {
 		name = women_history_events.1.a
-		change_religion = anglican
+		change_religion = vn_anglican
 		define_ruler = {
 			name = "Elizabeth"
 			dynasty = "Tudor"
 			culture = english
-			religion = anglican
+			religion = vn_anglican
 			fixed = yes
 			adm = 6
 			dip = 6

@@ -195,7 +195,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 		allow = {
@@ -219,7 +219,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 				AND = {
 					religion = catholic
 					has_country_modifier = the_statue_in_restraint_of_appeals
@@ -256,7 +256,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 			adm_tech = 43
 		}

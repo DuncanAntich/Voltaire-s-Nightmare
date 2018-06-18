@@ -1,5 +1,6 @@
 owner = LGV
 controller = LGV
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -64,7 +65,7 @@ fort_14th = yes
 	owner = SPA 
 	controller = SPA
 }
-1659.11.7 = { owner = FRA controller = FRA add_core = FRA }
+1659.11.7 = { owner = FRA controller = FRA add_core = FRA remove_core = CAT }
 1674.8.10 = { controller = SPA }
 1678.9.19 = { controller = FRA remove_core = SPA }
 1715.1.1 = { fort_17th = no fort_18th = yes }

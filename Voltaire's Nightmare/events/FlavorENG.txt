@@ -462,17 +462,17 @@ country_event = {
 		months = 72
 	}
 
-	immediate = { hidden_effect = { enable_religion = anglican } }
+	immediate = { hidden_effect = { enable_religion = vn_anglican } }
 
 	option = {
 		name = "flavor_eng.EVTOPTA9109"
 		ai_chance = { factor = 80 }
-		change_religion = anglican
+		change_religion = vn_anglican
 		add_years_of_income = 2
 		add_stability = -2
 		every_owned_province = {
 			limit = { religion = protestant }
-			change_religion = anglican
+			change_religion = vn_anglican
 		}
 	}
 	option = {
@@ -651,7 +651,7 @@ country_event = {
 			tag = GBR
 		}
 		OR = {
-			religion = anglican
+			religion = vn_anglican
 			religion = protestant
 		}
 		OR = {
@@ -844,7 +844,7 @@ country_event = {
 		NOT = { is_year = 1600 }
 		OR = {
 			religion = protestant
-			religion = anglican
+			religion = vn_anglican
 		}
 		NOT = { has_country_modifier = aristocracy_modifier }
 		OR = {
@@ -1082,7 +1082,7 @@ country_event = {
 		}
 		OR = {
 			religion = protestant
-			religion = anglican
+			religion = vn_anglican
 		}
 		irish_superregion = {
 			owned_by = ROOT
@@ -1378,8 +1378,7 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = anglican
-			religion = zwinglianist
+			religion = vn_anglican
 			religion = anabaptist
 		}
 	}
@@ -1917,10 +1916,8 @@ country_event = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			religion = anglican
+			religion = vn_anglican
 			religion = anabaptist
-			religion = zwinglianist
-			religion = huguenot
 		}
 		any_owned_province = {
 			is_capital = no

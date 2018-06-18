@@ -55,6 +55,7 @@ capital = 245
 		name = "Anarg"
 		monarch_name = "Anarg II"
 		dynasty = "von Waldenburg"
+		claim = 95
 		birth_date = 1276.1.1
 		death_date = 1331.4.1
 		dip = 2

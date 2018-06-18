@@ -31,7 +31,7 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 		NOT = { has_country_flag = submission_of_the_clergy }
@@ -54,7 +54,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			dominant_religion = anglican
+			dominant_religion = vn_anglican
 		}
 		modifier = {
 			factor = 0.9

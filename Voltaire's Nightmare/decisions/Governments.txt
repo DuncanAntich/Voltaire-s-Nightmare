@@ -334,7 +334,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 			NOT = {
 				tag = TEU
@@ -405,7 +405,7 @@ country_decisions = {
 			NOT = { religion = protestant }
 			NOT = { religion = reformed }
 			NOT = { religion = anabaptist }
-			NOT = { religion = anglican }
+			NOT = { religion = vn_anglican }
 		}
 		allow = {
 			stability = 2

@@ -20,10 +20,10 @@
 #}
 
 #Siling Lake
-lake = {
-	triangle_strip = { 3760 1194 3750 1194 3760 1184 3750 1184 }
-	height = 3
-}
+#lake = {
+#	triangle_strip = { 3760 1194 3750 1194 3760 1184 3750 1184 }
+#	height = 3
+#}
 
 #Qinghai Lake
 #lake = {

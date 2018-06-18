@@ -3,7 +3,7 @@ controller = BDJ
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 4
+base_tax = 3
 base_production = 3
 trade_goods = livestock
 base_manpower = 3
@@ -20,7 +20,7 @@ discovered_by = muslim
 	controller = MOR
 	add_core = MOR
 }
-1116.1.1 = {
+1145.3.25 = {
 	owner = BDJ
 	controller = BDJ
 	remove_core = MOR

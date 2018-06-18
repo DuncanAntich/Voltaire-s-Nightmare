@@ -1,16 +1,14 @@
-owner = LON
-controller = LON
+owner = POR
+controller = POR
 culture = portugese
 religion = catholic
 hre = no
-base_tax = 4
+base_tax = 3
 base_production = 3
 trade_goods = naval_supplies
 base_manpower = 3
 capital = "Braga"
 is_city = yes
-add_core = LON
-add_core = GAL
 add_core = POR
 discovered_by = eastern
 discovered_by = ottoman
@@ -20,9 +18,11 @@ estate = estate_church
 fort_14th = yes
 
 1065.12.24 = {
+	add_core = GAL
+}
+1071.2.18 = {
 	owner = GAL
 	controller = GAL
-	remove_core = LON
 }
 1096.1.1 = {
 	owner = POR

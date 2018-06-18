@@ -46,7 +46,7 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0.0
-				dominant_religion = anglican
+				dominant_religion = vn_anglican
 				is_emperor = no
 			}
 			modifier = {
@@ -138,7 +138,7 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0.0
-				dominant_religion = anglican
+				dominant_religion = vn_anglican
 				is_emperor = no
 			}
 			modifier = {

@@ -351,6 +351,5 @@ fixed_capital = 1246
 }
 
 1531.3.28 = { government = despotic_monarchy }
-1560.1.1 = { religion = huguenot }
+1560.1.1 = { religion = protestant }
 1562.11.18 = { government = administrative_monarchy }
-1661.3.9 = { government = absolute_monarchy }

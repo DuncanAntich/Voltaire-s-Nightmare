@@ -9,6 +9,7 @@ war_goal = {
 	add_attacker = PXU
 	add_attacker = AQU
 	add_defender = VEN
+}
 
 1379.5.7 = {
 	battle = {

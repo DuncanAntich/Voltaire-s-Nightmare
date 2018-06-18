@@ -1,6 +1,6 @@
-owner = CRD
-controller = CRD
-add_core = CRD
+owner = COA
+controller = COA
+add_core = COA
 culture = andalucian
 religion = sunni
 hre = no
@@ -15,7 +15,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1070.1.1 = {
+1066.1.1 = {
 	owner = SEV
 	controller = SEV
 	add_core = SEV
@@ -25,15 +25,13 @@ discovered_by = muslim
 	controller = MOR
 	add_core = MOR
 	remove_core = SEV
-	remove_core = CRD
-	add_core = MGG
 }
 1145.3.25 = {
-	owner = MGG
-	controller = MGG
+	owner = COA
+	controller = COA
 	remove_core = MOR
 }
-1153.1.1 = {
+1150.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
@@ -43,7 +41,7 @@ discovered_by = muslim
 	controller = GRA
 	add_core = GRA
 	remove_core = MOR
-	remove_core = MGG
+	remove_core = COA
 }
 1341.1.1 = {
 	owner = CAS

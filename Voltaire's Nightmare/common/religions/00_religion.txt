@@ -802,6 +802,11 @@ christian = {
 		
 		date = 1517.10.31
 	}
+	
+	anglican = {
+		color = { 135 77 255 }
+		icon = 28
+	}
 
 	reformed = {
 		color = { 76 76 229 }
@@ -967,10 +972,10 @@ christian = {
 		fervor = yes
 	}
 
-	anglican = {
+	vn_anglican = {
 		color = { 229 102 76 }
 		icon = 40
-
+		
 		country = {
 			global_unrest = -2
 			navy_tradition = 1
@@ -980,9 +985,16 @@ christian = {
 			navy_tradition_decay = -0.01
 		}
 		
+		allowed_center_conversion = {
+			catholic
+		}
+		
+		on_convert = {
+		}
+		
 		heretic = { PURITAN EPISCOPALIAN PRESBYTERIAN }
 		
-		date = 1534.1.1
+		date = 1534.11.13 # act of supremacy
 		
 		uses_church_power = yes
 		aspects = {

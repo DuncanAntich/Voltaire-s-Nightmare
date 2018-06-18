@@ -19,7 +19,6 @@ discovered_by = muslim
 	owner = CAS
 	controller = CAS
 	add_core = CAS
-	remove_core = TLD
 	culture = castillian
 	religion = catholic
 }

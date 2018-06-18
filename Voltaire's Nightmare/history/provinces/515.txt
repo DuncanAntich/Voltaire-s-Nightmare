@@ -1,16 +1,18 @@
-owner = PLL
-controller = PLL
+owner = PJA
+controller = PJA
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
-base_tax = 4
-base_production = 3
+base_tax = 2
+base_production = 1
 trade_goods = wool
-base_manpower = 3
+base_manpower = 1
 capital = "Tremp"
 is_city = yes
 add_core = PLL
-add_core = CAT
+add_core = PJA
+add_core = PSA
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -24,6 +26,8 @@ discovered_by = muslim
 	controller = ARA
 	add_core = ARA
 	remove_core = PLL
+	remove_core = PJA
+	remove_core = PSA
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }

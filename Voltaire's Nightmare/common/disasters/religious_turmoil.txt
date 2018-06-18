@@ -9,7 +9,7 @@ religious_turmoil = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = anglican
+			religion = vn_anglican
 		}
 		is_religion_enabled = protestant
 		NOT = { tag = FRA }
@@ -32,7 +32,7 @@ religious_turmoil = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 	}
@@ -96,7 +96,7 @@ religious_turmoil = {
 								religion = protestant
 								religion = reformed
 								religion = anabaptist
-								religion = anglican
+								religion = vn_anglican
 							}
 						}		
 					}

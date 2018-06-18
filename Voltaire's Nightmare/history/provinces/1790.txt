@@ -1,5 +1,5 @@
-owner = ZGZ
-controller = ZGZ
+owner = LER
+controller = LER
 culture = andalucian
 religion = sunni
 hre = no
@@ -9,18 +9,18 @@ trade_goods = wine
 base_manpower = 1
 capital = "Balaguer"
 is_city = yes
-add_core = ZGZ
+add_core = LER
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1096.1.1 = {
+1070.1.1 = {
 	owner = URG
 	controller = URG
 	add_core = URG
 	add_core = CAT
-	remove_core = ZGZ
+	remove_core = LER
 	culture = catalan
 	religion = catholic
 }

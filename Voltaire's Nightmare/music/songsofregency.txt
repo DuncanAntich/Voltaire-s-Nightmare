@@ -50,10 +50,10 @@ song = {
 		
 	chance = {
 		factor = 0.5
-		
+	
 		modifier = {
-		has_regency = yes
-		factor = 2
+			factor = 2
+			has_regency = yes
 		}
 	}
 }

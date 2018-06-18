@@ -161,6 +161,10 @@ silver = {
 	goldtype = yes
 }
 
+coal = {
+	base_price = 10
+}
+
 unknown = {
 	base_price = 0
 }

@@ -1,5 +1,5 @@
-owner = ZGZ
-controller = ZGZ
+owner = LER
+controller = LER
 culture = andalucian
 religion = sunni
 hre = no
@@ -9,18 +9,36 @@ trade_goods = munitions
 base_manpower = 3
 capital = "Lleida"
 is_city = yes
-add_core = ZGZ
+add_core = LER
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1096.1.1 = {
+1081.1.1 = {
+	owner = ZGZ
+	controller = ZGZ
+	add_core = ZGZ
+	remove_core = LER
+}
+1110.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = ZGZ
+}
+1145.3.25 = {
+	owner = VLK
+	controller = VLK
+	add_core = VLK
+	remove_core = MOR
+}
+1149.10.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
 	add_core = CAT
-	remove_core = ZGZ
+	remove_core = VLK
 	culture = catalan
 	religion = catholic
 }

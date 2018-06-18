@@ -3,7 +3,7 @@ government_rank = 1
 technology_group = muslim
 primary_culture = andalucian
 religion = sunni
-capital = 761
+capital = 4421
 religious_school = maliki_school
 
 #Taifa

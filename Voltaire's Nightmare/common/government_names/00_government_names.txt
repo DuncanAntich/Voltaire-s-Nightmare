@@ -2674,7 +2674,6 @@ shiite_theocracy = {
 	ruler_male = {
 		1 = SHEIKH
 		2 = AYATOLLAH
-		2 = AYATOLLAH
 		3 = AYATOLLAH
 		4 = AYATOLLAH
 		5 = AYATOLLAH

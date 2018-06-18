@@ -20,7 +20,7 @@ discovered_by = muslim
 	controller = MOR
 	add_core = MOR
 }
-1143.1.1 = {
+1145.3.25 = {
 	owner = BDJ
 	controller = BDJ
 	remove_core = MOR

@@ -3,8 +3,8 @@ controller = BDJ
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 trade_goods = lumber
 base_manpower = 3
 capital = "Leiria"
@@ -20,15 +20,11 @@ discovered_by = muslim
 	controller = MOR
 	add_core = MOR
 }
-1116.1.1 = {
-	owner = BDJ
-	controller = BDJ
-	remove_core = MOR
-}
 1135.1.1 = {
 	owner = POR
 	controller = POR
 	add_core = POR
+	remove_core = MOR
 	remove_core = BDJ
 	religion = catholic
 	culture = portugese

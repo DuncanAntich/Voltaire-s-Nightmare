@@ -134,7 +134,7 @@ fixed_capital = 1951
 	monarch = {
 		name = "Bruno III"
 		dynasty = "von Berg"
-		birth_date = 1140.1.
+		birth_date = 1140.1.1
 		adm = 2
 		dip = 3
 		mil = 2
@@ -367,7 +367,7 @@ fixed_capital = 1951
 		name = "Anton I"
 		dynasty = "von Schauenburg"
 		birth_date = 1512.1.1
-		low_elbish
+		culture = low_elbish
 		adm = 3
 		dip = 4
 		mil = 4

@@ -2266,11 +2266,9 @@ province_event = {
 		NOT = { has_province_modifier = colonial_religious_tensions }
 		OR = {
 			religion = protestant
-			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
-			religion = huguenot
-			religion = anglican
+			religion = reformed
+			religion = vn_anglican
 		}
 		owner = {
 			religion = protestant
@@ -2326,11 +2324,9 @@ province_event = {
 		NOT = { has_province_modifier = loyalist_preacher }
 		OR = {
 			religion = protestant
-			religion = reformed
-			religion = zwinglianist
 			religion = anabaptist
-			religion = huguenot
-			religion = anglican
+			religion = reformed
+			religion = vn_anglican
 		}
 		owner = {
 			religion = protestant
@@ -2421,11 +2417,9 @@ country_event = {
 			num_of_owned_provinces_with = {
 				value = 6
 				OR = {
-					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
-					religion = huguenot
-					religion = anglican
+					religion = reformed
+					religion = vn_anglican
 					has_province_modifier = patriot_preacher
 				}
 			}
@@ -2453,11 +2447,9 @@ country_event = {
 			limit = {
 				OR = {
 					has_province_modifier = colonial_religious_tensions
-					religion = reformed
-					religion = zwinglianist
 					religion = anabaptist
-					religion = huguenot
-					religion = anglican
+					religion = reformed
+					religion = vn_anglican
 				}
 			}
 			if = {

@@ -1315,7 +1315,7 @@ advisor = {
 	discount = yes
 	skill = 2
 	culture = english
-	religion = anglican
+	religion = vn_anglican
 	type = natural_scientist 
 	date = 1785.1.1 #moved to Bavaria
 	death_date = 1814.8.21 #dies
@@ -1465,7 +1465,7 @@ advisor = {
 }
 
 advisor = {
-	advisor_id = 2121
+	advisor_id = 2223
 	name = "Max Stirner"
 	location = 2652
 	discount = yes

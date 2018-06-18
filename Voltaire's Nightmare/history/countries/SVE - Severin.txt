@@ -30,7 +30,7 @@ capital = 2357
 		mil = 4
 	}
 }
-1226.1.1 = {
+1233.1.1 = {
 	monarch = {
 		name = "Lukas"
 		adm = 2

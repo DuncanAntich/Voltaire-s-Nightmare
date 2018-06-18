@@ -387,9 +387,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = zwinglianist
-					religion = huguenot
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 		}
@@ -469,9 +467,7 @@ province_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = zwinglianist
-			religion = huguenot
-			religion = anglican
+			religion = vn_anglican
 		}
 		owner = {
 			dynasty = "von Habsburg"
@@ -516,7 +512,7 @@ country_event = {
 		name = "tyw_events.11.a"
 		set_country_flag = huguenots_la_rochelle
 		2003 = {
-			change_religion = huguenot
+			change_religion = reformed
 			add_province_modifier = {
 				name = "huguenot_stronghold"
 				duration = 3650
@@ -542,9 +538,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = zwinglianist
-			religion = huguenot
-			religion = anglican
+			religion = vn_anglican
 		}
 		NOT = { has_country_flag = supported_huguenots }
 		FRA = {
@@ -552,7 +546,7 @@ country_event = {
 			owns = 2003
 		}
 		2003 = {
-			religion = huguenot
+			religion = reformed
 			has_province_modifier = huguenot_stronghold
 		}
 	}
@@ -960,9 +954,7 @@ country_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = zwinglianist
-						religion = huguenot
-						religion = anglican
+						religion = vn_anglican
 					}
 				}
 			}
@@ -989,9 +981,7 @@ country_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = zwinglianist
-						religion = huguenot
-						religion = anglican
+						religion = vn_anglican
 					}
 				}
 				spawn_rebels = {
@@ -1029,9 +1019,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = zwinglianist
-					religion = huguenot
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 			AND = {
@@ -1150,9 +1138,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = zwinglianist
-					religion = huguenot
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 			add_opinion = {
@@ -2251,9 +2237,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = zwinglianist
-					religion = huguenot
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 		}

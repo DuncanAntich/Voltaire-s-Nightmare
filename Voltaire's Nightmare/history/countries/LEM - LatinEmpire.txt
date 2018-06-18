@@ -104,6 +104,7 @@ historical_friend = PAP
 }
 1243.1.1 = {
 	heir = {
+		claim = 70
 		name = "Philippe"
 		monarch_name = "Philippe I"
 		dynasty = "de Courtenay"

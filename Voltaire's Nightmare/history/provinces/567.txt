@@ -1,20 +1,29 @@
-owner = ARA
-controller = ARA
-culture = aragonese
-religion = catholic
+owner = ZGZ
+controller = ZGZ
+culture = andalucian
+religion = sunni
 hre = no
-base_tax = 5
-base_production = 4
+base_tax = 3
+base_production = 3
 trade_goods = grain
-base_manpower = 4
+base_manpower = 3
 capital = "Exeya d'os Caballers"
 is_city = yes
-add_core = ARA
+add_core = ZGZ
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 fort_14th = yes
+
+1105.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	religion = catholic
+	culture = aragonese
+	remove_core = ZGZ
+}
 
 1137.11.13 = {
 	base_tax = 3
@@ -27,6 +36,7 @@ fort_14th = yes
 	controller = SPA
 	owner = SPA
 	add_core = SPA
+	capital = "Ejea de los Caballeros"
 }
 1705.6.29 = { controller = HAB }
 1707.5.26 = { controller = SPA }

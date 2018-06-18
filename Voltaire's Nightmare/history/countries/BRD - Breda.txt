@@ -160,7 +160,7 @@ capital = 95
 		mil = 2
 	}
 }
-1306.1.1 = {
+1307.1.1 = {
 	monarch = {
 		name = "Philips I"
 		dynasty = "van Gaveren"

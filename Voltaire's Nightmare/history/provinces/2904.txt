@@ -27,7 +27,7 @@ discovered_by = north_american
 	owner = OPO
 	controller = OPO
 	add_core = OPO
-	remove_core TRO
+	remove_core = TRO
 }
 1411.1.1 = {
 	owner = BRZ

@@ -16,7 +16,7 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes #Castiello de Lobarre
 
-1096.1.1 = {
+1096.11.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA

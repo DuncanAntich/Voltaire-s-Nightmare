@@ -7,20 +7,12 @@ capital = 2018
 
 1500.1.1 = {
 	monarch = {
-		name = "Cesare"
+		name = "Cesare I"
 		dynasty = "Borgia"
 		birth_date = 1475.9.13
 		adm = 3
-		dip = 5
+		dip = 4
 		mil = 6
-		leader = {
-			name = "Cesare Borgia"
-			type = general
-			fire = 4
-			shock = 5
-			manuever = 3
-			siege = 4
 	}
-		}
 }
 #1503.11.1 ousted, reunited with papacy

@@ -9,13 +9,16 @@ bookmark =
 	
 	country = PAP
 	country = BYZ
+	country = LON
 	country = DIE
 	country = APL
 	country = NRM
 	country = ASE
 	country = HSC
 	country = NOL
+	country = NAV
 
 	easy_country = BYZ
 	easy_country = PAP
+	easy_country = LON
 }

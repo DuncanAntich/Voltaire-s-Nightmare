@@ -1,5 +1,6 @@
-owner = CAT
-controller = CAT
+owner = BRC
+controller = BRC
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -9,7 +10,7 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Mataró"
 is_city = yes
-add_core = CAT
+add_core = BRC
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western

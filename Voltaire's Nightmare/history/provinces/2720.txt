@@ -16,7 +16,7 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1072.1.1 = {
+1301.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS

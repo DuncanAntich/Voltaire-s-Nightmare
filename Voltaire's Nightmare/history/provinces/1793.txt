@@ -1,5 +1,6 @@
 owner = CDY
 controller = CDY
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -10,21 +11,22 @@ base_manpower = 1
 capital = "Puigcerdà"
 is_city = yes
 add_core = CDY
-add_core = CAT
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
 1118.1.1 = {
-	owner = CAT
-	controller = CAT
+	owner = BRC
+	controller = BRC
+	add_core = BRC
 	remove_core = CDY
 }
 1137.11.13 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
+	remove_core = BRC
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }

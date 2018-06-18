@@ -144,13 +144,15 @@
  tribal_democracy_reform_desc: "Our primitive society does not have an organized system of successive rulership. If we model ourselves off our more advanced neighbors, we will be one step closer to truly joining feudal society."
  abandon_avignon_title: "Abandon Avignon"
  abandon_avignon_desc: "We must beg the Holy Father for our forgiveness, having committed a grave sin by switching our allegiance to antipapal pretenders."
-#Missions
- restore_holy_see_anti_title: "Restore the Holy See"
- restore_holy_see_anti_desc: "The Pope is currently not controlling Avignon. We, as the most Catholique of nations, must rectify this vile blasphemy. Conquer Avignon, and give the city to God's voice on earth!"
+ catalan_nation_title: "Form Catalonia"
+ catalan_nation_desc: "Ever since the Marca Hispanica was established to safeguard the route through the Pyrenees from Moorish invaders, the people of Catalonia have always had an identity distinct from outside powers. Now that much of the region is united under one banner, we can proclaim ourselves king of Catalonia!"
+#Missions (Old)
  solidify_our_papal_relations_anti_title: "Solidify our Papal Relations"
  solidify_our_papal_relations_anti_desc: "We are a proper Catholique state, but our relations with the Pope are not the best. As the Papacy wields considerable power it would be wise to improve the situation. If we do not act others, held in higher regard, might otherwise speak ill of us to the Holy Father."
  control_the_pope_anti_title: "Become Papal Controller"
  control_the_pope_anti_desc: "The Clergy and our representatives at the Holy See are urging us to use all the influence we can wield to take control of the Papal Curia."
+ restore_holy_see_anti_title: "Restore the Holy See"
+ restore_holy_see_anti_desc: "The Pope is currently not controlling Avignon. We, as the most Catholique of nations, must rectify this vile blasphemy. Conquer Avignon, and give the city to God's voice on earth!"
  scottish_control2_title: "Push Our Frontiers"
  scottish_control2_desc: "To protect Scotland we must advance the frontier south and take Northhymberland to act as a buffer."
  scottish_defense2_title: "Defend the Realm"
@@ -216,5 +218,4 @@
  conquer_the_livs_desc: "The Pope has tasked us with converting the heathens who populate Livonia. We cannot rest until they have been brought under our control."
  conquer_sizily_title: "Conquer Sicily"
  conquer_sizily_desc: "Since the county of Aversa was first established, it has been the goal of its Norman descendants to unite Southern Italy. Taking the island of Sicily is key to controlling the region."
- corsica_nation_title: "Form Corsican Nation"
- corsica_nation_desc: "Corsica is now solely in our domain, we must do that justice and proclaim Corsica as an independent nation!"
+ # New Missions

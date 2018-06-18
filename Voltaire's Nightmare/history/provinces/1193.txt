@@ -3,7 +3,7 @@ controller = ZGZ
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 1
 trade_goods = plumbum
 base_manpower = 1
@@ -15,11 +15,17 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1139.1.1 = {
+1110.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = ZGZ
+}
+1120.1.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
-	remove_core = ZGZ
+	remove_core = MOR
 	culture = aragonese
 	religion = catholic
 }

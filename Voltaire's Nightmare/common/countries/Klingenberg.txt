@@ -41,7 +41,7 @@ historical_units = {
 }
 
 monarch_names = {
-	"Konrad #0" - 70
+	"Konrad #0" = 70
 	"Reginbodo #1" = 30
 	"Dammo #0" = 20
 	"Otto #0" = 20

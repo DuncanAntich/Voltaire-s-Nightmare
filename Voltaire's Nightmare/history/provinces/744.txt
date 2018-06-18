@@ -38,12 +38,18 @@ discovered_by = muslim
 	controller = MOR
 	add_core = MOR
 }
-1238.1.1 = {
+1234.1.1 = {
+	owner = NIE
+	controller = NIE
+	add_core = NIE
+	remove_core = MOR
+	remove_core = BDJ
+}
+1242.1.1 = {
 	owner = POR
 	controller = POR
 	add_core = POR
-	remove_core = MOR
-	remove_core = BDJ
+	remove_core = NIE
 	religion = catholic
 	culture = portugese
 	base_tax = 3

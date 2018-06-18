@@ -20,3 +20,9 @@
 2787 = "Xiberoa"
 4103 = "Lapurdi"
 2289 = "Benafarroa"
+
+4356 = "Aiala"
+4364 = "Zangoza"
+4365 = "Lizarra"
+4366 = "Altsasu"
+4355 = "Enkarterri"

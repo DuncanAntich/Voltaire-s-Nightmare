@@ -16,10 +16,16 @@ discovered_by = western
 discovered_by = muslim
 
 1110.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = ZGZ
+}
+1118.1.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
-	remove_core = ZGZ
+	remove_core = MOR
 	culture = aragonese
 	religion = catholic
 }

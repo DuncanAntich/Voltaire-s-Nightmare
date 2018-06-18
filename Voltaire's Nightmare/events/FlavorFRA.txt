@@ -440,7 +440,7 @@ country_event = {
 		owns = 2910		# Béarn
 		2910 = {
 			has_owner_religion = no
-			religion = huguenot
+			religion = reformed
 		}
 	}
 	
@@ -792,10 +792,8 @@ country_event = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = huguenot
-				religion = zwinglianist
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 			base_tax = 3
 		}
@@ -818,7 +816,7 @@ country_event = {
 					OR = {
 						religion = protestant
 						religion = anabaptist
-						religion = anglican
+						religion = vn_anglican
 					}
 					development = 7
 					base_tax = 2
@@ -832,7 +830,7 @@ country_event = {
 					OR = {
 						religion = protestant
 						religion = anabaptist
-						religion = anglican
+						religion = vn_anglican
 					}
 					development = 7
 					base_tax = 2
@@ -853,14 +851,14 @@ country_event = {
 						OR = {
 							religion = protestant
 							religion = anabaptist
-							religion = anglican
+							religion = vn_anglican
 						}
 						any_owned_province = {
 							has_owner_religion = yes
 							OR = {
 								religion = protestant
 								religion = anabaptist
-								religion = anglican
+								religion = vn_anglican
 							}
 						}
 					}
@@ -873,14 +871,14 @@ country_event = {
 						OR = {
 							religion = protestant
 							religion = anabaptist
-							religion = anglican
+							religion = vn_anglican
 						}
 						any_owned_province = {
 							has_owner_religion = yes
 							OR = {
 								religion = protestant
 								religion = anabaptist
-								religion = anglican
+								religion = vn_anglican
 							}
 						}
 					}
@@ -896,8 +894,6 @@ country_event = {
 					is_reformation_center = no
 					OR = {
 						religion = reformed
-						religion = zwinglianist
-						religion = huguenot
 					}
 					development = 7
 					base_tax = 2
@@ -910,8 +906,6 @@ country_event = {
 					is_reformation_center = no
 					OR = {
 						religion = reformed
-						religion = zwinglianist
-						religion = huguenot
 					}
 					development = 7
 					base_tax = 2
@@ -931,15 +925,11 @@ country_event = {
 						}
 						OR = {
 							religion = reformed
-							religion = zwinglianist
-							religion = huguenot
 						}
 						any_owned_province = {
 							has_owner_religion = yes
 							OR = {
 								religion = reformed
-								religion = zwinglianist
-								religion = huguenot
 							}
 						}
 					}
@@ -951,15 +941,11 @@ country_event = {
 						}
 						OR = {
 							religion = reformed
-							religion = zwinglianist
-							religion = huguenot
 						}
 						any_owned_province = {
 							has_owner_religion = yes
 							OR = {
 								religion = reformed
-								religion = zwinglianist
-								religion = huguenot
 							}
 						}
 					}
@@ -991,7 +977,7 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 			add_base_tax = 1
@@ -1016,8 +1002,6 @@ country_event = {
 				has_owner_religion = yes
 				OR = {
 					religion = reformed
-					religion = zwinglianist
-					religion = huguenot
 				}
 			}
 			add_base_tax = 1

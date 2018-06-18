@@ -1,5 +1,6 @@
 owner = EMP
 controller = EMP
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ base_manpower = 1
 capital = "Figueres"
 is_city = yes
 add_core = EMP
-add_core = CAT
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western

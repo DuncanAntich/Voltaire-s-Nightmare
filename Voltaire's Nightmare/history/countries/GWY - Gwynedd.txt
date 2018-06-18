@@ -180,10 +180,12 @@ capital = 2448
 		adm = 3
 	}
 	heir = {
+		claim = 95
 		name = "Llywelyn"
 		monarch_name = "Llywelyn"
 		dynasty = "Aberffraw"
 		birth_date = 1223.1.1
+		death_date = 1282.12.11
 		dip = 4
 		mil = 6
 		adm = 5

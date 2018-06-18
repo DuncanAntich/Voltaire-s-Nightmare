@@ -139,6 +139,7 @@ capital = 632
 		mil = 2
 	}
 }
+
 1559.1.1 = {
 	monarch = {
 		name = "Christoph I"
@@ -148,7 +149,7 @@ capital = 632
 		mil = 2
 	}
 }
-}
+
 1579.1.1 = {
 	monarch = {
 		name = "Albrecht I"
@@ -157,7 +158,6 @@ capital = 632
 		dip = 2
 		mil = 2
 	}
-}
 }
 1599.1.1 = {
 	monarch = {

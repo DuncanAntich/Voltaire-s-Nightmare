@@ -757,7 +757,7 @@ country_event = {
 				is_wasteland = no
 				is_sea = no
 				is_empty = no
-				NOT = { same_continent = CAPITAL }
+				NOT = { continent = ROOT }
 				
 			}
 		}
@@ -790,14 +790,14 @@ country_event = {
 						is_wasteland = no
 						is_sea = no
 						is_empty = no
-						NOT = { same_continent = CAPITAL }
+						NOT = { continent = ROOT }
 					}
 				}
 				random_trade_node_member_province = {
 					limit = {
 						NOT = { owned_by = ROOT }
 						is_capital = no
-						NOT = { same_continent = CAPITAL }
+						NOT = { continent = ROOT }
 						is_wasteland = no
 						is_sea = no
 						is_empty = no

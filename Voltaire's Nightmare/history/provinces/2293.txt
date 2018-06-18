@@ -22,8 +22,6 @@ discovered_by = muslim
 	remove_core = HSC
 }
 1336.5.1 = { controller = ENG }
-1339.4.1 = { controller = SCO }
-1336.5.1 = { controller = ENG }
 1338.1.1 = { controller = SCO }
 1500.1.1 = { culture = scottish }
 1560.8.1 = { religion = reformed }

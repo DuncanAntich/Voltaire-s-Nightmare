@@ -442,7 +442,9 @@ universities = {
 				tooltip = tooltip_philosoper_capital
 				is_capital = yes
 				owner = {
-					has_advisor = philosopher
+					employed_advisor = {
+						type = philosopher
+					}
 					adm_tech = 10
 				}
 			}
@@ -918,7 +920,9 @@ publichealth = {
 				tooltip = tooltip_scientist_capital_early
 				is_capital = yes
 				owner = {
-					has_advisor = natural_scientist
+					employed_advisor = {
+						type = natural_scientist
+					}
 					adm_tech = 28
 				}
 			}
@@ -1085,7 +1089,6 @@ laytheology = {
 						religion = waldensian
 						religion = bogomilist
 						religion = fraticelli
-						religion = waldensian
 						religion = hussite
 					}
 				}
@@ -1097,7 +1100,9 @@ laytheology = {
 				tooltip = tooltip_theologian_capital
 				is_capital = yes
 				owner = {
-					has_advisor = theologian
+					employed_advisor = {
+						type = theologian
+					}
 				}
 			}
 		}
@@ -1592,7 +1597,7 @@ printing_press = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 					superregion = italy_superregion
 					superregion = lombardy_superregion
 					superregion = french_superregion
@@ -1625,7 +1630,7 @@ printing_press = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = anglican
+			religion = vn_anglican
 			superregion = austria_superregion
 			superregion = switzerland_superregion
 			superregion = bohemia_superregion
@@ -1733,7 +1738,7 @@ printing_press = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = anglican
+						religion = vn_anglican
 					}
 				}
 			}
@@ -1746,7 +1751,7 @@ printing_press = {
 					religion = reformed
 					religion = protestant
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 				}
 			}
 		}
@@ -2374,7 +2379,9 @@ enlightenment = {
 				tooltip = tooltip_philosopher_capital
 				is_capital = yes
 				owner = {
-					has_advisor = philosopher
+					employed_advisor = {
+						type = philosopher
+					}
 					dip_tech = 55
 				}
 			}
@@ -2385,7 +2392,9 @@ enlightenment = {
 				tooltip = tooltip_scientist_capital
 				is_capital = yes
 				owner = {
-					has_advisor = natural_scientist
+					employed_advisor = {
+						type = natural_scientist
+					}
 					dip_tech = 55
 				}
 			}
@@ -2560,7 +2569,7 @@ industrialism = {
 		modifier = {
 			factor = 0.5
 			scale = yes
-			num_free_building_slots = 0
+			num_free_building_slots = 1
 		}
 		modifier = {
 			factor = 5

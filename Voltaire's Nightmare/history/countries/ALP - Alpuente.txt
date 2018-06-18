@@ -3,7 +3,7 @@ government_rank = 1
 technology_group = muslim
 primary_culture = andalucian
 religion = sunni
-capital = 2881
+capital = 4316 # Alpuente
 religious_school = maliki_school
 
 1054.1.1 = {

@@ -946,7 +946,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = anglican
+			religion = vn_anglican
 		}
 		any_owned_province = {
 			is_reformation_center = yes
@@ -956,7 +956,7 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 			NOT = { religion = ROOT }
 			any_owned_province = {
@@ -979,7 +979,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 				}
 				NOT = { religion = ROOT }
 				any_owned_province = {
@@ -1000,7 +1000,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 				}
 				NOT = { religion = ROOT }
 				any_owned_province = {
@@ -1107,7 +1107,7 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 			any_owned_province = {
 				is_reformation_center = yes
@@ -1118,7 +1118,7 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
+				religion = vn_anglican
 			}
 		}
 	}
@@ -1136,7 +1136,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = anglican
+					religion = vn_anglican
 				}
 				any_owned_province = {
 					is_reformation_center = yes
@@ -1421,7 +1421,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { religion = anglican }
+				FROM = { religion = vn_anglican }
 			}
 			random_owned_province = {
 				limit = { likely_rebels = anglican_rebels }

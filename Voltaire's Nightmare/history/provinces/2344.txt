@@ -22,31 +22,34 @@ fort_14th = yes
 	add_core = MOR
 }
 1145.3.25 = {
-	owner = SIV
-	controller = SIV
-	add_core = SIV
+	owner = NIE
+	controller = NIE
+	add_core = NIE
 	remove_core = MOR
 }
 1149.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = SIV
+	remove_core = NIE
 }
-1238.1.1 = {
+1234.1.1 = {
 	owner = NIE
 	controller = NIE
 	add_core = NIE
-	add_core = POR
 	remove_core = MOR
 	remove_core = SEV
 }
 1249.1.1 = {
 	owner = POR
 	controller = POR
+	add_core = POR
 	remove_core = NIE
 	capital = "Santa Maria de Faaron"
+}
+1296.1.1 = {
 	religion = catholic
+	culture = portugese
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1640.1.1 = { unrest = 8 }

@@ -38,7 +38,7 @@ discovered_by = ottoman
 	add_core = MOR
 	remove_core = MCA
 }
-1177.1.1 = {
+1213.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS

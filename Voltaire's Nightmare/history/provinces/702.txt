@@ -21,33 +21,23 @@ discovered_by = muslim
 	add_core = MOR
 }
 1145.3.25 = {
-	owner = VLK
-	controller = VLK
-	add_core = VLK
-	remove_core = TLD
-	remove_core = MOR
-}
-1147.1.1 = {
 	owner = MCA
 	controller = MCA
 	add_core = MCA
-	remove_core = VLK
+	remove_core = TLD
+	remove_core = MOR
 }
 1170.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = MCA
 }
 1229.1.1 = {
 	owner = MCA
 	controller = MCA
+	add_core = MCA
 	remove_core = MOR
-}
-1233.1.1 = {
-	owner = VLK
-	controller = VLK
-	add_core = VLK
-	remove_core = MCA
 }
 1238.10.9 = {
 	owner = CAS
@@ -56,7 +46,7 @@ discovered_by = muslim
 	capital = "Albacete"
 	religion = catholic
 	culture = castillian
-	remove_core = VLK
+	remove_core = MCA
 }
 1516.1.23 = {
 	controller = SPA

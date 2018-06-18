@@ -1,3 +1,5 @@
+#### Appears to be unfinished. TODO: Finish disaster. ####
+
 fall_of_arpads = {
 	potential = {
 		always = no
@@ -115,21 +117,22 @@ fall_of_arpads = {
 	}
 	
 	on_start = fall_of_arpads.1
-	on_end = fall_of_arpads.100
+#	on_end = fall_of_arpads.100
 	
-	on_monthly = {
-		events = {
-		}
-		random_events = { 
-			1000 = 0
-			100 = fall_of_arpads.2
-			100 = fall_of_arpads.3
-			100 = fall_of_arpads.4
-			100 = fall_of_arpads.5
-			100 = fall_of_arpads.6
-			100 = fall_of_arpads.7
-			100 = fall_of_arpads.8
-		}
-	}
-}
+#		on_monthly = {
+#			events = {
+#			}
+#			random_events = { 
+#				1000 = 0
+#				100 = fall_of_arpads.2
+#				100 = fall_of_arpads.3
+#				100 = fall_of_arpads.4
+#				100 = fall_of_arpads.5
+#				100 = fall_of_arpads.6
+#				100 = fall_of_arpads.7
+#				100 = fall_of_arpads.8
+#			}
+#		}
+#	}
 
+}

@@ -1,5 +1,6 @@
 owner = CDY
 controller = CDY
+add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -7,7 +8,7 @@ base_tax = 1
 base_production = 1
 trade_goods = honey
 base_manpower = 1
-capital = "Montferrer"
+capital = "Prades"
 is_city = yes
 add_core = CDY
 discovered_by = eastern
@@ -66,7 +67,7 @@ discovered_by = muslim
 	owner = SPA 
 	controller = SPA
 }
-1659.11.7 = { owner = FRA controller = FRA add_core = FRA }
+1659.11.7 = { owner = FRA controller = FRA add_core = FRA remove_core = CAT }
 1674.8.10 = { controller = SPA }
 1678.9.19 = { controller = FRA remove_core = SPA }
 1793.4.17 = { controller = SPA }

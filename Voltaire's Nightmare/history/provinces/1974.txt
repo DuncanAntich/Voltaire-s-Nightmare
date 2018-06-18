@@ -50,17 +50,10 @@ discovered_by = muslim
 	add_core = MOR
 	remove_core = MCA
 }
-1238.1.1 = {
-	owner = GRA
-	controller = GRA
-	add_core = GRA
-	remove_core = MOR
-}
-1246.1.1 = {
+1236.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS
-	remove_core = GRA
 	capital = "Úbeda"
 	religion = catholic
 }

@@ -9,6 +9,17 @@ capital = 1234
 national_focus = DIP
 add_army_professionalism = 0.05
 
+1050.1.1 = {
+	monarch = {
+		name = "Nuno"
+		dynasty = "Menéndez"
+		death_date = 1071.2.18
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
 1096.1.1 = {
 	monarch = {
 		name = "Henrique"
@@ -820,7 +831,7 @@ add_army_professionalism = 0.05
 	}
 }
 
-1685.12.1 = { leader = { name = "Francisco da Silva"	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1720.2.29 } }
+1685.12.1 = { leader = { name = "Francisco da Silva"	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1720.2.28 } }
 
 1687.8.11 = {
 	queen = {

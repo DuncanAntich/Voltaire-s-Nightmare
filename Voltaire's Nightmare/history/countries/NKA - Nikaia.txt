@@ -67,10 +67,6 @@ capital = 1052
 		dip = 2
 		mil = 5
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = just_personality
-	add_ruler_personality = charismatic_negotiator_personality
-	add_ruler_personality = conqueror_personality
 	add_heir_personality = conqueror_personality
 }
 1244.1.1 = {

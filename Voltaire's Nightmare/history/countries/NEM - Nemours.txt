@@ -307,6 +307,7 @@ fixed_capital = 2824
 		name = "Charles-Emmanuel"
 		monarch_name = "Charles-Emmanuel I"
 		dynasty = "di Savoia"
+		claim = 85
 		birth_date = 1567.2.12
 		death_date = 1595.8.13
 		adm = 2

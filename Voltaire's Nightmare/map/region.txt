@@ -2,6 +2,10 @@
 # EUROPE                               #
 ########################################
 
+#	placeholder_region = { # Placeholder
+#		placeholder_area
+#	}
+
 turovpinsk_region = {
 	areas = {
 		turov_area
@@ -753,6 +757,7 @@ valencian_region = {
 	areas = {
 		denia_area
 		valencia_area
+		castellon_area
 		balears_area
 	}
 }
@@ -762,6 +767,8 @@ aragon_region = {
 		huesca_area
 		zaragoza_area
 		teruel_area
+		ribagorza_area
+		alcaniz_area
 	}
 }
 
@@ -772,6 +779,7 @@ castile_region = {
 		burgos_area
 		guadalajara_area
 		segovia_area
+		palencia_area
 	}
 }
 
@@ -781,6 +789,7 @@ toledan_region = {
 		murcia_area
 		ciudad_area
 		cuenca_area
+		albacete_area
 	}
 }
 
@@ -788,12 +797,14 @@ basque_region = {
 	areas = {
 		vizcaya_area
 		navarra_area
+		rioja_area
 	}
 }
 
 leonese_region = {
 	areas = {
 		leon_area
+		zamora_area
 		salamanca_area
 		badajoz_area
 		plasencia_area
@@ -803,9 +814,9 @@ leonese_region = {
 andalusia_region = {
 	areas = {
 		sevilla_area
-		cadiz_area
 		cordoba_area
 		jaen_area
+		huelva_area
 	}
 }
 
@@ -813,6 +824,8 @@ granadan_region = {
 	areas = {
 		granada_area
 		almeria_area
+		malaga_area
+		cadiz_area
 	}
 }
 
@@ -820,6 +833,8 @@ asturian_region = {
 	areas = {
 		galicia_area
 		asturias_area
+		ourense_area
+		cantabria_area
 	}
 }
 

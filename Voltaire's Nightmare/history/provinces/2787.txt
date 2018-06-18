@@ -1,6 +1,6 @@
 owner = SOU
 controller = SOU
-culture = gascon
+culture = basque
 religion = catholic
 hre = no
 base_tax = 1

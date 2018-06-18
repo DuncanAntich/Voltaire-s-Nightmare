@@ -238,6 +238,7 @@ capital = 1198
 		dynasty = "von Werdenberg"
 		birth_date = 1723.11.16
 		death_date = 1787.12.3
+		claim = 95
 		adm = 1
 		dip = 1
 		mil = 2

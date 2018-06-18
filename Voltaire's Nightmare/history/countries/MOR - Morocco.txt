@@ -141,7 +141,8 @@ religious_school = maliki_school
 }
 1203.1.1 = {
 	heir = {
-		name = "Abu Yaqub Yusuf II"
+		name = "Abu Yaqub Yusuf"
+		monarch_name = "Abu Yaqub Yusuf II"
 		dynasty = "al-Muwahhid"
 		birth_date = 1203.1.1
 		death_date = 1224.1.1
@@ -571,7 +572,6 @@ religious_school = maliki_school
 	monarch = {
 		name = "'Abd Allâh II"
 		dynasty = "Saadi"
-		death_date = 1609.8.3
 		adm = 1
 		dip = 0
 		mil = 1

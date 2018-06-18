@@ -15,16 +15,10 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1081.1.1 = {
-	owner = SEV
-	controller = SEV
-	add_core = SEV
-}
 1091.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = SEV
 }
 1145.3.25 = {
 	owner = MCA

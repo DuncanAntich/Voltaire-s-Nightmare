@@ -15,24 +15,20 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1057.1.1 = {
-	owner = LON
-	controller = LON
-	add_core = LON
+1064.1.1 = {
+	owner = CBR
+	controller = CBR
+	add_core = CBR
 	add_core = GAL
 	add_core = POR
 	remove_core = BDJ
 	religion = catholic
 	culture = portugese
 }
-1065.12.24 = {
-	owner = GAL
-	controller = GAL
-	remove_core = LON
-}
 1096.1.1 = {
 	owner = POR
 	controller = POR
+	remove_core = CBR
 	remove_core = GAL
 }
 1580.8.25 = { controller = SPA }

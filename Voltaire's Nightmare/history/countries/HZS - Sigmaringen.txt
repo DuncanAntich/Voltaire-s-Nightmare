@@ -108,6 +108,7 @@ capital = 105
 		mil = 3
 	}
 	heir = {
+		claim = 95
 		name = "Johann"
 		monarch_name = "Johann IV"
 		dynasty = "von Werdenberg"

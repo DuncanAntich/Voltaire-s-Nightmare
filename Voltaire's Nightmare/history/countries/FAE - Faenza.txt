@@ -70,7 +70,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-1140.1.1 = {
+1139.1.1 = {
 	monarch = {
 		name = "Ramberto"
 		adm = 0

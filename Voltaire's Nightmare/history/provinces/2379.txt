@@ -78,7 +78,7 @@ discovered_by = muslim
 1805.12.26 = {
 	owner = RUS
 	controller = RUS
-	remove_core EAH
+	remove_core = EAH
 }
 1807.7.9 = {
 	owner = FRA

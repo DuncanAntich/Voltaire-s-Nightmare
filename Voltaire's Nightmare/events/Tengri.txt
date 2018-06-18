@@ -1211,7 +1211,7 @@ country_event = {
 			secondary_religion = bogomilist
 			secondary_religion = paulician
 			secondary_religion = anabaptist
-			secondary_religion = anglican
+			secondary_religion = vn_anglican
 			secondary_religion = catholic
 			secondary_religion = catholique
 		}
@@ -1375,7 +1375,7 @@ country_event = {
 			secondary_religion = bogomilist
 			secondary_religion = paulician
 			secondary_religion = anabaptist
-			secondary_religion = anglican
+			secondary_religion = vn_anglican
 			secondary_religion = catholic
 			secondary_religion = catholique
 		}
@@ -1428,7 +1428,7 @@ country_event = {
 			secondary_religion = bogomilist
 			secondary_religion = paulician
 			secondary_religion = anabaptist
-			secondary_religion = anglican
+			secondary_religion = vn_anglican
 			secondary_religion = catholic
 			secondary_religion = catholique
 		}
@@ -1488,7 +1488,7 @@ country_event = {
 			secondary_religion = bogomilist
 			secondary_religion = paulician
 			secondary_religion = anabaptist
-			secondary_religion = anglican
+			secondary_religion = vn_anglican
 			secondary_religion = catholic
 			secondary_religion = catholique
 		}

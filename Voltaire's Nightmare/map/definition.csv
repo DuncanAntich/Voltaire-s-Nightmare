@@ -183,7 +183,7 @@ province;red;green;blue;x;x
 182;26;140;128;Vermandois;x
 183;154;142;192;Île-de-France;x
 184;26;144;255;Orléannais;x
-185;154;146;0;Nemours;x
+185;147;222;218;Nemours;x
 186;26;148;64;Champagne;x
 187;154;150;128;Barrois;x
 188;26;152;192;Metz;x
@@ -231,7 +231,7 @@ province;red;green;blue;x;x
 230;32;108;0;Algarve;x
 231;161;110;64;Porto;x
 232;33;112;128;Bragança;x
-233;161;114;192;Cornwall;x
+233;166;203;93;Cornwall;x
 234;33;116;255;Wessex;x
 235;161;118;0;Kent;x
 236;33;120;64;London;x
@@ -4359,3 +4359,130 @@ province;red;green;blue;x;x
 4358;112;219;220;Cuyo Archipelago;x
 4359;185;227;40;Ise;x
 4360;235;159;33;Mikawa;x
+4361;203;124;124;East March;x
+4362;220;22;22;West March;x
+4363;212;118;56;Argyll;x
+4364;236;203;22;Inner Hebrides;x
+4365;177;171;135;Mann;x
+4366;196;128;0;Montgomery;x
+4367;219;150;147;Hull;x
+4368;231;51;43;Scarborough;x
+4369;221;244;212;Carmarthen;x
+4370;115;143;176;Cambridgeshire;x
+4371;146;207;152;Sussex;x
+4372;207;182;116;Coventry;x
+4373;161;114;192;Devon;x
+4374;155;153;90;Dorset;x
+4375;229;133;39;Chester;x
+4376;160;66;61;Leicester;x
+4377;91;132;207;Ormond;x
+4378;207;145;145;Kinsale;x
+4379;181;38;38;Middlands;x
+4380;186;74;52;Donegal;x
+4381;24;57;119;Oversticht;x
+4382;213;194;38;Ommeland;x
+4383;220;189;139;Haag;x
+4384;234;156;30;Rennes;x
+4385;206;210;106;Cotentin;x
+4386;153;88;207;Vendee;x
+4387;227;104;55;Angouleme;x
+4388;90;50;219;Chartres;x
+4389;212;131;52;Touraine;x
+4390;154;146;0;Troyes;x
+4391;208;37;117;Vivarais;x
+4392;227;148;148;Auxerrois;x
+4393;242;243;255;Saceruela;x
+4394;165;171;255;Villalba;x
+4395;140;147;255;Fuensalida;x
+4396;153;159;255;Siguenza;x
+4397;114;124;255;Tarancon;x
+4398;63;76;255;Horche;x
+4399;127;136;255;Alcocer;x
+4400;229;231;255;Consuegra;x
+4401;178;183;255;Torrijos;x
+4402;12;20;255;San Juan;x
+4403;216;219;255;Valdepenas;x
+4404;102;112;255;Quintanar;x
+4405;204;207;255;San Pablo;x
+4406;191;195;255;Puertollano;x
+4407;147;151;255;Moya;x
+4408;76;88;255;Chinchilla;x
+4409;89;100;255;Alcaraz;x
+4410;255;235;178;Segura;x
+4411;255;245;216;Hellin;x
+4412;255;242;204;Villacarrillo;x
+4413;135;143;255;Navalucillos;x
+4414;165;255;250;Aroche;x
+4415;242;255;254;Paymogo;x
+4416;140;255;249;Lepe;x
+4417;153;255;249;Constantina;x
+4418;109;255;242;Belmez;x
+4419;255;197;25;Almaden;x
+4420;229;255;253;Santa Ollala;x
+4421;50;255;244;Algeciras;x
+4422;216;255;253;Almonte;x
+4423;127;255;248;Jerez;x
+4424;89;255;246;Arcos;x
+4425;204;255;252;Prado;x
+4426;114;255;247;Ronda;x
+4427;61;255;242;Teba;x
+4428;102;255;247;Archidona;x
+4429;255;204;50;Lucena;x
+4430;255;207;63;Illora;x
+4431;255;213;89;Guadix;x
+4432;255;223;127;Purchena;x
+4433;255;193;38;Albox;x
+4434;255;190;12;Huescar;x
+4435;255;226;140;Caravaca;x
+4436;255;219;114;Huelma;x
+4437;255;239;191;Velez;x
+4438;255;248;229;San Javier;x
+4439;255;216;102;Adra;x
+4440;255;210;76;Nerja;x
+4441;76;255;246;Ecija;x
+4442;255;229;153;Cazorla;x
+4443;12;255;234;Hornachuelos;x
+4444;137;163;138;Barcelos;x
+4445;139;165;140;Penafiel;x
+4446;100;119;101;Guimaraes;x
+4447;169;201;171;Vila Real;x
+4448;132;158;134;Mirandela;x
+4449;83;99;84;Moncorvo;x
+4450;214;255;216;Miranda;x
+4451;255;153;186;Figueira;x
+4452;255;229;238;Feira;x
+4453;255;204;220;Pinhel;x
+4454;255;165;195;Lamego;x
+4455;255;216;229;Fundao;x
+4456;255;114;161;Ourem;x
+4457;255;140;178;Obidos;x
+4458;255;89;144;Colares;x
+4459;255;127;169;Coruche;x
+4460;255;76;135;Portalegre;x
+4461;255;38;110;Elvas;x
+4462;255;63;127;Olivenca;x
+4463;255;50;118;Moura;x
+4464;255;25;101;Portel;x
+4465;255;191;212;Sao Pedro;x
+4466;255;228;147;Alcala;x
+4467;238;255;229;Lagos;x
+4468;188;255;153;Silves;x
+4469;155;255;102;Tavira;x
+4470;172;255;127;Aljustrel;x
+4471;205;255;178;Alcacer do Sal;x
+4472;221;255;204;Serpa;x
+4473;122;255;50;Ourique;x
+4474;40;204;204;Piedrahita;x
+4475;255;232;165;Jumilla;x
+4476;255;12;93;Redondo;x
+4477;255;102;152;Alcobaca;x
+4478;255;178;203;Covilha;x
+4479;178;255;251;Aljarafe;x
+4480;191;255;251;Utrera;x
+4481;255;255;140;Eastern Pyrenees;x
+4482;128;170;170;Montes de Toledo;x
+4483;203;234;66;Sierra Madrona;x
+4484;51;234;66;Sierra de Almijara;x
+4485;127;231;249;Ontinyent;x
+4486;149;232;244;Caudete;x
+4487;158;255;248;Loja;x

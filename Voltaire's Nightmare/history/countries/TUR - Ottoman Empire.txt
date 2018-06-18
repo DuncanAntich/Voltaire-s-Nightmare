@@ -182,7 +182,6 @@ religious_school = hanafi_school
 		mil = 6
 	}
 }
-1425.1.1 = { decision = sheikh_ul_islam }
 1439.1.1 = {
 	leader = {
 		name = "Hadim Sehabeddin"

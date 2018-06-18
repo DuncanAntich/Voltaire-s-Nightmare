@@ -33,11 +33,6 @@ SGC = {
 	always = no
 }
 
-# Scandinavia
-SCA = {
-	always = no
-}
-
 # Holy Roman Empire
 HLR = {
 	always = no
