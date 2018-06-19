@@ -19,7 +19,7 @@ discovered_by = muslim
 	controller = SPA
 	owner = SPA
 	add_core = SPA
-	capital = "SabiÃ±Ã¡nigo"
+	capital = "Sabiñánigo"
 }
 1705.6.29 = { controller = HAB }
 1707.5.26 = { controller = SPA }
