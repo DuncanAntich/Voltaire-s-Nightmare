@@ -67,7 +67,6 @@
  PROV4357: "Cameros"
  PROV4358: "Calahorra"
  PROV4359: "Logroño"
- PROV4360: "Irun"
  PROV4361: "Alfaro"
  PROV4362: "Tudela"
  PROV4363: "Sonsierra"
@@ -195,6 +194,7 @@
  PROV4485: "Ontinyent"
  PROV4486: "Caudete"
  PROV4487: "Loja"
+ PROV4488: "Irun"
 # Pre-1.25
  PROV4235: "Mazyr"
  PROV4236: "Sacilki"

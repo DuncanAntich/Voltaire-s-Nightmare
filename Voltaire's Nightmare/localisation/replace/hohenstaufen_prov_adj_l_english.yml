@@ -67,7 +67,6 @@
  PROV_ADJ4357: "Camerosiano"
  PROV_ADJ4358: "Calahorrano"
  PROV_ADJ4359: "Logroniano"
- PROV_ADJ4360: "Iruniano"
  PROV_ADJ4361: "Alfarano"
  PROV_ADJ4362: "Tudelano"
  PROV_ADJ4363: "Sonsierrano"
@@ -191,6 +190,7 @@
  PROV_ADJ4485: "Ontinientano"
  PROV_ADJ4486: "Caudetiano"
  PROV_ADJ4487: "Lojano"
+ PROV_ADJ4488: "Iruniano"
 # Pre-1.25
  PROV_ADJ4235: "Mazyrian"
  PROV_ADJ4236: "Sacilkian"
