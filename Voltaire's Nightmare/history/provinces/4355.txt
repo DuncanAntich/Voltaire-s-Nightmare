@@ -1,6 +1,7 @@
 owner = NAV
 controller = NAV
 add_core = NAV
+add_core = BKY
 capital = "Balmaseda"
 is_city = yes
 culture = basque

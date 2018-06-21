@@ -13,7 +13,6 @@ add_army_professionalism = 0.05
 	monarch = {
 		name = "Nuno"
 		dynasty = "Menéndez"
-		death_date = 1071.2.18
 		adm = 2
 		dip = 2
 		mil = 4

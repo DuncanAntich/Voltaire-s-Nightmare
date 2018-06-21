@@ -10,6 +10,7 @@ base_manpower = 1
 capital = "Tolosa"
 is_city = yes
 add_core = NAV
+add_core = BKY
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western

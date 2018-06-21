@@ -1,6 +1,7 @@
 owner = NAV
 controller = NAV
 add_core = NAV
+add_core = BKY
 capital = "Irun"
 is_city = yes
 culture = basque
@@ -33,8 +34,8 @@ discovered_by = ottoman
 	controller = CAS
 }
 1516.1.23 = {
-	controller = SPA
 	owner = SPA
+	controller = SPA
 	add_core = SPA
 }
 1630.1.1 = { unrest = 3 }

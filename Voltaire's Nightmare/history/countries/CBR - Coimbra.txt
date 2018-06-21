@@ -19,7 +19,6 @@ capital = 2243
 	monarch = {
 		name = "Martín"
 		dynasty = "Muñoz"
-		death_date = 1096.1.1
 		adm = 1
 		dip = 2
 		mil = 2
