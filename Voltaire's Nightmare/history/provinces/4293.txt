@@ -70,7 +70,7 @@ discovered_by = muslim
 	owner = SPA 
 	controller = SPA
 }
-1659.11.7 = { owner = FRA controller = FRA add_core = FRA capital = "Formiguères" remove_core = CAT }
+1659.11.7 = { owner = FRA controller = FRA add_core = FRA capital = "FormiguÃ¨res" remove_core = CAT }
 1674.8.10 = { controller = SPA }
 1678.9.19 = { controller = FRA remove_core = SPA }
 1793.4.17 = { controller = SPA }

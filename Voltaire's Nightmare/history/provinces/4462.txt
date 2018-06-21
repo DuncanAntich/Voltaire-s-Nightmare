@@ -46,7 +46,7 @@ discovered_by = ottoman
 	add_core = POR
 	remove_core = LON
 	culture = portugese
-	capital = "Olivença"
+	capital = "OlivenÃ§a"
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

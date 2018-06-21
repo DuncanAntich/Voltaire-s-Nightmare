@@ -1,7 +1,7 @@
 owner = LON
 controller = LON
 add_core = LON
-capital = "Sahagún"
+capital = "SahagÃºn"
 is_city = yes
 culture = leonese
 religion = catholic
