@@ -62,8 +62,6 @@ discovered_by = ottoman
 	owner = SPA
 	add_core = SPA
 }
-1520.6.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
-1521.4.1 = { revolt = {} controller = SPA }
 1699.1.1 = { unrest = 3 }
 1700.1.1 = { unrest = 0 }
 1706.6.25 = { controller = ENG }

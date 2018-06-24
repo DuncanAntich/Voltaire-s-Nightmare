@@ -387,7 +387,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 		}
@@ -467,7 +467,7 @@ province_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = vn_anglican
+			religion = anglican
 		}
 		owner = {
 			dynasty = "von Habsburg"
@@ -538,7 +538,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = vn_anglican
+			religion = anglican
 		}
 		NOT = { has_country_flag = supported_huguenots }
 		FRA = {
@@ -954,7 +954,7 @@ country_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = vn_anglican
+						religion = anglican
 					}
 				}
 			}
@@ -981,7 +981,7 @@ country_event = {
 						religion = protestant
 						religion = reformed
 						religion = anabaptist
-						religion = vn_anglican
+						religion = anglican
 					}
 				}
 				spawn_rebels = {
@@ -1019,7 +1019,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			AND = {
@@ -1138,7 +1138,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			add_opinion = {
@@ -2237,7 +2237,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 		}

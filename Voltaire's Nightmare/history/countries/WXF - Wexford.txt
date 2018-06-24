@@ -191,7 +191,7 @@ capital = 2614
 	}
 }
 1585.1.1 = {
-	religion = vn_anglican
+	religion = anglican
 	monarch = {
 		name = "Thomas"
 		dynasty = "Rossiter"

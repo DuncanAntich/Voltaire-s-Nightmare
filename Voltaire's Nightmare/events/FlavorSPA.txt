@@ -2062,7 +2062,7 @@ country_event = {
 					religion = reformed
 					religion = protestant
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 		}

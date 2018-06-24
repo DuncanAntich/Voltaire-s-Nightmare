@@ -38,10 +38,9 @@ religious_school = maliki_school
 }
 #badajoz 1080-81
 1080.1.1 = { capital = 2792 }
-1081.1.1 = { capital = 1208 }
 #anarchy, its unclear what happened to the muslim lands
 1085.1.1 = {
-	capital = 2792
+	capital = 1206
 	monarch = {
 		name = "(Interregnum)"
 		regent = yes
@@ -51,7 +50,6 @@ religious_school = maliki_school
 	}
 }
 1091.1.1 = {
-	capital = 1208
 	government = feudal_monarchy
 	primary_culture = castillian
 	technology_group = western

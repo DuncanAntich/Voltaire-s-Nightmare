@@ -26,7 +26,7 @@ discovered_by = muslim
 1462.4.11 = { revolt = {} controller = CAS }
 1463.1.1 = { revolt = { type = pretender_rebels size = 1 } controller = REB }
 1466.6.30 = { revolt = {} controller = PRO }
-1472.10.16 = { controller = ARA }
+1469.1.1 = { controller = ARA }
 1516.1.23 = {
 	owner = SPA
 	controller = SPA
@@ -39,8 +39,13 @@ discovered_by = muslim
 	}
 	controller = REB
 }
-1640.11.1 = {
+1641.1.23 = {
 	revolt = {}
+	owner = FRA
+	controller = FRA
+}
+1652.10.11 = { 
+	owner = SPA 
 	controller = SPA
 }
 1668.4.4 = { unrest = 5 }

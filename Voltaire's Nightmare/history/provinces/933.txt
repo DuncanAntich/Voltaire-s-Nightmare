@@ -64,7 +64,7 @@ discovered_by = muslim
 	add_core = NOL
 	remove_core = SCO
 }
-1585.1.1 = { religion = vn_anglican }
+1585.1.1 = { religion = anglican }
 1640.10.1 = { controller = SCO }
 1640.10.26 = { controller = ENG }
 1644.4.15 = { controller = SCO }

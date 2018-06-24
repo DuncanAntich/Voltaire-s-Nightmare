@@ -881,7 +881,7 @@ age_of_reformation = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = vn_anglican
+				religion = anglican
 			}
 		}		
 		obj_humanism_religious = {

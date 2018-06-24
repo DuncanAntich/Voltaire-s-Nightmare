@@ -60,7 +60,7 @@ country_event = {
 					religion = reformed
 					religion = protestant
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 				NOT = { tag = ROOT }
 				NOT = { tag = FRA }
@@ -296,7 +296,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			add_opinion = { who = ROOT modifier = catholic_league_protestant }
@@ -326,7 +326,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = vn_anglican
+			religion = anglican
 		}
 		is_year = 1615
 		is_at_war = no
@@ -362,7 +362,7 @@ country_event = {
 					religion = protestant
 					religion = reformed
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			add_opinion = { who = ROOT modifier = evangelical_union_protestant }

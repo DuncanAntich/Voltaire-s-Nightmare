@@ -26,7 +26,7 @@ discovered_by = muslim
 	controller = ENG
 	add_core = ENG
 }
-1609.1.1 = { culture = english religion = vn_anglican }
+1609.1.1 = { culture = english religion = anglican }
 1641.10.22 = { unrest = 15 }
 1642.5.1 = { unrest = 0 }
 1642.6.7 = { remove_core = KEE add_core = IRE }

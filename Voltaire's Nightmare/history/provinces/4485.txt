@@ -62,10 +62,11 @@ discovered_by = ottoman
 	controller = CAS
 	remove_core = OHI
 	remove_core = DNA
-	capital = "Ontiniente"
+	capital = "Onteniente"
 }
 1296.1.1 = {
 	religion = catholic
+	culture = valencian
 	owner = ARA
 	controller = ARA
 	add_core = ARA

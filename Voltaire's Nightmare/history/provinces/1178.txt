@@ -54,6 +54,17 @@ discovered_by = muslim
 	controller = SPA
 	add_core = SPA
 }
+1640.6.7 = { 
+	revolt = { 
+		type = nationalist_rebels 
+		size = 0
+	}
+	controller = REB
+}
+1640.11.1 = {
+	revolt = {}
+	controller = SPA
+}
 1684.3.1 = { controller = FRA }
 1684.6.1 = { controller = SPA }
 1693.6.1 = { controller = FRA }

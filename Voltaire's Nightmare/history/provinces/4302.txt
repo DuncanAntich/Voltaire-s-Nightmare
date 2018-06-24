@@ -2,6 +2,7 @@ owner = PSA
 controller = PSA
 add_core = PSA
 add_core = PJA
+add_core = PLL
 add_core = CAT
 culture = catalan
 religion = catholic
@@ -25,7 +26,6 @@ discovered_by = muslim
 	controller = ARA
 	add_core = ARA
 	remove_core = PSA
-	remove_core = PJA
 	remove_core = PLL
 }
 1516.1.23 = {

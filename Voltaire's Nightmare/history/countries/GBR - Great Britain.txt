@@ -7,7 +7,7 @@ add_accepted_culture = welsh
 add_accepted_culture = cornish
 add_accepted_culture = northumbrian
 add_accepted_culture = manxculture
-religion = vn_anglican
+religion = anglican
 capital = 2268	# London
 
 

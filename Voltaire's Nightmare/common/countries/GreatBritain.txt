@@ -5,7 +5,7 @@ color = { 153  0 0 }
 revolutionary_colors = { 5  13  0 }
 historical_score = 6550
 
-preferred_religion = vn_anglican
+preferred_religion = anglican
 
 historical_idea_groups = {
 	logistics_ideas

@@ -10,8 +10,8 @@ pay_churchpower = {
 				FROM = { religion = anabaptist }
 			}
 			AND = {
-				religion = vn_anglican
-				FROM = { religion = vn_anglican }
+				religion = anglican
+				FROM = { religion = anglican }
 			}
 		}
 	}

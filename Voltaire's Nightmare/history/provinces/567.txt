@@ -14,7 +14,6 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-fort_14th = yes
 
 1105.1.1 = {
 	owner = ARA
@@ -31,7 +30,6 @@ fort_14th = yes
 	base_manpower = 2
 	fort_15th = no
 }
-1337.1.1 = { fort_14th = no fort_15th = yes }
 1516.1.23 = {
 	controller = SPA
 	owner = SPA

@@ -1170,7 +1170,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 			religion = anabaptist
-			religion = vn_anglican
+			religion = anglican
 		}
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1875,7 +1875,7 @@ country_event = {
 			religion = catholique
 			religion = anabaptist
 			religion = protestant
-			religion = vn_anglican
+			religion = anglican
 			religion = reformed
 			religion = orthodox
 			religion = paulician

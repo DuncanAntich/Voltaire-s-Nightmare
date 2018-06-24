@@ -62,7 +62,7 @@ discovered_by = muslim
 	controller = CAS
 	remove_core = OHI
 	remove_core = DNA
-	capital = "Alàcant"
+	capital = "Alicante"
 }
 1250.1.1 = { religion = catholic }
 1296.1.1 = {
@@ -72,6 +72,7 @@ discovered_by = muslim
 	add_core = VLK
 	remove_core = CAS
 	culture = valencian
+	capital = "Alàcant"
 }
 1363.7.2 = { controller = CAS }
 1365.1.1 = { controller = ARA }

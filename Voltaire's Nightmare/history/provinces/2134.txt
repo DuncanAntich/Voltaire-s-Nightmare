@@ -59,7 +59,6 @@ fort_14th = yes
 	capital = "Almansa"
 	religion = catholic
 }
-1337.1.1 = { fort_14th = no fort_15th = yes }
 1516.1.23 = {
 	controller = SPA
 	owner = SPA

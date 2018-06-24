@@ -125,7 +125,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-1110.1.1 = { capital = 711 }
+1118.1.1 = { capital = 711 }
 1123.5.3 = {
 	monarch = {
 		name = "Alfons I"

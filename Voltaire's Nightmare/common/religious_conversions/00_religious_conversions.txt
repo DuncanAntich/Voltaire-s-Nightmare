@@ -57,7 +57,7 @@ protestant_center_of_reformation = {
 			factor = 0
 			OR = {
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -159,7 +159,7 @@ reformed_center_of_reformation = {
 			factor = 0
 			OR = {
 				religion = protestant
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -262,7 +262,7 @@ lollardy_center_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -370,7 +370,7 @@ cathar_center_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -478,7 +478,7 @@ waldensian_center_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -586,7 +586,7 @@ fraticelli_center_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -694,7 +694,7 @@ hussite_center_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}
@@ -802,7 +802,7 @@ bogomilist_center_of_reformation = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = vn_anglican
+				religion = anglican
 				religion = anabaptist
 			}
 		}

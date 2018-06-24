@@ -436,6 +436,7 @@ technology = {
 	
 	#Land Clearance
 	production_efficiency 	=	0.02
+	furnace = yes
 }
 
 technology = {

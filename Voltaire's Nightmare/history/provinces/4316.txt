@@ -24,8 +24,8 @@ discovered_by = muslim
 1145.1.1 = {
 	owner = VLK
 	controller = VLK
-	remove_core = MOR
 	add_core = VLK
+	remove_core = MOR
 }
 1149.1.1 = {
 	owner = MCA
@@ -49,7 +49,6 @@ discovered_by = muslim
 	owner = ARA
 	controller = ARA
 	add_core = ARA
-	remove_core = VLK
 	religion = catholic
 	culture = aragonese
 	capital = "Alpuente"
@@ -65,7 +64,7 @@ discovered_by = muslim
 1707.5.26 = { controller = SPA }
 1710.6.13 = { controller = HAB }
 1710.11.1 = { controller = SPA }
-1713.7.13 = { remove_core = ARA }
+1713.7.13 = { remove_core = ARA remove_core = VLK }
 1810.1.1 = { controller = FRA }
 1812.7.26 = { controller = SPA }
 1823.7.28 = { controller = FRA }

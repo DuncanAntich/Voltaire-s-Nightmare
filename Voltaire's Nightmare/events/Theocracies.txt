@@ -545,7 +545,7 @@ country_event = {
 				religion = reformed
 				religion = protestant
 				religion = anabaptist
-				religion = vn_anglican
+				religion = anglican
 			}
 		}
 		set_country_flag = theo_influential_reformer_flag # USED IN DEVOTION.TXT
@@ -611,7 +611,7 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			add_church_power = 10

@@ -793,7 +793,7 @@ country_event = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = vn_anglican
+				religion = anglican
 			}
 			base_tax = 3
 		}
@@ -816,7 +816,7 @@ country_event = {
 					OR = {
 						religion = protestant
 						religion = anabaptist
-						religion = vn_anglican
+						religion = anglican
 					}
 					development = 7
 					base_tax = 2
@@ -830,7 +830,7 @@ country_event = {
 					OR = {
 						religion = protestant
 						religion = anabaptist
-						religion = vn_anglican
+						religion = anglican
 					}
 					development = 7
 					base_tax = 2
@@ -851,14 +851,14 @@ country_event = {
 						OR = {
 							religion = protestant
 							religion = anabaptist
-							religion = vn_anglican
+							religion = anglican
 						}
 						any_owned_province = {
 							has_owner_religion = yes
 							OR = {
 								religion = protestant
 								religion = anabaptist
-								religion = vn_anglican
+								religion = anglican
 							}
 						}
 					}
@@ -871,14 +871,14 @@ country_event = {
 						OR = {
 							religion = protestant
 							religion = anabaptist
-							religion = vn_anglican
+							religion = anglican
 						}
 						any_owned_province = {
 							has_owner_religion = yes
 							OR = {
 								religion = protestant
 								religion = anabaptist
-								religion = vn_anglican
+								religion = anglican
 							}
 						}
 					}
@@ -977,7 +977,7 @@ country_event = {
 				OR = {
 					religion = protestant
 					religion = anabaptist
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			add_base_tax = 1

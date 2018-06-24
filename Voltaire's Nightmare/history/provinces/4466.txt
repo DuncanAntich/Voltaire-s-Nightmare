@@ -44,7 +44,6 @@ fort_14th = yes
 	add_core = GRA
 	remove_core = MOR
 }
-1337.1.1 = { fort_14th = no fort_15th = yes }
 1341.1.1 = {
 	owner = CAS
 	controller = CAS

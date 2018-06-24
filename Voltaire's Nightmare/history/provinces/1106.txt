@@ -51,9 +51,8 @@ fort_14th = yes
 1713.4.11 = { remove_core = CAS }
 1766.3.23 = { unrest = 3 }
 1766.12.1 = { unrest = 0 }
-1808.5.1 = { controller = FRA }
-1808.5.2 = { controller = SPA }
-1808.5.3 = { controller = FRA }
-1813.3.19 = { controller = SPA }
+1809.1.1 = { controller = FRA }
+1812.10.1 = { controller = SPA }
+
 discovered_by = nomad_group
 discovered_by = north_american

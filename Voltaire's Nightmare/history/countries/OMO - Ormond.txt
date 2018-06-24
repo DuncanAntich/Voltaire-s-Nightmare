@@ -395,7 +395,7 @@ capital = 2668
 	}
 }
 1546.10.17 = {
-	religion = vn_anglican
+	religion = anglican
 	monarch = {
 		name = "Thomas II"
 		dynasty = "Butler"

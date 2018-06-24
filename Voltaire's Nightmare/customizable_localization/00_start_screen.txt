@@ -458,7 +458,7 @@ defined_text = {
 	text = {
         localisation_key = string_start_religion_anglican
         trigger = {
-			religion = vn_anglican
+			religion = anglican
         }
     }
 	#Reformed (The Reformation)
@@ -662,7 +662,7 @@ defined_text = {
 			OR = {
 				religion = protestant
 				religion = anabaptist
-				religion = vn_anglican
+				religion = anglican
 			}
 			has_dlc = "Common Sense"
         }
@@ -673,7 +673,7 @@ defined_text = {
 			OR = {
 				religion = protestant
 				religion = anabaptist
-				religion = vn_anglican
+				religion = anglican
 			}
 			NOT = { has_dlc = "Common Sense" }
         }

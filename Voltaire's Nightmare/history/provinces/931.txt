@@ -21,7 +21,7 @@ discovered_by = north_american
 	owner = SLB
 	controller = SLB
 	add_core = SLB
-	remove_core = ZGN
+	remove_core = WDK
 }
 1228.1.1 = {
 	owner = WDK

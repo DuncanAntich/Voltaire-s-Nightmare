@@ -2268,7 +2268,7 @@ province_event = {
 			religion = protestant
 			religion = anabaptist
 			religion = reformed
-			religion = vn_anglican
+			religion = anglican
 		}
 		owner = {
 			religion = protestant
@@ -2326,7 +2326,7 @@ province_event = {
 			religion = protestant
 			religion = anabaptist
 			religion = reformed
-			religion = vn_anglican
+			religion = anglican
 		}
 		owner = {
 			religion = protestant
@@ -2419,7 +2419,7 @@ country_event = {
 				OR = {
 					religion = anabaptist
 					religion = reformed
-					religion = vn_anglican
+					religion = anglican
 					has_province_modifier = patriot_preacher
 				}
 			}
@@ -2449,7 +2449,7 @@ country_event = {
 					has_province_modifier = colonial_religious_tensions
 					religion = anabaptist
 					religion = reformed
-					religion = vn_anglican
+					religion = anglican
 				}
 			}
 			if = {

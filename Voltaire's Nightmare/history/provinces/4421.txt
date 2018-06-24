@@ -44,6 +44,7 @@ discovered_by = ottoman
 	add_core = GRA
 	remove_core = MOR
 	remove_core = AGC
+	remove_core = ARC
 }
 1329.1.1 = {
 	owner = AGC
@@ -55,7 +56,7 @@ discovered_by = ottoman
 	owner = CAS
 	controller = CAS
 	add_core = CAS
-	remove_core = GRA
+	remove_core = AGC
 }
 1499.12.1 = { unrest = 2 }
 1502.2.1 = { unrest = 0 religion = catholic }

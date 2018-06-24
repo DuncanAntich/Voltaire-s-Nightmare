@@ -52,7 +52,7 @@ capital = 515 # Tremp
 }
 1178.1.1 = {
 	monarch = {
-		name = "ValenÃ§a I"
+		name = "Valença I"
 		dynasty = "de Pallars"
 		female = yes
 		adm = 0
