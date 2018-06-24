@@ -16,6 +16,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 estate = estate_burghers
+fort_14th = yes
 
 1065.12.24 = {
 	owner = CAS
@@ -24,6 +25,7 @@ estate = estate_burghers
 	base_tax = 5
 	base_production = 5
 }
+1337.1.1 = { fort_14th = no fort_15th = yes }
 1365.1.1 = {
 	revolt = {
 		type = pretender_rebels

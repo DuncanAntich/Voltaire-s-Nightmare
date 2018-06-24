@@ -9,6 +9,7 @@ hre = no
 base_tax = 5
 base_production = 3
 base_manpower = 2
+fort_14th = yes
 trade_goods = grain
 discovered_by = eastern
 discovered_by = western
@@ -50,6 +51,7 @@ discovered_by = ottoman
 	capital = "Jerez de la Frontera"
 }
 1296.1.1 = { religion = catholic }
+1337.1.1 = { fort_14th = no fort_15th = yes }
 1516.1.23 = {
 	controller = SPA
 	owner = SPA

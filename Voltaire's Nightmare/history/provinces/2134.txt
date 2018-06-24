@@ -14,6 +14,7 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+fort_14th = yes
 
 1060.1.1 = {
 	owner = ZGZ
@@ -58,6 +59,7 @@ discovered_by = muslim
 	capital = "Almansa"
 	religion = catholic
 }
+1337.1.1 = { fort_14th = no fort_15th = yes }
 1516.1.23 = {
 	controller = SPA
 	owner = SPA

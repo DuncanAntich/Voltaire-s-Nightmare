@@ -14,7 +14,6 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-fort_14th = yes
 
 1091.1.1 = {
 	owner = MOR
@@ -47,7 +46,6 @@ fort_14th = yes
 	religion = catholic
 	culture = castillian
 }
-1337.1.1 = { fort_14th = no fort_15th = yes }
 1366.1.1 = {
 	revolt = {
 		type = pretender_rebels

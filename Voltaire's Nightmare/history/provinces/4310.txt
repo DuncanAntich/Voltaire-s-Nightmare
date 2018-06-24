@@ -27,11 +27,17 @@ discovered_by = muslim
 	remove_core = MOR
 	add_core = VLK
 }
-1149.10.1 = {
+1149.1.1 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+	remove_core = VLK
+}
+1168.1.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
-	remove_core = VLK
+	remove_core = MCA
 	religion = catholic
 	culture = aragonese
 }

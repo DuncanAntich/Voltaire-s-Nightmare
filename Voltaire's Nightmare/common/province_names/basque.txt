@@ -26,3 +26,4 @@
 4365 = "Lizarra"
 4366 = "Altsasu"
 4355 = "Enkarterri"
+520 = "Erriberri"

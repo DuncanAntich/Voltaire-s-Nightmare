@@ -14,7 +14,6 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-fort_14th = yes
 
 1068.1.1 = {
 	owner = SEV
@@ -52,7 +51,6 @@ fort_14th = yes
 	estate = estate_nobles
 }
 1296.1.1 = { religion = catholic }
-1337.1.1 = { fort_14th = no fort_15th = yes }
 1516.1.23 = {
 	controller = SPA
 	owner = SPA
