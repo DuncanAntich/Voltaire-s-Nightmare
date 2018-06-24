@@ -246,4 +246,4 @@ anglican_rebels = {
 		}
 	}
 }
-}
+
