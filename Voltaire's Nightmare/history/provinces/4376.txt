@@ -26,8 +26,6 @@ discovered_by = ottoman
 	controller = CAS
 	remove_core = LON
 	remove_core = NAV
-	base_tax = 5
-	base_production = 5
 }
 1365.1.1 = {
 	revolt = {

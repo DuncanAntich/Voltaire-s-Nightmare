@@ -20,14 +20,12 @@ discovered_by = ottoman
 1054.9.15 = {
 	owner = LON
 	controller = LON
+	remove_core = NAV
 }
+1065.12.23 = { remove_core = LON }
 1065.12.24 = {
 	owner = CAS
 	controller = CAS
-	remove_core = LON
-	remove_core = NAV
-	base_tax = 5
-	base_production = 5
 }
 1365.1.1 = {
 	revolt = {
