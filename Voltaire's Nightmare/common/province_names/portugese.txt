@@ -73,3 +73,6 @@
 1083 = "Zara"
 2236 = "Zagrebe"
 1123 = "Zurique"
+
+4341 = "Alcanizes"
+4414 = "Arouche"

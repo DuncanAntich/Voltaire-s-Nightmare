@@ -1,7 +1,7 @@
 owner = LON
 controller = LON
 add_core = LON
-capital = "Piedrahita"
+capital = "Piedrahíta"
 is_city = yes
 culture = castillian
 religion = catholic

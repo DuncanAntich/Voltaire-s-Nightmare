@@ -16,9 +16,9 @@ discovered_by = muslim
 discovered_by = ottoman
 
 1057.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
+	owner = PCA
+	controller = PCA
+	add_core = PCA
 	remove_core = BDJ
 	culture = portugese
 	religion = catholic
@@ -32,10 +32,16 @@ discovered_by = ottoman
 	religion = catholic
 }
 1096.1.1 = {
-	owner = POR
-	controller = POR
+	owner = PCA
+	controller = PCA
 	remove_core = CBR
 	remove_core = GAL
+}
+1139.7.25 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+	remove_core = PCA
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

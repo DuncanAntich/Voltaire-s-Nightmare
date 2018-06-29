@@ -1,7 +1,7 @@
 owner = BDJ
 controller = BDJ
 add_core = BDJ
-capital = "Colares"
+capital = "Sintra"
 is_city = yes
 culture = andalucian
 religion = sunni
@@ -9,7 +9,7 @@ hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 1
-trade_goods = grain
+trade_goods = wine
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

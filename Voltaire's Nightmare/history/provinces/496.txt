@@ -1,6 +1,6 @@
-owner = POR
-controller = POR
-culture = portugese
+owner = GAL
+controller = GAL
+culture = galician
 religion = catholic
 hre = no
 base_tax = 2
@@ -9,23 +9,23 @@ trade_goods = tin
 base_manpower = 2
 capital = "Viana do Castelo"
 is_city = yes
-add_core = POR
+add_core = GAL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1065.12.24 = {
-	add_core = GAL
-}
-1071.2.18 = {
-	owner = GAL
-	controller = GAL
-}
 1096.1.1 = {
+	owner = LON
+	controller = LON
+	add_core = LON
+}
+1141.1.1 = {
 	owner = POR
 	controller = POR
+	add_core = POR
 	remove_core = GAL
+	remove_core = LON
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

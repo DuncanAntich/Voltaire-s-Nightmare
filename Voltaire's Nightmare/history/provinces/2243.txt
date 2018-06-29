@@ -20,18 +20,24 @@ discovered_by = muslim
 	controller = CBR
 	add_core = CBR
 	add_core = GAL
-	add_core = POR
+	add_core = PCA
 	remove_core = BDJ
 	religion = catholic
 	culture = portugese
 	capital = "Coimbra"
 }
 1096.1.1 = {
-	owner = POR
-	controller = POR
+	owner = PCA
+	controller = PCA
 	remove_core = CBR
 	remove_core = GAL
 	estate = estate_nobles
+}
+1139.7.25 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+	remove_core = PCA
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

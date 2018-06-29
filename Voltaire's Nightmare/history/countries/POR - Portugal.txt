@@ -1,5 +1,5 @@
 government = feudal_monarchy
-government_rank = 1
+government_rank = 5
 primary_culture = portugese
 religion = catholic
 technology_group = western
@@ -43,7 +43,6 @@ add_army_professionalism = 0.05
 	}
 }
 1139.7.25 = {
-	government_rank = 5
 	monarch = {
 		name = "Afonso I"
 		dynasty = "de Bourgogne"

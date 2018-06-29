@@ -1,6 +1,6 @@
-owner = POR
-controller = POR
-add_core = POR
+owner = PCA
+controller = PCA
+add_core = PCA
 capital = "Moncorvo"
 is_city = yes
 culture = portugese
@@ -9,7 +9,7 @@ hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = wine
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -23,9 +23,15 @@ discovered_by = ottoman
 	controller = GAL
 }
 1096.1.1 = {
+	owner = PCA
+	controller = PCA
+	remove_core = GAL
+}
+1139.7.25 = {
 	owner = POR
 	controller = POR
-	remove_core = GAL
+	add_core = POR
+	remove_core = PCA
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

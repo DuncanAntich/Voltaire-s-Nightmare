@@ -37,7 +37,7 @@ KLG_ideas = {
 EBX_ideas = {
     start = {
         interest = -0.5
-		claim_duration = 0.2
+		fabricate_claims_cost = 0.2
     }
     bonus = {
         reinforce_speed = 0.15
@@ -49,7 +49,7 @@ EBX_ideas = {
     free = yes
 	EBX_idea_1 = {
 		hostile_attrition = 1
-		}
+	}
 	EBX_idea_2 = {
 		global_unrest = -1
 	}

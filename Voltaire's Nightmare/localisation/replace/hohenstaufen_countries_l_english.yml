@@ -1804,6 +1804,7 @@
  RIB: "Ribagorza"
  LER: "Lérida"
  CBR: "Coimbra"
+ PCA: "Portucale"
  PJA_ADJ: "Lower Pallarsian"
  PSA_ADJ: "Upper Pallarsian"
  BEG_ADJ: "Bergan"
@@ -1811,6 +1812,7 @@
  RIB_ADJ: "Ribagorzan"
  LER_ADJ: "Léridian"
  CBR_ADJ: "Coimbrano"
+ PCA_ADJ: "Portucalense"
 #meme
  JMN: "Mongol Empire"
  JMN_ADJ: "Mongol Imperial" 

@@ -1,5 +1,5 @@
-owner = POR
-controller = POR
+owner = PCA
+controller = PCA
 culture = portugese
 religion = catholic
 hre = no
@@ -9,7 +9,7 @@ trade_goods = tin
 base_manpower = 2
 capital = "Chaves"
 is_city = yes
-add_core = POR
+add_core = PCA
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -23,9 +23,15 @@ discovered_by = muslim
 	controller = GAL
 }
 1096.1.1 = {
+	owner = PCA
+	controller = PCA
+	remove_core = GAL
+}
+1139.7.25 = {
 	owner = POR
 	controller = POR
-	remove_core = GAL
+	add_core = POR
+	remove_core = PCA
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

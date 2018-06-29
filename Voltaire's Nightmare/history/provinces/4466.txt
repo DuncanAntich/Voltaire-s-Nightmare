@@ -1,7 +1,7 @@
 owner = CRD
 controller = CRD
 add_core = CRD
-capital = "Al-Kalat"
+capital = "Qalat"
 is_city = yes
 culture = andalucian
 religion = sunni
@@ -9,7 +9,7 @@ hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = olive
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

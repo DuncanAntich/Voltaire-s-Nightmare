@@ -525,7 +525,7 @@ union = {
 
 vassal = {
 	first = LON
-	second = POR
+	second = PCA
 	start_date = 1050.1.1
 	end_date = 1065.12.24
 }
@@ -546,7 +546,7 @@ vassal = {
 
 vassal = {
 	first = GAL
-	second = POR
+	second = PCA
 	start_date = 1065.12.24
 	end_date = 1071.2.18
 }

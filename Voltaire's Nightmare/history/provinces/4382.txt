@@ -1,7 +1,7 @@
 owner = LON
 controller = LON
 add_core = LON
-capital = "Carrión"
+capital = "Carrión de los Condes"
 is_city = yes
 culture = castillian
 religion = catholic
