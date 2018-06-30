@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = BUI
 controller = BUI
 add_core = BUI
@@ -65,7 +69,7 @@ discovered_by = muslim
 1400.9.16 = { revolt = { type = nationalist_rebels size = 0 } controller = REB }
 1415.1.1 = { unrest = 0 revolt = {} controller = ENG }
 1453.1.1 = { unrest = 5 }
-1471.1.1 = { unrest = 8 } 
+1471.1.1 = { unrest = 8 }
 1471.3.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1471.5.4 = { revolt = {} unrest = 2 controller = ENG }
 1483.6.26 = { unrest = 8 }

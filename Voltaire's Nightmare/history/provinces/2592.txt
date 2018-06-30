@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = NOL
 controller = NOL
 culture = anglosaxon
@@ -9,7 +13,7 @@ trade_goods = wool
 base_manpower = 1
 capital = "Sheffield"
 is_city = yes
-add_core = NOL	
+add_core = NOL
 add_core = ASE
 discovered_by = eastern
 discovered_by = ottoman

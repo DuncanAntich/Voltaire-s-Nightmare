@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = MRS
 controller = MRS
 culture = ripuarian
@@ -7,7 +11,7 @@ base_tax = 1
 base_production = 1
 trade_goods = hemp
 base_manpower = 1
-capital = "Mörs"
+capital = "Mï¿½rs"
 is_city = yes
 add_core = MRS
 discovered_by = eastern

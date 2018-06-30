@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = HSC
 controller = HSC
 culture = highland_scottish
@@ -8,7 +12,7 @@ base_production = 1
 trade_goods = wool
 base_manpower = 2
 capital = "Kinross"
-is_city = yes	
+is_city = yes
 add_core = HSC
 discovered_by = eastern
 discovered_by = ottoman

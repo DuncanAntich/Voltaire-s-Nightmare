@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = NOL
 controller = NOL
 culture = northumbrian
@@ -44,7 +48,7 @@ discovered_by = muslim
 	}
 	controller = REB
 }
-1153.8.1 = { 
+1153.8.1 = {
 	revolt = {}
 	controller = ENG
 }

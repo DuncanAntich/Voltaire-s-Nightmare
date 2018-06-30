@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = KLE
 controller = KLE
 culture = ripuarian
@@ -8,7 +12,7 @@ base_production = 3
 trade_goods = hemp
 base_manpower = 3
 capital = "Wesel"
-is_city = yes	
+is_city = yes
 add_core = KLE
 discovered_by = eastern
 discovered_by = ottoman

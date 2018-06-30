@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = HUN
 controller = HUN
 add_core = HUN
@@ -9,7 +13,7 @@ base_tax = 1
 base_production = 3
 trade_goods = grain
 base_manpower = 2
-capital = "Veszprém"
+capital = "Veszprï¿½m"
 is_city = yes
 discovered_by = eastern
 discovered_by = ottoman
@@ -27,7 +31,7 @@ discovered_by = muslim
 }
 1310.1.1 = {
 	owner = HUN
-	controller = HUN 
+	controller = HUN
 	remove_core = DNN
 }
 1545.1.1 = { religion = protestant }

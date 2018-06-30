@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = SCY
 controller = SCY
 culture = cumbric
@@ -8,7 +12,7 @@ base_production = 1
 trade_goods = fish
 base_manpower = 1
 capital = "Keswick"
-is_city = yes	
+is_city = yes
 add_core = SCY
 discovered_by = eastern
 discovered_by = ottoman

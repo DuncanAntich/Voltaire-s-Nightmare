@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = JCH
 controller = JCH
 culture = ripuarian
@@ -7,8 +11,8 @@ base_tax = 5
 base_production = 5
 trade_goods = carpet
 base_manpower = 5
-capital = "Jülich"
-is_city = yes	
+capital = "Jï¿½lich"
+is_city = yes
 add_core = JCH
 discovered_by = eastern
 discovered_by = ottoman

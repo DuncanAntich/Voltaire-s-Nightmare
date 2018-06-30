@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = FFE
 controller = FFE
 culture = highland_scottish
@@ -9,7 +13,7 @@ trade_goods = grain
 base_manpower = 3
 capital = "Cupar"
 is_city = yes
-add_core = FFE	
+add_core = FFE
 add_core = HSC
 discovered_by = eastern
 discovered_by = ottoman
@@ -35,7 +39,7 @@ fort_14th = yes
 1644.9.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB }
 1645.9.13 = { revolt = {} controller = SCO }
 1651.8.2 = { controller = ENG }
-1652.4.21 = { controller = SCO } 
+1652.4.21 = { controller = SCO }
 1707.5.1 = {
 	owner = GBR
 	controller = GBR

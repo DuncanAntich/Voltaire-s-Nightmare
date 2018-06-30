@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = FCL
 controller = FCL
 culture = vivaro_alpine

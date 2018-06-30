@@ -1,3 +1,7 @@
+latent_trade_goods = {
+	coal
+}
+
 owner = BOU
 controller = BOU
 culture = berrichon
@@ -18,7 +22,7 @@ discovered_by = muslim
 1523.1.1 = { owner = FRA controller = FRA add_core = FRA }
 1560.1.1 = { religion = reformed }
 1573.9.1 = { unrest = 5 }
-1574.5.1 = { unrest = 0 }	
+1574.5.1 = { unrest = 0 }
 1588.12.1 = { unrest = 5 }
 1594.1.1 = { unrest = 0 }
 1622.6.11 = { religion = catholic }
