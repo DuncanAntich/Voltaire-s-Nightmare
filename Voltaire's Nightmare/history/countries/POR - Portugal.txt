@@ -5,43 +5,10 @@ religion = catholic
 technology_group = western
 historical_friend = SPA
 historical_friend = CAS
-capital = 1234
+capital = 2951
 national_focus = DIP
 add_army_professionalism = 0.05
 
-1050.1.1 = {
-	monarch = {
-		name = "Nuno"
-		dynasty = "Menéndez"
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-
-1096.1.1 = {
-	monarch = {
-		name = "Henrique"
-		dynasty = "de Bourgogne"
-		birth_date = 1066.1.1
-		adm = 2
-		dip = 5
-		mil = 3
-	}
-}
-1109.7.25 = {
-	heir = {
-		name = "Afonso"
-		monarch_name = "Afonso I"
-		dynasty = "de Bourgogne"
-		birth_date = 1109.7.25
-		death_date = 1185.12.6
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}
 1139.7.25 = {
 	monarch = {
 		name = "Afonso I"

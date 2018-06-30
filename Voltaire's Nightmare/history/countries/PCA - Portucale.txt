@@ -3,7 +3,7 @@ government_rank = 1
 primary_culture = portugese
 religion = catholic
 technology_group = western
-capital = 1234
+capital = 2951
 
 1050.1.1 = {
 	monarch = {

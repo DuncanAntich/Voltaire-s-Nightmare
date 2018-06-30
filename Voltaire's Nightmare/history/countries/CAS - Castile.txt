@@ -1,5 +1,5 @@
 government = feudal_monarchy
-government_rank = 5
+government_rank = 1
 primary_culture = castillian
 religion = catholic
 technology_group = western
@@ -11,6 +11,7 @@ historical_friend = LON
 add_army_professionalism = 0.1
 
 1065.12.24 = {
+	government_rank = 5
 	monarch = {
 		name = "Sancho II"
 		dynasty = "Jiménez"

@@ -14,7 +14,6 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = CAT }
-			is_tribal = no
 			adm_tech = 40	
 			is_at_war = no
 			is_nomad = no
