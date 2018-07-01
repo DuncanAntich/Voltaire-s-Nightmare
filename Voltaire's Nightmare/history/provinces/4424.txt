@@ -1,7 +1,7 @@
 owner = ARC
 controller = ARC
 add_core = ARC
-capital = "Arcos"
+capital = "Arqus"
 is_city = yes
 culture = andalucian
 religion = sunni
@@ -9,7 +9,7 @@ hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = grain
+trade_goods = livestock
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
