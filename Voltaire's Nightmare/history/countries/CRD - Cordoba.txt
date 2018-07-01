@@ -27,7 +27,6 @@ religious_school = maliki_school
 #1070 under SEV
 1236.1.1 = {
 	government = feudal_monarchy
-	government_rank = 5
 	religion = catholic
 	technology_group = western
 }

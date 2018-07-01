@@ -1,7 +1,7 @@
 owner = BDJ
 controller = BDJ
 add_core = BDJ
-capital = "Arroyo"
+capital = "Arroyo de la Luz"
 is_city = yes
 culture = andalucian
 religion = sunni

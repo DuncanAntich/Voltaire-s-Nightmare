@@ -786,10 +786,15 @@ castile_region = {
 toledan_region = {
 	areas = {
 		toledo_area
-		murcia_area
 		ciudad_area
 		cuenca_area
+	}
+}
+
+murcian_region = {
+	areas = {
 		albacete_area
+		murcia_area
 	}
 }
 

@@ -486,6 +486,9 @@
  malaga_area: "Málaga"
  malaga_area_name: "Málaga"
  malaga_area_adj: "Málagan"
+ murcian_region: "Murcia"
+ murcian_region_name: "Murcia"
+ murcian_region_adj: "Murcian"
 #Pre-1.25
  turov_area: "Turov"
  turov_area_name: "Turov"

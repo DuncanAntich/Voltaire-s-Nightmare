@@ -50,6 +50,7 @@ discovered_by = ottoman
 	controller = POR
 	add_core = POR
 	remove_core = NIE
+	base_tax = 2
 }
 1296.1.1 = {
 	religion = catholic

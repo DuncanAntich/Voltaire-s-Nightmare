@@ -557,3 +557,40 @@ vassal = {
 	start_date = 1046.1.1
 	end_date = 1081.1.1
 }
+
+# Crown of Castile
+
+union = {
+	first = CAS
+	second = TLD
+	start_date = 1091.1.1
+	end_date = 1479.9.4
+}
+
+union = {
+	first = CAS
+	second = JAE
+	start_date = 1246.1.1
+	end_date = 1479.9.4
+}
+
+union = {
+	first = CAS
+	second = CRD
+	start_date = 1236.1.1
+	end_date = 1479.9.4
+}
+
+union = {
+	first = CAS
+	second = SEV
+	start_date = 1248.11.23
+	end_date = 1479.9.4
+}
+
+union = {
+	first = CAS
+	second = MCA
+	start_date = 1266.1.1
+	end_date = 1479.9.4
+}

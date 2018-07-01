@@ -25,6 +25,8 @@ discovered_by = ottoman
 	controller = CAS
 	add_core = CAS
 	remove_core = LON
+	base_tax = 3
+	base_production = 3
 }
 1368.4.1 = {
 	revolt = {

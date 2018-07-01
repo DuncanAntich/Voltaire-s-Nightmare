@@ -39,6 +39,7 @@ religious_school = maliki_school
 #badajoz 1080-81
 1080.1.1 = { capital = 2792 }
 #anarchy, its unclear what happened to the muslim lands
+1081.1.1 = { capital = 1208 }
 1085.1.1 = {
 	capital = 1206
 	monarch = {

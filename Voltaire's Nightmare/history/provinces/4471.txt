@@ -46,7 +46,6 @@ fort_14th = yes
 	religion = catholic
 	culture = portugese
 }
-1337.1.1 = { fort_14th = no fort_15th = yes }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }
 1640.1.1 = { unrest = 8 }
