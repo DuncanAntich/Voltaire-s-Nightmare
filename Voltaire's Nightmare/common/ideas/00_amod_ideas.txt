@@ -1,3 +1,111 @@
+SEV_ideas = {
+    start = {
+        infantry_power = 0.1
+        naval_morale = 0.1
+    }
+    bonus = {
+        land_morale = 0.2
+    }
+
+    trigger = {
+        tag = SEV
+    }
+    free = yes
+    SEV_idea_1 = {
+        global_trade_power = 0.1
+    }
+    SEV_idea_2 = {
+        core_creation = -0.15
+    }
+    SEV_idea_3 = {
+        prestige = 1
+    }
+    SEV_idea_4 = {
+        idea_cost = -0.1
+    }
+    SEV_idea_5 = {
+        discipline = 0.05
+    }
+    SEV_idea_6 = {
+        enemy_core_creation = 0.25
+    }
+    SEV_idea_7 = {
+        legitimacy = 1
+    }
+}
+
+TLD_ideas = {
+    start = {
+        army_tradition = 1
+        liberty_desire = 25
+    }
+    bonus = {
+        leader_land_shock = 1
+    }
+
+    trigger = {
+        tag = TLD
+    }
+    free = yes
+    TLD_idea_1 = {
+        diplomatic_upkeep = 1
+    }
+    TLD_idea_2 = {
+        legitimacy = 1
+    }
+    TLD_idea_3 = {
+        global_manpower_modifier = 0.15
+    }
+    TLD_idea_4 = {
+        ae_impact = -0.10
+    }
+    TLD_idea_5 = {
+        stability_cost_modifier = -0.15
+    }
+    TLD_idea_6 = {
+        defensiveness = 0.25
+    }
+    TLD_idea_7 = {
+        religious_unity = 0.15
+    }
+}
+
+BRC_ideas = {
+    start = {
+        prestige = 1
+        war_exhaustion = -0.05
+    }
+    bonus = {
+        siege_ability = 0.15
+    }
+
+    trigger = {
+        tag = BRC
+    }
+    free = yes
+    BRC_idea_1 = {
+        build_cost = -0.1
+    }
+    BRC_idea_2 = {
+        liberty_desire = 15
+    }
+    BRC_idea_3 = {
+        global_unrest = -1
+    }
+    BRC_idea_4 = {
+        land_morale = 0.15
+    }
+    BRC_idea_5 = {
+        heir_chance = 0.5
+    }
+    BRC_idea_6 = {
+        diplomatic_reputation = 1
+    }
+    BRC_idea_7 = {
+        cb_on_religious_enemies = yes
+    }
+}
+
 KLG_ideas = {
     start = {
 		build_time = -0.2
