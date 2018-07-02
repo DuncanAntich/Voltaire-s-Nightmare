@@ -43,9 +43,12 @@ estate = estate_nobles
 1243.1.1 = {
 	owner = CAS
 	controller = CAS
+	add_core = CAS
 }
 1248.11.23 = {
-	add_core = CAS
+	owner = CSE
+	controller = CSE
+	add_core = CSE
 	remove_core = NIE
 }
 1296.1.1 = { religion = catholic }
@@ -55,6 +58,7 @@ estate = estate_nobles
 	owner = SPA
 	add_core = SPA
 }
-1713.4.11 = { remove_core = CAS remove_core = SEV }
+1713.4.11 = { remove_core = CAS }
+1833.11.20 = { remove_core = CSE }
 discovered_by = nomad_group
 discovered_by = north_american

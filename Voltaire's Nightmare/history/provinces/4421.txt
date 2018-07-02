@@ -46,6 +46,7 @@ discovered_by = ottoman
 	remove_core = AGC
 	remove_core = ARC
 }
+1248.11.23 = { add_core = CSE }
 1329.1.1 = {
 	owner = AGC
 	controller = AGC
@@ -53,8 +54,8 @@ discovered_by = ottoman
 	remove_core = GRA
 }
 1344.1.1 = {
-	owner = CAS
-	controller = CAS
+	owner = CSE
+	controller = CSE
 	add_core = CAS
 	remove_core = AGC
 	base_tax = 2
@@ -67,5 +68,18 @@ discovered_by = ottoman
 	controller = SPA
 	add_core = SPA
 }
+1713.4.11 = { remove_core = CAS }
+1820.1.1 = {
+	revolt = {
+		type = revolutionary_rebels
+		size = 1
+	}
+	controller = REB
+}
+1820.3.10 = {
+	revolt = {}
+	controller = SPA
+}
+1833.11.20 = { remove_core = CSE }
 discovered_by = nomad_group
 discovered_by = north_american

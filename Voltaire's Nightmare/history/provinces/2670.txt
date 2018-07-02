@@ -40,10 +40,12 @@ fort_14th = yes
 	remove_core = COA
 }
 1236.2.7 = {
-	owner = CAS
-	controller = CAS
+	owner = CCR
+	controller = CCR
+	add_core = CCR
 	add_core = CAS
 	remove_core = MOR
+	remove_core = CRD
 	religion = catholic
 	estate = estate_nobles
 	capital = "Córdoba"
@@ -58,14 +60,14 @@ fort_14th = yes
 }
 1367.4.3 = {
 	revolt = {}
-	controller = CAS
+	controller = CCR
 }
 1516.1.23 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
 }
-1713.4.11 = { remove_core = CAS remove_core = CRD }
+1713.4.11 = { remove_core = CAS }
 1811.1.1 = { controller = FRA }
 1812.10.1 = { controller = SPA }
 1820.1.1 = {

@@ -59,8 +59,9 @@ fort_14th = yes
 1482.7.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB }
 1484.5.1 = { revolt = {} controller = GRA }
 1492.1.2 = {
-	owner = CAS
-	controller = CAS
+	owner = CGR
+	controller = CGR
+	add_core = CGR
 	add_core = CAS
 	remove_core = GRA
 	capital = "Granada"
@@ -88,5 +89,6 @@ fort_14th = yes
 	revolt = {}
 	controller = SPA
 }
+1833.11.20 = { remove_core = CGR }
 discovered_by = nomad_group
 discovered_by = north_american

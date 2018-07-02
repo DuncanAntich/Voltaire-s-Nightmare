@@ -48,10 +48,12 @@ fort_14th = yes
 	remove_core = MOR
 	remove_core = MGG
 }
+1248.11.23 = { add_core = CSE }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1410.9.16 = {
-	owner = CAS
-	controller = CAS
+	owner = CSE
+	controller = CSE
+	add_core = CSE
 	add_core = CAS
 	remove_core = GRA
 	capital = "Antequera"
@@ -80,6 +82,7 @@ fort_14th = yes
 	controller = SPA
 }
 1833.9.29 = { unrest = 8 }
+1833.11.20 = { remove_core = CSE }
 1839.5.13 = { unrest = 0 }
 discovered_by = nomad_group
 discovered_by = north_american

@@ -64,7 +64,7 @@ discovered_by = muslim
 	controller = SPA
 	owner = SPA
 	add_core = SPA
-	capital = "Jativa"
+	capital = "Játiva"
 }
 1591.9.24 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB }
 1591.12.24 = { revolt = {} controller = SPA }

@@ -562,42 +562,51 @@ vassal = {
 
 union = {
 	first = CAS
-	second = TLD
-	start_date = 1091.1.1
+	second = CTL
+	start_date = 1085.1.1
 	end_date = 1516.1.23
 }
 
 union = {
 	first = CAS
-	second = JAE
+	second = CJA
 	start_date = 1246.1.1
 	end_date = 1516.1.23
 }
 
 union = {
 	first = CAS
-	second = CRD
+	second = CCR
 	start_date = 1236.1.1
 	end_date = 1516.1.23
 }
 
 union = {
 	first = CAS
-	second = SEV
+	second = CSE
 	start_date = 1248.11.23
 	end_date = 1516.1.23
 }
 
 union = {
 	first = CAS
-	second = MCA
+	second = CMU
 	start_date = 1266.1.1
 	end_date = 1516.1.23
 }
 
 union = {
 	first = CAS
-	second = GRA
+	second = CGR
 	start_date = 1492.1.2
 	end_date = 1516.1.23
+}
+
+# Castile and Murcia
+
+vassal = {
+	first = CAS
+	second = MCA
+	start_date = 1243.4.2
+	end_date = 1266.1.1
 }

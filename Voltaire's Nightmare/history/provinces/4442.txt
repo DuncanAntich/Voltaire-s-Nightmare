@@ -50,6 +50,12 @@ discovered_by = ottoman
 	remove_core = GRA
 	religion = catholic
 }
+1246.1.1 = {
+	owner = CJA
+	controller = CJA
+	add_core = CJA
+	remove_core = JAE
+}
 1464.5.1 = { unrest = 3 }
 1468.9.18 = { unrest = 0 }
 1470.1.1 = { unrest = 3 }
@@ -61,7 +67,7 @@ discovered_by = ottoman
 }
 1520.5.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1522.2.3 = { revolt = {} controller = SPA }
-1713.4.11 = { remove_core = CAS remove_core = JAE }
+1713.4.11 = { remove_core = CAS }
 1809.1.1 = { controller = FRA }
 1812.10.1 = { controller = SPA }
 1820.1.1 = {
@@ -75,5 +81,6 @@ discovered_by = ottoman
 	revolt = {}
 	controller = SPA
 }
+1833.11.20 = { remove_core = CJA }
 discovered_by = nomad_group
 discovered_by = north_american

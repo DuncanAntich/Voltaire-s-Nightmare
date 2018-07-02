@@ -58,9 +58,11 @@ fort_14th = yes
 	remove_core = MOR
 }
 1246.1.1 = {
-	owner = CAS
-	controller = CAS
+	owner = CJA
+	controller = CJA
+	add_core = CJA
 	add_core = CAS
+	remove_core = JAE
 	remove_core = GRA
 	estate = estate_church 
 	capital = "Jaén"
@@ -77,7 +79,7 @@ fort_14th = yes
 }
 1520.5.1 = { revolt = { type = revolutionary_rebels size = 1.2 } controller = REB }
 1522.2.3 = { revolt = {} controller = SPA }
-1713.4.11 = { remove_core = CAS remove_core = JAE }
+1713.4.11 = { remove_core = CAS }
 1809.1.1 = { controller = FRA }
 1812.10.1 = { controller = SPA }
 1820.1.1 = {
@@ -91,5 +93,6 @@ fort_14th = yes
 	revolt = {}
 	controller = SPA
 }
+1833.11.20 = { remove_core = CJA }
 discovered_by = nomad_group
 discovered_by = north_american

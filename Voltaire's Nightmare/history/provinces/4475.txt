@@ -51,11 +51,13 @@ discovered_by = ottoman
 	remove_core = MOR
 	remove_core = DNA
 }
-1238.10.9 = {
+1243.1.1 = { add_core = CAS }
+1266.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS
 	religion = catholic
+	remove_core = MCA
 }
 1516.1.23 = {
 	controller = SPA

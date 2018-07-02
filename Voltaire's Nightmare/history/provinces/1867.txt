@@ -43,9 +43,11 @@ add_permanent_province_modifier = {
 	remove_core = MOR
 }
 1248.11.23 = {
-	owner = CAS
-	controller = CAS
+	owner = CSE
+	controller = CSE
+	add_core = CSE
 	add_core = CAS
+	remove_core = SEV
 	capital = "Sevilla"
 }
 1296.1.1 = { religion = catholic }
@@ -62,7 +64,7 @@ add_permanent_province_modifier = {
 }
 1367.4.3 = {
 	revolt = {}
-	controller = CAS
+	controller = CSE
 }
 1492.1.1 = {
 	add_permanent_province_modifier = {
@@ -89,7 +91,7 @@ add_permanent_province_modifier = {
    		duration = -1
 	}
 }
-1713.4.11 = { remove_core = CAS remove_core = SEV }
+1713.4.11 = { remove_core = CAS }
 1820.1.1 = {
 	revolt = {
 		type = revolutionary_rebels
@@ -101,5 +103,6 @@ add_permanent_province_modifier = {
 	revolt = {}
 	controller = SPA
 }
+1833.11.20 = { remove_core = CSE }
 discovered_by = nomad_group
 discovered_by = north_american
