@@ -46,8 +46,8 @@ discovered_by = ottoman
 	remove_core = MOR
 }
 1248.11.23 = {
-	owner = CCR
-	controller = CCR
+	owner = CAS
+	controller = CAS
 	add_core = CAS
 	remove_core = SEV
 	base_tax = 2
@@ -64,7 +64,7 @@ discovered_by = ottoman
 }
 1367.4.3 = {
 	revolt = {}
-	controller = CCR
+	controller = CAS
 }
 1516.1.23 = {
 	controller = SPA

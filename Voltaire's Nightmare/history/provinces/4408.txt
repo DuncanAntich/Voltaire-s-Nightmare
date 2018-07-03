@@ -16,15 +16,18 @@ discovered_by = muslim
 discovered_by = ottoman
 
 1085.1.1 = {
-	owner = VLK
-	controller = VLK
-	add_core = VLK
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	add_core = CTL
+	remove_core = TLD
 }
-1102.1.1 = {
+1091.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = VLK
+	remove_core = CAS
+	remove_core = CTL
 }
 1145.3.25 = {
 	owner = MCA
@@ -47,8 +50,8 @@ discovered_by = ottoman
 }
 1243.1.1 = { add_core = CAS }
 1266.1.1 = {
-	owner = CMU
-	controller = CMU
+	owner = CAS
+	controller = CAS
 	add_core = CMU
 	remove_core = MCA
 	religion = catholic

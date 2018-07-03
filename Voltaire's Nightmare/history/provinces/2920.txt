@@ -44,8 +44,8 @@ discovered_by = muslim
 	remove_core = ARC
 }
 1248.11.23 = {
-	owner = CSE
-	controller = CSE
+	owner = CAS
+	controller = CAS
 	add_core = CSE
 	add_core = CAS
 	remove_core = SEV

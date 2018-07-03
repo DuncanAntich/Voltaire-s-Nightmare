@@ -48,16 +48,14 @@ discovered_by = ottoman
 	remove_core = ALM
 }
 1434.1.1 = {
-	owner = CMU
-	controller = CMU
+	owner = CAS
+	controller = CAS
 	add_core = CMU
 	add_core = CAS
 }
 1487.1.1 = { revolt = { type = religious_rebels size = 0 } controller = REB }
 1489.12.10 = { revolt = {} controller = CAS }
 1492.1.2 = {
-	owner = CGR
-	controller = CGR
 	add_core = CGR
 	remove_core = CMU
 	remove_core = GRA

@@ -58,8 +58,8 @@ fort_14th = yes
 	remove_core = MOR
 }
 1246.1.1 = {
-	owner = CJA
-	controller = CJA
+	owner = CAS
+	controller = CAS
 	add_core = CJA
 	add_core = CAS
 	remove_core = JAE

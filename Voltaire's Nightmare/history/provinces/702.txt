@@ -16,16 +16,24 @@ discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
+1085.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	add_core = CTL
+	remove_core = TLD
+}
 1091.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = CAS
+	remove_core = CTL
 }
 1145.3.25 = {
 	owner = MCA
 	controller = MCA
 	add_core = MCA
-	remove_core = TLD
 	remove_core = MOR
 }
 1170.1.1 = {
@@ -42,8 +50,8 @@ fort_14th = yes
 }
 1243.1.1 = { add_core = CAS }
 1266.1.1 = {
-	owner = CMU
-	controller = CMU
+	owner = CAS
+	controller = CAS
 	add_core = CMU
 	capital = "Albacete"
 	remove_core = MCA

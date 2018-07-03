@@ -49,8 +49,8 @@ discovered_by = ottoman
 }
 1243.1.1 = { add_core = CAS }
 1266.1.1 = {
-	owner = CMU
-	controller = CMU
+	owner = CAS
+	controller = CAS
 	add_core = CMU
 	remove_core = MCA
 }

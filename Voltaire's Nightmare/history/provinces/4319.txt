@@ -55,6 +55,7 @@ discovered_by = muslim
 	owner = ARA
 	controller = ARA
 	add_core = ARA
+	add_core = AVL
 	remove_core = VLK
 	religion = catholic
 	culture = aragonese
@@ -70,7 +71,7 @@ discovered_by = muslim
 1591.12.24 = { revolt = {} controller = SPA }
 1705.12.16 = { controller = HAB }
 1707.5.8 = { controller = SPA }
-1713.7.13 = { remove_core = ARA remove_core = VLK }
+1713.7.13 = { remove_core = ARA remove_core = AVL }
 1812.1.1 = { controller = FRA }
 1813.3.19 = { controller = SPA }
 1823.8.4 = { controller = FRA }

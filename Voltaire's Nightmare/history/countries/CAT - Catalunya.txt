@@ -1,5 +1,5 @@
 government = feudal_monarchy
-government_rank = 5
+government_rank = 4
 religion = catholic
 primary_culture = catalan
 technology_group = western
@@ -20,5 +20,5 @@ capital = 1955	# Barcelona
 }
 1812.1.1 = {
 	government = enlightened_despotism
-	government_rank = 5
+	government_rank = 4
 }

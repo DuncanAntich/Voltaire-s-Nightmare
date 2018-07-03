@@ -46,8 +46,6 @@ estate = estate_nobles
 	add_core = CAS
 }
 1248.11.23 = {
-	owner = CSE
-	controller = CSE
 	add_core = CSE
 	remove_core = NIE
 }

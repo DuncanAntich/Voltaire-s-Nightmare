@@ -47,8 +47,8 @@ fort_14th = yes
 }
 1246.1.1 = { remove_core = JAE add_core = CJA }
 1341.1.1 = {
-	owner = CJA
-	controller = CJA
+	owner = CAS
+	controller = CAS
 	add_core = CAS
 	remove_core = GRA
 	religion = catholic

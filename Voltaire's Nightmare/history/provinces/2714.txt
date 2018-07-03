@@ -19,6 +19,7 @@ discovered_by = muslim
 	owner = ARR
 	add_core = ARR
 	controller = ARR
+	remove_core = TLD
 }
 1104.1.1 = {
 	owner = MOR
@@ -30,6 +31,7 @@ discovered_by = muslim
 	owner = CAS
 	controller = CAS
 	add_core = CAS
+	add_core = CTL
 	remove_core = MOR
 	culture = castillian
 	religion = catholic
@@ -49,6 +51,7 @@ discovered_by = muslim
 1808.12.1 = { controller = FRA }
 1812.10.1 = { controller = SPA }
 1833.9.29 = { unrest = 8 }
+1833.11.20 = { remove_core = CTL }
 1839.5.13 = { unrest = 0 }
 discovered_by = nomad_group
 discovered_by = north_american

@@ -25,10 +25,19 @@ discovered_by = ottoman
 	controller = TLD
 	remove_core = BDJ
 }
+1085.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	add_core = CTL
+	remove_core = TLD
+}
 1091.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = CAS
+	remove_core = CTL
 }
 1143.1.1 = {
 	owner = BDJ
@@ -51,8 +60,6 @@ discovered_by = ottoman
 	culture = castillian
 }
 1236.2.7 = {
-	owner = CCR
-	controller = CCR
 	add_core = CCR
 }
 1366.1.1 = {
@@ -64,7 +71,7 @@ discovered_by = ottoman
 }
 1367.4.3 = {
 	revolt = {}
-	controller = CCR
+	controller = CAS
 }
 1516.1.23 = {
 	owner = SPA

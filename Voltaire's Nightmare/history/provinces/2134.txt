@@ -54,8 +54,8 @@ fort_14th = yes
 }
 1243.1.1 = { add_core = CAS }
 1266.1.1 = {
-	owner = CMU
-	controller = CMU
+	owner = CAS
+	controller = CAS
 	add_core = CMU
 	capital = "Almansa"
 	remove_core = MCA

@@ -10,6 +10,7 @@ base_manpower = 1
 capital = "Olot"
 is_city = yes
 add_core = BSU
+add_core = CAT
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western

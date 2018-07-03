@@ -60,8 +60,8 @@ fort_14th = yes
 1482.7.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1484.5.1 = { revolt = {} controller = GRA }
 1492.1.2 = {
-	owner = CGR
-	controller = CGR
+	owner = CAS
+	controller = CAS
 	add_core = CGR
 	add_core = CAS
 	remove_core = GRA

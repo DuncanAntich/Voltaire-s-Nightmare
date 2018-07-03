@@ -41,8 +41,8 @@ discovered_by = ottoman
 }
 1248.11.23 = { add_core = CSE }
 1262.1.1 = {
-	owner = CSE
-	controller = CSE
+	owner = CAS
+	controller = CAS
 	add_core = CAS
 	remove_core = NIE
 }

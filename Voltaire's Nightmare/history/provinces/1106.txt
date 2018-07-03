@@ -20,6 +20,8 @@ fort_14th = yes
 	owner = CAS
 	controller = CAS
 	add_core = CAS
+	add_core = CTL
+	remove_core = TLD
 	culture = castillian
 	religion = catholic
 }
@@ -53,6 +55,6 @@ fort_14th = yes
 1766.12.1 = { unrest = 0 }
 1809.1.1 = { controller = FRA }
 1812.10.1 = { controller = SPA }
-
+1833.11.20 = { remove_core = CTL }
 discovered_by = nomad_group
 discovered_by = north_american

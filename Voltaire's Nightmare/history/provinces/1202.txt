@@ -45,8 +45,8 @@ fort_14th = yes
 	remove_core = MOR
 }
 1248.11.23 = {
-	owner = CSE
-	controller = CSE
+	owner = CAS
+	controller = CAS
 	add_core = CSE
 	add_core = CAS
 	remove_core = SEV
@@ -63,7 +63,7 @@ fort_14th = yes
 }
 1367.4.3 = {
 	revolt = {}
-	controller = CSE
+	controller = CAS
 }
 1516.1.23 = {
 	controller = SPA

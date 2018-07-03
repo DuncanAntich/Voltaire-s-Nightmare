@@ -47,12 +47,11 @@ discovered_by = ottoman
 	owner = CAS
 	controller = CAS
 	add_core = CAS
+	remove_core = MOR
 	remove_core = GRA
 	religion = catholic
 }
 1246.1.1 = {
-	owner = CJA
-	controller = CJA
 	add_core = CJA
 	remove_core = JAE
 }

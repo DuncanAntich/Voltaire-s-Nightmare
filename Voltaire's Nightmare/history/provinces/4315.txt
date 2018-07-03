@@ -50,6 +50,7 @@ discovered_by = muslim
 	controller = ARA
 	add_core = ARA
 	remove_core = ARR
+	add_core = AVL
 	religion = catholic
 	culture = aragonese
 }
@@ -64,7 +65,7 @@ discovered_by = muslim
 1707.5.26 = { controller = SPA }
 1710.6.13 = { controller = HAB }
 1710.11.1 = { controller = SPA }
-1713.7.13 = { remove_core = ARA }
+1713.7.13 = { remove_core = ARA remove_core = AVL }
 1810.1.1 = { controller = FRA }
 1812.7.26 = { controller = SPA }
 1823.7.28 = { controller = FRA }

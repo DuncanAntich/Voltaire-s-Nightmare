@@ -51,8 +51,8 @@ fort_14th = yes
 1248.11.23 = { add_core = CSE }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1410.9.16 = {
-	owner = CSE
-	controller = CSE
+	owner = CAS
+	controller = CAS
 	add_core = CSE
 	add_core = CAS
 	remove_core = GRA

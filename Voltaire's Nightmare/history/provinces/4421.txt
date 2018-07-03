@@ -54,8 +54,8 @@ discovered_by = ottoman
 	remove_core = GRA
 }
 1344.1.1 = {
-	owner = CSE
-	controller = CSE
+	owner = CAS
+	controller = CAS
 	add_core = CAS
 	remove_core = AGC
 	base_tax = 2

@@ -47,8 +47,8 @@ discovered_by = muslim
 }
 1248.11.23 = { add_core = CSE }
 1264.9.22 = {
-	owner = CSE
-	controller = CSE
+	owner = CAS
+	controller = CAS
 	add_core = CAS
 	remove_core = GRA
 	capital = "Medina-Sidonia"
