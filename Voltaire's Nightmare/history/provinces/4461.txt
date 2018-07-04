@@ -6,9 +6,9 @@ is_city = yes
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 1
+base_production = 1
+base_manpower = 1
 trade_goods = olive
 discovered_by = eastern
 discovered_by = western
@@ -38,6 +38,9 @@ discovered_by = ottoman
 	remove_core = MOR
 	culture = portugese
 	religion = catholic
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
 }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }

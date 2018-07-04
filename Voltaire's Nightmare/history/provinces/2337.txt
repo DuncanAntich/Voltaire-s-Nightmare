@@ -10,6 +10,7 @@ base_manpower = 3
 capital = "Ávila"
 is_city = yes
 add_core = LON
+add_core = CAS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -19,7 +20,6 @@ fort_14th = yes
 1065.12.24 = {
 	owner = CAS
 	controller = CAS
-	add_core = CAS
 	remove_core = LON
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }

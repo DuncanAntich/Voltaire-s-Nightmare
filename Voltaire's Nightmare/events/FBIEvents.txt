@@ -235,12 +235,29 @@ country_event = {
 			limit = { NOT = { exists = GAL } }
 			GAL = { define_ruler = { dynasty = ROOT } }
 		}
+		if = {
+			limit = { GAL = { is_subject_of = LON } }
+			break_union = GAL
+		}
 		every_owned_province = {
 			limit = { is_core = GAL }
 			cede_province = GAL
 			remove_core = LON
 		}
-
+		if = {
+			limit = {
+				exists = PCA
+				PCA = { is_subject_of = LON }
+			}
+			GAL = { vassalize = PCA }
+		}
+		if = {
+			limit = {
+				exists = CBR
+				CBR = { is_subject_of = LON }
+			}
+			GAL = { vassalize = CBR }
+		}
 	}
 	option = {
 		name = "FBIB4"
@@ -260,6 +277,32 @@ country_event = {
 			spawn_rebels = {
 				type = nationalist_rebels
 				size = 2
+			}
+		}
+		if = {
+			limit = { 
+				exists = GAL
+				GAL = { is_subject_of = LON }
+			}
+			GAL = {
+				declare_war_with_cb = {
+					who = ROOT
+					casus_belli = cb_independence_war
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = CAS
+				CAS = {
+					is_subject_of = LON
+				}
+			}
+			CAS = {
+				declare_war_with_cb = {
+					who = ROOT
+					casus_belli = cb_independence_war
+				}
 			}
 		}
 	}

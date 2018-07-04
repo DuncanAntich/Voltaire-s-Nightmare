@@ -3,10 +3,10 @@ controller = BDJ
 culture = andalucian
 religion = sunni
 hre = no
-base_tax = 3
+base_tax = 2
 base_production = 2
 trade_goods = grain
-base_manpower = 2
+base_manpower = 1
 capital = "Beja"
 is_city = yes
 add_core = BDJ
@@ -44,6 +44,8 @@ discovered_by = muslim
 	remove_core = NIE
 	religion = catholic
 	culture = portugese
+	base_tax = 3
+	base_production = 3
 }
 1640.1.1 = { unrest = 8 }
 1640.12.1 = { unrest = 0 }

@@ -531,10 +531,10 @@ coal = {
 			owner = { innovativeness = 20 }
 		}
 		provincial_institution_progress = {
-			which = enlightenment
+			which = industrialism
 			value = 100
 		}
-		owner = { has_institution = enlightenment }
+		owner = { has_institution = industrialism }
 	}
 	
 	modifier = {
