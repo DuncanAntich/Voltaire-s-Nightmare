@@ -45,6 +45,7 @@ discovered_by = ottoman
 	culture = portugese
 	religion = catholic
 }
+1249.1.1 = { add_core = AGV }
 1580.8.25 = { controller = SPA }
 1580.8.26 = { controller = POR }
 1640.1.1 = { unrest = 8 }

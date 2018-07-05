@@ -1812,6 +1812,7 @@
  CSE: "Sevilla"
  AVL: "Valencia"
  CGR: "Granada"
+ AGV: "Algarve"
  PJA_ADJ: "Lower Pallarsian"
  PSA_ADJ: "Upper Pallarsian"
  BEG_ADJ: "Bergan"
@@ -1826,6 +1827,7 @@
  CMU_ADJ: "Murciano"
  CSE_ADJ: "Sevillan"
  CGR_ADJ: "Granadan"
+ AGV_ADJ: "Algarvian"
 #meme
  JMN: "Mongol Empire"
  JMN_ADJ: "Mongol Imperial" 

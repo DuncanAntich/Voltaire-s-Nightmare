@@ -44,6 +44,8 @@ discovered_by = muslim
 	controller = ARR
 	add_core = ARR
 	remove_core = MOR
+	religion = catholic
+	culture = aragonese
 }
 1259.1.1 = {
 	owner = ARA
@@ -51,8 +53,6 @@ discovered_by = muslim
 	add_core = ARA
 	remove_core = ARR
 	add_core = AVL
-	religion = catholic
-	culture = aragonese
 }
 1516.1.23 = {
 	controller = SPA

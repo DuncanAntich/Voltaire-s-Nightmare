@@ -20,6 +20,7 @@ discovered_by = ottoman
 	controller = CAS
 	add_core = CAS
 	remove_core = NAV
+	culture = castillian
 }
 1365.6.1 = {
 	revolt = {

@@ -44,6 +44,7 @@ fort_14th = yes
 	owner = POR
 	controller = POR
 	add_core = POR
+	add_core = AGV
 	remove_core = NIE
 	capital = "Santa Maria de Faaron"
 }

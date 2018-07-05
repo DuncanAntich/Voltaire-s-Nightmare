@@ -56,6 +56,7 @@ discovered_by = muslim
 	base_production = 4
 	base_manpower = 3
 }
+1249.1.1 = { add_core = AGV }
 1502.1.1 = { trade_goods = corn }
 1640.1.1 = { unrest = 8 }
 1640.12.1 = { unrest = 0 }
