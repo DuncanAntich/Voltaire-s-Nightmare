@@ -7,6 +7,10 @@ capital = 711
 religious_school = maliki_school
 
 1046.1.1 = {
+	add_country_modifier = {
+		name = "parias_modifier"
+		duration = -1
+	}
 	monarch = {
 		name = "Ahmad al-Muqtadir"
 		dynasty = "Huddid"
@@ -34,6 +38,9 @@ religious_school = maliki_school
 		dip = 2
 		mil = 2
 	}
+}
+1100.1.1 = {
+	remove_country_modifier = parias_modifier
 }
 #only in Rueda
 1110.1.1 = {

@@ -6,6 +6,10 @@ religion = sunni
 capital = 2024
 
 1021.1.1 = {
+	add_country_modifier = {
+		name = "parias_modifier"
+		duration = -1
+	}
 	monarch = {
 		name = "Abd al-Aziz"
 		dynasty = "Amirid"
@@ -67,14 +71,14 @@ capital = 2024
 	religion = catholic
 	technology_group = western
 	monarch = {
-		name = "Rodrigo Díaz"
+		name = "Rodrigo Dï¿½az"
 		dynasty = "de Vivar"
 		birth_date = 1040.1.1
 		culture = castillian
 		adm = 3
 		dip = 5
 		mil = 6
-		leader = {	
+		leader = {
 			name = "El Cid"
 			type = general
 			fire = 4
@@ -85,7 +89,7 @@ capital = 2024
 	}
 	queen = {
 		country_of_origin = LON
-		name = "Jimena Díaz"
+		name = "Jimena Dï¿½az"
 		dynasty = "de Oviedo"
 		birth_date = 1070.1.1
 		death_date = 1116.1.1
@@ -98,7 +102,7 @@ capital = 2024
 }
 1099.1.1 = {
 	monarch = {
-		name = "Jimena Díaz"
+		name = "Jimena Dï¿½az"
 		dynasty = "de Oviedo"
 		birth_date = 1070.1.1
 		culture = leonese
@@ -107,6 +111,9 @@ capital = 2024
 		dip = 3
 		mil = 3
 	}
+}
+1100.1.1 = {
+	remove_country_modifier = parias_modifier
 }
 1102.1.1 = {
 	primary_culture = andalucian

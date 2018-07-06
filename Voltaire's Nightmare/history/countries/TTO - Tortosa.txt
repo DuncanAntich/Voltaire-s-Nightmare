@@ -7,6 +7,10 @@ capital = 2052
 religious_school = maliki_school
 
 1054.1.1 = {
+	add_country_modifier = {
+		name = "parias_modifier"
+		duration = -1
+	}
 	monarch = {
 		name = "Ya'la"
 		dynasty = "Saqlabid"
@@ -44,3 +48,6 @@ religious_school = maliki_school
 	}
 }
 #1099 to MOR
+1099.1.1 = {
+	remove_country_modifier = parias_modifier
+}

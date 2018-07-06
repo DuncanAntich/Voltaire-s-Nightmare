@@ -8,6 +8,10 @@ government_rank = 3
 religious_school = maliki_school
 
 1038.1.1 = {
+	add_country_modifier = {
+		name = "parias_modifier"
+		duration = -1
+	}
 	monarch = {
 		name = "Badis"
 		dynasty = "Zirid"
@@ -42,6 +46,9 @@ religious_school = maliki_school
 	}
 }
 #1090 to MOR
+1090.1.1 = {
+	remove_country_modifier = parias_modifier
+}
 1238.1.1 = {
 	capital = 443
 	monarch = {
@@ -152,7 +159,7 @@ religious_school = maliki_school
 }
 1333.8.25 = {
 	monarch = {
-		name = "Yûsuf I"
+		name = "Yï¿½suf I"
 		dynasty = "Nasrid"
 		birth_date = 1318.6.29
 		adm = 4
@@ -215,7 +222,7 @@ religious_school = maliki_school
 }
 1391.1.16 = {
 	monarch = {
-		name = "Yûsuf II"
+		name = "Yï¿½suf II"
 		dynasty = "Nasrid"
 		adm = 2
 		dip = 2
@@ -232,8 +239,8 @@ religious_school = maliki_school
 		mil = 3
 	}
 	heir = {
-		name = "Yûsuf"
-		monarch_name = "Yûsuf III"
+		name = "Yï¿½suf"
+		monarch_name = "Yï¿½suf III"
 		dynasty = "Nasrid"
 		birth_date = 1376.1.1
 		death_date = 1417.1.1
@@ -245,7 +252,7 @@ religious_school = maliki_school
 }
 1408.1.1 = {
 	monarch = {
-		name = "Yûsuf III"
+		name = "Yï¿½suf III"
 		dynasty = "Nasrid"
 		birth_date = 1376.1.1
 		adm = 3
@@ -317,7 +324,7 @@ religious_school = maliki_school
 }
 1462.1.1 = {
 	monarch = {
-		name = "Yûsuf V"
+		name = "Yï¿½suf V"
 		dynasty = "Nasrid"
 		adm = 1
 		dip = 0
@@ -334,8 +341,8 @@ religious_school = maliki_school
 		mil = 0
 	}
 	heir = {
-		name = "Alí"
-		monarch_name = "Alí I Muley Hacén"
+		name = "Alï¿½"
+		monarch_name = "Alï¿½ I Muley Hacï¿½n"
 		dynasty = "Nasrid"
 		birth_date = 1440.1.1 #est
 		death_date = 1485.1.1
@@ -347,7 +354,7 @@ religious_school = maliki_school
 }
 1464.1.1 = {
 	monarch = {
-		name = "Alí I Muley Hacén"
+		name = "Alï¿½ I Muley Hacï¿½n"
 		dynasty = "Nasrid"
 		birth_date = 1440.1.1 #est
 		adm = 0
@@ -379,7 +386,7 @@ religious_school = maliki_school
 }
 1483.1.1 = {
 	monarch = {
-		name = "Ali I muley Hacén"
+		name = "Ali I muley Hacï¿½n"
 		dynasty = "Nasrid"
 		birth_date = 1440.1.1 #est
 		adm = 2
