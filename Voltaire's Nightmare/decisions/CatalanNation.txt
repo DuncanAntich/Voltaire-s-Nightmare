@@ -12,6 +12,29 @@ country_decisions = {
 			NOT = { exists = CAT }
 			religion_group = christian
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1955
+				province_id = 2054
+				province_id = 1178
+				province_id = 2052
+				province_id = 313
+				province_id = 4299
+				province_id = 1245
+				AND = {
+					province_id = 1788
+					ROOT = { NOT = { owns_core_province = 521 } }
+				}
+				AND = {
+					province_id = 521
+					ROOT = { NOT = { owns_core_province = 1788 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			NOT = { exists = CAT }
 			adm_tech = 40	

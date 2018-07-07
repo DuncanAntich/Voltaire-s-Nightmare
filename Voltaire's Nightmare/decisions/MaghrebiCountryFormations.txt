@@ -41,6 +41,24 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1946
+				province_id = 2854
+			}
+			AND = {
+				province_id = 2570
+				ROOT = { NOT = { owns_core_province = 423 } }
+			}
+			AND = {
+				province_id = 423
+				ROOT = { NOT = { owns_core_province = 2570 } }
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			NOT = { exists = ALG }
 			is_at_war = no
@@ -137,6 +155,24 @@ country_decisions = {
 					is_former_colonial_nation = yes
 					ai = no
 				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 586
+				province_id = 697
+				AND = {
+					province_id = 1153
+					ROOT = { NOT = { owns_core_province = 692 } }
+				}
+				AND = {
+					province_id = 692
+					ROOT = { NOT = { owns_core_province = 1153 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {

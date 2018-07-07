@@ -39,6 +39,22 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1955
+				province_id = 711
+				province_id = 519
+				province_id = 2718
+				province_id = 1867
+				province_id = 1208
+				province_id = 2024
+				province_id = 443
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			NOT = { exists = SPA }
 			adm_tech = 40

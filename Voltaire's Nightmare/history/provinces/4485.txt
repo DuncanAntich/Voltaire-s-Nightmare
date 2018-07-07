@@ -69,6 +69,7 @@ discovered_by = ottoman
 	add_core = CMU
 	capital = "Onteniente"
 	remove_core = DNA
+	remove_core = MCA
 }
 1296.1.1 = {
 	religion = catholic

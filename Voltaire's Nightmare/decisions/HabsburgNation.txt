@@ -15,6 +15,13 @@ country_decisions = {
 				ai = no
 			}
 		}
+		provinces_to_highlight = {
+			province_id = 2172
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			NOT = { exists = HAB }
 			has_regency = no

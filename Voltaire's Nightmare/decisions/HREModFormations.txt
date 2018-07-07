@@ -1,5 +1,5 @@
 country_decisions = {
-
+	
 	scottish_nation = {
 		major = yes
 		potential = {
@@ -14,6 +14,17 @@ country_decisions = {
 			OR = {
 				primary_culture = scottish
 				primary_culture = highland_scottish
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2621
+				province_id = 1777
+				province_id = 282
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -82,6 +93,20 @@ country_decisions = {
 			NOT = { tag = BYZ }
 			culture_group = south_slavic
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 539
+				province_id = 2066
+				province_id = 137
+				province_id = 2236
+				province_id = 2433
+				province_id = 2118
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -138,6 +163,19 @@ country_decisions = {
 				primary_culture = arpitan
 				primary_culture = vivaro_alpine
 				primary_culture = provencal
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2050
+				province_id = 541
+				province_id = 800
+				province_id = 2058
+				province_id = 989
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -213,6 +251,16 @@ country_decisions = {
 			NOT = { tag = KLK }
 			NOT = { tag = SIC }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1818
+				province_id = 112
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_at_war = no
 			is_nomad = no
@@ -271,6 +319,17 @@ country_decisions = {
 				NOT = { exists = WUR }
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2458
+				province_id = 351
+				province_id = 350
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -324,6 +383,20 @@ country_decisions = {
 			NOT = { has_country_flag = unformable }
 			NOT = { exists = LTH }
 			primary_culture = lorrainian
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1959
+				province_id = 34
+				province_id = 1930
+				province_id = 2511
+				province_id = 1951
+				province_id = 869
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			adm_tech = 14
@@ -392,6 +465,20 @@ country_decisions = {
 					NOT = { capital_scope = { area = alsace_area } }
 					NOT = { capital_scope = { area = sundgau_area } }
 				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 69
+				province_id = 2956
+				province_id = 58
+				province_id = 1771
+				province_id = 632
+				province_id = 543
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -478,6 +565,21 @@ country_decisions = {
 				primary_culture = hessian
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2523
+				province_id = 2544
+				province_id = 151
+				province_id = 2962
+				province_id = 762
+				province_id = 1943
+				province_id = 3
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 14
 			is_free_or_tributary_trigger = yes
@@ -553,6 +655,19 @@ country_decisions = {
 			NOT = { exists = KLK }
 			culture_group = latin
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1818
+				province_id = 1798
+				province_id = 1012
+				province_id = 2742
+				province_id = 500
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 40
 			is_free_or_tributary_trigger = yes
@@ -622,6 +737,27 @@ country_decisions = {
 			capital_scope = { superregion = italy_superregion }
 			culture_group = latin
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2041
+				province_id = 2703
+				province_id = 431
+				province_id = 2049
+				province_id = 2033
+				AND = {
+					province_id = 564
+					ROOT = { NOT = { owns_core_province = 2222 } }
+				}
+				AND = {
+					province_id = 2222
+					ROOT = { NOT = { owns_core_province = 564 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			OR = {
 				adm_tech = 40
@@ -687,6 +823,13 @@ country_decisions = {
 				tag = BLG
 			}
 		}
+		provinces_to_highlight = {
+			area = romagna_area
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_at_war = no
 			is_nomad = no
@@ -738,6 +881,21 @@ country_decisions = {
 				primary_culture = wallonian
 				primary_culture = flemish
 				primary_culture = brabantian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 896
+				province_id = 930
+				province_id = 2514
+				province_id = 91
+				province_id = 1866
+				province_id = 2729
+				province_id = 90
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -809,6 +967,19 @@ country_decisions = {
 			NOT = { exists = SLV }
 			primary_culture = slovenian
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 958
+				province_id = 691
+				province_id = 942
+				province_id = 915
+				province_id = 943
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -854,6 +1025,23 @@ country_decisions = {
 			culture_group = germanic
 			capital_scope = {
 				superregion = germanysouth_superregion
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 177
+				province_id = 913
+				province_id = 2956
+				province_id = 58
+				province_id = 2458
+				province_id = 543
+				province_id = 163
+				province_id = 2523
+				province_id = 2967
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -925,6 +1113,23 @@ country_decisions = {
 			culture_group = germanic
 			capital_scope = {
 				superregion = germanynorth_superregion
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2652
+				province_id = 2803
+				province_id = 81
+				province_id = 2511
+				province_id = 1951
+				province_id = 2973
+				province_id = 2230
+				province_id = 2643
+				province_id = 55
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -999,6 +1204,19 @@ country_decisions = {
 				NOT = { exists = MKL }
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 854
+				province_id = 2643
+				province_id = 2309
+				province_id = 410
+				province_id = 2996
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -1064,6 +1282,19 @@ country_decisions = {
 			OR = {
 				ai = no
 				NOT = { exists = SHL }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 360
+				province_id = 1233
+				province_id = 2319
+				province_id = 362
+				province_id = 2210
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -1132,6 +1363,19 @@ country_decisions = {
 				NOT = { exists = PAL }
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2552
+				province_id = 2547
+				province_id = 2732
+				province_id = 2467
+				province_id = 2460
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -1191,6 +1435,18 @@ country_decisions = {
 				NOT = { exists = BRU }
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2794
+				province_id = 2645
+				province_id = 2230
+				province_id = 1204
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -1247,6 +1503,19 @@ country_decisions = {
 			OR = {
 				ai = no
 				NOT = { exists = POM }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2199
+				province_id = 2417
+				province_id = 2642
+				province_id = 851
+				province_id = 2623
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -1319,6 +1588,19 @@ country_decisions = {
 				NOT = { exists = BAV }
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 913
+				province_id = 938
+				province_id = 2431
+				province_id = 903
+				province_id = 65
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -1375,6 +1657,20 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = SIL }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 815
+				province_id = 819
+				province_id = 816
+				province_id = 822
+				province_id = 2817
+				province_id = 2664
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_at_war = no
@@ -1434,6 +1730,19 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ALS }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 297
+				province_id = 1959
+				province_id = 38
+				province_id = 37
+				province_id = 265
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -1496,6 +1805,25 @@ country_decisions = {
 			}
 			NOT = { exists = EFR }
 			NOT = { tag = NED }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 100
+				province_id = 414
+				province_id = 1238
+				AND = {
+					province_id = 254
+					ROOT = { NOT = { owns_core_province = 286 } }
+				}
+				AND = {
+					province_id = 286
+					ROOT = { NOT = { owns_core_province = 254 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -1565,6 +1893,24 @@ country_decisions = {
 			}
 			NOT = { exists = FRI }
 			NOT = { tag = NED }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2746
+				province_id = 2383
+				AND = {
+					province_id = 1864
+					ROOT = { NOT = { owns_core_province = 2215 } }
+				}
+				AND = {
+					province_id = 2215
+					ROOT = { NOT = { owns_core_province = 1864 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -1684,6 +2030,22 @@ country_decisions = {
 			NOT = { has_country_flag = unformable }
 			NOT = { exists = AQT }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2324
+				province_id = 1246
+				province_id = 2909
+				province_id = 2169
+				province_id = 2780
+				province_id = 4103
+				province_id = 2003
+				province_id = 4054
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_at_war = no
 			is_nomad = no
@@ -1768,6 +2130,34 @@ country_decisions = {
 			}
 			NOT = { exists = FKE }
 			religion_group = christian
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1955
+				province_id = 2324
+				province_id = 710
+				province_id = 2489
+				province_id = 2088
+				province_id = 2173
+				province_id = 1172
+				province_id = 548
+				province_id = 2671
+				province_id = 541
+				province_id = 2995
+				province_id = 2962
+				province_id = 2967
+				province_id = 177
+				province_id = 1818
+				province_id = 2235
+				province_id = 1048
+				province_id = 762
+				province_id = 1846
+				province_id = 2230
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_at_war = no
@@ -1889,6 +2279,19 @@ country_decisions = {
 			NOT = { tag = ENG }
 			NOT = { tag = GBR }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1067
+				province_id = 349
+				province_id = 1876
+				province_id = 2448
+				province_id = 1756
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -1940,6 +2343,25 @@ country_decisions = {
 			}
 			NOT = { exists = SAR }
 			NOT = { exists = SPI }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 655
+				province_id = 651
+				province_id = 1187
+				AND = {
+					province_id = 530
+					ROOT = { NOT = { owns_core_province = 2089 } }
+				}
+				AND = {
+					province_id = 2089
+					ROOT = { NOT = { owns_core_province = 530 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			adm_tech = 14
@@ -2000,6 +2422,19 @@ country_decisions = {
 			NOT = { exists = MOL }
 			NOT = { tag = RMN }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2065
+				province_id = 1832
+				province_id = 1085
+				province_id = 1789
+				province_id = 1185
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 14
 			is_free_or_tributary_trigger = yes
@@ -2059,6 +2494,19 @@ country_decisions = {
 			NOT = { exists = WAL }
 			NOT = { tag = RMN }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2165
+				province_id = 660
+				province_id = 2748
+				province_id = 2167
+				province_id = 587
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 14
 			is_free_or_tributary_trigger = yes
@@ -2116,6 +2564,26 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = SER }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 561
+				province_id = 2038
+				province_id = 2081
+				province_id = 553
+				AND = {
+					province_id = 539
+					ROOT = { NOT = { owns_core_province = 2064 } }
+				}
+				AND = {
+					province_id = 2064
+					ROOT = { NOT = { owns_core_province = 539 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			OR = {
@@ -2179,6 +2647,26 @@ country_decisions = {
 			}
 			NOT = { exists = ALB }
 			NOT = { tag = DRZ }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 595
+				province_id = 2391
+				province_id = 503
+				province_id = 2394
+				AND = {
+					province_id = 2332
+					ROOT = { NOT = { owns_core_province = 707 } }
+				}
+				AND = {
+					province_id = 707
+					ROOT = { NOT = { owns_core_province = 2332 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {	
 			adm_tech = 14
@@ -2244,6 +2732,18 @@ country_decisions = {
 			}
 			NOT = { exists = MXD }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 562
+				province_id = 613
+				province_id = 2066
+				province_id = 2355
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 40
 			is_free_or_tributary_trigger = yes
@@ -2281,6 +2781,28 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { tag = HUN }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 444
+				province_id = 471
+				province_id = 2068
+				province_id = 478
+				province_id = 2428
+				province_id = 1968
+				AND = {
+					province_id = 442
+					ROOT = { NOT = { owns_core_province = 448 } }
+				}
+				AND = {
+					province_id = 448
+					ROOT = { NOT = { owns_core_province = 442 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -2362,6 +2884,26 @@ country_decisions = {
 			NOT = { tag = LBV }
 			NOT = { tag = KLK }
 			NOT = { tag = SIC }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 137
+				province_id = 1083
+				province_id = 507
+				province_id = 1804
+				AND = {
+					province_id = 2421
+					ROOT = { NOT = { owns_core_province = 2418 } }
+				}
+				AND = {
+					province_id = 2418
+					ROOT = { NOT = { owns_core_province = 2421 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			adm_tech = 14
@@ -2492,6 +3034,28 @@ country_decisions = {
 			}
 			NOT = { exists = EAH }
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2172
+				province_id = 781
+				province_id = 703
+				province_id = 2174
+				province_id = 444
+				province_id = 608
+				AND = {
+					province_id = 507
+					ROOT = { NOT = { owns_core_province = 112 } }
+				}
+				AND = {
+					province_id = 112
+					ROOT = { NOT = { owns_core_province = 507 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 56
 			is_at_war = no
@@ -2576,6 +3140,26 @@ country_decisions = {
 			OR = {
 				ai = no
 				NOT = { exists = LIT }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1152
+				province_id = 2816
+				province_id = 2834
+				province_id = 2947
+				AND = {
+					province_id = 2290
+					ROOT = { NOT = { owns_core_province = 2845 } }
+				}
+				AND = {
+					province_id = 2845
+					ROOT = { NOT = { owns_core_province = 2290 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {

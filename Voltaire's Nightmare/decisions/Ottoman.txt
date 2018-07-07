@@ -12,6 +12,19 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2233
+				province_id = 573
+				province_id = 1060
+				province_id = 1051
+				province_id = 2166
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_at_war = no
 			primary_culture = turkish

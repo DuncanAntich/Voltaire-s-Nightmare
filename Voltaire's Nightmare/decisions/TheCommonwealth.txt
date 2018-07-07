@@ -27,6 +27,18 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2419
+				province_id = 1138
+				province_id = 402
+				province_id = 2793
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			LIT = { was_player = no }
 			is_nomad = no
@@ -121,6 +133,18 @@ country_decisions = {
 				}
 			}	
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1152
+				province_id = 4243
+				province_id = 4237
+				province_id = 4282
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			POL = { NOT = { num_of_cities = 101 } } #Keep this number the same as in potential.
 			adm_tech = 40
@@ -211,6 +235,22 @@ country_decisions = {
 				ai = no
 				NOT = { exists = POL }
 				NOT = { exists = LIT }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1152
+				province_id = 4243
+				province_id = 4237
+				province_id = 4282
+				province_id = 2419
+				province_id = 1138
+				province_id = 402
+				province_id = 2793
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {

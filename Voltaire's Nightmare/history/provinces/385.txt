@@ -48,6 +48,7 @@ estate = estate_nobles
 1248.11.23 = {
 	add_core = CSE
 	remove_core = NIE
+	remove_core = SEV
 }
 1296.1.1 = { religion = catholic }
 1337.1.1 = { fort_14th = no fort_15th = yes }

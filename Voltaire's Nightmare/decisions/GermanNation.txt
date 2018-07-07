@@ -38,6 +38,35 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1084
+				province_id = 2643
+				province_id = 2652
+				province_id = 2645
+				province_id = 2803
+				province_id = 2851
+				province_id = 913
+				province_id = 2967
+				province_id = 2541
+				province_id = 1951
+				province_id = 2962
+				province_id = 1943
+				province_id = 2458
+				AND = {
+					province_id = 390
+					ROOT = { NOT = { owns_core_province = 390 } }
+				}
+				AND = {
+					province_id = 1959
+					ROOT = { NOT = { owns_core_province = 1959 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 54
 			is_free_or_tributary_trigger = yes

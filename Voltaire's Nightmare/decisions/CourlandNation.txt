@@ -19,6 +19,16 @@ country_decisions = {
 				is_religion_enabled = reformed
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2192
+				province_id = 2946
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 40		
 			is_at_war = no

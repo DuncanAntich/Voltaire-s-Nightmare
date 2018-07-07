@@ -21,6 +21,17 @@ country_decisions = {
 				is_religion_enabled = reformed
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 402
+				province_id = 2199
+				province_id = 390
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			NOT = { exists = PRU }
 			adm_tech = 40
@@ -154,6 +165,18 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 390
+				province_id = 388
+				province_id = 2207
+				province_id = 486
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			NOT = { exists = PTH }
 			adm_tech = 14
@@ -272,6 +295,17 @@ country_decisions = {
 			NOT = { has_country_flag = unformable }
 			NOT = { tag = BRA }
 			NOT = { tag = TEU }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 390
+				province_id = 2902
+				province_id = 402
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			NOT = { exists = PRU }

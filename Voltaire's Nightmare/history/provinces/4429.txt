@@ -44,6 +44,7 @@ discovered_by = ottoman
 	add_core = SEV
 	remove_core = COA
 	remove_core = MOR
+	remove_core = CRD
 }
 1248.11.23 = {
 	owner = CAS

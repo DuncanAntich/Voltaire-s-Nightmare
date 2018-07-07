@@ -56,6 +56,7 @@ discovered_by = ottoman
 	controller = CAS
 	add_core = CMU
 	remove_core = MCA
+	remove_core = DNA
 	religion = catholic
 }
 1304.1.1 = {

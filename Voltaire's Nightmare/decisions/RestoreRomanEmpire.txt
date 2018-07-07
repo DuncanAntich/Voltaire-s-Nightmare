@@ -19,6 +19,30 @@ country_decisions = {
 				religion_group = pagan
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2235
+				province_id = 2268
+				province_id = 1799
+				province_id = 1951
+				province_id = 2172
+				province_id = 2233
+				province_id = 548
+				province_id = 2894
+				province_id = 1818
+				province_id = 555
+				province_id = 1135
+				province_id = 2670
+				province_id = 507
+				province_id = 2398
+				province_id = 1946
+				province_id = 586
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			owns = 2235 # Rome
 			owns = 2268 # London

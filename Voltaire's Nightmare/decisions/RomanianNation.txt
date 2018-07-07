@@ -20,6 +20,20 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 448
+				province_id = 2061
+				province_id = 2429
+				province_id = 587
+				province_id = 1832
+				province_id = 676
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no

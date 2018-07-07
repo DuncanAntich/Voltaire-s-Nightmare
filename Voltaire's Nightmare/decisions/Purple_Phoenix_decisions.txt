@@ -14,6 +14,13 @@ country_decisions = {
 			NOT = { has_country_flag = triumph_greece }
 			hellas_region = { owned_by = BYZ }
 		}
+		provinces_to_highlight = {
+			region = hellas_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			hellas_region = { type = all owned_by = BYZ }
 		}
@@ -38,6 +45,25 @@ country_decisions = {
 			has_dlc = "Purple Phoenix"
 			NOT = { has_country_flag = triumph_balkans }
 			balkans_superregion = { owned_by = BYZ }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1047
+				province_id = 2166
+				province_id = 573
+				province_id = 2135
+				province_id = 588
+				province_id = 2398
+				province_id = 708
+				province_id = 714
+				province_id = 2118
+				province_id = 137
+				province_id = 1083
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			owns = 1047 #Silistra
@@ -74,6 +100,13 @@ country_decisions = {
 			NOT = { has_country_flag = triumph_asia }
 			greekislands_region = { owned_by = BYZ }
 		}
+		provinces_to_highlight = {
+			region = greekislands_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			greekislands_region = { type = all owned_by = BYZ }
 		}
@@ -100,6 +133,16 @@ country_decisions = {
 			OR = {
 				bithynia_region = { owned_by = BYZ }
 				ephesian_region = { owned_by = BYZ }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = bithynia_region
+				region = ephesian_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
@@ -130,6 +173,17 @@ country_decisions = {
 				apulia_region = { owned_by = BYZ }
 				calabrian_region = { owned_by = BYZ }
 				sicilia_region = { owned_by = BYZ }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = apulia_region
+				region = calabrian_region
+				region = sicilia_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {

@@ -29,6 +29,7 @@ discovered_by = ottoman
 	owner = CAS
 	controller = CAS
 	add_core = CAS
+	remove_core = TLD
 	religion = catholic
 	culture = castillian
 }

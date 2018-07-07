@@ -16,6 +16,39 @@ country_decisions = {
 			}
 			religion = orthodox
 		}
+		provinces_to_highlight = {
+			if = {
+				limit = { tag = NKA }
+				OR = {
+					province_id = 2233
+					province_id = 573
+					province_id = 1060
+					province_id = 1051
+					province_id = 355
+					province_id = 1054
+					province_id = 2318
+				}
+			}
+			else = {
+				OR = {
+					province_id = 2233
+					province_id = 573
+					province_id = 1060
+					province_id = 1051
+					province_id = 355
+					province_id = 1054
+					province_id = 2318
+					province_id = 708
+					province_id = 611
+					province_id = 2066
+					province_id = 2398
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			OR = {
 				AND = {

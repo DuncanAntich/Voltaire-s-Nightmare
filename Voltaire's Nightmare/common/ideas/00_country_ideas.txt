@@ -136,10 +136,7 @@ SPA_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = SPA
-			tag = CAS
-		}
+		tag = SPA
 	}
 	free = yes		#will be added at load.
 

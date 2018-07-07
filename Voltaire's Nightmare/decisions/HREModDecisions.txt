@@ -159,6 +159,13 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			NOT = { capital_scope = { area = arbanon_area } }
 		}
+		provinces_to_highlight = {
+			area = arbanon_area
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			arbanon_area = {
 				type = all
@@ -772,6 +779,18 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 241
+				province_id = 2652
+				province_id = 2662
+				province_id = 843
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {

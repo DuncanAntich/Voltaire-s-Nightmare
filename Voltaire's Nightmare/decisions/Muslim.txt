@@ -11,6 +11,20 @@ country_decisions = {
 				has_country_modifier = unified_islam
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2670
+				province_id = 2233
+				province_id = 2703
+				province_id = 2041
+				province_id = 1946
+				province_id = 586
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			religion_group = muslim
 			owns_or_vassal_of = 2670 #Cordoba

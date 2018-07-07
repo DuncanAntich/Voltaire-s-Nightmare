@@ -9,6 +9,26 @@ country_decisions = {
 				num_of_cities = 10
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2233
+				province_id = 573
+				province_id = 1060
+				province_id = 1051
+				province_id = 355
+				province_id = 2453
+				province_id = 1054
+				province_id = 2318
+				province_id = 2131
+				province_id = 503
+				province_id = 2828
+				province_id = 2686
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			owns = 2233 # Constantinople
 			owns = 573 # Edirne

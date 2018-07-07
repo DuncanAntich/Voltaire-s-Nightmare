@@ -18,6 +18,17 @@ country_decisions = {
 			}
 			adm_tech = 54
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 360
+				province_id = 1233
+				province_id = 2319
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			owns_or_vassal_of = 360
 			owns_or_vassal_of = 1233
@@ -55,6 +66,12 @@ country_decisions = {
 			}
 			adm_tech = 54
 		}
+		provinces_to_highlight = {
+			province_id = 614
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		allow = {
 			owns_or_vassal_of = 614
 			is_subject = no
@@ -71,6 +88,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
 	cancel_kiel_canal = {
 		major = yes

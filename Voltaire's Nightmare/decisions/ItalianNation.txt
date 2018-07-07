@@ -28,6 +28,23 @@ country_decisions = {
 				}
 			}
 		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2560
+				province_id = 1818
+				province_id = 972
+				province_id = 1862
+				province_id = 109
+				province_id = 640
+				province_id = 117
+				province_id = 2235
+				province_id = 874
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
 		allow = {
 			adm_tech = 40
 			is_nomad = no
@@ -112,6 +129,28 @@ country_decisions = {
 					ai = yes
 					num_of_cities = 15
 				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2560
+				province_id = 1009
+				province_id = 1818
+				province_id = 972
+				province_id = 1021
+				province_id = 1769
+				province_id = 112
+				province_id = 974
+				province_id = 1048
+				province_id = 640
+				province_id = 115
+				province_id = 874
+				province_id = 2607
+				province_id = 1784
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {

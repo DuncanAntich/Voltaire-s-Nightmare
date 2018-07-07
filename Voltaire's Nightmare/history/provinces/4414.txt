@@ -46,6 +46,7 @@ discovered_by = ottoman
 1248.11.23 = {
 	add_core = CSE
 	remove_core = NIE
+	remove_core = SEV
 }
 1296.1.1 = { religion = catholic }
 1516.1.23 = {

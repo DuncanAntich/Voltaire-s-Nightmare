@@ -4,7 +4,7 @@
 fallback_wargoal = {
 	type = superiority
 
-	badboy_facto r = 1
+	badboy_factor = 1
 	prestige_factor = 1
 	peace_cost_factor = 0.75
 
