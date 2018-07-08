@@ -225,6 +225,7 @@ country_event = {
 		if = {
 			limit = { NOT = { exists = CAS } }
 			CAS = { define_ruler = { dynasty = ROOT } }
+			CAS = { set_government_rank = 5 }
 		}
 		every_owned_province = {
 			limit = { is_core = CAS }
@@ -299,6 +300,7 @@ country_event = {
 				}
 			}
 			CAS = {
+				set_government_rank = 5
 				declare_war_with_cb = {
 					who = ROOT
 					casus_belli = cb_independence_war
