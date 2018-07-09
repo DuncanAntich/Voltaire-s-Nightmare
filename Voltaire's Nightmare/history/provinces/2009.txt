@@ -46,6 +46,7 @@ discovered_by = muslim
 1282.2.15 = { 
 	owner = PML
 	controller = PML
+	add_core = PML
 	remove_core = SDL
 }
 1283.1.1 = {

@@ -779,7 +779,7 @@ castile_region = {
 		burgos_area
 		guadalajara_area
 		segovia_area
-		palencia_area
+		cantabria_area
 	}
 }
 
@@ -811,6 +811,12 @@ leonese_region = {
 		leon_area
 		zamora_area
 		salamanca_area
+		palencia_area
+	}
+}
+
+extremadura_region = {
+	areas = {
 		badajoz_area
 		plasencia_area
 	}

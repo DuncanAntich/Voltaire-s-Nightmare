@@ -118,7 +118,7 @@ country_event = {
 
     trigger = {
         has_global_flag = mor_leaves_andalus
-        own = 761
+        owns = 761
     }
 
     mean_time_to_happen = {
@@ -248,7 +248,7 @@ country_event = {
         MOR = {
             has_country_modifier = mor_african_lands
         }
-        NOT = { own = 761 }
+        NOT = { owns = 761 }
         NOT = { tag = MOR }
         NOT = { has_country_flag = mor_invaded }
     }

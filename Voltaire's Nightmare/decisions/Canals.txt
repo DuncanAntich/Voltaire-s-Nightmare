@@ -72,6 +72,7 @@ country_decisions = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
+		}
 		allow = {
 			owns_or_vassal_of = 614
 			is_subject = no

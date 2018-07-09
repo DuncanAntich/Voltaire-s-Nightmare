@@ -1,5 +1,6 @@
 owner = DBL
 controller = DBL
+add_core = MTH
 culture = gallowglass
 religion = catholic
 hre = no

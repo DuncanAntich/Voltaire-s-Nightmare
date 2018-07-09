@@ -85,7 +85,6 @@ fort_14th = yes
 	owner = ITA
 	controller = ITA
 	add_core = ITA
-	remove_core = MLO
 	remove_core = BCI
 }
 discovered_by = nomad_group

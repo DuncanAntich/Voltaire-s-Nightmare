@@ -33,7 +33,6 @@ discovered_by = ottoman
 	owner = MCA
 	controller = MCA
 	add_core = MCA
-	remove_core = TLD
 	remove_core = MOR
 }
 1170.1.1 = {

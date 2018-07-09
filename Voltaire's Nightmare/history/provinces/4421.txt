@@ -44,7 +44,6 @@ discovered_by = ottoman
 	add_core = GRA
 	remove_core = MOR
 	remove_core = AGC
-	remove_core = ARC
 }
 1248.11.23 = { add_core = CSE }
 1329.1.1 = {

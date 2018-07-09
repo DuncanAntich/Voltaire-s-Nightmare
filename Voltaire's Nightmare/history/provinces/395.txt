@@ -44,7 +44,6 @@ discovered_by = muslim
 	controller = LON
 	add_core = LON
 	remove_core = MOR
-	remove_core = BDJ
 	religion = catholic
 	culture = leonese
 	capital = "Azuaga"
