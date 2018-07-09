@@ -1,4 +1,5 @@
 ﻿l_english:
+ BIRTHPLACE_OF_INSTITUTION:0 "$PROV$ is the birthplace of §Y$NAME$§!"
  feudalism_date: "950"
  investiture: "Investiture"
  desc_investiture: "In 1059 the Papacy established a College of Cardinals to self-ordain Popes by a purely clerical council, rather than allowing nobles to influence appointments. The Holy Roman Emperors were quick to try to preserve their rights of Investiture, however, over local bishops and abbots, setting in motion a violent conflict between Church and State. There is a silver lining to the growing unrest - a methodology of Investiture can eventually be worked out with the mutual consent of all parties, leaving a more sophisticated system of Religio-Social hierarchy in place."
