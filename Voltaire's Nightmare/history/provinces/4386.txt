@@ -37,7 +37,6 @@ discovered_by = ottoman
 	controller = MOR
 	add_core = MOR
 	remove_core = CAS
-	remove_core = CTL
 }
 1143.1.1 = {
 	owner = BDJ
@@ -52,12 +51,12 @@ discovered_by = ottoman
 	remove_core = BDJ
 }
 1228.1.1 = {
-	owner = LON
-	controller = LON
-	add_core = LON
+	owner = CAS
+	controller = CAS
+	add_core = CAS
 	remove_core = MOR
 	religion = catholic
-	culture = leonese
+	culture = castillian
 }
 1301.1.1 = {
 	owner = CAS
@@ -75,8 +74,9 @@ discovered_by = ottoman
 	owner = SPA
 	add_core = SPA
 }
-1713.4.11 = { remove_core = CAS remove_core = LON }
+1713.4.11 = { remove_core = CAS }
 1809.1.1 = { controller = FRA }
 1812.7.26 = { controller = SPA }
+1833.11.20 = { remove_core = CTL }
 discovered_by = nomad_group
 discovered_by = north_american

@@ -1824,7 +1824,7 @@
  ISN_Roman: "Roman Connections"
  ISN_Roman_desc: "Our city has ancient connections to rome! While we share this with many, I'm sure we can make a big deal out of it."
  ISN_Swabia: "The Fall of Swabia"
- ISN_Swabia: "Our duchy was part of Swabia, but with their fall we must ensure our survival; even as a free city, the city must hold!"
+ ISN_Swabia_desc: "Our duchy was part of Swabia, but with their fall we must ensure our survival; even as a free city, the city must hold!"
  ISN_Purchase: "The Isnyer Purchase"
  ISN_Purchase_desc: "Unusually, our berghers actually purchased our independence from our previous oppressor."
  ISN_Republic: "The Isnyer Republic"

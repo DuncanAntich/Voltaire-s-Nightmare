@@ -535,10 +535,10 @@ on_monarch_death = {
 	}
 	events = {
 		flavor_tus.16 #Savanorola Leaves This World
+		fbievents.4 #Leon Splits
 	}
 	random_events = {
 		1000 = 0
-		1000 = fbievents.4
 		100 = hremodevents.29
 		100 = hremodevents.17
 	}

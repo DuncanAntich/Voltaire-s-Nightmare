@@ -16,7 +16,6 @@ bookmark =
 	country = HSC
 	country = NOL
 	country = LON
-	country = NAV
 
 	easy_country = BYZ
 	easy_country = PAP

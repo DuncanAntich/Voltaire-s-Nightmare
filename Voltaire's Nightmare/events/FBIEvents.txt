@@ -224,13 +224,51 @@ country_event = {
 		ai_chance = { factor = 95 }
 		if = {
 			limit = { NOT = { exists = CAS } }
-			CAS = { define_ruler = { dynasty = ROOT } }
-			CAS = { set_government_rank = 5 }
+			CAS = { 
+				set_government_rank = 5
+				define_ruler = { dynasty = ROOT } 
+			}
 		}
 		every_owned_province = {
 			limit = { is_core = CAS }
 			cede_province = CAS
 			remove_core = LON
+		}
+		if = {
+			limit = { aragon_region = { owned_by = ROOT } }
+			every_owned_province = { 
+				limit = { region = aragon_region } 
+				cede_province = CAS 
+				add_core = CAS 
+				remove_core = LON 
+			}
+		}
+		if = {
+			limit = { castile_region = { owned_by = ROOT } }
+			every_owned_province = { 
+				limit = { region = castile_region } 
+				cede_province = CAS 
+				add_core = CAS 
+				remove_core = LON 
+			}
+		}
+		if = {
+			limit = { toledan_region = { owned_by = ROOT } }
+			every_owned_province = { 
+				limit = { region = toledan_region } 
+				cede_province = CAS 
+				add_core = CAS 
+				remove_core = LON 
+			}
+		}
+		if = {
+			limit = { basque_region = { owned_by = ROOT } }
+			every_owned_province = { 
+				limit = { region = basque_region } 
+				cede_province = CAS
+				add_core = CAS 
+				remove_core = LON 
+			}
 		}
 		if = {
 			limit = { NOT = { exists = GAL } }

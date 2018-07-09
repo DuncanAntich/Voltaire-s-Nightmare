@@ -89,7 +89,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-}
+
 
 	cancel_kiel_canal = {
 		major = yes
@@ -140,5 +140,4 @@ country_decisions = {
 			factor = 0
 		}
 	}
-
 }

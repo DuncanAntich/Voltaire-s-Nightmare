@@ -1168,20 +1168,20 @@ EBX_ideas = {
 	EBX_idea_2 = {
 		global_unrest = -1
 	}
-	EBX_ideas_3 = {
+	EBX_idea_3 = {
 		prestige_decay = -0.01
 		stability_cost_modifier = -0.10
 	}
-	EBX_ideas_4 = {
+	EBX_idea_4 = {
 		diplomatic_reputation = 1
 	}
-	EBX_ideas_5 = {
+	EBX_idea_5 = {
 		religious_unity = 0.20
 	}
-	EBX_ideas_6 = {
+	EBX_idea_6 = {
 		global_trade_power = 0.1
 	}
-	EBX_ideas_7 = {
+	EBX_idea_7 = {
 		adm_tech_cost_modifier = -0.15
 	}
 }
@@ -1206,19 +1206,19 @@ MBK_ideas = {
 		global_unrest = -1
 		envoy_travel_time = -0.25
 	}
-	MBK_ideas_3 = {
+	MBK_idea_3 = {
 		tolerance_heretic = 2
 	}
-	MBK_ideas_4 = {
+	MBK_idea_4 = {
 		max_states = 3
 	}
-	MBK_ideas_5 = {
+	MBK_idea_5 = {
 		land_morale = 0.15
 	}
-	MBK_ideas_6 = {
+	MBK_idea_6 = {
 		merchants = 1
 	}
-	MBK_ideas_7 = {
+	MBK_idea_7 = {
 		production_efficiency = 0.05
 	}
 }
@@ -1242,19 +1242,19 @@ WEE_ideas = {
 	WEE_idea_2 = {
 		global_heretic_missionary_strength = 0.02
 	}
-	WEE_ideas_3 = {
+	WEE_idea_3 = {
 		inflation_reduction = 0.1
 	}
-	WEE_ideas_4 = {
+	WEE_idea_4 = {
 		trade_efficiency = 0.05
 	}
-	WEE_ideas_5 = {
+	WEE_idea_5 = {
 		church_power_modifier = 0.5
 	}
-	WEE_ideas_6 = {
+	WEE_idea_6 = {
 		discipline = 0.05
 	}
-	WEE_ideas_7 = {
+	WEE_idea_7 = {
 		build_cost = -0.1
 	}
 }
@@ -1279,19 +1279,19 @@ DSD_ideas = {
 	DSD_idea_2 = {
 		embargo_efficiency = 0.25
 	}
-	DSD_ideas_3 = {
+	DSD_idea_3 = {
 		global_spy_defence = 0.25
 	}
-	DSD_ideas_4 = {
+	DSD_idea_4 = {
 		diplomatic_upkeep = 1
 	}
-	DSD_ideas_5 = {
+	DSD_idea_5 = {
 		state_maintenance_modifier = -0.15
 	}
-	DSD_ideas_6 = {
+	DSD_idea_6 = {
 		idea_cost = -0.05
 	}
-	DSD_ideas_7 = {
+	DSD_idea_7 = {
 		republican_tradition = 0.5
 		tolerance_heretic = 1
 	}
@@ -1317,21 +1317,21 @@ BMS_ideas = {
 		papal_influence = 1
 		tolerance_own = 2
 	}
-	BMS_ideas_3 = {
+	BMS_idea_3 = {
 		institution_spread_from_true_faith = 0.1
 		global_tax_modifier = 0.05
 	}
-	BMS_ideas_4 = {
+	BMS_idea_4 = {
 		trade_efficiency = 0.05
 		global_trade_power = 0.05
 	}
-	BMS_ideas_5 = {
+	BMS_idea_5 = {
 		infantry_power = 0.1
 	}
-	BMS_ideas_6 = {
+	BMS_idea_6 = {
 		num_accepted_cultures = 2
 	}
-	BMS_ideas_7 = {
+	BMS_idea_7 = {
 		prestige = 1
 	}
 }
@@ -1356,21 +1356,21 @@ SPY_ideas = {
 		republican_tradition = 0.5
 		diplomatic_reputation = 1
 	}
-	SPY_ideas_3 = {
+	SPY_idea_3 = {
 		spy_offence = 0.1
 	}
-	SPY_ideas_4 = {
+	SPY_idea_4 = {
 		land_forcelimit_modifier = 0.05
 		garrison_size = 0.1
 	}
-	SPY_ideas_5 = {
+	SPY_idea_5 = {
 		tolerance_own = 2
 	}
-	SPY_ideas_6 = {
+	SPY_idea_6 = {
 		diplomatic_upkeep = 1
 		global_tax_modifier = 0.1
 	}
-	SPY_ideas_7 = {
+	SPY_idea_7 = {
 		stability_cost_modifier = -0.1
 	}
 }
@@ -5195,7 +5195,7 @@ CMO_ideas = {
         land_morale = 0.1
     }
     CMO_idea_5 = {
-        local_defensiveness = 0.15
+        defensiveness = 0.15
     }
     CMO_idea_6 = {
         global_own_trade_power = 0.2
