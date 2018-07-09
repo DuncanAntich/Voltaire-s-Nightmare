@@ -13,6 +13,27 @@ country_event = {
 
     trigger = {
         has_country_modifier = parias_modifier
+        if = {
+            limit = {
+                OR = {
+                    tag = ZGZ
+                    tag = LER
+                    tag = TTO
+                }
+            }
+            NOT = {
+                is_in_war = {
+                    participants = BRC
+                }
+            }
+        }
+        else = {
+            NOT = {
+                is_in_war = {
+                    participants = LON
+                }
+            }
+        }
     }
 
     option = {
