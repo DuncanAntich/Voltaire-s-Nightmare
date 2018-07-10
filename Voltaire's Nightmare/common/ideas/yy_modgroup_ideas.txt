@@ -456,7 +456,7 @@ catducal_ideas = {
         global_unrest = -1
     }
     catducal_idea_4 = {
-        garrison_growth = 0.1
+        global_garrison_growth = 0.1
     }
     catducal_idea_5 = {
         global_tax_modifier = 0.1

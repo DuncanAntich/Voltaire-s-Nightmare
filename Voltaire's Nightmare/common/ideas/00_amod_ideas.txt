@@ -1646,37 +1646,35 @@ BRN_ideas = {
     }
 
     bonus = {
-        land_morale = 0.10
+		land_morale = 0.10
     }
 
     trigger = {
-         or = {
-             tag = BRN
-        }
+        tag = BRN
     }
     free = yes
 
     The_bear_of_bern = {
-         discipline = 0.05
+        discipline = 0.05
     }
     By_fire_and_sword = {
-         core_creation = -0.15
+        core_creation = -0.15
     }
     Bernese_glass_paintings = {
-         global_trade_goods_size_modifier = 0.1
+        global_trade_goods_size_modifier = 0.1
     }
     Baeuerten_and_Talverbaenden = {
-         global_unrest = -2
+        global_unrest = -2
     }
     The_alliance_with_the_Confederacy = {
-         diplomatic_upkeep = 1
+        diplomatic_upkeep = 1
     }
     The_bernese_pikes = {
-         infantry_power = 0.1
+        infantry_power = 0.1
     }
     Battle_of_grauholz = {
-         leader_land_shock = 1
-         prestige_decay = -0.01
+        leader_land_shock = 1
+        prestige_decay = -0.01
     }
 }
 
@@ -1692,36 +1690,36 @@ WDS_ideas = {
 
     trigger = {
         or = {
-             tag = SCH
-             tag = URI
-             tag = NDW
+            tag = SCH
+            tag = URI
+            tag = NDW
         }
     }
     free = yes
 
     Ruetlischwur = {
-         stability_cost_modifier = -0.1
+        stability_cost_modifier = -0.1
     }
     Battle_of_morgarten = {
-         infantry_power = 0.10
-         hostile_attrition = 2
+        infantry_power = 0.10
+        hostile_attrition = 2
     }
     Teufelsbruecken = {
-         development_cost = -0.1
-         build_cost = -0.1
+        development_cost = -0.1
+        build_cost = -0.1
     }
     Gotthardpass = {
-         trade_efficiency = 0.1
-         global_prov_trade_power_modifier = 0.1
+        trade_efficiency = 0.1
+        global_prov_trade_power_modifier = 0.1
     }
     New_friends = {
-         improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.2
     }
     The_legend_of_winkelried = {
-         land_morale = 0.05
+        land_morale = 0.05
     }
     The_Fatherland_of_uri = {
-         enemy_core_creation = 0.5
+        enemy_core_creation = 0.5
     }
 }
 
@@ -2269,7 +2267,7 @@ slovenian_ideas = {
     free = yes
 
     slovideas1 = {
-        local_defensiveness = 0.2
+        defensiveness = 0.2
     }
     slovideas2 = {
         legitimacy = 0.5
@@ -5327,7 +5325,7 @@ ONU_ideas = {
     }
 
     bonus = {
-         diplomatic_reputation = 1
+        diplomatic_reputation = 1
     }
 
     trigger = {
@@ -5342,7 +5340,7 @@ ONU_ideas = {
         trade_steering = 0.1
     }
     ONU_idea_3 = {
-        regiment_recruit_speed = -0.1
+        global_regiment_recruit_speed = -0.1
     }
     ONU_idea_4 = {
         cavalry_flanking = 0.5
@@ -6155,7 +6153,7 @@ SMX_ideas = {
         defensiveness = 0.25
     }
     SMX_idea_5 = {
-        local_hostile_attrition = 1
+        hostile_attrition = 1
     }
     SMX_idea_6 = {
         land_morale = 0.10
