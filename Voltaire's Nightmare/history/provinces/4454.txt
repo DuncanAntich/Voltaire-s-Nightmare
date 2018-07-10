@@ -23,7 +23,6 @@ discovered_by = ottoman
 	culture = portugese
 	religion = catholic
 	base_tax = 3
-	base_manpower = 3
 }
 1064.1.1 = {
 	owner = CBR

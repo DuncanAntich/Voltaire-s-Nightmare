@@ -19,7 +19,6 @@ fort_14th = yes
 1065.12.24 = {
 	base_tax = 6
 	base_production = 5
-	base_manpower = 6
 }
 1096.1.1 = {
 	owner = LON

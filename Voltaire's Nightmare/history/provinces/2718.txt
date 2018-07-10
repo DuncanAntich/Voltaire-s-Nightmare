@@ -19,7 +19,6 @@ estate = estate_church
 1066.1.1 = {
 	base_tax = 6
 	base_production = 6
-	base_manpower = 7
 }
 1301.1.1 = {
 	owner = CAS
