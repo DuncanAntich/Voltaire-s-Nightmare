@@ -2,10 +2,6 @@
 # EUROPE                               #
 ########################################
 
-#	placeholder_region = { # Placeholder
-#		placeholder_area
-#	}
-
 turovpinsk_region = {
 	areas = {
 		turov_area

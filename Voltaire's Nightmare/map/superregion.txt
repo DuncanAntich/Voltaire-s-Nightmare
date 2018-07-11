@@ -1,9 +1,5 @@
 # A region can only belong to one super region.
 
-#	placeholder_superregion = { # Placeholder
-#		placeholder_region
-#	}
-
 austria_superregion = {
 	tirolia_region
 	austria_region
