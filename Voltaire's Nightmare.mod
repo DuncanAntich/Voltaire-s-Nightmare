@@ -1,4 +1,4 @@
-name="Voltaire's Nightmare"
+name="Voltaire's Nightmare 1.25"
 path="mod/Voltaire's Nightmare"
 replace_path="common/bookmarks"
 replace_path="common/units"
