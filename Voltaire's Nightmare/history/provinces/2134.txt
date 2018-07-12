@@ -60,6 +60,7 @@ fort_14th = yes
 	capital = "Almansa"
 	remove_core = MCA
 	religion = catholic
+	culture = castillian
 }
 1516.1.23 = {
 	controller = SPA

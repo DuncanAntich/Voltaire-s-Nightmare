@@ -59,6 +59,7 @@ discovered_by = ottoman
 	capital = "Villena"
 	remove_core = MCA
 	religion = catholic
+	culture = castillian
 }
 1516.1.23 = {
 	controller = SPA

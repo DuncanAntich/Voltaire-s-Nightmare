@@ -58,6 +58,7 @@ discovered_by = ottoman
 	add_core = CAS
 	add_core = CTL
 	religion = catholic
+	culture = castillian
 	remove_core = MCA
 }
 1516.1.23 = {

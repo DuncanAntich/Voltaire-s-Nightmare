@@ -58,6 +58,7 @@ discovered_by = ottoman
 	remove_core = MCA
 	remove_core = DNA
 	religion = catholic
+	culture = castillian
 }
 1304.1.1 = {
 	owner = ARA

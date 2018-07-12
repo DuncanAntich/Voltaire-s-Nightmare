@@ -58,7 +58,7 @@ discovered_by = ottoman
 	remove_core = VLK
 	add_core = AVL
 	religion = catholic
-	culture = aragonese
+	culture = valencian
 	capital = "Sagunt"
 }
 1516.1.23 = {

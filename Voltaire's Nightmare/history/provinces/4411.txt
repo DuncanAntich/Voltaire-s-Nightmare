@@ -57,6 +57,7 @@ discovered_by = ottoman
 	controller = CAS
 	add_core = CMU
 	remove_core = MCA
+	culture = castillian
 	religion = catholic
 }
 1516.1.23 = {

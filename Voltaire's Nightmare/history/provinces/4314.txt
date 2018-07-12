@@ -58,7 +58,7 @@ discovered_by = muslim
 	remove_core = VLK
 	add_core = AVL
 	religion = catholic
-	culture = aragonese
+	culture = valencian
 }
 1516.1.23 = {
 	controller = SPA

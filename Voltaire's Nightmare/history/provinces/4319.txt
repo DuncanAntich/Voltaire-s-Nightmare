@@ -58,7 +58,7 @@ discovered_by = muslim
 	add_core = AVL
 	remove_core = VLK
 	religion = catholic
-	culture = aragonese
+	culture = valencian
 	capital = "Xátiva"
 }
 1516.1.23 = {
