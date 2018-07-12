@@ -480,7 +480,17 @@ country_event = {
         name = "parias_events.7.a"
         ai_chance = { factor = 100 }
         add_prestige = 25
-        clr_country_flag = paria_war_attacker
+        if = {
+            limit = {
+                NOT = {
+                    is_in_war = {
+                        attacker_leader = ROOT
+                        casus_belli = cb_restore_paria
+                    }
+                }
+            }
+            clr_country_flag = paria_war_attacker
+        }
     }
 }
 
@@ -541,7 +551,17 @@ country_event = {
         name = "parias_events.9.a"
         ai_chance = { factor = 100 }
         add_prestige = -25
-        clr_country_flag = paria_war_attacker
+        if = {
+            limit = {
+                NOT = {
+                    is_in_war = {
+                        attacker_leader = ROOT
+                        casus_belli = cb_restore_paria
+                    }
+                }
+            }
+            clr_country_flag = paria_war_attacker
+        }
     }
 }
 

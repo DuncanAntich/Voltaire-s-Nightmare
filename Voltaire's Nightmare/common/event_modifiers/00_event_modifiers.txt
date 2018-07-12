@@ -23,7 +23,7 @@ almoravid_assistance = {
 mor_african_lands = {
 	land_forcelimit = 30
 	global_manpower = 35
-	global_tax_income = 100
+	global_tax_income = 150
 }
 
 guelph_ruler = {

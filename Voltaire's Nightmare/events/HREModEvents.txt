@@ -130,11 +130,11 @@ country_event = {
 	}
 
 	immediate = { clr_country_flag = nrm_chose_wait }
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "HREMA3"
 		custom_tooltip = hrema1.tt
@@ -195,11 +195,11 @@ country_event = {
 		has_country_modifier = normanconquestmod
 		NOT = { war_with = ASE }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2
 	}
-	
+
 	option = {
 		name = "HREMA4"
 		remove_country_modifier = normanconquestmod
@@ -228,7 +228,7 @@ country_event = {
 		is_lesser_in_union = no
 		has_ruler_flag = edward_the_confessor_flag
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
@@ -236,7 +236,7 @@ country_event = {
 	immediate = {
 		clr_ruler_flag = edward_the_confessor_flag
 	}
-	
+
 	option = {
 		name = "HREMA5"
 		ai_chance = { factor = 75 }
@@ -289,9 +289,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = "HREMA6"
 		add_prestige = 5
@@ -319,11 +319,11 @@ country_event = {
 		NOT = { is_year = 1075 }
 		NOT = { has_country_modifier = westminster_abbey }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "HREMA7"
 		add_prestige = 5
@@ -348,11 +348,11 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "HREMA8"
 		trigger = {
@@ -395,7 +395,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
     				friend = NOL
 				}
 			}
@@ -414,7 +414,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
     				friend = NOL
 				}
 			}
@@ -467,7 +467,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 4
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
 				}
 			}
 		}
@@ -485,7 +485,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
 				}
 			}
 		}
@@ -501,11 +501,11 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = "HREMA9"
 		ai_chance = { factor = 100 }
@@ -581,7 +581,7 @@ country_event = {
 
 	option = {
 		name = "HREMA10"
-		ai_chance = { 
+		ai_chance = {
 			factor = 75
 			modifier = {
 				factor = 0
@@ -610,7 +610,7 @@ country_event = {
 					}
 				}
 			}
-		}	
+		}
 	}
 	option = {
 		name = "HREMB10"
@@ -665,7 +665,7 @@ country_event = {
 	picture = PLAGUE_eventPicture
 
 	fire_only_once = yes
-		
+
 	trigger = {
 		tag = FRA
 		NOT = { religion = waldensian }
@@ -674,11 +674,11 @@ country_event = {
 			has_missionary = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "HREMA14"
 		every_owned_province = {
@@ -695,7 +695,7 @@ country_event = {
 	picture = COURT_eventPicture
 
 	fire_only_once = yes
-		
+
 	trigger = {
 		normal_or_historical_nations = yes
 		tag = AUC
@@ -722,14 +722,14 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "HREMA15"
-		ai_chance = { 
+		ai_chance = {
 			factor = 90
 			modifier = {
 				factor = 0
@@ -777,7 +777,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 400
 	}
-	
+
 	option = {
 		name = "HREMA16"
 		ai_chance = { factor = 90 }
@@ -809,7 +809,7 @@ country_event = {
 
 	is_triggered_only = yes
 	major = yes
-	
+
 	trigger = {
 		OR = {
 			tag = SAX
@@ -834,7 +834,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	immediate = { set_global_flag = ernestineflag }
-	
+
 	option = {
 		name = "HREMA17"
 		ai_chance = { factor = 90 }
@@ -891,7 +891,7 @@ country_event = {
 
 	option = {
 		name = "HREMA18"
-		ai_chance = { 
+		ai_chance = {
 			factor = 95
 			modifier = {
 				factor = 0
@@ -923,7 +923,7 @@ country_event = {
 
 	option = {
 		name = "HREMA19"
-		ai_chance = { 
+		ai_chance = {
 			factor = 75
 			modifier = {
 				factor = 0
@@ -1212,7 +1212,7 @@ country_event = {
 	title = "HREMT29"
 	desc = "HREMD29"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -1238,7 +1238,7 @@ country_event = {
 			is_female = no
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -1255,18 +1255,18 @@ country_event = {
 	title = "HREMT30"
 	desc = "HREMD30"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 	major = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
 
 	option = {
 		name = "HREMA30"
-		ai_chance = { 
+		ai_chance = {
 			factor = 90
 			modifier = {
 				factor = 0
@@ -1321,7 +1321,7 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 
 	major = yes
-	
+
 	trigger = {
 		has_global_flag = eng_had_start_of_hundred_years_war
 		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
@@ -1340,7 +1340,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 
 	immediate = {
@@ -1384,7 +1384,7 @@ country_event = {
 	title = "HREMT32"
 	desc = "HREMD32"
 	picture = BAD_WITH_MONARCH_eventPicture
-	
+
 	trigger = {
 		has_global_flag = eng_had_start_of_hundred_years_war
 		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
@@ -1397,7 +1397,7 @@ country_event = {
 		}
 		NOT = { any_country = { government = celestial_empire } }
 	}
-	
+
 	mean_time_to_happen = { days = 10 }
 
 	immediate = {
@@ -1433,10 +1433,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 	immediate = { set_country_flag = obj_holy_war_flag }
-	
+
 	option = {
 		name = "HREMA33"
 	}
@@ -1468,10 +1468,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 	immediate = { set_country_flag = obj_tribal_warfare_flag }
-	
+
 	option = {
 		name = "HREMA34"
 	}
@@ -1493,10 +1493,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 	immediate = { set_country_flag = obj_throne_claim_flag }
-	
+
 	option = {
 		name = "HREMA35"
 	}
@@ -1518,10 +1518,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 	immediate = { set_country_flag = obj_force_converted_govt_flag }
-	
+
 	option = {
 		name = "HREMA36"
 	}
@@ -1539,13 +1539,13 @@ country_event = {
 		NOT = { has_country_flag = obj_revolutionary_flag }
 		any_country = {
 			is_revolution_target = yes
-			war_with = ROOT	
+			war_with = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
 	immediate = { set_country_flag = obj_revolutionary_flag }
-	
+
 	option = {
 		name = "HREMA37"
 	}
@@ -1601,12 +1601,12 @@ country_event = {
 		has_consort = no
 		has_regency = no
 		religion_group = christian
-	}	
+	}
 
 	immediate = { hidden_effect = { set_ruler_flag = had_rosi_offer } }
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = "HREMA39"
 		ai_chance = { factor = 1 }
@@ -1922,11 +1922,11 @@ country_event = {
 		ai_chance = { factor = 20 }
 		WWS = {
 			tooltip = {
-				add_casus_belli = {	
+				add_casus_belli = {
 					target = SIC
 					type = cb_restore_personal_union
 					months = 60
-				}	
+				}
 			}
 			hidden_effect = {
 				country_event = { id = hremodevents.49 days = 1 }
@@ -1940,12 +1940,12 @@ country_event = {
 	title = "HREMT49"
 	desc = "HREMD49"
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "HREMA49"
-		add_casus_belli = {	
+		add_casus_belli = {
 			target = SIC
 			type = cb_restore_personal_union
 			months = 120
@@ -1960,7 +1960,7 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = SIC
 		government = monarchy
@@ -1968,7 +1968,7 @@ country_event = {
 		NOT = { is_year = 1270 }
 		has_country_flag = manfred_turned_over
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -1976,7 +1976,7 @@ country_event = {
 			NOT = { legitimacy = 95 }
 		}
 	}
-	
+
 	option = {
 		name = "HREMA50"
 		SIC = {
@@ -2010,7 +2010,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -2020,7 +2020,7 @@ country_event = {
 	}
 
 	immediate = { set_country_flag = recent_BYZ_mil }
-	
+
 	option = {
 		name = "HREMA51"
 		ai_chance = { factor = 10 }
@@ -2053,7 +2053,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -2063,7 +2063,7 @@ country_event = {
 	}
 
 	immediate = { set_country_flag = recent_BYZ_man }
-	
+
 	option = {
 		name = "HREMA52"
 		ai_chance = { factor = 10 }
@@ -2096,7 +2096,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -2106,7 +2106,7 @@ country_event = {
 	}
 
 	immediate = { set_country_flag = recent_BYZ_naval }
-	
+
 	option = {
 		name = "HREMA53"
 		ai_chance = { factor = 10 }
@@ -2139,7 +2139,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -2149,7 +2149,7 @@ country_event = {
 	}
 
 	immediate = { set_country_flag = recent_BYZ_sailors }
-	
+
 	option = {
 		name = "HREMA54"
 		ai_chance = { factor = 10 }
@@ -2182,7 +2182,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -2192,7 +2192,7 @@ country_event = {
 	}
 
 	immediate = { set_country_flag = recent_BYZ_adm }
-	
+
 	option = {
 		name = "HREMA55"
 		ai_chance = { factor = 10 }
@@ -2225,7 +2225,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -2235,7 +2235,7 @@ country_event = {
 	}
 
 	immediate = { set_country_flag = recent_BYZ_states }
-	
+
 	option = {
 		name = "HREMA56"
 		ai_chance = { factor = 10 }
@@ -2264,7 +2264,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		NOT = { started_in = 1071.8.26 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 180
 		modifier = {
@@ -2278,7 +2278,7 @@ country_event = {
 	}
 
 	immediate = { hidden_effect = { set_country_flag = manzikert_happened } }
-	
+
 	option = {
 		name = "HREMA57"
 		if = {
@@ -2478,7 +2478,7 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = "HREMA58"
 		add_years_of_income = -2
@@ -2497,7 +2497,7 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = "HREMA59"
 		add_years_of_income = 2
@@ -2553,7 +2553,7 @@ country_event = {
 	}
 
 	immediate = { hidden_effect = { set_global_flag = rum_arr } }
-	
+
 	option = {
 		name = "HREMA60"
 		random_owned_province = {
@@ -2742,7 +2742,7 @@ country_event = {
 						region = bithynia_region
     				}
 				}
-			}	
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -2754,14 +2754,14 @@ country_event = {
 						region = bithynia_region
     				}
 				}
-			}	
+			}
 		}
 		modifier = {
-			factor = 0.9	
+			factor = 0.9
 			RUM = { num_of_cities = 10 }
 		}
 		modifier = {
-			factor = 0.8	
+			factor = 0.8
 			RUM = { num_of_cities = 20 }
 		}
 		modifier = {
@@ -2793,7 +2793,7 @@ country_event = {
 			ruler_age = 80
 		}
 	}
-	
+
 	option = {
 		name = "HREMA62"
 		ai_chance = { factor = 99 }
@@ -2855,7 +2855,7 @@ country_event = {
 		ruler_age = 55
 		has_heir = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
