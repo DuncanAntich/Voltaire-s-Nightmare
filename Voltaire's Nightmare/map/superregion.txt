@@ -99,6 +99,8 @@ iberia_superregion = {
 	andalusia_region
 	toledan_region
 	valencian_region
+	murcian_region
+	extremadura_region
 }
 
 bohemia_superregion = {
