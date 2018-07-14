@@ -251,6 +251,7 @@ technology = {
 	year = 1404
 	
 	max_states = 1
+	farm_estate = yes
 }
 
 technology = {
@@ -389,6 +390,7 @@ technology = {
 	year = 1604
 	
 	production_efficiency 	=	0.02
+	mills = yes
 }
 
 technology = {

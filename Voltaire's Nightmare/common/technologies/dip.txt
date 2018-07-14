@@ -41,7 +41,7 @@ technology = {
 	# Tech 3 Merchants and Trade
 	year = 1085
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	100
 }
 
@@ -95,7 +95,7 @@ technology = {
 	# Tech 10
 	year = 1162
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	50
 }
 
@@ -222,7 +222,7 @@ technology = {
 	# Tech 26
 	year = 1337
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	naval_morale			=	0.1
 }
 
@@ -310,7 +310,7 @@ technology = {
 	year = 1460
 	
 	naval_maintenance		=	0.1	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 }
 
@@ -375,7 +375,7 @@ technology = {
 	# Tech 44
 	year = 1537
 	
-	trade_efficiency		= 	0.05
+	trade_efficiency		= 	0.02
 	trade_range				=	25
 }
 
@@ -399,7 +399,7 @@ technology = {
 	# Tech 47
 	year = 1571
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 	enable = brig
 
@@ -439,7 +439,7 @@ technology = {
 	# Tech 51
 	year = 1615
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 }
 
@@ -484,7 +484,7 @@ technology = {
 	# Tech 56
 	year = 1670
 
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 	num_accepted_cultures = 1
 }
@@ -535,7 +535,7 @@ technology = {
 	
 	drydock = yes 
 
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 	enable = archipelago_frigate
 }
@@ -581,7 +581,7 @@ technology = {
 	# Tech 66
 	year = 1780
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 }
 
@@ -597,7 +597,7 @@ technology = {
 	# Tech 68
 	year = 1802
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 }
 
@@ -622,7 +622,7 @@ technology = {
 	# Tech 71
 	year = 1835
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	25
 	global_colonial_growth	= 	25
 }
