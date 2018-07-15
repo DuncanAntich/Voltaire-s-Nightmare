@@ -6,6 +6,13 @@ technology_group = muslim
 capital = 586	# Tunis
 religious_school = maliki_school
 
+1000.1.1 = {
+	add_country_modifier = {
+		name = "extensive_holdings"
+		duration = -1
+	}
+}
+
 1016.1.1 = {
 	monarch = {
 		name = "Al-Mu'izz"

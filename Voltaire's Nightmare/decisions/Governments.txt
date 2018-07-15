@@ -45,8 +45,10 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0
-				technology_group = muslim
-				technology_group = north_american
+				OR = {
+					technology_group = muslim
+					technology_group = north_american
+				}
 			}
 		}
 	}
@@ -105,8 +107,10 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0
-				technology_group = muslim
-				technology_group = north_american
+				OR = {
+					technology_group = muslim
+					technology_group = north_american
+				}
 			}
 		}
 	}
@@ -167,8 +171,10 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0
-				technology_group = muslim
-				technology_group = north_american
+				OR = {
+					technology_group = muslim
+					technology_group = north_american
+				}
 			}
 			modifier = {
 				factor = 0

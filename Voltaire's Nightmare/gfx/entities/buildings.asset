@@ -7,59 +7,6 @@
 #northamericagfx
 #southamericagfx
 
-#### Development buildings ########################################################
-
-entity = {
-	name = "tax_building_01"
-	pdxmesh = "tax_building_01_mesh"
-}
-entity = {
-	name = "tax_building_02"
-	pdxmesh = "tax_building_02_mesh"
-}
-entity = {
-	name = "tax_building_03"
-	pdxmesh = "tax_building_03_mesh"
-}
-entity = {
-	name = "tax_building_04"
-	pdxmesh = "tax_building_04_mesh"
-}
-
-entity = {
-	name = "production_building_01"
-	pdxmesh = "production_building_01_mesh"
-}
-entity = {
-	name = "production_building_02"
-	pdxmesh = "production_building_02_mesh"
-}
-entity = {
-	name = "production_building_03"
-	pdxmesh = "production_building_03_mesh"
-}
-entity = {
-	name = "production_building_04"
-	pdxmesh = "production_building_04_mesh"
-}
-
-entity = {
-	name = "manpower_building_01"
-	pdxmesh = "manpower_building_01_mesh"
-}
-entity = {
-	name = "manpower_building_02"
-	pdxmesh = "manpower_building_02_mesh"
-}
-entity = {
-	name = "manpower_building_03"
-	pdxmesh = "manpower_building_03_mesh"
-}
-entity = {
-	name = "manpower_building_04"
-	pdxmesh = "manpower_building_04_mesh"
-}
-
 #### Latin buildings ########################################################
 
 entity = {

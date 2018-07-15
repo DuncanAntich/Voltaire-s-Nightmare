@@ -41,29 +41,29 @@ historical_units = {
 
 monarch_names = {
 	"Ferran #0" = 10
-	"Alvar P√©rez #0" = 10
+	"Alvar PÈrez #0" = 10
 	"Alfons #0" = 10
 	"Joan #0" = 10
 	"Carles #0" = 10
 	"Pere #0" = 10
-	"San√ß #0" = 10
+	"SanÁ #0" = 10
 	"Jaume #0" = 10
 	"Enric #0" = 10
-	"Mart√≠ #0" = 10
+	"MartÌ #0" = 10
 	"Andreu #0" = 10
 	"Antoni #0" = 10
 	"Arnau #0" = 10
-	"Ausi√†s #0" = 10
+	"Ausi‡s #0" = 10
 	"Bartomeu #0" = 10
 	"Bernat #0" = 1
-	"C√®sar #0" = 1
-	"Dom√®nec #0" = 1
+	"CËsar #0" = 1
+	"DomËnec #0" = 1
 	"Felip #0" = 1
 	"Francesc #0" = 1
 	"Frederic #0" = 1
 	"Gaspar #0" = 1
 	"Gil #0" = 1
-	"Gon√ßal #0" = 1
+	"GonÁal #0" = 1
 	"Guillem #0" = 1
 	"Hug #0" = 1
 	"Ignasi #0" = 1
@@ -71,16 +71,16 @@ monarch_names = {
 	"Jeroni #0" = 1
 	"Jordi #0" = 1
 	"Josep #0" = 1
-	"Lloren√ß #0" = 1
-	"Llu√≠s #0" = 1
-	"Pere Llu√≠s #0" = 1
-	"Pon√ß #0" = 1
+	"LlorenÁ #0" = 1
+	"LluÌs #0" = 1
+	"Pere LluÌs #0" = 1
+	"PonÁ #0" = 1
 	"Ramon #0" = 1
 	"Roderic #0" = 1
-	"Sime√≥ #0" = 1
-	"Tom√†s #0" = 1
-	"D√≠dac #0" = 1
-	"Garc√≠a #0" = 1
+	"SimeÛ #0" = 1
+	"Tom‡s #0" = 1
+	"DÌdac #0" = 1
+	"GarcÌa #0" = 1
 	
 	"Alejandra #0" = -1
 	"Candela #0" = -1
@@ -88,24 +88,24 @@ monarch_names = {
 }
 
 leader_names = {
-	"de Alag√≥n" Amic d'Arag√≥ Arbu√©s d'√Äustria "de Ayerbe" "d'Azagra"
-	Balaguer Barcel√≥ "de Belchite" Bergued√† Bielsa "de Borja" "de Cabrera" Cajal Colom
-	Dom√®nec d'Emp√∫ries "Fern√°ndez de Hijar" Ferrer "Folc de Cardona" Franco
-	Galindo "Gil de Biedma" Gisbert "de Guimer√†" "de Gotor" "de Gurrea" d'Ixer Loaisa "de Luna"
-	Martorell "de Montcada" Monteagudo Muntaner Oliva Ordov√°s d'Ors Pe√±a "P√©rez de Coloma" Piquer
-	"de Requesens" "de la Riba" Ripoll "de Ripperd√°" "de Valencia" "de Mallorca"
-	Sastre d'Urgell Vall√®s Veldr√°n Vilamar√≠ Villarroya "de Zaporta" 
+	"de AlagÛn" Amic d'AragÛ ArbuÈs d'¿ustria "de Ayerbe" "d'Azagra"
+	Balaguer BarcelÛ "de Belchite" Bergued‡ Bielsa "de Borja" "de Cabrera" Cajal Colom
+	DomËnec d'Emp˙ries "Fern·ndez de Hijar" Ferrer "Folc de Cardona" Franco
+	Galindo "Gil de Biedma" Gisbert "de Guimer‡" "de Gotor" "de Gurrea" d'Ixer Loaisa "de Luna"
+	Martorell "de Montcada" Monteagudo Muntaner Oliva Ordov·s d'Ors PeÒa "PÈrez de Coloma" Piquer
+	"de Requesens" "de la Riba" Ripoll "de Ripperd·" "de Valencia" "de Mallorca"
+	Sastre d'Urgell VallËs Veldr·n VilamarÌ Villarroya "de Zaporta" 
 }
 
 ship_names = {
-	"Blanca Aurora" "Sant Jacob" Flama Lleona Falc√≥ "La Bonaventura" "Sant Antoni" 
-	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa √Ågata" "Santa Eul√†lia" 
+	"Blanca Aurora" "Sant Jacob" Flama Lleona FalcÛ "La Bonaventura" "Sant Antoni" 
+	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa ¡gata" "Santa Eul‡lia" 
 	"Sant Gabriel" "Sant Climent" "Sant Jordi" "La Reial" Trinitat "Santa Creu" 
-	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa B√†rbara" 
-	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant V√≠ctor" Magnana 
-	"Santa Ventura" "Santa Coloma" "Sant Ambr√≥s" "La Garsa"  
+	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa B‡rbara" 
+	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant VÌctor" Magnana 
+	"Santa Ventura" "Santa Coloma" "Sant AmbrÛs" "La Garsa"  
 }
 
 army_names = {
-	"Ter√ß de $PROVINCE$"
+	"TerÁ de $PROVINCE$"
 }

@@ -1,7 +1,6 @@
 owner = NAV
 controller = NAV
 add_core = NAV
-add_core = LON
 add_core = CAS
 capital = "Santoña"
 is_city = yes
@@ -20,6 +19,7 @@ discovered_by = ottoman
 1054.9.15 = {
 	owner = LON
 	controller = LON
+	add_core = LON
 }
 1065.12.24 = {
 	owner = CAS

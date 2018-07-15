@@ -45,7 +45,7 @@ vassal = {
 	first = POL
 	second = KUJ
 	start_date = 1384.10.16
-	end_date = 1388.2.29
+	end_date = 1388.2.28
 }
 
 #Same ruler

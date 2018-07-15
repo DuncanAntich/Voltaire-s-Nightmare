@@ -10023,6 +10023,143 @@ sufi_order_integration = {
 	local_unrest = -4
 }
 
+#Industrialization
+introduction_of_newcommen_engine = {
+	local_development_cost = -0.1
+	local_build_cost = -0.1
+	local_production_efficiency = 0.1
+}
+
+introduction_of_coke_blast_furnaces = {
+	local_development_cost = -0.1
+	local_build_cost = -0.1
+	local_production_efficiency = 0.1
+}
+
+introduction_of_rotherham_plough = {
+	local_development_cost = -0.1
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.15
+}
+
+introduction_of_watt_engine = {
+	local_development_cost = -0.1
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.15
+}
+
+introduction_of_flying_shuttle = {
+	local_development_cost = -0.1
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.1
+	local_unrest = 4
+}
+
+introduction_of_spinning_jenny = {
+	local_development_cost = -0.1
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.1
+	local_unrest = 4
+}
+
+canals_and_turnpikes = {
+	local_development_cost = -0.1
+	local_friendly_movement_speed = 0.1
+}
+
+agricultural_revolution = {
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.1
+}
+
+economic_urbanization_modifier = {
+	local_build_cost = -0.15
+	local_tax_modifier = 0.1
+}
+
+industrial_urbanization_modifier = {
+	local_build_cost = -0.15
+	local_development_cost = -0.1
+	local_unrest = 4
+}
+
+metalworks_modifier = {
+	trade_goods_size_modifier = 0.15
+	trade_goods_size = 0.5
+}
+textile_mills_modifier = {
+	trade_goods_size_modifier = 0.15
+	trade_goods_size = 0.5
+}
+
+shipyards_of_x_modifier = {
+	trade_goods_size_modifier = 0.15
+	local_ship_cost = -0.15
+	local_ship_repair = 0.15
+}
+
+gave_in_to_luddite_protests = {
+	trade_goods_size_modifier = -0.25
+	local_unrest = -4
+}
+
+impoverished_artisans = {
+	local_unrest = 4
+	local_tax_modifier = -0.25
+	trade_goods_size_modifier = -0.15
+}
+
+fire_compensation = {
+	local_unrest = -2
+	local_tax_modifier = -0.25
+	trade_goods_size_modifier = -0.2
+}
+
+#Innovativeness
+
+critical_press = {
+	global_unrest = 2
+}
+
+new_royal_society = {
+	global_tax_modifier = -0.1
+	prestige = 0.5
+}
+
+public_schools = {
+	local_unrest = 4
+	local_development_cost = -0.05
+}
+
+unpopular_dissections = {
+	local_unrest = 5
+}
+
+dissenting_academies = {
+	global_heretic_missionary_strength = -0.03
+	religious_unity = -0.1
+}
+
+religion_mocked = {
+	tolerance_own = -1
+}
+
+blasphemous_scientist_punished = {
+	tolerance_own = 1
+}
+
+coffee_houses = {
+	global_unrest = 2
+}
+
+coffee_houses_banned = {
+	global_unrest = -1
+}
+
+cabinet_of_curiosities = {
+	prestige = 1
+}
+
 #Mission:
 new_colony = {
 	trade_efficiency = 0.1

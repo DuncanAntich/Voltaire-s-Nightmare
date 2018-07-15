@@ -215,7 +215,6 @@ government_rank = 6
 1710.10.10 = { add_accepted_culture = prussian }
 1711.1.1 = { technology_group = western }
 1721.8.30 = {
-	decision = church_tax
 	decision = dissolution_of_the_monasteries
 	add_accepted_culture = latvian
 }

@@ -125,7 +125,7 @@ army_names = {
 	"Armee von $PROVINCE$" 
 }
 
-army_names = {
+fleet_names = {
 	"Flotte von $PROVINCE$" 
 }
 
