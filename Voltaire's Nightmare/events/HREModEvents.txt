@@ -395,7 +395,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hï¿½rfagreï¿½tta"
+    				leader = "Haraldr Hårfagreætta"
     				friend = NOL
 				}
 			}
@@ -414,7 +414,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hï¿½rfagreï¿½tta"
+    				leader = "Haraldr Hårfagreætta"
     				friend = NOL
 				}
 			}
@@ -467,7 +467,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 4
-    				leader = "Haraldr Hï¿½rfagreï¿½tta"
+    				leader = "Haraldr Hårfagreætta"
 				}
 			}
 		}
@@ -485,7 +485,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hï¿½rfagreï¿½tta"
+    				leader = "Haraldr Hårfagreætta"
 				}
 			}
 		}
