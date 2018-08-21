@@ -42,7 +42,6 @@ capital = 4052
 		mil = 2
 	}
 }
-#1173 under POL
 1179.1.1 = {
 	monarch = {
 		name = "Odon I"
@@ -83,7 +82,7 @@ capital = 4052
 		mil = 2
 	}
 }
-1227.11.24 = {
+1229.1.1 = {
 	monarch = {
 		name = "Wladyslaw I"
 		dynasty = "Piast"

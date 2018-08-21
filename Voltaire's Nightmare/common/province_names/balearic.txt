@@ -27,6 +27,7 @@
 2670 = "Còrdova"
 640 = "Florència"
 1943 = "Francfort"
+4237 = "Kíev"
 1092 = "Friburg"
 2560 = "Gènova"
 4030 = "Osca"
@@ -62,3 +63,4 @@
 2523 = "Wurtzburg"
 2892 = "Alvernya"
 1283 = "Rasès"
+4317 = "Xèrica"

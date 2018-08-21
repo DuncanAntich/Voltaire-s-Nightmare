@@ -297,6 +297,7 @@ pretender_rebels = {
 						government = elective_monarchy
 						government = english_monarchy
 						government = ottoman_government
+						government = feudal_theocracy
 						government = tribal_federation
 					}
 				}

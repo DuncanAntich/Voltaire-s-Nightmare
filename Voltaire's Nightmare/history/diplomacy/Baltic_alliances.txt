@@ -43,6 +43,12 @@ vassal = {
 }
 vassal = {
 	first = POL
+	second = SIR
+	start_date = 1312.1.1
+	end_date = 1352.4.1
+}
+vassal = {
+	first = POL
 	second = KUJ
 	start_date = 1384.10.16
 	end_date = 1388.2.28
@@ -53,13 +59,69 @@ union = {
 	first = POL
 	second = SIL
 	start_date = 1047.1.1
+	end_date = 1138.10.28
+}
+
+#Rulers of the seniorate
+union = {
+	first = SIL
+	second = KRA
+	start_date = 1138.10.28
+	end_date = 1146.1.1
+}
+union = {
+	first = MAZ
+	second = SIL
+	start_date = 1146.1.1
 	end_date = 1163.1.1
 }
 union = {
-	first = POL
-	second = WRC
-	start_date = 1232.1.1
-	end_date = 1241.4.9
+	first = MAZ
+	second = KRA
+	start_date = 1146.1.1
+	end_date = 1173.1.5
+}
+union = {
+	first = WKP
+	second = KRA
+	start_date = 1173.1.5
+	end_date = 1177.1.1
+}
+union = {
+	first = SDZ
+	second = KRA
+	start_date = 1177.1.1
+	end_date = 1227.11.24
+}
+union = {
+	first = SDZ
+	second = MAZ
+	start_date = 1186.1.1
+	end_date = 1194.5.5
+}
+union = {
+	first = WRC
+	second = KRA
+	start_date = 1227.11.24
+	end_date = 1243.1.1
+}
+union = {
+	first = SDZ
+	second = KRA
+	start_date = 1243.1.1
+	end_date = 1288.9.30
+}
+union = {
+	first = WRC
+	second = KRA
+	start_date = 1288.9.30
+	end_date = 1290.6.23
+}
+union = {
+	first = WKP
+	second = KRA
+	start_date = 1290.6.23
+	end_date = 1291.1.1
 }
 
 # Hungarian march

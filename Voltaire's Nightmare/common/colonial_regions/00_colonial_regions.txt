@@ -3,7 +3,8 @@ colonial_tunisia = {
 	color = { 146 134 57 }
 
 	provinces = {
-		590 692 586 697 984 2932 2583 2576 1153 2710 2164 666 2159 704 2106 2186 1017 425
+		590 692 586 697 984 2932 2583 2576 1153 2710
+		2164 666 2159 704 2106 2186 1017 425
 	}
 	#Specific
 	names = {
@@ -14,9 +15,24 @@ colonial_tunisia = {
 	}
 	names = {
 		trigger = {
-			primary_culture = roman
+			OR = {
+				primary_culture = roman
+				culture_group = latin
+			}
 		}
 		name = "COLONIAL_TUNISIA_Africae"
+	}
+	names = {
+		trigger = {
+			culture_group = french
+		}
+		name = "COLONIAL_TUNISIA_Tunisie"
+	}
+	names = {
+		trigger = {
+			culture_group = iberian
+		}
+		name = "COLONIAL_TUNISIA_Tunez"
 	}
 	# Generic
 	names = {

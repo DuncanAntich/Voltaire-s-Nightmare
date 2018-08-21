@@ -14,13 +14,13 @@ frisian_ideas = {
     free = yes
         
     frisia1 = {
-        enemy_core_creation = 0.4
+        enemy_core_creation = 0.5
     }
     frisia3 = {
-        merc_maintenance_modifier = -0.25
+        merc_maintenance_modifier = -0.15
     }
     frisia2 = {
-        may_perform_slave_raid = yes
+        capture_ship_chance = 0.2
     }
     frisia4 = {
         idea_cost = -0.1
@@ -32,14 +32,14 @@ frisian_ideas = {
         heir_chance = 0.5
     }   
     frisia7 = {
-        sea_repair = yes
+        ship_durability = 0.05
     }
 }
 
 HiberNor_ideas = {
     start = {
         naval_morale = 0.15
-        prestige = 0.5
+        prestige = 1
     }
     
     bonus = {
@@ -55,7 +55,7 @@ HiberNor_ideas = {
         cavalry_power = 0.1
     }
     HiberNor_idea_2 = {
-        num_accepted_cultures = 2
+        num_accepted_cultures = 1
     }
     HiberNor_idea_3 = {
         global_unrest = -1
@@ -67,10 +67,10 @@ HiberNor_ideas = {
         diplomatic_upkeep = 1
     }
     HiberNor_idea_6 = {
-        garrison_size = 0.1
+        garrison_size = 0.2
     }
     HiberNor_idea_7 = {
-        naval_maintenance_modifier = -0.10
+        naval_maintenance_modifier = -0.2
     }
 }
 
@@ -90,25 +90,25 @@ abbacy_ideas = {
     free = yes
     
     abbacy_idea_1 = {
-        land_attrition = -0.15
+        land_attrition = -0.1
     }
     abbacy_idea_2 = {
-        prestige_decay = -0.02
+        prestige_decay = -0.01
     }
     abbacy_idea_3 = {
         global_autonomy = -0.05
     }
     abbacy_idea_4 = {
-        enemy_core_creation = 0.2
+        enemy_core_creation = 0.25
     }
     abbacy_idea_5 = {
-        stability_cost_modifier = -0.15
+        stability_cost_modifier = -0.1
     }
     abbacy_idea_6 = {
         idea_cost = -0.1
     }
     abbacy_idea_7 = {
-        global_heretic_missionary_strength = 0.03
+        global_heretic_missionary_strength = 0.02
     }
 }
 
@@ -132,8 +132,8 @@ theocracy_ideas = {
         discipline = 0.05
     }
     church_administration = {
-        stability_cost_modifier = -0.10
-        core_creation = -0.10
+        stability_cost_modifier = -0.1
+        core_creation = -0.1
     }
     true_defender_of_the_faith = {
         defensiveness = 0.25
@@ -149,7 +149,7 @@ theocracy_ideas = {
         hostile_attrition = 1
     }
     render_unto_ceasar = {
-        global_tax_modifier = 0.10
+        global_tax_modifier = 0.1
     }
 }
 
@@ -159,21 +159,21 @@ dutch_ducal_ideas = {
         leader_land_fire = 1
     }
     bonus = {
-        improve_relation_modifier = 0.1
+        improve_relation_modifier = 0.2
     }
     trigger = {
         primary_culture = dutch
     }
     free = yes
     dutch_ducal_idea_1 = {
-        global_own_trade_power = 0.15
+        global_own_trade_power = 0.1
     }
     dutch_ducal_idea_2 = {
         global_manpower_modifier = 0.15
     }
     dutch_ducal_idea_3 = {
         global_heretic_missionary_strength = 0.01
-        religious_unity = 0.15
+        religious_unity = 0.1
     }
     dutch_ducal_idea_4 = {
         development_cost = -0.1
@@ -192,12 +192,12 @@ dutch_ducal_ideas = {
 
 freecity_ideas = {
     start = {
-        global_spy_defence = 0.3
-        build_cost = -0.2
+        global_spy_defence = 0.2
+        build_cost = -0.1
     }
     
     bonus = {
-        garrison_size = 0.1
+        garrison_size = 0.2
     }
     
     trigger = {
@@ -209,7 +209,7 @@ freecity_ideas = {
         prestige = 1
     }
     freecity2 = {   
-        manpower_recovery_speed = 0.5
+        manpower_recovery_speed = 0.2
     }
     freecity3 = {
         global_trade_power = 0.1
@@ -218,24 +218,24 @@ freecity_ideas = {
         advisor_pool = 1
     }   
     freecity5 = {
-        republican_tradition = 0.15
+        republican_tradition = 0.5
     }
     freecity6 = {
-        improve_relation_modifier = 0.1
+        improve_relation_modifier = 0.2
     }   
     freecity7 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
 }
 
 flemish_ducal_ideas = {
     start = {
-        manpower_recovery_speed = 0.20
+        manpower_recovery_speed = 0.2
         global_trade_goods_size_modifier = 0.1
     }
  
     bonus = {
-        merc_maintenance_modifier = -0.25
+        merc_maintenance_modifier = -0.15
     }
    
     trigger = {
@@ -252,17 +252,17 @@ flemish_ducal_ideas = {
         shock_damage = 0.1
     }
     flemish_ducal_idea_3 = {
-        culture_conversion_cost = -0.15
+        culture_conversion_cost = -0.1
     }
     flemish_ducal_idea_4 = {
-        global_tax_modifier = 0.10
+        global_tax_modifier = 0.1
         fort_maintenance_modifier = -0.1
     }
     flemish_ducal_idea_5 = {
-        global_prov_trade_power_modifier = 0.15
+        global_prov_trade_power_modifier = 0.1
     }
     flemish_ducal_idea_6 = {
-        production_efficiency = 0.05
+        production_efficiency = 0.1
         global_unrest = -1
     }
     flemish_ducal_idea_7 = {
@@ -274,7 +274,7 @@ flemish_ducal_ideas = {
 irishclan_ideas = {
     start = {
         stability_cost_modifier = -0.1
-        prestige = 0.5
+        prestige = 1
     }
     
     bonus = {
@@ -291,7 +291,7 @@ irishclan_ideas = {
     free = yes
     
     irishclan_idea_1 = {
-        improve_relation_modifier = 0.1
+        improve_relation_modifier = 0.15
         defensiveness = 0.1
     }
     irishclan_idea_2 = {
@@ -307,17 +307,17 @@ irishclan_ideas = {
         land_morale = 0.1
     }
     irishclan_idea_6 = {
-        legitimacy = 0.5
+        legitimacy = 1
     }
     irishclan_idea_7 = {
-        global_autonomy = -0.02
+        global_autonomy = -0.05
     }
 }
 
 molducal_ideas = {
     start = {
         global_unrest = -1
-        global_trade_power = 0.05
+        global_trade_power = 0.1
     }
     
     bonus = {
@@ -330,7 +330,7 @@ molducal_ideas = {
     free = yes
     
     molducal_idea_1 = {
-        adm_tech_cost_modifier = -0.05
+        adm_tech_cost_modifier = -0.1
     }
     molducal_idea_2 = {
         advisor_pool = 1
@@ -339,13 +339,13 @@ molducal_ideas = {
         cavalry_cost = -0.1
     }
     molducal_idea_4 = {
-        global_missionary_strength = 0.005
+        global_missionary_strength = 0.01
     }
     molducal_idea_5 = {
         global_prov_trade_power_modifier = 0.1
     }
     molducal_idea_6 = {
-        improve_relation_modifier = 0.1
+        improve_relation_modifier = 0.2
     }
     molducal_idea_7 = {
         discipline = 0.05
@@ -377,7 +377,7 @@ SWI_ideas = {
         stability_cost_modifier = -0.1
     }
     swiss_mercenaries = {
-        merc_maintenance_modifier = -0.25
+        merc_maintenance_modifier = -0.15
     }
     alpine_defensiveness = {
         fort_maintenance_modifier = -0.2
@@ -399,7 +399,7 @@ SWI_ideas = {
 pruthenian_ideas = {
     start = {
         army_tradition = 0.5
-        fire_damage_received = -0.15
+        fire_damage_received = -0.1
     }
     bonus = {
         may_recruit_female_generals = yes
@@ -417,13 +417,13 @@ pruthenian_ideas = {
         reinforce_speed = 0.05
     }
     pruthenian_idea_3 = {
-        enemy_core_creation = 0.15
+        enemy_core_creation = 0.25
     }
     pruthenian_idea_4 = {
         global_missionary_strength = 0.01
     }
     pruthenian_idea_5 = {
-        culture_conversion_cost = -0.2
+        culture_conversion_cost = -0.1
     }
     pruthenian_idea_6 = {
         land_morale = 0.1
@@ -437,10 +437,10 @@ pruthenian_ideas = {
 catducal_ideas = {
     start = {
         merchants = 1
-        light_ship_cost = -0.1
+        light_ship_cost = -0.15
     }
     bonus = {
-        sunk_ship_morale_hit_recieved = -0.15
+        sunk_ship_morale_hit_recieved = -0.2
     }  
     trigger = {
         primary_culture = catalan 
@@ -450,22 +450,22 @@ catducal_ideas = {
         global_missionary_strength = 0.01
     }
     catducal_idea_2 = {
-        advisor_cost = -0.075
+        advisor_cost = -0.1
     }
     catducal_idea_3 = {
         global_unrest = -1
     }
     catducal_idea_4 = {
-        global_garrison_growth = 0.1
+        global_garrison_growth = 0.2
     }
     catducal_idea_5 = {
         global_tax_modifier = 0.1
     }
     catducal_idea_6 = {
-        enemy_core_creation = 0.15
+        enemy_core_creation = 0.25
     }
     catducal_idea_7 = {
-        production_efficiency = 0.075
+        production_efficiency = 0.1
     }
 }
 
@@ -475,7 +475,7 @@ wendish_ideas = {
         technology_cost = -0.05
     }
     bonus = {
-        discipline = 0.025
+        discipline = 0.05
     }  
     trigger = {
         primary_culture = bremer_platt
@@ -494,13 +494,13 @@ wendish_ideas = {
         diplomatic_reputation = 1
     }
     wendish_idea_5 = {
-        fire_damage_received = -0.10
+        fire_damage_received = -0.1
     }
     wendish_idea_6 = {
         missionaries = 1
     }
     wendish_idea_7 = {
-        num_accepted_cultures = 2
+        num_accepted_cultures = 1
     }
 }
 
@@ -528,26 +528,68 @@ livonian_ideas = {
         global_trade_goods_size_modifier = 0.1
     }
     livonian_idea_3 = {
-        improve_relation_modifier = 0.1
+        improve_relation_modifier = 0.2
     }
     livonian_idea_4 = {
-        army_tradition = 0.5
-        navy_tradition = 0.5
+        army_tradition = 0.25
+        navy_tradition = 0.25
     }
     livonian_idea_5 = {
-        production_efficiency = 0.15
+        production_efficiency = 0.1
     }
     livonian_idea_6 = {
-        tolerance_heathen = 1
+        tolerance_heathen = 2
     }
     livonian_idea_7 = {
-        global_institution_spread = 0.075
+        global_institution_spread = 0.1
+    }
+}
+
+SIC_TAI_ideas = {
+    start = {
+        may_perform_slave_raid = yes
+        global_trade_goods_size_modifier = 0.1
+    }
+    bonus = {
+        global_spy_defence = 0.2
+    }
+
+    trigger = {
+        OR = {
+            tag = PLM
+            tag = AGR
+            tag = TPN
+            tag = SYC
+        }
+    }
+    free = yes
+    SIC_TAI_idea_1 = {
+        adm_tech_cost_modifier = -0.1
+        prestige = 1
+    }
+    SIC_TAI_idea_2 = {
+        global_tax_modifier = 0.1
+    }
+    SIC_TAI_idea_3 = {
+        global_trade_power = 0.1
+    }
+    SIC_TAI_idea_4 = {
+        global_unrest = -1
+    }
+    SIC_TAI_idea_5 = {
+        global_autonomy = -0.05
+    }
+    SIC_TAI_idea_6 = {
+        global_missionary_strength = 0.02
+    }
+    SIC_TAI_idea_7 = {
+        land_morale = 0.15
     }
 }
 
 taifa_ideas = {
     start = {
-        cavalry_cost = -0.15
+        cavalry_cost = -0.1
         diplomatic_upkeep = 1
     }
     bonus = {
@@ -561,11 +603,11 @@ taifa_ideas = {
         province_warscore_cost = -0.1
     }
     taifa_idea_2 = {
-        merc_maintenance_modifier = -0.2
+        merc_maintenance_modifier = -0.1
         possible_mercenaries = 1.0
     }
     taifa_idea_3 = {
-        culture_conversion_cost = -0.15
+        culture_conversion_cost = -0.1
     }
     taifa_idea_4 = {
         technology_cost = -0.05
@@ -594,10 +636,10 @@ sslav_ideas = {
     }
     free = yes
     sslav_idea_1 = {
-        idea_cost = -0.05
+        idea_cost = -0.1
     }
     sslav_idea_2 = {
-        loot_amount = 0.3
+        loot_amount = 0.25
     }
     sslav_idea_3 = {
         tolerance_own = 1
@@ -624,7 +666,7 @@ hunduc_ideas = {
         war_exhaustion = -0.02
     }
     bonus = {
-        global_tax_modifier = 0.15
+        global_tax_modifier = 0.1
     }  
     trigger = {
         OR = {
@@ -641,11 +683,11 @@ hunduc_ideas = {
         unjustified_demands = -0.25
     }
     hunduc_idea_3 = {
-        cavalry_power = 0.1
+        cavalry_power = 0.05
         cavalry_cost = -0.1
     }
     hunduc_idea_4 = {
-        envoy_travel_time = -0.75
+        envoy_travel_time = -0.25
     }
     hunduc_idea_5 = {
         manpower_recovery_speed = 0.15
@@ -662,7 +704,7 @@ hunduc_ideas = {
 walduc_ideas = {
     start = {
         enemy_core_creation = 0.25
-        trade_efficiency = 0.05
+        trade_efficiency = 0.1
     }
     bonus = {
         manpower_recovery_speed = 0.15
@@ -677,10 +719,10 @@ walduc_ideas = {
     free = yes
     walduc_idea_1 = {
         prestige_decay = -0.01
-        legitimacy = 0.5
+        legitimacy = 1
     }
     walduc_idea_2 = {
-        province_warscore_cost = -0.15
+        province_warscore_cost = -0.1
     }
     walduc_idea_3 = {
         discipline = 0.05
@@ -696,17 +738,17 @@ walduc_ideas = {
         tolerance_own = 1
     }
     walduc_idea_7 = {
-        state_maintenance_modifier = -0.1
+        state_maintenance_modifier = -0.15
     }
 }
 
 marches_ideas = {
     start = {
-        spy_offence = 0.15
+        spy_offence = 0.2
         land_forcelimit_modifier = 0.15
     }
     bonus = {
-        army_tradition = 1
+        army_tradition = 0.5
     }  
     trigger = {
         primary_culture = english
@@ -720,7 +762,7 @@ marches_ideas = {
         diplomatic_reputation = 1
     }
     marches_idea_3 = {
-        build_time = -0.25
+        build_time = -0.1
         interest = -0.5
     }
     marches_idea_4 = {
@@ -739,11 +781,11 @@ marches_ideas = {
 
 polduc_ideas = {
     start = {
-        heir_chance = 0.25
+        heir_chance = 0.5
         siege_ability = 0.1
     }
     bonus = {
-        global_regiment_recruit_speed = -0.25
+        global_regiment_recruit_speed = -0.1
     }  
     trigger = {
         primary_culture = polish
@@ -753,11 +795,11 @@ polduc_ideas = {
         diplomatic_upkeep = 1
     }
     polduc_idea_2 = {
-        global_unrest = -2
+        global_unrest = -1
     }
     polduc_idea_3 = {
-        vassal_income = 0.1
-        legitimacy = 0.5
+        vassal_income = 0.2
+        legitimacy = 1
     }
     polduc_idea_4 = {
         trade_steering = 0.2

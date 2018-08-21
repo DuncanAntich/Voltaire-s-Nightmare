@@ -22,28 +22,21 @@ discovered_by = north_american
 	base_tax = 4
 	base_production = 3
 	base_manpower = 3
+	owner = KRA
+	controller = KRA
+	add_core = KRA
+	remove_core = POL
 }
 1181.1.1 = {
 	owner = WKP
 	controller = WKP
 	add_core = WKP
-	remove_core = POL
+	remove_core = KRA
 }
 1234.1.1 = {
 	owner = KSZ
 	controller = KSZ
 	remove_core = WKP
-}
-1238.3.19 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-}
-1241.4.9 = {
-	owner = WKP
-	controller = WKP
-	add_core = WKP
-	remove_core = POL
 }
 1249.1.1 = {
 	owner = KSZ

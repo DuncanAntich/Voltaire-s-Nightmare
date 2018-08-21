@@ -15,7 +15,25 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
+1108.1.1 = {
+	owner = NIC
+	controller = NIC
+}
+1176.1.1 = {
+	owner = PRO
+	controller = PRO
+}
+1215.1.1 = {
+	owner = NIC
+	controller = NIC
+}
+1229.1.1 = {
+	owner = PRO
+	controller = PRO
+}
 1382.7.27 = { hre = no }
 1388.1.1 = {
 	owner = NIC
@@ -58,5 +76,3 @@ discovered_by = muslim
 	remove_core = SPI
 	remove_core = NIC
 }
-discovered_by = nomad_group
-discovered_by = north_american

@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
 color = { 80  160  90 } 
 
 historical_idea_groups = {
@@ -34,22 +31,15 @@ historical_units = {
 }
 
 monarch_names = {
-	"Abderrahmane #0" = 10
-	"Ahmed #0" = 10
-	"Abdelaziz #0" = 10
-	"Ahmed Amokrane #0" = 10
-	"Sidi El Naceur #0" = 10
-	"Si Betka #0" = 10
-	"Ben Bouzid #0" = 10
-	"Abdesselem #0" = 10
-	"Sidi Ahmed #0" = 10
-	"Abdallah #0" = 1
-	"Abdesslam #0" = 1
-	"Mohand #0" = 1
-	"Boumezrag #0" = 1
-	"Mohammed #0" = 1
-	"Azis #0" = 1
-	"Zahir #0" = 1
+	"‘Abd ar-Rahman #0" = 10
+	"‘Abd al-‘Azîz #0" = 10
+	"‘Abd as-Salîm #0" = 10
+	"‘Abd Allâh #0" = 10
+	"Muhammad #0" = 10
+	"Buzîd #0" = 10
+	"Betka #0" = 10
+	"Ahmad #0" = 10
+	"Nasr #0" = 10
 	
 	"Werdja #0" = -1
 	"Tabassum #0" = -1
@@ -57,24 +47,20 @@ monarch_names = {
 }
 
 leader_names = {
-	"Ait Ghobri"
-	"Abi Youcef"
-	"Ait Abbas"
-	"Ait Aïssi"
-	"Ait Akerma"
-	"Ait Aouggacha"
-	"Ait Djennad"
-	"Ait Douala"
-	"Ait Fraoussen"
-	"Ait Idjer"
-	"Ait Iraten"
-	Maatka
+	"Banû Muqran" "Banû Madhî"
 }
 
 ship_names = {
-	Barr Muta'al Wali Batin Zahir Akhir Awwal
-	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
-	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
-	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
-	Wakil Haqq Shahid Ba'ith Koukou
+	"Aït ‘Abbâs" "Aït Yaala"
+	"Aït Adel" "Aït Urtilane"
+	"M'sila" Sêtif Ayad Hashem
+	Medjana Kalâa Mejana
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
 }

@@ -1,5 +1,5 @@
 government = iqta
-government_rank = 5
+government_rank = 1
 technology_group = muslim
 primary_culture = andalucian
 religion = sunni
@@ -11,8 +11,8 @@ capital = 2024
 		duration = -1
 	}
 	monarch = {
-		name = "Abd al-Aziz"
-		dynasty = "Amirid"
+		name = "‘Abd al-‘Azîz"
+		dynasty = "Banû ‘Âmirî"
 		adm = 3
 		dip = 3
 		mil = 2
@@ -20,18 +20,18 @@ capital = 2024
 }
 1061.1.1 = {
 	monarch = {
-		name = "Abd al-Malik"
-		dynasty = "Amirid"
+		name = "‘Abd al-Malik"
+		dynasty = "Banû ‘Âmirî"
 		adm = 0
 		dip = 2
 		mil = 1
 	}
 }
-#1065-1075 until Toledo
-1075.1.1 = {
+#1065-1075 vassal Toledo
+1065.1.1 = {
 	monarch = {
-		name = "Abu Bakr"
-		dynasty = "Amirid"
+		name = "Abû Bakr"
+		dynasty = "Banû ‘Âmirî"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -39,93 +39,39 @@ capital = 2024
 }
 1085.1.1 = {
 	monarch = {
-		name = "Uthman"
-		dynasty = "Amirid"
+		name = "‘Uthmân"
+		dynasty = "Banû ‘Âmirî"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1086.1.1 = {
+1086.10.23 = {
+	capital = 1109
 	monarch = {
-		name = "Yahya al-Qadir"
-		dynasty = "Dhunnunid"
-		birth_date = 1042.1.1
-		adm = 2
-		dip = 4
-		mil = 2
+		name = "Abû ‘Isa"
+		dynasty = "Banû Lubbun"
+		adm = 1
+		dip = 0
+		mil = 4
 	}
 }
-1092.1.1 = {
+1092.10.28 = {
+	capital = 2024
 	monarch = {
-		name = "Abu Ahmad Djafar"
-		dynasty = "Yahhafid"
+		name = "Ja‘far"
+		dynasty = "Banû Jahhaf"
 		adm = 1
 		dip = 2
 		mil = 2
 	}
 }
-1094.5.1 = {
-	primary_culture = valencian
-	government = feudal_monarchy
-	religion = catholic
-	technology_group = western
+1100.1.1 = { remove_country_modifier = parias_modifier }
+#under MOR 1102
+1145.3.25 = {
 	monarch = {
-		name = "Rodrigo Dï¿½az"
-		dynasty = "de Vivar"
-		birth_date = 1040.1.1
-		culture = castillian
-		adm = 3
-		dip = 5
-		mil = 6
-		leader = {
-			name = "El Cid"
-			type = general
-			fire = 4
-			shock = 5
-			manuever = 2
-			siege = 0
-		}
-	}
-	queen = {
-		country_of_origin = LON
-		name = "Jimena Dï¿½az"
-		dynasty = "de Oviedo"
-		birth_date = 1070.1.1
-		death_date = 1116.1.1
-		culture = leonese
-		female = yes
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-1099.1.1 = {
-	monarch = {
-		name = "Jimena Dï¿½az"
-		dynasty = "de Oviedo"
-		birth_date = 1070.1.1
-		culture = leonese
-		female = yes
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-1100.1.1 = {
-	remove_country_modifier = parias_modifier
-}
-1102.1.1 = {
-	primary_culture = andalucian
-	government = iqta
-	religion = sunni
-	technology_group = muslim
-}
-#under MOR
-1145.1.1 = {
-	monarch = {
-		name = "Abu Mudammad"
-		dynasty = "Jyaddid"
+		name = "Abû Muhammad"
+		dynasty = "Banû ‘Jyadd"
 		adm = 1
 		dip = 3
 		mil = 3
@@ -133,21 +79,27 @@ capital = 2024
 }
 #1147 to Murcia
 #1171 to MOR
+1224.9.1 = {
+	capital = 2024
+	monarch = {
+		name = "Abû Zayd"
+		dynasty = "Banû Hafs"
+		birth_date = 1195.1.1
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1228.8.4 = { capital = 1109 }
 1229.1.1 = {
 	capital = 2024
 	monarch = {
-		name = "Zayyan"
-		dynasty = "Mardanisid"
+		name = "Zayyân"
+		dynasty = "Banû Mardanîsh"
 		birth_date = 1190.1.1 #est
 		adm = 2
 		dip = 2
 		mil = 4
 	}
 }
-#1238 to ARA
-1238.10.9 = {
-	primary_culture = valencian
-	government = feudal_monarchy
-	religion = catholic
-	technology_group = western
-}
+#1238.10.9 ARA

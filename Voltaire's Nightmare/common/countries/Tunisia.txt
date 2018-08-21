@@ -1,9 +1,5 @@
-#Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
 color = { 146  134  57 }
-
 revolutionary_colors = { 8  5  9 }
 
 historical_idea_groups = {
@@ -37,70 +33,55 @@ historical_units = {
 
 monarch_names = {
 	"Muhammad #0" = 100
-	"'Alî #0" = 40
+	"‘Alî #0" = 40
+	"‘Abd al-Mu‘min #0" = 20
+	"‘Abd al-‘Azîz #0" = 20
+	"‘Abd al-Haqq #0" = 20
+	"Zakarîyâ #0" = 20
 	"Ahmad #0" = 20
 	"Yahyâ #0" = 20
-	"Zkariyâ' #0" = 20
-	"'Abd al-'Aziz #0" = 20
-	"'Abd al-Mu'min #0" = 20
 	"Hamûda #0" = 20
 	"Husayn #0" = 20
-	"'Usman #0" = 20
+	"‘Usman #0" = 20
+	"Sulaymân #0" = 15
 	"Salih #0" = 15
-	"Sulaiman #0" = 15
 	"Yunus #0" = 15
-	"Isma'îl #0" = 10
+	"‘Ismâ‘îl #0" = 10
 	"Yûsuf #0" = 10
-	"Abû Bakr #0" = 0
-	"Ala ad-Din #0" = 0
-	"Butrus #0" = 0
-	"Fakhri #0" = 0
-	"Fayiz #0" = 0
-	"Hadj #0" = 0
-	"Hafiz #0" = 0
-	"Harun #0" = 0
-	"Hasan #0" = 0
-	"Hashim #0" = 0
-	"Ibrahim #0" = 0
-	"Ja'far #0" = 0
-	"Khalil #0" = 0
-	"Mahir #0" = 0
-	"Mas'ud #0" = 0
-	"Murad #0" = 10
-	"Mustafa #0" = 0
-	"Qadir #0" = 0
-	"Rasim #0" = 0
-	"Salah #0" = 0
-	"Shadi #0" = 0
-	"Tahir #0" = 0
-	"Torgud #0" = 0
+	"‘Abd Allâh #0" = 5
+	"Abû Bakr #0" = 5
+	"Ibrâhîm #0" = 5
+	"Muhriz #0" = 5
 	
 	"Hikmat #0" = -1
 	"Inas #0" = -1
 	"Hafsia #0" = -1
-	"Fatima #0" = -1
+	"Fâtimah #0" = -1
 	"Jannat #0" = -1
 	"Jalila #0" = -1
-	"Aisha #0" = -1
-	"Khadija #0" = -1
+	"‘Âishâ #0" = -1
+	"Khadîjah #0" = -1
 }
 
 leader_names = {
-	Taher
-	Akimi
-	Adhoum
-	Hakimi
-	Naybet
-	Bassir
-	Saber
-	Badra
-	Sassi
-	Dali
+	"Banû Khurâsan"
+	"Banû Hafs"
+	"Banû Murâd"
+	"Banû Husayn"
+	"Banû Riyah"
 }
 
 ship_names = {
 	Alim Fattah Razzaq Wahhab Qahhar Ghaffar
 	Musawwir Bari Khaliq Mutakabbir Jabbar
-	Aziz Muhaymin Mu'min Salam Quddus Malik
+	Aziz Muhaymin Mu‘min Salam Quddus Malik
 	Rahim Rahman
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
 }

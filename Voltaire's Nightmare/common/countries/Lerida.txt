@@ -1,5 +1,4 @@
 graphical_culture = muslimgfx
-
 color = { 90 220 68 }
 
 historical_idea_groups = {
@@ -32,77 +31,27 @@ historical_units = {
 }
 
 monarch_names = {
-	"Muhammad #0" = 10
-	"Yûsuf #0" = 10
-	"'Alî #0" = 10
-	"Sa'd #0" = 10
-	"Isma'îl #0" = 10
-	"Nasr #0" = 10
-	"'Abd al-Karim #0" = 10
-	"Ayman #0" = 10
-	"Barakat #0" = 10
-	"Basir #0" = 10
-	"Dawud #0" = 10
-	"Fahd #0" = 10
-	"Faris #0" = 10
-	"Faruq #0" = 10
-	"Firdaus #0" = 10
-	"Fuad #0" = 10
-	"Haidar #0" = 1
-	"Hashim #0" = 1
-	"Husam #0" = 1
-	"Iqbal #0" = 1
-	"Jabbar #0" = 1
-	"Ja'far #0" = 1
-	"Jamal #0" = 1
-	"Junayd #0" = 1
-	"Khaliq #0" = 1
-	"Malik #0" = 1
-	"Mansur #0" = 1
-	"Mustafa #0" = 1
-	"Najib #0" = 1
-	"Qasim #0" = 1
-	"Qusay #0" = 1
-	"Rahim #0" = 1
-	"Rashîd #0" = 1
-	"Safi #0" = 1
-	"Sakhr #0" = 1
-	"Samir #0" = 1
-	"Tariq #0" = 1
-	"Umar #0" = 1
-	"Wahid #0" = 1
-	"Zahir #0" = 1
+	"al-M�ndhir #0" = 10
+	"Sulaym�n #0" = 10
+	"Y�suf #0" = 10
 	
-	"Aliya #0" = -1
-	"Fahima #0" = -1
+	"�Al�ya #0" = -1
+	"F�hima #0" = -1
 	"Haifa #0" = -1
 }
 
 leader_names = {
-	"Ibn Abd al-Rahman" "Ibn Abbad" "Ibn Abd Allah" "Ibn Abi Hafs" "Ibn al-Azafi" "Ibn Ali"
-	"Ibn Hakan" "Ibn Hammud" "Ibn Hisam" "Ibn Husayn"
-	"Ibn Idris" "Ibn Ishaq" "Ibn Isma'il"
-	"Ibn Marwan" "Ibn Muhammad" "Ibn Nasr" "Ibn Qasim" "Ibn Sa'd" "Ibn Sulayman"
-	"Ibn Umar" "Ibn Ummay" "Ibn Utman" "Ibn Ya'far" "Ibn Yahyà" "Ibn Yusuf"
+	"Ban� Hud"
 }
 
 ship_names = {
-	Badajoz Lisbon Mértola Saltés Huelva Silves Algarve
-	Toledo Algeciras Arcos Carmona Ceuta Córdoba Granada
-	Málaga Morón Niebla Ronda Sevilla Alvarracín Alupuente
-	Rueda Tortosa Zaragoza Almería Denia Jérica Lorca
-	Majorca Molina Murcia Murviedro Sagunto Segorbe
-	Valencia Amería Arcos Beja Évora Constantina
-	Hornachuelos Gaudix Baza Jaén Jerez Niebla Purchena
-	Ronda Santarém Segura Tavira Tejada Arjona Baeza
-	Orihuela Alpujarras
+	Laridah
 }
-
 
 army_names = {
 	"Jaish Al $PROVINCE$" 
 }
 
 fleet_names = {
-	"Alboran Sea Squadron" "Balaeric Sea Squadron" "Jabal Tariq Squadron" 
+	"Sarie Al $PROVINCE$" 
 }

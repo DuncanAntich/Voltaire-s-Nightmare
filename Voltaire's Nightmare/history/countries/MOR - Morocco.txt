@@ -8,8 +8,8 @@ religious_school = maliki_school
 
 1061.1.1 = {
 	monarch = {
-		name = "Abu Bakr ibn Umar"
-		dynasty = "al-Murabit"
+		name = "Abû Bakr"
+		dynasty = "al-Murâbit"
 		birth_date = 1020.1.1
 		adm = 1
 		dip = 5
@@ -19,8 +19,8 @@ religious_school = maliki_school
 }
 1070.1.1 = {
 	monarch = {
-		name = "Yusuf ibn Tashfin"
-		dynasty = "al-Murabit"
+		name = "Yûsuf"
+		dynasty = "al-Murâbit"
 		birth_date = 1019.1.1
 		adm = 5
 		dip = 3
@@ -29,9 +29,9 @@ religious_school = maliki_school
 }
 1084.1.1 = {
 	heir = {
-		name = "Ali"
-		monarch_name = "Ali ibn Yusuf"
-		dynasty = "al-Murabit"
+		name = "‘Alî ibn Yûsuf"
+		monarch_name = "‘Alî III"
+		dynasty = "al-Murâbit"
 		birth_date = 1084.1.1
 		death_Date = 1143.1.26
 		claim = 95
@@ -43,37 +43,72 @@ religious_school = maliki_school
 1090.1.1 = { add_accepted_culture = andalucian }
 1106.1.1 = {
 	monarch = {
-		name = "Ali ibn Yusuf"
-		dynasty = "al-Murabit"
+		name = "‘Alî III"
+		dynasty = "al-Murâbit"
 		birth_date = 1084.1.1
 		adm = 2
 		dip = 2
 		mil = 1
 	}
+	heir = {
+		name = "Tâshfîn ibn ‘Alî"
+		monarch_name = "Tâshfîn I"
+		dynasty = "al-Murâbit"
+		birth_date = 1103.1.1
+		death_Date = 1145.3.25
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
 }
 1143.1.26 = {
 	monarch = {
-		name = "Tashfin ibn Ali"
-		dynasty = "al-Murabit"
+		name = "Tâshfîn I"
+		dynasty = "al-Murâbit"
+		birth_date = 1103.1.1
 		adm = 0
+		dip = 0
+		mil = 0
+	}
+	heir = {
+		name = "Ibrâhîm ibn Tâshfîn"
+		monarch_name = "Ibrâhîm"
+		dynasty = "al-Murâbit"
+		birth_date = 1135.1.1
+		death_Date = 1147.1.1
+		claim = 80
+		adm = 1
 		dip = 0
 		mil = 0
 	}
 }
 1145.3.25 = {
 	monarch = {
-		name = "Ishaq ibn Ali"
-		dynasty = "al-Murabit"
+		name = "Ishâq"
+		dynasty = "al-Murâbit"
+		birth_date = 1100.1.1
 		adm = 0
 		dip = 2
 		mil = 0
 	}
+	heir = {
+		name = "Ibrâhîm ibn Tâshfîn"
+		monarch_name = "Ibrâhîm"
+		dynasty = "al-Murâbit"
+		birth_date = 1135.1.1
+		death_Date = 1147.1.1
+		claim = 80
+		adm = 1
+		dip = 0
+		mil = 0
+	}
 }
 1147.1.1 = {
-	#government = feudal_theocracy
-	#government_rank = 6
+	government = feudal_theocracy
+	government_rank = 6
 	monarch = {
-		name = "Abd al-Mumin"
+		name = "‘Abd al-Mu‘min"
 		dynasty = "al-Muwahhid"
 		birth_date = 1094.1.1
 		adm = 5
@@ -81,8 +116,8 @@ religious_school = maliki_school
 		mil = 6
 	}
 	heir = {
-		name = "Abu Yaqub Yusuf"
-		monarch_name = "Abu Yaqub Yusuf I"
+		name = "Abû Ya‘qûb Yûsuf"
+		monarch_name = "Yûsuf I"
 		dynasty = "al-Muwahhid"
 		birth_date = 1135.1.1
 		death_Date = 1184.10.24
@@ -97,7 +132,7 @@ religious_school = maliki_school
 1152.1.1 = { capital = 2854 }
 1163.1.1 = {
 	monarch = {
-		name = "Abu Yaqub Yusuf I"
+		name = "Yûsuf I"
 		dynasty = "al-Muwahhid"
 		birth_date = 1135.1.1
 		adm = 3
@@ -105,8 +140,8 @@ religious_school = maliki_school
 		mil = 3
 	}
 	heir = {
-		name = "Abu Yusuf Yaqub"
-		monarch_name = "Abu Yusuf Yaqub"
+		name = "Abû Yûsuf Ya‘qûb"
+		monarch_name = "Ya‘qûb I"
 		dynasty = "al-Muwahhid"
 		birth_date = 1160.1.1
 		death_Date = 1199.1.23
@@ -118,12 +153,23 @@ religious_school = maliki_school
 }
 1184.10.24 = {
 	monarch = {
-		name = "Abu Yusuf Yaqub"
+		name = "Ya‘qûb I"
 		dynasty = "al-Muwahhid"
 		birth_date = 1160.1.1
 		adm = 5
 		dip = 2
 		mil = 5
+	}
+	heir = {
+		name = "Muhammad ibn al-Mansûr"
+		monarch_name = "Muhammad"
+		dynasty = "al-Muwahhid"
+		birth_date = 1181.1.1
+		death_date = 1213.12.25
+		claim = 80
+		adm = 3
+		dip = 1
+		mil = 2
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = architectural_visionary_personality
@@ -131,9 +177,9 @@ religious_school = maliki_school
 }
 1199.1.23 = {
 	monarch = {
-		name = "Muhammad al-Nasir"
+		name = "Muhammad"
 		dynasty = "al-Muwahhid"
-		birth_date = 1160.1.1
+		birth_date = 1181.1.1
 		adm = 3
 		dip = 1
 		mil = 2
@@ -141,8 +187,8 @@ religious_school = maliki_school
 }
 1203.1.1 = {
 	heir = {
-		name = "Abu Yaqub Yusuf"
-		monarch_name = "Abu Yaqub Yusuf II"
+		name = "Abû Ya‘qûb Yûsuf"
+		monarch_name = "Yûsuf II"
 		dynasty = "al-Muwahhid"
 		birth_date = 1203.1.1
 		death_date = 1224.1.1
@@ -152,9 +198,9 @@ religious_school = maliki_school
 		mil = 0
 	}
 }
-1213.1.1 = {
+1213.12.25 = {
 	monarch = {
-		name = "Abu Yaqub Yusuf II"
+		name = "Yûsuf II"
 		dynasty = "al-Muwahhid"
 		birth_date = 1203.1.1
 		adm = 0
@@ -164,10 +210,21 @@ religious_school = maliki_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = sinner_personality
 }
-1224.1.1 = {
+1224.2.1 = {
 	monarch = {
-		name = "Abdallah al-Adil"
+		name = "‘Abd al-Wâhid I"
 		dynasty = "al-Muwahhid"
+		birth_date = 1175.1.1
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+1224.9.1 = {
+	monarch = {
+		name = "‘Abd Allâh I"
+		dynasty = "al-Muwahhid"
+		birth_date = 1185.1.1
 		adm = 0
 		dip = 0
 		mil = 0
@@ -175,8 +232,9 @@ religious_school = maliki_school
 }
 1227.10.4 = {
 	monarch = {
-		name = "Yahya al-Mutasim"
+		name = "Yahyâ V"
 		dynasty = "al-Muwahhid"
+		birth_date = 1204.1.1
 		adm = 2
 		dip = 3
 		mil = 2
@@ -184,17 +242,30 @@ religious_school = maliki_school
 }
 1229.1.1 = {
 	monarch = {
-		name = "Abu al-Ala Idris"
+		name = "Idrîs III"
 		dynasty = "al-Muwahhid"
+		birth_date = 1186.1.1
 		adm = 2
 		dip = 0
 		mil = 2
 	}
+	heir = {
+		name = "Abû Muhammad ‘Abd al-Wâhid"
+		monarch_name = "‘Abd al-Wâhid II"
+		dynasty = "al-Muwahhid"
+		birth_date = 1214.1.1
+		death_date = 1242.12.4
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1	
+	}
 }
 1232.10.17 = {
 	monarch = {
-		name = "Abu Muhammad ar-Rashid"
+		name = "‘Abd al-Wâhid II"
 		dynasty = "al-Muwahhid"
+		birth_date = 1214.1.1
 		adm = 1
 		dip = 1
 		mil = 1	
@@ -203,8 +274,9 @@ religious_school = maliki_school
 1236.1.1 = { capital = 761 }
 1242.12.4 = {
 	monarch = {
-		name = "Abu al-Hasan"
+		name = "Abû‘l-Hasan"
 		dynasty = "al-Muwahhid"
+		birth_date = 1220.1.1
 		adm = 0
 		dip = 0
 		mil = 0
@@ -212,8 +284,9 @@ religious_school = maliki_school
 }
 1248.1.1 = {
 	monarch = {
-		name = "Umar al-Murtada"
+		name = "‘Umar"
 		dynasty = "al-Muwahhid"
+		birth_date = 1220.1.1
 		adm = 0
 		dip = 0
 		mil = 0
@@ -221,37 +294,50 @@ religious_school = maliki_school
 }
 1266.1.1 = {
 	monarch = {
-		name = "Idris al-Wathiq"
+		name = "Idrîs IV"
 		dynasty = "al-Muwahhid"
+		birth_date = 1220.1.1
 		adm = 1
 		dip = 4
 		mil = 1
 	}
 }
 1269.9.8 = {
-	#government = iqta
-	#government_rank = 5
+	government = iqta
+	government_rank = 5
 	monarch = {
-		name = "Abu Yusuf Yaqub"
-		dynasty = "Marinid"
+		name = "Ya‘qûb II"
+		dynasty = "Banû Marîn"
 		birth_date = 1220.1.1
 		adm = 3
 		dip = 4
 		mil = 4
 	}
+	heir = {
+		name = "Abû Ya‘qûb Yûsuf"
+		monarch_name = "Yûsuf III"
+		dynasty = "Banû Marîn"
+		birth_date = 1248.1.1
+		death_date = 1307.5.13
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 2
+	}
 }
 1286.3.20 = {
 	monarch = {
-		name = "Abu Yaqub Yusuf"
-		dynasty = "Marinid"
+		name = "Yûsuf III"
+		dynasty = "Banû Marîn"
+		birth_date = 1248.1.1
 		adm = 2
 		dip = 1
 		mil = 2
 	}
 	heir = {
-		name = "Abu Thabit Amir"
-		monarch_name = "Abu Thabit Amir"
-		dynasty = "Marinid"
+		name = "Abû Thabit ‘Amîr"
+		monarch_name = "‘Amîr"
+		dynasty = "Banû Marîn"
 		birth_date = 1283.1.1
 		death_date = 1308.7.28
 		claim = 95
@@ -262,8 +348,8 @@ religious_school = maliki_school
 }
 1307.5.13 = {
 	monarch = {
-		name = "Abu Thabit Amir"
-		dynasty = "Marinid"
+		name = "‘Amîr"
+		dynasty = "Banû Marîn"
 		birth_date = 1283.1.1
 		adm = 0
 		dip = 0
@@ -272,8 +358,8 @@ religious_school = maliki_school
 }
 1308.7.28 = {
 	monarch = {
-		name = "Abu ar-Rabi Sulayman"
-		dynasty = "Marinid"
+		name = "Sulaymân"
+		dynasty = "Banû Marîn"
 		birth_date = 1289.3.1
 		adm = 2
 		dip = 2
@@ -282,17 +368,17 @@ religious_school = maliki_school
 }
 1310.11.23 = {
 	monarch = {
-		name = "Abu-Sa'id Uthman II"
-		dynasty = "Marinid"
+		name = "‘Uthmân II"
+		dynasty = "Banû Marîn"
 		birth_date = 1276.12.1
 		adm = 3
 		dip = 1
 		mil = 4
 	}
 	heir = {
-		name = "Abu al-Hasan Ali"
-		monarch_name = "Abu al-Hasan Ali"
-		dynasty = "Marinid"
+		name = "Abû‘l-Hasan ‘Alî"
+		monarch_name = "‘Alî IV"
+		dynasty = "Banû Marîn"
 		birth_date = 1297.1.1
 		death_date = 1351.5.24
 		claim = 95
@@ -303,17 +389,17 @@ religious_school = maliki_school
 }
 1331.8.1 = {
 	monarch = {
-		name = "Abu al-Hasan Ali"
-		dynasty = "Marinid"
+		name = "‘Alî IV"
+		dynasty = "Banû Marîn"
 		birth_date = 1297.1.1
 		adm = 2
 		dip = 2
 		mil = 4
 	}
 	heir = {
-		name = "Abu Inan Faris"
-		monarch_name = "Abu Inan Faris"
-		dynasty = "Marinid"
+		name = "Abû ‘Inân Fâris"
+		monarch_name = "Fâris"
+		dynasty = "Banû Marîn"
 		birth_date = 1329.1.1
 		death_date = 1359.1.10
 		claim = 95
@@ -322,20 +408,44 @@ religious_school = maliki_school
 		mil = 4
 	}
 }
+1337.1.1 = { capital = 2854 }
 1348.1.1 = {
 	monarch = {
-		name = "Abu Inan Faris"
-		dynasty = "Marinid"
+		name = "Fâris"
+		dynasty = "Banû Marîn"
 		birth_date = 1329.1.1
 		adm = 3
 		dip = 1
 		mil = 4
 	}
+	heir = {
+		name = "Abû Bakr ibn Fâris"
+		monarch_name = "Abû Bakr"
+		dynasty = "Banû Marîn"
+		birth_date = 1346.1.1
+		death_date = 1359.1.1
+		claim = 70
+		adm = 2
+		dip = 2
+		mil = 0
+	}
 }
-1359.1.10 = {
+1358.1.10 = {
 	monarch = {
-		name = "Abu Salim Ali"
-		dynasty = "Marinid"
+		name = "Abû Bakr"
+		dynasty = "Banû Marîn"
+		birth_date = 1346.1.1
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+1359.1.1 = { capital = 761 }
+1359.1.1 = {
+	monarch = {
+		name = "Ibrâhîm"
+		dynasty = "Banû Marîn"
+		birth_date = 1335.1.1
 		adm = 1
 		dip = 1
 		mil = 2
@@ -343,8 +453,9 @@ religious_school = maliki_school
 }
 1361.1.1 = {
 	monarch = {
-		name = "Abu Umar Taschufin"
-		dynasty = "Marinid"
+		name = "Tâshfîn II"
+		dynasty = "Banû Marîn"
+		birth_date = 1329.1.1
 		adm = 0
 		dip = 0
 		mil = 0
@@ -352,8 +463,9 @@ religious_school = maliki_school
 }
 1362.1.1 = {
 	monarch = {
-		name = "Abu Zayyan Muhammad"
-		dynasty = "Marinid"
+		name = "Muhammad II"
+		dynasty = "Banû Marîn"
+		birth_date = 1338.1.1
 		adm = 2
 		dip = 2
 		mil = 0
@@ -361,26 +473,116 @@ religious_school = maliki_school
 }
 1366.1.1 = {
 	monarch = {
-		name = "Abu Faris Abdul Aziz I"
-		dynasty = "Marinid"
+		name = "‘Abd al-‘Azîz I"
+		dynasty = "Banû Marîn"
+		birth_date = 1349.1.1
 		adm = 3
 		dip = 3
 		mil = 2
 	}
 }
+1368.1.1 = {
+	heir = {
+		name = "Muhammad ibn ‘Abd al-‘Azîz"
+		monarch_name = "Muhammad III"
+		dynasty = "Banû Marîn"
+		birth_date = 1368.1.1
+		death_date = 1374.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
 1372.1.1 = {
 	monarch = {
-		name = "Abu Abbas Ahmad"
-		dynasty = "Marinid"
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Muhammad ibn ‘Abd al-‘Azîz"
+		monarch_name = "Muhammad III"
+		dynasty = "Banû Marîn"
+		birth_date = 1368.1.1
+		death_date = 1374.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1374.1.1 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Banû Marîn"
+		birth_date = 1355.1.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
+1376.1.1 = {
+	heir = {
+		name = "‘Abd al-‘Azîz ibn Ahmad"
+		monarch_name = "‘Abd al-‘Azîz II"
+		dynasty = "Banû Marîn"
+		birth_date = 1375.1.1
+		death_date = 1396.1.1
+		claim = 80
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+1384.1.1 = {
+	monarch = {
+		name = "Mûsâ"
+		dynasty = "Banû Marîn"
+		birth_date = 1355.1.1
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+1386.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Banû Marîn"
+		birth_date = 1350.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1387.1.1 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Banû Marîn"
+		birth_date = 1355.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "‘Abd al-‘Azîz ibn Ahmad"
+		monarch_name = "‘Abd al-‘Azîz II"
+		dynasty = "Banû Marîn"
+		birth_date = 1375.1.1
+		death_date = 1396.1.1
+		claim = 80
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
 1393.1.1 = {
 	monarch = {
-		name = "Abu Faris Abdul Aziz II"
-		dynasty = "Marinid"
+		name = "‘Abd al-‘Azîz II"
+		dynasty = "Banû Marîn"
+		birth_date = 1375.1.1
 		adm = 2
 		dip = 0
 		mil = 1
@@ -388,17 +590,19 @@ religious_school = maliki_school
 }
 1396.1.1 = {
 	monarch = {
-		name = "Abdullah"
-		dynasty = "Marinid"
+		name = "‘Abd Allâh II"
+		dynasty = "Banû Marîn"
+		birth_date = 1378.1.1
 		adm = 2
 		dip = 1
 		mil = 1
 	}
 }
-1399.1.1 = {
+1398.3.19 = {
 	monarch = {
-		name = "Abu-Sa'id Uthman III"
-		dynasty = "Marinid"
+		name = "‘Uthmân III"
+		dynasty = "Banû Marîn"
+		birth_date = 1383.1.1
 		adm = 1
 		dip = 2
 		mil = 3
@@ -406,9 +610,9 @@ religious_school = maliki_school
 }
 1419.1.1 = {
 	heir = {
-		name = "Abdalhaqq"
-		monarch_name = "Abdalhaqq II"
-		dynasty = "Marinid"
+		name = "‘Abd al-Haqq ibn ‘Uthmân"
+		monarch_name = "‘Abd al-Haqq II"
+		dynasty = "Banû Marîn"
 		birth_date = 1419.1.1
 		death_date = 1465.1.1
 		claim = 95
@@ -419,16 +623,16 @@ religious_school = maliki_school
 }
 1420.1.1 = {
 	monarch = {
-		name = "Zakariya Wattasid (Regent)"
+		name = "Yahyâ Banû Wattâs (Regent)"
 		regent = yes
-		adm = 2
-		dip = 2
+		adm = 6
+		dip = 4
 		mil = 2
 	}
 	heir = {
-		name = "Abdalhaqq"
-		monarch_name = "Abdalhaqq II"
-		dynasty = "Marinid"
+		name = "‘Abd al-Haqq"
+		monarch_name = "‘Abd al-Haqq II"
+		dynasty = "Banû Marîn"
 		birth_date = 1419.1.1
 		death_date = 1465.1.1
 		claim = 95
@@ -440,8 +644,8 @@ religious_school = maliki_school
 }
 1434.1.1 = {
 	monarch = {
-		name = "Abdalhaqq II"
-		dynasty = "Marinid"
+		name = "‘Abd al-Haqq II"
+		dynasty = "Banû Marîn"
 		birth_date = 1419.1.1
 		adm = 0
 		dip = 2
@@ -450,8 +654,8 @@ religious_school = maliki_school
 }
 1465.1.1 = {
 	monarch = {
-		name = "Muhammad ibn Ali"
-		dynasty = "Idrisid"
+		name = "Muhammad"
+		dynasty = "Banû Idrîs"
 		adm = 2
 		dip = 1
 		mil = 0
@@ -463,7 +667,7 @@ religious_school = maliki_school
 	#capital = 1
 	monarch = {
 		name = "Muhammad I"
-		dynasty = "Saadi"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1490.1.1
 		adm = 4
 		dip = 4
@@ -471,9 +675,9 @@ religious_school = maliki_school
 		leader = { name = "Muhammad I"		type = general	fire = 3	shock = 3	manuever = 2	siege = 0}
 	}
 	heir = {
-		name = "'Abd AllÃ¢h"
-		monarch_name = "'Abd AllÃ¢h"
-		dynasty = "Saadi"
+		name = "‘Abd Allâh"
+		monarch_name = "‘Abd Allâh I"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1527.6.1
 		death_date = 1574.1.24
 		claim = 95
@@ -484,8 +688,8 @@ religious_school = maliki_school
 }
 1557.10.23 = {
 	monarch = {
-		name = "'Abd AllÃ¢h I"
-		dynasty = "Saadi"
+		name = "‘Abd Allâh I"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1527.6.1
 		adm = 6
 		dip = 3
@@ -494,7 +698,7 @@ religious_school = maliki_school
 	heir = {
 		name = "Muhammad"
 		monarch_name = "Muhammad II"
-		dynasty = "Saadi"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1557.1.1
 		death_date = 1576.9.12
 		claim = 95
@@ -507,7 +711,7 @@ religious_school = maliki_school
 1574.1.24 = {
 	monarch = {
 		name = "Muhammad II"
-		dynasty = "Saadi"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1557.1.1
 		adm = 3
 		dip = 3
@@ -515,9 +719,9 @@ religious_school = maliki_school
 		leader = { name = "Muhammad II"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 	}
 	heir = {
-		name = "Abu Marwan"
-		monarch_name = "Abu Marwan"
-		dynasty = "Saadi"
+		name = "Abû Marwân ‘Abd al-Malik"
+		monarch_name = "‘Abd al-Malik I"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1554.1.1
 		death_date = 1578.8.5
 		claim = 95
@@ -528,8 +732,8 @@ religious_school = maliki_school
 }
 1576.1.1 = {
 	monarch = {
-		name = "Abu Marawan"
-		dynasty = "Saadi"
+		name = "‘Abd al-Malik I"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1554.1.1
 		adm = 2
 		dip = 3
@@ -538,7 +742,7 @@ religious_school = maliki_school
 	heir = {
 		name = "Ahmad"
 		monarch_name = "Ahmad II"
-		dynasty = "Saadi"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1549.1.1
 		death_date = 1603.8.20
 		claim = 95
@@ -549,17 +753,17 @@ religious_school = maliki_school
 }
 1578.8.5 = {
 	monarch = {
-		name = "Ahmad II"	#al-Mansur
-		dynasty = "Saadi"
+		name = "Ahmad II"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1549.1.1
 		adm = 5
 		dip = 4
 		mil = 6
 	}
 	heir = {
-		name = "'Abd AllÃ¢h"
-		monarch_name = "'Abd AllÃ¢h II"
-		dynasty = "Saadi"
+		name = "‘Abd Allâh"
+		monarch_name = "‘Abd Allâh II"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1564.1.1
 		death_date = 1609.8.3
 		claim = 95
@@ -570,16 +774,16 @@ religious_school = maliki_school
 }
 1603.8.20 = {
 	monarch = {
-		name = "'Abd AllÃ¢h II"
-		dynasty = "Saadi"
+		name = "‘Abd Allâh II"
+		dynasty = "Banû Sa‘ad"
 		adm = 1
 		dip = 0
 		mil = 1
 	}
 	heir = {
-		name = "ZaydÃ¢n"
-		monarch_name = "ZaydÃ¢n"
-		dynasty = "Saadi"
+		name = "Zaydân"
+		monarch_name = "Zaydân"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1580.1.1
 		death_date = 1627.9.29
 		claim = 95
@@ -590,17 +794,17 @@ religious_school = maliki_school
 }
 1609.8.3 = {
 	monarch = {
-		name = "ZaydÃ¢n"
-		dynasty = "Saadi"
+		name = "Zaydân"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1580.1.1
 		adm = 0
 		dip = 1
 		mil = 1
 	}
 	heir = {
-		name = "'Abd al-Malik"
-		monarch_name = "'Abd al-Malik"
-		dynasty = "Saadi"
+		name = "Abû Marwân ‘Abd al-Malik"
+		monarch_name = "‘Abd al-Malik II"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1590.1.1
 		death_date = 1631.2.11
 		claim = 95
@@ -611,17 +815,17 @@ religious_school = maliki_school
 }
 1627.9.29 = {
 	monarch = {
-		name = "'Abd al-Malik"
-		dynasty = "Saadi"
+		name = "‘Abd al-Malik II"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1590.1.1
 		adm = 0
 		dip = 0
 		mil = 1
 	}
 	heir = {
-		name = "al-WalÃ®d"
-		monarch_name = "al-WalÃ®d"
-		dynasty = "Saadi"
+		name = "al-Walîd"
+		monarch_name = "al-Walîd"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1600.1.1
 		death_date = 1636.2.21
 		claim = 95
@@ -632,8 +836,8 @@ religious_school = maliki_school
 }
 1631.1.1 = {
 	monarch = {
-		name = "al-WalÃ®d"
-		dynasty = "Saadi"
+		name = "al-Walîd"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1600.1.1
 		adm = 0
 		dip = 0
@@ -641,8 +845,8 @@ religious_school = maliki_school
 	}
 	heir = {
 		name = "Muhammad"
-		monarch_name = "Muhammad esh Sheikh"
-		dynasty = "Saadi"
+		monarch_name = "Muhammad III"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1603.1.1
 		death_date = 1655.1.30
 		claim = 95
@@ -653,9 +857,20 @@ religious_school = maliki_school
 }
 1636.2.21 = {
 	monarch = {
-		name = "Muhammad esh Sheikh"
-		dynasty = "Saadi"
+		name = "Muhammad III"
+		dynasty = "Banû Sa‘ad"
 		birth_date = 1603.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad III"
+		dynasty = "Banû Sa‘ad"
+		birth_date = 1625.1.1
+		death_date = 1659.6.1
+		claim = 95
 		adm = 0
 		dip = 0
 		mil = 0
@@ -663,8 +878,9 @@ religious_school = maliki_school
 }
 1655.1.30 = {
 	monarch = {
-		name = "al-WalÃ®d"
-		dynasty = "Saadi"
+		name = "Ahmad III"
+		dynasty = "Banû Sa‘ad"
+		birth_date = 1625.1.1
 		adm = 0
 		dip = 0
 		mil = 0
@@ -672,27 +888,27 @@ religious_school = maliki_school
 }
 1659.6.1 = {
 	monarch = {
-		name = "Abd al-Karim"
-		dynasty = "al-Shabani"
+		name = "‘Abd al-Karîm"
+		dynasty = "Banû Shabân"
 		adm = 2
 		dip = 3
 		mil = 1
 	}
 }
-1668.7.1 = {
+1663.1.1 = {
 	monarch = {
-		name = "Abu Bakr"
-		dynasty = "al-Shabani"
+		name = "Abû Bakr"
+		dynasty = "Banû Shabân"
 		adm = 0
 		dip = 0
 		mil = 1
 	}
 }
-#Alaouite conquer Marrakesh
+#Alaouites conquer Marrakesh
 1668.9.7 = {
 	monarch = {
-		name = "ar-Rashid"
-		dynasty = "Alaouite"
+		name = "Muhammad"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1631.1.1
 		adm = 4
 		dip = 3
@@ -700,27 +916,27 @@ religious_school = maliki_school
 		leader = { name = "ar-Rashid"		type = general	fire = 4	shock = 3	manuever = 4	siege = 1}
 	}
 	heir = {
-		name = "IsmÃ¢'Ã®l"
-		monarch_name = "IsmÃ¢'Ã®l"
-		dynasty = "Alaouite"
+		name = "‘Ismâ‘îl"
+		monarch_name = "‘Ismâ‘îl"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1645.1.1
 		death_date = 1727.3.22
 		claim = 95
 		adm = 6
 		dip = 5
 		mil = 6
-		leader = { name = "IsmÃ¢'Ã®l"		type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
+		leader = { name = "Ismâ'îl"		type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
 	}
 }
 1672.3.28 = {
 	monarch = {
-		name = "IsmÃ¢'Ã®l"
-		dynasty = "Alaouite"
+		name = "‘Ismâ‘îl"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1645.1.1
 		adm = 6
 		dip = 5
 		mil = 6
-		leader = { name = "IsmÃ¢'Ã®l"		type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
+		leader = { name = "Ismâ'îl"		type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
 	}
 	#capital = 1
 }
@@ -728,7 +944,7 @@ religious_school = maliki_school
 	heir = {
 		name = "Ahmad"
 		monarch_name = "Ahmad"
-		dynasty = "Alaouite"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1677.1.1
 		death_date = 1729.3.5
 		claim = 95
@@ -741,16 +957,16 @@ religious_school = maliki_school
 	#capital = 1
 	monarch = {
 		name = "Ahmad"
-		dynasty = "Alaouite"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1677.1.1
 		adm = 1
 		dip = 0
 		mil = 1
 	}
 	heir = {
-		name = "'Abd AllÃ¢h"
-		monarch_name = "'Abd AllÃ¢h"
-		dynasty = "Alaouite"
+		name = "‘Abd Allâh"
+		monarch_name = "‘Abd Allâh"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1678.1.1
 		death_date = 1757.11.10
 		claim = 95
@@ -761,8 +977,8 @@ religious_school = maliki_school
 }
 1729.3.7 = {
 	monarch = {
-		name = "'Abd AllÃ¢h"
-		dynasty = "Alaouite"
+		name = "‘Abd Allâh"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1678.1.1
 		adm = 5
 		dip = 1
@@ -773,7 +989,7 @@ religious_school = maliki_school
 	heir = {
 		name = "Muhammad"
 		monarch_name = "Muhammad III"
-		dynasty = "Alaouite"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1739.3.7
 		death_date = 1790.4.12
 		claim = 95
@@ -785,16 +1001,16 @@ religious_school = maliki_school
 1757.11.10 = {
 	monarch = {
 		name = "Muhammad III"
-		dynasty = "Alaouite"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1739.3.7
 		adm = 4
 		dip = 4
 		mil = 2
 	}
 	heir = {
-		name = "al-Yazid"
-		monarch_name = "al-Yazid"
-		dynasty = "Alaouite"
+		name = "al-Yazîd"
+		monarch_name = "al-Yazîd"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1750.1.1
 		death_date = 1792.2.15
 		claim = 95
@@ -805,17 +1021,17 @@ religious_school = maliki_school
 }
 1790.4.12 = {
 	monarch = {
-		name = "al-YazÃ®d"
-		dynasty = "Alaouite"
+		name = "al-Yazîd"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1750.1.1
 		adm = 0
 		dip = 3
 		mil = 0
 	}
 	heir = {
-		name = "SulaymÃ¢n"
-		monarch_name = "SulaymÃ¢n"
-		dynasty = "Alaouite"
+		name = "Sulaymân"
+		monarch_name = "Sulaymân"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1760.1.1
 		death_date = 1822.11.28
 		claim = 95
@@ -826,17 +1042,17 @@ religious_school = maliki_school
 }
 1792.2.15 = {
 	monarch = {
-		name = "SulaymÃ¢n"
-		dynasty = "Alaouite"
+		name = "Sulaymân"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1760.1.1
 		adm = 0
 		dip = 2
 		mil = 3
 	}
 	heir = {
-		name = "'Abd al-Rahman"
-		monarch_name = "Abd al-Rahman"
-		dynasty = "Alaouite"
+		name = "‘Abd ar-Rahman"
+		monarch_name = "‘Abd ar-Rahman"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1778.1.1
 		death_date = 1859.8.8
 		claim = 95
@@ -847,8 +1063,8 @@ religious_school = maliki_school
 }
 1822.11.28 = {
 	monarch = {
-		name = "Abd al-Rahman"
-		dynasty = "Alaouite"
+		name = "‘Abd ar-Rahman"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1778.1.1
 		adm = 3
 		dip = 3
@@ -859,7 +1075,7 @@ religious_school = maliki_school
 	heir = {
 		name = "Muhammad"
 		monarch_name = "Muhammad IV"
-		dynasty = "Alaouite"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1830.1.1
 		death_date = 1873.9.16
 		claim = 95
@@ -871,7 +1087,7 @@ religious_school = maliki_school
 1859.8.8 = {
 	monarch = {
 		name = "Muhammad IV"
-		dynasty = "Alaouite"
+		dynasty = "Banû ‘Alî"
 		birth_date = 1830.1.1
 		adm = 2
 		dip = 2

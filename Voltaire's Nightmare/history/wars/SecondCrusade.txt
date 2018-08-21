@@ -14,9 +14,11 @@ war_goal = {
 	add_attacker = ENG
 	add_defender = BDJ
 	add_defender = MCA
-	add_defender = MGG
+	add_defender = LRC
+	add_defender = GDX
 	add_defender = JAE
 	add_defender = COA
+	add_defender = CRD
 }
 
 1148.12.1 = {
@@ -29,7 +31,9 @@ war_goal = {
 	rem_attacker = ENG
 	rem_defender = BDJ
 	rem_defender = MCA
-	rem_defender = MGG
+	rem_defender = LRC
+	rem_defender = GDX
 	rem_defender = JAE
 	rem_defender = COA
+	rem_defender = CRD
 }

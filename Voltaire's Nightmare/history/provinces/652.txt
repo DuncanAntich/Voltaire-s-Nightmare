@@ -16,9 +16,15 @@ discovered_by = western
 discovered_by = muslim
 
 1258.1.1 = {
+	owner = AOE
+	controller = AOE
+	add_core = AOE
+}
+1300.1.1 = {
 	owner = PIS
 	controller = PIS
 	add_core = PIS
+	remove_core = AOE
 }
 1324.2.29 = {
 	controller = ARA

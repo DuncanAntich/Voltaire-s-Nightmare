@@ -37,14 +37,22 @@ fort_14th = yes
 	controller = MOR
 	add_core = MOR
 }
-1238.1.1 = {
+1229.1.1 = {
 	owner = SEV
 	controller = SEV
 	add_core = SEV
 	remove_core = COA
 	remove_core = MOR
 }
-1248.11.23 = {
+1234.12.1 = {
+	owner = JAE
+	controller = JAE
+}
+1235.1.1 = {
+	owner = SEV
+	controller = SEV
+}
+1247.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CSE

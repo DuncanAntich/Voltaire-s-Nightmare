@@ -1,10 +1,12 @@
 government = iqta
-government_rank = 5
+government_rank = 1
 technology_group = muslim
 primary_culture = andalucian
 religion = sunni
 capital = 1212
 religious_school = maliki_school
+historical_rival = STN
+historical_rival = BJA
 
 1045.1.1 = {
 	add_country_modifier = {
@@ -12,63 +14,77 @@ religious_school = maliki_school
 		duration = -1
 	}
 	monarch = {
-		name = "Abu Bakr"
-		dynasty = "Aftasid"
+		name = "Abû Bakr"
+		dynasty = "Banû Aftas"
 		adm = 3
 		dip = 3
 		mil = 1
 	}
-}
-1066.1.1 = {
-	monarch = {
-		name = "Yahya"
-		dynasty = "Aftasid"
+	heir = {
+		name = "Yahyâ"
+		monarch_name = "Yahyâ"
+		dynasty = "Banû Aftas"
+		birth_date = 1045.1.1
+		death_date = 1072.1.1
+		claim = 70
 		adm = 3
 		dip = 2
 		mil = 2
 	}
 }
-1079.1.1 = {
+1067.1.1 = {
 	monarch = {
-		name = "Muhammad"
-		dynasty = "Aftasid"
+		name = "Yahyâ"
+		dynasty = "Banû Aftas"
+		birth_date = 1045.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1072.1.1 = {
+	monarch = {
+		name = "‘Umar"
+		dynasty = "Banû Aftas"
+		birth_date = 1045.1.1
 		adm = 2
 		dip = 2
 		mil = 1
 	}
 }
-#1094 to MOR
 1094.1.1 = {
+	capital = 4390
+	monarch = {
+		name = "al-Mansûr"
+		dynasty = "Banû Aftas"
+		adm = 0
+		dip = 3
+		mil = 0
+	}
+}
+#1095 to MOR
+1095.1.1 = {
+	capital = 1212
 	remove_country_modifier = parias_modifier
 }
 1116.1.1 = {
-	capital = 1135
+	capital = 4391
 	monarch = {
 		name = "Hakam"
-		dynasty = "Hayyid"
+		dynasty = "Banû Hayy"
 		adm = 2
 		dip = 2
-		mil = 2
+		mil = 4
 	}
 }
-1142.1.1 = {
-	monarch = {
-		name = "Siddray"
-		dynasty = "Wazirid"
-		adm = 1
-		dip = 2
-		mil = 3
-	}
-}
-1145.1.1 = {
+1143.1.1 = {
+	capital = 1212
 	monarch = {
 		name = "Muhammad"
-		dynasty = "Hayyid"
+		dynasty = "Banû Hayy"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1147.1.1 = { capital = 2252 }
 #1150 to MOR
-1150.1.1 = { capital = 1212 }

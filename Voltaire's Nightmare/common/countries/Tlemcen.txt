@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
 color = { 154 168 121 } 
 
 historical_idea_groups = {
@@ -34,34 +31,23 @@ historical_units = {
 }
 
 monarch_names = {
-	"Abu Abdallah #0" = 60
-	"Abu Abbas Ahmad #0" = 20
-	"Abu Tashufin #0" = 30
-	"Abu Hammu #0" = 30
-	"Abu Muh #0" = 20
-	"Abu Zayyan #0" = 30
-	"Abu Malek #0" = 5
-	"Abul Hadjdjadj #0" = 5
-	"Abu Thabid #0" = 5
-	"Abu Said #0" = 5
-	"'Abd al-Karim #0" = 0
-	"Barakat #0" = 0
-	"Basir #0" = 0
-	"Dawud #0" = 0
-	"Faris #0" = 0
-	"Haidar #0" = 0
-	"Hashim #0" = 0
-	"Jabbar #0" = 0
-	"Jamal #0" = 0
-	"Junayd #0" = 0
-	"Najib #0" = 0
-	"Qasim #0" = 0
-	"Rahim #0" = 0
-	"Rashîd #0" = 0
-	"Safi #0" = 0
-	"Sakhr #0" = 0
-	"Wahid #0" = 0
-	"Zahir #0" = 0
+	"‘Abd ar-Rahman #0" = 10
+	"‘Abd al-Wâhid #0" = 10
+	"Yaghmurâsan #0" = 10
+	"‘Abd Allâh #0" = 10
+	"al-Hâssan #0" = 10
+	"Muhammad #0" = 10
+	"‘Uthmân #0" = 10
+	"Ahmad #0" = 10
+	"Sa‘îd #0" = 10
+	"Hammû #0" = 10
+	"Mûsâ #0" = 10
+	"Hammad #0" = 5
+	"Habbûs #1" = 5
+	"Yûsuf #0" = 5
+	"Tamîm #1" = 5
+	"Yeddû #1" = 5
+	"Qurat #1" = 5
 	
 	"Randa #0" = -1
 	"Tabassum #0" = -1
@@ -69,22 +55,19 @@ monarch_names = {
 }
 
 leader_names = {
-	Selmi
-	Amara
-	Behar
-	Ilaes
-	Benzine
-	Essaid
-	Hacini
-	Benzai
-	Kelkal
-	Merah
+	"Banû Ifrân" "Banû Zayyân"
 }
 
 ship_names = {
-	Barr Muta'al Wali Batin Zahir Akhir Awwal
-	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
-	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
-	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
-	Wakil Haqq Shahid Ba'ith
+	as-Sufriyya al-Ibâdiyya an-Najâdat
+	al-Azâriqa al-Ajardiyya al-Khawârij
+	"Abû Qurat al-Ifrâni"
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
 }

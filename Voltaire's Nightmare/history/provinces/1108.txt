@@ -1,6 +1,6 @@
 owner = NAV
 controller = NAV
-culture = castillian
+culture = basque
 religion = catholic
 hre = no
 base_tax = 2
@@ -14,10 +14,25 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 estate = estate_nobles
 fort_14th = yes
 
-1134.1.1 = {
+1076.6.4 = {
+	culture = castillian
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	remove_core = NAV
+}
+1113.1.1 = {
+	owner = NAV
+	controller = NAV
+	add_core = NAV
+	remove_core = CAS
+}
+1134.9.8 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS
@@ -52,5 +67,3 @@ fort_14th = yes
 1823.10.1 = { controller = SPA }
 1833.9.29 = { unrest = 8 }
 1839.5.13 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

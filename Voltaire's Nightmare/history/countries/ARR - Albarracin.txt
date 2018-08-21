@@ -7,28 +7,35 @@ capital = 738
 
 1045.1.1 = {
 	monarch = {
-		name = "Abu Marwan"
-		dynasty = "Razinid"
+		name = "‘Abd al-Malik"
+		dynasty = "Banû Razîn"
+		birth_date = 1040.5.18
+		culture = berber
 		adm = 3
 		dip = 2
 		mil = 1
 	}
 }
-1103.1.1 = {
+1103.5.18 = {
 	monarch = {
-		name = "Yahya Husam"
-		dynasty = "Razinid"
+		name = "Yahyâ"
+		dynasty = "Banû Razîn"
+		culture = berber
 		adm = 2
 		dip = 1
 		mil = 1
 	}
 }
+#1104 to MOR
+
+#Lordship
 1167.1.1 = {
 	government = despotic_monarchy
+	technology_group = western
 	primary_culture = aragonese
 	religion = catholic
 	monarch = {
-		name = "Pedro Ruíz"
+		name = "Pedro I"
 		dynasty = "d'Azagra"
 		adm = 3
 		dip = 4
@@ -37,7 +44,7 @@ capital = 738
 }
 1186.1.1 = {
 	monarch = {
-		name = "Fernando Ruíz"
+		name = "Fernando I"
 		dynasty = "d'Azagra"
 		adm = 2
 		dip = 2
@@ -46,7 +53,7 @@ capital = 738
 }
 1196.1.1 = {
 	monarch = {
-		name = "Pedro Fernández"
+		name = "Pedro II"
 		dynasty = "d'Azagra"
 		adm = 3
 		dip = 4
@@ -55,7 +62,7 @@ capital = 738
 }
 1246.1.1 = {
 	monarch = {
-		name = "Alvaro Pérez"
+		name = "Alvaro I"
 		dynasty = "d'Azagra"
 		adm = 2
 		dip = 2
@@ -64,7 +71,7 @@ capital = 738
 }
 1260.1.1 = {
 	monarch = {
-		name = "Juan Núñez"
+		name = "Juan I"
 		dynasty = "de Lara"
 		adm = 2
 		dip = 4
@@ -74,7 +81,7 @@ capital = 738
 1276.1.1 = {
 	heir = {
 		name = "Juan Núñez"
-		monarch_name = "Juan Núñez"
+		monarch_name = "Juan II"
 		dynasty = "de Lara"
 		birth_date = 1276.1.1
 		death_date = 1315.1.1
@@ -86,7 +93,7 @@ capital = 738
 }
 1294.1.1 = {
 	monarch = {
-		name = "Juan Núñez"
+		name = "Juan II"
 		dynasty = "de Lara"
 		birth_date = 1276.1.1
 		adm = 1

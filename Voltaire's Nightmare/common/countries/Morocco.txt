@@ -1,11 +1,6 @@
-#Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
 color = { 191  110  62 } 
-
 revolutionary_colors = { 8  0  5 }
-
 historical_score = 100
 
 historical_idea_groups = {
@@ -40,48 +35,54 @@ historical_units = {
 monarch_names = {
 	"Muhammad #0" = 200
 	"Ahmad #0" = 80
-	"'Abdallâh #0" = 60
-	"'Abd al-Malik #0" = 40
-	"'Alî #0" = 40
-	"'Uthmân #0" = 20
-	"'Abd al-Haqq #0" = 20
-	"Isma'îl #0" = 20
+	"‘Abd Allâh #0" = 60
+	"‘Abd al-Malik #0" = 40
+	"‘Alî #2" = 40
+	"Tâshfîn #0" = 20
+	"‘Uthmân #0" = 20
+	"‘Abd al-Haqq #0" = 20
+	"‘Abd al-Wâhid #0" = 20
+	"‘Ismâ‘îl #0" = 20
 	"Yahyâ #0" = 20
-	"'al-Walîd #0" = 20
+	"al-Walîd #0" = 20
 	"al-Mustadî #0" = 20
-	"al-Rashîd #0" = 20
+	"ar-Rashîd #0" = 20
 	"Hishâm #0" = 20
-	"Idrîsid #0" = 20
+	"Idrîs #0" = 20
 	"Sulaymân #0" = 20
 	"Zaydân #0" = 20
 	"Zayn #0" = 20
-	"'Abd ar-Rahmân #0" = 15
-	"al-Yazîd #0" = 15
-	"Mansur #0" = 15
+	"‘Abd ar-Rahman #0" = 15
+	"‘Abd al-Mu‘min" #0" = 15
+	"‘Abd al-‘Azîz #0" = 15
+	"‘Abd al-Karîm #0" = 15
+ 	"al-Yazîd #0" = 15
+	"Mansûr #0" = 15
 	"Muhraz #0" = 15
-	"Nasir #0" = 15
-	"Abû Faris #0" = 10
-	"Abbas #0" = 10
+	"Nasr #0" = 15
+	"Fâris #0" = 10
+	"Abû Bakr #0" = 10
+	"‘Abbâs #0" = 10
 	"Abû Merwan #0" = 10
 	"al-Talib #0" = 10
 	"Hammada #0" = 10
 	"Hasam #0" = 10
-	"Hashim #0" = 10
-	"Ibrahim #0" = 10
-	"Ja'far #0" = 10
-	"Maimun #0" = 10
+	"Hâshim #0" = 10
+	"Ibrâhîm #0" = 10
+	"Ja‘far #0" = 10
+	"Maymûn #0" = 10
 	"Maslama #0" = 10
-	"Said #0" = 10
-	"Umar #0" = 10
+	"Sa‘îd #0" = 10
+	"‘Umar #0" = 10
 	"Yûsuf #0" = 10
-	"Ataullah #0" = 0
-	"Jabril #0" = 0
-	"Rasul #0" = 0
-	"Zulfiqar #0" = 0
+	"Ishâq #0" = 5
+	"Ya‘qûb #0" = 5
+	"‘Amîr #0" = 5
+	"Mûsâ #0" = 5
 	
 	"Thamina #0" = -1
 	"Widad #0" = -1
-	"Aisha #0" = -1
+	"‘Âishâ #0" = -1
 	"Zaidana #0" = -5
 	"Khnata #0" = -5
 	"Bilqis #0" = -1
@@ -90,21 +91,33 @@ monarch_names = {
 }
 
 leader_names = {
-	Sahiri
-	Haida
-	Sellami
-	Arazi
-	Berui
-	Lahsini
-	Skah
-	Barek
-	Alami
-	Behar
+	"Banû Marîn"
+	"Banû Sa‘ad"
+	"Banû ‘Alî"
+	"Dilâ‘îyya"
+	"Banû Shabân"
+	"Banû Wattâs"
+	"al-Murâbit"
+	"al-Muwahhid"
+	"Banû Idrîs"
+	"Banû Tâ‘Allâh"
+	"Banû Siqillî"
+	"Banû Maymûn"
+	"Banû ‘Imrân"
+	"Banû Ghânîya"
 }
 
 ship_names = {
-	Tawwab Muntaqim Afuww Fa'uf "Malik Mulk"
+	Tawwab Muntaqim Afuww Fa‘uf "Malik Mulk"
 	"Jalal Ikram" Muqsit Jami Ghani Mughni
 	Mani Darr Nafi Nur Hadi Badi Baqi Warith
-	Rashid Sabur "Fazl Azim"
+	Rashîd Sabûr "Fazl Azim"
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
 }

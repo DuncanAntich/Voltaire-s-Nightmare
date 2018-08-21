@@ -32,10 +32,16 @@ discovered_by = muslim
 	controller = MOR
 	add_core = MOR
 }
+1229.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+	remove_core = MOR
+}
 1234.1.1 = {
 	owner = NIE
 	controller = NIE
-	remove_core = MOR
+	remove_core = SEV
 }
 1248.11.23 = { add_core = CSE }
 1262.1.1 = {

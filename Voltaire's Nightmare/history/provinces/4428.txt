@@ -24,6 +24,7 @@ discovered_by = ottoman
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = SEV
 }
 1145.3.25 = {
 	owner = COA
@@ -35,11 +36,25 @@ discovered_by = ottoman
 	controller = MOR
 	add_core = MOR
 }
+1229.1.1 = {
+	owner = CRD
+	controller = CRD
+	add_core = CRD
+	remove_core = MOR
+}
+1234.12.1 = {
+	owner = JAE
+	controller = JAE
+}
+1235.1.1 = {
+	owner = CRD
+	controller = CRD
+}
 1238.1.1 = {
 	owner = GRA
 	controller = GRA
 	add_core = GRA
-	remove_core = MOR
+	remove_core = CRD
 	remove_core = COA
 }
 1248.11.23 = { add_core = CSE }
@@ -48,7 +63,6 @@ discovered_by = ottoman
 	controller = CAS
 	add_core = CAS
 	remove_core = GRA
-	remove_core = SEV
 	capital = "Archidona"
 }
 1499.12.1 = { unrest = 2 }

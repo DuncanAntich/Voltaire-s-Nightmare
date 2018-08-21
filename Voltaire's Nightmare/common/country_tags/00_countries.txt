@@ -209,6 +209,7 @@ TUN	= "countries/Tunisia.txt"
 KBA = "countries/Kabylia.txt"
 TLC = "countries/Tlemcen.txt"
 MOR = "countries/Morocco.txt"
+GHD = "countries/Ghadames.txt"
 
 BAR	= "countries/Bar.txt"
 HSA	= "countries/Hansa.txt"

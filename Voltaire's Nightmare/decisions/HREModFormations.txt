@@ -532,6 +532,10 @@ country_decisions = {
 				set_government_rank = 3
 			}
 			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
 				limit = {
 					NOT = { is_part_of_hre = yes }
 				}
@@ -1779,6 +1783,10 @@ country_decisions = {
 				}
 				add_permanent_claim = ALS
 			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			add_prestige = 10
 			if = {
 				limit = {
@@ -1941,6 +1949,10 @@ country_decisions = {
 				}
 				add_permanent_claim = FRI
 			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			add_prestige = 10
 			hidden_effect = {
 				if = {
@@ -2096,6 +2108,10 @@ country_decisions = {
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			add_prestige = 20
 		}
@@ -2474,6 +2490,10 @@ country_decisions = {
 				}
 				set_government_rank = 4
 			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			add_prestige = 10
 		}
 		ai_will_do = {
@@ -2545,6 +2565,10 @@ country_decisions = {
 					NOT = { government_rank = 4 }
 				}
 				set_government_rank = 4
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			add_prestige = 10
 		}
@@ -2627,6 +2651,10 @@ country_decisions = {
 					NOT = { government_rank = 4 }
 				}
 				set_government_rank = 4
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			add_prestige = 20
 		}
@@ -2862,6 +2890,10 @@ country_decisions = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			add_prestige = 20
 		}

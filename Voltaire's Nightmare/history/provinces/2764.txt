@@ -14,41 +14,17 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 fort_14th = yes
 
-1146.1.1 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-}
-1173.1.5 = {
-	owner = MAZ
-	controller = MAZ
-	remove_core = POL
-}
-1186.1.1 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-}
-1194.5.5 = {
-	owner = MAZ
-	controller = MAZ
-	remove_core = POL
-}
 1226.3.1 = { add_core = TEU }
-1229.1.1 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-}
 1231.1.1 = {
 	owner = TEU
 	controller = TEU
 	culture = prussian
 	capital = "Kulm"
 	remove_core = MAZ
-	remove_core = POL
 }
 1299.1.1 = {
 	base_tax = 4
@@ -97,5 +73,3 @@ fort_14th = yes
 	base_production = 2
 	base_manpower = 2
 }
-discovered_by = nomad_group
-discovered_by = north_american

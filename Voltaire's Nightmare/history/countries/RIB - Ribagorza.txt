@@ -4,8 +4,9 @@ primary_culture = aragonese
 add_accepted_culture = catalan
 religion = catholic
 technology_group = western
-capital = 4321 # Benabarre
+capital = 1219 # Benasque
 
+1058.1.1 = { capital = 4321 }
 1322.1.1 = {
 	monarch = {
 		name = "Pero I"
@@ -16,7 +17,6 @@ capital = 4321 # Benabarre
 		mil = 3
 	}
 }
-
 1332.1.1 = {
 	heir = {
 		name = "Alfons"
@@ -30,7 +30,6 @@ capital = 4321 # Benabarre
 		mil = 1
 	}
 }
-
 1381.1.1 = {
 	monarch = {
 		name = "Alfons IV"
@@ -46,14 +45,12 @@ capital = 4321 # Benabarre
 		dynasty = "d'Aragó"
 		claim = 95
 		birth_date = 1358.1.1
-		death_date = 1435.11.29
+		death_date = 1422.8.31
 		adm = 2
 		dip = 3
 		mil = 3
 	}
 }
-
-
 1412.3.5 = {
 	monarch = {
 		name = "Alfons V"
@@ -64,8 +61,7 @@ capital = 4321 # Benabarre
 		mil = 3
 	}
 }
-
-#1435 ARA
+#1422.8.31 ARA
 
 1469.11.27 = {
 	monarch = {
@@ -88,7 +84,6 @@ capital = 4321 # Benabarre
 		mil = 3
 	}
 }
-
 1485.1.1 = {
 	monarch = {
 		name = "Joan II"
@@ -99,7 +94,6 @@ capital = 4321 # Benabarre
 		mil = 3
 	}
 }
-
 1487.1.1 = {
 	heir = {
 		name = "Alfons"
@@ -113,7 +107,6 @@ capital = 4321 # Benabarre
 		mil = 2
 	}
 }
-
 1512.1.1 = {
 	monarch = {
 		name = "Alfons VII"
@@ -124,7 +117,6 @@ capital = 4321 # Benabarre
 		mil = 2
 	}
 }
-
 1526.5.17 = {
 	heir = {
 		name = "Martí"
@@ -138,7 +130,6 @@ capital = 4321 # Benabarre
 		mil = 2
 	}
 }
-
 1533.1.1 = {
 	monarch = {
 		name = "Martí I"
@@ -163,7 +154,6 @@ capital = 4321 # Benabarre
 		mil = 1
 	}
 }
-
 1565.1.1 = {
 	monarch = {
 		name = "Joan Alfons I"
@@ -174,7 +164,6 @@ capital = 4321 # Benabarre
 		mil = 1
 	}
 }		
-
 1573.1.1 = {
 	monarch = {
 		name = "Martí I"
@@ -196,7 +185,6 @@ capital = 4321 # Benabarre
 		mil = 3
 	}
 }
-
 1581.1.1 = {
 	monarch = {
 		name = "Ferran II"
@@ -207,6 +195,14 @@ capital = 4321 # Benabarre
 		mil = 3
 	}
 }
-
-# 1592 done
-	
+1592.11.6 = {
+	monarch = {
+		name = "Francisco II"
+		dynasty = "d'Aragó"
+		birth_date = 1551.12.6
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+#1598 done

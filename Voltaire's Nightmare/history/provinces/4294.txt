@@ -2,7 +2,6 @@ owner = BSU
 controller = BSU
 add_core = BSU
 add_core = CDY
-add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -53,6 +52,7 @@ discovered_by = muslim
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

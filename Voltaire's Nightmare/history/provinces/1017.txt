@@ -1,5 +1,6 @@
-owner = TUN
-controller = TUN
+owner = IFQ
+controller = IFQ
+add_core = IFQ
 culture = tunisian
 religion = sunni
 hre = no
@@ -15,15 +16,10 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1128.1.1 = {
-	owner = KBA
-	controller = KBA
-	add_core = KBA
-}
 1148.1.1 = {
 	owner = TUN
 	controller = TUN
-	remove_core = KBA
+	remove_core = IFQ
 }
 1159.1.1 = {
 	owner = MOR
@@ -36,8 +32,8 @@ discovered_by = muslim
 	remove_core = MOR
 }
 1357.1.1 = {
-	owner = TLC
-	controller = TLC
+	owner = MOR
+	controller = MOR
 }
 1357.11.1 = {
 	owner = TUN

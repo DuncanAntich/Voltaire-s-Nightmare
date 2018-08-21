@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = easterngfx
-
 color = { 174 214 177 }
 
 historical_idea_groups = {
@@ -42,7 +39,7 @@ historical_units = {
 }
 
 monarch_names = {
-	"Nikola #0" = 20
+	"Nikola #0" = 10
 	"Kreshimir #0" = 10
 	"Stjepan #0" = 10
 	"Almosh #0" = 10
@@ -61,29 +58,6 @@ monarch_names = {
 	"Petar #0" = 10
 	"Vladislav #0" = 10
 	"Vjenceslav #0" = 10
-	"Aleksandar #0" = 1
-	"Dragutin #0" = 1
-	"Faust #0" = 1
-	"Franjo #0" = 1
-	"Gavrilo #0" = 1
-	"Grgur #0" = 1
-	"Ivan #0" = 1
-	"Josip #0" = 1
-	"Juraj #0" = 1
-	"Krsto #0" = 1
-	"Luka #0" = 1
-	"Matija #0" = 1
-	"Marko #0" = 1
-	"Mihajlo #0" = 1
-	"Milan #0" = 1
-	"Mirko #0" = 1
-	"Mladen #0" = 1
-	"Nenad #0" = 1
-	"Pavao #0" = 1
-	"Slavko #0" = 1
-	"Toma #0" = 1
-	"Vladko #0" = 1
-	"Zvonimir #0" = 1
 	
 	"Jelena #1" = -1
 	"Marija #0" = -1
@@ -91,37 +65,24 @@ monarch_names = {
 }
 
 leader_names = {
-	Alapic
-	Babonic Blagaj
-	Cesnegic Crnkovic
-	Drashkovic
-	Frankapan
-	Gorjanski
-	Horvat Hrvatinic
-	Ilocki
-	Jelacic
-	Kacic Kaniski Keglevic Knezevic Krbavski Kruzic Kurjakovic
-	Lackovic
-	Mihalovic
-	Nelipcic
-	Ozegovic
-	Pejacevic
-	Radic Rukavina
-	Subic
-	Talovac
-	Vrancic
-	Zrinski
+	Ivaniševic Papalli Ivancichio Šubic Jurinic
+	Rajcic Kamengrad Papalic Pocolic Zanic Vitkovic
+	Mikulic Maricic Petrovic Gregolic Jovanonic Drazoevic
+	Sladoevic Augustinovic Sudgic Pavic Bobetic Sinovcic
+	Baric Novakovic Geroncic Gojselic Zuljevic Mianovic
+	Covic Rakic
 }
 
 ship_names = {
-	Cres
-	"Dugi Otok"
-	Goli
-	Krl
-	Pag Plavnik
-	Susak "Sveti Grgur"
-	Tijat
-	Unije
-	"Vele Srankane"
-	Zlarin Zmajan
+	Mljet Lastovo Hvar Brac Šolta
+	Vis Sušac Biševo Svetac Ciovo
+	Šipan
+}
+
+army_names = {
+	"Vojska $PROVINCE$"
+}
+
+fleet_names = {
+	"Flota $PROVINCE$"
 }

@@ -1,6 +1,6 @@
 government = feudal_monarchy
 government_rank = 5
-primary_culture = castillian
+primary_culture = andalucian
 religion = catholic
 technology_group = western
 capital = 1867	# Sevilla

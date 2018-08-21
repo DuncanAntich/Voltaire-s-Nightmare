@@ -1,5 +1,5 @@
-owner = TLD
-controller = TLD
+owner = MLN
+controller = MLN
 culture = andalucian
 religion = sunni
 hre = no
@@ -7,34 +7,41 @@ base_tax = 1
 base_production = 1
 trade_goods = wine
 base_manpower = 1
-capital = "Molina de Aragón"
+capital = "Mulina"
 is_city = yes
-add_core = TLD
+add_core = MLN
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1085.1.1 = {
-	owner = ARR
-	add_core = ARR
-	controller = ARR
-	remove_core = TLD
-}
-1104.1.1 = {
+1110.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = ARR
+}
+1123.1.22 = {
+	owner = MLN
+	controller = MLN
+	remove_core = MOR
 }
 1128.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	remove_core = MLN
+	culture = castillian
+	capital = "Molina de Aragón"
+	religion = catholic
+}
+1134.9.7 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS
 	add_core = CTL
-	remove_core = MOR
-	culture = castillian
-	religion = catholic
+	remove_core = ARA
 }
 1464.5.1 = { unrest = 3 }
 1468.9.18 = { unrest = 0 }
@@ -53,5 +60,3 @@ discovered_by = muslim
 1833.9.29 = { unrest = 8 }
 1833.11.20 = { remove_core = CTL }
 1839.5.13 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

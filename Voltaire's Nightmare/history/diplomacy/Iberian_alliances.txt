@@ -33,6 +33,12 @@ union = {
 	start_date = 1076.6.4
 	end_date = 1134.9.8
 }
+vassal = {
+	first = NAV
+	second = BKY
+	start_date = 1134.9.8
+	end_date = 1200.1.1
+}
 
 #Crown of Castile and Leon
 union = {
@@ -451,50 +457,32 @@ alliance = {
 }
 
 #Qadi
-march = {
+vassal = {
 	first = DNA
-	second = MLL
+	second = MYU
 	start_date = 1018.1.1
 	end_date = 1060.1.1
 }
-march = {
+vassal = {
 	first = ZGZ
-	second = MLL
+	second = MYU
 	start_date = 1060.1.1
 	end_date = 1075.1.1
 }
-march = {
+vassal = {
 	first = MOR
-	second = MLL
-	start_date = 1116.1.1
+	second = MYU
+	start_date = 1126.1.1
 	end_date = 1145.3.25
 }
-march = {
+vassal = {
 	first = MOR
-	second = MLL
-	start_date = 1208.1.1
-	end_date = 1229.12.31
+	second = MYU
+	start_date = 1203.1.1
+	end_date = 1208.1.1
 }
 
 #Early crusaders - Leon
-alliance = {
-	first = LON
-	second = ARA
-	start_date = 1000.1.1
-	end_date = 1065.12.24
-}
-#	alliance = {
-#		first = LON
-#		second = NAV
-#		start_date = 1000.1.1
-#		end_date = 1065.12.24
-#	}
-alliance = {
-	first = LON
-	second = BRC
-	start_date = 1000.1.1
-	end_date = 1065.12.24
-}
 alliance = {
 	first = ARA
 	second = BRC
@@ -523,28 +511,28 @@ union = {
 	end_date = 1065.12.24
 }
 
-vassal = {
+march = {
 	first = LON
 	second = PCA
 	start_date = 1050.1.1
 	end_date = 1065.12.24
 }
 
-vassal = {
+march = {
 	first = LON
 	second = CBR
 	start_date = 1064.1.1
 	end_date = 1065.12.24
 }
 
-vassal = {
+march = {
 	first = GAL
 	second = CBR
 	start_date = 1065.12.24
-	end_date = 1096.1.1
+	end_date = 1072.1.1
 }
 
-vassal = {
+march = {
 	first = GAL
 	second = PCA
 	start_date = 1065.12.24
@@ -552,61 +540,44 @@ vassal = {
 }
 
 vassal = {
-	first = ZGZ
-	second = LER
-	start_date = 1046.1.1
-	end_date = 1081.1.1
+	first = BDJ
+	second = STN
+	start_date = 1035.1.1
+	end_date = 1065.1.1
 }
-
-# Crown of Castile
-
-union = {
-	first = CAS
-	second = CTL
-	start_date = 1085.1.1
-	end_date = 1516.1.23
-}
-
-union = {
-	first = CAS
-	second = CJA
-	start_date = 1246.1.1
-	end_date = 1516.1.23
-}
-
-union = {
-	first = CAS
-	second = CCR
-	start_date = 1236.1.1
-	end_date = 1516.1.23
-}
-
-union = {
-	first = CAS
-	second = CSE
-	start_date = 1248.11.23
-	end_date = 1516.1.23
-}
-
-union = {
-	first = CAS
-	second = CMU
-	start_date = 1266.1.1
-	end_date = 1516.1.23
-}
-
-union = {
-	first = CAS
-	second = CGR
-	start_date = 1492.1.2
-	end_date = 1516.1.23
-}
-
-# Castile and Murcia
-
 vassal = {
-	first = CAS
+	first = BDJ
+	second = BJA
+	start_date = 1054.1.1
+	end_date = 1067.1.1
+}
+vassal = {
+	first = BDJ
+	second = BJA
+	start_date = 1072.1.1
+	end_date = 1094.1.1
+}
+vassal = {
+	first = BDJ
+	second = STN
+	start_date = 1145.3.25
+	end_date = 1147.1.1
+}
+vassal = {
+	first = TLD
+	second = VLK
+	start_date = 1065.1.1
+	end_date = 1075.1.1
+}
+vassal = {
+	first = VLK
 	second = MCA
-	start_date = 1243.4.2
-	end_date = 1266.1.1
+	start_date = 1038.1.1
+	end_date = 1065.1.1
+}
+vassal = {
+	first = SEV
+	second = MCA
+	start_date = 1086.10.23
+	end_date = 1089.1.1
 }

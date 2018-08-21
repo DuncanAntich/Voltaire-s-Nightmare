@@ -395,7 +395,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
     				friend = NOL
 				}
 			}
@@ -414,7 +414,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
     				friend = NOL
 				}
 			}
@@ -467,7 +467,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 4
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
 				}
 			}
 		}
@@ -485,7 +485,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr Hårfagreætta"
+    				leader = "Haraldr Hï¿½rfagreï¿½tta"
 				}
 			}
 		}
@@ -1587,6 +1587,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		NOT = { tag = PAP }
+		government = monarchy
 		has_idea_group = cultural_ideas
 		has_institution = publichealth
 		NOT = { has_ruler_modifier = rosicrucianist }

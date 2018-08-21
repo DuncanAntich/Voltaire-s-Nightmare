@@ -1,3 +1,4 @@
+4237 = "Kíev"
 989 = "Arle"
 991 = "Ais"
 1001 = "Forncauquièr"
@@ -62,3 +63,4 @@
 2523 = "Wurtzburg"
 2892 = "Alvernya"
 1283 = "Rasès"
+4317 = "Xèrica"

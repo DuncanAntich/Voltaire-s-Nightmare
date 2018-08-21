@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 80 200 120 }
 
 historical_idea_groups = {
@@ -73,13 +70,6 @@ monarch_names = {
 	"Karm #0" = 10
 	"Nazarenu #0" = 10
 	"Oliver #0" = 10
-	"Turu #0" = 0
-	"Wenzu #0" = 0
-	"Piju #0" = 0
-	"Manwel #0" = 0
-	"Zaru #0" = 0
-	"Bertu #0" = 0
-	"Anard #0" = 0
 	
 	"Maria #0" = -1
 	"Anna #0" = -1
@@ -90,7 +80,7 @@ monarch_names = {
 leader_names = {
 	Rukh
 	Jahagir
-	Sa'id
+	Said
 	Uways
 	Hussain
 	Ahmad
@@ -101,18 +91,15 @@ leader_names = {
 }
 
 ship_names = {
-	"The Blessed Gerard"
-	"Raymond du Puy de Provence"
-	"Auger de Balben"
-	"Arnaud de Comps"
-	"Gilbert d'Aissailly"
-	"Gastone de Murols"
-	"Gilbert of Syria"
-	"Roger de Moulins"
-	"Hélion de Villeneuve"
-	"Hermangard d'Asp"
-	"Garnier de Naplous"
-	"Geoffroy de Donjon"
-	"Alfonse of Portugal"
-	"Geoffrey le Rat"
+	Mdina Birkirkara Qormi Mosta Zabbar
+	Sliema Birgu Mellieha Bugibba Qawra
+	Marsaxlokk Rabat
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
 }

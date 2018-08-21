@@ -59,6 +59,7 @@ country_decisions = {
 			NOT = { government = merchant_republic }
 			NOT = { government = steppe_horde }
 			NOT = { government = iqta }
+			NOT = { government = feudal_theocracy }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
 			NOT = { government = tribal_federation }
@@ -120,6 +121,7 @@ country_decisions = {
 		potential = {
 			NOT = { government = steppe_horde }
 			NOT = { government = iqta }
+			NOT = { government = feudal_theocracy }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
 			NOT = { government = tribal_federation }
@@ -190,6 +192,7 @@ country_decisions = {
 			NOT = { government = theocratic_government }
 			NOT = { government = steppe_horde }
 			NOT = { government = iqta }
+			NOT = { government = feudal_theocracy }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
 			NOT = { government = tribal_federation }
@@ -483,12 +486,49 @@ country_decisions = {
 		}
 	}
 
+	reform_into_iqta = {
+		major = yes
+		potential = {
+			NOT = { government = steppe_horde }
+			NOT = { government = principality }
+			NOT = { government = tsardom }
+			NOT = { government = iqta }
+			NOT = { government = ottoman_government }
+			NOT = { government = feudal_theocracy }
+			NOT = { government = tribal_despotism }
+			NOT = { government = tribal_kingdom }
+			NOT = { government = tribal_federation }
+			NOT = { government = english_monarchy }
+			NOT = { government = elective_monarchy }
+			NOT = { government = celestial_empire }
+			NOT = { government = revolutionary_empire }
+			religion_group = muslim
+			NOT = { has_country_flag = reformed_iqta }
+		}
+		allow = {
+			religion_group = muslim #for clarity
+			government = monarchy
+			has_institution = feudalism
+			stability = 1
+			legitimacy = 90
+			adm_power = 100
+		}
+		effect = {
+			change_government = iqta
+			add_adm_power = -100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	become_russian_principality = {
 		major = yes
 		potential = {
 			NOT = { government = steppe_horde }
 			NOT = { government = principality }
 			NOT = { government = iqta }
+			NOT = { government = feudal_theocracy }
 			NOT = { government = tribal_despotism }
 			NOT = { government = tribal_kingdom }
 			NOT = { government = tribal_federation }

@@ -21,7 +21,7 @@
 4103 = "Lapurdi"
 2289 = "Benafarroa"
 
-4356 = "Aiala"
+4356 = "Aiara"
 4364 = "Zangoza"
 4365 = "Lizarra"
 4366 = "Altsasu"

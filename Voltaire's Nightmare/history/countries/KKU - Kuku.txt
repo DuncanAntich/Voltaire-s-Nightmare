@@ -8,8 +8,8 @@ religious_school = maliki_school
 
 1509.1.6 = {
 	monarch = {
-		name = "Sidi Ahmed"
-		dynasty = "ben el-Kadhi"
+		name = "Ahmad"
+		dynasty = "Banû al-Qâdî"
 		dip = 4
 		mil = 4
 		adm = 4
@@ -17,8 +17,8 @@ religious_school = maliki_school
 }
 1527.1.1 = {
 	monarch = {
-		name = "Elhocine"
-		dynasty = "ben el-Kadhi"
+		name = "al-Husayn"
+		dynasty = "Banû al-Qâdî"
 		dip = 3
 		mil = 3
 		adm = 2
@@ -26,8 +26,8 @@ religious_school = maliki_school
 }
 1546.1.1 = {
 	monarch = {
-		name = "Amar"
-		dynasty = "ben el-Kadhi"
+		name = "‘Ammâr"
+		dynasty = "Banû al-Qâdî"
 		dip = 2
 		mil = 2
 		adm = 3
@@ -35,21 +35,30 @@ religious_school = maliki_school
 }
 1618.1.1 = {
 	monarch = {
-		name = "Mohammed"
-		dynasty = "ben el-Kadhi"
+		name = "Muhammad"
+		dynasty = "Banû al-Qâdî"
 		dip = 0
 		mil = 3
 		adm = 0
 	}
 }
-
 1638.1.1 = {
 	monarch = {
-		name = "Ahmed Atounsi"
-		dynasty = "Boukhetouche"
+		name = "Ahmad"
+		dynasty = "Banû al-Qâdî"
 		dip = 1
 		mil = 2
 		adm = 4
 	}
 }
+1696.1.1 = {
+	monarch = {
+		name = "‘Alî"
+		dynasty = "Banû al-Qâdî"
+		dip = 0
+		mil = 0
+		adm = 0
+	}
+}
 #1696 collapse
+#1730 done

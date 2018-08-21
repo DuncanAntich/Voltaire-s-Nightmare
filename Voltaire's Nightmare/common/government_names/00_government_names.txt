@@ -2632,32 +2632,35 @@ ibadi_theocracy = {
 		1 = IMAMATE
 		2 = IMAMATE
 		3 = IMAMATE
-		4 = IMAMATE
-		5 = GREAT_IMAMATE
-		6 = HIGH_IMAMATE
+		4 = GREAT_IMAMATE
+		5 = HIGH_IMAMATE
+		6 = CALIPHATE
 	}
 
 	ruler_male = {
 		1 = IMAM
 		2 = IMAM
 		3 = IMAM
-		4 = IMAM
-		5 = GREAT_IMAM
-		6 = HIGH_IMAM
+		4 = GREAT_IMAM
+		5 = HIGH_IMAM
+		6 = CALIPH
 	}
 
 	ruler_female = {
 		1 = IMAM
 		2 = IMAM
 		3 = IMAM
-		4 = IMAM
-		5 = GREAT_IMAM
-		6 = HIGH_IMAM
+		4 = GREAT_IMAM
+		5 = HIGH_IMAM
+		6 = CALIPHA
 	}
 
 	trigger = {
 		religion = ibadi
-		government = theocracy
+		OR = {
+			government = feudal_theocracy
+			government = theocracy
+		}
 	}
 }
 
@@ -2676,7 +2679,7 @@ shiite_theocracy = {
 		2 = AYATOLLAH
 		3 = AYATOLLAH
 		4 = AYATOLLAH
-		5 = AYATOLLAH
+		5 = GREAT_AYATOLLAH
 		6 = IMAM
 	}
 
@@ -2685,13 +2688,16 @@ shiite_theocracy = {
 		2 = AYATOLLAH
 		3 = AYATOLLAH
 		4 = AYATOLLAH
-		5 = AYATOLLAH
+		5 = GREAT_AYATOLLAH
 		6 = IMAM
 	}
 
 	trigger = {
 		religion = shiite
-		government = theocracy
+		OR = {
+			government = feudal_theocracy
+			government = theocracy
+		}
 	}
 }
 
@@ -2701,8 +2707,8 @@ sunni_theocracy = {
 		2 = IMAMATE
 		3 = IMAMATE
 		4 = IMAMATE
-		5 = IMAMATE
-		6 = HIGH_IMAMATE
+		5 = HIGH_IMAMATE
+		6 = CALIPHATE
 	}
 
 	ruler_male = {
@@ -2710,8 +2716,8 @@ sunni_theocracy = {
 		2 = IMAM
 		3 = IMAM
 		4 = IMAM
-		5 = IMAM
-		6 = HIGH_IMAM
+		5 = HIGH_IMAM
+		6 = CALIPH
 	}
 
 	ruler_female = {
@@ -2719,13 +2725,16 @@ sunni_theocracy = {
 		2 = IMAM
 		3 = IMAM
 		4 = IMAM
-		5 = IMAM
-		6 = HIGH_IMAM
+		5 = HIGH_IMAM
+		6 = CALIPHA
 	}
 
 	trigger = {
 		religion = sunni
-		government = theocracy
+		OR = {
+			government = feudal_theocracy
+			government = theocracy
+		}
 	}
 }
 

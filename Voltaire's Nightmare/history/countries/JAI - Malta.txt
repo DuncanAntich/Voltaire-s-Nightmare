@@ -8,8 +8,8 @@ religious_school = maliki_school
 
 1054.1.1 = {
 	monarch = {
-		name = "Yusuf ibn Abdallah"
-		dynasty = "Mdinid"
+		name = "Yûsuf"
+		dynasty = "Banû ‘Abd Allâh"
 		adm = 2
 		dip = 3
 		mil = 1

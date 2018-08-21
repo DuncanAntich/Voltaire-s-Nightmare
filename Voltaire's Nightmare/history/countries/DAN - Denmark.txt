@@ -211,12 +211,12 @@ capital = 411
 }
 1157.1.1 = {
 	queen = { #THU wife
-		country_of_origin = POL
+		country_of_origin = MSK
 		name = "Sophia"
-		dynasty = "Piast"
+		dynasty = "Rurikovich"
 		birth_date = 1140.1.1
 		death_date = 1198.5.5
-		culture = polish
+		culture = byelorussian
 		female = yes
 		adm = 2
 		dip = 2

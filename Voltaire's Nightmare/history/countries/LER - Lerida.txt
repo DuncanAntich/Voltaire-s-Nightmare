@@ -6,26 +6,19 @@ religion = sunni
 capital = 1178 # Lleida
 religious_school = maliki_school
 
-1040.1.1 = {
+1046.1.1 = {
 	add_country_modifier = {
 		name = "parias_modifier"
 		duration = -1
 	}
-}
-
-1046.1.1 = {
 	monarch = {
-		name = "Yusuf"
-		dynasty = "Huddid"
+		name = "Yûsuf"
+		dynasty = "Banû Hud"
 		adm = 0
 		dip = 3
 		mil = 1
 	}
 }
-
-1081.1.1 = {
-	remove_country_modifier = parias_modifier
-}
+1081.1.1 = { remove_country_modifier = parias_modifier }
 #1081 Zaragoza
-
-#1082 Tortosa - done
+#1082 Tortosa

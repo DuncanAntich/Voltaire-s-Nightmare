@@ -10,7 +10,6 @@ base_manpower = 1
 capital = "Olot"
 is_city = yes
 add_core = BSU
-add_core = CAT
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -19,12 +18,14 @@ discovered_by = muslim
 1111.1.1 = {
 	owner = BRC
 	controller = BRC
+	add_core = BRC
 	remove_core = BSU
 }
 1137.11.13 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
+	remove_core = BRC
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }
@@ -37,6 +38,7 @@ discovered_by = muslim
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

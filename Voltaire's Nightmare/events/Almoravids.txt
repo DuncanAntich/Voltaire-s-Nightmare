@@ -152,6 +152,12 @@ country_event = {
                 }
                 add_treasury = 500
                 add_manpower = 35
+                define_ruler = {
+                    dynasty = "al-Murâbit"
+                    adm = 5
+                    dip = 3
+                    mil = 5
+                }
                 set_variable = { which = almoravid4_index value = 15 }
                 while = {
                     limit = {

@@ -239,6 +239,13 @@ estate_church =
 		loyalty = 5
 	}
 	loyalty_modifier = {
+		desc = EST_VAL_FEUDAL_THEOCRACY
+		trigger = {
+			government = feudal_theocracy
+		}
+		loyalty = 5
+	}
+	loyalty_modifier = {
 		desc = EST_VAL_SHEIKH_UL_ISLAM
 		trigger = {
 			has_country_modifier = the_sheikh_ul_islam

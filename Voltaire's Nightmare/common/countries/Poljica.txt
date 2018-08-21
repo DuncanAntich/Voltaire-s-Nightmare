@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 99 89 242 }
 
 historical_idea_groups = {
@@ -67,7 +64,7 @@ monarch_names = {
 	"Stipan #0" = 1
 	"Marian #0" = 1
 	"Augustin #0" = 1
-	"Rados #0" = 1
+	"Radoš #0" = 1
 	"Nikola #0" = 1
 	"Pavo #0" = 1
 	"Marko #0" = 1
@@ -80,7 +77,7 @@ monarch_names = {
 }
 
 leader_names = {
-	Ivanisevic Papalli Ivancichio Subic Jurinic
+	Ivaniševic Papalli Ivancichio Šubic Jurinic
 	Rajcic Kamengrad Papalic Pocolic Zanic Vitkovic
 	Mikulic Maricic Petrovic Gregolic Jovanonic Drazoevic
 	Sladoevic Augustinovic Sudgic Pavic Bobetic Sinovcic
@@ -92,12 +89,18 @@ leader_names = {
 }
 
 ship_names = {
-	Cres "Dugi Otok"
-	Goli Krl Pag Plavnik
-	Susak "Sveti Grgur"
-	Tijat Unije
-	"Vele Srankane"
-	Zlarin Zmajan
-	Spalato Lissa Curzola Lagosta Meleda Trau
-	Sebenico Zara Bencovazzo Novegradi "Isola Lunga"
+	Mljet Lastovo Hvar Brac Šolta
+	Vis Sušac Biševo Svetac Ciovo
+	Šipan
+	Meleda Lagosta Lesina Brazza Solta
+	Lissa Cazza Busi "Sant'Andrea" Bua
+	Giuppana
+}
+
+army_names = {
+	"Vojska $PROVINCE$"
+}
+
+fleet_names = {
+	"Flota $PROVINCE$"
 }

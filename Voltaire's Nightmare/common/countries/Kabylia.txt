@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
 color = { 230  225  110 }
 
 historical_idea_groups = {
@@ -34,22 +31,20 @@ historical_units = {
 }
 
 monarch_names = {
-	"Abderrahmane #0" = 10
-	"Ahmed #0" = 10
-	"Abdelaziz #0" = 10
-	"Ahmed Amokrane #0" = 10
-	"Sidi El Naceur #0" = 10
-	"Si Betka #0" = 10
-	"Ben Bouzid #0" = 30
-	"Abdesselem #0" = 10
-	"Sidi Ahmed #0" = 20
-	"Abdallah #0" = 0
-	"Abdesslam #0" = 0
-	"Mohand #0" = 0
-	"Boumezrag #0" = 0
-	"Mohammed #0" = 0
-	"Azis #0" = 0
-	"Zahir #0" = 0
+	"Abû ‘Abd Allâh #0" = 10
+	"‘Abd al-‘Azîz #0" = 10
+	"Abû Zakarîyâ #0" = 10
+	"Abû‘l-‘Abbâs #0" = 10
+	"Abû al-Baqa #0" = 10
+	"al-Mansûr #0" = 10
+	"al-Mûhsin #1" = 10
+	"Abû Bakr #0" = 10
+	"Buluggîn #0" = 10
+	"an-Nâsir #0" = 10
+	"al-Qâid #1" = 10
+	"Hammad #1" = 10
+	"Yahyâ #0" = 10
+	"Badis #0" = 10
 	
 	"Werdja #0" = -1
 	"Tabassum #0" = -1
@@ -57,23 +52,32 @@ monarch_names = {
 }
 
 leader_names = {
-	"Ait Ghobri"
-	"Abi Youcef"
-	"Ait Aïssi"
-	"Ait Akerma"
-	"Ait Aouggacha"
-	"Ait Djennad"
-	"Ait Douala"
-	"Ait Fraoussen"
-	"Ait Idjer"
-	"Ait Iraten"
-	Maatka
+	"Banû Hammad"
+	"Banû Hafs"
+	"Banû Ghobri"
+	"Banû Yûsuf"
+	"Banû Aïssi"
+	"Banû Akerma"
+	"Banû ‘Aqwasha"
+	"Banû Jennad"
+	"Banû Dwala"
+	"Banû Fraûssen"
+	"Banû Ijer"
+	"Banû Irraten"
 }
 
 ship_names = {
-	Barr Muta'al Wali Batin Zahir Akhir Awwal
-	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
+	Barr Muta‘al Wali Batin Zahir Akhir Awwal
+	Mu‘akhkhir Muqaddim Muqtadir Qadir Samad
 	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
-	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
-	Wakil Haqq Shahid Ba'ith
+	Mu‘id Mubdi Muhsi Hamid Matin Qawiyy Ba‘ith
+	Wakil Haqq Shahid
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
 }

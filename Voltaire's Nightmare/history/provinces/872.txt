@@ -1,5 +1,5 @@
-owner = TUN
-controller = TUN
+owner = IFQ
+controller = IFQ
 culture = kabyle
 religion = sunni
 hre = no
@@ -9,7 +9,7 @@ trade_goods = grain
 base_manpower = 1
 capital = "Souk Ahras"
 is_city = yes
-add_core = TUN
+add_core = IFQ
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -19,7 +19,7 @@ discovered_by = muslim
 	owner = KBA
 	controller = KBA
 	add_core = KBA
-	remove_core = TUN
+	remove_core = IFQ
 }
 1152.1.1 = {
 	owner = MOR
@@ -32,8 +32,8 @@ discovered_by = muslim
 	remove_core = MOR
 }
 1347.1.1 = {
-	owner = TLC
-	controller = TLC
+	owner = MOR
+	controller = MOR
 }
 1348.1.1 = {
 	revolt = {
@@ -42,15 +42,23 @@ discovered_by = muslim
 	}
 	controller = REB
 }
-1353.1.1 = { controller = TLC revolt = {} }
+1353.1.1 = { controller = MOR revolt = {} }
 1357.11.1 = {
 	owner = KBA
 	controller = KBA
 }
-1366.1.1 = {
+1371.1.1 = {
 	owner = TUN
 	controller = TUN
 	add_core = TUN
+}
+1489.1.1 = {
+	owner = KBA
+	controller = KBA
+}
+1510.1.1 = {
+	owner = TUN
+	controller = TUN
 }
 1574.1.1 = {
 	owner = TUR

@@ -21,7 +21,7 @@ discovered_by = muslim
 	add_core = MOR
 	remove_core = ALP
 }
-1145.1.1 = {
+1145.3.25 = {
 	owner = VLK
 	controller = VLK
 	add_core = VLK
@@ -39,7 +39,7 @@ discovered_by = muslim
 	add_core = MOR
 	remove_core = MCA
 }
-1229.1.1 = {
+1224.9.1 = {
 	owner = VLK
 	controller = VLK
 	add_core = VLK

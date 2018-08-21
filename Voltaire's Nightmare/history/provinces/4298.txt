@@ -1,7 +1,6 @@
 owner = URG
 controller = URG
 add_core = URG
-add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -35,6 +34,7 @@ discovered_by = muslim
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 	remove_core = ARA
 }
 1640.6.7 = { 

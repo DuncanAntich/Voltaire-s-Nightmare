@@ -212,8 +212,14 @@ union = {
 #Bohemian old unions
 union = {
 	first = BOH
-	second = POL
+	second = KRA
 	start_date = 1291.1.1
+	end_date = 1300.1.11
+}
+union = {
+	first = BOH
+	second = POL
+	start_date = 1300.1.1
 	end_date = 1305.6.21
 }
 

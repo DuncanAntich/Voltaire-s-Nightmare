@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 163  132  118 }
 
 historical_idea_groups = {
@@ -40,62 +37,80 @@ historical_units = {
 }
 
 monarch_names = {
-	"Lluís #0" = 40	
-	"Pere #0" = 20
-	"Enric #0" = 20
-	"Renat #0" = 20	
-	"Alfons #0" = 15
-	"Joan #0" = 15
-	"Galcerand #0" = 10
-	"Carles #0 " = 10
-	"Felip #0" = 10
+	"Guillem #0" = 10	
+	"Bernat #0" = 10
+	"Odó #0" = 10
+	"Pere #0" = 10	
+	"Bernat #0" = 10
+	"Arnau #0" = 10
+	"Ponç #0" = 10
+	"Abril #0 " = 10
+	"Ramon #0" = 10
 	"Nicolau #0" = 10
-	"Ferran #0" = 5
-	"Jaume #0" = 5
-	"Martí #0" = 5
-	"Ambrós #0" = 0
-	"Andreu #0" = 0
-	"Antoni #0" = 0
-	"Arnau #0" = 0
-	"Bernat #0" = 0
-	"Climent #0" = 0
-	"Domènec #0" = 0
-	"Eduard #0" = 0
-	"Esteve #0" = 0
-	"Francesc #0" = 0
-	"Gonçal #0" = 0
-	"Guillem #0" = 0
-	"Hèctor #0" = 0
-	"Hug #0" = 0
-	"Ignasi #0" = 0
-	"Joaquim #0" = 0
-	"Jordi #0" = 0
-	"Josep #0" = 0
-	"Josep Antoni #0" = 0
-	"Llorenç #0" = 0
-	"Lluc #0" = 0
-	"Manel #0" = 0
-	"Miquel #0" = 0
-	"Pau #0" = 0
-	"Rafel #0" = 0
-	"Ramon #0" = 0
-	"Roderic #0" = 0
-	"Xavier #0" = 0
+	"Hug #0" = 10
+	"Berenguer #0" = 10
+	"Galceran #0" = 10
+	"Francesc #0" = 10
+	"Jaume #0" = 10
+	"Rodrigo #0" = 10
+	"Juan #0" = 10
+	"Pedro #0" = 10
+	"Francisco #0" = 10
+	"Miquel #0" = 10
+	"Andreu #0" = 10
+	"Antonio #0" = 10
+	"Pau #0" = 10
+	"Melcior #0" = 10
+	"Oleguer #0" = 10
+	"Simón #0" = 10
+	"Jorge #0" = 10
+	"Sebastián #0" = 10
+	"Joaquín #0" = 10
+	"Josep #0" = 10
+	"Bernardo #0" = 10
+	"Luís Díez #0" = 10
+	"Juan Manuel #0" = 10
+	"Juan Pérez #0" = 10
+	"Juan Dimas #0" = 10
+	"Juan Baptista #0" = 10
+	"Julián Cano #0" = 10
+	"Francisco José #0" = 10
+	"Francisco Fernández #0" = 10
+	"Guillem Arnau #0" = 10
+	"Francesc Antoni #0" = 10
+	"Isidoro Bonifacio #0" = 10
+	"Simó Rojas #0" = 10
+	"Arnau Roger #0" = 10
 	
-	"Alícia #0" = -1
-	"Sofia #0" = -1
-	"Marta #0" = -1
+	"Isabel #0" = -1
+	"Caterina #0" = -1
+	"Joana #0" = -1
 }
 
 leader_names = {
-	Alemany Ametller Amic "de Balaguer" Barceló Blanc Canals Casanovas "de Guimerà" Casaus
-	Dalmau Desplà Destorrent Domènec "d’Espés" Ferrer "Folc de Cardona" Fontana
-	Gallart Gassol Gisbert Graner "de Grau" Guimet
-	Lleixà Llull "de Margarit" Muntaner "de Montcada" Moragues "de Mur" Nadal d’Oms
-	Pallarès Pinós Piquer Pons Rasquí "de la Riba" Ribalta Ripio Rifós "de Ripoll"
-	Salavert "de Subirats" Tamarit Vallès Vergós Vilamarí Vilaplana "d'Urgell"
+	"de Pallars" "de Preixens" "de Castelló" "de Aux"
+	"de Puigvert" "de Vilamur" "d'Urtx" "de Moncada"
+	"de Lordat" "de Narbona" "da Capocci" "de Luna"
+	"de Vilanova" "de Tovia" "de Cardona" "de Borja"
+	"d'Espés" "de Urríes" "de Oliván" "de Castellet"
+	"de Salbà" "de Espinosa" "de Palau" "de Copons"
+	"de Montserrat" "de Guinda" "de Victoria" "de Ocón"
+	"de Xátiva" "de Santiyán" "de García" "de Boltas"
+	"de la Dueña" "de Guardiola" "de Vilamur"
+	Thebar Curado Francés López Guifredo Guillermo Arnau
+	Berenguer Trebailla Sanç Roger Peláez Desbac Patau
+	Despuig Loris Morell Capella Pérez Duran Desbach Caixal
 }
 
 ship_names = {
-	Urgell Foix Brearn Grailly Navarra Albret Bourbon Orleans Aragon Barcelona
+	"El Serrat" Soldeu Encamp "Les Escaldes"
+	"Andorra la Vella" "Sant Julià de Lòria"
+}
+
+army_names = {
+	"Exèrcit de $PROVINCE$" 
+}
+
+fleet_names = {
+	"Flota de $PROVINCE$"
 }

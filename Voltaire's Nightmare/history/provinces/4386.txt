@@ -25,20 +25,19 @@ discovered_by = ottoman
 	controller = TLD
 	remove_core = BDJ
 }
-1085.1.1 = {
-	owner = CAS
-	controller = CAS
-	add_core = CAS
-	add_core = CTL
-	remove_core = TLD
+1086.10.23 = {
+	owner = BDJ
+	controller = BDJ
+	add_core = BDJ
 }
 1091.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = CAS
+	remove_core = TLD
+	remove_core = BDJ
 }
-1143.1.1 = {
+1116.1.1 = {
 	owner = BDJ
 	controller = BDJ
 	add_core = BDJ
@@ -54,6 +53,7 @@ discovered_by = ottoman
 	owner = CAS
 	controller = CAS
 	add_core = CAS
+	add_core = CTL
 	remove_core = MOR
 	religion = catholic
 	culture = castillian

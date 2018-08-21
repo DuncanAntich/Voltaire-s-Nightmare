@@ -572,10 +572,8 @@ wharf = {
 		naval_supplies
 		fish
 		salt
-		lumber
 		hemp
-		wax
-		slaves
+		wax	
 	}
 	onmap = yes
 
@@ -607,10 +605,8 @@ weapons = {
 		iron
 		steel
 		tin
-		gold
 		plumbum
 		munitions
-		horses
 	}
 	onmap = yes
 
@@ -625,10 +621,7 @@ textile = {
 		linen
 		silk
 		carmine
-		books
 		carpet
-		livestock
-		fur
 	}
 	onmap = yes
 
@@ -641,11 +634,9 @@ plantations = {
 	manufactory = {
 		rice
 		sugar
-		grain
 		peaches
 		bananas
 		corn
-		beer
 		olive
 	}
 	onmap = yes
@@ -658,10 +649,11 @@ plantations = {
 tradecompany = {
 	manufactory = {
 		ivory
-		amber
-		wine
+		slaves
+		fur
 		honey
 		cheese
+		gold
 	}
 	onmap = yes
 
@@ -675,6 +667,8 @@ farm_estate = {
 		grain
 		livestock
 		wine
+		beer
+		horses
 	}
 	onmap = yes
 
@@ -685,6 +679,9 @@ farm_estate = {
 
 mills = {
 	manufactory = {
+		books
+		amber
+		lumber
 		glassware
 		chinaware
 		marble
@@ -701,15 +698,13 @@ furnace = {
 		coal
 	}
 
-	potential = {
-		has_dlc = "Rule Britannia"
-	}
+	potential = { has_dlc = "Rule Britannia" }
 
 	modifier = {
-		global_trade_goods_size_modifier = 0.05 #National Bonus
+		global_trade_goods_size_modifier = 0.05
 	}
 	onmap = yes
-	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	show_separate = yes
 
 	ai_will_do = {
 		factor = 1

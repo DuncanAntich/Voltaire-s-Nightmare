@@ -2,8 +2,6 @@ owner = PSA
 controller = PSA
 add_core = PSA
 add_core = PJA
-add_core = PLL
-add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
@@ -26,12 +24,12 @@ discovered_by = muslim
 	controller = ARA
 	add_core = ARA
 	remove_core = PSA
-	remove_core = PLL
 }
 1516.1.23 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

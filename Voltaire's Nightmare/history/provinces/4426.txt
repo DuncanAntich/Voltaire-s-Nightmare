@@ -24,6 +24,7 @@ discovered_by = ottoman
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = SEV
 }
 1143.1.1 = {
 	owner = RND
@@ -66,7 +67,7 @@ discovered_by = ottoman
 	owner = SPA
 	add_core = SPA
 }
-1713.4.11 = { remove_core = CAS remove_core = SEV }
+1713.4.11 = { remove_core = CAS }
 1820.1.1 = {
 	revolt = {
 		type = revolutionary_rebels

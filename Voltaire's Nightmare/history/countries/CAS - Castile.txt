@@ -112,12 +112,12 @@ add_army_professionalism = 0.1
 }
 1152.11.1 = {
 	queen = { #later PRO
-		country_of_origin = POL
+		country_of_origin = SIL
 		name = "Richeza"
 		dynasty = "Piast"
 		birth_date = 1140.1.1
 		death_date = 1185.6.16
-		culture = polish
+		culture = schlesian
 		female = yes
 		adm = 2
 		dip = 2

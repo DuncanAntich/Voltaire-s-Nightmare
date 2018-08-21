@@ -1,98 +1,10 @@
-government = iqta
+government = feudal_monarchy
 government_rank = 5
-technology_group = muslim
-primary_culture = andalucian
-religion = sunni
+technology_group = western
+primary_culture = balearic
+religion = catholic
 capital = 653
-religious_school = maliki_school
 
-1041.1.1 = {
-	monarch = {
-		name = "Ali Iqbal"
-		dynasty = "Mujahid"
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-1075.1.1 = {
-	monarch = {
-		name = "Al-Murtada"
-		dynasty = "Aglabid"
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-1093.1.1 = {
-	monarch = {
-		name = "Mubassir"
-		dynasty = "Aglabid"
-		adm = 3
-		dip = 2
-		mil = 2
-	}
-}
-1114.1.1 = {
-	monarch = {
-		name = "Abu-l-Rabi"
-		dynasty = "Aglabid"
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}
-1126.1.1 = {
-	monarch = {
-		name = "Muhammad I"
-		dynasty = "Ghaniyid"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-1156.1.1 = {
-	monarch = {
-		name = "Ishaq"
-		dynasty = "Ghaniyid"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1183.1.1 = {
-	monarch = {
-		name = "Muhammad II"
-		dynasty = "Ghaniyid"
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}
-1187.1.1 = {
-	monarch = {
-		name = "Yahya"
-		dynasty = "Ghaniyid"
-		adm = 4
-		dip = 1
-		mil = 2
-	}
-}
-#1203 under Almohads
-1208.1.1 = {
-	monarch = {
-		name = "Abu Yahya"
-		dynasty = "Tinmalalid"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-1229.12.31 = {
-	government = feudal_monarchy
-	primary_culture = balearic
-	religion = catholic
-}
 1276.1.1 = {
 	monarch = {
 		name = "Jaume II"

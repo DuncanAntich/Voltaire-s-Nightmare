@@ -15,7 +15,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1207.1.1. = {
+1288.1.1. = {
 	owner = PIS
 	controller = PIS
 	add_core = PIS

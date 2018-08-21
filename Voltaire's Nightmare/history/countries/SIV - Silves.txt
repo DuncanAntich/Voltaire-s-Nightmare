@@ -8,8 +8,8 @@ religious_school = maliki_school
 
 1053.1.1 = {
 	monarch = {
-		name = "Muhammad"
-		dynasty = "Muzaymid"
+		name = "Muhammad II"
+		dynasty = "Banû Muzaym"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -17,8 +17,8 @@ religious_school = maliki_school
 }
 1058.1.1 = {
 	monarch = {
-		name = "Isa"
-		dynasty = "Muzaymid"
+		name = "‘Isa III"
+		dynasty = "Banû Muzaym"
 		adm = 2
 		dip = 2
 		mil = 1
@@ -28,8 +28,8 @@ religious_school = maliki_school
 
 1145.1.1 = {
 	monarch = {
-		name = "Abu'l-Walid"
-		dynasty = "al-Mundirid"
+		name = "Abû‘l-Walîd"
+		dynasty = "Banû Mundhir"
 		adm = 2
 		dip = 2
 		mil = 2

@@ -281,7 +281,7 @@ fixed_capital = 668
 }
 1515.5.23 = {
 	monarch = {
-		name = "Joan"
+		name = "Juan"
 		dynasty = "d'Espés"
 		adm = 2
 		dip = 2
@@ -335,7 +335,7 @@ fixed_capital = 668
 }
 1571.1.1 = {
 	monarch = {
-		name = "Joan Dimas"
+		name = "Juan Dimas"
 		dynasty = "Loris"
 		adm = 2
 		dip = 2
@@ -355,7 +355,7 @@ fixed_capital = 668
 1579.8.23 = {
 	monarch = {
 		name = "Hug"
-		dynasty = "de Montcada"
+		dynasty = "de Moncada"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -438,7 +438,7 @@ fixed_capital = 668
 }
 1681.1.1 = {
 	monarch = {
-		name = "Joan Baptista"
+		name = "Juan Baptista"
 		dynasty = "Desbach"
 		birth_date = 1617.4.6
 		adm = 2

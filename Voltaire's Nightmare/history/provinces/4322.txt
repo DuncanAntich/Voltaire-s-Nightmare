@@ -35,7 +35,6 @@ discovered_by = muslim
 	owner = BRC
 	controller = BRC
 	add_core = BRC
-	add_core = CAT
 	remove_core = MOR
 	culture = catalan
 	religion = catholic
@@ -55,6 +54,7 @@ discovered_by = muslim
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

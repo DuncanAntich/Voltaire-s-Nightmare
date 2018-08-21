@@ -24,7 +24,7 @@
  PROV4314: "Morella"
  PROV4315: "Ademuz"
  PROV4316: "Alpuente"
- PROV4317: "El Toro"
+ PROV4317: "Jérica"
  PROV4318: "Llíria"
  PROV4319: "Xàtiva"
  PROV4320: "Ayerbe"
@@ -2805,6 +2805,7 @@
  PROV1861: "Ziesar"
  PROV2432: "Lauf"
  PROV2542: "Neumarkt"
+ PROV4488: "Sahara"
 #SEAS
  PROV1585: "Kurisches Haff"
  PROV1463: "Kurische Nehrung"

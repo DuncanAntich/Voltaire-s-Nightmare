@@ -36,19 +36,33 @@ discovered_by = ottoman
 	controller = MOR
 	add_core = MOR
 }
-1238.1.1 = {
+1229.1.1 = {
 	owner = SEV
 	controller = SEV
 	add_core = SEV
-	remove_core = MOR
 	remove_core = ARC
+	remove_core = MOR
+}
+1234.12.1 = {
+	owner = JAE
+	controller = JAE
+}
+1235.1.1 = {
+	owner = SEV
+	controller = SEV
 }
 1248.11.23 = {
+	owner = GRA
+	controller = GRA
+	add_core = GRA
+	remove_core = SEV
+}
+1264.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CSE
 	add_core = CAS
-	remove_core = SEV
+	remove_core = GRA
 	capital = "Arcos de la Frontera"
 	base_tax = 2
 	base_production = 2

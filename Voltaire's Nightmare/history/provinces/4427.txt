@@ -24,6 +24,7 @@ discovered_by = ottoman
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = SEV
 }
 1143.1.1 = {
 	owner = RND
@@ -55,7 +56,6 @@ discovered_by = ottoman
 	controller = CAS
 	add_core = CAS
 	remove_core = GRA
-	remove_core = SEV
 	base_manpower = 1
 }
 1499.12.1 = { unrest = 2 }

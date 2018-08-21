@@ -8,8 +8,9 @@ religious_school = maliki_school
 
 1053.1.1 = {
 	monarch = {
-		name = "Al-Aziz"
-		dynasty = "Birzalid"
+		name = "al-‘Azîz"
+		dynasty = "Banû Birzâl"
+		culture = berber
 		adm = 2
 		dip = 3
 		mil = 3
@@ -17,9 +18,10 @@ religious_school = maliki_school
 }
 #1066 done
 1143.1.1 = {
+	capital = 1202
 	monarch = {
 		name = "Darddus"
-		dynasty = "Darddusid"
+		dynasty = "Banû Darddus"
 		adm = 2
 		dip = 2
 		mil = 4

@@ -34,11 +34,16 @@ estate = estate_nobles
 	add_core = MOR
 	remove_core = NIE
 }
+1229.1.1 = {
+	owner = SEV
+	controller = SEV
+	remove_core = MOR
+}
 1234.1.1 = {
 	owner = NIE
 	controller = NIE
 	add_core = NIE
-	remove_core = MOR
+	remove_core = SEV
 }
 1243.1.1 = {
 	owner = CAS
@@ -48,7 +53,6 @@ estate = estate_nobles
 1248.11.23 = {
 	add_core = CSE
 	remove_core = NIE
-	remove_core = SEV
 }
 1296.1.1 = { religion = catholic }
 1337.1.1 = { fort_14th = no fort_15th = yes }

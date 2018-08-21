@@ -31,7 +31,7 @@ discovered_by = muslim
 	add_core = MOR
 	remove_core = TTO
 }
-1145.1.1 = {
+1145.3.25 = {
 	owner = VLK
 	controller = VLK
 	add_core = VLK
@@ -41,7 +41,6 @@ discovered_by = muslim
 	owner = ARA
 	controller = ARA
 	add_core = ARA
-	add_core = CAT
 	remove_core = VLK
 	religion = catholic
 	culture = catalan
@@ -55,6 +54,7 @@ discovered_by = muslim
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

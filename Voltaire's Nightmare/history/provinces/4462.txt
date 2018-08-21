@@ -30,7 +30,7 @@ discovered_by = ottoman
 	controller = MOR
 	add_core = MOR
 }
-1234.1.1 = {
+1230.1.1 = {
 	owner = LON
 	controller = LON
 	add_core = LON

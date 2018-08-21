@@ -138,7 +138,7 @@ add_army_professionalism = 0.05
 	clear_scripted_personalities = yes
 	add_ruler_personality = conqueror_personality
 }
-1134.9.7 = {
+1134.9.8 = {
 	monarch = {
 		name = "Ramiro II"
 		dynasty = "Jiménez"

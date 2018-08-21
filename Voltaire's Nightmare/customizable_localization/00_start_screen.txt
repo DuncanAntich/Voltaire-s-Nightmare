@@ -454,13 +454,6 @@ defined_text = {
 			religion = anabaptist
         }
     }
-    #Anglican (The Reformation)
-	text = {
-        localisation_key = string_start_religion_anglican
-        trigger = {
-			religion = anglican
-        }
-    }
 	#Reformed (The Reformation)
 	text = {
         localisation_key = string_start_religion_reformed
@@ -662,7 +655,6 @@ defined_text = {
 			OR = {
 				religion = protestant
 				religion = anabaptist
-				religion = anglican
 			}
 			has_dlc = "Common Sense"
         }
@@ -673,7 +665,6 @@ defined_text = {
 			OR = {
 				religion = protestant
 				religion = anabaptist
-				religion = anglican
 			}
 			NOT = { has_dlc = "Common Sense" }
         }
@@ -1039,6 +1030,26 @@ defined_text  = {
     }
 }
 
+#Feudal Theocracy
+defined_text  = {
+    name = startup_feudal_theocracy_government
+	random = no
+
+    text = {
+        localisation_key = string_start_feudal_theocracy
+        trigger = {
+			government = feudal_theocracy
+			has_dlc = "Cradle of Civilization"
+        }
+    }
+	text = {
+        localisation_key = string_start_feudal_theocracy_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
 #Ottoman Government
 defined_text  = {
     name = startup_ottoman_government_harem
@@ -1286,6 +1297,28 @@ defined_text = {
     }
 	text = {
         localisation_key = string_imperial_cities_desc_no #Empty String
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = start_anglicanism_description
+	random = no
+
+    text = {
+        localisation_key = string_anglicanism_desc
+        trigger = {
+				has_dlc = "Rule Britannia"
+				OR = {
+					culture_group = british
+					religion = anglican
+				}
+        }
+    }
+	text = {
+        localisation_key = string_anglicanism_no #Empty String
         trigger = {
 			always = yes
         }

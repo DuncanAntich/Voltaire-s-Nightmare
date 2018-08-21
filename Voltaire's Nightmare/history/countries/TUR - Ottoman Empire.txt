@@ -79,8 +79,8 @@ religious_school = hanafi_school
 		mil = 4
 	}
 	heir = {
-		name = "Murad"
-		monarch_name = "Murad I"
+		name = "Murâd"
+		monarch_name = "Murâd I"
 		dynasty = "Osmanoglu"
 		birth_date = 1326.6.29
 		death_date = 1389.6.15
@@ -94,7 +94,7 @@ religious_school = hanafi_school
 1362.1.1 = {
 	government_rank = 5
 	monarch = {
-		name = "Murad I"
+		name = "Murâd I"
 		dynasty = Osmanoglu
 		birth_date = 1326.6.29
 		adm = 4
@@ -161,8 +161,8 @@ religious_school = hanafi_school
 		mil = 3
 	}
 	heir = {
-		name = "Murad"
-		monarch_name = "Murad II"
+		name = "Murâd"
+		monarch_name = "Murâd II"
 		dynasty = "Osmanoglu"
 		birth_date = 1404.6.1
 		death_date = 1451.2.3
@@ -174,7 +174,7 @@ religious_school = hanafi_school
 }
 1421.6.25 = {
 	monarch = {
-		name = "Murad II"
+		name = "Murâd II"
 		dynasty = Osmanoglu
 		birth_date = 1404.6.1
 		adm = 5
@@ -209,7 +209,7 @@ religious_school = hanafi_school
 }
 1446.1.1 = {
 	monarch = {
-		name = "Murad II"
+		name = "Murâd II"
 		dynasty = Osmanoglu
 		birth_date = 1404.6.1
 		adm = 3
@@ -281,7 +281,7 @@ religious_school = hanafi_school
 	add_ruler_personality = zealot_personality
 	heir = {
 		name = "Selim Yavuz"
-		monarch_name = "Selim I Yavuz"
+		monarch_name = "Selim I"
 		dynasty = "Osmanoglu"
 		birth_date = 1470.10.10
 		death_date = 1520.9.22
@@ -302,13 +302,13 @@ religious_school = hanafi_school
 1493.1.1 = { leader = {	name = "Kucuk Daoud"           	type = admiral	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1506.1.1 } }
 1512.5.2 = {
 	monarch = {
-		name = "Selim I Yavuz"
+		name = "Selim I"
 		dynasty = Osmanoglu
 		birth_date = 1470.10.10
 		adm = 2
 		dip = 4
 		mil = 5
-		leader = { name = "Selîm I Yavuz"         type = general	fire = 5	shock = 4	manuever = 5	siege = 1}
+		leader = { name = "Selim I Yavuz"         type = general	fire = 5	shock = 4	manuever = 5	siege = 1}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strict_personality
@@ -317,7 +317,7 @@ religious_school = hanafi_school
 1512.5.2 = {
 	heir = {
 		name = "Süleyman Kanuni"
-		monarch_name = "Süleyman I Kanuni"
+		monarch_name = "Süleyman I"
 		dynasty = "Osmanoglu"
 		birth_date = 1494.11.6
 		death_date = 1566.9.8
@@ -335,8 +335,8 @@ religious_school = hanafi_school
 1520.1.1 = { leader = {	name = "Gazi Husrev"           	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1541.1.1 } }
 1520.9.23 = {
 	monarch = {
-		name = "Süleyman I Kanuni"
-		dynasty = Osmanoglu
+		name = "Süleyman I"
+		dynasty = "Osmanoglu"
 		birth_date = 1494.11.6
 		adm = 6
 		dip = 5
@@ -361,7 +361,6 @@ religious_school = hanafi_school
 		mil = 3
 	}
 }
-1525.1.1 = { leader = {	name = "Barbaros"              	type = admiral		fire = 4	shock = 5	manuever = 5	siege = 0	death_date = 1546.1.1 } }
 1543.1.1 = { leader = {	name = "Salih Reis"            	type = admiral		fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1566.1.1 } }
 1551.1.1 = { leader = {	name = "Uluç Ali"           	type = admiral		fire = 3	shock = 4	manuever = 5	siege = 0	death_date = 1587.1.1 } }
 1551.1.1 = { leader = {	name = "Turgut Reis"			type = admiral		fire = 2	shock = 4	manuever = 5	siege = 0	death_date = 1565.6.23 } }
@@ -385,8 +384,8 @@ religious_school = hanafi_school
 
 1566.9.8 = {
 	heir = {
-		name = "Murad"
-		monarch_name = "Murad III"
+		name = "Murâd"
+		monarch_name = "Murâd III"
 		dynasty = "Osmanoglu"
 		birth_date = 1546.7.6
 		death_date = 1595.1.15
@@ -399,7 +398,7 @@ religious_school = hanafi_school
 
 1574.12.16 = {
 	monarch = {
-		name = "Murad III"
+		name = "Murâd III"
 		dynasty = Osmanoglu
 		birth_date = 1546.7.6
 		adm = 3
@@ -537,8 +536,8 @@ religious_school = hanafi_school
 
 1622.5.20 = {
 	heir = {
-		name = "Murad"
-		monarch_name = "Murad IV"
+		name = "Murâd"
+		monarch_name = "Murâd IV"
 		dynasty = "Osmanoglu"
 		birth_date = 1612.7.26
 		death_date = 1640.2.8
@@ -551,7 +550,7 @@ religious_school = hanafi_school
 
 1623.9.11 = {
 	monarch = {
-		name = "Murad IV"
+		name = "Murâd IV"
 		dynasty = Osmanoglu
 		birth_date = 1612.7.26
 		adm = 4

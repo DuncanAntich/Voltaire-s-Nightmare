@@ -26,18 +26,17 @@ fort_14th = yes
 	controller = TLD
 	remove_core = BDJ
 }
-1085.1.1 = {
-	owner = CAS
-	controller = CAS
-	add_core = CAS
-	add_core = CTL
-	remove_core = TLD
+1086.10.23 = {
+	owner = BDJ
+	controller = BDJ
+	add_core = BDJ
 }
 1091.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = CAS
+	remove_core = TLD
+	remove_core = BDJ
 }
 1143.1.1 = {
 	owner = BDJ
@@ -45,16 +44,23 @@ fort_14th = yes
 	add_core = BDJ
 	remove_core = MOR
 }
+1144.1.1 = {
+	owner = CRD
+	controller = CRD
+	add_core = CRD
+	remove_core = BDJ
+}
 1150.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = BDJ
+	remove_core = CRD
 }
 1228.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CAS
+	add_core = CTL
 	remove_core = MOR
 	religion = catholic
 	culture = castillian

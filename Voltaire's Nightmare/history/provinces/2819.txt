@@ -15,6 +15,8 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
 1080.1.1 = { religion = sunni }
 1152.1.1 = {
@@ -28,12 +30,30 @@ discovered_by = muslim
 	controller = TLC
 	remove_core = MOR
 }
+1337.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1348.1.1 = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+}
+1352.1.1 = { controller = MOR revolt = {} }
+1359.1.1 = {
+	owner = TLC
+	controller = TLC
+	remove_core = MOR
+}
 1424.1.1 = {
 	owner = TUN
 	controller = TUN
 	add_core = TUN
 }
-1509.1.6 = {
+1489.1.1 = {
 	owner = TLC
 	controller = TLC
 	remove_core = TUN
@@ -51,5 +71,3 @@ discovered_by = muslim
 	add_core = FRA
 	remove_core = TUR
 }
-discovered_by = nomad_group
-discovered_by = north_american

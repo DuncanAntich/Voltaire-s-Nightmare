@@ -6,10 +6,19 @@ technology_group = eastern
 capital = 2419
 fixed_capital = 2419
 
+#1138.10.28 under SIL
+#1146.1.1 under MAZ
+#1173.1.5 under WKP
+#1177.1.1 under SDZ
+#1227.11.24 under WRC
+#1243.1.1 under SDZ
+#1288.9.30 under WRC
+#1290.6.23 under WKP
+#1291.1.1 under BOH
+#1300 changes to POL
 1530.1.1 = { government = administrative_monarchy }
 1540.1.1 = { government = administrative_republic }
 1750.1.1 = { government = constitutional_republic }
-
 1815.5.3 = {
 	monarch = {
 		name = "National Assembly"

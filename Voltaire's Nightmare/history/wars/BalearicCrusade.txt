@@ -12,10 +12,11 @@ war_goal = {
 	add_attacker = URG
 	add_attacker = CDY
 	add_attacker = EMP
-	add_attacker = PLL
+	add_attacker = PJA
+	add_attacker = PSA
 	add_attacker = LGU
 	add_attacker = PAP
-	add_defender = MLL
+	add_defender = MYU
 	add_defender = MOR
 }
 
@@ -27,9 +28,10 @@ war_goal = {
 	rem_attacker = URG
 	rem_attacker = CDY
 	rem_attacker = EMP
-	rem_attacker = PLL
+	rem_attacker = PJA
+	rem_attacker = PSA
 	rem_attacker = LGU
 	rem_attacker = PAP
-	rem_defender = MLL
+	rem_defender = MYU
 	rem_defender = MOR
 }

@@ -34,6 +34,16 @@ discovered_by = ottoman
 	religion = catholic
 	culture = castillian
 }
+1091.1.1 = {
+	owner = CTL
+	controller = CTL
+	remove_core = CAS
+}
+1114.4.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+}
 1365.6.1 = {
 	revolt = {
 		type = pretender_rebels

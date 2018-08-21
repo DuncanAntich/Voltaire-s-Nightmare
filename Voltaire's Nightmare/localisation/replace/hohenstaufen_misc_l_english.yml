@@ -13,6 +13,7 @@
  building_arsenal: "Hospice"
  building_college: "College"
 #Misc
+ CRUSADES_ENDED: "In the Ages of Empire, Absolutism, Revolutions, and Ideology, low religious influence on politics means this action will not be taken seriously."
  take_capital_regain_paria: "Take Capital"
  take_capital_regain_paria_desc: "Taking the enemy's capital will result in the restoration of the paria."
  REGAIN_PARIA_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ war for Tribute"

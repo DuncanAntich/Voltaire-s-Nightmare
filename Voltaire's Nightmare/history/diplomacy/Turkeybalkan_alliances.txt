@@ -112,7 +112,7 @@ vassal = {
 	first = TUN
 	second = TLC
 	start_date = 1468.1.1
-	end_date = 1510.1.1
+	end_date = 1489.1.1
 }
 
 #Autonomous region
@@ -120,13 +120,13 @@ union = {
 	first = TUN
 	second = KBA
 	start_date = 1229.1.1
-	end_date = 1347.1.1
+	end_date = 1285.1.1
 }
 union = {
 	first = TUN
 	second = KBA
-	start_date = 1357.11.1
-	end_date = 1366.1.1
+	start_date = 1318.1.1
+	end_date = 1347.1.1
 }
 
 #Spain takes Tlemcen

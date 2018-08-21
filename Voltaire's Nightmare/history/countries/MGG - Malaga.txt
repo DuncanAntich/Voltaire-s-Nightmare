@@ -1,5 +1,5 @@
 government = iqta
-government_rank = 3
+government_rank = 1
 technology_group = muslim
 primary_culture = andalucian
 religion = sunni
@@ -8,8 +8,9 @@ religious_school = maliki_school
 
 1054.1.1 = {
 	monarch = {
-		name = "Yahya"
-		dynasty = "Hammudid"
+		name = "Yahyâ III"
+		dynasty = "Banû Hammûd"
+		culture = berber
 		adm = 2
 		dip = 4
 		mil = 1
@@ -18,8 +19,9 @@ religious_school = maliki_school
 #done 1058 to GRA
 1073.1.1 = {
 	monarch = {
-		name = "Tamim"
-		dynasty = "Zirid"
+		name = "Tamîm"
+		dynasty = "Banû Zîrî"
+		culture = berber
 		adm = 2
 		dip = 2
 		mil = 2
@@ -28,8 +30,8 @@ religious_school = maliki_school
 #1090 to MOR
 1145.1.1 = {
 	monarch = {
-		name = "Abu'l-Hakam"
-		dynasty = "Hassunid"
+		name = "al-Husayn"
+		dynasty = "Banû Hassûn"
 		adm = 3
 		dip = 2
 		mil = 3
@@ -38,8 +40,9 @@ religious_school = maliki_school
 #1153 to MOR
 1229.1.1 = {
 	monarch = {
-		name = "Ibn Zannun"
-		dynasty = "Zannunid"
+		name = "‘Abd Allâh"
+		dynasty = "Banû Zannûn"
+		culture = berber
 		adm = 2
 		dip = 2
 		mil = 2

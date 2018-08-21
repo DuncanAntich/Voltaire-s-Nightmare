@@ -51,11 +51,29 @@ fort_14th = yes
 	add_core = MOR
 	remove_core = MCA
 }
+1224.9.1 = {
+	owner = JAE
+	controller = JAE
+}
+1226.11.1 = {
+	owner = MOR
+	controller = MOR
+}
+1229.1.1 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+	remove_core = MOR
+}
+1232.7.16 = {
+	owner = JAE
+	controller = JAE
+	remove_core = MCA
+}
 1238.1.1 = {
 	owner = GRA
 	controller = GRA
 	add_core = GRA
-	remove_core = MOR
 }
 1246.1.1 = {
 	owner = CAS

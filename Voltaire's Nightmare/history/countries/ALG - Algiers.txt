@@ -8,8 +8,8 @@ religious_school = maliki_school
 
 1510.1.1 = {
 	monarch = {
-		name = "Salim"
-		dynasty = "Al-Tumi"
+		name = "Sâlim"
+		dynasty = "Banû Tûmî"
 		adm = 1
 		dip = 3
 		mil = 1
@@ -17,8 +17,8 @@ religious_school = maliki_school
 }
 1516.1.1 = {
 	monarch = {
-		name = "Oruc"
-		dynasty = "Yakubid"
+		name = "Ûruq"
+		dynasty = "Yakupoglu"
 		birth_date = 1474.1.1
 		culture = greek
 		adm = 2
@@ -28,20 +28,28 @@ religious_school = maliki_school
 }
 1518.1.1 = {
 	monarch = {
-		name = "Hayreddin Barbarossa"
-		dynasty = "Yakubid"
+		name = "Khidr"
+		dynasty = "Yakupoglu"
 		birth_date = 1478.1.1
 		culture = greek
 		adm = 3
 		dip = 4
 		mil = 5
+		leader = {
+			name = "Barbaros Hayreddin"
+			type = admiral
+			fire = 6
+			shock = 6
+			manuever = 5
+			siege = 0
+		}
 	}
 }
 1525.1.1 = {
 	heir = {
 		name = "Hasan"
 		monarch_name = "Hasan"
-		dynasty = "Yakubid"
+		dynasty = "Yakupoglu"
 		birth_date = 1525.1.1
 		death_Date = 1572.1.1
 		claim = 95

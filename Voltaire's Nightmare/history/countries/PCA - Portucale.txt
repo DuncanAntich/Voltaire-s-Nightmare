@@ -7,13 +7,14 @@ capital = 2951
 
 1050.1.1 = {
 	monarch = {
-		name = "Nuno"
-		dynasty = "Menéndez"
+		name = "Nuno Menéndez"
+		dynasty = "Vímara Peres"
 		adm = 2
 		dip = 2
 		mil = 4
 	}
 }
+#done 1071
 1096.1.1 = {
 	monarch = {
 		name = "Henrique"

@@ -81,6 +81,14 @@ vassal = {
 }
 
 #overlord
+vassal = {
+	first = PIS
+	second = GLL
+	start_date = 1207.1.1
+	end_date = 1288.1.1
+}
+
+#overlord
 union = {
 	first = SIC
 	second = ACH

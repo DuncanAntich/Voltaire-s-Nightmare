@@ -15,28 +15,23 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
 1138.10.28 = {
+	owner = KRA
+	controller = KRA
+	add_core = KRA
+	remove_core = POL
 	base_tax = 6
 	base_production = 6
 	base_manpower = 4
 }
-1232.1.1 = {
+1229.1.1 = {
 	owner = MAZ
 	controller = MAZ
 	add_core = MAZ
-}
-1241.4.9 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-	remove_core = MAZ
-}
-1243.1.1 = {
-	owner = MAZ
-	controller = MAZ
-	add_core = MAZ
-	remove_core = POL
+	remove_core = KRA
 }
 1247.8.31 = {
 	owner = KUJ
@@ -49,13 +44,19 @@ discovered_by = muslim
 	controller = SIR
 	remove_core = KUJ
 }
-1279.4.14 = {
-	owner = POL
-	controller = POL
-	add_core = POL
+1279.12.7 = {
+	owner = KRA
+	controller = KRA
+	add_core = KRA
 	base_tax = 4
 	base_production = 4
 	base_manpower = 3
+}
+1300.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = KRA
 }
 1569.7.1 = {
 	owner = PLC
@@ -87,5 +88,3 @@ discovered_by = muslim
 	owner = RUS
 	add_core = RUS
 }
-discovered_by = nomad_group
-discovered_by = north_american

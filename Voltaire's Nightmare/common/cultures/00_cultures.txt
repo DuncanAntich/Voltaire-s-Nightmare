@@ -495,10 +495,10 @@ latin = {
 			Dalizio Uisono Uratina Domaso Alberti Michiel Francesco "Comulli Petracca"
 			Ivan Toleno Grisogono Cindro Petracca Dujam Kacic Lovretic
 			Mladen Jure Drazoe Arnerio Zane Mijo Matija Komula Stipan Marian Augustin
-			Rados Nikola Pavo Marko Petar Frano Yolando
+			Radoš Nikola Pavo Marko Petar Frano Yolando
 		}
 		dynasty_names = {
-			Ivanisevic Papalli Ivancichio Subic Jurinic 
+			Ivaniševic Papalli Ivancichio Šubic Jurinic 
 			Rajcic Lovretic Zanic Petracca Pocolic Covic
 			Tuscevic Vitkovic Papalic Petrovic Gregolic
 			Maricic Jovanonic Drazoevic Augustinovic
@@ -871,7 +871,7 @@ iberian	= {
 		}
 	}
 	valencian = {
-		primary = VLK
+		primary = AVL
 		male_names = {
 			Aaró Abelard Abraham Absaló Abundi Adalbert Adam Adrià Alaric Albà Albí Aleix Àlvar Àngel Antoni Arnau 
 			Artur Blai Carles Cecili Conrad Dari Dionís Emili Enric Felip Ferran Francés Francesc Fructuós Germà 
@@ -1893,75 +1893,81 @@ maghrebi = {
 	moroccan = {
 		primary = MOR
 		dynasty_names = {
-			Marinid Saadi "al-Shabani" Alaouite Wattassid "al-Dila'i" "al-Murabit" "al-Muwahhid"
+			"Banû Marîn" "Banû Sa‘ad" "Banû Shabân" "Banû ‘Alî" "Banû Wattâs" "Banû Tâ‘Allâh"
+			"Dilâ‘îyya" "al-Murâbit" "al-Muwahhid" "Banû Idrîs" "Banû ‘Imrân" "Banû Ghânîya"
+			"Banû Siqillî" "Banû Maymûn"
 		}
 	}
 	andalucian = {
 		primary = ADU
-		male_names = {
-			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr "'Abd al-Karim" Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
-		}
-		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
-		}
 		dynasty_names = {
-			Nasrid Ummayad Huddid Amirid Mardanisid Jyaddid Yahhafid Dhunnunid Saqlabid Muzaymid Abbadid Axataf
-			Yafranid Isamid Bitruyid Mahfuzid Dammarid Mujahid Aglabid Ghaniyid Tinmalalid Hassunid Hammudid
-			Zannunid Tahirid Hudid Jattabid Sumadid Labbunid Ahlid Yuzaid Birzalid Darddusid Hayyid Wazirid
-			Aftasid Razinid Jizrunid Idrisid Qasimid Sumadihid "al-Mundirid"
+			"Banû Adha" "Banû Nasr" "Banû Umayya" "Banû Birzâl" "Banû Darddus" "Banû Dhî‘n-Nûn"
+			"Banû ‘Âmirî" "Banû Isam" "Banû Muzaym" "Banû Mundhir" "Banû Hud" "Banû Bitrûyî"
+			"Banû Mahfuz" "Banû ‘Abbâd" "Banû Marwân" "Banû Abû ‘Alî" "Banû Sabûr" "Banû ‘Abd Allâh"
+			"Banû Qâsim" "Banû Jizrûn" "Banû Hammûd" "Banû Hassûn" "Banû Zannûn" "Banû Hakam"
+			"Banû Sumâdih" "Banû Ramîmi" "Banû Labbûn" "Banû Miqdam" "Banû Ahli" "Banû Yâsîn"
+			"Banû Yamlul" "Banû Hamûshk" "Banû Juzayy" "Banû Malyan" "Banû Jahhaf" "Banû ‘Jyadd"
+			"Banû Mardanîsh" "Banû Tâhir" "Banû ‘Ammâr" "Banû Rashîq" "Banû Hayy" "Banû Faray"
+			"Banû Jusanî" "Banû Khattâb" "Banû Aftas" "Banû Wazîr" "Banû Jahwar" "Banû Hamdân"
+			"Banû Hasan" "Banû Dammarî" "Banû Hamar" "Banû Galbun" "Banû Razîn" "Banû Affan" "Banû Tut"
+			Murîdîyya
 		}
 	}
 	tunisian = {
 		primary = TUN
 		dynasty_names = {
-			Hafsid Karamanli Muradid Husainid Zirid Khurasanid "Banu Muhammad" Timnahid Mankutid Awwasid
+			"Banû Hafs" "Banû Murâd" "Banû Husayn" "Banû Zîrî" "Banû Khurâsan"
+			"Banû Muhammad" "Banû Timnah" "Banû Mankut" "Banû ‘Awwâs" "Banû Aghlab"
+			"Banû Fihrî" "Banû Muhallab" "Banû Fâtimah"
 		}
 	}
 	algerian = {
 		primary = ALG
 		dynasty_names = {
-			"Beni Djellab" "Ouled Nail" "Ouled Sidi Cheikh" "Banu Rashid" "Banu Kinanah" Shammar "Ait Djennad"
-			"Ait Iraten" "Ait Idjer"
+			"Banû Jallab" "Banû Naïl" "Banû Shaykh" "Banû Râshid"
+			"Banû Jennad" "Banû Irraten" "Banû Ijer" "Banû Kinanah"
+			"Banû Tûmî" "Banû Ya‘qûb" "Banû Sanhâja"
 		}
 	}
 	berber = {
 		primary = TLC
 		dynasty_names = {
-			"Banu Ifran" Meghrawid Jarawid Hakamid Zayyanid Marinid
-			Atfayyish "Beni Isguen" Mzabi
+			"Banû Ifrân" "Banû Maghrawa" "Banû Jaraw" "Banû Hakam"
+			"Banû Atfayyish" "Banû Isguen" "Banû Mzab" "Banû Zayyân"
+			"Banû Tujin" "Banû Sanasin" "Banû Fenazza" "Banû Khenafsa"
+			"Banû Aghwat" "Banû Nasur" "Banû Sulaymân" "Banû Riyah"
+			"Banû Jami" "Banû Rand" 
 		}
 	}
 	kabyle = {
 		primary = KBA
 		dynasty_names = {
-			"al-Ilighi" "al-Tadsi" "al-Malshuti" "al-Afdali" Maatka
-			Tabghurin Mokrani Hammadid Boukhetouche "ben el-Kadhi"
+			Ilighiyya "Banû Tads" "Banû Malshut" "Banû Afdal" "Banû Maatka"
+			"Banû Muqran" "Banû Hammad" "Banû al-Qâdî" "Banû Nemencha"
+			"Banû Madhî" "Banû Bûqut" "Banû Aïssi" "Banû ‘Aqwasha"
 		}
 	}
 	male_names = {
-		"Abu Abdallah" "Abu Abbas Ahmad" "Abu Tashufin" "Abu Hammu" "Abu Muh" "Abu Zayyan" "Abu Malek" "Abul Hadjdjadj"
-		"Abu Thabid" "Abu Said" "'Abd al-Karim" Barakat Basir Dawud Faris Haidar Hashim Jabbar 
-		Junayd Najib Qasim Rahim Rashîd Safi Sakhr Wahid Zahir Jamal Mustafa Muzaffaraddin N'Guna Nasr Nazar Niptasan 
-		Nizamaddin Ptolemee Ptolemy Qutaiba Rashid Sa'id Salah Salla Salomon Solomon Sammer Sayyid Seghada Sekla Shamsaddin 
-		Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T'ar'iq Tabat Tacfin Taffounnout Tahir Takfarinas Tanan Tariq 
-		Tegama Thabitah Tifan Theophanus Tiljad Ugdada Ugwistan Umar Umar Uqess'un Uregh Urtilian Urz'ig Uzmir Uzza Wahab 
-		Watt'as Xamida Yabdas Yaghmurasen Yahya Yahya Yattuy Yeften Yeh'lem Yiliyen Yuba Yugerten Yugurthen Youkhanna John 
-		Yunes Yusuf Joseph Yuva Z'effun Zafir Zalelsan Zayar Zer'wal Zigza Ziri Zubeyr
+		Tâshfîn Hâmmu Muh Zayyân Malek al-Hajjaj Sa‘îd "‘Abd al-Karim" Barakat Basir Dâwûd Fâris Haiyar Hâshim Jabbar 
+		Junayd Najib Qâsim Rahim Rashîd Safi Sakhr Wahid Zahir Jamal Mustafa "Muzaffar ad-Dîn" N‘Guna Nasr Nazar Niptasan 
+		"Nizam ad-Dîn" Ptolemee Qutaiba Salâh Sulaymân Sammer Seghada Sekla "Shams ad-Dîn" 
+		Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T‘ar‘iq Tabat Taffunnut Tâhir Takfarinas Tanan Tariq 
+		Tegama Thabitah Tifan Tiljad Ugdada Ugwistan ‘Umar Uqess‘un Uregh Urtilian Urz‘ig Uzmir Uzza Wahab 
+		Watt‘âs Xamida Yabdas Yaghmurâsan Yahyâ Yattuy Yeften Yeh‘lem Yiliyen Yuba Yugerten Youkhanna 
+		Yunes Yûsuf Yuva Z‘effun Zafir Zalelsan Zayar Zer‘wal Zigza Zîrî Zubayr
+		‘Alî Sa‘d ‘Ismâ‘îl Ayman Fahd Fârûq Haydar Husam Iqbal Ja‘far Jamal Khaliq Malik Mansûr Mustafa Najib Qusay 
+		Samir Firdaus Fu‘âd ‘Abbâd ‘Abbâs "‘Abd Allâh" "‘Abd al-‘Azîz" "‘Abd al-Hakam" "‘Abd al-Hasan" Hasan "‘Abd al-Hazm"
+		"‘Abd ar-Rahman" "‘Abd al-Razzaq" Abû "Abû Bakr" Adfuns Ahmad ‘Amîr Ayyûb Balashk Bilal Fadl Fath Galind Garsiya
+		Hakam Hilal Ibrâhîm Jyad Lubb Ma‘n Mubâssir Muhammad Mundhir Mûsâ Mujâhid Raf Rasiq Sanyo Siddray Sulaymân
+		Tifilwit ‘Uthmân Wannaqo Yahaff
 	}
 	female_names = {
-		Randa Tabassum 	Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya Fariza Fedada 
+		‘Alîya Fahima Haifa Abda Ahu Aiza Butayna Daniyah Dima Fahra Fahriya Fâtimah Gamila Ghada Habiba Huda 
+		Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+		Raisa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+		Randa Tabassum Dinara Dua Durra Durriyya Edza Eleonorka Faghissa Fariza Fedada 
 		Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi 
-		Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh'r'ict Tureght 
+		Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh‘r‘ict Tureght 
 	}
 }
 
@@ -1972,13 +1978,13 @@ oghuz = {
 		male_names = {
 			Mehmet Mustafa Murat Ahmet Selim Osman Mahmut Süleyman Bayezid Orhan Abdulaziz Abdülhamit Ibrahim 
 			Abdülmecit Abdullah Cem Cihangir Alaattin Isa Musa Ömer Seyfettin Yakup Yusuf Giyasettin Numan 
-			Ali Davut Hasan Hüseyin Ishak Kamer Kasim Korkut Emin Iskender Halil Sait Hamit Ertugrul Izzettin 
+			Ali Davut Hüseyin Ishak Kamer Kasim Korkut Emin Iskender Halil Sait Hamit Ertugrul Izzettin 
 			Nizamettin Sinan Ferhat Salih Ismail Cüneyt Bahadir Hizir Harun Cemal Inal Celalettin Ilyas 
 			Dursun Ramazan Recep Abdulrahman Hayrettin
 			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz 
 			Aydin Aydogan Aydogdu Aytekin Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars 
 			Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend Davud David 
-			Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan Hasan Hizir Ibrahim Ilgazi 
+			Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan Hizir Ibrahim Ilgazi 
 			Inal Iskender Alexander Kurboga Kaikaus Kaikhusraw Kaiqobad Kara Karatay Kasim Kaya Kaytun 
 			Kemal Kiliç Korkut Kutalmis Kutay Kutlug Mursel Mahmud Mehmed Meliksah Mengucek Mesud Murad 
 			Mustafa Orhan Osman Porsuk Rustem Ramazan Ridvan Söbuk Sökmen Sönmez Suleyman Saim Saltuk 

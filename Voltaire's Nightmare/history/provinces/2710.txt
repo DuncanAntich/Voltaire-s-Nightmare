@@ -1,5 +1,5 @@
-owner = TUN
-controller = TUN
+owner = IFQ
+controller = IFQ
 culture = maltese 
 religion = sunni 
 hre = no 
@@ -9,7 +9,7 @@ trade_goods = linen
 base_manpower = 0
 capital = "Pantelleria" 
 is_city = yes
-add_core = TUN
+add_core = IFQ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -19,7 +19,7 @@ discovered_by = ottoman
 	owner = TNC
 	controller = TNC
 	add_core = TNC
-	remove_core = TUN
+	remove_core = IFQ
 	religion = catholic
 }
 1130.12.25 = {

@@ -1,5 +1,5 @@
 government = iqta
-government_rank = 5
+government_rank = 1
 technology_group = muslim
 primary_culture = andalucian
 religion = sunni
@@ -12,8 +12,8 @@ religious_school = maliki_school
 		duration = -1
 	}
 	monarch = {
-		name = "Ahmad al-Muqtadir"
-		dynasty = "Huddid"
+		name = "Ahmad I"
+		dynasty = "Banû Hud"
 		adm = 2
 		dip = 2
 		mil = 4
@@ -21,8 +21,8 @@ religious_school = maliki_school
 }
 1081.1.1 = {
 	monarch = {
-		name = "Yusuf"
-		dynasty = "Huddid"
+		name = "Yûsuf"
+		dynasty = "Banû Hud"
 		adm = 6
 		dip = 3
 		mil = 3
@@ -32,8 +32,8 @@ religious_school = maliki_school
 }
 1085.1.1 = {
 	monarch = {
-		name = "Ahmad"
-		dynasty = "Huddid"
+		name = "Ahmad II"
+		dynasty = "Banû Hud"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -44,10 +44,10 @@ religious_school = maliki_school
 }
 #only in Rueda
 1110.1.1 = {
-	capital = 1193
+	capital = 4312
 	monarch = {
-		name = "Abd al-Malik"
-		dynasty = "Huddid"
+		name = "‘Abd al-Malik"
+		dynasty = "Banû Hud"
 		adm = 3
 		dip = 5
 		mil = 2
@@ -55,11 +55,11 @@ religious_school = maliki_school
 }
 1130.1.1 = {
 	monarch = {
-		name = "Jafar Ahmed"
-		dynasty = "Huddid"
+		name = "Ahmad III"
+		dynasty = "Banû Hud"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-#1139 to ARA
+#1131 to ARA

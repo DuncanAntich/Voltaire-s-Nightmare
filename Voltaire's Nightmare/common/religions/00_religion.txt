@@ -804,8 +804,8 @@ christian = {
 	}
 	
 	anglican = {
-		color = { 229 102 76 }
-		icon = 40
+		color = { 135 77 255 }
+		icon = 28
 		allowed_center_conversion = {
 			catholic
 		}

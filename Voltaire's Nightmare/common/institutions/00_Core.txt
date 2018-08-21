@@ -2091,6 +2091,7 @@ manufactories = {
 			has_building = textile
 			has_building = plantations
 			has_building = tradecompany
+			has_building = mills
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
@@ -2135,10 +2136,8 @@ manufactories = {
 					trade_goods = naval_supplies
 					trade_goods = fish
 					trade_goods = salt
-					trade_goods = lumber
 					trade_goods = hemp
 					trade_goods = wax
-					trade_goods = slaves
 				}
 			}
 			has_building = wharf
@@ -2152,10 +2151,8 @@ manufactories = {
 					trade_goods = iron
 					trade_goods = steel
 					trade_goods = tin
-					trade_goods = gold
 					trade_goods = plumbum
 					trade_goods = munitions
-					trade_goods = horses
 				}
 			}
 			has_building = weapons
@@ -2169,10 +2166,7 @@ manufactories = {
 					trade_goods = linen
 					trade_goods = silk
 					trade_goods = carmine
-					trade_goods = books
 					trade_goods = carpet
-					trade_goods = livestock
-					trade_goods = fur
 				}
 			}
 			has_building = textile
@@ -2183,12 +2177,10 @@ manufactories = {
 			potential = {
 				OR = {
 					trade_goods = rice
-					trade_goods = grain
 					trade_goods = peaches
 					trade_goods = bananas
 					trade_goods = corn
 					trade_goods = sugar
-					trade_goods = beer
 					trade_goods = olive
 				}
 			}
@@ -2200,16 +2192,43 @@ manufactories = {
 			potential = {
 				OR = {
 					trade_goods = ivory
-					trade_goods = amber
-					trade_goods = glassware
-					trade_goods = chinaware
-					trade_goods = wine
-					trade_goods = marble
+					trade_goods = slaves
+					trade_goods = fur
 					trade_goods = honey
 					trade_goods = cheese
+					trade_goods = gold
 				}
 			}
 			has_building = tradecompany
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				OR = {
+					trade_goods = grain
+					trade_goods = livestock
+					trade_goods = wine
+					trade_goods = beer
+					trade_goods = horses
+				}
+			}
+			has_building = farm_estate
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				OR = {
+					trade_goods = books
+					trade_goods = amber
+					trade_goods = lumber
+					trade_goods = glasswave
+					trade_goods = chinaware
+					trade_goods = marble
+				}
+			}
+			has_building = mills
 		}
 		modifier = {
 			factor = 5

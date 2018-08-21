@@ -1,6 +1,5 @@
 owner = BRC
 controller = BRC
-add_core = CAT
 culture = catalan
 religion = catholic 
 hre = no
@@ -47,6 +46,7 @@ add_permanent_province_modifier = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
+	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

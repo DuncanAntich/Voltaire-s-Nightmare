@@ -27,24 +27,40 @@ discovered_by = ottoman
 	remove_core = SEV
 }
 1143.1.1 = {
-	owner = COA
-	controller = COA
-	add_core = COA
+	owner = BDJ
+	controller = BDJ
+	add_core = BDJ
 	remove_core = MOR
+}
+1144.1.1 = {
+	owner = CRD
+	controller = CRD
+	remove_core = BDJ
 }
 1150.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
-	remove_core = COA
 }
-1236.2.7 = {
+1234.1.1 = {
+	owner = CRD
+	controller = CRD
+	remove_core = MOR
+}
+1234.12.1 = {
+	owner = JAE
+	controller = JAE
+}
+1235.1.1 = {
+	owner = CRD
+	controller = CRD
+}
+1236.6.29 = {
 	owner = CAS
 	controller = CAS
 	add_core = CCR
 	add_core = CAS
 	remove_core = CRD
-	remove_core = MOR
 	religion = catholic
 }
 1366.1.1 = {

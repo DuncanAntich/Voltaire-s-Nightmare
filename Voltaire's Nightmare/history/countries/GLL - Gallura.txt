@@ -9,7 +9,7 @@ fixed_capital = 1187
 1040.1.1 = {
 	monarch = {
 		name = "Ubaldo"
-		dynasty = "di Gallura"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 1
@@ -18,7 +18,7 @@ fixed_capital = 1187
 1065.1.1 = {
 	monarch = {
 		name = "Constantino I"
-		dynasty = "della Gherardesca"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 3
@@ -27,7 +27,7 @@ fixed_capital = 1187
 1080.1.1 = {
 	monarch = {
 		name = "Torchitorio"
-		dynasty = "de Zori"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -36,7 +36,7 @@ fixed_capital = 1187
 1100.1.1 = {
 	monarch = {
 		name = "Ittocorre"
-		dynasty = "de Gunale"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -45,7 +45,7 @@ fixed_capital = 1187
 1116.1.1 = {
 	monarch = {
 		name = "Constantino II"
-		dynasty = "de Gunale"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -54,7 +54,7 @@ fixed_capital = 1187
 1133.1.1 = {
 	monarch = {
 		name = "Comita"
-		dynasty = "de Gunale"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -63,7 +63,7 @@ fixed_capital = 1187
 1146.1.1 = {
 	monarch = {
 		name = "Constantino III"
-		dynasty = "de Gunale"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -72,7 +72,7 @@ fixed_capital = 1187
 1170.1.1 = {
 	monarch = {
 		name = "Barisone"
-		dynasty = "de Gunale"
+		dynasty = "de Lacon"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -81,11 +81,52 @@ fixed_capital = 1187
 1203.1.1 = {
 	monarch = {
 		name = "Elene"
-		dynasty = "de Gunale"
+		dynasty = "de Lacon"
 		female = yes
 		adm = 2
 		dip = 3
 		mil = 1
 	}
 }
-#done 1207
+#Pisans in power
+1207.1.1 = {
+	monarch = {
+		name = "Lamberto"
+		dynasty = "Visconti"
+		culture = tuscan
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1225.1.1 = {
+	monarch = {
+		name = "Ubaldo"
+		dynasty = "Visconti"
+		culture = tuscan
+		adm = 2
+		dip = 5
+		mil = 0
+	}
+}
+1238.1.1 = {
+	monarch = {
+		name = "Giovanni"
+		dynasty = "Visconti"
+		culture = tuscan
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1275.1.1 = {
+	monarch = {
+		name = "Nino"
+		dynasty = "Visconti"
+		culture = tuscan
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+#done 1288

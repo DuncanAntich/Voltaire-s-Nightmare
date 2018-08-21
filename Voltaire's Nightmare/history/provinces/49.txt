@@ -22,16 +22,6 @@ discovered_by = muslim
 	add_core = WKP
 	remove_core = POM
 }
-1173.1.5 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-}
-1177.1.1 = {
-	owner = WKP
-	controller = WKP
-	remove_core = POL
-}
 1234.1.1 = {
 	owner = WRC
 	controller = WRC

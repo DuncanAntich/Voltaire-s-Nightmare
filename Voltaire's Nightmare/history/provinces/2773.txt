@@ -57,7 +57,6 @@ fort_14th = yes
 1356.1.1 = {
 	owner = EPI
 	controller = EPI
-	add_core = EPI
 	remove_core = WTH
 }
 1359.5.1 = {

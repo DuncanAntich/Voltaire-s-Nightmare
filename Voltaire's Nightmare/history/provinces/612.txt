@@ -33,6 +33,16 @@ fort_14th = yes
 	add_core = ATH
 	remove_core = BDN
 }
+1416.1.1 = {
+	owner = ATH
+	controller = ATH
+	remove_core = TUR
+}
+1423.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
 1555.1.1 = { unrest = 5  }
 1556.1.1 = { unrest = 0 }
 1620.1.1 = { unrest = 5 }

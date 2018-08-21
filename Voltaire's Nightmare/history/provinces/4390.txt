@@ -15,12 +15,12 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-1094.1.1 = {
+1095.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR
 }
-1143.1.1 = {
+1116.1.1 = {
 	owner = BDJ
 	controller = BDJ
 	remove_core = MOR

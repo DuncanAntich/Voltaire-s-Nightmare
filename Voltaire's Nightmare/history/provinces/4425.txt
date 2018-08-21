@@ -24,6 +24,7 @@ discovered_by = ottoman
 	owner = MOR
 	controller = MOR
 	add_core = MOR
+	remove_core = SEV
 }
 1143.1.1 = {
 	owner = ARC
@@ -35,20 +36,34 @@ discovered_by = ottoman
 	controller = MOR
 	add_core = MOR
 }
+
+1229.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+	remove_core = ARC
+	remove_core = MOR
+}
+1234.12.1 = {
+	owner = JAE
+	controller = JAE
+}
+1235.1.1 = {
+	owner = SEV
+	controller = SEV
+}
 1238.1.1 = {
 	owner = GRA
 	controller = GRA
 	add_core = GRA
-	remove_core = MOR
-	remove_core = ARC
+	remove_core = SEV
 }
-1248.11.23 = {
+1264.1.1 = {
 	owner = CAS
 	controller = CAS
 	add_core = CSE
 	add_core = CAS
 	remove_core = GRA
-	remove_core = SEV
 	capital = "Prado del Rey"
 }
 1296.1.1 = { religion = catholic }

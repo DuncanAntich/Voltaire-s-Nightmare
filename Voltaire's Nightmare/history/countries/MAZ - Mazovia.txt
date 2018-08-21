@@ -3,7 +3,7 @@ government_rank = 3
 technology_group = eastern
 religion = catholic
 primary_culture = polish
-capital = 1138	# Warsaw
+capital = 1218
 
 #Appanage
 1054.1.1 = {
@@ -53,7 +53,6 @@ capital = 1138	# Warsaw
 		mil = 2
 	}
 }
-#1146 to POL
 1173.1.5 = {
 	monarch = {
 		name = "Leszek I"
@@ -64,7 +63,7 @@ capital = 1138	# Warsaw
 		mil = 2
 	}
 }
-#1186 to POL
+#1186 under SDZ
 1194.5.5 = {
 	monarch = {
 		name = "Konrad I"
@@ -127,6 +126,7 @@ capital = 1138	# Warsaw
 	}
 }
 1262.6.23 = {
+	capital = 1138
 	monarch = {
 		name = "Konrad II"
 		dynasty = "Piast"

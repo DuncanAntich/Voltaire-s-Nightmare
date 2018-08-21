@@ -16,13 +16,17 @@ discovered_by = western
 discovered_by = muslim
 
 1258.1.1 = {
+	owner = GLL
+	controller = GLL
+	add_core = GLL
+}
+1288.1.1 = {
 	owner = PIS
 	controller = PIS
 	add_core = PIS
+	remove_core = GLL
 }
-1324.2.29 = {
-	controller = ARA
-}
+1324.2.29 = { controller = ARA }
 1326.6.1 = {
 	owner = ARA
 	add_core = ARA
