@@ -395,7 +395,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr H�rfagre�tta"
+    				leader = "Haraldr Hårfagreætta"
     				friend = NOL
 				}
 			}
@@ -414,7 +414,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr H�rfagre�tta"
+    				leader = "Haraldr Hårfagreætta"
     				friend = NOL
 				}
 			}
@@ -467,7 +467,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 4
-    				leader = "Haraldr H�rfagre�tta"
+    				leader = "Haraldr Hårfagreætta"
 				}
 			}
 		}
@@ -485,7 +485,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr H�rfagre�tta"
+    				leader = "Haraldr Hårfagreætta"
 				}
 			}
 		}
@@ -2574,8 +2574,8 @@ country_event = {
 				add_manpower = 5
 				add_accepted_culture = greek
 				define_ruler = {
-					name = "Suleyman"
-					dynasty = "Seljuk"
+					name = "Süleyman"
+					dynasty = "Selçukoglu"
 					adm = 4
 					dip = 4
 					mil = 6
