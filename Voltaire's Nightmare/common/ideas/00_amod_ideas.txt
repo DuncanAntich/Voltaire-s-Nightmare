@@ -1,3 +1,41 @@
+AML_ideas = {
+    start = {
+        light_ship_cost = -0.2
+        trade_steering = 0.2
+    }
+    bonus = {
+        trade_efficiency = 0.1
+    }
+    
+    trigger = {
+        tag = AML
+    }
+    free = yes
+    AML_idea_1 = {
+        global_trade_power = 0.1
+    }
+    AML_idea_2 = {
+        shock_damage = 0.1
+    }
+    AML_idea_3 = {
+        reinforce_cost_modifier = -0.1
+        reinforce_speed = 0.1
+    }
+    AML_idea_4 = {
+        papal_influence = 1
+    }
+    AML_idea_5 = {
+        hostile_attrition = 1
+    }
+    AML_idea_6 = {
+        navy_tradition = 1
+        diplomatic_reputation = 1
+    }
+    AML_idea_7 = { 
+        naval_maintenance_modifier = -0.2
+    }
+}
+
 JAI_ideas = {
     start = {
         garrison_size = 0.25
