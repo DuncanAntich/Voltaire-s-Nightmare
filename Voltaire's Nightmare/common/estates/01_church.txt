@@ -743,8 +743,16 @@ estate_church =
 		years_between_use = 20
 		
 		potential = {
-			religion = catholic
-			NOT = { tag = PAP }
+			OR = {
+				AND = {
+					religion = catholic
+					NOT = { tag = PAP }
+				}
+				AND = {
+					religion = catholique
+					NOT = { tag = AVI }
+				}
+			}
 			NOT = { has_disaster = estate_nobility_disaster }
 			NOT = { has_disaster = estate_burghers_disaster }
 		}

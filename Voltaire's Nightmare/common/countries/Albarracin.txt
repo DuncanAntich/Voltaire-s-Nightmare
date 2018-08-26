@@ -57,7 +57,8 @@ monarch_names = {
 }
 
 leader_names = {
-	"d'Azagra" "de Lara" "Banû Razîn"
+	"d'Azagra" "de Lara" Laínez
+	"Banû Qâsim" "Banû Razîn" "Banû Galbun"
 }
 
 ship_names = {  

@@ -33,7 +33,7 @@ military_governors_decision = {
 centralizing_top_government_decision = {
 	empire = celestial_empire
 	emperor = {
-		reduced_liberty_desire = 40
+		reduced_liberty_desire = 25
 		diplomatic_annexation_cost = -1
 	}
 }

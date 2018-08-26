@@ -460,7 +460,7 @@ alliance = {
 vassal = {
 	first = DNA
 	second = MYU
-	start_date = 1018.1.1
+	start_date = 1054.1.1
 	end_date = 1060.1.1
 }
 vassal = {
@@ -572,7 +572,7 @@ vassal = {
 vassal = {
 	first = VLK
 	second = MCA
-	start_date = 1038.1.1
+	start_date = 1054.1.1
 	end_date = 1065.1.1
 }
 vassal = {

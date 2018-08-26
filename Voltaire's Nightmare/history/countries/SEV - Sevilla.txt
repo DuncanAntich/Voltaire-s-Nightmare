@@ -5,6 +5,7 @@ primary_culture = andalucian
 religion = sunni
 capital = 1867
 religious_school = maliki_school
+national_focus = MIL
 
 1042.1.1 = {
 	add_country_modifier = {

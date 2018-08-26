@@ -21,9 +21,9 @@ capital = 1172
 		leader = {	
 			name = "William the Conqueror"
 			type = general
-			fire = 4
-			shock = 4
-			manuever = 1
+			fire = 5
+			shock = 5
+			manuever = 3
 			siege = 6
 		}
 	}

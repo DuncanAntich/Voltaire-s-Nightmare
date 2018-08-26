@@ -57,6 +57,8 @@ monarch_names = {
 
 leader_names = {
 	"von Habsburg" "von Laufenburg" Etichonen
+	"von Lenzburg" "von Kyburg" "von Rheinfelden"
+	"von Zurzach" "von Aargau"
 }
 
 ship_names = {

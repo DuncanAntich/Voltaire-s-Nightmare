@@ -51,6 +51,18 @@ union = {
 #Norman counties
 vassal = {
 	first = APL
+	second = GGN
+	start_date = 1045.1.1
+	end_date = 1102.12.21
+}
+vassal = {
+	first = APL
+	second = BJN
+	start_date = 1052.1.1
+	end_date = 1105.1.1
+}
+vassal = {
+	first = APL
 	second = FGA
 	start_date = 1054.6.1
 	end_date = 1071.1.1
@@ -63,21 +75,23 @@ vassal = {
 }
 vassal = {
 	first = APL
-	second = BJN
-	start_date = 1052.1.1
-	end_date = 1105.1.1
-}
-vassal = {
-	first = APL
-	second = GGN
-	start_date = 1045.1.1
-	end_date = 1102.12.21
-}
-vassal = {
-	first = APL
 	second = CHT
 	start_date = 1061.1.1
 	end_date = 1080.6.1
+}
+vassal = {
+	first = APL
+	second = AML
+	start_date = 1073.11.1
+	end_date = 1096.1.1
+}
+
+#Gaeta vassal
+vassal = {
+	first = CPU
+	second = GAE
+	start_date = 1064.10.10
+	end_date = 1140.1.1
 }
 
 #overlord
@@ -321,8 +335,8 @@ alliance = {
 royal_marriage = {         
 	first = MLO
 	second = SAV
-	start_date = 1468.7.6
-	end_date = 1476.12.26 
+	start_date = 1468.7.22
+	end_date = 1476.12.27
 }
 
 # Victor Amadeus III of Sardinia and and Maria Antoniettta of Bourbon

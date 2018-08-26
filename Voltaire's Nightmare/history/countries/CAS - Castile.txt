@@ -48,7 +48,6 @@ add_army_professionalism = 0.1
 
 }
 1072.10.8 = { leader = {	name = "El Cid"	type = general	fire = 4	shock = 5	manuever = 2	siege = 0	death_date = 1094.5.1 } }
-1085.1.1 = { capital = 1208 }
 1109.7.1 = {
 	monarch = {
 		name = "Urraca"
@@ -73,6 +72,7 @@ add_army_professionalism = 0.1
 		mil = 2
 	}
 }
+1114.4.1 = { capital = 1208 }
 1126.3.8 = {
 	monarch = {
 		name = "Alfonso VII"
@@ -620,10 +620,7 @@ add_army_professionalism = 0.1
 		mil = 2
 	}
 }
-
 1422.1.1 = { leader = {	name = "Álvaro de Luna"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1453.6.2 } }
-
-
 1425.1.5 = {
 	heir = {
 		name = "Enrique"
@@ -642,7 +639,6 @@ add_army_professionalism = 0.1
 	add_ruler_personality = zealot_personality
 	add_ruler_personality = well_advised_personality
 }
-
 1447.8.17 = {
 	queen = {
 		country_of_origin = POR
@@ -657,9 +653,7 @@ add_army_professionalism = 0.1
 		mil = 1
 	}
 }
-
 1450.1.1 = { decision = act_of_uniformity decision = blasphemy_act }
-
 1454.7.20 = {
 	monarch = {
 		name = "Enrique IV"
@@ -683,9 +677,6 @@ add_army_professionalism = 0.1
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = infertile_personality
-}
-
-1454.7.20 = {
 	heir = {
 		name = "Isabel"
 		monarch_name = "Isabel I"
@@ -699,10 +690,8 @@ add_army_professionalism = 0.1
 		female = yes
 	}
 }
-
-1474.12.11 = { capital = 2720 } # Castilla La Vieja
-
 1474.12.11 = {
+	capital = 2720
 	monarch = {
 		name = "Isabel I"
 		dynasty = "de Trastámara"
@@ -729,7 +718,6 @@ add_army_professionalism = 0.1
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = well_advised_personality
 }
-
 1479.11.6 = {
 	heir = {
 		name = "Juana"
@@ -744,11 +732,8 @@ add_army_professionalism = 0.1
 		female = yes
 	}
 }
-
 1491.1.1 = { leader = {	name = "Fadrique Álv. de Toledo"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1516.1.23 } }
-
 1495.1.1 = { leader = {	name = "El Gran Capitán"       	type = general	fire = 6	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.2 } }
-
 1504.11.26 = {
 	monarch = {
 		name = "Juana I"
@@ -774,7 +759,6 @@ add_army_professionalism = 0.1
 	clear_scripted_personalities = yes
 	add_ruler_personality = babbling_buffoon_personality
 }
-
 1506.7.12 = {
 	monarch = {
 		name = "Felipe I"

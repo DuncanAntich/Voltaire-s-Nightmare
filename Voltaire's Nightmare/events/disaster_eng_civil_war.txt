@@ -177,7 +177,10 @@ country_event = {
 		}
 		NOT = { exists = SCO }
 		any_owned_province = {
-			region = scotland_region
+			OR = {
+				region = scotland_region
+				region = highlands_region
+			}
 			OR = {
 				religion = catholic
 				religion = catholique
@@ -199,10 +202,13 @@ country_event = {
 	
 	option = {			# Give in to their demands
 		name = "flavor_eng.EVTOPTA9228"
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 80 }
 		every_owned_province = {
 			limit = {
-				region = scotland_region
+				OR = {
+					region = scotland_region
+					region = highlands_region
+				}
 				OR = {
 					religion = catholic
 					religion = catholique
@@ -213,10 +219,13 @@ country_event = {
 	}
 	option = {			# Who are they to demand anything!
 		name = "flavor_eng.EVTOPTB9228"
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 20 }
 		every_owned_province = {
 			limit = {
-				region = scotland_region
+				OR = {
+					region = scotland_region
+					region = highlands_region
+				}
 			}
 			spawn_rebels = {
 				type = pretender_rebels
@@ -244,7 +253,10 @@ country_event = {
 		}
 		NOT = { exists = SCO }
 		any_owned_province = {
-			region = scotland_region
+			OR = {
+				region = scotland_region
+				region = highlands_region
+			}
 			OR = {
 				religion = catholic
 				religion = catholique
@@ -266,10 +278,13 @@ country_event = {
 	
 	option = {			# Give in to their demands
 		name = "flavor_eng.EVTOPTA9229"
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 80 }
 		every_owned_province = {
 			limit = {
-				region = scotland_region
+				OR = {
+					region = scotland_region
+					region = highlands_region
+				}
 				OR = {
 					religion = catholic
 					religion = catholique
@@ -281,10 +296,13 @@ country_event = {
 
 	option = {			# Who are they to demand anything!
 		name = "flavor_eng.EVTOPTB9229"
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 20 }
 		every_owned_province = {
 			limit = {
-				region = scotland_region
+				OR = {
+					region = scotland_region
+					region = highlands_region
+				}
 			}
 			spawn_rebels = {
 				type = pretender_rebels
@@ -421,7 +439,7 @@ country_event = {
 		}
 		random_owned_province = {
 			limit = {
-				region = westireland_region
+				region = munster_region
 				unrest = 1
 			}
 			set_province_flag = irish_rebellion
@@ -482,7 +500,7 @@ country_event = {
 		}
 		random_owned_province = {
 			limit = {
-				region = westireland_region
+				region = munster_region
 				unrest = 1
 			}
 			set_province_flag = irish_rebellion

@@ -247,5 +247,6 @@ fixed_capital = 655
 	}
 }
 #1409 PU under Narbonne
-#1410.3.4 done
+1410.3.4 = { capital = 530 }
 1417.10.18 = { religion = catholic }
+1420.8.17 = { capital = 655 }

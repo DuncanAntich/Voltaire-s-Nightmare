@@ -41,22 +41,36 @@ treviso_region = {
 	}
 }
 
-ireland_region = {
-	areas = {		
+northern_ireland_region = {
+	areas = {
 		tyrone_area
 		ulster_area
+		tyrconnell_area
+	}
+}
+
+ireland_region = {
+	areas = {		
 		kildare_area
 		meath_area
 		leinster_area
+		offaly_area
 	}
 }
 
 westireland_region = {
 	areas = {
 		connacht_area
-		desmond_area
 		munster_area
 		sligo_area
+	}
+}
+
+munster_region = {
+	areas = {
+		desmond_area
+		mhumhain_area
+		ormond_area
 	}
 }
 
@@ -608,16 +622,26 @@ scotland_region = {
 	areas = {
 		ayrshire_area
 		edinburgh_area
+		galloway_area
+		berwick_area
+	}
+}
+
+highlands_region = {
+	areas = {
 		argyll_area
 		hebrides_area
 		fife_area
+		morvern_area
+		angus_area
 	}
 }
 
 northumbria_region = {
 	areas = {
 		yorkshire_area
-		lancashire_area
+		east_riding_area
+		west_riding_area
 		cumberland_area
 		northumberland_area
 	}
@@ -626,8 +650,26 @@ northumbria_region = {
 midlands_region = {
 	areas = {
 		west_midlands_area
-		east_midlands_area
+		cheshire_area
+		hereford_area
+		gloucester_area
+		lancashire_area
+	}
+}
+
+east_midlands_region = {
+	areas = {
 		lincoln_area
+		leicester_area
+		east_midlands_area
+	}
+}
+
+east_anglia_region = {
+	areas = {
+		essex_area
+		norwich_area
+		cambridge_area
 	}
 }
 
@@ -635,16 +677,16 @@ southeast_england_region = {
 	areas = {
 		middlesex_area
 		north_middlesex_area
-		norwich_area
-		essex_area
+		kent_area
+		sussex_area
 	}
 }
 
 southwest_england_region = {
 	areas = {
 		wessex_area
-		sussex_area
 		devon_area
+		cornwall_area
 		somerset_area
 	}
 }
@@ -653,6 +695,8 @@ wales_region = {
 	areas = {
 		walesnorth_area
 		walessouth_area
+		montgomery_area
+		carmarthen_area
 	}
 }
 
@@ -660,6 +704,7 @@ normandy_region = {
 	areas = {
 		normandy_area
 		caux_area
+		cotentin_area
 		alencon_area
 	}
 }
@@ -667,6 +712,7 @@ normandy_region = {
 brittany_region = {
 	areas = {
 		penthievre_area
+		raozhon_area
 		nantes_area
 		britnorth_area
 		britsouth_area
@@ -677,6 +723,7 @@ angevin_region = {
 	areas = {
 		anjou_area
 		maine_area
+		tours_area
 	}
 }
 
@@ -690,16 +737,24 @@ berrichon_region = {
 
 champagne_region = {
 	areas = {
-		champagnesouth_area
 		champagnenorth_area
-		paris_area
+		troyes_area
 		rethel_area
+	}
+}
+
+paris_region = {
+	areas = {
+		paris_area
+		chartres_area
+		champagnesouth_area
 	}
 }
 
 burgundy_region = {
 	areas = {
 		nevers_area
+		auxerre_area
 		burgundy_area
 		charolais_area
 	}
@@ -708,9 +763,17 @@ burgundy_region = {
 gascony_region = {
 	areas = {
 		saintonge_area
-		perigord_area
+		fontenay_area
+		angouleme_area
 		poitou_area
+	}
+}
+
+guyenne_region = {
+	areas = {
+		perigord_area
 		perigordsouth_area
+		rodez_area
 	}
 }
 
@@ -735,7 +798,7 @@ toulouse_region = {
 		narbonne_area
 		toulouse_area
 		montpellier_area
-		rodez_area
+		viviers_area
 	}
 }
 

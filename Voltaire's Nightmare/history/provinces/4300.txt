@@ -28,6 +28,7 @@ discovered_by = muslim
 	controller = ARA
 	add_core = ARA
 	remove_core = BRC
+	add_core = CAT
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }
@@ -38,7 +39,6 @@ discovered_by = muslim
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

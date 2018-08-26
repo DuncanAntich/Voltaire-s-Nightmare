@@ -29,6 +29,7 @@ discovered_by = north_american
 	owner = ARA
 	controller = ARA
 	add_core = ARA
+	add_core = CAT
 }
 1149.10.1 = {
 	owner = URG
@@ -52,7 +53,6 @@ discovered_by = north_american
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

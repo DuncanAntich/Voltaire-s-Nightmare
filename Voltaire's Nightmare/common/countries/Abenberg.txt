@@ -48,7 +48,10 @@ monarch_names = {
 }
 
 leader_names = {
-	"von Abenberg" Ottonen
+	"von Abenberg" Ottonen "von Radenzgau"
+	"von Bechhofen" "von Ebersbach"
+	"von Kapsdorf" "von Pflugsmühle"
+	"von Pippenhof" "von Wassermungenau"
 }
 
 ship_names = {

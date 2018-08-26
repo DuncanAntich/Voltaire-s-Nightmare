@@ -24,6 +24,14 @@ religious_school = maliki_school
 		adm = 2
 		dip = 4
 		mil = 5
+		leader = {
+			name = "Oruç Reis"
+			type = admiral
+			fire = 1
+			shock = 4
+			manuever = 5
+			siege = 0
+		}
 	}
 }
 1518.1.1 = {

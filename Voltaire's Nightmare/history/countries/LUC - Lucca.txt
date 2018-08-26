@@ -81,6 +81,17 @@ add_army_professionalism = 0.05
 		mil = 2
 		female = yes
 	}
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo I"
+		dynasty = "de Bourbon"
+		birth_date = 1799.12.22
+		death_date = 1883.4.16
+		claim = 90
+		adm = 1
+		dip = 2
+		mil = 2
+	}
 }
 1824.3.13 = {
 	monarch = {

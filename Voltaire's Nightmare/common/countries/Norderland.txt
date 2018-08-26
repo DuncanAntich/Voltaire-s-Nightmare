@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 205 42 31 }
 
 historical_idea_groups = {
@@ -41,68 +38,37 @@ historical_units = {
 }
 
 monarch_names = {
-	"Ocko #0" = 20
-	"Onno #0" = 20
-	"Keno #0" = 20
-	"Focko #0" = 10
+	"Huno #0" = 10
+	"Christoph #0" = 10
+	"Edo #0" = 10
+	"Wimke #0" = 10
+	"Lubbe #0" = 10
+	"Ino #0" = 10
+	"Balthasar #0" = 10
+	"Hero #0" = 10
+	"Sibet #0" = 10
+	"Eylwerd #0" = 10
+	"Keno #0" = 10
+	"Hilmer #0" = 10
+	"Ocko #0" = 10
+	"Ulrich #0" = 10
+	"Hicco #0" = 10
+	"Poppo #0" = 10
+	"Evenard #0" = 10
+	"Kanke #0" = 10
+	"Tanne #0" = 10
+	"Cirk #0" = 10
 	"Enno #0" = 10
 	"Edzard #0" = 10
-	"Jancko #0" = 10
-	"Affo #0" = 10
-	"Poppo #0" = 10
-	"Hero #0" = 10
-	"Edo #0" = 10
-	"Folkerus #0" = 10
-	"Reijner #0" = 10
-	"Jelmera #0" = 10
-	"Ulrich #0" = 0
-	"Christian #0" = 0
-	"Rudolf #0" = 0
-	"George #0" = 0
-	"Charles #0" = 0
-	"Albert #0" = 0
-	"Everhard #0" = 0
-	"Adalbert #0" = 0
-	"Albrecht #0" = 0
-	"Burkhard #0" = 0
-	"Johann #0" = 0
-	"Moritz #0" = 0
-	"Dietrich #0" = 0
-	"Gerhard #0" = 0
-	"Wilhelm #0" = 0
-	"Eckbert #0" = 0
-	"Erwin #0" = 0
-	"Gödeke #0" = 0
-	"Gottschalk #0" = 0
-	"Joseph #0" = 0
-	"Julius #0" = 0
-	"Kuno #0" = 0
-	"Reinhard #0" = 0
-	"Siegfried #0" = 0
-	"Thomas #0" = 0
-	"Hendrik #0" = 0
-	"Johan Ernst #0" = 0
-	"Maurits #0" = 0
-	"Koenraad #0" = 0
-	"Eilert #0" = 0
-	"Enhard #0" = 0
-	"Fokke #0" = 0
-	"Friso #0" = 0
-	"Gerulf #0" = 0
-	"Klaes #0" = 0
-	"Klaus #0" = 0
-	"Liudgod #0" = 0
-	"Lubbert #0" = 0
-	"Menfrid #0" = 0
-	"Reginhard #0" = 0
-	"Siemen #0" = 0
-	"Sjoerd #0" = 0
-	"Thiadulf #0" = 0
-	"Wenzel #0" = 0
-	"Wiebe #0" = 0
-	"Wilbrand #0" = 0
-	"Wilfried #0" = 0
-	"Willem #0" = 0
+	"Haro #0" = 10
+	"Wiard #0" = 10
+	"Luerd #0" = 10
+	"Kampo #0" = 10
+	"Hisko #0" = 10
+	"Benno #0" = 10
+	"Ukos #0" = 10
+	"Focko #0" = 10
+	"Amke #0" = 10
 	
 	"Adda #0" = -1
 	"Wobbel #0" = -1
@@ -113,27 +79,22 @@ monarch_names = {
 }
 
 leader_names = { 
-	Abdema Aildesna Tjarksena Cirksena "tom Brok"
-	Onneken Knyphausen Manninga Ukena Allena
-	Wiemken Beninga Störtebeker Michels Wichmann
-	Wigbold Popma Attena  Papinga Douwama Luersma 
-	Thaborita Donia Syrtsema Pijbes Jelckama
-	Syardsna Idzinga Tjerkstra Wynja
-	Banda Barents Bergsma Bonga Donia Dykstra 
-	Eelsma Elsinga Friso Halbertsma
-	Galama Gauma  Japisk Jongstra Jousma
-	Kamminga Kamstra Kiestra Kooistra Martena
-	Riemersma Ripperda Roorda Ewesma
+	Jagersma Nannenga
+	Idzinga Kankena Abdena
+	"tom Brok" Cirksena Ukena
+	Tjarksena Papinga Attena
 }
 
 ship_names = {
-	Elsfleth Hude Hatten Wardenburg Edewecht
-	Zwischenahn Weifelstede Rastede
-	Likedeelers Victualia
+	Norderland Hagermarsch
+	Hage Norderney Baltrum
+	Lütetsburg Großheide
 }
+
 army_names = {
-	"Armee von $PROVINCE$"  }
+	"Leger van $PROVINCE$" 
+}
 
 fleet_names = {  
-	"Flotte von $PROVINCE$" 
+	"Vloot van $PROVINCE$" 
 }

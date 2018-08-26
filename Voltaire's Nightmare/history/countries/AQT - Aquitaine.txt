@@ -4,6 +4,7 @@ technology_group = western
 religion = catholic
 primary_culture = occitain
 capital = 2324
+national_focus = DIP
 historical_friend = FRA
 
 #Avignon

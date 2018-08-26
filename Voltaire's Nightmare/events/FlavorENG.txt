@@ -64,11 +64,23 @@ country_event = {
 		add_country_modifier = {
 			name = eng_opposes_lollards
 			duration = -1
-		}		
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = eng_opposes_lollards
+		}	
+		if = {
+			limit = { religion = catholic }
+			PAP = {
+				add_opinion = {
+					who = ROOT
+					modifier = eng_opposes_lollards
+				}
+			}
+		}	
+		if = {
+			limit = { religion = catholique }
+			AVI = {
+				add_opinion = {
+					who = ROOT
+					modifier = eng_opposes_lollards
+				}
 			}
 		}		
 	}
@@ -93,10 +105,22 @@ country_event = {
 			name = eng_tolerates_lollards
 			duration = -1
 		}
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = eng_tolerates_lollards
+		if = {
+			limit = { religion = catholic }
+			PAP = {
+				add_opinion = {
+					who = ROOT
+					modifier = eng_tolerates_lollards
+				}
+			}
+		}
+		if = {
+			limit = { religion = catholique }
+			AVI = {
+				add_opinion = {
+					who = ROOT
+					modifier = eng_tolerates_lollards
+				}
 			}
 		}
 		if = {

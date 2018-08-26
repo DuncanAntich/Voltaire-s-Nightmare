@@ -69,6 +69,7 @@ monarch_names = {
 
 leader_names = {
 	"d'Alba" Gallizio Fenoglio Bonifacio
+	Fossati Novelli "Della Piana"
 }
 
 ship_names = {

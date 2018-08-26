@@ -68,6 +68,8 @@ leader_names = {
 	"Banû Hafs"
 	"Banû Murâd"
 	"Banû Husayn"
+	"Banû Hammaf"
+	"Banû Rand"
 	"Banû Riyah"
 }
 

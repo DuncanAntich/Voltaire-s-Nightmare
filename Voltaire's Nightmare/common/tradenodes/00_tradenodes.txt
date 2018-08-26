@@ -201,6 +201,7 @@ pisa_node={
 	color={
 		236 47 47 
 	}
+	inland=yes
 	outgoing={
 		name="genua"
 		path={
@@ -255,6 +256,7 @@ sevilla_node={
 	color={
 		120 188 31 
 	}
+	inland=yes
 	outgoing={
 		name="madrid_node"
 		path={
@@ -273,6 +275,7 @@ madrid_node={
 	color={
 		193 171 8 
 	}
+	inland=yes
 	outgoing={
 		name="barcelona_node"
 		path={
@@ -381,6 +384,7 @@ milan_node={
 	color={
 		166 108 146 
 	}
+	inland=yes
 	outgoing={
 		name="zurich_node"
 		path={
@@ -399,6 +403,7 @@ besancon_node={
 	color={
 		250 80 80 
 	}
+	inland=yes
 	outgoing={
 		name="champagne_node"
 		path={
@@ -435,6 +440,7 @@ zurich_node={
 	color={
 		171 138 124 
 	}
+	inland=yes
 	outgoing={
 		name="konstanz_node"
 		path={
@@ -453,6 +459,7 @@ vienna_node={
 	color={
 		220 220 220 
 	}
+	inland=yes
 	outgoing={
 		name="prague_node"
 		path={
@@ -471,6 +478,7 @@ innsbruck_node={
 	color={
 		170 43 21 
 	}
+	inland=yes
 	outgoing={
 		name="augsburg_node"
 		path={
@@ -489,6 +497,7 @@ augsburg_node={
 	color={
 		30 198 141 
 	}
+	inland=yes
 	outgoing={
 		name="stuttgart_node"
 		path={
@@ -516,6 +525,7 @@ konstanz_node={
 	color={
 		18 59 138 
 	}
+	inland=yes
 	outgoing={
 		name="stuttgart_node"
 		path={
@@ -534,6 +544,7 @@ stuttgart_node={
 	color={
 		111 162 128 
 	}
+	inland=yes
 	outgoing={
 		name="frankfurt_node"
 		path={
@@ -552,6 +563,7 @@ nurnberg_node={
 	color={
 		243 112 15 
 	}
+	inland=yes
 	outgoing={
 		name="frankfurt_node"
 		path={
@@ -579,6 +591,7 @@ frankfurt_node={
 	color={
 		243 201 33 
 	}
+	inland=yes
 	outgoing={
 		name="aachen_node"
 		path={
@@ -606,6 +619,7 @@ metz_node={
 	color={
 		165 192 255 
 	}
+	inland=yes
 	outgoing={
 		name="aachen_node"
 		path={
@@ -633,6 +647,7 @@ aachen_node={
 	color={
 		157 51 167 
 	}
+	inland=yes
 	outgoing={
 		name="antwerp_node"
 		path={
@@ -651,6 +666,7 @@ beograd_node={
 	color={
 		116 107 140 
 	}
+	inland=yes
 	outgoing={
 		name="budapest_node"
 		path={
@@ -678,6 +694,7 @@ budapest_node={
 	color={
 		152 85 92 
 	}
+	inland=yes
 	outgoing={
 		name="krakow_node"
 		path={
@@ -696,6 +713,7 @@ lippstadt_node={
 	color={
 		255 211 241 
 	}
+	inland=yes
 	outgoing={
 		name="hamburg_node"
 		path={
@@ -732,6 +750,7 @@ prague_node={
 	color={
 		181 159 60 
 	}
+	inland=yes
 	outgoing={
 		name="leipzig_node"
 		path={
@@ -768,6 +787,7 @@ leipzig_node={
 	color={
 		155 147 180 
 	}
+	inland=yes
 	outgoing={
 		name="hannover_node"
 		path={
@@ -795,6 +815,7 @@ hannover_node={
 	color={
 		164 217 127 
 	}
+	inland=yes
 	outgoing={
 		name="hamburg_node"
 		path={
@@ -831,6 +852,7 @@ berlin_node={
 	color={
 		123 90 90 
 	}
+	inland=yes
 	outgoing={
 		name="danzig_node"
 		path={
@@ -858,6 +880,7 @@ krakow_node={
 	color={
 		215 48 48 
 	}
+	inland=yes
 	outgoing={
 		name="turov_node"
 		path={
@@ -876,6 +899,7 @@ turov_node={
 	color={
 		132 160 94 
 	}
+	inland=yes
 	outgoing={
 		name="riga_node"
 		path={
@@ -957,6 +981,7 @@ tours_node={
 	color={
 		126 124 226 
 	}
+	inland=yes
 	outgoing={
 		name="champagne_node"
 		path={
@@ -984,6 +1009,7 @@ champagne_node={
 	color={
 		95 24 226 
 	}
+	inland=yes
 	outgoing={
 		name="antwerp_node"
 		path={

@@ -159,12 +159,12 @@ country_decisions = {
 				AND = {
 					ai = yes
 					tag = CAS
-					ARA = { NOT = { num_of_cities = 75 } }
+					ARA = { NOT = { num_of_cities = 200 } }
 				}
 				AND = {
 					ai = yes
 					tag = ARA
-					CAS = { NOT = { num_of_cities = 75 } }
+					CAS = { NOT = { num_of_cities = 200 } }
 				}
 			}
 		}
@@ -203,13 +203,13 @@ country_decisions = {
 				AND = {
 					tag = CAS
 					ARA = {
-						NOT = { num_of_cities = 75 }
+						NOT = { num_of_cities = 200 }
 					}
 				}
 				AND = {
 					tag = ARA
 					CAS = {
-						NOT = { num_of_cities = 75 }
+						NOT = { num_of_cities = 200 }
 					}
 				}
 			}

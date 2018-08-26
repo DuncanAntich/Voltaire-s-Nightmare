@@ -40,7 +40,6 @@ country_decisions = {
 			adm_tech = 40	
 			is_at_war = no
 			is_nomad = no
-			culture = catalan
 			owns_core_province = 1955
 			owns_core_province = 2054
 			owns_core_province = 1178

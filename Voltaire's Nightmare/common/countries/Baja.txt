@@ -35,6 +35,10 @@ monarch_names = {
 	"Sidray #0" = 10
 	"‘Abbâs #0" = 10
 	"‘Umar #0" = 10
+	"‘Alî #0" = 5
+	"‘Abd al-Haqq #0" = 5
+	"‘Abd ar-Rahman #0" = 5
+	"‘Abd Allâh #0" = 5
 	
 	"‘Alîya #0" = -1
 	"Fâhima #0" = -1
@@ -42,6 +46,9 @@ monarch_names = {
 }
 
 leader_names = {
+	"Banû Jahwar" "Banû Hamdân"
+	"Banû Hasan" "Banû Ghânîya"
+	"Banû Umayya" "Banû Hayy"
 	"Banû Aftas" "Banû Wazîr"
 }
 

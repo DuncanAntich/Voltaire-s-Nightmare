@@ -101,8 +101,8 @@ foreign_trade_modifier = {
 }
 
 theodosian_walls = {
-	local_defensiveness = 1.0
-	local_hostile_attrition = 2
+	local_defensiveness = 2.0
+	local_hostile_attrition = 3
 	picture = "theodosian_icon"
 }
 
@@ -115,7 +115,7 @@ romuva_prov = {
 hanseatic_city = {
 	province_trade_power_value = 5
 	allowed_num_of_buildings = 1
-	local_development_cost = -0.05
+	local_autonomy = 0.15
 	picture = "hanseatic_icon"
 }
 

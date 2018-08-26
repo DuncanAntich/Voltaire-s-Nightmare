@@ -50,6 +50,8 @@ monarch_names = {
 
 leader_names = {
 	"von Abensberg" "von Ebersberg" Babonen
+	"von Kleedorf" "von Arnhofen" "von Buchhof"
+	"von Gaden" "von Schillhof" "von Lehen"
 }
 
 ship_names = {

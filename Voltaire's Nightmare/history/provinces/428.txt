@@ -24,6 +24,36 @@ fort_14th = yes
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1347.1.1 = { remove_core = LGU }
+1354.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	remove_core = GEN
+}
+1361.1.1 = {
+	owner = AOE
+	controller = AOE
+	add_core = AOE
+	remove_core = ARA
+}
+1409.6.30 = {
+	owner = GEN
+	controller = GEN
+	add_core = GEN
+	remove_core = AOE
+}
+1410.8.9 = {
+	owner = AOE
+	controller = AOE
+	add_core = AOE
+	remove_core = GEN
+}
+1420.8.17 = {
+	owner = GEN
+	controller = GEN
+	add_core = GEN
+	remove_core = AOE
+}
 1448.1.1 = {
 	owner = ARA
 	controller = ARA

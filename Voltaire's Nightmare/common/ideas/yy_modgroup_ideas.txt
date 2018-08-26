@@ -1,3 +1,90 @@
+spanish_ducal_ideas = {
+    start = {
+        stability_cost_modifier = -0.1
+        global_missionary_strength = 0.02
+    }
+    bonus = {
+        galley_cost = -0.2
+    }
+    
+    trigger = {
+        OR = {
+            tag = CTL
+            tag = CSE
+            tag = CJA
+            tag = CCR
+            tag = CGR
+            tag = CMU
+            tag = AVL
+            tag = AGV
+        }
+    }
+    free = yes
+
+    spanish_ducal_idea_1 = {
+        garrison_size = 0.25
+    }
+    spanish_ducal_idea_2 = {
+        leader_land_shock = 1
+    }
+    spanish_ducal_idea_3 = {
+        culture_conversion_cost = -0.1
+        years_of_nationalism = -5
+    }
+    spanish_ducal_idea_4 = {
+        vassal_income = 0.25
+    }
+    spanish_ducal_idea_5 = {
+        build_cost = -0.1
+    }
+    spanish_ducal_idea_6 = {
+        advisor_pool = 1
+    }
+    spanish_ducal_idea_7 = {
+        yearly_corruption = -0.1
+    }
+}
+
+siculo_norman_ideas = {
+    start = {
+        discipline = 0.05
+        tolerance_heretic = 2
+    }
+    bonus = {
+        fire_damage_received = -0.1
+    }
+    
+    trigger = {
+        ruler_culture = normand
+        primary_culture = neapolitan
+    }
+    free = yes
+
+    siculo_norman_idea_1 = {
+        free_leader_pool = 1
+        prestige_from_land = 0.5
+    }
+    siculo_norman_idea_2 = {
+        papal_influence = 1
+    }
+    siculo_norman_idea_3 = {
+        global_missionary_strength = 0.02
+        siege_ability = 0.1
+    }
+    siculo_norman_idea_4 = {
+        global_autonomy = -0.05
+    }
+    siculo_norman_idea_5 = {
+        trade_efficiency = 0.1
+    }
+    siculo_norman_idea_6 = {
+        diplomatic_reputation = 1
+    }
+    siculo_norman_idea_7 = {
+        prestige = 1
+    }
+}
+
 frisian_ideas = {
     start = {
         land_maintenance_modifier = -0.15
@@ -286,7 +373,6 @@ irishclan_ideas = {
             primary_culture = irish
             primary_culture = gallowglass
         }
-        is_tribal = yes
     }
     free = yes
     

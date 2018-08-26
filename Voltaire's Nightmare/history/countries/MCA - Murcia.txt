@@ -5,6 +5,7 @@ primary_culture = andalucian
 religion = sunni
 capital = 267
 religious_school = maliki_school
+historical_rival = VLK
 
 1028.1.1 = {
 	monarch = {

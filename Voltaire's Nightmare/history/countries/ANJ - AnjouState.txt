@@ -11,7 +11,7 @@ capital = 2163
 
 1040.6.21 = {
 	monarch = {
-		name = "Geoffrey II"
+		name = "Geoffroy II"
 		dynasty = "Ingelger"
 		adm = 4
 		dip = 1
@@ -22,7 +22,7 @@ capital = 2163
 }
 1060.1.1 = {
 	monarch = {
-		name = "Geoffrey III"
+		name = "Geoffroy III"
 		dynasty = "d'Anjou"
 		birth_date = 1040.1.1
 		adm = 0
@@ -56,8 +56,8 @@ capital = 2163
 }
 1070.1.1 = {
 	heir = {
-		name = "Geoffrey"
-		monarch_name = "Geoffrey IV"
+		name = "Geoffroy"
+		monarch_name = "Geoffroy IV"
 		dynasty = "d'Anjou"
 		birth_date = 1070.1.1
 		death_date = 1106.5.19
@@ -117,8 +117,8 @@ capital = 2163
 }
 1113.4.24 = {
 	heir = {
-		name = "Geoffrey"
-		monarch_name = "Geoffrey V Plantagenet"
+		name = "Geoffroy"
+		monarch_name = "Geoffroy V Plantagenet"
 		dynasty = "d'Anjou"
 		birth_date = 1113.4.24
 		death_date = 1151.9.7
@@ -130,7 +130,7 @@ capital = 2163
 }
 1129.6.2 = {
 	monarch = {
-		name = "Geoffrey V Plantagenet"
+		name = "Geoffroy V Plantagenet"
 		dynasty = "d'Anjou"
 		birth_date = 1113.4.24
 		adm = 4

@@ -231,6 +231,18 @@ capital = 1818
 		dip = 3
 		mil = 4
 	}
+	queen = {
+		country_of_origin = SAV
+		name = "Bianca"
+		dynasty = "di Savoia"
+		birth_date = 1337.1.1
+		death_date = 1387.12.31
+		culture = arpitan
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
 1378.9.4 = {
 	monarch = {
@@ -354,6 +366,17 @@ capital = 1818
 		dip = 5
 		mil = 5
 	}
+	queen = {
+		country_of_origin = MLO
+		name = "Bianca Maria"
+		dynasty = "Visconti"
+		birth_date = 1423.3.31
+		death_date = 1468.10.28
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 	heir = {
 		name = "Galeazzo Maria"
 		monarch_name = "Galeazzo Maria I"
@@ -374,6 +397,20 @@ capital = 1818
 		adm = 5
 		dip = 1
 		mil = 3
+	}
+}
+1468.7.22 = {
+	queen = {
+		country_of_origin = SAV
+		name = "Bona"
+		dynasty = "di Savoia"
+		birth_date = 1449.8.10
+		death_date = 1503.11.23
+		culture = arpitan
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1469.6.20 = {
@@ -410,7 +447,21 @@ capital = 1818
 		mil = 4
 		leader = { name = "Ludovico Sforza"       	type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
 	}
-}		
+}	
+1489.2.1 = {
+	queen = {
+		country_of_origin = NAP
+		name = "Isabella"
+		dynasty = "de Trastámara"
+		birth_date = 1470.10.2
+		death_date = 1524.2.11
+		culture = neapolitan
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}	
 1494.10.23 = {
 	monarch = {
 		name = "Ludovico I il Moro"
@@ -420,6 +471,18 @@ capital = 1818
 		dip = 5
 		mil = 4
 		leader = { name = "Ludovico Sforza"       	type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
+	}
+	queen = {
+		country_of_origin = FER
+		name = "Beatrice"
+		dynasty = "d'Este"
+		birth_date = 1475.6.29
+		death_date = 1497.1.3
+		culture = emilian
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 2
 	}
 	heir = {
 		name = "Massimiliano"

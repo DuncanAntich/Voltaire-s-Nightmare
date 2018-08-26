@@ -4,6 +4,8 @@ technology_group = muslim
 primary_culture = andalucian
 religion = sunni
 capital = 2024
+religious_school = maliki_school
+historical_rival = MCA
 
 1021.1.1 = {
 	add_country_modifier = {

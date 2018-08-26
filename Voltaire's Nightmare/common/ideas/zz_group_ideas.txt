@@ -242,54 +242,6 @@ german_ideas = {
 	}
 }
 
-
-irish_ideas = {
-	start = {
-		trade_steering = 0.10
-		trade_efficiency = 0.1
-	}
-	
-	bonus = {
-		legitimacy = 1
-	}
-	
-	trigger = {
-		OR = {
-			tag = IRE
-			AND = {
-				OR = {
-					primary_culture = irish
-					primary_culture = gallowglass
-				}
-				is_tribal = no
-			}
-		}
-	}
-	free = yes
-	
-	irish_endurance = {
-		shock_damage_received = -0.1
-	}
-	the_clanns = {
-		stability_cost_modifier = -0.1
-	}
-	more_than_irish = {
-		global_unrest = -2
-	}
-	innefectual_overlords = {
-		global_tax_modifier = 0.10
-	}
-	foreign_nationals = {
-		diplomatic_reputation = 1
-	}
-	loyal_catholics = {
-		papal_influence = 2
-	}
-	unconquerable_ireland = {
-		rebel_support_efficiency = 0.25
- 	}
-}
-
 latin_ideas = {
 	start = {
 		papal_influence = 2

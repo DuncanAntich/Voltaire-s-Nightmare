@@ -66,6 +66,18 @@ country_decisions = {
 				}
 				add_permanent_claim = ENG
 			}
+			east_midlands_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			east_anglia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
 			southeast_england_region = {
 				limit = {
 					NOT = { owned_by = ROOT }

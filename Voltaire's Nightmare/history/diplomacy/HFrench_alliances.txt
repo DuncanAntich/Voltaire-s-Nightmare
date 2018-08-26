@@ -117,7 +117,7 @@ union = {
 	first = NRB
 	second = AOE
 	start_date = 1409.1.1
-	end_date = 1410.3.4
+	end_date = 1420.8.17
 }
 
 # Champagne

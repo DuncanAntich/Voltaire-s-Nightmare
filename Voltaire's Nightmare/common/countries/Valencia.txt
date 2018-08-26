@@ -49,8 +49,11 @@ monarch_names = {
 }
 
 leader_names = {
-	"Banû ‘Âmirî" "Banû ‘Jyadd" "Banû Jahhaf"
-	"Banû Mardanîsh" "Banû Lubbun"
+	"Banû Sumâdih" "Banû Labbûn"
+	"Banû Ahli" "Banû Miqdam"
+	"Banû Isam" "Banû ‘Âmirî"
+	"Banû ‘Jyadd" "Banû Jahhaf"
+	"Banû Mardanîsh"
 }
 
 ship_names = {

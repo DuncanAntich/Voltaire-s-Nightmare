@@ -115,6 +115,17 @@ capital = 1152 # Vilnius
 		dip = 3
 		mil = 2
 	}
+	heir = {
+		name = "Jaunutis"
+		monarch_name = "Jaunutis"
+		dynasty = "Gediminai"
+		birth_date = 1300.1.1
+		death_date = 1367.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
 1341.1.1 = {
 	monarch = {
@@ -134,6 +145,19 @@ capital = 1152 # Vilnius
 		adm = 2
 		dip = 2
 		mil = 2
+	}
+}
+1352.1.1 = {
+	heir = {
+		name = "Jogaila"
+		monarch_name = "Jogaila"
+		dynasty = "Gediminai"
+		birth_date = 1352.1.1
+		death_date = 1434.6.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
 	}
 }
 1377.5.25 = {
@@ -188,7 +212,7 @@ capital = 1152 # Vilnius
 	monarch = {
 		name = "Vytautas"
 		dynasty = "Gediminai"
-		birth_date = 1350.1.1
+		birth_date = 1355.1.1
 		adm = 2
 		dip = 3
 		mil = 0
@@ -210,7 +234,7 @@ capital = 1152 # Vilnius
 	monarch = {
 		name = "Zygimantas"
 		dynasty = "Gediminai"
-		birth_date = 1350.1.1
+		birth_date = 1365.1.1
 		adm = 0
 		dip = 3
 		mil = 1

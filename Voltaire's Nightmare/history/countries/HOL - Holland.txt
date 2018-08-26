@@ -13,6 +13,18 @@ capital = 328	# Amsterdam
 		dip = 2
 		mil = 4
 	}
+	queen = {
+		country_of_origin = SAX
+		name = "Gertrude"
+		dynasty = "Billung"
+		female = yes
+		birth_date = 1030.1.1
+		death_date = 1113.8.4
+		culture = low_elbish
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
 1051.1.1 = {
 	heir = {
@@ -61,6 +73,18 @@ capital = 328	# Amsterdam
 	}
 }
 1113.1.1 = {
+	queen = {
+		country_of_origin = LOR
+		name = "Petronille"
+		dynasty = "de Metz"
+		female = yes
+		birth_date = 1082.1.1
+		death_date = 1144.5.23
+		culture = lorrainian
+		adm = 3
+		dip = 2
+		mil = 2
+	}
 	heir = {
 		name = "Dirk"
 		monarch_name = "Dirk VI"
@@ -294,10 +318,22 @@ capital = 328	# Amsterdam
 	monarch = {
 		name = "Jan II"
 		dynasty = "d'Avesnes"
-		birth_date = 1284.1.1
+		birth_date = 1248.1.1
 		adm = 2
 		dip = 4
 		mil = 3
+	}
+	queen = {
+		country_of_origin = LUX
+		name = "Philippa"
+		dynasty = "von Luxemburg"
+		birth_date = 1252.1.1
+		death_date = 1311.4.6
+		culture = moselle_franconian
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 	heir = {
 		name = "Willem"
@@ -321,6 +357,20 @@ capital = 328	# Amsterdam
 		mil = 2
 	}
 }
+1305.5.19 = {
+	queen = {
+		country_of_origin = VLW
+		name = "Jeanne"
+		dynasty = "de Valois"
+		birth_date = 1294.1.1
+		death_date = 1352.3.7
+		culture = champenois
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1307.1.1 = {
 	heir = {
 		name = "Willem"
@@ -341,6 +391,18 @@ capital = 328	# Amsterdam
 		birth_date = 1307.1.1
 		adm = 2
 		dip = 3
+		mil = 2
+	}
+	queen = {
+		country_of_origin = BRB
+		name = "Johanna"
+		dynasty = "de Reginar"
+		birth_date = 1322.6.24
+		death_date = 1406.11.1
+		culture = brabantian
+		female = yes
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }
@@ -420,6 +482,18 @@ capital = 328	# Amsterdam
 		dip = 2
 		mil = 2
 	}
+	queen = {
+		country_of_origin = BUR
+		name = "Margaret"
+		dynasty = "de Bourgogne"
+		female = yes
+		culture = burgundian
+		birth_date = 1374.10.1
+		death_date = 1441.3.8
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
 1417.5.31 = {
 	monarch = {
@@ -432,4 +506,4 @@ capital = 328	# Amsterdam
 		female = yes
 	}
 }
-1580.1.1 = { government = administrative_republic } # Constitutionalism and the General Estates
+1580.1.1 = { government = administrative_republic }

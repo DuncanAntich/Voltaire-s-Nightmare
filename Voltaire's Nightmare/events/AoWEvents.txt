@@ -1463,6 +1463,7 @@ country_event = {
 			}
 			any_neighbor_province = {
 				has_cardinal = yes
+				religion = ROOT
 				NOT = { owned_by = ROOT }
 			}
 		}
@@ -1499,6 +1500,7 @@ country_event = {
 				development = 10
 				any_neighbor_province = {
 					has_cardinal = yes
+					religion = ROOT
 					NOT = { owned_by = ROOT }
 				}
 			}
@@ -1506,6 +1508,7 @@ country_event = {
 			random_neighbor_province = {
 				limit = {
 					has_cardinal = yes
+					religion = ROOT
 					NOT = { owned_by = ROOT }
 				}
 				remove_cardinal = yes
@@ -1605,14 +1608,14 @@ province_event = {
 		owner = {
 			add_years_of_income = -0.1
 		}
-			random = {
-				chance = 40
-				province_event = {
-					id = aow_events.46
-					days = 180
-					tooltip = "aow_events.45.a.tt"
-				}
+		random = {
+			chance = 40
+			province_event = {
+				id = aow_events.46
+				days = 180
+				tooltip = "aow_events.45.a.tt"
 			}
+		}
 
 	}
 
@@ -1638,10 +1641,22 @@ province_event = {
 	# 
 	option = {
 		name = "aow_events.46.a"
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = bribed_cardinal
+		if = {
+			limit = { religion = catholic }
+			PAP = {
+				add_opinion = {
+					who = ROOT
+					modifier = bribed_cardinal
+				}
+			}
+		}
+		if = {
+			limit = { religion = catholique }
+			AVI = {
+				add_opinion = {
+					who = ROOT
+					modifier = bribed_cardinal
+				}
 			}
 		}
 	}

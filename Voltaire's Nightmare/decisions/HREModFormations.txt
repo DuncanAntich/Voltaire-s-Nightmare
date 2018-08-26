@@ -46,6 +46,12 @@ country_decisions = {
 				}
 				add_permanent_claim = SCO
 			}
+			highlands_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SCO
+			}
 			add_prestige = 10
 			if = {
 				limit = {
@@ -215,6 +221,10 @@ country_decisions = {
 					NOT = { government_rank = 4 }
 				}
 				set_government_rank = 4
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			if = {
 				limit = {
@@ -709,6 +719,10 @@ country_decisions = {
 				set_government_rank = 3
 			}
 			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
 				limit = {
 					NOT = { is_part_of_hre = yes }
 				}
@@ -947,6 +961,10 @@ country_decisions = {
 				add_permanent_claim = BGU
 			}
 			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			if = {
 				limit = {
 					NOT = { government_rank = 5 }
@@ -2039,6 +2057,7 @@ country_decisions = {
 				primary_culture = limousin
 			}
 			NOT = { tag = FRA }
+			NOT = { tag = KNI }
 			NOT = { has_country_flag = unformable }
 			NOT = { exists = AQT }
 		}
@@ -2082,6 +2101,12 @@ country_decisions = {
 				set_government_rank = 5
 			}
 			gascony_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AQT
+			}
+			guyenne_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -2266,6 +2291,10 @@ country_decisions = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = FKE
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

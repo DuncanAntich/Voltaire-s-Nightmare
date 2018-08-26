@@ -1900,6 +1900,7 @@ muslim_monarchy = {
 	trigger = {
 		government = monarchy
 		NOT = { government = steppe_horde }
+		NOT = { government = feudal_theocracy }
 		religion_group = muslim
 	}
 }
@@ -2196,6 +2197,43 @@ german_republic = {
 		culture_group = germanic
 		NOT = { government = canton_government }
 		NOT = { government = noble_republic }
+	}
+}
+
+hereditary_republic = {
+	rank = {
+		1 = COUNTY
+		2 = PREFECTURE
+		3 = DUCHY
+		4 = PATRICIATE
+		5 = CONSULATE
+		6 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = STRATEGOS
+		2 = PREFECT
+		3 = DUCE
+		4 = PATRICIAN
+		5 = HYPATOS
+		6 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = STRATEGESSA
+		2 = PREFECT
+		3 = DUCESSA
+		4 = PATRICIAN
+		5 = HYPATESSA
+		6 = EMPRESS
+	}
+
+	trigger = {
+		government = merchant_republic
+		OR = {
+			tag = GAE
+			tag = AML
+		}
 	}
 }
 

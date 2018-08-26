@@ -20,7 +20,10 @@ estate_cossacks =
 	
 	trigger = {	
 		government = monarchy
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = catholique
+		}
 		primitives = no
 		is_nomad = no
 		OR =  {

@@ -24,12 +24,12 @@ discovered_by = muslim
 	controller = ARA
 	add_core = ARA
 	remove_core = PSA
+	add_core = CAT
 }
 1516.1.23 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

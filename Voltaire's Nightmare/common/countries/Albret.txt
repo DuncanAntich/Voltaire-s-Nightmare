@@ -57,6 +57,8 @@ monarch_names = {
 
 leader_names = {
 	"d'Albret" "de Labrit" "de Tartas"
+	"de Gabarret" "de Périgueux"
+	"de Limoges"
 }
 
 ship_names = {

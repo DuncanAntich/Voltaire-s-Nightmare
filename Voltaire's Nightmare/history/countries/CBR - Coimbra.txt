@@ -7,7 +7,7 @@ capital = 2243
 
 1064.1.1 = {
 	monarch = {
-		name = "Sesnando Davides"
+		name = "Sesnando Davidez"
 		dynasty = "Riba Douro"
 		adm = 4
 		dip = 0
@@ -16,7 +16,7 @@ capital = 2243
 }
 1091.8.25 = {
 	monarch = {
-		name = "Martinho Moniz"
+		name = "Martinho Muñez"
 		dynasty = "Riba Douro"
 		adm = 1
 		dip = 2

@@ -52,6 +52,7 @@ discovered_by = north_american
 	controller = ARA
 	add_core = ARA
 	remove_core = MCA
+	add_core = CAT
 	culture = catalan
 	religion = catholic
 }
@@ -66,7 +67,6 @@ discovered_by = north_american
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	add_core = CAT
 }
 1640.6.7 = { 
 	revolt = { 

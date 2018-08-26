@@ -12,6 +12,8 @@ war_goal = {
 	add_attacker = GGN
 	add_attacker = TNC
 	add_attacker = CPU
+	add_attacker = GAE
+	add_attacker = AML
 	add_defender = BYZ
 }
 
@@ -22,5 +24,7 @@ war_goal = {
 	rem_attacker = GGN
 	rem_attacker = TNC
 	rem_attacker = CPU
+	rem_attacker = GAE
+	rem_attacker = AML
 	rem_defender = BYZ
 }

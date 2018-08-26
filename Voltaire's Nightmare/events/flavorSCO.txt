@@ -11,7 +11,7 @@ province_event = {
 	fire_only_once = yes
 
 	trigger = {
-		region = scotland_region
+		region = highlands_region
 		NOT = { is_year = 1500 }
 		owner = {
 			OR = {
@@ -28,7 +28,6 @@ province_event = {
 			controls = 721
 		}
 		controlled_by = owner
-		
 	}
 
 	mean_time_to_happen = {

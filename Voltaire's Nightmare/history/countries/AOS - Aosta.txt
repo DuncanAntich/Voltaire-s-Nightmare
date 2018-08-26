@@ -20,8 +20,8 @@ historical_friend = SAV
 }
 1050.1.1 = {
 	heir = {
-		name = "Amadeo"
-		monarch_name = "Amedeo I"
+		name = "Amédée"
+		monarch_name = "Amédée I"
 		dynasty = "di Savoia"
 		birth_date = 1050.1.1
 		death_date = 1078.7.9 #to SAV

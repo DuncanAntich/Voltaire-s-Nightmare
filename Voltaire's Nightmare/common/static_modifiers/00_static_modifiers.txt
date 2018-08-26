@@ -545,7 +545,7 @@ negative_stability = {
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 	land_forcelimit	= 10
 	global_tax_income = 25
-	reduced_liberty_desire = -80
+	reduced_liberty_desire = -50
 }
 
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate

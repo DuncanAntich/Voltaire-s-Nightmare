@@ -1,8 +1,9 @@
-government = feudal_monarchy
+government = merchant_republic
 government_rank = 3
 technology_group = western
 religion = catholic
 primary_culture = greek
+mercantilism = 25
 capital = 2880
 fixed_capital = 2880
 
@@ -25,7 +26,21 @@ fixed_capital = 2880
 	}
 }
 1073.11.1 = {
-	primary_culture = neapolitan
-	government = merchant_republic
-	mercantilism = 25
+	monarch = {
+		name = "Manso III"
+		dynasty = "Comite"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
 }
+1096.1.1 = {
+	monarch = {
+		name = "Marinos II"
+		dynasty = "Sergii"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+1101.1.1 = { primary_culture = neapolitan }

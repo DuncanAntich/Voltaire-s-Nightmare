@@ -72,6 +72,10 @@ leader_names = {
 	"Banû Muhallab"
 	"Banû Aghlab"
 	"Banû Fâtimah"
+	"Banû Tûmî"
+	"Banû Hammad"
+	"Banû Ifrân"
+	"Banû Zayyân"
 }
 
 ship_names = {

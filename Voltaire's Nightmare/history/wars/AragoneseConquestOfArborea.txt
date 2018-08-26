@@ -5,21 +5,10 @@ war_goal = {
 	province = 655 # Arborea
 }
 
-1368.1.1 = {
+1391.1.1 = {
 	add_attacker = ARA
-	add_defender = AOE
-}
-
-1372.2.1 = {
 	add_attacker = COR
-}
-
-1379.1.1 = {
-	add_attacker = ATH
-}
-
-1388.5.2 = {
-	rem_attacker = ATH
+	add_defender = AOE
 }
 
 1401.5.26 = {
@@ -34,6 +23,10 @@ war_goal = {
 	add_attacker = COR
 }
 
+1409.1.1 = {
+	add_defender = NRB
+}
+
 1409.7.25 = {
 	rem_attacker = TNC
 }
@@ -42,4 +35,5 @@ war_goal = {
 	rem_attacker = ARA
 	rem_attacker = COR
 	rem_defender = AOE
+	rem_defender = NRB
 }

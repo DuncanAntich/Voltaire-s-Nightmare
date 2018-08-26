@@ -19,7 +19,7 @@ country_event = {
 		name = "HREMA1"
 		trigger = { ai = yes }
 		ai_chance = {
-			factor = 90
+			factor = 95
 			modifier = {
 				factor = 0
 				is_at_war = yes
@@ -81,7 +81,7 @@ country_event = {
 	option = {
 		name = "HREMB1"
 		ai_chance = {
-			factor = 90
+			factor = 95
 			modifier = {
 				factor = 0
 				is_at_war = no
@@ -97,7 +97,7 @@ country_event = {
 	}
 	option = {
 		name = "HREMC1"
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 5 }
 		add_stability = 1
 		add_prestige = -10
 		reverse_add_opinion = {
@@ -239,7 +239,7 @@ country_event = {
 
 	option = {
 		name = "HREMA5"
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 45 }
 		define_heir = {
 			name = "Hereweald"
 			dynasty = "Godwining"
@@ -252,14 +252,14 @@ country_event = {
 
 	option = {
 		name = "HREMB5"
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 10 }
 		add_prestige = 5
 		add_stability = -1
 	}
 
 	option = {
 		name = "HREMC5"
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 45 }
 		trigger = {
 			NRM = {
 				exists = yes
@@ -395,7 +395,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr HÃ¥rfagreÃ¦tta"
+    				leader = "Haraldr Hårfagreætta"
     				friend = NOL
 				}
 			}
@@ -414,7 +414,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr HÃ¥rfagreÃ¦tta"
+    				leader = "Haraldr Hårfagreætta"
     				friend = NOL
 				}
 			}
@@ -467,7 +467,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 4
-    				leader = "Haraldr HÃ¥rfagreÃ¦tta"
+    				leader = "Haraldr Hårfagreætta"
 				}
 			}
 		}
@@ -485,7 +485,7 @@ country_event = {
    					type = pretender_rebels
    					culture = swedish
     				size = 3
-    				leader = "Haraldr HÃ¥rfagreÃ¦tta"
+    				leader = "Haraldr Hårfagreætta"
 				}
 			}
 		}
@@ -2574,8 +2574,8 @@ country_event = {
 				add_manpower = 5
 				add_accepted_culture = greek
 				define_ruler = {
-					name = "SÃ¼leyman"
-					dynasty = "SelÃ§ukoglu"
+					name = "Süleyman"
+					dynasty = "Selçukoglu"
 					adm = 4
 					dip = 4
 					mil = 6

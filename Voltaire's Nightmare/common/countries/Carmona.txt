@@ -36,6 +36,10 @@ monarch_names = {
 	"al-‘Azîz #0" = 10
 	"Darddus #0" = 10
 	"Ishâq #1" = 10
+	"Yahyâ #0" = 5
+	"Yûsuf #0" = 5
+	"Sulaymân #0" = 5
+	"‘Alî #0" = 5
 	
 	"‘Alîya #0" = -1
 	"Fâhima #0" = -1
@@ -43,7 +47,11 @@ monarch_names = {
 }
 
 leader_names = {
+	"Banû Sumâdih" "Banû Maymûn"
+	"Banû ‘Âmirî" "Banû Ramîmi"
+	"Banû Hammûd" "Banû Malyan"
 	"Banû Birzâl" "Banû Darddus"
+	"Banû Dammarî" "Banû Jizrûn"
 }
 
 ship_names = {

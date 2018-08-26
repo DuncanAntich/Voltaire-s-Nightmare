@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = merchant_republic
 government_rank = 3
 mercantilism = 25
 technology_group = western
@@ -25,7 +25,112 @@ fixed_capital = 1180
 		mil = 2
 	}
 }
+#Norman vassals
 1064.10.10 = {
-	government = merchant_republic
-	mercantilism = 25
+	monarch = {
+		name = "Lando"
+		dynasty = "di Aquino"
+		adm = 1
+		dip = 0
+		mil = 2
+	}
 }
+1066.9.24 = {
+	monarch = {
+		name = "Dannibaldo"
+		dynasty = "di Aquino"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1068.1.1 = {
+	monarch = {
+		name = "Goffredo"
+		dynasty = "Ridelle"
+		culture = normand
+		adm = 0
+		dip = 0
+		mil = 4
+	}
+}
+1084.1.1 = {
+	monarch = {
+		name = "Rinaldo"
+		dynasty = "Ridelle"
+		culture = normand
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+1088.1.1 = {
+	monarch = {
+		name = "Gualgano"
+		dynasty = "Ridelle"
+		culture = normand
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1091.1.1 = {
+	monarch = {
+		name = "Lando"
+		dynasty = "Docibilei"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1103.1.1 = {
+	monarch = {
+		name = "Guglielmo"
+		dynasty = "de Blosseville"
+		culture = normand
+		adm = 0
+		dip = 1
+		mil = 3
+	}
+}
+1105.1.1 = {
+	monarch = {
+		name = "Riccardo"
+		dynasty = "L'Aigle"
+		culture = normand
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1111.1.1 = {
+	monarch = {
+		name = "Andrea"
+		dynasty = "L'Aigle"
+		culture = normand
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1113.1.1 = {
+	monarch = {
+		name = "Gionata"
+		dynasty = "Drengot"
+		culture = normand
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1121.7.1 = {
+	monarch = {
+		name = "Riccardo"
+		dynasty = "Drengot"
+		culture = normand
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
+#done 1140

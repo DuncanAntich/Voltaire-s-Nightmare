@@ -1,4 +1,4 @@
-government = peasants_republic
+government = feudal_theocracy
 government_rank = 3
 primary_culture = czech
 religion = hussite
@@ -8,7 +8,8 @@ add_army_professionalism = 0.2
 
 1420.2.5 = {
 	monarch = {
-		name = "Jan Zelivsky"
+		name = "Jan"
+		dynasty = "Zelivsky"
 		birth_date = 1380.1.1
 		adm = 4
 		dip = 2
@@ -22,10 +23,22 @@ add_army_professionalism = 0.2
 			siege = 4
 		}
 	}
+	heir = {
+		name = "Jan"
+		monarch_name = "Jan"
+		dynasty = "z Rokycan"
+		birth_date = 1396.1.1
+		death_date = 1471.2.21
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
 }
 1422.3.9 = {
 	monarch = {
-		name = "Jan Rokycana"
+		name = "Jan"
+		dynasty = "z Rokycan"
 		birth_date = 1396.1.1
 		adm = 4
 		dip = 5

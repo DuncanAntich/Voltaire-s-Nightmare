@@ -865,7 +865,7 @@ national_focus = MIL
 1626.12.18 = {
 	heir = {
 		name = "Kristina"
-		monarch_name = "Christina"
+		monarch_name = "Kristina"
 		dynasty = "Vasa"
 		birth_date = 1626.12.18
 		death_date = 1689.4.19
@@ -884,7 +884,7 @@ national_focus = MIL
 		birth_date = 1626.12.18
 		adm = 2
 		dip = 3
-		mil = 2
+		mil = 3
 		female = yes
 	}
 	clear_scripted_personalities = yes

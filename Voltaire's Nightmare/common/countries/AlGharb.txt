@@ -46,6 +46,10 @@ monarch_names = {
 leader_names = {
 	"Banû Tut" "Banû Affan"
 	"Banû Hârûn" "Banû Bakr"
+	"Banû Mundhir" "Banû Muzaym"
+	"Banû Bitrûyî" "Banû Mahfuz"
+	"Banû Qâsim" "Banû Tayfur"
+	"Banû Mundhir" "Banû Yahsubî"
 }
 
 ship_names = {

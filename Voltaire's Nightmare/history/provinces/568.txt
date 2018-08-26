@@ -30,10 +30,26 @@ discovered_by = north_american
 	remove_core = PIS
 	remove_core = CGL
 }
-1368.1.1 = { controller = AOE }
-1388.1.1 = { controller = ARA }
-1391.1.1 = { controller = AOE }
-1409.6.30 = { controller = ARA }
+1368.1.1 = {
+	owner = AOE
+	controller = AOE
+	add_core = AOE
+}
+1388.1.1 = {
+	owner = ARA
+	controller = ARA
+	remove_core = AOE
+}
+1391.10.3 = {
+	owner = AOE
+	controller = AOE
+	add_core = AOE
+}
+1409.6.30 = {
+	owner = ARA
+	controller = ARA
+	remove_core = AOE
+}
 1410.3.4 = { add_core = SAR }
 1516.1.23 = {
 	owner = SPA
