@@ -1,7 +1,7 @@
 owner = BJA
 controller = BJA
 add_core = BJA
-capital = "Qasr Abi-Dans"
+capital = "Qasr Abi-Danis"
 is_city = yes
 culture = andalucian
 religion = sunni
