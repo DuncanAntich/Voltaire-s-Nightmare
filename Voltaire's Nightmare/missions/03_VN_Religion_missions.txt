@@ -1,0 +1,124 @@
+#Voltaire's Nightmare Religion missions.
+#Only generic/West Christian missions done, Muslim/Orthodox TBA
+
+#Generic religion missions (available to all).
+vn_gen_religion_missions = {
+	slot = 9
+	generic = yes
+	ai = yes
+	potential = {
+		always = yes
+	}
+	
+	vn_convert_provinces = {
+		position = 5
+		icon = mission_convert_provinces
+		required_missions = { }
+		trigger = {
+			check_variable = { which = num_converted_religion value = 5 }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "convert_provinces_mission"
+				duration = 9125
+			}
+		}
+	}
+	
+	vn_achieve_unity = {
+		icon = mission_hands_praying
+		required_missions = { vn_convert_provinces }
+		trigger = {
+			religious_unity = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "achieve_unity_mission"
+				duration = 9125
+			}
+		}
+	}
+	
+	vn_defend_the_faith = {
+		icon = mission_defend_the_faith
+		required_missions = { vn_achieve_unity }
+		trigger = {
+			is_defender_of_faith = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = "defend_faith_mission"
+				duration = 9125
+			}
+		}
+	}
+}
+
+#Non-Orthodox Christians.
+vn_westchristian_missions = {
+	slot = 8
+	generic = yes
+	ai = yes
+	potential = {
+		religion_group = christian
+		NOT = { religion = orthodox }
+	}
+	
+	vn_pious_state = {
+		position = 5
+		icon = mission_hands_praying
+		required_missions = { }
+		trigger = {
+			num_of_cardinals = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = "pious_state_mission"
+				duration = 9125
+			}
+		}
+	}
+	
+	vn_question_of_reform = {
+		icon = mission_religious
+		required_missions = { vn_pious_state }
+		trigger = {
+			current_age = age_of_reformation
+			OR = {
+				OR = {
+					religion = catholic
+					religion = catholique
+				}
+				OR = {
+					religion = protestant
+					religion = anabaptist
+					religion = anglican
+					religion = reformed
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "question_of_reform_mission"
+				duration = 9125
+			}
+		}
+	}
+	
+	gen_eur_defender_faith = {
+		icon = mission_european_church
+		required_missions = { vn_question_of_reform }
+		
+		trigger = {
+			tolerance_heretic = -2
+			is_league_leader = yes
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "gen_eur_defender"
+				duration = 5475
+			}
+		}
+	}
+}

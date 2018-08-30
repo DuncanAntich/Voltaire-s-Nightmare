@@ -326,4 +326,85 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
+	
+	#NewMissions
+	spriteType = {
+		name = "mission_big_city"
+		texturefile = "gfx//interface//missions//mission_big_city.dds"
+	}
+	
+	spriteType = {
+		name = "mission_buildings"
+		texturefile = "gfx//interface//missions//mission_buildings.dds"
+	}
+	
+	spriteType = {
+		name = "mission_convert_provinces"
+		texturefile = "gfx//interface//missions//mission_convert_provinces.dds"
+	}
+	
+	spriteType = {
+		name = "mission_defend_the_faith"
+		texturefile = "gfx//interface//missions//mission_defend_the_faith.dds"
+	}
+	
+	spriteType = {
+		name = "mission_duchy"
+		texturefile = "gfx//interface//missions//mission_duchy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_empire_new"
+		texturefile = "gfx//interface//missions//mission_empire_new.dds"
+	}
+	
+	spriteType = {
+		name = "mission_fort"
+		texturefile = "gfx//interface//missions//mission_fort.dds"
+	}
+	
+	spriteType = {
+		name = "mission_hanseatic_cities"
+		texturefile = "gfx//interface//missions//mission_hanseatic_cities.dds"
+	}
+	
+	spriteType = {
+		name = "mission_hospital"
+		texturefile = "gfx//interface//missions//mission_hospital.dds"
+	}
+	
+	spriteType = {
+		name = "mission_king_of_franks"
+		texturefile = "gfx//interface//missions//mission_king_of_franks.dds"
+	}
+	
+	spriteType = {
+		name = "mission_kingdom"
+		texturefile = "gfx//interface//missions//mission_kingdom.dds"
+	}
+	
+	spriteType = {
+		name = "mission_large_army"
+		texturefile = "gfx//interface//missions//mission_large_army.dds"
+	}
+	
+	spriteType = {
+		name = "mission_naval_expansion"
+		texturefile = "gfx//interface//missions//mission_naval_expansion.dds"
+	}
+	
+	spriteType = {
+		name = "mission_principality"
+		texturefile = "gfx//interface//missions//mission_principality.dds"
+	}
+	
+	spriteType = {
+		name = "mission_roads"
+		texturefile = "gfx//interface//missions//mission_roads.dds"
+	}
+	
+	spriteType = {
+		name = "mission_soldiers_in_line"
+		texturefile = "gfx//interface//missions//mission_soldiers_in_line.dds"
+	}
 }
