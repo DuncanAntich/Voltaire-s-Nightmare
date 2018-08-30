@@ -1,3 +1,5 @@
+601 = "Colouvrate"
+565 = "Andreville"
 4238 = "Ovroutch"
 1793 = "Cerdagne"
 2486 = "Saint-Pierre"

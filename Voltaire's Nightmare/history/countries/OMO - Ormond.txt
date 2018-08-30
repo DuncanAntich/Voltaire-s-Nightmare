@@ -292,10 +292,10 @@ capital = 2668
 		monarch_name = "James IV"
 		dynasty = "Butler"
 		birth_date = 1393.5.23
-		death_date = 1452.1.1
+		death_date = 1452.8.23
 		claim = 95
-		adm = 5
-		dip = 5
+		adm = 4
+		dip = 3
 		mil = 2
 	}
 }
@@ -304,62 +304,62 @@ capital = 2668
 		name = "James IV"
 		dynasty = "Butler"
 		birth_date = 1393.5.23
-		adm = 5
-		dip = 5
+		adm = 4
+		dip = 3
 		mil = 2
 	}
 }
-1420.1.1 = {
+1420.11.24 = {
 	heir = {
 		name = "James"
 		monarch_name = "James V"
 		dynasty = "Butler"
-		birth_date = 1420.1.1
-		death_date = 1461.1.1
+		birth_date = 1420.11.24
+		death_date = 1461.5.1
 		claim = 95
 		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1452.1.1 = {
-	monarch = {
-		name = "James V"
-		dynasty = "Butler"
-		birth_date = 1420.1.1
-		adm = 1
-		dip = 2
+		dip = 4
 		mil = 1
 	}
 }
-1461.1.1 = {
+1452.8.23 = {
+	monarch = {
+		name = "James V"
+		dynasty = "Butler"
+		birth_date = 1420.11.24
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}
+1461.5.1 = {
 	monarch = {
 		name = "John"
 		dynasty = "Butler"
 		birth_date = 1422.1.1
 		adm = 2
-		dip = 1
-		mil = 1
+		dip = 4
+		mil = 2
 	}
 }
-1478.1.1 = {
+1478.12.14 = {
 	monarch = {
 		name = "Thomas I"
 		dynasty = "Butler"
 		birth_date = 1426.1.1
-		adm = 1
-		dip = 0
-		mil = 0
+		adm = 2
+		dip = 2
+		mil = 1
 	}
 }
-1515.1.1 = {
+1515.8.3 = {
 	monarch = {
 		name = "Piers"
 		dynasty = "Butler"
 		birth_date = 1467.1.1
 		adm = 3
-		dip = 4
-		mil = 2
+		dip = 3
+		mil = 1
 	}
 	heir = {
 		name = "James"
@@ -368,18 +368,18 @@ capital = 2668
 		birth_date = 1496.1.1
 		death_date = 1546.10.17
 		claim = 95
-		adm = 3
-		dip = 4
+		adm = 5
+		dip = 2
 		mil = 3
 	}
 }
-1539.1.1 = {
+1539.8.26 = {
 	monarch = {
 		name = "James VI"
 		dynasty = "Butler"
 		birth_date = 1496.1.1
-		adm = 3
-		dip = 4
+		adm = 5
+		dip = 2
 		mil = 3
 	}
 	heir = {
@@ -387,21 +387,46 @@ capital = 2668
 		monarch_name = "Thomas II"
 		dynasty = "Butler"
 		birth_date = 1532.1.1
-		death_date = 1614.1.1
+		death_date = 1614.11.22
+		religion = anglican
 		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 }
 1546.10.17 = {
-	religion = anglican
 	monarch = {
 		name = "Thomas II"
 		dynasty = "Butler"
 		birth_date = 1532.1.1
-		adm = 2
-		dip = 0
-		mil = 1
+		religion = anglican
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 }
+1559.1.1 = {
+	heir = {
+		name = "Walter"
+		monarch_name = "Walter"
+		dynasty = "Butler"
+		birth_date = 1559.1.1
+		death_date = 1632.2.4
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1614.11.22 = {
+	monarch = {
+		name = "Walter"
+		dynasty = "Butler"
+		birth_date = 1559.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+#1632.2.24 done

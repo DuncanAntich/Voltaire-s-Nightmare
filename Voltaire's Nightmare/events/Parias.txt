@@ -21,20 +21,14 @@ country_event = {
                     tag = TTO
                 }
             }
-            NOT = {
-                is_in_war = {
-                    participants = BRC
-                }
-            }
+            NOT = { is_in_war = { participants = BRC } }
             exists = BRC
+            BRC = { is_subject = no }
         }
         else = {
-            NOT = {
-                is_in_war = {
-                    participants = LON
-                }
-            }
+            NOT = { is_in_war = { participants = LON } }
             exists = LON
+            LON = { is_subject = no }
         }
     }
 
@@ -293,6 +287,10 @@ country_event = {
             modifier = {
                 factor = 1.1
                 ruler_has_personality = conqueror_personality
+            }
+            modifier = {
+                factor = 0.2
+                FROM = { num_of_allies = 4 }
             }
             modifier = {
                 factor = 0.1

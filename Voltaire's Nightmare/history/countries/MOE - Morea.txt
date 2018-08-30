@@ -5,6 +5,37 @@ primary_culture = peloponnesian
 religion = orthodox
 capital = 611
 
+#Leo Sgouros
+1204.5.16 = {
+	capital = 389
+	monarch = {
+		name = "Leo"
+		dynasty = "Sgouros"
+		adm = 2
+		dip = 3
+		mil = 6
+		leader = {	
+			name = "Leo Sgouros"
+			type = general
+			fire = 0
+			shock = 3
+			manuever = 4
+			siege = 0
+		}
+	}
+}
+1208.1.1 = {
+	monarch = {
+		name = "Theodoros"
+		dynasty = "Sgouros"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#done 1212
+1212.1.1 = { capital = 611 }
+
 # Despots of Morea #
 1349.10.25 = {
 	monarch = {

@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 234 217 110 }
 
 historical_idea_groups = {
@@ -40,27 +37,27 @@ historical_units = {
 }
 
 monarch_names = {
-	"Ibor #0" = 0
-	"Aio #0" = 0
-	"Agilmondo #0" = 0
-	"Lamissone #0" = 0
-	"Ortni #0" = 0
-	"Lethi #0" = 0
-	"Ildeoc #0" = 0
-	"Godeoc #0" = 0
-	"Claffone #0" = 0
-	"Tatone #0" = 0
-	"Vacone #0" = 0
-	"Valtari #0" = 0
-	"Audoino #0" = 0
-	"Alboino #0" = 0
-	"Clefi #0" = 0
-	"Autari #0" = 0
-	"Agilulfo #0" = 0
-	"Adaloaldo #0" = 0
-	"Arioaldo #0" = 0
-	"Rohari #0" = 0
-	"Rodoaldo #0" = 0
+	"Ibor #0" = 1
+	"Aio #0" = 1
+	"Agilmondo #0" = 1
+	"Lamissone #0" = 1
+	"Ortni #0" = 1
+	"Lethi #0" = 1
+	"Ildeoc #0" = 1
+	"Godeoc #0" = 1
+	"Claffone #0" = 1
+	"Tatone #0" = 1
+	"Vacone #0" = 1
+	"Valtari #0" = 5
+	"Audoino #0" = 5
+	"Alboino #0" = 5
+	"Clefi #0" = 5
+	"Autari #0" = 5
+	"Agilulfo #0" = 5
+	"Adaloaldo #0" = 5
+	"Arioaldo #0" = 5
+	"Rohari #0" = 5
+	"Rodoaldo #0" = 5
 	"Ariperto #2" = 10
 	"Pertarito #0" = 10
 	"Godeperto #0" = 10
@@ -88,8 +85,9 @@ monarch_names = {
 }
 
 leader_names = {
-	Letingi Gausi Arodingi Longobardi Unrochingi
-	Atenulfingi Bonifaci Dauferidi Landolfidi
+	Atenulfing Guaimaring Daufering Landolfing
+	Oberting Siconing Aroding Leting Unroching
+	Gausi Longobardi Arduining Aleraming
 	"di Venezia" "di Friuli" "di Benevento"
 	"di Salerno" "di Capua" "di Gaeta"
 	"di Puglio" "di Bari" "di Lecce" "di Lazio"

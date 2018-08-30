@@ -1,5 +1,5 @@
-owner = AQT
-controller = AQT
+owner = GUY
+controller = GUY
 culture = occitain
 religion = catholic
 hre = no
@@ -9,21 +9,19 @@ trade_goods = wine
 base_manpower = 1
 capital = "Lectoure"
 is_city = yes
-add_core = AQT
 add_core = GUY
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1154.10.25 = {
-	remove_core = GUY
-	add_core = AMG
-}
+1154.10.25 = { add_core = AMG }
 1214.7.27 = {
 	owner = AMG
 	controller = AMG
-	remove_core = AQT
+	remove_core = GUY
 }
 1360.10.24 = {
 	owner = ENG
@@ -72,5 +70,3 @@ discovered_by = muslim
 1685.10.18 = { unrest = 8 }
 1686.1.17 = { religion = catholic }
 1689.1.1 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

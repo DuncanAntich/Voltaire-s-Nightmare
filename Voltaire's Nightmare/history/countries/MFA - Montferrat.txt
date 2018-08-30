@@ -9,7 +9,7 @@ add_army_professionalism = 0.05
 1042.1.1 = { 
 	monarch = {
 		name = "Ottone II"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1015.1.1
 		adm = 3
 		dip = 4
@@ -18,7 +18,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Guglielmo"
 		monarch_name = "Guglielmo IV"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1030.1.1
 		death_date = 1100.1.1
 		claim = 95
@@ -30,7 +30,7 @@ add_army_professionalism = 0.05
 1084.11.20 = { 
 	monarch = {
 		name = "Guglielmo IV"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1030.1.1
 		adm = 2
 		dip = 2
@@ -39,7 +39,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Ranieri"
 		monarch_name = "Ranieri I"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1084.1.1
 		death_date = 1135.5.1
 		claim = 95
@@ -51,7 +51,7 @@ add_army_professionalism = 0.05
 1100.1.1 = { 
 	monarch = {
 		name = "Ranieri I"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1084.1.1
 		adm = 2
 		dip = 2
@@ -60,7 +60,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Guglielmo"
 		monarch_name = "Guglielmo V"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1100.1.1
 		death_date = 1191.8.1
 		claim = 95
@@ -73,7 +73,7 @@ add_army_professionalism = 0.05
 	queen = {
 		country_of_origin = FCM
 		name = "Gisela"
-		dynasty = "d'Ivrea"
+		dynasty = "Anskaring"
 		birth_date = 1075.1.1
 		death_date = 1135.5.1
 		culture = lorrainian
@@ -86,7 +86,7 @@ add_army_professionalism = 0.05
 1135.5.1 = { 
 	monarch = {
 		name = "Guglielmo V"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1100.1.1
 		adm = 3
 		dip = 2
@@ -97,7 +97,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Bonifacio"
 		monarch_name = "Bonifacio I"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1150.1.1
 		death_date = 1207.9.4
 		claim = 95
@@ -109,7 +109,7 @@ add_army_professionalism = 0.05
 1191.8.1 = { 
 	monarch = {
 		name = "Bonifacio I"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1150.1.1
 		adm = 2
 		dip = 4
@@ -118,7 +118,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Guglielmo"
 		monarch_name = "Guglielmo VI"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1173.1.1
 		death_date = 1226.9.17
 		claim = 95
@@ -130,7 +130,7 @@ add_army_professionalism = 0.05
 1204.5.16 = { 
 	monarch = {
 		name = "Guglielmo VI"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1173.1.1
 		adm = 2
 		dip = 2
@@ -139,7 +139,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Bonifacio"
 		monarch_name = "Bonifacio II"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1202.7.1
 		death_date = 1253.6.12
 		claim = 95
@@ -151,7 +151,7 @@ add_army_professionalism = 0.05
 1226.9.17 = { 
 	monarch = {
 		name = "Bonifacio II"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1202.7.1
 		adm = 2
 		dip = 3
@@ -162,7 +162,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Guglielmo"
 		monarch_name = "Guglielmo VII"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1240.1.1
 		death_date = 1292.1.1
 		claim = 95
@@ -174,7 +174,7 @@ add_army_professionalism = 0.05
 1253.6.12 = { 
 	monarch = {
 		name = "Guglielmo VII"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1240.1.1
 		adm = 4
 		dip = 4
@@ -185,7 +185,7 @@ add_army_professionalism = 0.05
 	heir = {
 		name = "Giovanni"
 		monarch_name = "Giovanni"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1275.1.1
 		death_date = 1305.1.1
 		claim = 95
@@ -197,7 +197,7 @@ add_army_professionalism = 0.05
 1292.1.1 = { 
 	monarch = {
 		name = "Giovanni"
-		dynasty = "Aleramici"
+		dynasty = "Aleraming"
 		birth_date = 1275.1.1
 		adm = 2
 		dip = 0
@@ -206,7 +206,6 @@ add_army_professionalism = 0.05
 }
 
 #Palaiologos Dynasty
-
 1306.1.1 = { #Invested since 1310
 	monarch = {
 		name = "Teodoro"
@@ -217,7 +216,6 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
 1338.4.24 = {
 	monarch = {
 		name = "Giovanni II"
@@ -227,7 +225,6 @@ add_army_professionalism = 0.05
 		mil = 4
 	}
 }
-
 1372.3.19 = {
 	monarch = {
 		name = "Ottone III"
@@ -237,7 +234,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1378.12.16 = {
 	monarch = {
 		name = "Giovanni III"
@@ -247,7 +243,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1381.8.25 = {
 	monarch = {
 		name = "Teodoro II"
@@ -257,7 +252,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1418.4.26 = {
 	monarch = {
 		name = "Gian Giacomo"
@@ -266,9 +260,6 @@ add_army_professionalism = 0.05
 		dip = 3
 		mil = 3
 	}
-}
-
-1418.4.26 = {
 	heir = {
 		name = "Giovanni"
 		monarch_name = "Giovanni IV"
@@ -281,7 +272,6 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
 1445.3.12 = {
 	monarch = {
 		name = "Giovanni IV"
@@ -290,9 +280,6 @@ add_army_professionalism = 0.05
 		dip = 3
 		mil = 3
 	}
-}
-
-1445.3.12 = {
 	heir = {
 		name = "Guglielmo"
 		monarch_name = "Guglielmo VIII"
@@ -305,7 +292,6 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
 1464.1.19 = {
 	monarch = {
 		name = "Guglielmo VIII"
@@ -314,9 +300,6 @@ add_army_professionalism = 0.05
 		dip = 4
 		mil = 3
 	}
-}
-
-1464.1.19 = {
 	heir = {
 		name = "Bonifacio"
 		monarch_name = "Bonifacio III"
@@ -329,7 +312,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1483.2.27 = {
 	monarch = {
 		name = "Bonifacio III"
@@ -339,7 +321,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1486.8.10 = {
 	heir = {
 		name = "Guglielmo"
@@ -353,7 +334,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1494.1.1 = {
 	monarch = {
 		name = "Guglielmo IX"
@@ -363,7 +343,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
 1512.12.21 = {
 	heir = {
 		name = "Bonifacio"
@@ -377,7 +356,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1518.1.1 = {
 	monarch = {
 		name = "Bonifacio IV"
@@ -386,9 +364,6 @@ add_army_professionalism = 0.05
 		dip = 2
 		mil = 1
 	}
-}
-
-1518.1.1 = {
 	heir = {
 		name = "Giangiorgio"
 		monarch_name = "Giangiorgio"
@@ -401,7 +376,6 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
 1530.6.6 = {
 	monarch = {
 		name = "Giangiorgio"
@@ -410,9 +384,6 @@ add_army_professionalism = 0.05
 		dip = 2
 		mil = 1
 	}
-}
-
-1530.6.6 = {
 	heir = {
 		name = "Margherita"
 		monarch_name = "Margherita"

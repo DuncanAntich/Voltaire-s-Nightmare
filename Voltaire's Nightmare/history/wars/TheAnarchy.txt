@@ -12,10 +12,12 @@ war_goal = {
 
 1152.5.18 = {
 	add_attacker = AQT
+	add_attacker = GUY
 }
 
 1153.8.1 = {
 	rem_attacker = ANJ
 	rem_attacker = AQT
+	rem_attacker = GUY
 	rem_defender = ENG
 }

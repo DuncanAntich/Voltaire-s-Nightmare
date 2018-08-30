@@ -10,6 +10,7 @@ war_goal = {
 	add_attacker = MLO
 	add_defender = VEN
 	add_defender = NAX
+	add_defender = NGR
 }
 
 # Treaty of Lodi
@@ -17,4 +18,5 @@ war_goal = {
 	rem_attacker = MLO
 	rem_defender = VEN
 	rem_defender = NAX
+	rem_defender = NGR
 }

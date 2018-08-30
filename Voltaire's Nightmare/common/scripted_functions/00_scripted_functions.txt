@@ -12,6 +12,14 @@ can_join_hre_league = {
 			is_at_war = no
 		}
 	}
+	condition = {
+		tooltip = "CANNOT_JOIN_LEAGUE_OPM"
+		potential = {
+		}
+		allow = {
+			num_of_cities = 3
+		}
+	}
 }
 
 can_leave_hre_league = {

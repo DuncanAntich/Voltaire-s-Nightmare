@@ -353,7 +353,7 @@
  IMPERIAL_MANDATE_BONUS_DESC: "Feudal Authority above §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
  IMPERIAL_MANDATE_PENALTY_DESC: "Feudal Authority below §Y50§! gives the following Scaled Modifier:\n$MODIFIERDESC$"
  CELESTIAL_EMPEROR_BENEFIT: "Being §YKing of the Franks§! gives the following benefits:\n"
- CELESTIAL_EMPEROR_BENEFIT_DESC: " -Bonuses from High Feudal Authority.\n -Uses Salic Mechanics\n -Can enact Centralisation Decisions.\n -Permanent claims to France.\n -Can Enforce Fiefdom"
+ CELESTIAL_EMPEROR_BENEFIT_DESC: " -Bonuses from Feudal Authority.\n -Uses Salic Mechanics\n -Can enact Centralisation Decisions.\n -Permanent claims to France.\n -Can Enforce Fiefdom"
  CELESTIAL_EMPEROR_DIPLOMATIC_ACTIONS_DESC: "The §YKing of the Franks§! may take the following additional diplomatic actions:\n$LIST|Y$"
  CELESTIAL_EMPIRE_PAST_EMPERORS: "Previous Kings:"
  ENACT_DECREE_NOT_EMPEROR: "Only the King can enact Decrees."
@@ -561,6 +561,14 @@
  ASK_FOR_TRIBUTARY_DENIED_HEADER: "Fiefdom request denied"
  ASK_FOR_TRIBUTARY_DENIED_3: "our request of being their Fief"
  ASK_FOR_TRIBUTARY_DENIED_LOG: "$RECIPIENT$ denied our Fief request."
+#Banners
+ BANNERS_FROM_TT: "\nBanners cost Corruption to raise and have higher Discipline than normal troops.\n\nBanners are raised from the state's full core provinces with Cuman-Pecheneg culture.\n\n$NAME$ can raise a total of $AMOUNT|Y$ Banners due to the development in:\n"
+ BANNERS_NOT_OURS: "If your government is a §YSteppe Horde§! you can raise Horde Banners in provinces of Cuman-Pecheneg Culture. Banners cost Corruption to raise and have higher Discipline than normal troops.\n\nYou can only raise banners from states that you own. Please select a province that you are the owner of."
+ ab_manchu_banner: "Horde Banners"
+ MODIFIER_AMOUNT_OF_BANNERS: "Possible Horde Banners"
+ MODIFIER_LOCAL_AMOUNT_OF_BANNERS: "Possible Horde Banners"
+ MODIFIER_HAS_BANNERS: "Allows Horde Banners"
+ BANNER_NONE_AVAIL: "There are not enough Cuman-Pecheneg People in full cores within the $NAME$ to raise any banners."
 #Decrees
  expand_bureaucracy_decree_title: "Rearrange Feuds"
  expand_bureaucracy_decree: "Rearranged Feuds"

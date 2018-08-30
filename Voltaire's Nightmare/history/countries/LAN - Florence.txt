@@ -42,6 +42,7 @@ add_army_professionalism = 0.05
 	monarch = {
 		name = "Frederico"
 		dynasty = "von Hohenstaufen"
+		culture = sicilian
 		birth_date = 1224.1.1
 		dip = 2
 		mil = 2
@@ -93,7 +94,7 @@ add_army_professionalism = 0.05
 }
 1421.1.1 = {
 	monarch = {
-		name = "Giovanni I"
+		name = "Giovanni"
 		dynasty = "de' Medici"
 		adm = 3
 		dip = 4

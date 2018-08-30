@@ -92,17 +92,17 @@ leader_names = {
 	Acquaviva Agostini Albertini Angeli Appietto Astolfi
 	Bartoli Batesti Biancchini Buonaparte
 	Cardi Castelli Ceccaldi Cesari Cipriani Colonna Corsofieru Cucchi
-	"Della Rocca" "Della Serra"
+	"della Rocca" "de Serra"
 	Franceschetti Franceschini
 	Grafferi Graziani Guidoni
-	Leca Lucchini Luciani 
+	"di Leca" Lucchini Luciani 
 	Mancini Marcaggi Mariani Mondolini Moracchini
 	Natalini
 	Orsini Orsoni
 	Palazzo Paoli Peretti
 	Raffaeli Rivarola Rossi
 	Salicetti Sampiero Sanguinetti Santoni Scarbonchi 
-	Torre
+	"di Torres"
 }
 
 ship_names = {

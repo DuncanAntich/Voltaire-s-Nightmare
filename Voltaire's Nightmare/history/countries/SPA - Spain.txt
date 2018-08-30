@@ -23,6 +23,7 @@ national_focus = MIL
 		dip = 5
 		mil = 5
 	}
+	add_army_professionalism = 0.3
 }
 1519.1.12 = {
 	monarch = {

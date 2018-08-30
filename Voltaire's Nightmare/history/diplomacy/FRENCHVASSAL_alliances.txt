@@ -149,7 +149,7 @@ dependency = {
 	first = FRA
 	second = AQT
 	start_date = 1054.1.1
-	end_date = 1137.4.9
+	end_date = 1154.10.25
 }
 
 # Artois

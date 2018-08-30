@@ -78,7 +78,11 @@ ahti =
 		modifier = {
 			factor = 2
 			personality = ai_colonialist
-		}		
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}	
 	}
 }
 

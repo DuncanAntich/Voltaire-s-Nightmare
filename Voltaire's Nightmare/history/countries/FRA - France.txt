@@ -171,24 +171,12 @@ national_focus = DIP
 		dip = 1
 		mil = 3
 	}
-	queen = {
-		country_of_origin = AQT
-		name = "Eleanor"
-		dynasty = "de Poitiers"
-		birth_date = 1122.1.1
-		death_date = 1152.3.21 #divorced
-		culture = occitain
-		female = yes
-		adm = 3
-		dip = 6
-		mil = 3
-	}
 }
 1154.1.1 = {
 	queen = {
 		country_of_origin = CAS
 		name = "Constanza"
-		dynasty = "d'Ivrea"
+		dynasty = "de Ivrea"
 		birth_date = 1140.1.1
 		death_date = 1160.10.4
 		culture = castillian
@@ -315,7 +303,7 @@ national_focus = DIP
 	queen = {
         country_of_origin = CAS
         name = "Blanca"
-        dynasty = "d'Ivrea"
+        dynasty = "de Ivrea"
         birth_date = 1188.3.4
         death_date = 1252.11.27
         culture = castillian

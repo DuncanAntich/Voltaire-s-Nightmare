@@ -100,7 +100,7 @@ capital = 921
 }
 1185.1.1 = {
 	monarch = {
-		name = "Donal I"
+		name = "Domhnall I"
 		dynasty = "Mac Cárthaigh"
 		adm = 3
 		dip = 3
@@ -136,7 +136,7 @@ capital = 921
 }
 1247.1.1 = {
 	monarch = {
-		name = "Donal II"
+		name = "Domhnall II"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2
@@ -171,7 +171,7 @@ capital = 921
 }
 1262.1.1 = {
 	monarch = {
-		name = "Donal III"
+		name = "Domhnall III"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2
@@ -180,7 +180,7 @@ capital = 921
 }
 1302.1.1 = {
 	monarch = {
-		name = "Donal IV"
+		name = "Domhnall IV"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2
@@ -216,7 +216,7 @@ capital = 921
 }
 1359.1.1 = {
 	monarch = {
-		name = "Donal V"
+		name = "Domhnall V"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2
@@ -234,25 +234,25 @@ capital = 921
 }
 1428.1.1 = {
 	monarch = {
-		name = "Donal VI"
+		name = "Domhnall VI"
 		dynasty = "Mac Cárthaigh"
 		adm = 3
-		dip = 2
-		mil = 2
+		dip = 3
+		mil = 3
 	}
 }
 1469.1.1 = {
 	monarch = {
 		name = "Tadhg III"
 		dynasty = "Mac Cárthaigh"
-		adm = 2
-		dip = 2
+		adm = 3
+		dip = 4
 		mil = 2
 	}
 }
 1503.1.1 = {
 	monarch = {
-		name = "Donal VII"
+		name = "Domhnall VII"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2
@@ -270,7 +270,7 @@ capital = 921
 }
 1516.1.1 = {
 	monarch = {
-		name = "Donal VIII"
+		name = "Domhnall VIII"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2
@@ -279,7 +279,7 @@ capital = 921
 }
 1558.1.1 = {
 	monarch = {
-		name = "Donal IX"
+		name = "Domhnall IX"
 		dynasty = "Mac Cárthaigh"
 		adm = 2
 		dip = 2

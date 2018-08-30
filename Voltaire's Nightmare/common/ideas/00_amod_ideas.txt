@@ -1,3 +1,734 @@
+SDZ_ideas = {
+    start = {
+        cavalry_cost = -0.1
+        global_spy_defence = 0.2
+    }
+    bonus = {
+        caravan_power = 0.2
+    }
+    
+    trigger = {
+        tag = SDZ
+    }
+    free = yes
+
+    SDZ_idea_1 = {
+        legitimacy = 1
+    }
+    SDZ_idea_2 = {
+        envoy_travel_time = -0.25
+        diplomats = 1
+    }
+    SDZ_idea_3 = {
+        cavalry_flanking = 0.5
+        cavalry_power = 0.1
+    }
+    SDZ_idea_4 = {
+        yearly_absolutism = 0.1
+    }
+    SDZ_idea_5 = {
+        development_cost = -0.1
+    }
+    SDZ_idea_6 = {
+        global_autonomy = -0.05
+    }
+    SDZ_idea_7 = {
+        technology_cost = -0.05
+    }
+}
+
+IFQ_ideas = {
+    start = {
+        naval_morale = 0.15
+        embargo_efficiency = 0.1
+    }
+    bonus = {
+        naval_forcelimit_modifier = 0.2
+    }
+    
+    trigger = {
+        tag = IFQ
+    }
+    free = yes
+
+    IFQ_idea_1 = {
+        religious_unity = 0.25
+    }
+    IFQ_idea_2 = {
+        improve_relation_modifier = 0.3
+    }
+    IFQ_idea_3 = {
+        production_efficiency = 0.1
+    }
+    IFQ_idea_4 = {
+        stability_cost_modifier = -0.1
+        global_unrest = -1
+    }
+    IFQ_idea_5 = {
+        global_institution_spread = 0.1
+    }
+    IFQ_idea_6 = {
+        global_ship_cost = -0.1
+        global_ship_recruit_speed = -0.1
+    }
+    IFQ_idea_7 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+}
+
+WES_ideas = {
+    start = {
+        land_morale = 0.1
+        global_trade_goods_size_modifier = 0.1
+    }
+    bonus = {
+        caravan_power = 0.2
+    }
+    
+    trigger = {
+        tag = WES
+    }
+    free = yes
+
+    WES_idea_1 = {
+        production_efficiency = 0.1
+    }
+    WES_idea_2 = {
+        legitimacy = 1
+    }
+    WES_idea_3 = {
+        build_cost = -0.1
+        prestige = 1
+    }
+    WES_idea_4 = {
+        yearly_corruption = -0.05
+    }
+    WES_idea_5 = {
+        no_religion_penalty = yes
+        stability_cost_modifier = -0.1
+    }
+    WES_idea_6 = {
+        interest = -0.5
+    }
+    WES_idea_7 = {
+        siege_ability = 0.1
+    }
+}
+
+MNI_ideas = {
+    start = {
+        discipline = 0.075
+        enemy_core_creation = 0.5
+    }
+    bonus = {
+        naval_forcelimit_modifier = 0.25
+    }
+    
+    trigger = {
+        tag = MNI
+    }
+    free = yes
+
+    MNI_idea_1 = {
+        global_missionary_strength = 0.02
+    }
+    MNI_idea_2 = {
+        defensiveness = 0.2
+        hostile_attrition = 1
+    }
+    MNI_idea_3 = {
+        rebel_support_efficiency = 0.2
+        global_manpower_modifier = 0.2
+    }
+    MNI_idea_4 = {
+        trade_steering = 0.2
+    }
+    MNI_idea_5 = {
+        global_foreign_trade_power = 0.1
+        naval_morale = 0.15
+    }
+    MNI_idea_6 = {
+        privateer_efficiency = 0.2
+    }
+    MNI_idea_7 = {
+        global_autonomy = -0.05
+    }
+}
+
+SRU_ideas = {
+    start = {
+        capture_ship_chance = 0.2
+        global_trade_power = 0.1
+    }
+    bonus = {
+        sunk_ship_morale_hit_recieved = -0.2
+    }
+    
+    trigger = {
+        tag = SRU
+    }
+    free = yes
+    SRU_idea_1 = {
+        production_efficiency = 0.1
+    }
+    SRU_idea_2 = {
+        galley_power = 0.1
+    }
+    SRU_idea_3 = {
+        leader_land_shock = 1
+    }
+    SRU_idea_4 = {
+        land_maintenance_modifier = -0.1
+        loot_amount = 0.25
+    }
+    SRU_idea_5 = {
+        build_cost = -0.1
+    }
+    SRU_idea_6 = {
+        defensiveness = 0.15
+    }
+    SRU_idea_7 = {
+        global_institution_spread = 0.1
+    }
+}
+
+AYD_ideas = {
+    start = {
+        capture_ship_chance = 0.2
+        improve_relation_modifier = 0.3
+    }
+    bonus = {
+        dip_tech_cost_modifier = -0.15
+    }
+    
+    trigger = {
+        tag = AYD
+    }
+    free = yes
+    AYD_idea_1 = {
+        global_trade_power = 0.1
+    }
+    AYD_idea_2 = {
+        privateer_efficiency = 0.2  
+    }
+    AYD_idea_3 = {
+        diplomatic_upkeep = 1
+    }
+    AYD_idea_4 = {
+        naval_forcelimit_modifier = 0.2
+    }
+    AYD_idea_5 = {
+        development_cost = -0.1
+    }
+    AYD_idea_6 = {
+        embargo_efficiency = 0.25   
+    }
+    AYD_idea_7 = {
+        global_ship_recruit_speed = -0.1
+    }
+}
+
+MEN_ideas = {
+    start = {
+        capture_ship_chance = 0.2
+        sunk_ship_morale_hit_recieved = -0.2
+    }
+    bonus = {
+        privateer_efficiency = 0.2  
+    }
+    
+    trigger = {
+        tag = MEN
+    }
+    free = yes
+    MEN_idea_1 = {
+        global_foreign_trade_power = 0.1
+    }
+    MEN_idea_2 = {
+        defensiveness = 0.1
+        trade_efficiency = 0.05
+    }
+    MEN_idea_3 = {
+        transport_cost = -0.1
+        transport_power = 0.1
+    }
+    MEN_idea_4 = {
+        global_trade_power = 0.1
+    }
+    MEN_idea_5 = {
+        navy_tradition = 1
+        navy_tradition_decay = -0.01
+    }
+    MEN_idea_6 = {
+        discipline = 0.05
+    }
+    MEN_idea_7 = {
+        tolerance_own = 1
+    }
+}
+
+SDL_ideas = {
+    start = {
+        development_cost = -0.1
+        global_institution_spread = 0.1
+    }
+    bonus = {
+        fire_damage = 0.1
+    }
+    
+    trigger = {
+        tag = SDL
+    }
+    free = yes
+    SDL_idea_1 = {
+        inflation_reduction = 0.1   
+    }
+    SDL_idea_2 = {
+        trade_efficiency = 0.1
+    }
+    SDL_idea_3 = {
+        stability_cost_modifier = -0.1
+        global_unrest = -1
+    }
+    SDL_idea_4 = {
+        trade_range_modifier = 0.2
+        global_sailors_modifier = 0.25
+    }
+    SDL_idea_5 = {
+        embracement_cost = -0.1
+    }
+    SDL_idea_6 = {
+        global_heretic_missionary_strength = 0.02
+        church_power_modifier = 0.1
+    }
+    SDL_idea_7 = {
+        garrison_size = 0.15
+        land_forcelimit_modifier = 0.1
+    }
+}
+
+GMU_ideas = {
+    start = {
+        tolerance_own = 1
+        global_tax_modifier = 0.1
+    }
+    bonus = {
+        global_manpower_modifier = 0.15
+    }
+    
+    trigger = {
+        tag = GMU
+    }
+    free = yes
+    GMU_idea_1 = {
+        prestige = 1
+    }
+    GMU_idea_2 = {
+        global_garrison_growth = 0.15
+    }
+    GMU_idea_3 = {
+        papal_influence = 1
+    }
+    GMU_idea_4 = {
+        advisor_cost = -0.15
+        tability_cost_modifier = -0.05
+    }
+    GMU_idea_5 = {
+        discipline = 0.05
+    }
+    GMU_idea_6 = {
+        production_efficiency = 0.1
+    }
+    GMU_idea_7 = {
+        heir_chance = 0.5
+        yearly_corruption = -0.05
+    }
+}
+
+DRD_ideas = {
+    start = {
+        build_cost = -0.1
+        promote_culture_cost = -0.2
+    }
+    bonus = {
+        merchants = 1
+    }
+    
+    trigger = {
+        tag = DRD
+    }
+    free = yes
+    DRD_idea_1 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    DRD_idea_2 = {
+        global_unrest = -2
+    }
+    DRD_idea_3 = {
+        prestige_decay = -0.01
+    }
+    DRD_idea_4 = {
+        diplomats = 1
+        improve_relation_modifier = 0.15    
+    }
+    DRD_idea_5 = {
+        tolerance_own = 2
+        tolerance_heretic = 2
+    }
+    DRD_idea_6 = {
+        free_leader_pool = 1
+    }
+    DRD_idea_7 = {
+        num_accepted_cultures = 2
+    }
+}
+
+KSI_ideas = {
+    start = {
+        galley_power = 0.2
+        trade_efficiency = 0.1
+    }
+    bonus = {
+        discipline = 0.05
+    }
+    
+    trigger = {
+        tag = KSI
+    }
+    free = yes
+
+    KSI_idea_1 = {
+        improve_relation_modifier = 0.3
+    }
+    KSI_idea_2 = {
+        global_sailors_modifier = 0.2
+    }
+    KSI_idea_3 = {
+        global_ship_recruit_speed = -0.1
+    }
+    KSI_idea_4 = {
+        fabricate_claims_cost = -0.25
+    }
+    KSI_idea_5 = {
+        loot_amount = 0.25
+    }
+    KSI_idea_6 = {
+        prestige = 1
+    }
+    KSI_idea_7 = {
+        global_manpower_modifier = 0.1
+    }
+}
+
+ACH_ideas = {
+    start = {
+        tolerance_heretic = 3
+        years_of_nationalism = -5
+    }
+    bonus = {
+        production_efficiency = 0.1
+    }
+    
+    trigger = {
+        tag = ACH
+    }
+    free = yes
+
+    ACH_idea_1 = {
+        cavalry_flanking = 0.5
+        leader_siege = 1
+    }
+    ACH_idea_2 = {
+        global_autonomy = -0.05
+    }
+    ACH_idea_3 = {
+        legitimacy = 1
+    }
+    ACH_idea_4 = {
+        garrison_size = 0.25
+    }
+    ACH_idea_5 = {
+        fort_maintenance_modifier = -0.1
+    }
+    ACH_idea_6 = {
+        may_recruit_female_generals = yes
+        advisor_pool = 1
+    }
+    ACH_idea_7 = {
+        manpower_recovery_speed = 0.1
+    }
+}
+
+ZBB_ideas = {
+    start = {
+        discovered_relations_impact = -0.5
+        fabricate_claims_cost = -0.25
+    }
+
+    bonus = {
+        shock_damage_received = -0.1
+    }
+    
+    trigger = {
+        tag = ZBB
+    }
+    free = yes
+
+    ZBB_idea_1 = {
+        global_spy_defence = 0.2
+    }
+    ZBB_idea_2 = {
+        culture_conversion_cost = -0.1
+    }
+    ZBB_idea_3 = {
+        unjustified_demands = -0.25
+    }
+    ZBB_idea_4 = {
+        global_foreign_trade_power = 0.1
+    }
+    ZBB_idea_5 = {
+        fire_damage_received = -0.1
+    }
+    ZBB_idea_6 = {
+        land_attrition = -0.1
+    }
+    ZBB_idea_7 = {
+        spy_offence = 0.2
+    }
+
+}
+
+LVC_ideas = {
+    start = {
+        defensiveness = 0.2
+        enemy_core_creation = 0.25
+    }
+    
+    bonus = {
+        leader_land_fire = 1
+    }
+    
+    trigger = {
+        tag = LVC
+    }
+    free = yes
+    
+    LVC_idea_1 = {
+        unjustified_demands = -0.25
+    }
+    LVC_idea_2 = {
+        prestige = 1
+    }
+    LVC_idea_3 = {
+        core_creation = -0.1
+    }
+    LVC_idea_4 = {
+        diplomatic_reputation = 1
+    }
+    LVC_idea_5 = {
+        shock_damage_received = -0.1
+    }
+    LVC_idea_6 = {
+        fire_damage = 0.1
+        movement_speed = 0.15
+    }
+    LVC_idea_7 = {
+        caravan_power = 0.2
+    }
+}
+
+MOE_ideas = {
+    start = {
+        trade_range_modifier = 0.2
+        diplomatic_upkeep = 1
+    }
+    bonus = {
+        embargo_efficiency = 0.1
+    }
+    
+    trigger = {
+        tag = MOE
+    }
+    free = yes
+
+    MOE_idea_1 = {
+        discipline = 0.05
+    }
+    MOE_idea_2 = {
+        legitimacy = 1
+        heir_chance = 0.5
+    }
+    MOE_idea_3 = {
+        development_cost = -0.1
+    }
+    MOE_idea_4 = {
+        defensiveness = 0.2
+    }
+    MOE_idea_5 = {
+        vassal_income = 0.25
+    }
+    MOE_idea_6 = {
+        garrison_size = 0.1
+        fort_maintenance_modifier = -0.1
+    }
+    MOE_idea_7 = {
+        global_ship_recruit_speed = -0.1
+    }
+}
+
+PAR_ideas = {
+    start = {
+        advisor_pool = 1
+        global_unrest = -1
+    }
+    bonus = {
+        artillery_cost = -0.1
+    }
+    
+    trigger = {
+        tag = PAR
+    }
+    free = yes
+
+    PAR_idea_1 = {
+        improve_relation_modifier = 0.3
+    }
+    PAR_idea_2 = {
+        merc_maintenance_modifier = -0.05
+        mercenary_discipline = 0.05
+    }
+    PAR_idea_3 = {
+        envoy_travel_time = -0.25
+        global_tax_modifier = 0.1
+    }
+    PAR_idea_4 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    PAR_idea_5 = {
+        papal_influence = 2
+    }
+    PAR_idea_6 = {
+        production_efficiency = 0.1
+    }
+    PAR_idea_7 = {
+        embracement_cost = -0.1
+    }
+}
+
+MOD_ideas = {
+    start = {
+        global_spy_defence = 0.2
+        caravan_power = 0.2
+    }
+    bonus = {
+        leader_land_fire = 1
+    }
+    
+    trigger = {
+        tag = MOD
+    }
+    free = yes
+
+    MOD_idea_1 = {
+        prestige = 1
+    }
+    MOD_idea_2 = {
+        land_morale = 0.1
+    }
+    MOD_idea_3 = {
+        technology_cost = -0.05
+    }
+    MOD_idea_4 = {
+        heir_chance = 0.5
+    }
+    MOD_idea_5 = {
+        build_cost = -0.1
+        state_maintenance_modifier = -0.1
+    }
+    MOD_idea_6 = {
+        diplomatic_reputation = 1
+    }
+    MOD_idea_7 = {
+        interest = -0.5
+    }
+}
+
+COR_ideas = {
+    start = {
+        idea_cost = -0.1
+        navy_tradition_decay = -0.01
+    }
+    bonus = {
+        galley_power = 0.2
+    }
+    
+    trigger = {
+        tag = COR
+    }
+    free = yes
+
+    COR_idea_1 = {
+        land_morale = 0.1
+    }
+    COR_idea_2 = {
+        global_own_trade_power = 0.1
+        trade_steering = 0.1
+    }
+    COR_idea_3 = {
+        yearly_corruption = -0.1
+    }
+    COR_idea_4 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    COR_idea_5 = {
+        global_institution_spread = 0.1
+        embracement_cost = -0.1
+    }
+    COR_idea_6 = {
+        legitimacy = 1
+        republican_tradition = 0.5
+    }
+    COR_idea_7 = {
+        discipline = 0.05
+    }
+}
+
+ANH_ideas = {
+    start = {
+        enemy_core_creation = 0.25
+        trade_efficiency = 0.1
+    }
+    bonus = {
+        army_tradition = 0.5
+    }
+    trigger = {
+        tag = ANH
+    }
+    free = yes
+    ANH_idea_1 = {
+        prestige = 1
+    }
+    ANH_idea_2 = {
+        defensiveness = 0.2
+    }
+    ANH_idea_3 = {
+        land_morale = 0.1
+    }
+    ANH_idea_4 = {
+        church_power_modifier = 0.1
+        global_heretic_missionary_strength = 0.02
+    }
+    ANH_idea_5 = {
+        build_time = -0.1
+    }
+    ANH_idea_6 = {
+        diplomatic_reputation = 1
+    }
+    ANH_idea_7 = {
+        legitimacy = 1
+    }
+}
+
 AML_ideas = {
     start = {
         light_ship_cost = -0.2
@@ -22,7 +753,7 @@ AML_ideas = {
         reinforce_speed = 0.1
     }
     AML_idea_4 = {
-        papal_influence = 1
+        papal_influence = 2
     }
     AML_idea_5 = {
         hostile_attrition = 1
@@ -108,7 +839,7 @@ AMG_ideas = {
     }
     AMG_archbishops_of_aquitaine = {
         tolerance_own = 1
-        papal_influence = 0.5
+        papal_influence = 1
     }
 }
 
@@ -125,7 +856,7 @@ FOI_ideas = {
         tag = FOI
     }
     FOI_neighbour_connections = {
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.3
     }
     FOI_vassals_in_name = {
         land_forcelimit_modifier = 0.1
@@ -149,7 +880,7 @@ FOI_ideas = {
 
 AUV_ideas = {
     start = {
-        defensiveness = 0.15
+        defensiveness = 0.2
         war_exhaustion = -0.02
     }
     bonus = {
@@ -169,7 +900,7 @@ AUV_ideas = {
         legitimacy = 1
     }
     AUV_auvergnat_identity = {
-        culture_conversion_cost = -0.15
+        culture_conversion_cost = -0.1
     }
     AUV_blood_of_arverni = {
         land_morale = 0.1
@@ -195,7 +926,7 @@ BOU_ideas = {
         tag = BOU 
     }
     BOU_castle_montlucon = {
-        defensiveness = 0.15
+        defensiveness = 0.2
     }
     BOU_loyal_nation = {
         global_tax_modifier = 0.1
@@ -210,7 +941,7 @@ BOU_ideas = {
         fabricate_claims_cost = -0.25
     }
     BOU_cadet_houses_of_bourbon = {
-        heir_chance = 0.25
+        heir_chance = 0.5
     }
     BOU_bourbon_kings = {
         prestige = 1
@@ -236,10 +967,10 @@ ABR_ideas = {
         trade_efficiency = 0.1
     }
     ABR_mad_war = {
-        mercenary_cost = -0.25
+        mercenary_cost = -0.15
     }
     ABR_gascon_connections = {
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.3
     }
     ABR_the_last_fiefdom = {
         prestige_decay = -0.01
@@ -273,7 +1004,7 @@ ETR_ideas = {
         army_tradition = 0.5
     }
     ETR_idea_3 = {
-        diplomats = 1
+        yearly_absolutism = 0.1
     }
     ETR_idea_4 = {
         global_tax_modifier = 0.1
@@ -591,7 +1322,7 @@ giudicati_ideas = {
     }
     giudicati_idea_2 = {
         diplomatic_upkeep = 1
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.15
     }
     giudicati_idea_3 = {
         global_unrest = -1
@@ -950,7 +1681,7 @@ DNA_ideas = {
 HGF_ideas = {
     start = {
 		diplomatic_upkeep = 1
-		improve_relation_modifier = 0.2
+		improve_relation_modifier = 0.3
     }
     bonus = {
 		global_tax_modifier = 0.1
@@ -1327,7 +2058,7 @@ RAP_ideas = {
 		num_accepted_cultures = 1
     }
 	bonus = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.1
     }
     
     trigger = {
@@ -2025,7 +2756,7 @@ WEE_ideas = {
 		war_exhaustion = -0.02
     }
     bonus = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.1
     }
 
     trigger = {
@@ -2058,7 +2789,7 @@ WEE_ideas = {
 DSD_ideas = {
     start = {
 		enemy_core_creation = 0.25
-		improve_relation_modifier = 0.2
+		improve_relation_modifier = 0.3
     }
     bonus = {
 		defensiveness = 0.2
@@ -2971,7 +3702,7 @@ slovenian_ideas = {
 FIU_ideas = {
     start = {
         num_accepted_cultures = 1
-        improve_relation_modifier = 0.25
+        improve_relation_modifier = 0.3
     }
 
     bonus = {
@@ -3457,7 +4188,7 @@ NNN_ideas = {
     }
     free = yes
     NNN_idea_1 = {
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.3
     }
     NNN_idea_2 = {
         prestige_decay = -0.01
@@ -3522,7 +4253,7 @@ SLM_ideas = {
 
 BLL_ideas = {
     start = {
-        global_manpower_modifier = 0.35
+        global_manpower_modifier = 0.2
         discipline = 0.05
     }
 
@@ -3600,7 +4331,7 @@ ECH_ideas = {
 kempten_ideas = {
     start = {
         diplomatic_reputation = 1
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.3
     }
 
     bonus = {
@@ -3623,7 +4354,7 @@ kempten_ideas = {
         garrison_size = 0.1
     }
     kempten_idea_4 = {
-        global_manpower_modifier = 0.2
+        global_manpower_modifier = 0.1
     }
     kempten_idea_5 = {
         global_unrest = -1
@@ -3714,15 +4445,16 @@ FNB_ideas = {
 PFU_ideas = {
     start = {
         development_cost = -0.1
-        land_forcelimit_modifier = 0.2
+        land_forcelimit_modifier = 0.1
     }
 
     bonus = {
-        naval_forcelimit_modifier = 0.25
+        naval_forcelimit_modifier = 0.2
     }
 
     trigger = {
         tag = PFU
+        government = imperial_city
     }
     free = yes
 
@@ -3748,6 +4480,42 @@ PFU_ideas = {
     }
     PFU_idea_7 = {
         prestige = 1
+    }
+}
+
+PFU2_ideas = {
+    start = {
+        sunk_ship_morale_hit_recieved = -0.2
+        global_garrison_growth = 0.25
+    }
+    bonus = {
+        artillery_power = 0.1
+    }
+ 
+    trigger = {
+        tag = PFU
+    }
+    free = yes
+    PFU2_idea_1 = {
+        heir_chance = 0.5
+    }
+    PFU2_idea_2 = {
+        justify_trade_conflict_time = -0.1
+    }
+    PFU2_idea_3 = {
+        envoy_travel_time = -0.25
+    }
+    PFU2_idea_4 = {
+        build_time = -0.1
+    }
+    PFU2_idea_5 = {
+        global_spy_defence = 0.2
+    }
+    PFU2_idea_6 = {
+        discovered_relations_impact = -0.5
+    }
+    PFU2_idea_7 = {
+        rebel_support_efficiency = 0.2
     }
 }
 
@@ -3960,7 +4728,7 @@ SMZ_ideas = {
     free = yes
 
     SMZ_idea_1 = {
-        global_manpower_modifier = 0.15
+        global_manpower_modifier = 0.1
     }
     SMZ_idea_2 = {
         global_missionary_strength = 0.01
@@ -4597,7 +5365,7 @@ LAU_ideas = {
 AQT_ideas = {
     start = {
         land_attrition = -0.1
-        war_exhaustion = -0.02
+        production_efficiency = 0.1
     }
     bonus = {
         fire_damage = 0.1
@@ -5011,7 +5779,7 @@ ZEE_ideas = {
 THO_ideas = {
     start = {
         adm_tech_cost_modifier = -0.1
-        improve_relation_modifier = 0.25
+        improve_relation_modifier = 0.3
     }
 
     bonus = {
@@ -5239,7 +6007,7 @@ HUM_ideas = {
 
 AAI_ideas = {
     start = {
-        may_perform_slave_raid = yes
+        capture_ship_chance = 0.2
         light_ship_power = 0.15
     }
 
@@ -6294,7 +7062,7 @@ LIV_ideas = {
 
 DSS_ideas = {
     start = {
-        improve_relation_modifier = 0.25
+        improve_relation_modifier = 0.3
         production_efficiency = 0.1
     }
     bonus = {
@@ -6344,7 +7112,7 @@ HBG_ideas = {
         idea_cost = -0.1
     }
     HBG_idea_2 = {
-        global_manpower_modifier = 0.25
+        global_manpower_modifier = 0.1
     }
     HBG_idea_3 = {
         trade_efficiency = 0.1
@@ -7106,7 +7874,7 @@ PAA_ideas = {
         enemy_core_creation = 0.25
     }
     bonus = {
-        reinforce_cost_modifier = -0.25
+        reinforce_cost_modifier = -0.2
     }
 
     trigger = {
@@ -7245,7 +8013,7 @@ MAI_ideas = {
         army_tradition_from_battle = 0.5
     }
     MAI_idea_7 = {
-        yearly_absolutism = 0.2
+        yearly_absolutism = 0.1
     }
 }
 
@@ -7289,7 +8057,7 @@ TUB_ideas = {
 
 MAG_ideas = {
     start = {
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.3
         trade_efficiency = 0.1
     }
     bonus = {

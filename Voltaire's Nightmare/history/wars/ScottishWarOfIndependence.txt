@@ -12,7 +12,7 @@ war_goal = {
 	add_attacker = ILE
 	add_attacker = FRA
 	add_defender = ENG
-	add_defender = AQT
+	add_defender = GUY
 	add_defender = PMK
 	add_defender = GOW
 	add_defender = GLM
@@ -195,7 +195,7 @@ war_goal = {
 	rem_attacker = ILE
 	rem_attacker = FRA
 	rem_defender = ENG
-	rem_defender = AQT
+	rem_defender = GUY
 	rem_defender = GOW
 	rem_defender = GLM
 }

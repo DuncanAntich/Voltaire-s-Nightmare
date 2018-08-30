@@ -10,6 +10,7 @@ war_goal = {
 	add_defender = VEN
 	add_defender = PIS
 	add_defender = GLL
+	add_defender = COR
 }
 
 1270.1.1 = {
@@ -18,4 +19,5 @@ war_goal = {
 	rem_defender = VEN
 	rem_defender = PIS
 	rem_defender = GLL
+	rem_defender = COR
 }

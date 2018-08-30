@@ -11,7 +11,7 @@ war_goal = {
 	add_attacker = MTH
 	add_defender = GLM
 	add_defender = ENG
-	add_defender = AQT
+	add_defender = GUY
 }
 
 1322.1.22 = { #mortimer arrested
@@ -22,5 +22,5 @@ war_goal = {
 	rem_attacker = BRK
 	rem_defender = GLM
 	rem_defender = ENG
-	rem_defender = AQT
+	rem_defender = GUY
 }

@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 11 22 170 }
 
 historical_idea_groups = {
@@ -88,7 +85,8 @@ leader_names = {
 	Karling Merowing Konrading Wigericing Liudolfing Matfrieding Gerulfing
 	Hunfriding Burkharding Siegharding Gerharding Udalriching Meinhering
 	Arnulfing Ahalolfing Meinharding Ludowing Chrodoberting Eberharding
-	Reudigni Avione Eudose Suarine Nuitone Salier Ekkeharding
+	Ekkeharding Bosoning Bivining Ramnulfing Ingelgering
+	Reudigni Avione Eudose Suarine Nuitone Salier 
 	"von Löwen" "von Verdun" "von Rheingau" "von Karantanien"
 	"von Neustrien" "von Austrasien" "von Bayern" "von Burgund"
 	"von Lothringen" "von Schwaben" "von Septimanien" "von Worms"

@@ -33,13 +33,7 @@ union = {
 	first = TOU
 	second = VAL
 	start_date = 1062.1.1
-	end_date = 1249.9.27
-}
-union = {
-	first = POU
-	second = VAL
-	start_date = 1249.9.27
-	end_date = 1271.8.21
+	end_date = 1125.1.1
 }
 royal_marriage = {
 	first = POU
@@ -54,13 +48,13 @@ union = {
 	end_date = 1112.2.3
 }
 union = {
-	first = CAT
+	first = BRC
 	second = PRO
 	start_date = 1112.2.3
 	end_date = 1131.7.19
 }
 union = {
-	first = CAT
+	first = BRC
 	second = GEV
 	start_date = 1112.2.3
 	end_date = 1131.7.19
@@ -117,6 +111,12 @@ union = {
 	first = NRB
 	second = AOE
 	start_date = 1409.1.1
+	end_date = 1410.3.4
+}
+union = {
+	first = NRB
+	second = LGU
+	start_date = 1410.3.4
 	end_date = 1420.8.17
 }
 
@@ -321,27 +321,63 @@ union = {
 
 #Eleanor
 union = {
+	first = AQT
+	second = GUY
+	start_date = 1052.1.1
+	end_date = 1204.4.1
+}
+alliance = {
 	first = FRA
 	second = AQT
 	start_date = 1137.4.9
 	end_date = 1152.3.21
 }
-union = {
+royal_marriage = {
+	first = FRA
+	second = AQT
+	start_date = 1137.4.9
+	end_date = 1152.3.21
+}
+alliance = {
 	first = ANJ
 	second = AQT
 	start_date = 1152.5.18
 	end_date = 1154.10.25
 }
-union = {
+royal_marriage = {
+	first = ANJ
+	second = AQT
+	start_date = 1152.5.18
+	end_date = 1154.10.25
+}
+alliance = {
 	first = ENG
 	second = AQT
 	start_date = 1154.10.25
 	end_date = 1173.3.1
 }
-union = {
+alliance = {
 	first = ENG
 	second = AQT
 	start_date = 1174.7.13
+	end_date = 1204.4.1
+}
+royal_marriage = {
+	first = ENG
+	second = AQT
+	start_date = 1154.10.25
+	end_date = 1204.4.1
+}
+union = {
+	first = ENG
+	second = AQT
+	start_date = 1204.4.1
+	end_date = 1242.7.21
+}
+union = {
+	first = ENG
+	second = GUY
+	start_date = 1204.4.1
 	end_date = 1337.4.30
 }
 union = {

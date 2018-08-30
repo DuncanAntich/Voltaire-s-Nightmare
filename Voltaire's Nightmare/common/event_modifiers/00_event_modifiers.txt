@@ -233,6 +233,83 @@ extensive_holdings = {
 	global_manpower = 10.0
 }
 
+ibadi_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomatic_reputation = 1
+}
+
+azraqi_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	global_missionary_strength = 0.01
+}
+
+sufri_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	technology_cost = -0.05
+}
+
+vn_inquisition = {
+	global_heretic_missionary_strength = 0.02
+	tolerance_heretic = -2
+}
+
+cultural_emigration = {
+	culture_conversion_cost = -0.5
+}
+
+cultural_construction = {
+	build_cost = -0.1
+	build_time = -0.25
+}
+
+cultural_enthusiasm = {
+	core_creation = -0.1
+	range = 0.2
+}
+
+cultural_skepticism = {
+	dip_tech_cost_modifier = -0.1
+}
+
+logistics_speed = {
+	movement_speed = 0.1
+	envoy_travel_time = -0.5
+}
+
+logistics_sluggish = {
+	movement_speed = -0.2
+}
+
+manufacturing_recruitment = {
+	global_regiment_recruit_speed = -0.1
+}
+
+manufacturing_own_trade = {
+	global_own_trade_power = 0.15
+}
+
+manufacturing_foreign_trade = {
+	global_foreign_trade_power = 0.15
+}
+
+manufacturing_production = {
+	local_production_efficiency = 0.2
+	trade_goods_size_modifier = 0.2
+}
+
+manufacturing_prod_lost = {
+	production_efficiency = -0.1
+}
+
 ##############################
 
 national_bank_interest = {

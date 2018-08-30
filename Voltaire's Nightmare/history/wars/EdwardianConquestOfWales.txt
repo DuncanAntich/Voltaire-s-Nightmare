@@ -7,7 +7,7 @@ war_goal = {
 
 1276.11.1 = {
 	add_attacker = ENG
-	add_attacker = AQT
+	add_attacker = GUY
 	add_attacker = BUI
 	add_attacker = ELF
 	add_defender = GWY
@@ -19,7 +19,7 @@ war_goal = {
 
 1277.11.1 = {
 	rem_attacker = ENG
-	rem_attacker = AQT
+	rem_attacker = GUY
 	rem_attacker = BUI
 	rem_attacker = ELF
 	rem_defender = GWY

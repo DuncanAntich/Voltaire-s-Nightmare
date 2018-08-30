@@ -126,7 +126,8 @@ age_of_empire = {
 				tag = ARA
 			}
 			modifier = {
-				fabricate_claims_cost = -0.75
+				fabricate_claims_cost = -0.5
+				claim_duration = 0.5
 			}
 			ai_will_do = {
 				factor = 100

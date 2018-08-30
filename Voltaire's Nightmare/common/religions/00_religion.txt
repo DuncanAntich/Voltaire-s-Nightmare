@@ -1618,14 +1618,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = sunni }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = sunni } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1638,7 +1634,6 @@ muslim = {
 				hidden_progressive_opinion_for_scholar_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
@@ -1646,12 +1641,10 @@ muslim = {
 				add_country_modifier = { name = hanafi_scholar_modifier duration = 7300 }
 			}
 
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = hanafi_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_hanafi"
 
-			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			adm_tech_cost_modifier = -0.05
 		}
 		hanbali_school = {
@@ -1659,14 +1652,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = sunni }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = sunni } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1679,7 +1668,6 @@ muslim = {
 				NOT = { has_country_modifier = hanbali_scholar_modifier }
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
@@ -1687,7 +1675,6 @@ muslim = {
 				add_country_modifier = { name = hanbali_scholar_modifier duration = 7300 }
 			}
 
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = hanbali_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_hanbali"
@@ -1699,14 +1686,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = sunni }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = sunni } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1719,7 +1702,6 @@ muslim = {
 				NOT = { has_country_modifier = maliki_scholar_modifier }
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
@@ -1727,7 +1709,6 @@ muslim = {
 				add_country_modifier = { name = maliki_scholar_modifier duration = 7300 }
 			}
 
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = maliki_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_maliki"
@@ -1739,14 +1720,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = sunni }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = sunni } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1759,7 +1736,6 @@ muslim = {
 				NOT = { has_country_modifier = shafii_scholar_modifier }
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
@@ -1767,7 +1743,6 @@ muslim = {
 				add_country_modifier = { name = shafii_scholar_modifier duration = 7300 }
 			}
 
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = shafii_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_shafii"
@@ -1780,14 +1755,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = shiite }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = shiite } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1800,15 +1771,13 @@ muslim = {
 				NOT = { has_country_modifier = ismaili_scholar_modifier }
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = ismaili_scholar_modifier duration = 7300 }
 			}
-			
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
+
 			invite_scholar_modifier_display = ismaili_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_ismaili"
@@ -1822,14 +1791,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = shiite }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = shiite } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1842,15 +1807,13 @@ muslim = {
 				NOT = { has_country_modifier = jafari_scholar_modifier }
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = jafari_scholar_modifier duration = 7300 }
 			}
-			
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
+
 			invite_scholar_modifier_display = jafari_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_jafari"
@@ -1862,14 +1825,10 @@ muslim = {
 				knows_of_scholar_country_capital_trigger = yes
 			}
 
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
 				adm_power = 50
 				if = {
-					limit = {
-						NOT = { religion = shiite }
-						NOT = { religion = ibadi }
-					}
+					limit = { NOT = { religion = shiite } }
 					NOT = { piety = -0.5 }
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -1882,22 +1841,122 @@ muslim = {
 				NOT = { has_country_modifier = zaidi_scholar_modifier }
 			}
 
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
 				add_adm_power = -50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = zaidi_scholar_modifier duration = 7300 }
 			}
-			
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
+
 			invite_scholar_modifier_display = zaidi_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_zaidi"
 
 			shock_damage_received = -0.1
 		}
-		
+		#Kharijites
+		ibadi_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			can_invite_scholar = {
+				adm_power = 50
+				if = {
+					limit = { NOT = { religion = ibadi } }
+					NOT = { piety = -0.5 }
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = ibadi_scholar_modifier }
+			}
+
+			on_invite_scholar = {
+				add_adm_power = -50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = ibadi_scholar_modifier duration = 7300 }
+			}
+
+			invite_scholar_modifier_display = ibadi_scholar_modifier
+
+			picture = "GFX_icon_muslim_school_ibadi"
+
+			diplomatic_reputation = 1
+		}
+		azraqi_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			can_invite_scholar = {
+				adm_power = 50
+				if = {
+					limit = { NOT = { religion = ibadi } }
+					NOT = { piety = -0.5 }
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = azraqi_scholar_modifier }
+			}
+
+			on_invite_scholar = {
+				add_adm_power = -50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = azraqi_scholar_modifier duration = 7300 }
+			}
+
+			invite_scholar_modifier_display = azraqi_scholar_modifier
+
+			picture = "GFX_icon_muslim_school_azraqi"
+
+			global_missionary_strength = 0.01
+		}
+		sufri_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			can_invite_scholar = {
+				adm_power = 50
+				if = {
+					limit = { NOT = { religion = ibadi } }
+					NOT = { piety = -0.5 }
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = sufri_scholar_modifier }
+			}
+
+			on_invite_scholar = {
+				add_adm_power = -50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = sufri_scholar_modifier duration = 7300 }
+			}
+
+			invite_scholar_modifier_display = sufri_scholar_modifier
+
+			picture = "GFX_icon_muslim_school_sufri"
+
+			technology_cost = -0.05
+		}
 	}
 	
 	sunni = {
@@ -2080,7 +2139,7 @@ pagan = {
 		icon = 58
 		color = { 127 127 191 }
 		country = {
-			tolerance_own = 1
+			discipline = 0.05
 			development_cost = -0.1
 		}
 		country_as_secondary = {

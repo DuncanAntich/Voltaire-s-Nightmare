@@ -9,10 +9,12 @@ war_goal = {
 	add_attacker = FRA
 	add_defender = ENG
 	add_defender = AQT
+	add_defender = GUY
 }
 
 1242.7.21 = {
 	rem_attacker = FRA
 	rem_defender = ENG
 	rem_defender = AQT
+	rem_defender = GUY
 }

@@ -530,6 +530,51 @@ country_event = {
 					discount = yes
 				}
 			}
+			else_if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = ibadi_school
+					}
+				}
+				define_advisor = {
+					type = trader
+					religion = ibadi
+					culture = event_target:mufti_province
+					skill = 2
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = azraqi_school
+					}
+				}
+				define_advisor = {
+					type = commandant
+					religion = ibadi
+					culture = event_target:mufti_province
+					skill = 2
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = sufri_school
+					}
+				}
+				define_advisor = {
+					type = treasurer
+					religion = ibadi
+					culture = event_target:mufti_province
+					skill = 2
+					discount = yes
+				}
+			}
 		}
 		else_if = {
 			limit = {
@@ -637,6 +682,51 @@ country_event = {
 					skill = 3
 					culture = event_target:mufti_province
 					religion = shiite
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = ibadi_school
+					}
+				}
+				define_advisor = {
+					type = trader
+					religion = ibadi
+					culture = event_target:mufti_province
+					skill = 3
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = azraqi_school
+					}
+				}
+				define_advisor = {
+					type = commandant
+					religion = ibadi
+					culture = event_target:mufti_province
+					skill = 3
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = sufri_school
+					}
+				}
+				define_advisor = {
+					type = treasurer
+					religion = ibadi
+					culture = event_target:mufti_province
+					skill = 3
 					discount = yes
 				}
 			}
@@ -1504,6 +1594,9 @@ country_event = {
 				our_scholar_matches_their_school_trigger = { school=zaidi }
 				our_scholar_matches_their_school_trigger = { school=ismaili }
 				our_scholar_matches_their_school_trigger = { school=jafari }
+				our_scholar_matches_their_school_trigger = { school=ibadi }
+				our_scholar_matches_their_school_trigger = { school=azraqi }
+				our_scholar_matches_their_school_trigger = { school=sufri }
 			}
 			has_opinion = { who = ROOT value = 150 }
 			OR = {
@@ -1526,6 +1619,9 @@ country_event = {
 						our_scholar_matches_their_school_trigger = { school=zaidi }
 						our_scholar_matches_their_school_trigger = { school=ismaili }
 						our_scholar_matches_their_school_trigger = { school=jafari }
+						our_scholar_matches_their_school_trigger = { school=ibadi }
+						our_scholar_matches_their_school_trigger = { school=azraqi }
+						our_scholar_matches_their_school_trigger = { school=sufri }
 					}
 					has_opinion = { who = ROOT value = 150 }
 					OR = {
@@ -1577,6 +1673,11 @@ country_event = {
 		else_if = {
 			limit = {
 				religion = ibadi
+				OR = {
+					has_country_modifier = ibadi_scholar_modifier
+					has_country_modifier = azraqi_scholar_modifier
+					has_country_modifier = sufri_scholar_modifier
+				}
 			}
 			add_piety = 0.15
 		}
@@ -1620,6 +1721,11 @@ country_event = {
 		else_if = {
 			limit = {
 				religion = ibadi
+				OR = {
+					has_country_modifier = ibadi_scholar_modifier
+					has_country_modifier = azraqi_scholar_modifier
+					has_country_modifier = sufri_scholar_modifier
+				}
 			}
 			add_piety = 0.15
 		}
@@ -1653,6 +1759,9 @@ country_event = {
 				our_scholar_matches_their_school_trigger = { school=zaidi }
 				our_scholar_matches_their_school_trigger = { school=ismaili }
 				our_scholar_matches_their_school_trigger = { school=jafari }
+				our_scholar_matches_their_school_trigger = { school=ibadi }
+				our_scholar_matches_their_school_trigger = { school=azraqi }
+				our_scholar_matches_their_school_trigger = { school=sufri }
 			}
 		}
 	}
@@ -1669,6 +1778,9 @@ country_event = {
 						our_scholar_matches_their_school_trigger = { school=zaidi }
 						our_scholar_matches_their_school_trigger = { school=ismaili }
 						our_scholar_matches_their_school_trigger = { school=jafari }
+						our_scholar_matches_their_school_trigger = { school=ibadi }
+						our_scholar_matches_their_school_trigger = { school=azraqi }
+						our_scholar_matches_their_school_trigger = { school=sufri }
 					}
 				}
 				save_event_target_as = scholar_country
@@ -1709,6 +1821,11 @@ country_event = {
 		else_if = {
 			limit = {
 				religion = ibadi
+				OR = {
+					has_country_modifier = ibadi_scholar_modifier
+					has_country_modifier = azraqi_scholar_modifier
+					has_country_modifier = sufri_scholar_modifier
+				}
 			}
 			add_piety = 0.15
 		}
@@ -1759,6 +1876,9 @@ country_event = {
 				has_country_modifier = ismaili_scholar_modifier
 				has_country_modifier = jafari_scholar_modifier
 				has_country_modifier = zaidi_scholar_modifier
+				has_country_modifier = ibadi_scholar_modifier
+				has_country_modifier = azraqi_scholar_modifier
+				has_country_modifier = sufri_scholar_modifier
 			}
 		}
 		modifier = {
@@ -1769,6 +1889,22 @@ country_event = {
 				has_country_modifier = hanbali_scholar_modifier
 				has_country_modifier = maliki_scholar_modifier
 				has_country_modifier = shafii_scholar_modifier
+				has_country_modifier = ibadi_scholar_modifier
+				has_country_modifier = azraqi_scholar_modifier
+				has_country_modifier = sufri_scholar_modifier
+			}
+		}
+		modifier = {
+			factor = 0.9
+			religion = ibadi
+			OR = {
+				has_country_modifier = hanafi_scholar_modifier
+				has_country_modifier = hanbali_scholar_modifier
+				has_country_modifier = maliki_scholar_modifier
+				has_country_modifier = shafii_scholar_modifier
+				has_country_modifier = ismaili_scholar_modifier
+				has_country_modifier = jafari_scholar_modifier
+				has_country_modifier = zaidi_scholar_modifier
 			}
 		}
 		modifier = {
@@ -2595,11 +2731,24 @@ country_event = {
 			has_religious_school = no
 			AND = {
 				religion = sunni
-				has_shia_school_trigger = yes
+				OR = {
+					has_shia_school_trigger = yes
+					has_khariji_school_trigger = yes
+				}
 			}
 			AND = {
 				religion = shiite
-				has_sunni_school_trigger = yes
+				OR = {
+					has_sunni_school_trigger = yes
+					has_khariji_school_trigger = yes
+				}
+			}
+			AND = {
+				religion = ibadi
+				OR = {
+					has_sunni_school_trigger = yes
+					has_shia_school_trigger = yes
+				}
 			}
 		}
 	}
@@ -2607,40 +2756,60 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = muslim_school_events.20.a #Gives areas historical school of region
-		trigger = {
-			ai = yes
-		}
-		if = { #Maliki in Africa
+		name = muslim_school_events.20.a
+		trigger = { ai = yes }
+		if = {
 			limit = {
-				NOT = { religion = shiite }
-				capital_scope = {
-					continent = africa
-				}
+				religion = sunni
+				capital_scope = { continent = africa }
 			}
 			set_religious_school = {
 				group = muslim
 				school = maliki_school
 			}
 		}
-		else_if = { #Final fallbacks
-			limit = { NOT = { religion = shiite } }
+		if = {
+			limit = {
+				religion = sunni
+				NOT = { capital_scope = { continent = africa } }
+			}
 			set_religious_school = {
 				group = muslim
 				school = shafii_school
 			}
 		}
-		else = { #Remaining Shiites get this:
+		if = {
+			limit = { religion = shiite }
 			set_religious_school = {
 				group = muslim
 				school = ismaili_school
+			}
+		}
+		if = {
+			limit = {
+				religion = ibadi
+				capital_scope = { continent = africa }
+			}
+			set_religious_school = {
+				group = muslim
+				school = azraqi_school
+			}
+		}
+		if = {
+			limit = {
+				religion = ibadi
+				NOT = { capital_scope = { continent = africa } }
+			}
+			set_religious_school = {
+				group = muslim
+				school = ibadi_school
 			}
 		}
 	}
 	option = {
 		name = muslim_school_events.20.b #Hanafi
 		trigger = {
-			NOT = { religion = shiite }
+			religion = sunni
 			ai = no
 		}
 		set_religious_school = {
@@ -2651,7 +2820,7 @@ country_event = {
 	option = {
 		name = muslim_school_events.20.c #Hanbali
 		trigger = {
-			NOT = { religion = shiite }
+			religion = sunni
 			ai = no
 		}
 		set_religious_school = {
@@ -2662,7 +2831,7 @@ country_event = {
 	option = {
 		name = muslim_school_events.20.dd #Maliki
 		trigger = {
-			NOT = { religion = shiite }
+			religion = sunni
 			ai = no
 		}
 		set_religious_school = {
@@ -2673,7 +2842,7 @@ country_event = {
 	option = {
 		name = muslim_school_events.20.e #Shafi'i
 		trigger = {
-			NOT = { religion = shiite }
+			religion = sunni
 			ai = no
 		}
 		set_religious_school = {
@@ -2684,7 +2853,7 @@ country_event = {
 	option = {
 		name = muslim_school_events.20.f #Ismaili
 		trigger = {
-			NOT = { religion = sunni }
+			religion = shiite
 			ai = no
 		}
 		set_religious_school = {
@@ -2695,7 +2864,7 @@ country_event = {
 	option = {
 		name = muslim_school_events.20.g #Jafari
 		trigger = {
-			NOT = { religion = sunni }
+			religion = shiite
 			ai = no
 		}
 		set_religious_school = {
@@ -2706,12 +2875,45 @@ country_event = {
 	option = {
 		name = muslim_school_events.20.h #Zaidi
 		trigger = {
-			NOT = { religion = sunni }
+			religion = shiite
 			ai = no
 		}
 		set_religious_school = {
 			group = muslim
 			school = zaidi_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.i #Ibadi
+		trigger = {
+			religion = ibadi
+			ai = no
+		}
+		set_religious_school = {
+			group = muslim
+			school = ibadi_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.j #Azraqi
+		trigger = {
+			religion = ibadi
+			ai = no
+		}
+		set_religious_school = {
+			group = muslim
+			school = azraqi_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.k #Sufri
+		trigger = {
+			religion = ibadi
+			ai = no
+		}
+		set_religious_school = {
+			group = muslim
+			school = sufri_school
 		}
 	}
 }
@@ -2881,4 +3083,3 @@ country_event = {
 		add_legitimacy = 10
 	}
 }
-

@@ -53,9 +53,9 @@ discovered_by = north_american
 }
 1410.3.4 = { add_core = SAR }
 1410.8.9 = {
-	owner = AOE
-	controller = AOE
-	add_core = AOE
+	owner = LGU
+	controller = LGU
+	add_core = LGU
 	remove_core = ARA
 	remove_core = SAR
 }
@@ -64,7 +64,7 @@ discovered_by = north_american
 	controller = ARA
 	add_core = ARA
 	add_core = SAR
-	remove_core = AOE
+	remove_core = LGU
 }
 1516.1.23 = {
 	owner = SPA

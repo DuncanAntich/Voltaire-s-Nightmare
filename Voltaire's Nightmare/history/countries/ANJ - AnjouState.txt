@@ -12,7 +12,7 @@ capital = 2163
 1040.6.21 = {
 	monarch = {
 		name = "Geoffroy II"
-		dynasty = "Ingelger"
+		dynasty = "Ingelgering"
 		adm = 4
 		dip = 1
 		mil = 4
@@ -178,19 +178,6 @@ capital = 2163
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = silver_tongue_personality
-}
-1152.5.18 = {
-	queen = {
-		country_of_origin = AQT
-		name = "Eleanor"
-		dynasty = "de Poitiers"
-		female = yes
-		birth_date = 1122.1.1
-		death_date = 1204.3.1
-		adm = 3
-		dip = 6
-		mil = 3
-	}
 }
 #1154.10.25 done
 #1246 PU under Provence

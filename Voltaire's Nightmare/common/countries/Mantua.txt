@@ -111,5 +111,5 @@ ship_names = {
 }
 
 army_names = {
-	"Armata de $PROVINCE$"
+	"Armata di $PROVINCE$"
 }

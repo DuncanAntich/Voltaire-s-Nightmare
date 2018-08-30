@@ -5,6 +5,70 @@ religion = catholic
 primary_culture = corsican
 capital = 2296	# Ajaccio
 
+#Counts
+1040.1.1 = {
+	monarch = {
+		name = "Antonio"
+		dynasty = "di Cinarca"
+		birth_date = 990.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Andrea"
+		monarch_name = "Andrea"
+		dynasty = "di Cinarca"
+		birth_date = 1040.1.1
+		death_date = 1112.1.1
+		claim = 90
+		adm = 2
+		dip = 0
+		mil = 0
+	}
+}
+1070.1.1 = {
+	monarch = {
+		name = "Andrea"
+		dynasty = "di Cinarca"
+		birth_date = 1040.1.1
+		adm = 2
+		dip = 0
+		mil = 0
+	}
+}
+#1077 under PIS
+#de facto count
+1247.1.1 = {
+	monarch = {
+		name = "Sinucello"
+		dynasty = "della Rocca"
+		birth_date = 1221.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+		leader = {	name = "Sinucello della Rocca"	type = general	fire = 3	shock = 4	manuever = 0	siege = 1 }
+	}
+}
+1289.1.1 = {
+	monarch = {
+		name = "Arriguccio"
+		dynasty = "della Rocca"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1320.1.1 = {
+	monarch = {
+		name = "Guglielmo"
+		dynasty = "della Rocca"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+#1347 annexed to GEN
 1372.1.1 = {
 	monarch = {
 		name = "Arrigo"
@@ -33,6 +97,8 @@ capital = 2296	# Ajaccio
 	monarch = {
 		name = "Tiadoru I"
 		dynasty = "von Neuhoff"
+		birth_date = 1694.8.25
+		culture = ripuarian
 		adm = 5
 		dip = 1
 		mil = 1
@@ -44,6 +110,7 @@ capital = 2296	# Ajaccio
 1753.10.1 = {
 	monarch = {
 		name = "Clemente Paoli"
+		birth_date = 1711.1.1
 		adm = 1
 		dip = 2
 		mil = 0
@@ -52,6 +119,7 @@ capital = 2296	# Ajaccio
 1755.7.16 = {
 	monarch = {
 		name = "Pasquale Paoli"
+		birth_date = 1725.1.1
 		adm = 3
 		dip = 4
 		mil = 5

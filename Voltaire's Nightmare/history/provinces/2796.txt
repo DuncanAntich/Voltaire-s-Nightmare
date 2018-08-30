@@ -1,5 +1,5 @@
-owner = AQT
-controller = AQT
+owner = GUY
+controller = GUY
 culture = gascon
 religion = catholic
 hre = no
@@ -9,12 +9,13 @@ trade_goods = cheese
 base_manpower = 1
 capital = "Bazas"
 is_city = yes
-add_core = AQT
 add_core = GUY
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
 1204.3.2 = {
 	base_tax = 2
@@ -22,12 +23,11 @@ discovered_by = muslim
 	base_manpower = 2
 }
 1296.3.1 = { controller = FRA }
-1303.5.20 = { controller = AQT }
+1303.5.20 = { controller = GUY }
 1325.1.1 = {
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	remove_core = AQT
 }
 1345.10.1 = {
 	owner = ENG
@@ -62,5 +62,3 @@ discovered_by = muslim
 1685.10.18 = { unrest = 8 }
 1686.1.17 = { religion = catholic }
 1689.1.1 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

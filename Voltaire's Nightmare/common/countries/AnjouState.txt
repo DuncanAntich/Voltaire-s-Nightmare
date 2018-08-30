@@ -64,8 +64,8 @@ leader_names = {
 	"de Montfort"
 	"de Normandie"
 	"d'Anjou"
-	Ingelger
-	Robertien
+	"d'Angers"
+	"de Penthièvre"
 }
 
 army_names = { 

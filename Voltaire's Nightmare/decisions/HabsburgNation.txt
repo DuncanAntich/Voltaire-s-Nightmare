@@ -9,6 +9,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			tag = STY
+			culture = austrian
 			dynasty = "von Habsburg"
 			OR = {
 				NOT = { exists = HAB }

@@ -67,6 +67,18 @@ on_startup = {
 		set_global_flag = init_rel
 	}
 
+	if = {
+		limit = { NOT = { started_in = 1066.10.14 } }
+		NRM = {
+			define_ruler_to_general = {
+				fire = 5
+				shock = 5
+				manuever = 3
+				siege = 0
+			}
+		}
+	}
+
 	#RD Fix
 	if = {
 		limit = {
@@ -126,6 +138,19 @@ on_startup = {
 		}
 		add_reform_desire = 0.90
 		set_global_flag = init_reform_desire
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_modifier = assize_of_arms }
+			started_in = 1272.1.1
+			mil_tech = 20
+			primitives = no
+		}
+		add_country_modifier = {
+			name = "assize_of_arms"
+			duration = -1
+		}
 	}
 
 	#Vanilla
@@ -1919,6 +1944,52 @@ on_five_year_pulse = {
 	random_events = {
 		#Cultural
 		100 = hremodevents.39
+		100 = fbievents.75
+		100 = fbievents.76
+		100 = fbievents.77
+		100 = fbievents.78
+		100 = fbievents.79
+		100 = fbievents.80
+		100 = fbievents.81
+		100 = fbievents.82
+		100 = fbievents.83
+		100 = fbievents.84
+
+		#Piracy
+		100 = fbievents.50
+		100 = fbievents.51
+		100 = fbievents.52
+		100 = fbievents.53
+		100 = fbievents.54
+		100 = fbievents.55
+		100 = fbievents.56
+		100 = fbievents.57
+		100 = fbievents.58
+		100 = fbievents.59
+
+		#Logistics
+		100 = fbievents.85
+		100 = fbievents.86
+		100 = fbievents.87
+		100 = fbievents.88
+		100 = fbievents.89
+		100 = fbievents.90
+		100 = fbievents.91
+		100 = fbievents.92
+		100 = fbievents.93
+		100 = fbievents.94
+
+		#Manufacturing
+		100 = fbievents.95
+		100 = fbievents.96
+		100 = fbievents.97
+		100 = fbievents.98
+		100 = fbievents.99
+		100 = fbievents.100
+		100 = fbievents.101
+		100 = fbievents.102
+		100 = fbievents.103
+		100 = fbievents.104
 
 		# Aristocracy 		13  (8g 5b)
 		100 = ideagroups.100

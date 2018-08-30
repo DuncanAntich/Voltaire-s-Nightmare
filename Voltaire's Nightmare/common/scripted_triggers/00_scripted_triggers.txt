@@ -321,6 +321,15 @@ can_have_center_of_reformation_trigger = {
 			religion = $RELIGION$
 		}
 	}
+	NOT = {
+		calc_true_if = {
+			all_province = {
+				superregion = PREV
+				is_reformation_center = yes
+			}
+			amount = 6
+		}
+	}
 }
 
 province_viable_for_industrialization_events_trigger = { #Province Scope

@@ -11,6 +11,7 @@ country_decisions = {
 			NOT = { has_country_flag = unformable }
 			NOT = { tag = PRU }
 			NOT = { tag = HSA }
+			NOT = { tag = WES }
 			NOT = { exists = HAN }
 			OR = {
 				primary_culture = hannoverian
@@ -99,6 +100,10 @@ country_decisions = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			HAN = {
 				set_capital = 2230 # Hannover
@@ -214,6 +219,10 @@ country_decisions = {
 				add_permanent_claim = WES
 			}
 			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			change_government = administrative_monarchy
 			WES = {
 				set_capital = 81 # Kassel
@@ -242,7 +251,11 @@ country_decisions = {
 			NOT = { tag = BYZ }
 			NOT = { exists = BYZ }
 			NOT = { exists = GRE }
-			primary_culture = greek
+			OR = {
+				primary_culture = greek
+				primary_culture = maniot
+				primary_culture = peloponnesian
+			}
 			is_colonial_nation = no
 			OR = {
 				ai = no

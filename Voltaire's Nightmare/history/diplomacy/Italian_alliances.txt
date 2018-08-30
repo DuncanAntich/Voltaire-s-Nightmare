@@ -101,6 +101,12 @@ vassal = {
 	start_date = 1207.1.1
 	end_date = 1288.1.1
 }
+vassal = {
+	first = PIS
+	second = COR
+	start_date = 1247.1.1
+	end_date = 1284.8.6
+}
 
 #overlord
 union = {

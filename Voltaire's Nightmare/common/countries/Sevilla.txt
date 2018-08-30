@@ -50,7 +50,7 @@ monarch_names = {
 
 leader_names = {
 	"Banû Dhî‘n-Nûn" "Banû Ya‘is"
-	"Banu Masarra" "Banu Qantir""
+	"Banû Masarra" "Banû Qantir"
 	"Banû Marwân" "Banû ‘Abbâd"
 	"Banû Makhzûm" "Banû Abû ‘Alî"
 }

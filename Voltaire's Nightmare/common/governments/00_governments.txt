@@ -1035,6 +1035,7 @@ steppe_horde = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			has_banners = 1
 			movement_speed = 0.2
 		}
 		2 = {
@@ -1044,6 +1045,7 @@ steppe_horde = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			has_banners = 1
 			movement_speed = 0.2
 		}
 		3 = {
@@ -1053,6 +1055,7 @@ steppe_horde = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			has_banners = 1
 			movement_speed = 0.2
 		}
 		4 = {
@@ -1062,6 +1065,7 @@ steppe_horde = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			has_banners = 1
 			movement_speed = 0.2
 		}
 		5 = {
@@ -1071,6 +1075,7 @@ steppe_horde = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			has_banners = 1
 			movement_speed = 0.2
 		}
 		6 = {
@@ -1080,6 +1085,7 @@ steppe_horde = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			has_banners = 1
 			movement_speed = 0.2
 		}
 	}

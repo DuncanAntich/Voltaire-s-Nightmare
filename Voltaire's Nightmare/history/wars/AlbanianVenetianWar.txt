@@ -17,6 +17,7 @@ war_goal = {
 	add_attacker = PNI
 	add_defender = VEN
 	add_defender = NAX
+	add_defender = NGR
 	add_defender = TUR
 	add_defender = WAL
 }
@@ -44,6 +45,7 @@ war_goal = {
 1448.10.4 = {
 	rem_defender = VEN
 	rem_defender = NAX
+	rem_defender = NGR
 }
 
 1449.1.1 = {

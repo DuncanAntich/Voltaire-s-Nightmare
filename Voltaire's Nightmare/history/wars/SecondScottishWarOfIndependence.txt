@@ -8,14 +8,14 @@ war_goal = {
 
 1332.8.1 = {
 	add_attacker = ENG
-	add_attacker = AQT
+	add_attacker = GUY
 	add_defender = SCO
 	add_defender = GLY
 	add_defender = ILE
 }
 
 1337.4.30 = { #hundred years war
-	rem_attacker = AQT
+	rem_attacker = GUY
 }
 
 1346.1.1 = {

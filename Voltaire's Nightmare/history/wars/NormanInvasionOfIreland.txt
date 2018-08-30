@@ -44,6 +44,7 @@ war_goal = {
 	add_attacker = ENG
 	add_attacker = ANJ
 	add_attacker = AQT
+	add_attacker = GUY
 }
 
 1171.10.1 = {
@@ -56,6 +57,7 @@ war_goal = {
 	rem_attacker = ENG
 	rem_attacker = ANJ
 	rem_attacker = AQT
+	rem_attacker = GUY
 	rem_defender = LEI
 	rem_defender = DMS
 	rem_defender = MTH

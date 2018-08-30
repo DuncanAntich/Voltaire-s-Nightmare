@@ -20,7 +20,7 @@ capital = 2962
 	queen = {
 		country_of_origin = AQT
 		name = "Agnes"
-		dynasty = "de Poitiers"
+		dynasty = "Ramnulfing"
 		birth_date = 1025.1.1
 		death_date = 1077.12.14
 		culture = occitain
@@ -52,7 +52,7 @@ capital = 2962
 }
 1056.10.5 = {
 	monarch = {
-		name = "Agnes de Poitiers (Regent)"
+		name = "Agnes Ramnulfing (Regent)"
 		regent = yes
 		female = yes
 		adm = 2

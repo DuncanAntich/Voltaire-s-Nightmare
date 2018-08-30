@@ -112,7 +112,7 @@ guarantee = {
 vassal = {
 	first = ACH
 	second = CEP
-	start_date = 1205.1.1
+	start_date = 1236.1.1
 	end_date = 1278.5.1
 }
 union = {

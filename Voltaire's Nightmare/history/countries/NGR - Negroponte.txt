@@ -111,4 +111,50 @@ capital = 2335
 		mil = 2
 	}
 }
-#done 1390
+#1390 VEN vassal
+1390.1.1 = {
+	monarch = {
+		name = "Januli"
+		dynasty = "d'Aulnay"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1394.1.1 = {
+	monarch = {
+		name = "Nicolo"
+		dynasty = "d'Aulnay"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1424.1.1 = {
+	monarch = {
+		name = "Januli"
+		dynasty = "d'Aulnay"
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+1434.1.1 = {
+	monarch = {
+		name = "Gioffredo"
+		dynasty = "d'Aulnay"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1446.1.1 = {
+	monarch = {
+		name = "Januli"
+		dynasty = "d'Aulnay"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#done 1470

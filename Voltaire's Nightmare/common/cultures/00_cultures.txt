@@ -466,7 +466,7 @@ latin = {
 	lombard = {
 		primary = MLO
 		dynasty_names = {
-			Visconti Sforza Obertenghi Scarito Odescalchi Beccaria
+			Visconti Sforza Scarito Odescalchi Beccaria
 			"d'Ivrea" "di Cremona" Zorzi Rossi Mocenigo Maggi
 			Valente Moneta Pallavicini Sfondrati Colleoni Borri
 		}
@@ -485,8 +485,8 @@ latin = {
 			Contarini Cornaro Dandolo Falier Loredan Mocenigo Morosini
 			Ghisi Navigajoso Sanudo Quirino Foscolo Foscarini Barozzi Venier Zeno
 			"dalle Carceri" "di Verona" "della Scala" "di Treviso" "de Candia"
-			"da Romano" Vendramin Crivelli Crispo Malipiero Orseolo Sommaripa
-			Ziani Condulmer Tiepolo
+			"da Romano" Vendramin Tiepolo Crispo Malipiero Orseolo Sommaripa
+			Ziani Condulmer
 		}
 	}
 	dalmatian = {
@@ -512,8 +512,8 @@ latin = {
 	piedmontese = {
 		primary = SPI
 		dynasty_names = {
-			"di Savoia" "di Saluzzo" "di Monferrato" Aleramici Avogadro Ferrero
-			"di Biandrate" Mazzetti Arduinici
+			"di Savoia" "di Saluzzo" "di Monferrato" "di Biandrate"
+			Crivelli Mazzetti Avogadro Ferrero
 		}
 	}
 	emilian = {
@@ -545,13 +545,14 @@ latin = {
 		primary = SAR
 		dynasty_names = {
 			"d'Arborea" "di Gallura" "di Torres" "di Cagliari"
-			Cervera Serra Salusio Torcotorio
+			"de Cervera" "de Serra" "de Lacon" "de Gunale"
 		}
 	}
 	corsican = {
 		primary = COR
 		dynasty_names = {
 			"d'Oristano" "della Rocca" "d'Istria" Paoli Buonaparte Corsu
+			"di Cinarca" "d'Alando" "di Leca" "da Mare" "di Torquati"
 		}
 	}
 	umbrian = {
@@ -1390,14 +1391,14 @@ french	= {
 		primary = ANJ
 		dynasty_names = {
 			"d'Anjou" "de Laval" "de Montfort" "de Rougé" "de Sablé"
-			"de Saint-Abraham" "de Penthievre" Ingelger
+			"de Saint-Abraham" "de Penthievre"
 		}
 	}
 	poitevin = {
 		primary = POU
 		dynasty_names = {
-			"de La Trémoille" "de Poitiers" "d'Escoubleau" "de Rochechouart" "de Taillefer"
-			"de Parthenay"
+			"de La Trémoille" "d'Escoubleau" "de Rochechouart" "de Taillefer"
+			"de Parthenay" "de Poitou"
 		}
 	}
 	berrichon = {
@@ -1431,13 +1432,14 @@ french	= {
 	provencal = {
 		primary = PRO
 		dynasty_names = {
-			"d'Arles" Boson Bivin "de Saboulin" "de Sabran" "d'Orange" "de Baux"
+			"d'Arles" "de Saboulin" "de Sabran" "d'Orange" "de Baux" "de Provence"
 		}
 	}
 	vivaro_alpine = {
 		primary = VIV
 		dynasty_names = {
 			"de Nicolaÿ" "d'Uzès" "d'Anduze" "de Falguières" "de Monteil" "de Viviers"
+			"de Poitiers"
 		}
 	}
 	gascon = {
@@ -2010,6 +2012,7 @@ oghuz = {
 	}
 	cuman = {
 		primary = CMN
+		province = { local_has_banners = 1 }
 		dynasty_names = { 
 			Durut Djartan Karabirkli Kotan
 			Berish Olberli Phalagi Iloncsuk
@@ -2022,6 +2025,7 @@ oghuz = {
 	}
 	pecheneg = {
 		primary = PHE
+		province = { local_has_banners = 1 }
 		dynasty_names = {
 			Kankali Golovin Chepni Bayindir Chavuldur
 			Karachay Surenchar Bayangge Jasz
@@ -2089,7 +2093,7 @@ byzantine = {
 			Katakalon Katakalos Katakylas Kataphloros Katas Katharos Katotikos 
 			Katrares Katzamoundes Kaukadenos Kauleas Kavallarios Kegenes Kekaleimenos 
 			Kekaumenos Keklymmenos Kemineianos Kenchres Kentenares Kentrokoukouros 
-			Kephalas Keroularios Kibyrraiotes Kilikos Kinnamos Kladas Klados Klokas 
+			Kephalas Keroularios Kibyrraiotes Kilikos Kinnamos Klados Klokas 
 			Kokkalos Kokkinos Kolokynthis Kolovos Kometopoulos Komnenos Komytzes 
 			Konops Konstantinakes Konstantopoulos Kontomytes Kontostephanos Kophinas 
 			Kopsenos Koresis Koresses Korniaktos Kostomyres Kotertzes Kottounios 
@@ -2176,29 +2180,44 @@ byzantine = {
 			Diomidis Pankalos Engonopoulos Liapis Blasis
 		}
 	}
+	maniot = {
+		primary = MNI
+		country = { discipline = 0.025 }
+		province = { local_missionary_strength = -0.03 }
+		dynasty_names = {
+			Mavromichalis Pierrakos Koutsogrigorakos
+			Koutoupharis Mourtzinos Troupakis
+			Grigorakis Koumountouros Zerbakos
+			Yerakaris Stephanopoulos Gerakaris
+			Niklianis Kladas Psaros Papazolis
+			Kabalierakis Kalkantides Rizeas
+			Androutsos Barbitsiotis
+		}
+	}
 	male_names = {
-		Adrianos Adrian Akakios Alexandros Alexander Alexios Alexis Anastasios Anastasius Anatolios 
-		Andreas Andrew Andronikos Andronicus Anthemios Anthimos Antiochos Antonios Antonius Apollonios 
-		Arsenios Artemios Athanasios Athanasius Bardas
-		Bartholomaios Bartolomeus Basileios Basil Belisarios Belisarius Boethios Bosporios 
-		Christophoros Christopher Chrysanthos Chrysogonos Damianos Daniel Daniel David David Demetrios 
-		Demetrius Diogenes Dionysios Dionysus Dorotheos Eirenaios Eudoxios Eustratios
-		Eugenios Euphemios Eusebios Eustathios Eustace Evangelos Gabriel Gabriel Gennadios Georgios 
-		George Gerasimos Germanos Germanus Gregoras Gregory Gregorios Gregory Hektorios Helias 
-		Herakleios Heracles Hierotheos Himerios
-		Georgios Alexandros Konstantinos Pavlos Andreas Nikolaos Aineias Alexeios Ambrosios
-		Chrysanthos David Demetrios Diogenes Dionysos Eirenaios Elpidios Gregorios Hektor Herakles 
-		Kastor Manuel Matthaios Nestor Nikomedes Orestes Palaemon Pelagios Petros Philemon Philippos 
-		Skantarios Stefanos Theodoros Thomas Basileios Prokopios Ioannes Iason Bartholomaios
+		Adrianos Aineias Akakios Alexandros Alexios Ambrosios
+		Anastasios Anatolios Andreas Andronikos Anthemios Anthimos
+		Antiochos Antonios Apollonios Arsenios Artemios Athanasios
+		Bardas Bartholomaios Basileios Belisarios Boethios Bosporios 
+		Christophoros Chrysanthos Chrysogonos
+		Damianos Daniel David Demetrios Diogenes Dionysios Dorotheos
+		Eirenaios Elpidios Eudoxios Eustratios Eugenios Euphemios
+		Eusebios Eustathios Evangelos
+		Gabriel Gennadios Georgios Gerasimos Germanos Gregoras Gregorios
+		Hektorios Helias Hektor Herakles Herakleios Hierotheos Himerios
+		Ioannes Iason Kastor Konstantinos Manuel Matthaios
+		Nikolaos Nestor Nikomedes Orestes
+		Pavlos Palaemon Pelagios Petros Philemon Philippos Prokopios 
+		Skantarios Stephanos Theodoros Thomas
 	}
 	female_names = {
-		Alexandra Adriane Adriana Agathe Agatha Agne Agnes Aikaterine Alexeia Anastasia Anastasia Anna 
-		Anna Anthe Anthousa Antipatra Antonia Antonia Apollonia Athanasia Barbara Basillike
-		Chrysogone Damiane Demetra Dionysia Dorothea Dorothy Aigidia Eirene Irene Elaiodora Epiphania 
-		Eudokia Eudocia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne Euphrosyne
-		Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Helen 
-		Ioanna Joan Ioulia Julia Iouliana Juliana Ioustina Justina Kale Konstantia nonstantia 
-		Konstantine Constantina Kyra Kyriake Hypatia Zoe
+		Alexandra Adriane Agathe Agne Aikaterine Alexeia Anastasia Anna 
+		Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+		Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania 
+		Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+		Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene 
+		Ioanna Ioulia Iouliana Ioustina Kale Konstantia 
+		Konstantine Kyra Kyriake Hypatia Zoe
 	}
 }
 
@@ -2227,7 +2246,8 @@ lost_cultures_group = {
 			Karling Merowing Konrading Wigericing Liudolfing Matfrieding Gerulfing
 			Hunfriding Burkharding Siegharding Gerharding Udalriching Meinhering
 			Arnulfing Ahalolfing Meinharding Ludowing Chrodoberting Eberharding
-			Reudigni Avione Eudose Suarine Nuitone Salier Ekkeharding
+			Ekkeharding Bosoning Bivining Ramnulfing Ingelgering
+			Reudigni Avione Eudose Suarine Nuitone Salier 
 			"von Löwen" "von Verdun" "von Rheingau" "von Karantanien"
 			"von Neustrien" "von Austrasien" "von Bayern" "von Burgund"
 			"von Lothringen" "von Schwaben" "von Septimanien" "von Worms"
@@ -2254,8 +2274,9 @@ lost_cultures_group = {
 			Ermengarda Luitgarda Gerperga Betrada Gisele Desiderata
 		}
 		dynasty_names = {
-			Letingi Gausi Arodingi Longobardi Unrochingi
-			Atenulfingi Bonifaci Dauferidi Landolfidi
+			Atenulfing Guaimaring Daufering Landolfing
+			Oberting Siconing Aroding Leting Unroching
+			Gausi Longobardi Arduining Aleraming
 			"di Venezia" "di Friuli" "di Benevento"
 			"di Salerno" "di Capua" "di Gaeta"
 			"di Puglio" "di Bari" "di Lecce" "di Lazio"

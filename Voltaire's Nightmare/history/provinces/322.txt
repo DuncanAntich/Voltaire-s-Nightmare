@@ -3,10 +3,10 @@ controller = AQT
 culture = poitevin
 religion = catholic
 hre = no
-base_tax = 2
-base_production = 2
+base_tax = 4
+base_production = 3
 trade_goods = wine
-base_manpower = 2
+base_manpower = 3
 capital = "Saintes"
 is_city = yes
 add_core = AQT
@@ -15,12 +15,9 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1204.3.2 = {
-	base_tax = 4
-	base_production = 3
-	base_manpower = 3
-}
 1242.7.21 = {
 	owner = FRA
 	controller = FRA
@@ -59,5 +56,3 @@ discovered_by = muslim
 1652.10.21 = { unrest = 0 } 
 1685.10.18 = { unrest = 8 }
 1689.1.1 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

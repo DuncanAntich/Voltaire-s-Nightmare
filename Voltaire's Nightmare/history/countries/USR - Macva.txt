@@ -130,16 +130,6 @@ capital = 2043
 1421.1.1 = { capital = 2043 }
 1459.6.20 = {
 	monarch = {
-		name = "(Interregnum)"
-		regent = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1471.1.1 = {
-	government_rank = 5
-	monarch = {
 		name = "Vuk"
 		dynasty = "Brankovic"
 		birth_date = 1440.1.1
@@ -147,6 +137,8 @@ capital = 2043
 		dip = 3
 		mil = 3
 	}
+}
+1461.1.1 = {
 	heir = {
 		name = "Ðorde"
 		monarch_name = "Ðorde"
@@ -159,6 +151,7 @@ capital = 2043
 		mil = 1
 	}
 }
+1471.1.1 = { government_rank = 5 }
 1485.4.16 = {
 	monarch = {
 		name = "Ðorde"

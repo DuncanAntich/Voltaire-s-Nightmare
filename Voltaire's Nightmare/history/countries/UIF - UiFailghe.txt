@@ -208,7 +208,7 @@ capital = 855
 		name = "Calbhach Mór"
 		dynasty = "Ó Conchobhair"
 		adm = 2
-		dip = 2
+		dip = 4
 		mil = 2
 	}
 }
@@ -226,7 +226,7 @@ capital = 855
 		name = "Cathaoir"
 		dynasty = "Ó Conchobhair"
 		adm = 2
-		dip = 2
+		dip = 3
 		mil = 2
 	}
 }
@@ -234,17 +234,17 @@ capital = 855
 	monarch = {
 		name = "Brian I"
 		dynasty = "Ó Conchobhair"
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 1517.1.1 = {
 	monarch = {
 		name = "Calbhach"
 		dynasty = "Ó Conchobhair"
-		adm = 2
-		dip = 2
+		adm = 3
+		dip = 4
 		mil = 2
 	}
 }
@@ -252,9 +252,9 @@ capital = 855
 	monarch = {
 		name = "Brian II"
 		dynasty = "Ó Conchobhair"
-		adm = 1
-		dip = 3
-		mil = 2
+		adm = 2
+		dip = 1
+		mil = 3
 	}
 }
 1617.1.1 = { government = administrative_monarchy }

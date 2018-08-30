@@ -43,16 +43,16 @@ fort_14th = yes
 	remove_core = AOE
 }
 1410.8.9 = {
-	owner = AOE
-	controller = AOE
-	add_core = AOE
+	owner = LGU
+	controller = LGU
+	add_core = LGU
 	remove_core = GEN
 }
 1420.8.17 = {
 	owner = GEN
 	controller = GEN
 	add_core = GEN
-	remove_core = AOE
+	remove_core = LGU
 }
 1448.1.1 = {
 	owner = ARA

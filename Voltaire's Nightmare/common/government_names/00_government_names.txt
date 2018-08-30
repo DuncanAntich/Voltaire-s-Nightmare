@@ -957,6 +957,40 @@ ottoman_vassals = {
 	}
 }
 
+maniot_monarchy = {
+	rank = {
+		1 = BEYLIK
+		2 = BEYLIK
+		3 = BEYLIK
+		4 = BEYLIK
+		5 = BEYLIK
+		6 = BEYLIK
+	}
+
+	ruler_male = {
+		1 = BEY
+		2 = BEY
+		3 = BEY
+		4 = BEY
+		5 = BEY
+		6 = BEY
+	}
+
+	ruler_female = {
+		1 = BEY
+		2 = BEY
+		3 = BEY
+		4 = BEY
+		5 = BEY
+		6 = BEY
+	}
+
+	trigger = {
+		government = noble_republic
+		tag = MNI
+	}
+}
+
 turkish_monarchy = {
 	rank = {
 		1 = BEYLIK

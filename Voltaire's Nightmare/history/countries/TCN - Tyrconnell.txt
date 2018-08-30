@@ -235,8 +235,8 @@ capital = 861
 	monarch = {
 		name = "Neachtan"
 		dynasty = "Ó Domhnaill"
-		adm = 1
-		dip = 2
+		adm = 3
+		dip = 3
 		mil = 2
 	}
 }
@@ -245,7 +245,7 @@ capital = 861
 		name = "Áed IV"
 		dynasty = "Ó Domhnaill"
 		adm = 2
-		dip = 2
+		dip = 3
 		mil = 2
 	}
 }
@@ -253,48 +253,48 @@ capital = 861
 	monarch = {
 		name = "Áed V"
 		dynasty = "Ó Domhnaill"
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 1
+		mil = 1
 	}
 }
 1537.1.1 = {
 	monarch = {
 		name = "Magnus II"
 		dynasty = "Ó Domhnaill"
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 1
+		mil = 3
 	}
 }
 1564.1.1 = {
 	monarch = {
-		name = "Calbach"
+		name = "Calbhach"
 		dynasty = "Ó Domhnaill"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1566.1.1 = {
+1566.11.26 = {
 	monarch = {
 		name = "Áed VI"
 		dynasty = "Ó Domhnaill"
-		adm = 2
+		adm = 3
 		dip = 2
 		mil = 2
 	}
 }
-1600.1.1 = {
+1587.1.1 = {
 	monarch = {
 		name = "Áed VII"
 		dynasty = "Ó Domhnaill"
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 3
+		mil = 4
 	}
 }
-1602.1.1 = {
+1602.9.10 = {
 	monarch = {
 		name = "Ruaidhrí V"
 		dynasty = "Ó Domhnaill"

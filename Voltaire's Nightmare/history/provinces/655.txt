@@ -19,10 +19,10 @@ discovered_by = north_american
 fort_14th = yes
 
 1092.1.1 = { religion = catholic }
-1410.3.4 = {
+1410.3.4 = { add_core = ARA }
+1478.5.19 = {
 	owner = ARA
 	controller = ARA
-	add_core = ARA
 	add_core = SAR
 	remove_core = AOE
 }

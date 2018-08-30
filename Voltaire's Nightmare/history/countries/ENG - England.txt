@@ -26,9 +26,9 @@ national_focus = DIP
 		leader = {	
 			name = "William the Conqueror"
 			type = general
-			fire = 4
-			shock = 4
-			manuever = 1
+			fire = 5
+			shock = 5
+			manuever = 3
 			siege = 6
 		}
 	}
@@ -170,18 +170,6 @@ national_focus = DIP
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = silver_tongue_personality
-	queen = {
-		country_of_origin = AQT
-		name = "Eleanor"
-		dynasty = "de Poitiers"
-		female = yes
-		birth_date = 1122.1.1
-		death_date = 1204.3.1
-		culture = occitain
-		adm = 3
-		dip = 6
-		mil = 3
-	}
 }
 1157.9.8 = {
 	heir = {
@@ -331,7 +319,7 @@ national_focus = DIP
 	queen = {
 		country_of_origin = CAS
 		name = "Leonor"
-		dynasty = "d'Ivrea"
+		dynasty = "de Ivrea"
 		birth_date = 1241.1.1
 		death_date = 1290.11.28
 		culture = castillian

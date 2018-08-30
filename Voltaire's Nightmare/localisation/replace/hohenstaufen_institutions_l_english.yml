@@ -24,7 +24,7 @@
  industrialism_date: "1750"
 #Tooltips 
  tooltip_flanders_tuscany_venetia: "Province in the Flanders, Tuscany, or Veneto Region"
- tooltip_great_power_bw: "Great Power"
+ tooltip_great_power_nw: "Great Power"
  tooltip_black_death: "Owner has Black Death disaster"
  tooltip_has_colonial_subject_in_new_world: "Port or Capital in Colony's Homeland"
  tooltip_any_friendly_coast_border_province_has_embraced_investiture: "Nearby Friendly Province has §YInvestiture§!"

@@ -4,7 +4,7 @@ technology_group = western
 primary_culture = champenois
 add_accepted_culture = peloponnesian
 religion = catholic
-capital = 611 # Mystras
+capital = 565
 
 1204.5.16 = {
 	monarch = {
@@ -14,6 +14,14 @@ capital = 611 # Mystras
 		dip = 0
 		adm = 3
 		mil = 4
+		leader = {	
+			name = "Guillaume de Champlitte"
+			type = general
+			fire = 3
+			shock = 4
+			manuever = 3
+			siege = 2
+		}
 	}
 	heir = {
 		name = "Geoffrey"
@@ -79,6 +87,7 @@ capital = 611 # Mystras
 		mil = 3
 	}
 }
+1249.1.1 = { capital = 611 }
 1262.1.1 = { capital = 601 }
 #1278.5.1 under NAP
 1289.9.16 = {

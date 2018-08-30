@@ -13,6 +13,13 @@ vassal = {
 	end_date = 1579.1.1
 }
 
+vassal = {
+	first = VEN
+	second = NGR
+	start_date = 1390.1.1
+	end_date = 1479.1.25
+}
+
 guarantee = {
 	first = VEN
 	second = KNI
