@@ -1,5 +1,5 @@
 name="Voltaire's Nightmare"
-path="mod/Voltaire's Nightmare"
+path="mod/hreuniversalis"
 replace_path="common/bookmarks"
 replace_path="common/units"
 replace_path="common/countries"
