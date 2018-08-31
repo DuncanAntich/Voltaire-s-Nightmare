@@ -9328,10 +9328,10 @@ country_event = {
 		has_country_modifier = hire_privateers
 		num_of_ports = 3
 		any_rival_country = {
-			gold = 1
+			silver = 1
 		}
 		NOT = {
-			gold = 1
+			silver = 1
 		}
 	}
 	
@@ -9343,7 +9343,7 @@ country_event = {
 		name = "EVTOPTA879"
 		add_years_of_income = 0.10
 		every_rival_country = {
-			limit = { gold = 1 }
+			limit = { silver = 1 }
 			add_opinion = { who = ROOT modifier = opinion_gold_privateers }
 		}
 	}
@@ -11370,7 +11370,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		gold = 1
+		silver = 1
 		NOT = { religion_group = pagan }
 	}
 

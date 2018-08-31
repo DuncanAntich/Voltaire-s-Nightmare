@@ -14,3 +14,20 @@ capital = 2653
 		mil = 2
 	}	
 }
+1110.1.1 = {
+	monarch = {
+		name = "Ioan"
+		adm = 4
+		dip = 3
+		mil = 2
+	}	
+}
+1150.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}	
+}

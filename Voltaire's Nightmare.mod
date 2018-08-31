@@ -1,4 +1,4 @@
-name="Voltaire's Nightmare 1.25"
+name="Voltaire's Nightmare"
 path="mod/Voltaire's Nightmare"
 replace_path="common/bookmarks"
 replace_path="common/units"
@@ -15,6 +15,10 @@ replace_path="history/wars"
 replace_path="gfx/loadingscreens"
 tags={
 	"Overhaul"
+	"Timeline"
+	"Countries"
+	"Religions"
+	"Map"
 }
 picture="hreuniversalis.png"
 supported_version="1.25.*.*"
