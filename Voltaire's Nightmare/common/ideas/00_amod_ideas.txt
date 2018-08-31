@@ -4500,7 +4500,7 @@ PFU2_ideas = {
         heir_chance = 0.5
     }
     PFU2_idea_2 = {
-        justify_trade_conflict_time = -0.1
+        caravan_power = 0.15
     }
     PFU2_idea_3 = {
         envoy_travel_time = -0.25
