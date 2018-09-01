@@ -16,22 +16,13 @@ discovered_by = western
 discovered_by = muslim
 
 1147.8.1 = {
-	owner = SDL
-	controller = SDL
-	add_core = SDL
+	owner = BRA
+	controller = BRA
+	add_core = BRA
 	remove_core = LII
 	culture = central_margravian
 	religion = catholic
 	hre = yes
-	base_tax = 2
-	base_production = 2
-	base_manpower = 2
-}
-1148.8.25 = {
-	owner = BRA
-	controller = BRA
-	add_core = BRA
-	remove_core = SDL
 	base_tax = 3
 	base_production = 3
 	base_manpower = 3

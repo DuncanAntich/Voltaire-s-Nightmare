@@ -21,23 +21,28 @@ fort_14th = yes
 	controller = ANH
 	add_core = ANH
 }
+1134.1.1 = {
+	owner = SDL
+	controller = SDL
+	add_core = SDL
+}
 1139.10.20 = {
 	owner = SAX
 	controller = SAX
 	add_core = SAX
-	remove_core = ANH
+	remove_core = SDL
 }
 1142.1.1 = {
-	owner = ANH
-	controller = ANH
-	add_core = ANH
+	owner = SDL
+	controller = SDL
+	add_core = SDL
 	remove_core = SAX
 }
-1148.8.25 = {
+1147.8.1 = {
 	owner = BRA
 	controller = BRA
 	add_core = BRA
-	remove_core = ANH
+	remove_core = SDL
 }
 1167.1.1 = {
 	owner = OXR

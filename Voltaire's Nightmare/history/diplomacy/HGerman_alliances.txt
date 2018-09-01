@@ -492,7 +492,7 @@ union = {
 	first = SDE
 	second = SDL
 	start_date = 1057.6.26
-	end_date = 1148.8.25
+	end_date = 1106.1.1
 }
 
 #Istria

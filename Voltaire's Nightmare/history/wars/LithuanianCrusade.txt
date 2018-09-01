@@ -1,7 +1,8 @@
 name = "Lithuanian Crusade"
 war_goal = {
-	type = superiority_crusade
-	casus_belli = cb_crusade
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 2392
 }
 
 1347.1.1 = {

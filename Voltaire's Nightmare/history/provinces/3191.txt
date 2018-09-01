@@ -21,7 +21,7 @@ add_core = AVS
 	add_core = CPU
 	remove_core = AVS
 }
-1156.1.1 = {
+1154.2.26 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC

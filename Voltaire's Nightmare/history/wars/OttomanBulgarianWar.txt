@@ -1,7 +1,8 @@
 name = "Ottoman Invasion of Bulgaria"
 war_goal = {
-	type = superiority_crusade
-	casus_belli = cb_crusade
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 1046
 }
 
 1380.1.1 = {

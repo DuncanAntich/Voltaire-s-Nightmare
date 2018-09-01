@@ -1,11 +1,11 @@
-name = "The Fourth Crusade"
+name = "Siege of Zara"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
-	province = 2233
+	province = 1083
 }
 
-1203.4.1 = {
+1202.5.1 = {
 	add_attacker = VEN
 	add_attacker = MFA
 	add_attacker = BLO
@@ -15,10 +15,11 @@ war_goal = {
 	add_attacker = BUR
 	add_attacker = GUI
 	add_attacker = HBD
-	add_defender = BYZ
+	add_defender = HUN
+	add_defender = CRO
 }
 
-1204.5.16 = {
+1202.11.24 = {
 	rem_attacker = VEN
 	rem_attacker = MFA
 	rem_attacker = BLO
@@ -28,5 +29,6 @@ war_goal = {
 	rem_attacker = BUR
 	rem_attacker = GUI
 	rem_attacker = HBD
-	rem_defender = BYZ
+	rem_defender = HUN
+	rem_defender = CRO
 }

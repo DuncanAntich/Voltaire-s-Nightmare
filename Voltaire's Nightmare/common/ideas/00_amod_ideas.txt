@@ -1,3 +1,41 @@
+LDI_ideas = {
+    start = {
+        infantry_power = 0.1
+        possible_mercenaries = 0.5
+    }
+    bonus = {
+        global_unrest = -2
+    }
+    
+    trigger = {
+        tag = LDI
+    }
+    free = yes
+
+    LDI_idea_1 = {
+        manpower_recovery_speed = 0.1
+    }
+    LDI_idea_2 = {
+        tolerance_own = 1
+    }
+    LDI_idea_3 = {
+        prestige = 1
+        improve_relation_modifier = 0.3
+    }
+    LDI_idea_4 = {
+        idea_cost = -0.1
+    }
+    LDI_idea_5 = {
+        papal_influence = 1
+    }
+    LDI_idea_6 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    LDI_idea_7 = {
+        interest = -0.5
+    }
+}
+
 SDZ_ideas = {
     start = {
         cavalry_cost = -0.1

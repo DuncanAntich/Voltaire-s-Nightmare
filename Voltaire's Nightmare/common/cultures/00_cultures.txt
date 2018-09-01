@@ -21,7 +21,7 @@ germanic = {
 		primary = PAL
 		dynasty_names = {
 			"von Zweibrücken" "von Pfalz" "von Veldenz" "von Leiningen" "von Sirck" "von Kyrburg" "von Hunolstein"
-			"von Sponheim" "von Finstingen" "von Dhaun" "vom Stein" Embrichonen "von Saarwerden" "von Leistenberg"
+			"von Sponheim" "von Finstingen" "von Dhaun" "vom Stein" "von Saarwerden" "von Leistenberg"
 			"von Kriechingen" "von Blieskastel" "von Fleckenstein" "von Dagsburg" "von Schmidtburg" "von Bikkenbach"
 			"von Brunshorn" "von Scharfenberg" "von Heimbach"
 		}
@@ -46,8 +46,8 @@ germanic = {
 		primary = HES
 		dynasty_names = {
 			"von Frankenstein" "von Taube" "von Uffeln" "von Hessen" "von Boyneburg" "von Katzenelnbogen" "von Eppstein"
-			"von Ziegenhain" "von Nassau" "von Wittgenstein" "von Solms" "von Malsburg" "von Münzenberg" Reginbodonen
-			"von Dorfelden" "von Hanau" Gisonen "von Falkenstein" "von Erbach" "von Orlamünde" "von Wüllersleben"
+			"von Ziegenhain" "von Nassau" "von Wittgenstein" "von Solms" "von Malsburg" "von Münzenberg"
+			"von Dorfelden" "von Hanau" "von Falkenstein" "von Erbach" "von Orlamünde" "von Wüllersleben"
 			"von Hohenfels" "von Wetterau" "von Grünberg" "von Gudensberg"
 		}
 	}
@@ -120,7 +120,7 @@ germanic = {
 			"Griespek von Griespach" "von Trockau" "von Guttenberg" "von Gumppenberg" "von Andechs"
 			"von Hackledt" "von Haslang" "von Holnstein" "von der Tann" "von Tattenbach" "von Closen"
 			"von Knöringen" "von Laiming" "von Leublfing" "von Quirnheim" "Notthafft" "von Ortenburg"
-			"von Parsberg" Pfäffinger "von Pienzenau" "von Pudewels" "von Raumer" "von Rehlinger" Rapotonen
+			"von Parsberg" Pfäffinger "von Pienzenau" "von Pudewels" "von Raumer" "von Rehlinger"
 			"von Reitzenstein" "von Degenberg" "von Durkheim" Echter "von Fraunberg" "von Cham"
 			"Rotenhan" "Rüdt von Collenberg" "von Waldow" "von Wartenberg" "von Sandizell" "von Eurasburg"
 			"von Thürheim" "von Thurn und Taxis" "von Toerring" "von Regensburg" "von Sulzbach" "von Formbach"
@@ -142,7 +142,7 @@ germanic = {
 		primary = SAX
 		dynasty_names = {
 			"von Lüneburg" "von Stade" "von Celle" "von Tecklenburg"  "von Bentheim" "von Segeberg"
-			"von Oldenburg" "von Diepholz" "von Hoya" Udonen "von Bederkesa" Billung "von Haseldorf"
+			"von Oldenburg" "von Diepholz" "von Hoya" "von Bederkesa" Billung "von Haseldorf"
 			"von Holstein" "von Slesvig" "von Rendsburg" "von Schauenburg" "von Vechta" "von Mölln"
 			Wöhrmann "von Sommerchenburg" "von Löningen" "von Versfleth" "von Ringelheim" "von Badewide"
 			"von Bardewik" "von Utlede" Vorrade "von Hamburg" "von Hodenberg" "von Schalksberg"
@@ -162,7 +162,7 @@ germanic = {
 			"von Wunstorf" "von Wölpe" "von Katlenburg" "von Supplingenburg" "von Dassel" "von Walbeck"
 			"von Assel" "von Boeselager" "von Wassel" "von Goltern" "von Welf" "von Woldenburg"
 			"von Wernigerode" "von Schwalenberg" "von Spiegelberg" "von Roden" "von Plesse" "von Lüchow"
-			"von Everstein" "von Depenau" "von Dannenberg" "von Regenstein" Brunonen
+			"von Everstein" "von Depenau" "von Dannenberg" "von Regenstein"
 		}
 	}
 	pommeranian = {
@@ -380,7 +380,7 @@ dutch_group = {
 	brabantian = {
 		primary = BRB
 		dynasty_names = {
-			"van Limburg" "van Leuven" "van Brabant" "de Reginar" "van Buren"
+			"van Limburg" "van Leuven" "van Brabant" "van Buren" "van Aarschot"
 			"van Loon" "van Heinsberg" "van Breda" "van Hoorn" "van Bautersheim"
 			"van Cuijk" "van Diest" "van Wassenberg" "van Valkenburg"
 		}
@@ -2246,8 +2246,9 @@ lost_cultures_group = {
 			Karling Merowing Konrading Wigericing Liudolfing Matfrieding Gerulfing
 			Hunfriding Burkharding Siegharding Gerharding Udalriching Meinhering
 			Arnulfing Ahalolfing Meinharding Ludowing Chrodoberting Eberharding
-			Ekkeharding Bosoning Bivining Ramnulfing Ingelgering
-			Reudigni Avione Eudose Suarine Nuitone Salier 
+			Ekkeharding Bosoning Bivining Ramnulfing Ingelgering Reginaring Brunoning
+			Reginbodoning Embrichoning Udoning Rapotoning Diepolding Gisoning
+			Reudigni Avione Eudose Suarine Nuitone Salier
 			"von Löwen" "von Verdun" "von Rheingau" "von Karantanien"
 			"von Neustrien" "von Austrasien" "von Bayern" "von Burgund"
 			"von Lothringen" "von Schwaben" "von Septimanien" "von Worms"

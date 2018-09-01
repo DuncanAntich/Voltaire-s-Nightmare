@@ -49,13 +49,13 @@ capital = 991 #Aix Lmao
         mil = 3
 	}
 }
-1137.11.13 = {
+1135.1.1 = {
 	heir = {
 		name = "Ramon Berenguer"
 		monarch_name = "Ramon Berenguer II"
-        dynasty = "d'Aragó"
+        dynasty = "de Barcelona"
         culture = catalan
-        birth_date = 1137.11.13
+        birth_date = 1135.1.1
         death_date = 1166.1.1
         claim = 85
         adm = 1
@@ -74,20 +74,20 @@ capital = 991 #Aix Lmao
 	heir = {
 		name = "Ramon Berenguer"
 		monarch_name = "Ramon Berenguer II"
-        dynasty = "d'Aragó"
+        dynasty = "de Barcelona"
         culture = catalan
-        birth_date = 1137.11.13
-        death_date = 1166.1.1
+        birth_date = 1135.1.1
+        death_date = 1166.6.1
         claim = 85
         adm = 1
         dip = 2
         mil = 3
 	}
 }
-1152.11.13 = {
+1150.1.1 = {
 	monarch = {
 		name = "Ramon Berenguer II"
-        dynasty = "d'Aragó"
+        dynasty = "de Barcelona"
         culture = catalan
         birth_date = 1137.11.13
         adm = 1
@@ -95,13 +95,39 @@ capital = 991 #Aix Lmao
         mil = 3
 	}
 }
-1166.1.1 = { #toddler countess with zero authority
+1162.8.6 = {
+	heir = {
+		name = "Douce"
+		monarch_name = "Douce"
+        dynasty = "d'Aragó"
+        female = yes
+        birth_date = 1162.8.6
+        death_date = 1172.12.1
+        claim = 50
+        adm = 0
+        dip = 1
+        mil = 0
+	}
+}
+1166.6.1 = {
 	monarch = {
-		name = "(Interregnum)"
+		name = "(Regency Council)"
 		regent = yes
 		adm = 2
 		dip = 2
 		mil = 2
+	}
+	heir = {
+		name = "Douce"
+		monarch_name = "Douce"
+        dynasty = "d'Aragó"
+        female = yes
+        birth_date = 1162.8.6
+        death_date = 1172.12.1
+        claim = 50
+        adm = 0
+        dip = 1
+        mil = 0
 	}
 }
 1168.1.1 = {

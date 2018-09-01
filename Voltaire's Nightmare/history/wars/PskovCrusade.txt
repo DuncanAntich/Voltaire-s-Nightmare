@@ -1,7 +1,8 @@
 name = "Invasion of Pskov"
 war_goal = {
-	type = superiority_crusade
-	casus_belli = cb_crusade
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 4281
 }
 
 1240.10.1 = {

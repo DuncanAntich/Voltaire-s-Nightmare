@@ -21,7 +21,7 @@ discovered_by = muslim
 	add_core = BRC
 	remove_core = BSU
 }
-1137.11.13 = {
+1162.8.6 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA

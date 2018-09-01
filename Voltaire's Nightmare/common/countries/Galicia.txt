@@ -1,7 +1,4 @@
-#Country Name: Galicia
-
 graphical_culture = westerngfx
-
 color = { 240  167  130 }
 
 historical_idea_groups = {
@@ -47,42 +44,6 @@ monarch_names = {
 	"Ramiro #3" = 10
 	"Bermudo #2" = 10
 	"Froila #2" = 10
-	"Aleixo #0" = 0
-	"Alvaro #0" = 0
-	"Anxo #0" = 0
-	"Baltasar #0" = 0
-	"Bernaldo #0" = 0
-	"Brais #0" = 0
-	"Carlos #0" = 0
-	"Cristovo #0" = 0
-	"Domingos #0" = 0
-	"Estevo #0" = 0
-	"Felipe #0" = 0
-	"Fernán #0" = 0
-	"Francisco #0" = 0
-	"Frederico #0" = 0
-	"Gonzalo #0" = 0
- 	"Guillerme #0" = 0
-	"Gumersindo #0" = 0
-	"Henrique #0" = 0
-	"Hermenexildo #0" = 0
-	"Hixinio #0" = 0
-	"Hugo #0" = 0
-	"Iago #0" = 0
-	"Ignacio #0" = 0
-	"Leandro #0" = 0
-	"Lope #0" = 0
-	"Miguel #0" = 0
-	"Nuno #0" = 0
-	"Odón #0" = 0
-	"Paulo #0" = 0
-	"Pedro #0" = 0
-	"Ramón #0" = 0
-	"Roi #0" = 0
-	"Tomé #0" = 0
-	"Vitor #0" = 0
-	"Xoan #0" = 0
-	"Xorxe #0" = 0
 	
 	"Branca #0" = -1
 	"Iria #0" = -1
@@ -119,4 +80,12 @@ ship_names = {
 	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santísima Trinidad" "Santo Domingo" Sirena
 	Terror Toledo Trinidad Tritón Unicornio
 	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
+}
+
+army_names = {
+	"Guardia Real" "Ejército de $PROVINCE$"
+}
+
+fleet_names = {
+	"Armada Real" "Flota de $PROVINCE$"
 }

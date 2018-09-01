@@ -1,7 +1,8 @@
 name = "Ottoman Raid of Sofia"
 war_goal = {
-	type = superiority_crusade
-	casus_belli = cb_crusade
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 588
 }
 
 1352.1.1 = {

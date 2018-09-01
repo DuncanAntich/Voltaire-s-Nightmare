@@ -20,12 +20,10 @@ discovered_by = muslim
 	owner = BEG
 	controller = BEG
 }
-
 1109.1.1 = {
 	owner = CDY
 	controller = CDY
 }
-
 1118.1.1 = {
 	owner = BRC
 	controller = BRC
@@ -33,8 +31,7 @@ discovered_by = muslim
 	remove_core = CDY
 	remove_core = BEG
 }
-
-1137.11.13 = {
+1162.8.6 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA

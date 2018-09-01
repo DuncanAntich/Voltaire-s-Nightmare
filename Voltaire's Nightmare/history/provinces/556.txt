@@ -1,3 +1,6 @@
+owner = NAP
+controller = NAP
+add_core = NAP
 culture = greek
 religion = catholic 
 hre = no
@@ -11,16 +14,21 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-owner = NAP
-controller = NAP
-add_core = NAP
+discovered_by = nomad_group
+discovered_by = north_american
 
-1137.10.30 = { culture = neapolitan }
+1139.7.25 = {
+	culture = neapolitan 
+	owner = CPU
+	controller = CPU
+	add_core = CPU
+	remove_core = NAP
+}
 1154.2.26 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC
-	remove_core = NAP
+	remove_core = CPU
 }
 1302.8.31 = {
 	owner = NAP
@@ -47,5 +55,3 @@ add_core = NAP
 	remove_core = SIC
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

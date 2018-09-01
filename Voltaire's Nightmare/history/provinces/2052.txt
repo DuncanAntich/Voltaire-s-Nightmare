@@ -44,14 +44,20 @@ add_permanent_province_modifier = {
 	remove_core = MOR
 }
 1148.12.1 = {
-	owner = ARA
-	controller = ARA
-	add_core = ARA
-	add_core = CAT
+	owner = BRC
+	controller = BRC
+	add_core = BRC
 	remove_core = TTO
 	remove_core = VLK
 	culture = catalan
 	religion = catholic
+}
+1162.8.6 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	remove_core = BRC
+	add_core = CAT
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }

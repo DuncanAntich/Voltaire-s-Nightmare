@@ -1,19 +1,22 @@
 name = "Wendish Crusade"
 war_goal = {
-	type = superiority_crusade
-	casus_belli = cb_crusade
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 746
 }
 
 1147.3.13 = {
-	add_attacker = SAX
-	add_attacker = MEI
-	add_attacker = SDE
 	add_attacker = SDL
+	add_attacker = SDE
+	add_attacker = VER
+	add_attacker = MEI
+	add_attacker = LST
+	add_attacker = SAX
+	add_attacker = MAG
 	add_attacker = SHL
-	add_attacker = DAN
-	add_attacker = SVG
-	add_attacker = BRE
+	add_attacker = SMB
 	add_attacker = LAU
+	add_attacker = BRE
 	add_attacker = HBD
 	add_defender = MKL
 	add_defender = SPR
@@ -32,15 +35,17 @@ war_goal = {
 }
 
 1147.8.1 = {
-	rem_attacker = SAX
-	rem_attacker = MEI
-	rem_attacker = SDE
 	rem_attacker = SDL
+	rem_attacker = SDE
+	rem_attacker = VER
+	rem_attacker = MEI
+	rem_attacker = LST
+	rem_attacker = SAX
+	rem_attacker = MAG
 	rem_attacker = SHL
-	rem_attacker = DAN
-	rem_attacker = SVG
-	rem_attacker = BRE
+	rem_attacker = SMB
 	rem_attacker = LAU
+	rem_attacker = BRE
 	rem_attacker = HBD
 	rem_defender = MKL
 	rem_defender = SPR

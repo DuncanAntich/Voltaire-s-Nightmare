@@ -1,22 +1,26 @@
 name = "The Eighth Crusade"
 war_goal = {
-	type = superiority_crusade
-	casus_belli = cb_crusade
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 586
 }
 
 1270.7.2 = {
-	add_attacker = FRA
 	add_attacker = SIC
 	add_attacker = PRO
 	add_attacker = ANJ
+	add_attacker = FRA
 	add_attacker = NAV
 	add_attacker = CHP
 	add_defender = TUN
 	add_defender = KBA
 }
 
-1270.10.30 = {
+1270.8.25 = {
 	rem_attacker = FRA
+}
+
+1270.10.30 = {
 	rem_attacker = SIC
 	rem_attacker = PRO
 	rem_attacker = ANJ

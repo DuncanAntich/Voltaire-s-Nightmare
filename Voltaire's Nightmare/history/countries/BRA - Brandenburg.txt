@@ -7,7 +7,7 @@ capital = 842
 historical_friend = PTH
 
 #old Northern March resurrected from the slavs
-1148.8.25 = {
+1147.8.1 = {
 	monarch = {
 		name = "Albrecht der Bär"
 		dynasty = "Askanier"
@@ -710,7 +710,7 @@ historical_friend = PTH
 	queen = {
 		country_of_origin = SHL
 		name = "Sophia Dorothea"
-		dynasty = "von Holstein-Gottorp"
+		dynasty = "von Oldenburg"
 		birth_date = 1627.11.27
 		death_date = 1667.6.18
 		culture = low_elbish

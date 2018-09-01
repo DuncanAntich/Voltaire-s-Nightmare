@@ -5,7 +5,7 @@ religion = catholic
 technology_group = western
 historical_friend = SPA
 historical_friend = CAS
-capital = 2951
+capital = 2243
 national_focus = DIP
 add_army_professionalism = 0.05
 
@@ -35,7 +35,6 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-1147.10.25 = { capital = 1135 }
 1154.11.11 = {
 	heir = {
 		name = "Sancho"
@@ -177,6 +176,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
+1255.1.1 = { capital = 1135 }
 1261.10.9 = {
 	heir = {
 		name = "Dinis"
@@ -1062,7 +1062,7 @@ add_army_professionalism = 0.05
 	queen = {
 		country_of_origin = ETL
 		name = "Ferdinand"
-		dynasty = "von Sachsen-Coburg und Gotha"
+		dynasty = "von Wettin"
 		birth_date = 1816.10.29
 		death_date = 1885.12.15
 		culture = thuringian

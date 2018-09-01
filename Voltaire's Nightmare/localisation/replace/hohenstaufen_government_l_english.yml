@@ -568,6 +568,7 @@
  MODIFIER_AMOUNT_OF_BANNERS: "Possible Horde Banners"
  MODIFIER_LOCAL_AMOUNT_OF_BANNERS: "Possible Horde Banners"
  MODIFIER_HAS_BANNERS: "Allows Horde Banners"
+ BANNER_CANT_HAVE: "Only nations with §YCuman-Pecheneg§! as primary culture can raise banners.\n"
  BANNER_NONE_AVAIL: "There are not enough Cuman-Pecheneg People in full cores within the $NAME$ to raise any banners."
 #Decrees
  expand_bureaucracy_decree_title: "Rearrange Feuds"

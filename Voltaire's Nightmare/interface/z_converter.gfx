@@ -262,6 +262,22 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	#Schools
+	spriteType = {
+		name = "GFX_icon_muslim_school_ibadi"
+		texturefile = "gfx/interface/icon_muslim_school_ibadi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_sufri"
+		texturefile = "gfx/interface/icon_muslim_school_sufri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_azraqi"
+		texturefile = "gfx/interface/icon_muslim_school_azraqi.dds"
+	}
+
 	#Blessings
 	spriteType = {
 		name = "GFX_holy_site_default"

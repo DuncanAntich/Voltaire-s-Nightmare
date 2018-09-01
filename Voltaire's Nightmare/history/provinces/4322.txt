@@ -39,7 +39,7 @@ discovered_by = muslim
 	culture = catalan
 	religion = catholic
 }
-1137.11.13 = {
+1162.8.6 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA

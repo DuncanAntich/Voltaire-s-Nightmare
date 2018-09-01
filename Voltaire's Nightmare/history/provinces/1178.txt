@@ -48,13 +48,19 @@ discovered_by = north_american
 	remove_core = VLK
 }
 1149.10.1 = {
+	owner = BRC
+	controller = BRC
+	add_core = BRC
+	remove_core = MCA
+	culture = catalan
+	religion = catholic
+}
+1162.8.6 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
-	remove_core = MCA
+	remove_core = BRC
 	add_core = CAT
-	culture = catalan
-	religion = catholic
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
 1462.4.11 = { revolt = {} controller = CAS }

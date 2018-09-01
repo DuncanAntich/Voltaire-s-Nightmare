@@ -33,25 +33,25 @@ historical_units = {
 monarch_names = {
 	"Malyan #0" = 10
 	"Ahmad #0" = 10
-	"YahyÃ¢ #0" = 5
+	"Yahyâ #0" = 5
 	"Muhammad #0" = 5
-	"YÃ»suf #0" = 5
-	"SulaymÃ¢n #0" = 5
-	"â€˜Abd AllÃ¢h #0" = 5
-	"â€˜Abd ar-Rahman #0" = 5
-	"â€˜AlÃ® #0" = 5
+	"Yûsuf #0" = 5
+	"Sulaymân #0" = 5
+	"‘Abd Allâh #0" = 5
+	"‘Abd ar-Rahman #0" = 5
+	"‘Alî #0" = 5
 	
-	"â€˜AlÃ®ya #0" = -1
-	"FÃ¢hima #0" = -1
+	"‘Alîya #0" = -1
+	"Fâhima #0" = -1
 	"Haifa #0" = -1
 }
 
 leader_names = {
-	"BanÃ» SumÃ¢dih" "BanÃ» MaymÃ»n"
-	"BanÃ» â€˜Ã‚mirÃ®" "BanÃ» RamÃ®mi"
-	"BanÃ» HammÃ»d" "BanÃ» Malyan"
-	"BanÃ» BirzÃ¢l" "BanÃ» Darddus"
-	"BanÃ» DammarÃ®" "BanÃ» JizrÃ»n"
+	"Banû Sumâdih" "Banû Maymûn"
+	"Banû ‘Âmirî" "Banû Ramîmi"
+	"Banû Hammûd" "Banû Malyan"
+	"Banû Birzâl" "Banû Darddus"
+	"Banû Dammarî" "Banû Jizrûn"
 }
 
 ship_names = {

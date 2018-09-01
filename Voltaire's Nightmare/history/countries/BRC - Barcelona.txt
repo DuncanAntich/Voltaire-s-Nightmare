@@ -117,5 +117,4 @@ historical_friend = ARA
 	clear_scripted_personalities = yes
 	add_ruler_personality = zealot_personality
 }
-1137.11.13 = { government_rank = 5 }
-# 1150 done
+#1162 done

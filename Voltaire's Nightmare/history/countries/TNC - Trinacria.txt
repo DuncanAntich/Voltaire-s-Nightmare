@@ -95,6 +95,20 @@ capital = 2703
 		mil = 2
 	}
 }
+1118.1.1 = {
+	heir = {
+		name = "Roger"
+		monarch_name = "Roger III"
+		dynasty = "de Hauteville"
+		birth_date = 1118.1.1
+		death_date = 1148.5.12
+		culture = normand
+		claim = 90
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
 1130.12.25 = { government_rank = 5 }
 #Aragonese Kings
 1295.6.20 = {

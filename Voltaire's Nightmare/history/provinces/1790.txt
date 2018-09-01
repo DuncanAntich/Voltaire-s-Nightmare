@@ -25,21 +25,11 @@ discovered_by = north_american
 	culture = catalan
 	religion = catholic
 }
-1137.11.13 = {
-	owner = ARA
-	controller = ARA
-	add_core = ARA
-	add_core = CAT
-}
-1149.10.1 = {
-	owner = URG
-	controller = URG
-	remove_core = ARA
-}
 1314.1.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
+	add_core = CAT
 	remove_core = URG
 }
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }

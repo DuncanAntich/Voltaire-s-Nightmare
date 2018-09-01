@@ -1,7 +1,4 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 99  14  87 }
 
 historical_idea_groups = {
@@ -40,46 +37,20 @@ historical_units = {
 }
 
 monarch_names = {
-	"Alfonso #9" = 40
-	"Fernando #2" = 20
-	"Sancho #3" = 10
+	"Alfonso #5" = 40
+	"Fernando #0" = 20
+	"Sancho #1" = 10
 	"Ramiro #3" = 10
 	"Juan #0" = 10
 	"Felipe #0" = 10
 	"Carlos #0" = 10
-	"Enrique #1" = 5
+	"Enrique #0" = 5
 	"Pedro #0" = 1
+
 	"Isabel #0" = -10
 	"Juana #0" = -10
 	"María #0" = -5
 	"Urraca #0" = -5
-	"Alonso #0" = 0
-	"Álvaro #0" = 0
-	"Baltasar #0" = 0
-	"Bernardo #0" = 0
-	"Bertrán #0" = 0
-	"Cristobal #0" = 0
-	"Diego #0" = 0
-	"Domingo #0" = 0
-	"Esteban #0" = 0
-	"Fadrique #0" = 0
-	"Francisco #0" = 0
-	"García #0" = 0
-	"Gómez #0" = 0
-	"Gonzalo #0" = 0
-	"Gutierre #0" = 0
-	"Hermenegildo #0" = 0
-	"Hernando #0" = 0
-	"Ignacio #0" = 0
-	"Laín #0" = 0
-	"Lope #0" = 0
-	"Miguel #0" = 0
-	"Nuño #0" = 0
-	"Odón #0" = 0
-	"Ramón #0" = 0
-	"Rodrigo #0" = 0
-	"Tomás #0" = 0
-	"Valeriano #0" = 0
 }
 
 leader_names = {
@@ -113,7 +84,6 @@ ship_names = {
 	Terror Toledo Trinidad Tritón Unicornio
 	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
 }
-
 
 army_names = {
 	"Guardia Real" "Ejército de $PROVINCE$"

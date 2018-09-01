@@ -8,7 +8,6 @@ war_goal = {
 	add_attacker = FRA
 	add_attacker = PAP
 	add_defender = TOU
-	add_defender = VAL
 	add_defender = NRB
 	add_defender = FOI
 	add_defender = BGR
@@ -75,5 +74,4 @@ war_goal = {
 	rem_attacker = FRA
 	rem_attacker = BEA
 	rem_defender = TOU
-	rem_defender = VAL
 }

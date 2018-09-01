@@ -15,7 +15,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1137.11.13 = {
+1162.8.6 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA

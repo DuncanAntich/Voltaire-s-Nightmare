@@ -15,7 +15,7 @@ owner = CPU
 controller = CPU
 add_core = CPU
 
-1156.1.1 = {
+1154.2.26 = {
 	owner = SIC
 	controller = SIC
 	add_core = SIC

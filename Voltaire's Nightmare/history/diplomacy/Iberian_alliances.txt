@@ -502,6 +502,20 @@ alliance = {
 	end_date = 1065.12.24
 }
 
+#Marriage
+royal_marriage = {
+	first = BRC
+	second = ARA
+	start_date = 1150.8.1
+	end_date = 1162.8.6
+}
+alliance = {
+	first = BRC
+	second = ARA
+	start_date = 1137.11.13
+	end_date = 1162.8.6
+}
+
 #1.25 Diplomacy
 
 union = {

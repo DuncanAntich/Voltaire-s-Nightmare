@@ -13,7 +13,9 @@ country_event = {
     major = yes
 
     trigger = {
+        NOT = { exists = MOR }
         NOT = { is_year = 1220 }
+        NOT = { started_in = 1090.1.1 }
         is_year = 1080
         religion = sunni
         NOT = { war_score = -25 }
@@ -119,6 +121,13 @@ country_event = {
     trigger = {
         has_global_flag = mor_leaves_andalus
         owns = 761
+        OR = {
+            ai = yes
+            OR = {
+                761 = { is_capital = no }
+                num_of_cities = 2
+            }
+        }
     }
 
     mean_time_to_happen = {

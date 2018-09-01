@@ -85,3 +85,27 @@ capital = 2216
 		mil = 1
 	}
 }
+#Goes into exile
+1139.7.25 = {
+	monarch = {
+		name = "Alphonse I"
+		dynasty = "de Hauteville"
+		birth_date = 1120.1.1
+		culture = normand
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1144.10.10 = {
+	monarch = {
+		name = "Guillaume I"
+		dynasty = "de Hauteville"
+		birth_date = 1120.1.1
+		culture = normand
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1154.2.26 to SIC
