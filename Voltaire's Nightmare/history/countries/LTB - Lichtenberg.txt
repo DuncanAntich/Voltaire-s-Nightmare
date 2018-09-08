@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 primary_culture = boden_alemannic
 religion = catholic
@@ -17,7 +18,8 @@ capital = 292
 }
 #Herren
 1206.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Jakob I"
 		dynasty = "von Lichtenberg"

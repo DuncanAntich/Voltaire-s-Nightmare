@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 3
 primary_culture = emilian
 religion = catholic
@@ -48,7 +49,8 @@ add_army_professionalism = 0.05
 #City
 1128.1.1 = {
 	government_rank = 1
-	government = italian_monarchy
+	government = republic
+	add_government_reform = italian_monarchy
 	monarch = {
 		name = "Orlando"
 		dynasty = "de' Rossi"
@@ -139,7 +141,8 @@ add_army_professionalism = 0.05
 }
 #done
 1545.10.20 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	government_rank = 3
 	monarch = {
 		name = "Pier Luigi"
@@ -236,7 +239,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-1622.3.6 = { government = administrative_monarchy }
+1622.3.6 = { set_legacy_government = administrative_monarchy }
 1630.9.17 = {
 	heir = {
 		name = "Ranuccio"
@@ -307,7 +310,7 @@ add_army_professionalism = 0.05
 	}
 }
 1731.1.20 = {
-	government = enlightened_despotism
+	set_legacy_government = enlightened_despotism
 	monarch = {
 		name = "Carlo I"
 		dynasty = "de Bourbon"

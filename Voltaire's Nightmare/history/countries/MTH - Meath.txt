@@ -1,14 +1,15 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 2622
 
 1030.1.1 ={
 	monarch = {
-		name = "Conchobar I"
-		dynasty = "Mac Cholmáin"
+		name = "Conchobar IV"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 3
 		dip = 3
 		mil = 2
@@ -16,8 +17,8 @@ capital = 2622
 }
 1073.1.1 ={
 	monarch = {
-		name = "Máel Sechlainn I"
-		dynasty = "Mac Cholmáin"
+		name = "Máel Sechlainn III"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -25,8 +26,8 @@ capital = 2622
 }
 1087.1.1 ={
 	monarch = {
-		name = "Donal"
-		dynasty = "Mac Cholmáin"
+		name = "Domhnall V"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -34,8 +35,8 @@ capital = 2622
 }
 1094.1.1 ={
 	monarch = {
-		name = "Donnchad I"
-		dynasty = "Mac Cholmáin"
+		name = "Donnchad VI"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -43,8 +44,8 @@ capital = 2622
 }
 1105.1.1 ={
 	monarch = {
-		name = "Muirchertach"
-		dynasty = "Mac Cholmáin"
+		name = "Muirchertach II"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 1
 		dip = 2
 		mil = 2
@@ -53,7 +54,7 @@ capital = 2622
 1106.1.1 ={
 	monarch = {
 		name = "Murchadh"
-		dynasty = "Mac Cholmáin"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 2
 		mil = 3
@@ -61,8 +62,8 @@ capital = 2622
 }
 1143.1.1 ={
 	monarch = {
-		name = "Conchobar I"
-		dynasty = "Mac Cholmáin"
+		name = "Conchobar V"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 1
 		mil = 1
@@ -70,8 +71,8 @@ capital = 2622
 }
 1144.1.1 ={
 	monarch = {
-		name = "Donnchad II"
-		dynasty = "Mac Cholmáin"
+		name = "Donnchad VII"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -79,8 +80,8 @@ capital = 2622
 }
 1152.1.1 ={
 	monarch = {
-		name = "Máel Sechlainn II"
-		dynasty = "Mac Cholmáin"
+		name = "Máel Sechlainn IV"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -88,8 +89,8 @@ capital = 2622
 }
 1155.1.1 ={
 	monarch = {
-		name = "Donnchad III"
-		dynasty = "Mac Cholmáin"
+		name = "Donnchad VIII"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 1
 		mil = 2
@@ -97,16 +98,18 @@ capital = 2622
 }
 1160.1.1 ={
 	monarch = {
-		name = "Diarmait"
-		dynasty = "Mac Cholmáin"
+		name = "Diarmait II"
+		dynasty = "Ó Máel Sechlainn"
 		adm = 2
 		dip = 3
 		mil = 0
 	}
 }
+1171.5.1 = { primary_culture = irish }
 #done 1172
 1172.1.1 ={
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	government_rank = 3
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish

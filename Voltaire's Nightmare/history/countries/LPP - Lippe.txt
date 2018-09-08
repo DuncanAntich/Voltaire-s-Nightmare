@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = hannoverian
 religion = catholic
@@ -336,7 +337,10 @@ capital = 135
 		mil = 2
 	}
 }
-1528.1.1 = { government = feudal_monarchy }
+1528.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1536.9.17 = {
 	monarch = {
 		name = "Bernhard VII"
@@ -611,7 +615,7 @@ capital = 135
 }
 1789.1.1 = { 
 	government_rank = 4
-	government = administrative_monarchy
+	set_legacy_government = administrative_monarchy
 }
 1796.11.6 = {
 	heir = {

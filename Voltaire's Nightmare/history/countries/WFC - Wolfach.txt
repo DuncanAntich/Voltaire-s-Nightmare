@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 primary_culture = boden_alemannic
@@ -16,7 +17,8 @@ capital = 2751
 }
 #Abtei Sankt Georgian
 1086.1.1 = {
-	government = monastic_order_government
+	government = theocracy
+	add_government_reform = monastic_order_reform
 	monarch = {
 		name = "Heinrich"
 		adm = 2
@@ -97,7 +99,8 @@ capital = 2751
 }
 #Back to lords of Wolfach
 1204.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Friedrich II"
 		dynasty = "von Sulz"

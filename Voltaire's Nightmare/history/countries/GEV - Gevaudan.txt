@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = auvergnat
 religion = catholic
@@ -9,7 +10,10 @@ fixed_capital = 2924
 #1112.2.3 under CAT
 #1131.7.19 under PRO
 #1168.1.1 under ARA
-1307.1.1 = { government = theocratic_government }
+1307.1.1 = {
+	government = theocracy
+	add_government_reform = leading_clergy_reform
+}
 #Avignon
 1378.9.20 = { religion = catholique }
 1403.5.28 = { religion = catholic }

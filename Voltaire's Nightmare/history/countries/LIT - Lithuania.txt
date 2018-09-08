@@ -1,4 +1,5 @@
-government = tribal_despotism
+government = tribal
+add_government_reform = tribal_despotism
 government_rank = 4
 primary_culture = lithuanian
 religion = animism
@@ -21,7 +22,8 @@ capital = 1152 # Vilnius
 1242.1.1 = { add_accepted_culture = byelorussian }
 1251.7.17 = {
 	government_rank = 5
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	religion = catholic
 }
 1263.10.31 = {

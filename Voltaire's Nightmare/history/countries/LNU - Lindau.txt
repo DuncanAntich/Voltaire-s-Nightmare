@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 primary_culture = boden_alemannic
 religion = catholic
@@ -18,7 +19,8 @@ fixed_capital = 1880
 }
 #FC
 1274.1.1 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"

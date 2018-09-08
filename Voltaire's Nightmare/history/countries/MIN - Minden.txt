@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 2
 primary_culture = low_elbish
 religion = catholic
@@ -368,5 +369,9 @@ fixed_capital = 155
 		mil = 2
 	}
 }
-1599.1.21 = { government = administrative_monarchy }
+1599.1.21 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
+}
 #TOTALLY DONE 1648

@@ -1,10 +1,11 @@
-government = iqta 
+government = monarchy
+add_government_reform = iqta
 technology_group = muslim
 government_rank = 5
 religion = ibadi
 primary_culture = berber
 capital = 2854
-religious_school = maliki_school
+religious_school = sufri_school
 
 1054.1.1 = {
 	monarch = {
@@ -34,8 +35,11 @@ religious_school = maliki_school
 		mil = 1
 	}
 }
-#to MOR
-1080.1.1 = { religion = sunni }
+#to MOR 1058 1068
+1080.1.1 = {
+	religion = sunni
+	religious_school = maliki_school
+}
 
 1236.1.1 = {
 	monarch = {

@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
@@ -18,7 +19,8 @@ capital = 2309
 1167.1.1 = { religion = catholic }
 1178.12.30 = {
 	primary_culture = pommeranian
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	technology_group = western
 	government_rank = 1
 }
@@ -121,7 +123,8 @@ capital = 2309
 } #1425.8.25
 
 1503.1.1 = { #dukes of Gustrow
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	government_rank = 3
 	monarch = {
 		name = "Abrecht VII"

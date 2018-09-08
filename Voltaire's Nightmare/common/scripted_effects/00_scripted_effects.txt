@@ -196,7 +196,12 @@ move_capital_effect = {
 		}
 		add_imperial_influence = -1
 	}
-	ROOT = { set_capital = PREV }
+	if = {
+		limit = { is_capital = no }
+		ROOT = {
+			set_capital = PREV
+		}
+	}
 }
 
 remove_non_electors_emperors_from_empire_effect = {

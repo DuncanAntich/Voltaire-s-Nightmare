@@ -40,5 +40,6 @@ country_event = {
 			name = "Gottfried Wilhelm Leibniz"
 			discount = yes
 		}
+		add_innovativeness_small_effect = yes
 	}
 }

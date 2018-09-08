@@ -1,8 +1,9 @@
 revolution = {
 	potential = {
 		NOT = { has_country_flag = had_revolution }
-		NOT = { tag = PAP }
+		NOT = { has_reform = papacy_reform }
 		NOT = { tag = FRA }
+		NOT = { has_reform = celestial_empire }
 		is_free_or_tributary_trigger = yes
 		num_of_cities = 60
 		NOT = { revolution_target_exists = yes }

@@ -101,13 +101,28 @@ defined_text = {
 			tag = FRA
 		}
     }
+	text = {
+        localisation_key = string_start_title_brittany
+        trigger = {
+			tag = BRI
+		}
+    }
 	
 	#Generic:
+	text = {
+        localisation_key = string_start_title_horde
+        trigger = {
+			has_reform = steppe_horde
+        }
+    }
 	text = {
         localisation_key = string_start_title_monarchy_regency #Actually same as fallback
         trigger = {
 			has_regency = yes
-			government = monarchy
+			OR = {
+				government = monarchy
+				government = tribal
+			}
         }
     }
     text = {
@@ -237,32 +252,6 @@ defined_text = {
     name = StartScreenUpLeftDesc
 	random = no
 
-	#Earlier Start Dates
-	text = {
-		localisation_key = string_start_age_of_empire
-		trigger = {
-			current_age = age_of_empire
-		}
-	}
-	text = {
-		localisation_key = string_start_age_of_holy_wars
-		trigger = {
-			current_age = age_of_holy_wars
-		}
-	}
-	text = {
-		localisation_key = string_start_age_of_crisis
-		trigger = {
-			current_age = age_of_crisis
-		}
-	}
-	text = {
-		localisation_key = string_start_age_of_dynasticism
-		trigger = {
-			current_age = age_of_dynasticism
-		}
-	}
-
 	#Later Start Dates
 	text = {
 		localisation_key = string_start_age_of_reformation
@@ -288,6 +277,7 @@ defined_text = {
 			current_age = age_of_ideology
 		}		
 	}
+
 	#Country Specific:
 	#Europe:
 	
@@ -383,6 +373,43 @@ defined_text = {
 			started_in = 1444.11.11
 			NOT = { is_year = 1448 }
         }
+	}
+
+	#Regions
+	text = {
+        localisation_key = string_start_tag_ireland
+        trigger = {
+        	NOT = { started_in = 1171.5.1 }
+			capital_scope = {
+				superregion = irish_superregion
+			}
+        }
+    }
+
+    #Earlier Start Dates
+	text = {
+		localisation_key = string_start_age_of_empire
+		trigger = {
+			current_age = age_of_empire
+		}
+	}
+	text = {
+		localisation_key = string_start_age_of_holy_wars
+		trigger = {
+			current_age = age_of_holy_wars
+		}
+	}
+	text = {
+		localisation_key = string_start_age_of_crisis
+		trigger = {
+			current_age = age_of_crisis
+		}
+	}
+	text = {
+		localisation_key = string_start_age_of_dynasticism
+		trigger = {
+			current_age = age_of_dynasticism
+		}
 	}
 	
 	#Continents
@@ -806,6 +833,29 @@ defined_text = {
     }
 }
 
+#Culture specific Mechanics
+defined_text = {
+    name = startup_culture_explanation
+	random = no
+
+    text = {
+        localisation_key = string_manchu_culture
+        trigger = {
+			OR = {
+				primary_culture = pecheneg
+				primary_culture = cuman
+			}
+			has_dlc = "Mandate of Heaven"
+        }
+    }
+	text = {
+        localisation_key = string_no_special_culture
+        trigger = {
+			always = yes
+        }
+    }
+}
+
 #Base Government Explanation
 defined_text  = {
     name = startup_government_explanation
@@ -833,7 +883,7 @@ defined_text  = {
 	text = {
         localisation_key = string_start_government_papacy
         trigger = {
-			government = papal_government
+			has_reform = papacy_reform
         }
     }
 	text = {
@@ -852,12 +902,14 @@ defined_text = {
 		localisation_key = string_start_government_heirs
 		trigger = {
 			government = monarchy
+			NOT = { has_reform = steppe_horde }
 		}
 	}
 	text = {
 		localisation_key = string_start_government_horde_heirs
 		trigger = {
 			government = monarchy
+			has_reform = steppe_horde
 		}
 	}
 	text = {
@@ -877,9 +929,12 @@ defined_text  = {
         localisation_key = string_start_factions
         trigger = {
 			OR = {
-				government = merchant_republic
+				has_reform = merchants_reform
+				has_reform = monastic_order_government
+				has_reform = ottoman_government
+				has_reform = tribal_kingdom
 				AND = { 
-					government = revolutionary_republic
+					has_reform = revolutionary_republic_reform
 					has_dlc = "Rights of Man"
 				}
 			}
@@ -900,7 +955,6 @@ defined_text  = {
     text = {
         localisation_key = string_startup_estates_explanation
         trigger = {
-			has_dlc = "The Cossacks"
 			has_estate = yes
 		}
     }
@@ -917,6 +971,10 @@ defined_text  = {
     name = startup_government_tribal
 	random = no
 
+	text = {
+        localisation_key = string_start_clan
+        trigger = { has_reform = tribal_kingdom }
+    }
     text = {
         localisation_key = string_tribal_reform
         trigger = {
@@ -930,6 +988,7 @@ defined_text  = {
         }
     }
 }
+
 #Tribal Federations don't get institution spread penalties.
 defined_text  = {
     name = startup_government_tribal_institution_penalty
@@ -938,7 +997,7 @@ defined_text  = {
     text = {
         localisation_key = string_tribal_institution_penalty
         trigger = {
-			NOT = { government = tribal_federation }
+			NOT = { has_reform = tribal_federation }
 		}
     }
 	text = {
@@ -959,7 +1018,8 @@ defined_text  = {
         localisation_key = string_start_consorts
         trigger = {
 			government = monarchy
-			NOT = { government = iqta }
+			NOT = { has_reform = iqta }
+			NOT = { has_reform = steppe_horde }
 			has_dlc = "Rights of Man"
         }
     }
@@ -1018,7 +1078,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_iqta
         trigger = {
-			government = iqta
+			has_reform = iqta
 			has_dlc = "Cradle of Civilization"
         }
     }
@@ -1038,7 +1098,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_feudal_theocracy
         trigger = {
-			government = feudal_theocracy
+			has_reform = feudal_theocracy
 			has_dlc = "Cradle of Civilization"
         }
     }
@@ -1058,7 +1118,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_harem
         trigger = {
-			government = ottoman_government
+			has_reform = ottoman_government
 			has_dlc = "Rights of Man"
         }
     }
@@ -1078,12 +1138,32 @@ defined_text  = {
     text = {
         localisation_key = string_start_pashas
         trigger = {
-			government = ottoman_government
+			has_reform = ottoman_government
 			has_dlc = "Cradle of Civilization"
         }
     }
 	text = {
         localisation_key = string_start_pashas_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Tribal Federation
+defined_text  = {
+    name = startup_tribal_federation_government
+	random = no
+
+    text = {
+        localisation_key = string_start_tribal_federation
+        trigger = {
+			has_reform = tribal_federation
+			has_dlc = "Cradle of Civilization"
+        }
+    }
+	text = {
+        localisation_key = start_tribal_federation_no #Empty string
         trigger = {
 			always = yes
         }
@@ -1098,7 +1178,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_trade_league
         trigger = {
-			government = merchant_republic
+			has_reform = merchant_republic
 			has_dlc = "Mare Nostrum"
         }
     }
@@ -1137,7 +1217,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_prussian_government
         trigger = {
-			government = prussian_monarchy
+			has_reform = prussian_monarchy
         }
     }
 	text = {
@@ -1175,7 +1255,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_elective_monarchy
         trigger = {
-			government = elective_monarchy
+			has_reform = elective_monarchy
 			has_dlc = "Res Publica"
         }
     }
@@ -1194,6 +1274,26 @@ defined_text  = {
     }
 }
 
+#Hordes - Horde Unity
+defined_text  = {
+    name = startup_government_horde
+	random = no
+
+    text = {
+        localisation_key = string_start_horde
+        trigger = {
+			has_reform = steppe_horde
+			has_dlc = "The Cossacks"
+        }
+    }
+	text = {
+        localisation_key = string_start_horde_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
 #Meritocracy
 defined_text  = {
     name = startup_government_meritocracy
@@ -1202,7 +1302,7 @@ defined_text  = {
 	text = {
         localisation_key = string_start_meritocracy
         trigger = {
-			government = celestial_empire
+			has_reform = celestial_empire
 			has_dlc = "Mandate of Heaven"
         }
     }
@@ -1221,10 +1321,22 @@ defined_text = {
 	random = no
 
 	text = {
+        localisation_key = string_start_ireland_description
+        trigger = {
+        	NOT = { started_in = 1171.5.1 }
+			capital_scope = {
+				superregion = irish_superregion
+			}
+        }
+    }
+
+	text = {
         localisation_key = string_start_europe_description #The HRE & The Kingdom of Italy
         trigger = {
-			capital_scope = {
-				continent = europe
+			capital_scope = { continent = europe }
+			OR = {
+				capital_scope = { NOT = { superregion = irish_superregion } }
+				started_in = 1171.5.1
 			}
         }
     }
@@ -1310,11 +1422,11 @@ defined_text = {
     text = {
         localisation_key = string_anglicanism_desc
         trigger = {
-				has_dlc = "Rule Britannia"
-				OR = {
-					culture_group = british
-					religion = anglican
-				}
+			has_dlc = "Rule Britannia"
+			OR = {
+				culture_group = british
+				religion = anglican
+			}
         }
     }
 	text = {

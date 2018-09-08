@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 4
 primary_culture = pommeranian
 religion = catholic

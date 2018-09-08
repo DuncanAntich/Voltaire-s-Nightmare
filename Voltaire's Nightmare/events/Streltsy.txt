@@ -836,9 +836,9 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		OR = {
-			government = principality
-			government = veche_republic
-			government = tsardom
+			has_reform = principality
+			has_reform = veche_republic
+			has_reform = tsardom
 		}
 	}
 	

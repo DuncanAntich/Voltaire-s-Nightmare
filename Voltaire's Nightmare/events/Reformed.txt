@@ -16,7 +16,7 @@ country_event = {
 			religion = catholic
 			religion = protestant
 		}
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		capital_scope = {
 			continent = europe
 		}
@@ -92,10 +92,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
+			government = theocracy
 		}
 		modifier = {
 			factor = 8.0

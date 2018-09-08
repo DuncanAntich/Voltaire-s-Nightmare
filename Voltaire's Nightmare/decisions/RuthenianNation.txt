@@ -96,16 +96,14 @@ country_decisions = {
 			if = {
 				limit = {
 					OR = {
-						government = veche_republic
-						government = principality
+						has_reform = veche_republic
+						has_reform = principality
 					}
 				}
-				set_government_and_rank = {
-					government = tsardom
-					rank = 6
-				}
+				change_government = monarchy
+				add_government_reform = tsardom
 			}
-			else_if = {
+			if = {
 				limit = { NOT = { government_rank = 6 } }
 				set_government_rank = 6
 			}

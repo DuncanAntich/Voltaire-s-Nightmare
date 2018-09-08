@@ -1,4 +1,5 @@
-government = principality
+government = monarchy
+add_government_reform = principality
 government_rank = 3
 technology_group = eastern
 primary_culture = ruthenian

@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 primary_culture = thuringian
 religion = catholic
@@ -25,7 +26,8 @@ capital = 226
 }
 #Counts of Hohnstein
 1154.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Elger I"
 		dynasty = "von Hohnstein"

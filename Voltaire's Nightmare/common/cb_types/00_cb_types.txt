@@ -21,8 +21,8 @@ cb_restore_personal_union = {
 	prerequisites = {
 		OR = {
 			government = monarchy
-			government = dutch_republic
-			government = italian_monarchy
+			has_reform = dutch_republic
+			has_reform = italian_monarchy
 		}
 		is_revolution_target = no
 		FROM = {
@@ -236,7 +236,7 @@ cb_humiliate = {
 
 	prerequisites = {
 		has_dlc = "Conquest of Paradise"
-		government = tribal_democracy
+		government = native
 		NOT = {
 			truce_with = FROM
 			num_of_cities = 3
@@ -338,23 +338,25 @@ cb_revolutionary = {
 		is_neighbor_of = FROM
 		cb_on_government_enemies = yes
 		NOT = {
-			government = papal_government
-			government = steppe_horde
-			government = italian_monarchy
-			government = dutch_republic
-			government = celestial_empire
-			government = iqta
-			government = colonial_government
+			has_reform = papacy_government
+			has_reform = steppe_horde
+			has_reform = italian_monarchy
+			has_reform = dutch_republic
+			has_reform = celestial_empire
+			has_reform = iqta
+			has_reform = colonial_government
+			government = native
 		}
 		FROM = {
 			NOT = {
-				government = papal_government
-				government = steppe_horde
-				government = italian_monarchy
-				government = dutch_republic
-				government = celestial_empire
-				government = iqta
-				government = colonial_government
+				has_reform = papacy_government
+				has_reform = steppe_horde
+				has_reform = italian_monarchy
+				has_reform = dutch_republic
+				has_reform = celestial_empire
+				has_reform = iqta
+				has_reform = colonial_government
+				government = native
 			}
 		}
 		OR = {
@@ -514,8 +516,8 @@ cb_trade_war = {
 				NOT = { FROM = { trade_embargo_by = ROOT } }
 			}
 			AND = {
-				government = merchant_republic
-				FROM = { government = merchant_republic }
+				has_reform = merchants_reform
+				FROM = { has_reform = merchants_reform }
 			}
 		}
 		is_revolution_target = no
@@ -740,14 +742,7 @@ cb_crush_the_revolution = {
 		revolution_target_exists = yes
 		is_revolution_target = no
 		is_free_or_tributary_trigger = yes
-		OR = {
-			government = enlightened_despotism
-			government = despotic_monarchy
-			government = feudal_monarchy
-			government = administrative_monarchy
-			government = constitutional_monarchy
-			government = bureaucratic_despotism
-		}
+		government = monarchy
 		NOT = {
 			revolution_target = {
 				war_with = ROOT
@@ -778,7 +773,7 @@ cb_spread_the_revolution = {
 		}
 		FROM = {
 			NOT = { is_subject_of = ROOT }
-			NOT = { government = revolutionary_republic }
+			NOT = { has_reform = revolutionary_republic_reform }
 		}
 	}
 

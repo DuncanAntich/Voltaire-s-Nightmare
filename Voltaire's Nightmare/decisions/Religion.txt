@@ -299,10 +299,12 @@ country_decisions = {
 		potential = {
 			NOT = { has_ruler_modifier = khalifah }
 			religion = sunni
+			NOT = { government = republic }
 		}
 		allow = {
 			mil = 3
 			has_regency = no
+			is_female = no
 		}
 		effect = {	
 			add_ruler_modifier = {
@@ -371,34 +373,34 @@ country_decisions = {
 		}
 	}
 	
-	jizya_tax = {
-		potential = {
-			NOT = { has_ruler_modifier = per_capita_tax }
-			religion_group = muslim
-			any_owned_province = {
-				has_owner_religion = no
-			}
-			NOT = { has_dlc = "The Cossacks" }
-		}
-		allow = {
-			adm = 3
-			has_regency = no
-		}
-		effect = {	
-			add_ruler_modifier = {
-				name = "per_capita_tax"
-				duration = -1
-			}
-			add_piety = -0.15
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				NOT = { piety = 0.01 }
-				factor = 0
-			}
-		}
-	}
+	#jizya_tax = {
+	#	potential = {
+	#		NOT = { has_ruler_modifier = per_capita_tax }
+	#		religion_group = muslim
+	#		any_owned_province = {
+	#			has_owner_religion = no
+	#		}
+	#		NOT = { has_dlc = "The Cossacks" }
+	#	}
+	#	allow = {
+	#		adm = 3
+	#		has_regency = no
+	#	}
+	#	effect = {	
+	#		add_ruler_modifier = {
+	#			name = "per_capita_tax"
+	#			duration = -1
+	#		}
+	#		add_piety = -0.15
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = {
+	#			NOT = { piety = 0.01 }
+	#			factor = 0
+	#		}
+	#	}
+	#}
 	
 	ibadat_khana = {
 		potential = {
@@ -768,6 +770,14 @@ country_decisions = {
 	conversion_of_convenience = {
 		potential = {
 			NOT = { ruler_religion = ROOT }
+			OR = {
+				has_regency = no
+				AND = {
+					NOT = { ruler_religion = ROOT }
+					has_heir = yes
+					NOT = { heir_religion = ROOT }
+				}
+			}
 			OR = {
 				ai = no
 				has_idea_group = religious_ideas

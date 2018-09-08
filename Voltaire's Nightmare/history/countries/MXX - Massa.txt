@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = tuscan
 religion = catholic
@@ -52,7 +53,8 @@ capital = 2590
 }
 #1200 done
 1553.6.6 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	government_rank = 3
 	monarch = {
 		name = "Alberico I"

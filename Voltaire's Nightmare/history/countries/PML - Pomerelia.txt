@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 technology_group = north_american
 primary_culture = kashubian
@@ -15,7 +16,8 @@ capital = 2789
 	}
 }
 1106.1.1 = {
-	government = tribal_despotism
+	government = tribal
+	add_government_reform = tribal_despotism
 	technology_group = eastern
 	monarch = {
 		name = "Swietopelk I"
@@ -27,7 +29,8 @@ capital = 2789
 	}
 }
 1109.8.10 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	religion = catholic
 }
 1125.1.1 = {

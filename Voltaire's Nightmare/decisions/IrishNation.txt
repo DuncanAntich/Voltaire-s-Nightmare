@@ -13,11 +13,17 @@ country_decisions = {
 			NOT = { tag = ENG }
 			NOT = { tag = ASE }
 			NOT = { tag = GBR }
+			NOT = { tag = GLY }
+			NOT = { tag = MAF }
 			NOT = { has_country_flag = unformable }
+			capital_scope = { superregion = irish_superregion }
 			OR = {
 				primary_culture = irish
-				primary_culture = gallowglass
 				primary_culture = hiberno_norman
+				AND = {
+					any_province = { culture = irish }
+					primary_culture = gallowglass
+				}
 			}
 			OR = {
 				ai = no
@@ -80,13 +86,20 @@ country_decisions = {
 				limit = {
 					is_tribal = yes
 				}
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 			if = {
 				limit = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
+			}
+			if = {
+				limit = {
+					NOT = { primary_culture = irish }
+				}
+				change_primary_culture = irish
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

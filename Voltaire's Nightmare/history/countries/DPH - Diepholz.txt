@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = low_elbish
 religion = catholic
@@ -140,7 +141,10 @@ capital = 154
 		mil = 2
 	}
 }
-1530.1.1 = { government = feudal_monarchy }
+1530.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1545.1.1 = {
 	monarch = {
 		name = "Rudolf IV"

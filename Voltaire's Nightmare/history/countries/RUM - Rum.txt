@@ -1,5 +1,5 @@
-# Rum
-government = ottoman_government
+government = monarchy
+add_government_reform = ottoman_government
 government_rank = 4
 technology_group = ottoman
 primary_culture = turkish

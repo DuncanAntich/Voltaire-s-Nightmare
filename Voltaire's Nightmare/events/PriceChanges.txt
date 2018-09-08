@@ -753,6 +753,7 @@ country_event = {
 				province_without_special_goods_produced_trigger = yes #Don't offer if true.
 			}
 		}
+		add_innovativeness_small_effect = yes
 		event_target:bookmarket_here = {
 			if = {
 				limit = { NOT = { trade_goods = books } }
@@ -771,6 +772,7 @@ country_event = {
 		ai_chance = {
 			factor = 1 #Practically only picked if option A is unavailable
 		}
+		add_innovativeness_small_effect = yes
 		event_target:bookmarket_here = {
 			add_base_production = 2
 		}
@@ -1054,6 +1056,7 @@ country_event = {
 	
 	option = {
 		name = prices.36.a
+		add_innovativeness_small_effect = yes
 		event_target:lending_libraries_here = {
 			if = {
 				limit = {
@@ -1191,6 +1194,7 @@ country_event = {
 	option = {
 		name = prices.42.a
 		add_dip_power = 100
+		add_innovativeness_small_effect = yes
 		change_price = {
 			trade_goods = livestock
 			key = SELECTIVE_BREEDING
@@ -1277,6 +1281,7 @@ country_event = {
 	option = {
 		name = prices.44.a
 		add_dip_power = 100
+		add_innovativeness_small_effect = yes
 		change_price = {
 			trade_goods = glassware
 			key = MODERN_OPTICS

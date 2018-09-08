@@ -1,6 +1,6 @@
-owner = MMU
-controller = MMU
-culture = irish
+owner = DMS
+controller = DMS
+culture = dalcassian
 religion = catholic
 hre = no
 base_tax = 1
@@ -8,19 +8,17 @@ base_production = 1
 trade_goods = hemp
 base_manpower = 1
 capital = "Youghal"
-is_city = yes	
-add_core = MMU
+is_city = yes
 add_core = DMS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1118.1.1 = {
-	owner = DMS
-	controller = DMS
-	remove_core = MMU
-}
+1118.1.1 = { culture = eoganachta }
+1171.5.1 = { culture = irish }
 1583.1.1 = {
 	owner = ENG
 	controller = ENG
@@ -44,5 +42,3 @@ discovered_by = muslim
 	add_core = GBR
 	remove_core = ENG
 }
-discovered_by = nomad_group
-discovered_by = north_american

@@ -1,12 +1,63 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
-primary_culture = irish
+primary_culture = laigin
 religion = catholic
 capital = 853
 
+#O Toole lords
+1041.1.1 = {
+	monarch = {
+		name = "Giolla Caemghin I"
+		dynasty = "Ó Tuathail"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1056.1.1 = {
+	monarch = {
+		name = "Duncuan"
+		dynasty = "Ó Tuathail"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1088.1.1 = {
+	monarch = {
+		name = "Giolla Comghall"
+		dynasty = "Ó Tuathail"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+1119.1.1 = {
+	monarch = {
+		name = "Giolla Caemghin II"
+		dynasty = "Ó Tuathail"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1160.1.1 = {
+	monarch = {
+		name = "Bhaltair"
+		dynasty = "Ó Tuathail"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+1171.5.1 = { primary_culture = irish }
+
+#Earldom
 1172.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish
 	monarch = {

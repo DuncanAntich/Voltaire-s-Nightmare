@@ -220,6 +220,8 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
+				NOT = { has_regency = yes }
+				has_government_attribute = queen
 			}
 			define_consort = {
 				name = "Kösem Sultan"
@@ -628,6 +630,7 @@ country_event = {
 		is_female = no
 		has_consort = no
 		has_heir = no
+		has_government_attribute = heir
 		is_lesser_in_union = no
 		government = monarchy
 		NOT = {
@@ -806,6 +809,7 @@ country_event = {
 		has_female_heir = no
 		has_consort = no
 		is_lesser_in_union = no
+		has_government_attribute = queen
 		government = monarchy
 		NOT = {
 			has_global_flag = wih_catherine_demedici_flag
@@ -1306,9 +1310,8 @@ country_event = {
 			set_global_flag = wih_margaretofanjou_flag
 		}
 	}
-	
 	option = {
-		name = women_history_events.27.a
+		name = women_history_events.27.c
 		define_ruler = {
 			name = "Margaret"
 			dynasty = "d'Anjou"
@@ -1324,6 +1327,29 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = righteous_personality }
+		}
+	}
+	option = {
+		name = women_history_events.27.a
+		trigger = {
+			has_dlc = "Rights of Man"
+			has_government_attribute = queen
+		}
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_meritocracy_effect = yes
+		define_consort = {
+			name = "Margaret"
+			dynasty = "d'Anjou"
+			culture = angevin_culture
+			adm = 3
+			dip = 4
+			mil = 3
+			female = yes
+		}
+		hidden_effect = {
+			add_queen_personality = righteous_personality
 		}
 	}
 	option = {
@@ -2595,7 +2621,7 @@ country_event = {
 		is_year = 1611 
 		is_lesser_in_union = no
 		government = monarchy
-		NOT = { government = steppe_horde }
+		NOT = { has_reform = steppe_horde }
 		NOT = {
 			is_year = 1667
 		}
@@ -3202,7 +3228,7 @@ country_event = {
 		}
 		is_lesser_in_union = no
 		government = monarchy
-		NOT = { government = steppe_horde }
+		NOT = { has_reform = steppe_horde }
 	}
 	
 	mean_time_to_happen = {
@@ -3330,6 +3356,7 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
+				has_government_attribute = queen
 			}
 			define_consort = {
 				name = "Nurbanu Sultan"

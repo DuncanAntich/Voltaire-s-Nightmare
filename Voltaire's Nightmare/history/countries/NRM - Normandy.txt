@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 3
 technology_group = western
 primary_culture = normand
@@ -99,4 +100,4 @@ capital = 1172
 		mil = 0
 	}
 }
-1589.8.3 = { government = administrative_monarchy }
+1589.8.3 = { set_legacy_government = administrative_monarchy }

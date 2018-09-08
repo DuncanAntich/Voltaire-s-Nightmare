@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 5
 technology_group = western
 religion = catholic
@@ -140,7 +141,8 @@ capital = 2712
 	}
 }
 1266.7.2 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	government_rank = 1
 	monarch = {
 		name = "Ailéan"

@@ -14,7 +14,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		num_of_cities = 5
 		any_owned_province = {
 			has_owner_culture = yes
@@ -110,6 +110,7 @@ country_event = {
 		trigger = {
 			NOT = { legitimacy = 50 }
 			legitimacy = 30
+			has_government_attribute = heir
 		}
 		define_heir = {
 			dynasty = ROOT
@@ -140,7 +141,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		num_of_cities = 2
 	}
 	
@@ -158,7 +159,6 @@ country_event = {
 				limit = {
 					is_capital = no
 					OR = {
-						NOT = { has_dlc = "The Cossacks" }
 						has_estate = estate_nobles
 						has_estate = estate_church
 					}
@@ -170,7 +170,6 @@ country_event = {
 				limit = {
 					is_capital = no
 					OR = {
-						NOT = { has_dlc = "The Cossacks" }
 						has_estate = estate_nobles
 						has_estate = estate_church
 					}
@@ -204,8 +203,8 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		OR = {
-			government = principality
-			government = tsardom
+			has_reform = principality
+			has_reform = tsardom
 		}
 		num_of_cities = 10
 		is_subject = no #Includes being a tributary
@@ -246,9 +245,9 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		OR = {
-			government = principality
+			has_reform = principality
 			AND = {
-				government = tsardom
+				has_reform = tsardom
 				NOT = { num_of_cities = 60 }
 			}
 		}
@@ -359,8 +358,8 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		OR = {
-			government = principality
-			government = tsardom
+			has_reform = principality
+			has_reform = tsardom
 		}
 	}
 	
@@ -489,7 +488,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		num_of_cities = 15
 		any_owned_province = {
 			has_owner_culture = no
@@ -697,7 +696,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		any_owned_province = {
 			NOT = { has_province_modifier = restricted_movement }
 			is_capital = no
@@ -741,10 +740,7 @@ country_event = {
 					has_owner_culture = yes
 					trade_goods = grain
 					NOT = { has_province_modifier = restricted_movement }
-					OR = {
-						NOT = { has_dlc  = "The Cossacks" }
-						has_estate = estate_nobles
-					}
+					has_estate = estate_nobles
 				}
 				save_event_target_as = serfdom_province
 			}
@@ -829,7 +825,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		any_owned_province = {
 			NOT = { has_province_modifier = confiscated_appanage }
 		}
@@ -925,7 +921,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		religion_group = christian
 		num_of_cities = 10
 		NOT = { has_country_modifier = tatar_feudatories }
@@ -1011,7 +1007,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		government = principality
+		has_reform = principality
 		num_of_cities = 5
 		capital_scope = {
 			NOT = { has_province_modifier = tr_kremlin_improvements }

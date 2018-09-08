@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = franconian
@@ -26,7 +27,8 @@ capital = 2967 # Nürnberg
 }
 #FC
 1105.1.1 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	fixed_capital = 2967
 	monarch = {

@@ -15,7 +15,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			has_estate_influence_modifier = {
@@ -63,7 +62,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		has_estate = estate_nobles
 		estate_influence = {
@@ -231,7 +229,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			has_estate_influence_modifier = {
@@ -278,7 +275,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		any_owned_province = {
 			is_overseas = no
@@ -394,7 +390,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		any_owned_province = {
 			has_estate = estate_burghers
@@ -612,7 +607,6 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -768,7 +762,6 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -863,7 +856,6 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		num_of_trade_embargos = 1
 		NOT = {
@@ -969,7 +961,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		dip_tech = 10
 		num_of_cities = 15
@@ -1120,7 +1111,6 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -1265,7 +1255,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		any_owned_province = {
 			has_estate = estate_burghers
@@ -1344,7 +1333,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			has_estate_influence_modifier = {
@@ -1444,7 +1432,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		any_owned_province = {
 			has_estate = estate_burghers
@@ -1602,7 +1589,6 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -1682,7 +1668,6 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			estate_loyalty = {

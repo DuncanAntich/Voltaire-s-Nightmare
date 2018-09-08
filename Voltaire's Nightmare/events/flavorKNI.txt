@@ -227,6 +227,7 @@ country_event = {
 				who = ROOT
 				modifier = spa_ceded_malta
 			}
+			adopt_reform_progress = ROOT
 		}
 		if = {
 			limit = { religion = catholic }
@@ -318,6 +319,7 @@ country_event = {
 				who = ROOT
 				modifier = spa_ceded_malta
 			}
+			adopt_reform_progress = ROOT
 		}
 		if = {
 			limit = { religion = catholic }

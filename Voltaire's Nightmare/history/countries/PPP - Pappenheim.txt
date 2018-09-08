@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = bavarian
 religion = catholic
@@ -213,7 +214,10 @@ capital = 609
 		mil = 3
 	}
 }
-1628.1.1 = { government = feudal_monarchy }
+1628.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1635.1.1 = {
 	monarch = {
 		name = "Wolfgang Philipp"

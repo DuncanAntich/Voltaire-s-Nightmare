@@ -11,7 +11,7 @@ country_event = {
 		NOT = { is_religion_enabled = protestant }
 		religion = catholic
 		is_defender_of_faith = no	
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		reform_desire = 0.95
 		is_year = 1485
 		capital_scope = {
@@ -104,10 +104,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 2.0
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-			}
+			government = theocracy
 		}
 		modifier = {
 			factor = 4.0

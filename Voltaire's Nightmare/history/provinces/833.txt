@@ -1,3 +1,6 @@
+owner = BNE
+controller = BNE
+add_core = BNE
 culture = neapolitan
 religion = catholic 
 hre = no
@@ -11,9 +14,8 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-owner = BNE
-controller = BNE
-add_core = BNE
+discovered_by = nomad_group
+discovered_by = north_american
 
 1077.11.27 = {
 	owner = APL
@@ -28,6 +30,8 @@ add_core = BNE
 	add_core = SIC
 	remove_core = APL
 }
+1155.10.1 = { controller = PAP }
+1156.6.18 = { controller = SIC }
 1302.8.31 = {
 	owner = NAP
 	controller = NAP
@@ -56,5 +60,3 @@ add_core = BNE
 	remove_core = SIC
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

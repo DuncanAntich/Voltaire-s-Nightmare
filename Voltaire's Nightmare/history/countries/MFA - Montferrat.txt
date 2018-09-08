@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = piedmontese
 religion = catholic
@@ -397,4 +398,4 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-1627.12.26 = { government = administrative_monarchy }
+1627.12.26 = { set_legacy_government = administrative_monarchy }

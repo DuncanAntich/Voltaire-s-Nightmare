@@ -26,7 +26,7 @@ country_decisions = {
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
 			}
 		}
 		allow = {
@@ -70,7 +70,7 @@ country_decisions = {
 			province_id = 614
 			OR = {
 				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
 			}
 		}
 		allow = {

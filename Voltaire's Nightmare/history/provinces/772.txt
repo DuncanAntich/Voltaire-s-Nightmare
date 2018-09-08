@@ -1,6 +1,6 @@
-owner = MMU
-controller = MMU
-culture = irish
+owner = CCL
+controller = CCL
+culture = eoganachta
 religion = catholic
 hre = no
 base_tax = 1
@@ -8,31 +8,16 @@ base_production = 1
 trade_goods = fish
 base_manpower = 1
 capital = "Kenmare"
-is_city = yes
-add_core = MMU	
+is_city = yes	
 add_core = CCL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1118.1.1 = {
-	owner = DMS
-	controller = DMS
-	add_core = DMS
-	remove_core = MMU
-}
-1172.1.1 = {
-	owner = MMU
-	controller = MMU
-	add_core = MMU
-	remove_core = DMS
-}
-1193.1.1 = {
-	owner = CCL
-	controller = CCL
-	remove_core = MMU
-}
+1171.5.1 = { culture = irish }
 1602.6.18 = {
 	owner = ENG
 	controller = ENG
@@ -56,5 +41,3 @@ discovered_by = muslim
 	add_core = GBR
 	remove_core = ENG
 }
-discovered_by = nomad_group
-discovered_by = north_american

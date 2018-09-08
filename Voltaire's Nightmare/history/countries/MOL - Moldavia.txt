@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 3
 primary_culture = moldovan
 religion = orthodox
@@ -384,7 +385,10 @@ capital = 2065
 		mil = 2
 	}
 }
-1627.11.14 = { government = noble_republic }
+1627.11.14 = {
+	government = republic
+	add_government_reform = noble_elite_reform
+}
 1633.4.2 = {
 	monarch = {
 		name = "Vasile"
@@ -689,5 +693,9 @@ capital = 2065
 		mil = 2
 	}
 }
-1859.1.5 = { government = administrative_monarchy }
+1859.1.5 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
+}
 #done 1859.1.5

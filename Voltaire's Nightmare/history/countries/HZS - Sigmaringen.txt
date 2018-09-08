@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = swabian
 religion = catholic
@@ -87,7 +88,10 @@ capital = 105
 	}
 }
 #under HAB
-1290.1.1 = { government = feudal_monarchy }
+1290.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 #1325 under WUR
 1399.1.1 = {
 	capital = 105

@@ -1,10 +1,56 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 841
 
+1054.1.1 = {
+	monarch = {
+		name = "Conchobar I"
+		dynasty = "Ó Maelmuire"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1094.1.1 = {
+	monarch = {
+		name = "Echri"
+		dynasty = "Ó Maelmuire"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1100.1.1 = {
+	monarch = {
+		name = "Donnchadh"
+		dynasty = "Ó hAinniarraidh"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1104.1.1 = {
+	monarch = {
+		name = "Eóghain"
+		dynasty = "Ó hAinniarraidh"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1121.1.1 = {
+	monarch = {
+		name = "Easbuig"
+		dynasty = "Ó hAinniarraidh"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
 1138.1.1 = {
 	monarch = {
 		name = "Eachmarcach"
@@ -23,9 +69,10 @@ capital = 841
 		mil = 1
 	}
 }
+1171.5.1 = { primary_culture = irish }
 1178.1.1 = {
 	monarch = {
-		name = "Conchobar"
+		name = "Conchobar II"
 		dynasty = "Ó Catháin"
 		adm = 2
 		dip = 2
@@ -172,5 +219,3 @@ capital = 841
 		mil = 2
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

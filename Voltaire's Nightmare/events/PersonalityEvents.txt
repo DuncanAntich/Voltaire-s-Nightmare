@@ -425,16 +425,7 @@ country_event = {
 		ai_chance = {
 			factor = 40
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 		add_prestige = 10
 		add_ruler_modifier = {
 			name = "just_settlement_modifier"
@@ -639,10 +630,10 @@ country_event = {
 		name = "personality_events.12.b" #
 		trigger = {
 			OR = {
-				NOT = { government = merchant_republic }
+				NOT = { has_reform = merchants_reform }
 				NOT = { num_of_cities = 2 }
 				AND = {
-					government = merchant_republic
+					has_reform = merchants_reform
 					NOT = {
 						any_owned_province = {
 							is_capital = no
@@ -750,36 +741,9 @@ country_event = {
 			name = "tolerance_backlash"
 			duration = 3650
 		}
-		if = {
-			limit = {
-				has_estate = estate_church
-				has_dlc = "The Cossacks"
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_nobles
-				has_dlc = "The Cossacks"
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_dhimmi
-				has_dlc = "The Cossacks"
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = 10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
+		reduce_estate_nobles_loyalty_effect = yes
+		add_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_events.13.b" #How could I have been so blind!?
@@ -831,36 +795,9 @@ country_event = {
 			}
 			remove_advisor = treasurer
 		}
-		if = {
-			limit = {
-				has_estate = estate_church
-				has_dlc = "The Cossacks"
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_nobles
-				has_dlc = "The Cossacks"
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_dhimmi
-				has_dlc = "The Cossacks"
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = -10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
+		add_estate_nobles_loyalty_effect = yes
+		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 
 }
@@ -987,16 +924,7 @@ country_event = {
 	option = {
 		name = "personality_events.15.a" #The world as a Cheese with worms? Fascinating perspective!
 		add_prestige = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		random_list = {
 			15 = {
 				define_advisor = {
@@ -1021,16 +949,7 @@ country_event = {
 	option = {
 		name = "personality_events.15.b" #We cannot allow him to make a mockery of our faith!
 		add_prestige = 10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		random_list = {
 			30 = {
 				remove_ruler_personality = free_thinker_personality
@@ -1465,6 +1384,7 @@ country_event = {
 		is_lesser_in_union = no
 		NOT = { ruler_age = 39 }
 		NOT = { has_heir = yes }
+		has_government_attribute = heir
 	}
 	
 	is_triggered_only = yes
@@ -1504,6 +1424,7 @@ country_event = {
 		is_female = no
 		is_lesser_in_union = no
 		has_heir = no
+		has_government_attribute = heir
 	}
 	
 	is_triggered_only = yes
@@ -1583,7 +1504,7 @@ country_event = {
 				NOT = { heir_mil = 5 }
 			}
 		}
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 	}
 	
 	is_triggered_only = yes
@@ -1832,19 +1753,14 @@ country_event = {
 				}
 			}
 		}
-		OR = {
-			NOT = { has_dlc = "The Cossacks" }
-			AND = {
-				has_estate = estate_church
-				estate_loyalty = {
-					estate = estate_church
-					loyalty = 60
-				}
-				estate_influence = {
-					estate = estate_church
-					influence = 40
-				}
-			}
+		has_estate = estate_church
+		estate_loyalty = {
+			estate = estate_church
+			loyalty = 60
+		}
+		estate_influence = {
+			estate = estate_church
+			influence = 40
 		}
 	}
 	
@@ -1907,40 +1823,13 @@ country_event = {
 				modifier = zealot_reputation_opinion
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = -10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
+		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_events.26.b"
 		add_prestige = 10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = 10
-			}
-		}
+		add_estate_dhimmi_loyalty_effect = yes
 	}
 }
 
@@ -2111,7 +2000,7 @@ country_event = {
 				}
 			}
 			add_prestige = 10
-			create_general = 50
+			create_general = { tradition = 50 }
 		}
 		if = {
 			limit = {
@@ -2121,7 +2010,7 @@ country_event = {
 				}
 			}
 			add_prestige = 10
-			create_general = 60
+			create_general = { tradition = 60 }
 		}
 		if = {
 			limit = {
@@ -2131,12 +2020,12 @@ country_event = {
 				}
 			}
 			add_prestige = 15
-			create_general = 80
+			create_general = { tradition = 80 }
 		}
 		if = {
 			limit = { check_variable = { which = happy_subjects value = 5 } }
 			add_prestige = 15
-			create_general = 100
+			create_general = { tradition = 100 }
 		}
 	}
 }
@@ -3009,6 +2898,7 @@ country_event = {
 		has_heir = no
 		government = monarchy
 		is_lesser_in_union = no
+		has_government_attribute = heir
 		religion_group = christian
 		has_dlc = "Rights of Man"
 		OR = {

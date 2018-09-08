@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 5
 technology_group = western
 primary_culture = english
@@ -266,7 +267,8 @@ national_focus = DIP
 	}
 }
 1215.6.14 = {
-	government = english_monarchy
+	government = monarchy
+	add_government_reform = english_monarchy
 	mercantilism = 25
 	add_accepted_culture = cornish
 }
@@ -1161,7 +1163,8 @@ national_focus = DIP
 		mil = 6
 		leader = { name = "Oliver Cromwell"	type = general	fire = 5	shock = 5	manuever = 4	siege = 1 }
 	}
-	government = republican_dictatorship
+	government = republic
+	add_government_reform = presidential_despot_reform
 	religion = reformed
 }
 1649.1.29 = { leader = { name = "Robert Blake"		type = admiral	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1657.8.17 } }	
@@ -1188,7 +1191,8 @@ national_focus = DIP
 		regent = yes
 	}
 	religion = anglican
-	government = noble_republic
+	government = republic
+	add_government_reform = noble_elite_reform
 } # The protectorate is Abolished
 1660.5.29 = {
 	monarch = {
@@ -1199,7 +1203,9 @@ national_focus = DIP
 		dip = 2
 		mil = 0
 	}
-	government = administrative_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
 	heir = {
 		name = "James"
 		monarch_name = "James II"
@@ -1316,7 +1322,7 @@ national_focus = DIP
 		dip = 4
 		mil = 3
 	}
-	government = constitutional_monarchy
+	set_legacy_government = constitutional_monarchy
 	heir = {
 		name = "Anne"
 		monarch_name = "Anne I"

@@ -87,7 +87,7 @@ horde_ideas = {
 	}
 	
 	trigger = {
-		government = steppe_horde
+		has_reform = steppe_horde
 	}
 	free = yes
 	

@@ -108,7 +108,7 @@ province_event = {
 	trigger = {
 		is_capital = no
 		owner = {
-			NOT = { government = papal_government }
+			NOT = { has_reform = papacy_reform }
 			num_of_religion = { heretic = yes value = 2 }
 		}  
 		any_neighbor_province = {
@@ -138,7 +138,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 2.0
-			owner = { government = theocratic_government }
+			owner = { government = theocracy }
 		}
 	}
 

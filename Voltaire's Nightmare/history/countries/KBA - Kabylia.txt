@@ -1,4 +1,5 @@
-government = iqta
+government = monarchy
+add_government_reform = iqta
 government_rank = 3
 primary_culture = kabyle
 religion = sunni

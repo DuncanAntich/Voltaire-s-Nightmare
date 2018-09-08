@@ -92,7 +92,7 @@ leader_names = {
 	"Mac Donnchadha" "Mac Eochaidh" "Mac Maghnais"
 	"Ó Birn" "Ó Breislein" "Ó Cadhla" "Ó Caithniadh"
 	"Ó Cathail" "Ó Cearbhaill" "Ó Céirín" "Ó Cléirigh"
-	"Ó Coigligh" "Ó Concheannain" "Ó Conghailaigh" "Ó Cuana"
+	"Ó Coigligh" "Ó Con Cheanain" "Ó Conghailaigh" "Ó Cuana"
 	"Ó Doibhilin" "Ó Domhnalláin" "Ó Dorchaidhe" "Ó Diubháin"
 	"Ó Dúnadhaigh" "Ó Fionn" "Ó Fionnachta" "Ó Fionnagáin"
 	"Ó Fionnáin" "Ó Flaithbheartach" "Ó Gadhra" "Ó hAllmhuráin"

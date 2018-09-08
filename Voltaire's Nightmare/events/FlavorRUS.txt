@@ -28,6 +28,12 @@ country_event = {
 	option = {		# Let us reform
 		name = "flavor_rus.EVTOPTA3401"
 		ai_chance = { factor = 95 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = pomjestija_reform
 			duration = 9125
@@ -36,6 +42,12 @@ country_event = {
 	option = {		# Let us become like Novgorod
 		name = "flavor_rus.EVTOPTB3401"
 		ai_chance = { factor = 5 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = novgorodian_reform
 			duration = 9125
@@ -392,7 +404,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 			}
 			add_estate_loyalty = {
@@ -546,6 +557,12 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_army_professionalism = 0.05
 		add_ruler_modifier = {
 			name = western_reforms
@@ -556,6 +573,12 @@ country_event = {
 		name = "flavor_rus.EVTOPTB1007"
 		ai_chance = { factor = 0 }
 		add_stability_or_adm_power = yes
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 	}
 }
 
@@ -737,6 +760,12 @@ country_event = {
 	option = {		# Institute the Reforms
 		name = "flavor_rus.EVTOPTA3426"
 		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = russian_absolutism
 			duration = -1
@@ -783,7 +812,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1016,7 +1044,6 @@ country_event = {
 		}	
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -1059,7 +1086,12 @@ country_event = {
 		ai_chance = {
 			factor = 75
 		}
-		
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		remove_country_modifier = legal_serfdom
 		remove_country_modifier = complete_serfdom
 		add_country_modifier = {
@@ -1069,7 +1101,6 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -1119,6 +1150,12 @@ country_event = {
 		ai_chance = {
 			factor = 75
 		}
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		remove_country_modifier = legal_serfdom
 		remove_country_modifier = complete_serfdom
 		remove_country_modifier = restricted_serfdom
@@ -1126,7 +1163,6 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {

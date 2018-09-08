@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = boden_alemannic
 religion = catholic
@@ -26,7 +27,8 @@ capital = 2457
 #1147 done
 1147.1.1 = { 
 	government_rank = 2
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 }
 #Margraves Baden-Hachberg
 1212.1.1 = {

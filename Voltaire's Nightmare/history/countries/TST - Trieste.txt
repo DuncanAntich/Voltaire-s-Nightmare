@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 3
 technology_group = western
 religion = catholic
@@ -25,7 +26,8 @@ fixed_capital = 954
 	}
 }
 1081.1.1 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	government_rank = 1
 	mercantilism = 25
 	monarch = {

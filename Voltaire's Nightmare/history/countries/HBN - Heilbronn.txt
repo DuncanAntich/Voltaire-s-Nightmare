@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 primary_culture = franconian
 religion = catholic
@@ -16,7 +17,8 @@ fixed_capital = 124
 	}
 }
 1371.12.28 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"

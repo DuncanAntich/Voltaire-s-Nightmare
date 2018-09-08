@@ -82,7 +82,7 @@ adm_idea_modifiers = {
 			modifier = {
 				factor = 0
 				NOT = { government = monarchy }
-				government = steppe_horde
+				has_reform = steppe_horde
 			}
 		}
 	}
@@ -96,7 +96,7 @@ adm_idea_modifiers = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { government = steppe_horde }
+				NOT = { has_reform = steppe_horde }
 			}
 		}
 	}

@@ -3,14 +3,14 @@ country_decisions = {
 	plutocratic_administration_rep = {
 		major = yes
 		potential = {
-			NOT = { government = merchant_republic }
-			NOT = { government = tribal_democracy }
-			NOT = { government = imperial_city }
-			NOT = { government = ambrosian_republic }
-			NOT = { government = dutch_republic }
-			NOT = { government = colonial_government }
-			NOT = { government = italian_monarchy }
-			NOT = { government = canton_government }
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_reform = merchant_republic }
+			NOT = { has_reform = imperial_city }
+			NOT = { has_reform = ambrosian_republic }
+			NOT = { has_reform = dutch_republic }
+			NOT = { has_reform = colonial_government }
+			NOT = { has_reform = italian_monarchy }
+			NOT = { has_reform = canton_government }
 			government = republic
 			NOT = { num_of_provinces_in_states = 31 }
 			has_institution = renaissance
@@ -33,7 +33,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = merchant_republic
+			set_legacy_government = merchant_republic
 			add_stability = -1
 			set_country_flag = recently_changed_government_flag
 		}
@@ -56,16 +56,20 @@ country_decisions = {
 	plutocratic_administration = {
 		major = yes
 		potential = {
-			NOT = { government = merchant_republic }
-			NOT = { government = steppe_horde }
-			NOT = { government = iqta }
-			NOT = { government = feudal_theocracy }
-			NOT = { government = tribal_despotism }
-			NOT = { government = tribal_kingdom }
-			NOT = { government = tribal_federation }
-			NOT = { government = english_monarchy }
-			NOT = { government = elective_monarchy }
-			NOT = { government = revolutionary_empire }
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_reform = iqta }
+			OR = {
+				NOT = { has_reform = english_monarchy }
+				AND = {
+					NOT = { tag = ASE }
+					NOT = { tag = ENG }
+					NOT = { tag = GBR }
+				}
+			}
+			NOT = { has_reform = elective_monarchy }
+			NOT = { has_reform = celestial_empire }
+			NOT = { has_reform = revolutionary_empire }
+			NOT = { has_reform = feudal_theocracy }
 			government = monarchy
 			NOT = { num_of_provinces_in_states = 31 }
 			has_institution = renaissance
@@ -88,7 +92,8 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = merchant_republic
+			change_government = republic
+			set_legacy_government = merchant_republic
 			add_stability = -4
 			set_country_flag = recently_changed_government_flag
 		}
@@ -119,15 +124,18 @@ country_decisions = {
 	oligarchic_administration = {
 		major = yes
 		potential = {
-			NOT = { government = steppe_horde }
-			NOT = { government = iqta }
-			NOT = { government = feudal_theocracy }
-			NOT = { government = tribal_despotism }
-			NOT = { government = tribal_kingdom }
-			NOT = { government = tribal_federation }
-			NOT = { government = english_monarchy }
-			NOT = { government = elective_monarchy }
-			NOT = { government = revolutionary_empire }
+			NOT = { has_dlc = "Dharma" }
+			OR = {
+				NOT = { has_reform = english_monarchy }
+				AND = {
+					NOT = { tag = ENG }
+					NOT = { tag = GBR }
+				}
+			}
+			NOT = { has_reform = elective_monarchy }
+			NOT = { has_reform = celestial_empire }
+			NOT = { has_reform = revolutionary_empire }
+			NOT = { has_reform = feudal_theocracy }
 			has_institution = renaissance
 			primitives = no
 			OR = {
@@ -153,7 +161,8 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = oligarchic_republic
+			change_government = republic
+			set_legacy_government = oligarchic_republic
 			add_stability = -4
 			set_country_flag = recently_changed_government_flag
 		}
@@ -180,7 +189,7 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0
-				government = merchant_republic
+				has_reform = merchant_republic
 			}
 		}
 	}
@@ -188,25 +197,27 @@ country_decisions = {
 	theocratic_administration = {
 		major = yes
 		potential = {
+			NOT = { has_dlc = "Dharma" }
 			has_dlc = "Common Sense"
-			NOT = { government = theocratic_government }
-			NOT = { government = steppe_horde }
-			NOT = { government = iqta }
-			NOT = { government = feudal_theocracy }
-			NOT = { government = tribal_despotism }
-			NOT = { government = tribal_kingdom }
-			NOT = { government = tribal_federation }
-			NOT = { government = tribal_democracy }
-			NOT = { government = english_monarchy }
-			NOT = { government = elective_monarchy }			
-			NOT = { government = imperial_city }
-			NOT = { government = ambrosian_republic }
+			NOT = { has_reform = iqta }
+			OR = {
+				NOT = { has_reform = english_monarchy }
+				AND = {
+					NOT = { tag = ENG }
+					NOT = { tag = GBR }
+				}
+			}
+			NOT = { has_reform = elective_monarchy }
+			NOT = { has_reform = imperial_city }
+			NOT = { has_reform = ambrosian_republic }
+			NOT = { has_reform = dutch_republic }
+			NOT = { has_reform = celestial_empire }
+			NOT = { has_reform = colonial_government }
+			NOT = { has_reform = revolutionary_empire }
+			NOT = { has_reform = noble_republic }
+			NOT = { has_reform = feudal_theocracy }
 			NOT = { government = canton_government }
 			NOT = { government = italian_monarchy }
-			NOT = { government = dutch_republic }
-			NOT = { government = colonial_government }
-			NOT = { government = revolutionary_empire }
-			NOT = { government = noble_republic }
 			has_institution = renaissance
 			primitives = no
 			OR = {
@@ -230,7 +241,8 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = theocratic_government
+			change_government = theocracy
+			set_legacy_government = theocratic_government
 			add_stability = -4
 			set_country_flag = recently_changed_government_flag
 		}
@@ -241,7 +253,7 @@ country_decisions = {
 	
 	formalize_separation_of_powers = {
 		potential = {
-			government = constitutional_monarchy
+			has_reform = parliamentary_reform
 			NOT = {
 				has_country_modifier = separation_of_powers
 			}
@@ -264,7 +276,7 @@ country_decisions = {
 	
 	go_cult_of_reason = {
 		potential = {
-			government = revolutionary_republic
+			has_reform = revolutionary_republic_reform
 			NOT = {
 				has_country_modifier = cult_of_reason
 			}
@@ -286,7 +298,8 @@ country_decisions = {
 	iqta_reform = {
 		major = yes
 		potential = {
-			government = iqta
+			has_reform = iqta
+			NOT = { has_dlc = "Dharma" }
 		}
 		allow = {
 			adm_tech = 43
@@ -295,7 +308,8 @@ country_decisions = {
 			has_institution = feudalism
 		}
 		effect = {
-			change_government = administrative_monarchy
+			set_legacy_government = administrative_monarchy
+			set_country_flag = reformed_iqta
 			add_adm_power = -100
 		}
 		ai_will_do = {
@@ -306,7 +320,7 @@ country_decisions = {
 	elevate_bishopric = {
 		major = yes
 		potential = {
-			government = theocratic_government
+			government = theocracy
 			is_part_of_hre = yes
 			NOT = { government_rank = 5 }
 		}
@@ -335,15 +349,12 @@ country_decisions = {
 	secularization_of_protestant_theocracy = {
 		major = yes
 		potential = {
-			OR = {
-				government = theocratic_government
-				government = crusader_order_government
-			}
+			NOT = { has_dlc = "Dharma" }
+			government = theocracy
 			OR = {
 				religion = protestant
 				religion = reformed
 				religion = anabaptist
-				religion = anglican
 			}
 			NOT = {
 				tag = TEU
@@ -374,14 +385,14 @@ country_decisions = {
 			every_neighbor_country = {
 				limit = {
 					government = monarchy
-					ROOT = { government = crusader_order_government }
+					ROOT = { has_reform = crusader_order_government }
 				}
 				add_opinion = { who = ROOT modifier = secularized_monastic_order }
 			}
 			every_neighbor_country = {
 				limit = {
 					government = monarchy
-					ROOT = { government = theocratic_government }
+					ROOT = { NOT = { has_reform = crusader_order_government }}
 				}
 				add_opinion = { who = ROOT modifier = secularized_bishopric }
 			}
@@ -394,7 +405,8 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			change_government = administrative_monarchy
+			change_government = monarchy
+			set_legacy_government = administrative_monarchy
 			add_stability = -1
 			set_country_flag = recently_changed_government_flag
 		}
@@ -406,15 +418,13 @@ country_decisions = {
 	secularization_of_christian_theocracy = {
 		major = yes
 		potential = {
-			OR = {
-				government = theocratic_government
-				government = crusader_order_government
-			}
+			NOT = { has_dlc = "Dharma" }
+			government = theocracy
 			religion_group = christian
 			NOT = { religion = protestant }
 			NOT = { religion = reformed }
 			NOT = { religion = anabaptist }
-			NOT = { religion = anglican }
+			NOT = { has_reform = papal_government }
 		}
 		allow = {
 			stability = 2
@@ -431,14 +441,14 @@ country_decisions = {
 			every_neighbor_country = {
 				limit = {
 					government = monarchy
-					ROOT = { government = crusader_order_government }
+					ROOT = { has_reform = crusader_order_government }
 				}
 				add_opinion = { who = ROOT modifier = secularized_monastic_order }
 			}
 			every_neighbor_country = {
 				limit = {
 					government = monarchy
-					ROOT = { government = theocratic_government }
+					ROOT = { NOT = { has_reform = crusader_order_government }}
 				}
 				add_opinion = { who = ROOT modifier = secularized_bishopric }
 			}
@@ -473,7 +483,8 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			change_government = administrative_monarchy
+			change_government = monarchy
+			set_legacy_government = administrative_monarchy
 			add_stability = -1
 			if = {
 				limit = { has_heir = yes }
@@ -489,32 +500,31 @@ country_decisions = {
 	reform_into_iqta = {
 		major = yes
 		potential = {
-			NOT = { government = steppe_horde }
-			NOT = { government = principality }
-			NOT = { government = tsardom }
-			NOT = { government = iqta }
-			NOT = { government = ottoman_government }
-			NOT = { government = feudal_theocracy }
-			NOT = { government = tribal_despotism }
-			NOT = { government = tribal_kingdom }
-			NOT = { government = tribal_federation }
-			NOT = { government = english_monarchy }
-			NOT = { government = elective_monarchy }
-			NOT = { government = celestial_empire }
-			NOT = { government = revolutionary_empire }
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_reform = principality }
+			NOT = { has_reform = tsardom }
+			NOT = { has_reform = iqta }
+			NOT = { has_reform = ottoman_government }
+			NOT = { has_reform = feudal_theocracy }
+			NOT = { has_reform = english_monarchy }
+			NOT = { has_reform = elective_monarchy }
+			NOT = { has_reform = celestial_empire }
+			NOT = { has_reform = revolutionary_empire }
 			religion_group = muslim
-			NOT = { has_country_flag = reformed_iqta }
+			government = monarchy
+			primitives = no
+			NOT = { has_country_flag = reformed_to_iqta }
 		}
 		allow = {
 			religion_group = muslim #for clarity
-			government = monarchy
 			has_institution = feudalism
 			stability = 1
 			legitimacy = 90
 			adm_power = 100
 		}
 		effect = {
-			change_government = iqta
+			set_country_flag = reformed_to_iqta
+			add_government_reform = iqta
 			add_adm_power = -100
 		}
 		ai_will_do = {
@@ -525,34 +535,29 @@ country_decisions = {
 	become_russian_principality = {
 		major = yes
 		potential = {
-			NOT = { government = steppe_horde }
-			NOT = { government = principality }
-			NOT = { government = iqta }
-			NOT = { government = feudal_theocracy }
-			NOT = { government = tribal_despotism }
-			NOT = { government = tribal_kingdom }
-			NOT = { government = tribal_federation }
-			NOT = { government = english_monarchy }
-			NOT = { government = elective_monarchy }
-			NOT = { government = celestial_empire }
-			NOT = { government = revolutionary_empire }
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_reform = principality_legacy }
+			NOT = { has_reform = iqta }
+			NOT = { has_reform = feudal_theocracy }
+			NOT = { has_reform = english_monarchy }
+			NOT = { has_reform = elective_monarchy }
+			NOT = { has_reform = celestial_empire }
+			NOT = { has_reform = revolutionary_empire }
 			NOT = { government_rank = 6 }
 			culture_group = east_slavic
+			government = monarchy
 			primitives = no
 		}
 		allow = {
 			NOT = { government_rank = 6 }
 			religion = orthodox
 			culture_group = east_slavic
-			government = monarchy
 			stability = 1
 			legitimacy = 90
 		}
 		effect = {
-			set_government_and_rank = { 
-				government = principality
-				rank = 4
-			}
+			set_government_rank = 4
+			set_legacy_government = principality_legacy
 		}
 		ai_will_do = {
 			factor = 1
@@ -571,7 +576,7 @@ country_decisions = {
 			is_colonial_nation = no
 			is_former_colonial_nation = no
 			primitives = no
-			government = principality
+			has_reform = principality
 		}
 		allow = {
 			adm_tech = 40
@@ -581,20 +586,12 @@ country_decisions = {
 			total_development = 1000			
 		}
 		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				every_owned_province = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					set_in_empire = no
-				}
+				limit = { NOT = { government = monarchy } }
+				change_government = monarchy
 			}
-			change_government = tsardom
+			set_legacy_government = tsardom_legacy
 			set_government_rank = 6
 			add_prestige = 25
 		}

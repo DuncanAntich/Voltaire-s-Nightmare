@@ -374,7 +374,7 @@ country_event = {
 		add_church_power = 25
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_burghers
 			}
 			add_estate_loyalty = {
@@ -398,7 +398,7 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
@@ -410,7 +410,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_burghers
 			}
 			add_estate_loyalty = {
@@ -512,7 +512,7 @@ country_event = {
 		name = protestantism_events.9.e #Avoid Meddling on the local level.
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -584,7 +584,7 @@ province_event = {
 		owner = {
 			if = {
 				limit = {
-					has_dlc = "The Cossacks"
+					
 					has_estate = estate_church
 				}
 				add_estate_loyalty = {
@@ -605,7 +605,7 @@ province_event = {
 			factor = 1
 			modifier = {
 				factor = 0.1
-				has_dlc = "The Cossacks"
+				
 				owner = {
 					has_estate = estate_church
 					NOT = {
@@ -621,7 +621,7 @@ province_event = {
 			add_church_power = -25
 			if = {
 				limit = {
-					has_dlc = "The Cossacks"
+					
 					has_estate = estate_church
 				}
 				add_estate_loyalty = {
@@ -671,7 +671,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -701,7 +701,7 @@ country_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -713,7 +713,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -942,7 +942,7 @@ country_event = {
 		NOT = { has_country_flag = catholic_leaning_heir }
 		is_lesser_in_union = no
 		government = monarchy
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 		has_heir = yes
 		heir_age = 9
 		NOT = { heir_age = 25 }
@@ -1051,7 +1051,7 @@ country_event = {
 		if = {
 			limit = {
 				has_estate = estate_church
-				has_dlc = "The Cossacks"
+				
 			}
 			add_estate_loyalty = {
 				estate = estate_church 
@@ -1241,7 +1241,7 @@ country_event = {
 		remove_advisor = theologian
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1257,7 +1257,7 @@ country_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1270,7 +1270,7 @@ country_event = {
 		add_church_power = -25
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1309,7 +1309,7 @@ country_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1325,7 +1325,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1344,7 +1344,7 @@ country_event = {
 		add_stability = -1
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1634,7 +1634,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1651,7 +1651,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1669,7 +1669,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1686,7 +1686,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1841,7 +1841,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -2167,7 +2167,7 @@ country_event = {
 		add_church_power = -75
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -2182,7 +2182,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -2194,7 +2194,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {

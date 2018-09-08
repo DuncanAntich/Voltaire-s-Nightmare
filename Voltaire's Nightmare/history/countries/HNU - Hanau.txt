@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = hessian
 religion = catholic
@@ -184,7 +185,10 @@ capital = 770
 		mil = 2
 	}
 }
-1429.1.1 = { government = feudal_monarchy }
+1429.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1451.6.26 = {
 	monarch = {
 		name = "Reinhard III"

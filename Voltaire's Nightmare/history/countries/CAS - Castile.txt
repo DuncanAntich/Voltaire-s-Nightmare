@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = castillian
 religion = catholic
@@ -799,4 +800,4 @@ add_army_professionalism = 0.1
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = martial_educator_personality
 }
-1724.1.20 = { government = administrative_monarchy }
+1724.1.20 = { set_legacy_government = administrative_monarchy }

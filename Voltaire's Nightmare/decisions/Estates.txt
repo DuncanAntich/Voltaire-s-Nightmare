@@ -3,11 +3,9 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				AND = {
-					government = noble_republic
-					is_free_or_tributary_trigger = yes
-				}
 				has_country_flag = noble_estate_in_power
+				has_country_modifier = noble_power_monarchy
+				has_country_modifier = noble_power_elective_monarchy
 				has_country_flag = umera_dominance_ottoman_government
 				has_country_flag = junker_dominance_prussian_monarchy
 				has_country_flag = gentry_dominance
@@ -29,36 +27,36 @@ country_decisions = {
 			add_stability = -3
 			add_prestige = -25
 			if = {
-				limit = { 
-					government = noble_republic 
+				limit = {
+					has_country_modifier = noble_power_monarchy
 				}
-				change_government = despotic_monarchy
+				remove_country_modifier = noble_power_monarchy
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = noble_power_elective_monarchy
 				}
 				remove_country_modifier = noble_power_elective_monarchy
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = junker_dominance_prussian_monarchy
 				}
 				remove_country_modifier = junker_dominance_prussian_monarchy
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = umera_dominance_ottoman_government
 				}
 				remove_country_modifier = umera_dominance_ottoman_government
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = gentry_dominance
 				}
 				remove_country_modifier = gentry_dominance
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = boyar_dominance
 				}

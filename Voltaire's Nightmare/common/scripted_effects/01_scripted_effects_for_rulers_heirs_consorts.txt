@@ -78,10 +78,9 @@ divorce_consort_effect = {
 
 		every_owned_province = {
 			limit = { has_province_modifier = domain_of_spouses_family } 
-
-			add_province_modifier = {
-				name = angered_nobles
-				duration = 7300
+			add_or_extend_province_modifier_effect = {
+				MODIFIER = angered_nobles
+				DURATION = 7300
 			}
 		}
 	}

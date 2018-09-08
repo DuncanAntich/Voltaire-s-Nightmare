@@ -25,21 +25,7 @@ country_event = {
 		add_stability = -1
 		if = {
 			limit = {
-				is_tribal = no
-				NOT = { government = elective_monarchy }
-				NOT = { government = prussian_monarchy }
-				NOT = { government = ottoman_government }
-				NOT = { government = principality }
-				NOT = { government = tsardom }
-				NOT = { government = iqta }
-				NOT = { government = feudal_theocracy }
-				NOT = { government = tribal_federation }
-			}
-			change_government = noble_republic
-		}
-		if = {
-			limit = {
-				government = elective_monarchy
+				has_reform = elective_monarchy
 			}
 			add_country_modifier = {
 				name = noble_power_elective_monarchy
@@ -48,7 +34,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				government = prussian_monarchy
+				has_reform = prussian_monarchy
 			}
 			add_country_modifier = {
 				name = junker_dominance_prussian_monarchy
@@ -57,7 +43,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				government = ottoman_government
+				has_reform = ottoman_government
 			}
 			add_country_modifier = {
 				name = umera_dominance_ottoman_government
@@ -67,8 +53,8 @@ country_event = {
 		else_if = {
 			limit = {
 				OR = {
-					government = tsardom
-					government = principality
+					has_reform = tsardom
+					has_reform = principality
 				}
 			}
 			add_country_modifier = {
@@ -78,14 +64,30 @@ country_event = {
 		}
 		else_if = {
 			limit = {
+				has_reform = celestial_empire
+			}
+			reduce_meritocracy_large_effect = yes
+			add_country_modifier = {
+				name = gentry_dominance
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
 				OR = {
-					government = iqta
-					government = feudal_theocracy
-					government = tribal_federation
+					has_reform = iqta
+					has_reform = feudal_theocracy
+					has_reform = tribal_federation
 				}
 			}
 			add_country_modifier = {
 				name = amir_dominance
+				duration = -1
+			}
+		}
+		else = {
+			add_country_modifier = {
+				name = "noble_power_monarchy"
 				duration = -1
 			}
 		}
@@ -232,7 +234,21 @@ country_event = {
 	
 	option = {
 		name = estate_disasters.9.a	
-		create_independent_estate_from_religion = estate_dhimmi
+		create_independent_estate_from_religion = {
+			estate = estate_dhimmi
+		}
+	}
+	
+	option = {
+		name = estate_disasters.11.b
+		trigger = { 
+			ai = no 
+			has_dlc = "The Cossacks"
+		}
+		create_independent_estate_from_religion = {
+			estate = estate_dhimmi
+			play_as = yes
+		}
 	}
 }
 
@@ -252,9 +268,33 @@ country_event = {
 	
 	option = {
 		name = estate_disasters.10.a	
-		create_independent_estate = estate_cossacks
+		add_country_modifier = {
+			name = "serf_desertion"
+			duration = 5475
+		}
+		create_independent_estate = {
+			estate = estate_cossacks
+			government = republic
+			government_reform = cossacks_reform
+			play_as = no
+		}
+	}
+	
+	option = {
+		name = estate_disasters.10.b
+		trigger = { 
+			ai = no 
+			has_dlc = "The Cossacks"
+		}
+		add_country_modifier = {
+			name = "serf_desertion"
+			duration = 5475
+		}
+		create_independent_estate = {
+			estate = estate_cossacks
+			government = republic
+			government_reform = cossacks_reform
+			play_as = yes
+		}
 	}
 }
-
-
-

@@ -15,7 +15,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		has_estate = estate_church
 		any_owned_province = {
@@ -200,7 +199,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		estate_influence = {
 			estate = estate_dhimmi
@@ -336,7 +334,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		any_owned_province = {
 			NOT = { religion_group = muslim }
@@ -385,7 +382,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		any_owned_province = {
 			NOT = { religion_group = muslim }
@@ -439,7 +435,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		has_estate = estate_nobles
 		has_estate = estate_church
@@ -607,7 +602,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		any_owned_province = {
 			NOT = { religion_group = muslim }
@@ -685,7 +679,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		any_owned_province = {
 			NOT = { religion_group = muslim }
@@ -770,7 +763,6 @@ country_event = {
 	picture = DHIMMI_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_dhimmi
 		any_owned_province = {
 			NOT = { religion_group = muslim }

@@ -3,6 +3,7 @@ path="mod/hreuniversalis"
 replace_path="common/bookmarks"
 replace_path="common/units"
 replace_path="common/countries"
+replace_path="common/estates"
 replace_path="common/province_names"
 replace_path="events"
 replace_path="decisions"
@@ -21,4 +22,4 @@ tags={
 	"Map"
 }
 picture="hreuniversalis.png"
-supported_version="1.25.*.*"
+supported_version="1.26.*.*"

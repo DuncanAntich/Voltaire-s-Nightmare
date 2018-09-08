@@ -7,34 +7,16 @@ estate_nobles =
 	# Is estate kept in control of province on conquest?
 	keep_on_conquest = no
 	
-	# They want to control at least this % of the country's non-overseas development, if # of home provinecs is above set amount
-	min_territory = 10
-	min_provinces_to_want_territory = 10
-	wanted_territory_modifier = {
-		desc = EST_VAL_FEUDAL_MONARCHY
-		trigger = {
-			government = feudal_monarchy
-		}	
-		value = 5		
-	}
-	wanted_territory_modifier = {
-		desc = EST_VAL_NOBLE_REPUBLIC
-		trigger = {
-			government = noble_republic
-		}	
-		value = 30	
-	}	
-	
 	# If true, country will get estate
 	trigger = {	
-		NOT = { government = merchant_republic }
-		NOT = { government = veche_republic }
-		NOT = { government = trading_city }
-		NOT = { government = revolutionary_republic }
-		NOT = { government = revolutionary_empire }
-		NOT = { government = peasants_republic }
+		NOT = { has_reform = merchants_reform }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { has_reform = revolutionary_republic_reform }
+		NOT = { has_reform = revolutionary_empire_reform }
+		NOT = { has_reform = peasants_republic }
 		OR = {
-			NOT = { government = celestial_empire }
+			NOT = { has_reform = celestial_empire }
 			has_dlc = "Mandate of Heaven"
 		}
 		is_nomad = no
@@ -43,9 +25,8 @@ estate_nobles =
 		OR = {
 			NOT = { has_dlc = "Common Sense" }
 			AND = {
-				NOT = { government = english_monarchy }
-				NOT = { government = constitutional_monarchy }
-				NOT = { government = constitutional_republic }		
+				NOT = { has_reform = english_monarchy }
+				NOT = { has_reform = parliamentary_reform }		
 			}
 		}
 	}
@@ -54,6 +35,9 @@ estate_nobles =
 	province_trigger = {
 		always = yes
 	}	
+
+	# Is used to weigh importance compared to other estates
+	start_territory_weight = 50
 	
 	# Min autonomy in estate provinces
 	min_autonomy = 25
@@ -99,9 +83,36 @@ estate_nobles =
 		desc = EST_VAL_MONARCHY
 		trigger = {
 			government = monarchy
-			NOT = { government = feudal_monarchy }
 		}		
 		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_FEUDALISM
+		trigger = {
+			has_reform = feudalism_reform
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_NOBLE_ELITE
+		trigger = {
+			has_reform = noble_elite_reform
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_NOBLES_OF_THE_ROBE
+		trigger = {
+			has_reform = of_noble_bearing_reform
+		}
+		influence = 10
+	}
+	influence_modifier = {
+		desc = EST_VAL_CURTAILED_NOBLE_PRIVILEGES
+		trigger = {
+			has_reform = quash_noble_power_reform
+		}
+		influence = -10
 	}
 	influence_modifier = {
 		desc = EST_VAL_BLACK_ARMY
@@ -111,9 +122,16 @@ estate_nobles =
 		influence = -10
 	}
 	influence_modifier = {
+		desc = EST_VAL_PLUTOCRATIC_REFORM
+		trigger = {
+			has_reform = plutocratic_reform
+		}
+		influence = -5
+	}
+	influence_modifier = {
 		desc = EST_VAL_CELESTIAL_EMPIRE
 		trigger = {
-			government = celestial_empire
+			has_reform = celestial_empire
 		}		
 		influence = -10
 	}
@@ -149,7 +167,13 @@ estate_nobles =
 		}
 		loyalty = -20
 	}
-	
+	loyalty_modifier = {
+		desc = EST_VAL_NOBLES_OF_THE_ROBE_LOY
+		trigger = {
+			has_reform = of_noble_bearing_reform
+		}
+		loyalty = 5
+	}
 	loyalty_modifier = {
 		desc = EST_VAL_NOBLE_CONSORT
 		trigger = {
@@ -163,7 +187,7 @@ estate_nobles =
 	loyalty_modifier = {
 		desc = EST_VAL_JUNKERS
 		trigger = {
-			government = prussian_monarchy
+			has_reform = prussian_monarchy
 		}
 		loyalty = 10
 	}
@@ -502,6 +526,10 @@ estate_nobles =
 				limit = {
 					monthly_income = 25
 					has_saved_event_target = nobles_estate_province
+					estate_influence = {
+						estate = estate_nobles
+						influence = 80
+					}
 				}
 				define_advisor = {
 					type = diplomat
@@ -509,29 +537,198 @@ estate_nobles =
 					culture = event_target:nobles_estate_province
 					religion = event_target:nobles_estate_province
 					location = event_target:nobles_estate_province
-					discount = yes
+					cost_multiplier = 0.5
 				}
 			}
 			else_if = {
 				limit = {
 					monthly_income = 25
 					NOT = { has_saved_event_target = nobles_estate_province }
+					estate_influence = {
+						estate = estate_nobles
+						influence = 80
+					}
 				}
 				define_advisor = {
 					type = diplomat
 					skill = 3
-					discount = yes
+					cost_multiplier = 0.5
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					has_saved_event_target = nobles_estate_province
+					estate_influence = {
+						estate = estate_nobles
+						influence = 60
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 80
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 3
+					culture = event_target:nobles_estate_province
+					religion = event_target:nobles_estate_province
+					location = event_target:nobles_estate_province
+					cost_multiplier = 0.75
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					NOT = { has_saved_event_target = nobles_estate_province }
+					estate_influence = {
+						estate = estate_nobles
+						influence = 60
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 80
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 3
+					cost_multiplier = 0.75
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					has_saved_event_target = nobles_estate_province
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 60
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 3
+					culture = event_target:nobles_estate_province
+					religion = event_target:nobles_estate_province
+					location = event_target:nobles_estate_province
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					NOT = { has_saved_event_target = nobles_estate_province }
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 60
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 3
 				}
 			}
 			else_if = {
 				limit = {
 					NOT = { monthly_income = 25 }
 					has_saved_event_target = nobles_estate_province
+					estate_influence = {
+						estate = estate_nobles
+						influence = 80
+					}
 				}
 				define_advisor = {
 					type = diplomat
 					skill = 2
-					discount = yes
+					cost_multiplier = 0.5
+					culture = event_target:nobles_estate_province
+					religion = event_target:nobles_estate_province
+					location = event_target:nobles_estate_province
+					
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					NOT = { has_saved_event_target = nobles_estate_province }
+					estate_influence = {
+						estate = estate_nobles
+						influence = 80
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 2
+					cost_multiplier = 0.5
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					has_saved_event_target = nobles_estate_province
+					estate_influence = {
+						estate = estate_nobles
+						influence = 60
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 80
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 2
+					cost_multiplier = 0.75
+					culture = event_target:nobles_estate_province
+					religion = event_target:nobles_estate_province
+					location = event_target:nobles_estate_province
+					
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					NOT = { has_saved_event_target = nobles_estate_province }
+					estate_influence = {
+						estate = estate_nobles
+						influence = 60
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 80
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 2
+					cost_multiplier = 0.75
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					has_saved_event_target = nobles_estate_province
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 60
+						}
+					}
+				}
+				define_advisor = {
+					type = diplomat
+					skill = 2
 					culture = event_target:nobles_estate_province
 					religion = event_target:nobles_estate_province
 					location = event_target:nobles_estate_province
@@ -541,11 +738,16 @@ estate_nobles =
 				limit = {
 					NOT = { monthly_income = 25 }
 					NOT = { has_saved_event_target = nobles_estate_province }
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 60
+						}
+					}
 				}
 				define_advisor = {
 					type = diplomat
 					skill = 2
-					discount = yes
 				}
 			}
 			add_estate_influence_modifier = {

@@ -32,12 +32,29 @@ country_decisions = {
 				duration = -1
 			}
 			if = {
-				limit = { has_dlc = "The Cossacks" }
+				limit = { has_estate = estate_church }
 				custom_tooltip = will_increase_clergy_loyalty_by_5
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				PAP = { has_opinion = { who = root value = -100 } } 
+				NOT = { is_excommunicated = yes }
+				OR = {
+					culture_group = french
+					culture_group = latin
+					culture_group = rhaetic
+					culture_group = iberian
+					culture_group = basquegroup
+				}
+			}
+			modifier = {
+				factor = 0
+				is_emperor = yes
+				hre_religion_treaty = no
+			}
 		}
 	}
 
@@ -72,12 +89,29 @@ country_decisions = {
 				duration = -1
 			}
 			if = {
-				limit = { has_dlc = "The Cossacks" }
+				limit = { has_estate = estate_church }
 				custom_tooltip = will_increase_clergy_loyalty_by_5
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				AVI = { has_opinion = { who = root value = -100 } } 
+				NOT = { is_excommunicated = yes }
+				OR = {
+					culture_group = french
+					culture_group = latin
+					culture_group = rhaetic
+					culture_group = iberian
+					culture_group = basquegroup
+				}
+			}
+			modifier = {
+				factor = 0
+				is_emperor = yes
+				hre_religion_treaty = no
+			}
 		}
 	}
 	
@@ -149,7 +183,7 @@ country_decisions = {
 				duration = -1
 			}
 			if = {
-				limit = { has_dlc = "The Cossacks" }
+				limit = { has_estate = estate_church }
 				custom_tooltip = will_decrease_clergy_loyalty_by_5
 			}
 		}
@@ -157,9 +191,14 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.0
+				is_excommunicated = no
 				OR = {
 					NOT = { has_opinion = { who = PAP value = 150 } }
 					num_of_cities = 5
+				}
+				AND = {
+					is_emperor = yes
+					hre_religion_treaty = no
 				}
 			}
 		}
@@ -185,7 +224,7 @@ country_decisions = {
 				duration = -1
 			}
 			if = {
-				limit = { has_dlc = "The Cossacks" }
+				limit = { has_estate = estate_church }
 				custom_tooltip = will_decrease_clergy_loyalty_by_5
 			}
 		}
@@ -193,9 +232,14 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.0
+				is_excommunicated = no
 				OR = {
 					NOT = { has_opinion = { who = AVI value = 150 } }
 					num_of_cities = 5
+				}
+				AND = {
+					is_emperor = yes
+					hre_religion_treaty = no
 				}
 			}
 		}

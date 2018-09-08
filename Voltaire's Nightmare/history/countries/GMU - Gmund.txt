@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = swabian
 religion = catholic
@@ -55,7 +56,8 @@ capital = 70
 }
 #done
 1090.5.18 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	capital = 2984
 	fixed_capital = 2984

@@ -10,10 +10,10 @@ technology = {
 	# Tech 0
 	year = 1054
 	
-	tribal_despotism = yes 	
-	tribal_federation = yes 
-	tribal_democracy = yes
-	tribal_kingdom = yes
+	tribal_despotism_legacy = yes 	
+	tribal_federation_legacy = yes 
+	tribal_democracy_legacy = yes
+	tribal_kingdom_legacy = yes
 	despotic_monarchy = yes	
 	feudal_monarchy = yes
 	oligarchic_republic = yes

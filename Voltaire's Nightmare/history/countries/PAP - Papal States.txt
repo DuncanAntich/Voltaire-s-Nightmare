@@ -1,4 +1,5 @@
-government = papal_government
+government = theocracy
+add_government_reform = papacy_reform
 government_rank = 5
 primary_culture = umbrian
 religion = catholic
@@ -1036,7 +1037,9 @@ add_army_professionalism = 0.05
 	}
 }
 1798.2.15 = {
-	government = constitutional_republic
+	government = republic
+	add_government_reform = oligarchy_reform
+	set_legacy_government = constitutional_republic
 	capital = 2235
 	monarch = {
 		name = "Repubblica Romana"
@@ -1047,7 +1050,8 @@ add_army_professionalism = 0.05
 	}
 }
 1799.9.30 = {
-	government = papal_government
+	government = theocracy
+	add_government_reform = papacy_reform
 	monarch = {
 		name = "Pius VII"
 		culture = romagnan
@@ -1099,7 +1103,9 @@ add_army_professionalism = 0.05
 	}
 }
 1849.2.9 = {
-	government = constitutional_republic
+	government = republic
+	add_government_reform = oligarchy_reform
+	set_legacy_government = constitutional_republic
 	capital = 2235
 	monarch = {
 		name = "Repubblica Romana"
@@ -1110,7 +1116,8 @@ add_army_professionalism = 0.05
 	}
 }
 1849.3.23 = {
-	government = papal_government
+	government = theocracy
+	add_government_reform = papacy_reform
 	capital = 2708
 	monarch = {
 		name = "Pius IX"

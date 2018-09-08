@@ -13,7 +13,6 @@ country_event = {
     major = yes
 
     trigger = {
-        NOT = { exists = MOR }
         NOT = { is_year = 1220 }
         NOT = { started_in = 1090.1.1 }
         is_year = 1080

@@ -4,6 +4,9 @@ bookmark =
 	desc = "IN_NOMINE_START_DESC"
 	date = 1399.10.14
 	
-	country = LBO
-	country = ZLX
+	country = BOH
+	country = TEU
+	country = BUR
+	country = ACH
+	country = TUR
 }

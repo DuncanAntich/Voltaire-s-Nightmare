@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 primary_culture = lithuanian
 religion = animism
@@ -54,7 +55,8 @@ capital = 1152
 	}
 }
 1204.1.1 = {
-	government = tribal_despotism
+	government = tribal
+	add_government_reform = tribal_despotism
 	technology_group = eastern
 	monarch = {
 		name = "Zvelgaitis"

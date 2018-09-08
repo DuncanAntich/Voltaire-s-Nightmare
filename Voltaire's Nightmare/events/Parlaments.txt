@@ -15,10 +15,7 @@ province_event = {
 		owner = {
 			has_parliament = yes
 		}
-		OR = {
-			NOT = { has_dlc = "The Cossacks" }
-			NOT = { has_estate = yes }
-		}
+		NOT = { has_estate = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -69,6 +66,7 @@ province_event = {
 				has_seat_in_parliament = no
 				is_overseas = no
 				has_owner_accepted_culture = yes
+				has_estate = no
 			}
 		}
 	}
@@ -121,6 +119,7 @@ province_event = {
 					is_core = owner
 					has_owner_accepted_culture = yes
 					development = 10
+					has_estate = no
 				}
 				set_seat_in_parliament = yes
 			}
@@ -857,7 +856,7 @@ province_event = {
 		has_province_modifier = rotten_borough
 		owner = { has_active_debate = yes }
 		is_backing_current_issue = yes
-		owner = { current_debate = parliamentary_reform }
+		owner = { current_debate = rotten_borough_reform }
 	}
 	
 	mean_time_to_happen = {
@@ -1502,18 +1501,14 @@ country_event = {
 			NOT = { has_province_modifier = demands_representation }
 		}
 		OR = {
-			government = despotic_monarchy
-			government = feudal_monarchy
-			government = noble_republic
-			government = administrative_monarchy
-			government = enlightened_despotism
-			government = elective_monarchy
-			government = ottoman_government
-			government = prussian_monarchy
-			government = merchant_republic
-			government = oligarchic_republic
-			government = administrative_republic
-			government = bureaucratic_despotism
+			has_reform = autocracy_reform
+			has_reform = feudalism_reform
+			has_reform = noble_elite_reform
+			has_reform = elective_monarchy
+			has_reform = ottoman_government
+			has_reform = prussian_monarchy
+			has_reform = merchants_reform
+			has_reform = oligarchy_reform
 		}
 	}
 	
@@ -1568,15 +1563,13 @@ country_event = {
 		num_of_loans = 5
 		NOT = { treasury = 50 }
 		OR = {
-			government = despotic_monarchy
-			government = feudal_monarchy
-			government = noble_republic
-			government = english_monarchy
-			government = constitutional_monarchy
-			government = administrative_monarchy
-			government = enlightened_despotism
-			government = ottoman_government
-			government = prussian_monarchy
+			has_reform = autocracy_reform
+			has_reform = feudalism_reform
+			has_reform = noble_elite_reform
+			has_reform = english_monarchy
+			has_reform = parliamentary_reform
+			has_reform = ottoman_government
+			has_reform = prussian_monarchy
 		}
 		NOT = { has_country_modifier = yearning_for_representation }
 		NOT = { has_ruler_flag = cities_offered_to_help }
@@ -1586,8 +1579,8 @@ country_event = {
 		months = 500
 		modifier = {
 			factor = 0.6
-			NOT = { government = english_monarchy }
-			NOT = { government = constitutional_monarchy }
+			NOT = { has_reform = english_monarchy }
+			NOT = { has_reform = parliamentary_reform }
 		}
 	}
 
@@ -1595,8 +1588,8 @@ country_event = {
 		name = parlaments.24.a #Grant them Greater Representation
 		trigger = {
 			OR = {
-				government = english_monarchy
-				government = constitutional_monarchy
+				has_reform = english_monarchy
+				has_reform = parliamentary_reform
 			}
 		}
 		random_owned_province = {
@@ -1618,8 +1611,8 @@ country_event = {
 		name = parlaments.24.b #Refuse their money.
 		trigger = {
 			OR = {
-				government = english_monarchy
-				government = constitutional_monarchy
+				has_reform = english_monarchy
+				has_reform = parliamentary_reform
 			}
 		}
 		random_owned_province = {
@@ -1641,10 +1634,10 @@ country_event = {
 		name = parlaments.24.c #
 		trigger = {
 			NOT = {
-				government = english_monarchy
+				has_reform = english_monarchy
 			}
 			NOT = {
-				government = constitutional_monarchy
+				has_reform = parliamentary_reform
 			}
 		}
 		add_years_of_income = 0.15
@@ -1659,10 +1652,10 @@ country_event = {
 		name = parlaments.24.dd #
 		trigger = {
 			NOT = {
-				government = english_monarchy
+				has_reform = english_monarchy
 			}
 			NOT = {
-				government = constitutional_monarchy
+				has_reform = parliamentary_reform
 			}
 		}
 		set_ruler_flag = cities_offered_to_help
@@ -1689,18 +1682,14 @@ province_event = {
 			adm_tech = 57
 			NOT = { stability = 2 }
 			OR = {
-				government = despotic_monarchy
-				government = feudal_monarchy
-				government = noble_republic
-				government = administrative_monarchy
-				government = enlightened_despotism
-				government = elective_monarchy
-				government = ottoman_government
-				government = prussian_monarchy
-				government = merchant_republic
-				government = oligarchic_republic
-				government = administrative_republic
-				government = bureaucratic_despotism
+				has_reform = autocracy_reform
+				has_reform = feudalism_reform
+				has_reform = noble_elite_reform
+				has_reform = elective_monarchy
+				has_reform = ottoman_government
+				has_reform = prussian_monarchy
+				has_reform = merchants_reform
+				has_reform = oligarchy_reform
 			}
 			NOT = { has_ruler_flag = minorities_denied_representation }
 		}

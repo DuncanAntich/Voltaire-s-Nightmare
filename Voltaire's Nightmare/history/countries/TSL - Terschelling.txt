@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
@@ -48,7 +49,8 @@ capital = 1864
 }
 #1398 HOL
 1424.1.1 = {
-	government = tribal_despotism
+	government = tribal
+	add_government_reform = tribal_despotism
 	technology_group = western
 	monarch = {
 		name = "Rienck"
@@ -104,4 +106,7 @@ capital = 1864
 	}
 }
 #sold to HAB netherlands 1500.1.1 
-1500.1.1 = { government = despotic_monarchy }
+1500.1.1 = {
+	government = monarchy
+	add_government_reform = autocracy_reform
+}

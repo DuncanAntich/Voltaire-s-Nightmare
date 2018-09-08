@@ -10,6 +10,7 @@ base_manpower = 2
 capital = "Manouba"
 is_city = yes
 add_core = IFQ
+add_core = TUN
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western

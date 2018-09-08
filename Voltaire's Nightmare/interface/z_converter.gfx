@@ -112,6 +112,36 @@ spriteTypes = {
 		texturefile = "gfx//interface//tur_pacifists.tga"
 	}
 
+	# Ireland
+	
+	spriteType = {
+		name = "GFX_faction_bg_cla_flatha"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_faction_cla_flatha"	
+		texturefile = "gfx//interface//icon_flatha.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_cla_filid"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_cla_filid"	
+		texturefile = "gfx//interface//icon_filid.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_cla_druid"	
+		texturefile = "gfx//interface//faction_purple_frame.tga"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_faction_cla_druid"	
+		texturefile = "gfx//interface//icon_druid.tga"
+	}
+
 	#Abbacies
 	spriteType = {
 		name = "GFX_faction_bg_abb_cluniacs"	
@@ -422,5 +452,25 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_soldiers_in_line"
 		texturefile = "gfx//interface//missions//mission_soldiers_in_line.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_basileos"
+		texturefile = "gfx//interface//government_reform_icons//basileos.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_capet"
+		texturefile = "gfx//interface//government_reform_icons//capet.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_tanist"
+		texturefile = "gfx//interface//government_reform_icons//tanist.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_italian_flag"
+		texturefile = "gfx//interface//government_reform_icons//italian_flag.dds"
 	}
 }

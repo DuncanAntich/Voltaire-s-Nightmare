@@ -1,5 +1,6 @@
-government = tribal_kingdom
-government_rank = 2
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = gallowglass
@@ -33,7 +34,8 @@ capital = 2308
 	}
 }
 1171.8.25 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish
 	government_rank = 3

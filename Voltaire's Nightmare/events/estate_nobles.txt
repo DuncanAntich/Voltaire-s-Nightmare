@@ -14,7 +14,6 @@ country_event = {
 	picture = NOBLE_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		estate_influence = {
 			estate = estate_nobles
@@ -146,7 +145,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		NOT = {
 			has_estate_influence_modifier = {
@@ -192,7 +190,6 @@ country_event = {
 	picture = NOBLE_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		num_of_cities = 15
 		any_owned_province = {
@@ -329,7 +326,6 @@ country_event = {
 	picture = NOBLE_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		any_owned_province = {
 			has_estate = estate_nobles
@@ -412,7 +408,6 @@ country_event = {
 	picture = NOBLE_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		estate_influence = {
 			estate = estate_nobles
@@ -463,7 +458,6 @@ country_event = {
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		has_estate = estate_burghers
 		estate_influence = {
@@ -582,7 +576,6 @@ country_event = {
 	picture = NOBLE_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		OR = {
 			NOT = { has_country_flag = normal_court_life }
@@ -705,7 +698,6 @@ country_event = {
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		NOT = {
 			estate_loyalty = {
@@ -840,7 +832,6 @@ country_event = {
 	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		is_at_war = yes
 		NOT = {
@@ -1011,7 +1002,6 @@ country_event = {
 	picture = NOBLE_ESTATE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		NOT = {
 			has_estate_influence_modifier = {
@@ -1317,7 +1307,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_nobles
 		estate_loyalty = {
 			estate = estate_nobles

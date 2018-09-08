@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = swabian
 religion = catholic
@@ -17,7 +18,8 @@ capital = 1872
 }
 #abbots
 1089.1.1 = {
-	government = monastic_order_government
+	government = theocracy
+	add_government_reform = monastic_order_reform
 	monarch = {
 		name = "Roker"
 		dynasty = "von Zwiefalten"

@@ -2955,8 +2955,7 @@ country_event = {
 		custom_tooltip = muslim_school_events.21.a.tt #From now on the religious establishment will react more strongly to impious conduct of the [Root.Monarch.GetTitle].
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = "estate_church"
+				has_estate = estate_church
 			}
 			custom_tooltip = muslim_school_events.21.a.ttb 
 		}

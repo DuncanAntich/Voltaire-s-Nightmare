@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = boden_alemannic
 religion = catholic
@@ -169,7 +170,7 @@ capital = 2921
 		mil = 2 
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
+1617.1.1 = { set_legacy_government = administrative_monarchy }
 1628.1.1 = {
 	heir = {
 		name = "Franz Wilhelm"
@@ -373,4 +374,4 @@ capital = 2921
 		mil = 3
 	}
 }
-1862.1.1 = { government = constitutional_monarchy }
+1862.1.1 = { set_legacy_government = constitutional_monarchy }

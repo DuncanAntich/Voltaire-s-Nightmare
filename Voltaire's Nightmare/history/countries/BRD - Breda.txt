@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = brabantian
 religion = catholic
@@ -44,7 +45,8 @@ capital = 95
 #1099.7.22 under Limburg
 #1106 annexed to BRB
 1106.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	government_rank = 1
 }
 1167.1.1 = {

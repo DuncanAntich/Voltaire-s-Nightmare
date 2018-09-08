@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = provencal
 religion = catholic
@@ -359,4 +360,4 @@ capital = 991 #Aix Lmao
 
 }
 1560.1.1 = { religion = reformed }
-1589.8.3 = { government = administrative_monarchy }
+1589.8.3 = { set_legacy_government = administrative_monarchy }

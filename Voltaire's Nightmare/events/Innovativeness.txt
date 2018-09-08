@@ -73,7 +73,6 @@ country_event = {
 				natural_scientist = 2
 				adm_tech = 7
 			}
-			adm_tech = 50
 		}
 	}
 	

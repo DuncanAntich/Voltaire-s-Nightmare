@@ -4,8 +4,8 @@ native_earthwork = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -29,8 +29,8 @@ native_palisade = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -57,8 +57,8 @@ native_fortified_house = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -85,8 +85,8 @@ native_ceremonial_fire_pit = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -111,8 +111,8 @@ native_irrigation = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -136,8 +136,8 @@ native_storehouse = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -161,8 +161,8 @@ native_longhouse = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -187,8 +187,8 @@ native_sweat_lodge = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -213,8 +213,8 @@ native_great_trail = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}
@@ -240,8 +240,8 @@ native_three_sisters_field = {
 	trigger = {
 		owner = {
 			OR = {
-				government = tribal_despotism
-				government = tribal_democracy
+				has_reform = tribal_despotism
+				has_reform = tribal_democracy_legacy
 			}
 		}
 	}

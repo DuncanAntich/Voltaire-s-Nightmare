@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = lorrainian
 religion = catholic
@@ -81,7 +82,8 @@ fixed_capital = 29
 }
 #FC
 1186.1.1 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"

@@ -140,6 +140,7 @@ country_event = {
 			skill = 3
 			discount = yes
 		}
+		add_innovativeness_big_effect = yes
 	}
 }
 
@@ -167,6 +168,12 @@ country_event = {
 	
 	option = {
 		name = "flavor_brapru.EVTOPTOK"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = the_absolutism
 			duration = -1
@@ -485,6 +492,7 @@ country_event = {
 		name = "flavor_brapru.EVTOPTA6" #Finance the printing
 		add_years_of_income = -0.5
 		add_ruler_modifier = { name = pru_prutenic_tables }
+		add_innovativeness_small_effect = yes
 	}
 	option = {
 		name = "flavor_brapru.EVTOPTB6" #Ignore the man
@@ -654,7 +662,7 @@ country_event = {
 			duration = -1
 		}
 		if = {
-			limit = { has_dlc = "The Cossacks" }
+			limit = { has_estate = estate_church }
 			add_estate_influence_modifier = {
 				estate = estate_church
 				desc = EST_VAL_PRIVATE_CHANCELLERY
@@ -668,7 +676,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 		add_corruption = 1
 		if = {
-			limit = { has_dlc = "The Cossacks" }
+			limit = { has_estate = estate_church }
 			add_estate_loyalty = {
 				estate = estate_church
 				loyalty = 10
@@ -964,6 +972,12 @@ country_event = {
 	option = { #Great!
 		name = flavor_brapru.26.a
 		set_country_flag = hired_cocceji
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		define_advisor = {
 			type = statesman
 			name = "Samuel von Cocceji"
@@ -1006,6 +1020,12 @@ country_event = {
 		name = flavor_brapru.27.a
 		ai_chance = {
 			factor = 75
+		}
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
 		}
 		add_stability = -1
 		add_country_modifier = {
@@ -1361,7 +1381,6 @@ country_event = {
 			tag = PRU
 		}
 		government = monarchy
-		NOT = { government = constitutional_monarchy }
 		is_year = 1650
 		NOT = { is_year = 1700 }
 		OR = {
@@ -1390,7 +1409,7 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
-				government = prussian_monarchy
+				has_reform = prussian_monarchy
 			}
 			add_militarised_society = 20
 		}
@@ -1400,7 +1419,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				has_estate = estate_nobles
 				government = monarchy
 			}
 			add_estate_loyalty = {
@@ -1415,7 +1434,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					NOT = { has_dlc = "The Cossacks" }
+					NOT = { has_estate = estate_nobles }
 					NOT = { government = monarchy }
 				}
 			}
@@ -1438,7 +1457,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				has_estate = estate_nobles
 				government = monarchy
 			}
 			add_estate_loyalty = {
@@ -1453,7 +1472,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					NOT = { has_dlc = "The Cossacks" }
+					NOT = { has_estate = estate_nobles }
 					NOT = { government = monarchy }
 				}
 			}
@@ -1465,7 +1484,7 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
-				government = prussian_monarchy
+				has_reform = prussian_monarchy
 			}
 			add_militarised_society = 10
 		}
@@ -1539,7 +1558,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				government = monarchy
 				has_estate = estate_nobles
 			}
@@ -1553,7 +1571,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { has_dlc = "The Cossacks" }
+				NOT = { has_estate = estate_nobles }
 			}
 			add_dip_power = -85
 			add_adm_power = -15
@@ -1691,6 +1709,7 @@ country_event = {
 			skill = 3
 			discount = yes
 		}
+		add_innovativeness_small_effect = yes
 	}
 }
 
@@ -1838,7 +1857,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -1859,7 +1877,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {

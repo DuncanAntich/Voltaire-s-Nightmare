@@ -1,104 +1,17 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 426
 
-#Kings of Luighne Connacht
-1023.1.1 = {
-	monarch = {
-		name = "Duarcán"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-1059.1.1 = {
-	monarch = {
-		name = "Dubhdhara"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1093.1.1 = {
-	monarch = {
-		name = "Taichleach"
-		dynasty = "Ó hEaghra"
-		adm = 1
-		dip = 2
-		mil = 2
-	}
-}
-1095.1.1 = {
-	monarch = {
-		name = "An"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1128.1.1 = {
-	monarch = {
-		name = "Murchadh"
-		dynasty = "Ó hEaghra"
-		adm = 1
-		dip = 2
-		mil = 2
-	}
-}
-1134.1.1 = {
-	monarch = {
-		name = "Áed I"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1155.1.1 = {
-	monarch = {
-		name = "Ruaidhrí"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 4
-		mil = 2
-	}
-}
-1157.1.1 = {
-	monarch = {
-		name = "Bec"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1184.1.1 = {
-	monarch = {
-		name = "Conchobar"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 1
-		mil = 1
-	}
-}
-1220.1.1 = {
-	monarch = {
-		name = "Áed II"
-		dynasty = "Ó hEaghra"
-		adm = 2
-		dip = 2
-		mil = 0
-	}
-}
+1171.5.1 = { primary_culture = irish }
+
 #Sligo
 1232.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish
 	monarch = {
@@ -112,7 +25,8 @@ capital = 426
 }
 1257.5.20 = { #battle of Credran Cille
 	primary_culture = irish
-	government = tribal_kingdom
+	government = tribal
+	add_government_reform = tribal_kingdom
 	remove_accepted_culture = irish
 	government_rank = 1
 	monarch = {
@@ -356,5 +270,3 @@ capital = 426
 		mil = 1
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

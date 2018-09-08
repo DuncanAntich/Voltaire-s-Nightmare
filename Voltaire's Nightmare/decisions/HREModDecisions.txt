@@ -54,9 +54,9 @@ country_decisions = {
 			NOT = { exists = SWI }
 			NOT = { tag = SAV }
 			NOT = { tag = ARP }
-			NOT = { government = canton_government }
-			NOT = { government = steppe_horde }
-			NOT = { government = imperial_city }
+			NOT = { has_reform = canton_government }
+			NOT = { has_reform = steppe_horde }
+			NOT = { has_reform = free_city }
 			NOT = { has_country_flag = unformable }
 			OR = {
 				ai = no
@@ -73,12 +73,13 @@ country_decisions = {
 				full_idea_group = innovativeness_ideas
 				full_idea_group = administrative_ideas
 				any_ally = {
-					government = canton_government
+					has_reform = canton_government
 				}
 			}
 		}
 		effect = {
-			change_government = canton_government
+			change_government = republic
+			add_government_reform = canton_government
 			add_adm_power = -200
 			if = {
 				limit = {
@@ -89,7 +90,7 @@ country_decisions = {
 			hidden_effect = {
 				every_country = {
 					limit = {
-						government = canton_government
+						has_reform = canton_government
 						NOT = { tag = ROOT }
 					}
 					country_event = { id = hremodevents.12 }
@@ -104,7 +105,7 @@ country_decisions = {
 	switch_italian = {
 		major = yes
 		potential = {
-			government = italian_monarchy
+			has_reform = italian_monarchy
 		}
 		allow = {
 			is_at_war = no
@@ -113,7 +114,9 @@ country_decisions = {
 			is_orangists_in_power = yes
 		}
 		effect = {
-			change_government = administrative_monarchy
+			change_government = monarchy
+			add_government_reform = feudalism_reform
+			set_legacy_government = administrative_monarchy
 			add_stability = -1
 		}
 		ai_will_do = {
@@ -219,7 +222,7 @@ country_decisions = {
 
 	end_frankish_monarchy = {
 		major = yes
-		potential = { government = celestial_empire }
+		potential = { has_reform = celestial_empire }
 		allow = {
 			OR = {
 				current_age = age_of_absolutism
@@ -239,7 +242,8 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = feudal_monarchy
+			change_government = monarchy
+			add_government_reform = feudalism_reform
 			dismantle_empire_of_china = yes
 			custom_tooltip = end_framo.tt
 			hidden_effect = {
@@ -286,7 +290,7 @@ country_decisions = {
 			TEU = {
 				exists = yes
 				is_free_or_tributary_trigger = yes
-				government = crusader_order_government
+				has_reform = crusader_order_reform
 				religion = catholic
 				NOT = { war_with = ROOT }
 			}
@@ -492,7 +496,7 @@ country_decisions = {
 	reform_eastern_monarchy = {
 		major = yes
 		potential = {
-			government = eastern_monarchy
+			has_reform = eastern_monarchy
 		}
 		allow = {
 			adm_tech = 12
@@ -500,7 +504,8 @@ country_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_government = feudal_monarchy
+			change_government = monarchy
+			add_government_reform = feudalism_reform
 			add_prestige = 25
 			hidden_effect = {
 				random_owned_province = {
@@ -806,7 +811,8 @@ country_decisions = {
 			change_tag = BRA
 			if = {
 				limit = { NOT = { government = monarchy } }
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -846,7 +852,7 @@ country_decisions = {
 		potential = {
 			religion = catholique
 			NOT = { tag = AVI }
-			NOT = { government = papal_government }
+			NOT = { has_reform = papacy_reform }
 			NOT = { is_religion_enabled = protestant }
 		}
 		allow = {

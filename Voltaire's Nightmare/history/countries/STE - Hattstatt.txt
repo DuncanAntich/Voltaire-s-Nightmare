@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = boden_alemannic
 religion = catholic
@@ -29,7 +30,8 @@ capital = 293
 
 #Lords of Hattstatt
 1188.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Konrad Werner I"
 		dynasty = "von Hattstatt"

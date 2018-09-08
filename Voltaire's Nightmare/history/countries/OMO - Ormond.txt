@@ -1,8 +1,9 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = eoganachta
 capital = 2668
 
 1054.1.1 = {
@@ -26,9 +27,11 @@ capital = 2668
 }
 #McC to DMS
 1118.1.1 = {
+	primary_culture = dalcassian
 	monarch = {
 		name = "Ríghbhardán II"
 		dynasty = "Ó Cinnéide"
+		birth_date = 1062.1.1 #est
 		adm = 2
 		dip = 2
 		mil = 2
@@ -65,13 +68,16 @@ capital = 2668
 	monarch = {
 		name = "Donal II"
 		dynasty = "Ó Cinnéide"
+		birth_date = 1156.1.1 #est
 		adm = 2
 		dip = 2
 		mil = 3
 	}
 }
+1171.5.1 = { primary_culture = irish }
 1185.4.25 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish
 	monarch = {

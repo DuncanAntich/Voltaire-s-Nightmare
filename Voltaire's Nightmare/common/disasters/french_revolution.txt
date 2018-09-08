@@ -5,7 +5,7 @@ french_revolution = {
 		is_free_or_tributary_trigger = yes
 		NOT = { revolution_target_exists = yes }
 		government = monarchy
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		current_age = age_of_revolutions
 	}
 	
@@ -64,15 +64,18 @@ french_revolution = {
 				government = monarchy
 			}
 			AND = {
-				government = revolutionary_republic
+				has_reform = revolutionary_republic_reform
 				stability = 3
 				NOT = { num_of_rebel_controlled_provinces = 1 }
 			}
 			AND = {
-				government = revolutionary_republic
+				has_reform = revolutionary_republic_reform
 				is_revolution_target = yes
 				NOT = { num_of_rebel_controlled_provinces = 1 }
-				has_ruler_flag = bonaparte_flag
+				custom_trigger_tooltip = {
+					tooltip = bonaparte_flag.tooltip
+					has_ruler_flag = bonaparte_flag
+				}
 			}
 		}
 	}

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 4
 primary_culture = wallachian
 religion = orthodox
@@ -416,7 +417,8 @@ capital = 2165 # Tîrgoviste
 	}
 }
 1627.11.14 = {
-	government = noble_republic
+	government = republic
+	add_government_reform = noble_elite_reform
 	monarch = {
 		name = "Leon"
 		dynasty = "Tomsa"
@@ -653,7 +655,7 @@ capital = 2165 # Tîrgoviste
 	}
 }
 1848.6.23 = {
-	government = constitutional_republic
+	set_legacy_government = constitutional_republic
 	monarch = {
 		name = "Guvernul Vremelnicesc"
 		regent = yes
@@ -663,7 +665,8 @@ capital = 2165 # Tîrgoviste
 	}
 }
 1848.9.25 = {
-	government = noble_republic
+	government = republic
+	add_government_reform = noble_elite_reform
 	monarch = {
 		name = "Barbu"
 		dynasty = "Stirbei"
@@ -694,7 +697,9 @@ capital = 2165 # Tîrgoviste
 	}
 }
 1866.1.1 = {
-	government = administrative_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
 	monarch = {
 		name = "Carol I"
 		dynasty = "von Hohenzollern"

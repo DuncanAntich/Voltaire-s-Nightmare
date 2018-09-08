@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 4
 primary_culture = serbian
 religion = orthodox
@@ -479,7 +480,7 @@ historical_friend = BOS
 		dip = 1
 		mil = 1
 	}
-	government = administrative_monarchy
+	set_legacy_government = administrative_monarchy
 }
 1806.10.11 = {
 	heir = {

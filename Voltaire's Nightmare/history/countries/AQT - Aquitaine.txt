@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 3
 technology_group = western
 religion = catholic
@@ -163,4 +164,4 @@ national_focus = DIP
 	add_heir_personality = greedy_personality
 }
 1204.3.6 = { capital = 322 }
-1589.8.3 = { government = administrative_monarchy }
+1589.8.3 = { set_legacy_government = administrative_monarchy }

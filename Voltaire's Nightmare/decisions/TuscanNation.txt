@@ -87,7 +87,8 @@ country_decisions = {
 				limit = {
 					government = republic
 				}
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 			add_prestige = 25
 			hidden_effect = {

@@ -568,7 +568,7 @@ country_event = {
 		has_dlc = "The Cossacks"
 		religion = tengri_pagan_reformed
 		has_secondary_religion = yes
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		OR = {
 			secondary_religion = sunni
 			secondary_religion = shiite
@@ -603,7 +603,7 @@ country_event = {
 		name = tengri_events.11.b
 		if = {
 			limit = {
-				government = steppe_horde
+				has_reform = steppe_horde
 			}
 			add_country_modifier = {
 				name = "tengri_stood_up_for_yassa"
@@ -856,7 +856,7 @@ country_event = {
 		secondary_religion = sunni
 		NOT = { has_country_flag = khojas_established }
 		government = monarchy
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		is_year = 1510
 		NOT = { has_ruler_modifier = support_of_the_khojas }
 		NOT = { has_country_flag = end_of_khojas }
@@ -924,7 +924,7 @@ country_event = {
 	trigger = {
 		has_dlc = "The Cossacks"
 		religion = tengri_pagan_reformed
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		secondary_religion = sunni
 		government = monarchy
 		num_of_cities = 2
@@ -965,7 +965,7 @@ country_event = {
 	trigger = {
 		has_dlc = "The Cossacks"
 		religion = tengri_pagan_reformed
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		secondary_religion = sunni
 		government = monarchy
 		num_of_cities = 2
@@ -1012,7 +1012,8 @@ country_event = {
 		}
 		if = { 
 			limit = { NOT = { government = theocracy } }
-			change_government = theocratic_government
+			change_government = theocracy
+			set_legacy_government = theocratic_government
 		}
 		add_stability = -5
 		kill_heir = yes
@@ -1153,7 +1154,7 @@ country_event = {
 		secondary_religion = catholic
 		exists = PAP
 		NOT = { war_with = PAP }
-		government = steppe_horde
+		has_reform = steppe_horde
 	}
 	
 	mean_time_to_happen = {

@@ -14,7 +14,7 @@ country_event = {
 		tag = MAI
 		exists = yes
 		is_elector = yes
-		government = theocratic_government
+		government = theocracy
 		NOT = { has_country_flag = happened_763 }
 	}
 
@@ -95,7 +95,7 @@ country_event = {
 		capital_scope = { is_part_of_hre = yes }
 		is_emperor = no
 		religion = catholic
-		government = theocratic_government
+		government = theocracy
 		prestige = 10
 		has_opinion = { who = PAP value = 100 }
 	}
@@ -160,7 +160,7 @@ country_event = {
 		has_country_modifier = legatus_natus
 		OR = {
 			capital_scope = { is_part_of_hre = no }
-			NOT = { government = theocratic_government }
+			NOT = { government = theocracy }
 			NOT = { religion = catholic }
 			NOT = { has_opinion ={ who = PAP value = 0 } }
 			exists = no

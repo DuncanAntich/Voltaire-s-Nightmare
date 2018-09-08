@@ -254,6 +254,24 @@ anabaptist_rebels = {
 			}
 		}
 		if = {
+			limit = {
+				religion = anabaptist
+				has_estate = estate_church
+				NOT = {
+					has_estate_influence_modifier = {
+						estate = estate_church
+						modifier = EST_VAL_RELIGIOUS_ZEALOTS_TRIUMPH
+					}
+				}
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = EST_VAL_RELIGIOUS_ZEALOTS_TRIUMPH
+				duration = 3650
+				influence = 15
+			}
+		}
+		if = {
 			limit = { has_disaster = french_wars_of_religion }
 			end_disaster = french_wars_of_religion
 			remove_country_modifier = french_catholics

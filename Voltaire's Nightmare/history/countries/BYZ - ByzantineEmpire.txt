@@ -1,4 +1,5 @@
-government = eastern_monarchy
+government = monarchy
+add_government_reform = eastern_monarchy
 government_rank = 6
 technology_group = eastern
 religion = orthodox
@@ -496,7 +497,8 @@ fixed_capital = 2233
 }
 #1204 done
 1204.5.16 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	remove_country_modifier = the_theme_system
 	clr_global_flag = constantinople_restored
 	clr_country_flag = triumph_greece

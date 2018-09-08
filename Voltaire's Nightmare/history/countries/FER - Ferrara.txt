@@ -1,4 +1,5 @@
-government = italian_monarchy
+government = republic
+add_government_reform = italian_monarchy
 government_rank = 2
 technology_group = western
 religion = catholic
@@ -18,7 +19,8 @@ add_army_professionalism = 0.05
 }
 #Marquis
 1209.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Azzo VI"
 		dynasty = "d'Este"
@@ -345,7 +347,8 @@ add_army_professionalism = 0.05
 	}
 }
 1534.10.30 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Ercole II"
 		dynasty = "d'Este"

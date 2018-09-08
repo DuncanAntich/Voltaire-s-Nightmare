@@ -1,6 +1,6 @@
-owner = MTH
-controller = MTH
-culture = irish
+owner = UIS
+controller = UIS
+culture = connachta
 religion = catholic
 hre = no
 base_tax = 1
@@ -9,18 +9,15 @@ trade_goods = wool
 base_manpower = 1
 capital = "Mullingar"
 is_city = yes
-add_core = MTH	
 add_core = UIS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1172.1.1 = {
-	owner = UIS
-	controller = UIS
-	remove_core = MTH
-}
+1171.5.1 = { culture = irish }
 1603.3.31 = {
 	owner = ENG
 	controller = ENG
@@ -45,5 +42,3 @@ discovered_by = muslim
 }
 1798.8.23 = { revolt = { type = nationalist_rebels size = 1 } controller = REB }
 1798.9.8 = { revolt = {} controller = GBR }
-discovered_by = nomad_group
-discovered_by = north_american

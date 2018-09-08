@@ -64,6 +64,7 @@ default = {
 	liberty_desire_same_dynasty = 0.0
 	pays_overlord = 0.0									# 1.0 represents the amount payed by vassals
 	forcelimit_bonus = 0.0								# 1.0 represents bonus from having a vassal
+	forcelimit_to_overlord = 0.0						# Percent of subject FL to use as base for modifiers
 	military_focus = 1.0								# How much the AI subject should spend etc
 
 	relative_power_class = 1 							# See description above
@@ -150,6 +151,7 @@ vassal = {
 	liberty_desire_same_dynasty = -5.0
 	pays_overlord = 1.0
 	forcelimit_bonus = 1.0
+	forcelimit_to_overlord = 0.1
 
 	relative_power_class = 2
 
@@ -188,6 +190,7 @@ march = {
 	military_focus = 1.5
 	base_liberty_desire = -15.0
 	can_be_annexed = no
+	forcelimit_to_overlord = 0.2
 
 	# Subject Interactions:
 	scutage = no
@@ -443,7 +446,10 @@ tributary_state = {
 		NOT = { 
 			is_subject_of_type = tributary_state
 		}
-		government = celestial_empire
+		OR = {
+			has_reform = celestial_empire
+			has_reform = celestial_empire_legacy
+		}
 	}
 	
 	# Graphics:

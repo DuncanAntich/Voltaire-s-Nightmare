@@ -24,6 +24,7 @@ country_event = {
 		has_heir = yes
 		has_regency = no
 		has_consort_regency = no
+		NOT = { has_reform = elective_monarchy }
 		heir_age = 13
 		NOT = { heir_age = 25 }
 		employed_advisor = {
@@ -1165,7 +1166,7 @@ country_event = {
 					random_owned_province = {
 						limit = {
 							owner = { government = monarchy }
-							NOT = { owner ={ government = ottoman_government } }
+							NOT = { owner ={ has_reform = ottoman_government } }
 							is_state = yes
 							OR = {
 								has_owner_culture = yes
@@ -3544,7 +3545,9 @@ country_event = {
 		government = monarchy
 		has_regency = no
 		has_heir = no
-		NOT = { government = ottoman_government }
+		NOT = { has_reform = ottoman_government }
+		NOT = { has_reform = states_general_reform }
+		has_government_attribute = heir
 		any_owned_province = {
 			has_owner_culture = no
 		}

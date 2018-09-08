@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = swabian
 religion = catholic
@@ -17,7 +18,8 @@ capital = 709
 }
 #1089 founds abbey
 1276.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Swigger VI"
 		dynasty = "von Gundelfingen"

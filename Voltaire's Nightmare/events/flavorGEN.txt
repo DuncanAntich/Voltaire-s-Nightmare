@@ -19,7 +19,7 @@ country_event = {
 	
 	trigger = {
 		tag = GEN
-		government = merchant_republic
+		has_reform = merchants_reform
 		exists = TUR
 		TUR = { owns = 2233 }			#Constantinople
 		2233 = { NOT = { months_since_defection = 60 } }	#within 5 years.
@@ -468,7 +468,7 @@ country_event = {
 	
 	trigger = {
 		tag = GEN
-		government = merchant_republic
+		has_reform = merchants_reform
 		2233 = {
 			OR = {
 				NOT = { owned_by = TUR }
@@ -506,7 +506,7 @@ country_event = {
 	
 	trigger = {
 		tag = GEN
-		government = merchant_republic
+		has_reform = merchants_reform
 		capital_scope = {
 			area = chios_area
 		}

@@ -1,4 +1,5 @@
-government = principality
+government = monarchy
+add_government_reform = principality
 government_rank = 4
 primary_culture = russian
 religion = orthodox
@@ -192,7 +193,8 @@ fixed_capital = 4281
 }
 #Republic Established
 1348.1.1 = {
-	government = veche_republic
+	government = republic
+	add_government_reform = veche_republic
 	mercantilism = 25
 	government_rank = 3
 	monarch = {

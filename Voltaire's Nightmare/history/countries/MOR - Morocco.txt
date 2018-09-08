@@ -1,9 +1,10 @@
-government = iqta
+government = monarchy
+add_government_reform = iqta
 government_rank = 5
 primary_culture = moroccan
 religion = sunni
 technology_group = muslim
-capital = 761
+capital = 2854
 religious_school = maliki_school
 
 1061.1.1 = {
@@ -84,6 +85,7 @@ religious_school = maliki_school
 	}
 }
 1145.3.25 = {
+	capital = 761
 	monarch = {
 		name = "Ishâq"
 		dynasty = "al-Murâbit"
@@ -104,8 +106,10 @@ religious_school = maliki_school
 		mil = 0
 	}
 }
+1145.12.31 = { capital = 2854 }
 1147.1.1 = {
-	government = feudal_theocracy
+	government = monarchy
+	add_government_reform = feudal_theocracy
 	government_rank = 6
 	monarch = {
 		name = "‘Abd al-Mu‘min"
@@ -129,7 +133,6 @@ religious_school = maliki_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = conqueror_personality
 }
-1152.1.1 = { capital = 2854 }
 1163.1.1 = {
 	monarch = {
 		name = "Yûsuf I"
@@ -303,7 +306,8 @@ religious_school = maliki_school
 	}
 }
 1269.9.8 = {
-	government = iqta
+	government = monarchy
+	add_government_reform = iqta
 	government_rank = 5
 	monarch = {
 		name = "Ya‘qûb II"

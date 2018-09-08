@@ -56,12 +56,10 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					OR = {
-						government = theocratic_government
-						government = crusader_order_government
-					}
+					government = theocracy
 				}
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 				every_neighbor_country = {
 					limit = { government = monarchy }
 					add_opinion = { who = ROOT modifier = secularized_monastic_order }

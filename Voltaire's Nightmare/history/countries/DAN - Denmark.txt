@@ -1,4 +1,5 @@
-government = elective_monarchy
+government = monarchy
+add_government_reform = elective_monarchy
 government_rank = 5
 primary_culture = danish
 add_accepted_culture = jutlandic
@@ -465,7 +466,8 @@ capital = 411
 }
 1332.8.2 = {
 	remove_accepted_culture = scanian
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "(Interregnum)"
 		regent = yes
@@ -475,7 +477,8 @@ capital = 411
 	}
 }
 1340.1.1 = {
-	government = elective_monarchy
+	government = monarchy
+	add_government_reform = elective_monarchy
 	monarch = {
 		name = "Valdemar IV"
 		dynasty = "Estrid"
@@ -863,7 +866,7 @@ capital = 411
 	}
 }
 1658.2.26 = { remove_accepted_culture = scanian }
-1660.1.1 = { government = administrative_monarchy }
+1660.1.1 = { set_legacy_government = administrative_monarchy }
 1670.2.10 = {
 	monarch = {
 		name = "Christian V"
@@ -1133,7 +1136,7 @@ capital = 411
 	}
 }
 1848.1.20 = {
-	government = constitutional_monarchy
+	set_legacy_government = constitutional_monarchy
 	monarch = {
 		name = "Frederik VII"
 		dynasty = "von Oldenburg"

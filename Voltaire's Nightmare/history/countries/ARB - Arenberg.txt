@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = moselle_franconian
 religion = catholic
@@ -107,7 +108,8 @@ capital = 2006
 	}
 }
 1299.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	queen = {
 		country_of_origin = MRK
 		name = "Engelbert"

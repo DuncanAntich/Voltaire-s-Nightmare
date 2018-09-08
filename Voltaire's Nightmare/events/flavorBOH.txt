@@ -439,7 +439,7 @@ country_event = {
 			religion = catholique
 		}
 		NOT = { religion_years = { protestant = 100 } }
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		any_owned_province = {
 			religion = hussite
 			OR = {

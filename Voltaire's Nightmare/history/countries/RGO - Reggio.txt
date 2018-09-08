@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
@@ -7,7 +8,8 @@ capital = 106
 add_army_professionalism = 0.05
 
 1115.7.24 = {
-	government = italian_monarchy
+	government = republic
+	add_government_reform = italian_monarchy
 	monarch = {
 		name = "Repubblica"
 		adm = 2
@@ -36,7 +38,16 @@ add_army_professionalism = 0.05
 	}
 }
 
-1289.1.1 = { government = feudal_monarchy }
-1306.1.1 = { government = italian_monarchy }
-1371.1.1 = { government = feudal_monarchy }
+1289.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
+1306.1.1 = {
+	government = republic
+	add_government_reform = italian_monarchy
+}
+1371.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1452.1.1 = { government_rank = 3 }

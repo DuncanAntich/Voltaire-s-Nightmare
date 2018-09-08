@@ -1,10 +1,94 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = dalcassian
 capital = 2305
 
+1025.1.1 = {
+	monarch = {
+		name = "Donnchad"
+		dynasty = "Ó Briain"
+		adm = 3
+		dip = 0
+		mil = 3
+	}
+}
+1064.1.1 = {
+	monarch = {
+		name = "Murchadh"
+		dynasty = "Ó Briain"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1068.1.1 = {
+	monarch = {
+		name = "Turlough"
+		dynasty = "Ó Briain"
+		birth_date = 1009.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Muirchertach"
+		monarch_name = "Muirchertach"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		death_date = 1072.1.1 #to DBL
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1072.1.1 = {
+	heir = {
+		name = "Tadhg"
+		monarch_name = "Tadhg II"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		death_date = 1086.1.1
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1086.1.1 = {
+	monarch = {
+		name = "Muirchertach"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	heir = {
+		name = "Diarmait"
+		monarch_name = "Diarmait I"
+		dynasty = "Ó Briain"
+		birth_date = 1060.1.1
+		death_date = 1118.1.1
+		claim = 85
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1114.1.1 = {
+	monarch = {
+		name = "Diarmait I"
+		dynasty = "Ó Briain"
+		birth_date = 1060.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
 1118.1.1 = {
 	monarch = {
 		name = "Conchobhar I"
@@ -41,6 +125,7 @@ capital = 2305
 		mil = 2
 	}
 }
+1171.5.1 = { primary_culture = irish }
 1194.1.1 = {
 	monarch = {
 		name = "Muireadhach II"
@@ -384,5 +469,3 @@ capital = 2305
 		mil = 1
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

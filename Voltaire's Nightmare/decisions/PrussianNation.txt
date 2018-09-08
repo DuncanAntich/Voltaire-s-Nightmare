@@ -82,11 +82,13 @@ country_decisions = {
 			}
 			if = {
 				limit = { has_dlc = "Rights of Man" }
-				change_government = prussian_monarchy
+				change_government = monarchy
+				add_government_reform = prussian_monarchy
 			}
 			if = {
 				limit = { NOT = { has_dlc = "Rights of Man" } }
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 			if = {
 				limit = {
@@ -211,13 +213,10 @@ country_decisions = {
 						NOT = { tag = TEU }
 						NOT = { exists = BRA }
 					}
-					OR = {
-						government = theocratic_government
-						government = monastic_order_government
-						government = crusader_order_government
-					}
+					government = theocracy
 				}
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 				every_neighbor_country = {
 					limit = { government = monarchy }
 					add_opinion = { who = ROOT modifier = secularized_monastic_order }
@@ -227,13 +226,10 @@ country_decisions = {
 				limit = {
 					tag = TEU
 					exists = BRA
-					OR = {
-						government = theocratic_government
-						government = monastic_order_government
-						government = crusader_order_government
-					}
+					government = theocracy
 				}
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 				every_neighbor_country = {
 					limit = { government = monarchy }
 					add_opinion = { who = ROOT modifier = secularized_monastic_order }
@@ -244,7 +240,8 @@ country_decisions = {
 			}
 			if = {
 				limit = { is_tribal = yes }
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 			if = {
 				limit = { primitives = yes }
@@ -346,11 +343,14 @@ country_decisions = {
 			}
 			if = {
 				limit = { has_dlc = "Rights of Man" }
-				change_government = prussian_monarchy
+				change_government = monarchy
+				add_government_reform = prussian_monarchy
 			}
 			if = {
 				limit = { NOT = { has_dlc = "Rights of Man" } }
-				change_government = administrative_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				set_legacy_government = administrative_monarchy
 			}
 			add_prestige = 25
 			change_primary_culture = prussian

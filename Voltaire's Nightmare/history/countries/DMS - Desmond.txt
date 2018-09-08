@@ -1,11 +1,53 @@
-government = tribal_kingdom
-government_rank = 2
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = dalcassian
 capital = 3190
 
+#Kings of Deisi Muman
+1051.1.1 = {
+	monarch = {
+		name = "Máel Sechlainn I"
+		dynasty = "Ó Bruicc"
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+1059.1.1 = {
+	monarch = {
+		name = "Máel Sechlainn II"
+		dynasty = "Ó Faelain"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1085.1.1 = {
+	monarch = {
+		name = "Muirchertach"
+		dynasty = "Ó Bruicc"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1103.1.1 = {
+	monarch = {
+		name = "Máel Sechlainn III"
+		dynasty = "Ó Faelain"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+#McCarthies
 1118.1.1 = {
+	government_rank = 2
+	primary_culture = eoganachta
 	monarch = {
 		name = "Tadhg I"
 		dynasty = "Mac Cárthaigh"
@@ -37,14 +79,17 @@ capital = 3190
 	monarch = {
 		name = "Dairmait II"
 		dynasty = "Mac Cárthaigh"
+		birth_date = 1128.1.1 #est
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
+1171.5.1 = { primary_culture = irish }
 # Earls of Desmond
 1172.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish
 	monarch = {

@@ -1,8 +1,9 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 2327
 
 1046.1.1 = {
@@ -32,8 +33,7 @@ capital = 2327
 		mil = 3
 	}
 }
-#1092-95 under ACN
-1095.1.1 = {
+1092.1.1 = {
 	monarch = {
 		name = "Tadgh I"
 		dynasty = "Ó Conchobhair"
@@ -94,6 +94,7 @@ capital = 2327
 		mil = 0
 	}
 }
+1171.5.1 = { primary_culture = irish }
 1186.1.1 = {
 	monarch = {
 		name = "Conchobar I"
@@ -364,5 +365,3 @@ capital = 2327
 		mil = 0
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

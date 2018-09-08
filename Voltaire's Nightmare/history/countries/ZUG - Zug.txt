@@ -1,4 +1,6 @@
-government = administrative_republic
+government = republic
+add_government_reform = oligarchy_reform
+set_legacy_government = administrative_republic
 government_rank = 1
 primary_culture = swiss
 religion = catholic
@@ -23,4 +25,7 @@ historical_friend = VDX
 		regent = yes
 	}
 }
-1352.1.1 = { government = canton_government }
+1352.1.1 = {
+	government = republic
+	add_government_reform = canton_government
+}

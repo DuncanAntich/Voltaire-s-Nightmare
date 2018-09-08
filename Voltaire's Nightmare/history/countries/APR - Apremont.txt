@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 primary_culture = lorrainian
@@ -112,7 +113,8 @@ capital = 2483
 #Counts
 #1354-1480
 1354.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Geoffroi IV"
 		dynasty = "d'Aspremont"

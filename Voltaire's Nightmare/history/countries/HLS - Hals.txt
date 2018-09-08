@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 primary_culture = bavarian
@@ -95,7 +96,10 @@ capital = 1072
 		adm = 2
 	}
 }
-1280.1.1 = { government = feudal_monarchy }
+1280.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1305.10.5 = {
 	monarch = {
 		name = "Alram II"

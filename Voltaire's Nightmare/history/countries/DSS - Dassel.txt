@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 primary_culture = eastphalian
@@ -23,7 +24,10 @@ capital = 1773
 		adm = 3
 	}
 }
-1113.1.1 = { government = feudal_monarchy }
+1113.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1115.1.1 = {
 	heir = {
 		name = "Ludolf"

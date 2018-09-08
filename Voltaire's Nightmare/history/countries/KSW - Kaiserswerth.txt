@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = western
 primary_culture = ripuarian
@@ -18,7 +19,8 @@ fixed_capital = 2424
 }
 #FC
 1181.1.1 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"

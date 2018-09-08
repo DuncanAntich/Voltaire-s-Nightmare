@@ -1,3 +1,6 @@
+owner = AVS
+controller = AVS
+add_core = AVS
 culture = neapolitan
 religion = catholic 
 hre = no
@@ -11,9 +14,8 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
-owner = AVS
-controller = AVS
-add_core = AVS
+discovered_by = nomad_group
+discovered_by = north_american
 
 1058.1.1 = {
 	owner = CPU
@@ -29,6 +31,8 @@ add_core = AVS
 	base_production = 1
 	base_manpower = 1
 }
+1155.10.1 = { controller = PAP }
+1156.6.18 = { controller = SIC }
 1302.8.31 = {
 	owner = NAP
 	controller = NAP
@@ -57,5 +61,3 @@ add_core = AVS
 	remove_core = SIC
 	remove_core = SPI
 }
-discovered_by = nomad_group
-discovered_by = north_american

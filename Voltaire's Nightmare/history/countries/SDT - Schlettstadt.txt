@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = boden_alemannic
 religion = catholic
@@ -29,7 +30,8 @@ historical_friend = WAC
 }
 #Kloster St Foy
 1095.2.4 = {
-	government = monastic_order_government
+	government = theocracy
+	add_government_reform = monastic_order_reform
 	monarch = {
 		name = "Canons"
 		adm = 2
@@ -40,7 +42,8 @@ historical_friend = WAC
 }
 #FC
 1216.1.1 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	mercantilism = 25
 	monarch = {
 		name = "Stadtrat"

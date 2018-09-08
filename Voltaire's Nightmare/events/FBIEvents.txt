@@ -2232,6 +2232,7 @@ country_event = {
 
 	trigger = {
 		government = monarchy
+		is_emperor_of_china = no
 		adm_tech = 14
 		has_regency = no
 		num_of_cities = 10

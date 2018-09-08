@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 5
 primary_culture = croatian
 religion = catholic
@@ -77,7 +78,8 @@ capital = 2236
 }
 1102.1.1 = {
 	government_rank = 3
-	government = noble_republic
+	government = republic
+	add_government_reform = noble_elite_reform
 	monarch = {
 		name = "Ugra"
 		adm = 2
@@ -319,7 +321,10 @@ capital = 2236
 		mil = 5
 	}
 }
-1301.1.14 = { government = feudal_monarchy }
+1301.1.14 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1312.5.1 = {
 	monarch = {
 		name = "Mladen"
@@ -330,7 +335,10 @@ capital = 2236
 		mil = 2
 	}
 }
-1314.1.1 = { government = noble_republic }
+1314.1.1 = {
+	government = republic
+	add_government_reform = noble_elite_reform
+}
 1322.1.1 = {
 	monarch = {
 		name = "Nikola"

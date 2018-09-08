@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 3
 technology_group = western
 primary_culture = lombard
@@ -80,7 +81,8 @@ capital = 500
 	}
 }
 1167.4.7 = {
-	government = italian_monarchy
+	government = republic
+	add_government_reform = italian_monarchy
 	government_rank = 1
 	add_army_professionalism = 0.05
 	monarch = {

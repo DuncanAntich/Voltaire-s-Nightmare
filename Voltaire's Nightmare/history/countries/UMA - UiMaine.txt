@@ -1,8 +1,9 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 333
 
 1030.1.1 = {
@@ -59,6 +60,7 @@ capital = 333
 		mil = 2
 	}
 }
+1171.5.1 = { primary_culture = irish }
 1180.1.1 = {
 	monarch = {
 		name = "Murrough"

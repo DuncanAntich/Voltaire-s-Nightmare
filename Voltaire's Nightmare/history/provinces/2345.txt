@@ -1,21 +1,30 @@
-owner = ULS
-controller = ULS
-culture = irish
+owner = CBL
+controller = CBL
+culture = ulaidh
 religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
 trade_goods = livestock
 base_manpower = 1
-capital = "Coleraine"
+capital = "Ballycastle"
 is_city = yes	
-add_core = ULS
+add_core = CBL
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = north_american
 
-1283.1.1 = {
+1171.5.1 = { culture = irish }
+1177.1.1 = {
+	owner = ULS
+	controller = ULS
+	add_core = ULS
+	remove_core = CBL
+}
+1241.1.1 = {
 	owner = ILE
 	controller = ILE
 	add_core = ILE
@@ -55,5 +64,3 @@ discovered_by = muslim
 }
 1798.5.23 = { unrest = 10 }
 1798.7.14 = { unrest = 0 }
-discovered_by = nomad_group
-discovered_by = north_american

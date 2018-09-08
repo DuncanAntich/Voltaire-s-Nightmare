@@ -28,6 +28,8 @@ discovered_by = north_american
 	add_core = SIC
 	remove_core = CPU
 }
+1155.10.1 = { controller = PAP }
+1156.6.18 = { controller = SIC }
 1302.8.31 = {
 	owner = NAP
 	controller = NAP

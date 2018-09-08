@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 4
 technology_group = western
 primary_culture = franconian
@@ -346,7 +347,8 @@ fixed_capital = 2523
 	}
 }
 1524.8.1 = {
-	government = peasants_republic
+	government = republic
+	add_government_reform = peasants_republic
 	government_rank = 2
 	monarch = {
 		name = "Heinrich Pfeiffer"
@@ -358,7 +360,8 @@ fixed_capital = 2523
 	leader = {	name = "Thomas Müntzer"		type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1525.5.15 }
 }
 1525.5.15 = {
-	government = theocratic_government
+	government = theocracy
+	add_government_reform = leading_clergy_reform
 	government_rank = 4
 	monarch = {
 		name = "Konrad III"
@@ -554,7 +557,9 @@ fixed_capital = 2523
 	}
 }
 1802.11.30 = {
-	government = administrative_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
 	monarch = {
 		name = "Ferdinand"
 		dynasty = "von Habsburg"

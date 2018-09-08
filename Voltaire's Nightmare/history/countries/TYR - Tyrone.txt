@@ -1,14 +1,16 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 773
 
 1036.1.1 = {
 	monarch = {
 		name = "Niall V"
 		dynasty = "Ó Néill"
+		birth_date = 997.1.1
 		adm = 2
 		dip = 2
 		mil = 3
@@ -55,18 +57,32 @@ capital = 773
 	monarch = {
 		name = "Donal IV"
 		dynasty = "Mac Lochlainn"
-		birth_date = 1054.1.1 #est
+		birth_date = 1048.1.1
 		adm = 3
 		dip = 4
 		mil = 5
 	}
 }
+1105.1.1 = {
+	heir = {
+		name = "Conchobar"
+		monarch_name = "Conchobar"
+		dynasty = "Mac Lochlainn"
+		birth_date = 1083.1.1
+		death_date = 1136.1.1
+		claim = 80
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
 1121.2.9 = {
 	monarch = {
-		name = "Niall VI"
+		name = "Conchobar"
 		dynasty = "Mac Lochlainn"
-		adm = 2
-		dip = 2
+		birth_date = 1083.1.1
+		adm = 1
+		dip = 1
 		mil = 2
 	}
 }
@@ -81,23 +97,15 @@ capital = 773
 }
 1166.1.1 = {
 	monarch = {
-		name = "Conchobar"
-		dynasty = "Mac Lochlainn"
-		adm = 2
-		dip = 2
-		mil = 2
+		name = "Áed III"
+		dynasty = "Ó Néill"
+		adm = 5
+		dip = 0
+		mil = 5
 	}
 }
-1167.1.1 = {
-	monarch = {
-		name = "Niall VII"
-		dynasty = "Mac Lochlainn"
-		adm = 3
-		dip = 2
-		mil = 2
-	}
-}
-1176.1.1 = {
+1171.5.1 = { primary_culture = irish }
+1177.1.1 = {
 	monarch = {
 		name = "Máel Sechlainn"
 		dynasty = "Mac Lochlainn"
@@ -109,7 +117,7 @@ capital = 773
 1185.1.1 = {
 	monarch = {
 		name = "Donal V"
-		dynasty = "Ó Néill"
+		dynasty = "Mac Lochlainn"
 		adm = 1
 		dip = 1
 		mil = 4
@@ -118,7 +126,7 @@ capital = 773
 1187.1.1 = {
 	monarch = {
 		name = "Muircheartach II"
-		dynasty = "Ó Néill"
+		dynasty = "Mac Lochlainn"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -126,16 +134,25 @@ capital = 773
 }
 1196.1.1 = {
 	monarch = {
-		name = "Áed III"
+		name = "Áed IV"
 		dynasty = "Ó Néill"
 		adm = 3
 		dip = 3
 		mil = 4
 	}
 }
-1235.1.1 = {
+1230.1.1 = {
 	monarch = {
 		name = "Donal VI"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1235.1.1 = {
+	monarch = {
+		name = "Donal VII"
 		dynasty = "Mac Lochlainn"
 		birth_date = 1200.1.1 #est
 		adm = 3
@@ -162,7 +179,7 @@ capital = 773
 }
 1260.5.14 = {
 	monarch = {
-		name = "Áed IV"
+		name = "Áed V"
 		dynasty = "Ó Néill"
 		adm = 2
 		dip = 2
@@ -171,7 +188,7 @@ capital = 773
 }
 1261.1.1 = {
 	monarch = {
-		name = "Niall VIII"
+		name = "Niall VI"
 		dynasty = "Ó Néill"
 		birth_date = 1240.1.1
 		adm = 2
@@ -181,7 +198,7 @@ capital = 773
 }
 1263.1.1 = {
 	monarch = {
-		name = "Donal VII"
+		name = "Donal VIII"
 		dynasty = "Ó Néill"
 		birth_date = 1243.1.1
 		adm = 2
@@ -191,7 +208,7 @@ capital = 773
 }
 1286.1.1 = {
 	monarch = {
-		name = "Niall IX"
+		name = "Niall VII"
 		dynasty = "Ó Néill"
 		birth_date = 1240.1.1
 		adm = 2
@@ -201,7 +218,7 @@ capital = 773
 }
 1290.1.1 = {
 	monarch = {
-		name = "Donal VIII"
+		name = "Donal IX"
 		dynasty = "Ó Néill"
 		birth_date = 1243.1.1
 		adm = 2
@@ -229,7 +246,7 @@ capital = 773
 }
 1345.1.1 = {
 	monarch = {
-		name = "Áed V"
+		name = "Áed VI"
 		dynasty = "Ó Néill"
 		adm = 2
 		dip = 4
@@ -238,7 +255,7 @@ capital = 773
 }
 1364.1.1 = {
 	monarch = {
-		name = "Niall X"
+		name = "Niall VIII"
 		dynasty = "Ó Néill"
 		adm = 2
 		dip = 2
@@ -247,7 +264,7 @@ capital = 773
 }
 1397.1.1 = {
 	monarch = {
-		name = "Niall XI"
+		name = "Niall IX"
 		dynasty = "Ó Néill"
 		adm = 2
 		dip = 2
@@ -255,7 +272,7 @@ capital = 773
 	}
 	heir = {
 		name = "Donal"
-		monarch_name = "Donal IX"
+		monarch_name = "Donal X"
 		dynasty = "Ó Néill"
 		birth_date = 1383.1.1
 		death_date = 1432.1.1
@@ -267,7 +284,7 @@ capital = 773
 }
 1403.1.1 = {
 	monarch = {
-		name = "Donal IX"
+		name = "Donal X"
 		dynasty = "Ó Néill"
 		adm = 1
 		dip = 0
@@ -364,7 +381,7 @@ capital = 773
 	}
 	heir = {
 		name = "Donal"
-		monarch_name = "Donal X"
+		monarch_name = "Donal XI"
 		dynasty = "Ó Néill"
 		birth_date = 1478.1.1
 		death_date = 1509.8.6
@@ -376,7 +393,7 @@ capital = 773
 }
 1498.1.1 = {
 	monarch = {
-		name = "Donal X"
+		name = "Donal XI"
 		dynasty = "Ó Néill"
 		adm = 2
 		dip = 0
@@ -486,7 +503,7 @@ capital = 773
 	}
 	heir = {
 		name = "Áed"
-		monarch_name = "Áed VI"
+		monarch_name = "Áed VII"
 		dynasty = "Ó Néill"
 		birth_date = 1550.1.1
 		death_date = 1616.7.20
@@ -498,12 +515,10 @@ capital = 773
 }
 1593.1.1 = {
 	monarch = {
-		name = "Áed VI"
+		name = "Áed VII"
 		dynasty = "Ó Néill"
 		adm = 1
 		dip = 2
 		mil = 1
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

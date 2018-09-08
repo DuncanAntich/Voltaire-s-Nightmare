@@ -1,8 +1,9 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = erainn
 capital = 393
 
 1016.1.1 = {
@@ -142,6 +143,7 @@ capital = 393
 		mil = 1
 	}
 }
+1171.5.1 = { primary_culture = irish }
 1172.1.1 = {
 	monarch = {
 		name = "Ruaidhrí"
@@ -152,7 +154,8 @@ capital = 393
 	}
 }
 1177.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	government_rank = 3
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish

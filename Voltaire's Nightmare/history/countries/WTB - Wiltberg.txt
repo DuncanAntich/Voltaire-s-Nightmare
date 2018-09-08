@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 primary_culture = franconian
@@ -52,7 +53,8 @@ capital = 63
 	}
 }
 1231.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Manegold II"
 		dynasty = "von Wiltberg"

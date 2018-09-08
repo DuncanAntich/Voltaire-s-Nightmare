@@ -97,7 +97,8 @@ country_decisions = {
 				limit = {
 					is_tribal = yes	#Desert tribes settling down.
 				}
-				change_government = despotic_monarchy
+				change_government = monarchy
+				add_government_reform = autocracy_reform
 			}
 			if = {
 				limit = { primitives = yes }
@@ -208,7 +209,8 @@ country_decisions = {
 				limit = {
 					is_tribal = yes
 				}
-				change_government = despotic_monarchy #Desert tribes settling down.
+				change_government = monarchy
+				add_government_reform = autocracy_reform
 			}
 			if = {
 				limit = { primitives = yes }

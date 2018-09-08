@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 technology_group = north_american
 religion = slavic_pagan
@@ -16,7 +17,8 @@ capital = 2201
 }
 1122.1.1 = {
 	religion = catholic
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	technology_group = western
 	capital = 2642
 }

@@ -30,6 +30,7 @@ country_event = {
 		name = "flavor_sax.EVTOPTA1"
 		add_adm_power = 10
 		add_prestige = 10
+		add_innovativeness_small_effect = yes
 	}
 }
 

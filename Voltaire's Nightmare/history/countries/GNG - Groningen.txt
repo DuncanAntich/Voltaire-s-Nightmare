@@ -1,4 +1,6 @@
-government = administrative_republic
+government = republic
+add_government_reform = oligarchy_reform
+set_legacy_government = administrative_republic
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
@@ -14,4 +16,7 @@ capital = 2383
 		adm = 2
 	}
 }
-1536.8.5 = { government = despotic_monarchy }
+1536.8.5 = {
+	government = monarchy
+	add_government_reform = autocracy_reform
+}

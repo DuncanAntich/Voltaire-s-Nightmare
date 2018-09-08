@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 technology_group = north_american
 religion = slavic_pagan
@@ -35,7 +36,8 @@ capital = 854	# Mecklenburg
 	}
 }
 1127.3.22 = {
-	government = tribal_despotism
+	government = tribal
+	add_government_reform = tribal_despotism
 	technology_group = western
 	monarch = {
 		name = "Niklot"
@@ -58,7 +60,8 @@ capital = 854	# Mecklenburg
 	}
 }
 1167.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	religion = catholic
 	government_rank = 1
 	monarch = {
@@ -209,7 +212,11 @@ capital = 854	# Mecklenburg
 		mil = 2
 	}
 }
-1348.1.1 = { government_rank = 3 government = feudal_monarchy }
+1348.1.1 = {
+	government_rank = 3
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1379.2.18 = {
 	monarch = {
 		name = "Magnus I"
@@ -253,7 +260,6 @@ capital = 854	# Mecklenburg
 		mil = 1
 	}
 }
-
 1422.1.1 = {
 	monarch = {
 		name = "Heinrich IV"
@@ -267,7 +273,6 @@ capital = 854	# Mecklenburg
 	add_ruler_personality = embezzler_personality
 	add_ruler_personality = drunkard_personality
 }
-
 1441.1.1 = {
 	heir = {
 		name = "Magnus"
@@ -281,7 +286,6 @@ capital = 854	# Mecklenburg
 		mil = 2
 	}
 }
-
 1477.3.9 = {
 	monarch = {
 		name = "Magnus II"
@@ -292,7 +296,6 @@ capital = 854	# Mecklenburg
 		mil = 2
 	}
 }
-
 1479.5.3 = {
 	heir = {
 		name = "Heinrich"
@@ -306,7 +309,6 @@ capital = 854	# Mecklenburg
 		mil = 1
 	}
 }
-
 1503.12.27 = {
 	monarch = {
 		name = "Heinrich V"
@@ -317,8 +319,6 @@ capital = 854	# Mecklenburg
 		mil = 1
 	}
 }
-
-
 1525.12.23 = {
 	heir = {
 		name = "Johann Albrecht"
@@ -332,9 +332,7 @@ capital = 854	# Mecklenburg
 		mil = 3
 	}
 }
-
 1531.1.1 = { religion = protestant }
-
 1552.2.6 = {
 	monarch = {
 		name = "Johann Albrecht I"
@@ -345,7 +343,6 @@ capital = 854	# Mecklenburg
 		mil = 3
 	}
 }
-
 1558.3.7 = {
 	heir = {
 		name = "Johann"
@@ -359,7 +356,6 @@ capital = 854	# Mecklenburg
 		mil = 3
 	}
 }
-
 1585.1.1 = {
 	monarch = {
 		name = "Johann VII"
@@ -370,7 +366,6 @@ capital = 854	# Mecklenburg
 		mil = 3
 	}
 }
-
 1588.12.15 = {
 	heir = {
 		name = "Adolf Friedrich"
@@ -384,7 +379,6 @@ capital = 854	# Mecklenburg
 		mil = 4
 	}
 }
-
 1592.1.1 = {
 	monarch = {
 		name = "Adolf Friedrich I"
@@ -395,7 +389,6 @@ capital = 854	# Mecklenburg
 		mil = 4
 	}
 }
-
 1623.12.1 = {
 	heir = {
 		name = "Christian Ludwig"
@@ -409,15 +402,8 @@ capital = 854	# Mecklenburg
 		mil = 2
 	}
 }
-
-1625.5.9 = {
-	join_league = protestant
-}
-
-1626.8.27 = {
-	leave_league = protestant
-}
-
+1625.5.9 = { join_league = protestant }
+1626.8.27 = { leave_league = protestant }
 1628.1.1 = {
 	monarch = {
 		name = "Albrecht Wenzel"
@@ -427,12 +413,8 @@ capital = 854	# Mecklenburg
 		dip = 5
 		mil = 5
 	}
-}
-
-1628.1.1 = {
 	join_league = catholic
 }
-
 1631.1.1 = {
 	monarch = {
 		name = "Adolf Friedrich I"
@@ -442,14 +424,6 @@ capital = 854	# Mecklenburg
 		dip = 4
 		mil = 4
 	}
-}
-
-1631.1.1 = {
-	leave_league = catholic
-	join_league = protestant
-}
-
-1631.1.1 = {
 	heir = {
 		name = "Christian Ludwig"
 		monarch_name = "Christian Ludwig I"
@@ -461,13 +435,10 @@ capital = 854	# Mecklenburg
 		dip = 2
 		mil = 2
 	}
+	leave_league = catholic
+	join_league = protestant
 }
-
-
-1648.10.24 = {
-	leave_league = protestant
-}
-
+1648.10.24 = { leave_league = protestant }
 1658.2.26 = {
 	monarch = {
 		name = "Christian Ludwig I"
@@ -478,7 +449,6 @@ capital = 854	# Mecklenburg
 		mil = 2
 	}
 }
-
 1675.3.28 = {
 	heir = {
 		name = "Friedrich Wilhelm"
@@ -492,8 +462,6 @@ capital = 854	# Mecklenburg
 		mil = 1
 	}
 }
-		
-
 1692.6.22 = {
 	monarch = {
 		name = "Friedrich Wilhelm I"
@@ -503,9 +471,6 @@ capital = 854	# Mecklenburg
 		dip = 4
 		mil = 1
 	}
-}
-
-1692.6.22 = {
 	heir = {
 		name = "Karl Leopold"
 		monarch_name = "Karl Leopold"
@@ -518,7 +483,6 @@ capital = 854	# Mecklenburg
 		mil = 2
 	}
 }
-
 1713.7.30 = {
 	monarch = {
 		name = "Karl Leopold"
@@ -528,9 +492,6 @@ capital = 854	# Mecklenburg
 		dip = 2
 		mil = 2
 	}
-}
-
-1713.7.30 = {
 	heir = {
 		name = "Christian Ludwig"
 		monarch_name = "Christian Ludwig II"
@@ -543,7 +504,6 @@ capital = 854	# Mecklenburg
 		mil = 1
 	}
 }
-
 1728.1.1 = {
 	monarch = {
 		name = "Christian Ludwig II"
@@ -553,9 +513,6 @@ capital = 854	# Mecklenburg
 		dip = 3
 		mil = 1
 	}
-}
-
-1728.1.1 = {
 	heir = {
 		name = "Friedrich"
 		monarch_name = "Friedrich der Fromme"
@@ -568,9 +525,7 @@ capital = 854	# Mecklenburg
 		mil = 1
 	}
 }
-
-1740.1.1 = { government = enlightened_despotism }
-
+1740.1.1 = { set_legacy_government = enlightened_despotism }
 1756.5.30 = {
 	monarch = {
 		name = "Friedrich der Fromme"
@@ -581,7 +536,6 @@ capital = 854	# Mecklenburg
 		mil = 3
 	}
 }
-
 1756.12.10 = {
 	heir = {
 		name = "Friedrich Franz"

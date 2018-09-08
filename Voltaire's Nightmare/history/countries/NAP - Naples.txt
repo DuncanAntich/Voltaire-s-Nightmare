@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 3
 technology_group = western
 religion = catholic
@@ -330,8 +331,11 @@ capital = 564 # Napoli
 	}		
 }
 
-1709.12.22 = { government = despotic_monarchy }
-1734.6.2 = { government = enlightened_despotism }
+1709.12.22 = {
+	government = monarchy
+	add_government_reform = autocracy_reform
+}
+1734.6.2 = { set_legacy_government = enlightened_despotism }
 1734.6.2 = {
 	monarch = {
 		name = "Carlo VII"

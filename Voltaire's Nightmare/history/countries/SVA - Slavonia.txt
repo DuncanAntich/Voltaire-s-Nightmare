@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 3
 technology_group = western
 religion = catholic
@@ -6,7 +7,8 @@ primary_culture = croatian
 capital = 2236
 
 1225.1.1 = {
-	government = noble_republic
+	government = republic
+	add_government_reform = noble_elite_reform
 	monarch = {
 		name = "Aladar"
 		adm = 2
@@ -214,8 +216,14 @@ capital = 2236
 		mil = 4
 	}
 }
-1301.1.14 = { government = feudal_monarchy }
-1314.1.1 = { government = noble_republic }
+1301.1.14 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
+1314.1.1 = {
+	government = republic
+	add_government_reform = noble_elite_reform
+}
 1316.1.1 = {
 	monarch = {
 		name = "Ivan"
@@ -372,5 +380,8 @@ capital = 2236
 		mil = 2
 	}
 }
-1463.1.1 = { government = feudal_monarchy }
+1463.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 #1463 done

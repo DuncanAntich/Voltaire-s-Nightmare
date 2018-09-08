@@ -30,7 +30,12 @@ country_event = {
 	option = {		# Reform and claim
 		name = flavor_swe.1.a
 		ai_chance = { factor = 100 }
-
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		# Claim Skåne
 		if = {
 			limit = {
@@ -331,6 +336,12 @@ country_event = {
 	option = {			# An Excellent Minister!
 		name = "EXCELLENTMINISTER"
 		add_adm_power = 50
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		define_advisor = {
 			type = spymaster
 			name = "Jöran Persson"
@@ -368,6 +379,12 @@ country_event = {
 		add_adm_power = 33
 		add_dip_power = 33
 		add_mil_power = 33
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		define_advisor = {
 			type = statesman
 			name = "Per Brahe den äldre"
@@ -421,6 +438,7 @@ country_event = {
 				duration = -1
 			}
 		}
+		add_innovativeness_small_effect = yes
 	}
 	option = {		# We are not interested
 		name = "flavor_swe.EVTOPTB3227"
@@ -459,6 +477,7 @@ country_event = {
 			name = swedish_military_reforms
 			duration = -1
 		}
+		add_innovativeness_small_effect = yes
 	}
 	option = {		# Mercenary Core
 		name = "flavor_swe.EVTOPTB3228"
@@ -467,7 +486,9 @@ country_event = {
 		add_country_modifier = {
 			name = swedish_mercenary_core
 			duration = -1
-		}	}
+		}
+		add_innovativeness_small_effect = yes
+	}
 	option = {		# Naval Expansion
 		name = "flavor_swe.EVTOPTC3228"
 		ai_chance = { factor = 15 }
@@ -476,6 +497,7 @@ country_event = {
 			name = swedish_naval_reforms
 			duration = -1
 		}
+		add_innovativeness_small_effect = yes
 	}
 }
 
@@ -701,7 +723,7 @@ country_event = {
 		add_dip_power = 100
 		add_mil_power = 100
 		set_country_flag = swe_oxenstierna
-
+		add_innovativeness_small_effect = yes
 	}
 }
 
@@ -1417,6 +1439,7 @@ country_event = {
 	option = {				# Excellent
 		name = "EXCELLENT"
 		add_dip_power = 75
+		add_innovativeness_small_effect = yes
 	}
 }
 
@@ -1443,6 +1466,7 @@ country_event = {
 	option = {				# Excellent
 		name = "EXCELLENT"
 		add_prestige = 25
+		add_innovativeness_big_effect = yes
 	}
 }
 
@@ -1841,7 +1865,7 @@ country_event = {
 	trigger = {
 		tag = SWE
 		has_country_modifier = age_of_fredom
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		OR = {
 			MIL = 5
 			ADM = 5
@@ -1858,7 +1882,8 @@ country_event = {
 	option = {		# The King shall rule!
 		name = "flavor_swe.EVTOPTA3262"
 		remove_country_modifier = age_of_fredom
-		change_government = enlightened_despotism
+		add_government_reform = political_absolutism_reform
+		set_legacy_government = enlightened_despotism
 	}
 	option = {		# No more tyrants!
 		name = "flavor_swe.EVTOPTB3262"

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = franconian
 religion = catholic
@@ -372,7 +373,7 @@ capital = 67
 	}
 }
 1735.5.17 = {
-	government = enlightened_despotism
+	set_legacy_government = enlightened_despotism
 	monarch = {
 		name = "Friedrich VIII"
 		dynasty = "von Hohenzollern"

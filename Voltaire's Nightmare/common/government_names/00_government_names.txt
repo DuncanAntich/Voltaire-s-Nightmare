@@ -126,9 +126,15 @@ gov_tribal_irish = {
 	}
 	
 	trigger = {
-		government = tribal_kingdom
+		government = tribal
 		OR = {
 			primary_culture = irish
+			primary_culture = dalcassian
+			primary_culture = eoganachta
+			primary_culture = connachta
+			primary_culture = ulaidh
+			primary_culture = erainn
+			primary_culture = laigin
 			primary_culture = gallowglass
 		}
 	}
@@ -410,7 +416,8 @@ burgrave_monarchy = {
 		is_part_of_hre = yes
 		OR = {
 			government = monarchy
-			government = noble_republic
+			has_reform = noble_republic
+			has_reform = noble_elite_reform
 		}
 		OR = {
 			tag = BME
@@ -693,7 +700,9 @@ holy_roman_electors_bishoprics = {
 	}
 
 	trigger = {
-		government = theocratic_government
+		government = theocracy
+		NOT = { has_reform = monastic_order_government }
+		NOT = { has_reform = monastic_order_reform }
 		is_elector = yes
 	}
 }
@@ -727,7 +736,7 @@ three_leagues = {
 	}
 
 	trigger = {
-		government = oligarchic_republic
+		government = republic
 		OR = {
 			tag = KHR
 			tag = DIX
@@ -765,7 +774,9 @@ holy_roman_archbishoprics = {
 	}
 
 	trigger = {
-		government = theocratic_government
+		government = theocracy
+		NOT = { has_reform = monastic_order_government }
+		NOT = { has_reform = monastic_order_reform }
 		is_part_of_hre = yes
 		OR = {
 			tag = BRE
@@ -876,7 +887,8 @@ ottoman_marches = {
 	trigger = {
 		OR = {
 			is_march = yes
-			government = colonial_government
+			has_reform = colonial_government
+			has_reform = colonial_government_legacy
 		}
 		religion_group = muslim
 		overlord = {
@@ -986,7 +998,10 @@ maniot_monarchy = {
 	}
 
 	trigger = {
-		government = noble_republic
+		OR = {
+			has_reform = noble_elite_reform
+			has_reform = noble_republic
+		}
 		tag = MNI
 	}
 }
@@ -1089,7 +1104,8 @@ south_slavic_subject = {
 
 	trigger = {
 		OR = {
-			government = noble_republic
+			has_reform = noble_elite_reform
+			has_reform = noble_republic
 			government = monarchy
 		}
 		OR = {
@@ -1168,7 +1184,7 @@ italian_commune_monarchy = {
 	}
 
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		OR = {
 			is_statists_in_power = yes
 			AND = {
@@ -1208,7 +1224,7 @@ italian_signore_monarchy = {
 	}
 
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		OR = {
 			is_orangists_in_power = yes
 			AND = {
@@ -1248,7 +1264,7 @@ other_signore_monarchy = {
 	}
 
 	trigger = {
-		government = despotic_monarchy
+		has_reform = autocracy_reform
 		OR = {
 			NOT = { culture_group = french }
 			is_part_of_hre = yes
@@ -1285,7 +1301,7 @@ other_other_signore_monarchy = {
 	}
 
 	trigger = {
-		government = despotic_monarchy
+		has_reform = autocracy_reform
 		is_part_of_hre = no
 		culture_group = french
 	}
@@ -1406,7 +1422,7 @@ habsburg_netherlands_gov = {
 	}
 	
 	trigger = {
-		government = administrative_monarchy
+		has_reform = administrative_monarchy
 		tag = BUR
 	}
 }
@@ -1440,7 +1456,10 @@ german_republican_bailiff = {
 	}
 	
 	trigger = {
-		government = noble_republic
+		OR = {
+			has_reform = noble_republic
+			has_reform = noble_elite_reform
+		}
 		NOT = { overlord = { culture_group = magyar } }
 	}
 }
@@ -1531,8 +1550,8 @@ serbian_feudal_monarchy = {
 
 	trigger = {
 		OR = {
-			government = feudal_monarchy
-			government = despotic_monarchy
+			has_reform = feudalism_reform
+			has_reform = autocracy_reform
 		}
 		primary_culture = serbian
 		religion = orthodox
@@ -1673,12 +1692,7 @@ muslim_tribal = {
 
 	trigger = {
 		religion_group = muslim
-		OR = {
-			government = tribal_despotism
-			government = tribal_kingdom
-			government = tribal_federation
-			government = tribal_democracy
-		}
+		government = tribal
 	}
 }
 
@@ -1853,7 +1867,7 @@ march_eastern_christian_monarchy = {
 	
 	trigger = {
 		government = monarchy
-		NOT = { government = principality }
+		NOT = { has_reform = principality }
 		OR = {
 			religion = bogomilist
 			religion = orthodox
@@ -1894,11 +1908,7 @@ vassal_theocracy = {
 		is_march = no
 		government = monarchy
 		overlord = {
-			OR = {
-				government = theocratic_government
-				government = monastic_order_government
-				government = crusader_order_government
-			}
+			government = theocracy
 		}
 	}
 }
@@ -1933,8 +1943,8 @@ muslim_monarchy = {
 
 	trigger = {
 		government = monarchy
-		NOT = { government = steppe_horde }
-		NOT = { government = feudal_theocracy }
+		NOT = { has_reform = steppe_horde }
+		NOT = { has_reform = feudal_theocracy }
 		religion_group = muslim
 	}
 }
@@ -1954,7 +1964,7 @@ german_free_city = {
 	}
 
 	trigger = {
-		government = imperial_city
+		has_reform = free_city
 		culture_group = germanic
 	}
 }
@@ -1973,7 +1983,7 @@ gov_free_city = {
 	}
 
 	trigger = {
-		government = imperial_city
+		has_reform = free_city
 	}
 }
 
@@ -2007,7 +2017,8 @@ ragusan_republic = {
 
 	trigger = {
 		government = republic
-		NOT = { government = noble_republic }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 		tag = RAG
 	}
 }
@@ -2043,9 +2054,10 @@ dutch_republic = {
 	trigger = {
 		government = republic
 		primary_culture = dutch
-		NOT = { government = revolutionary_republic }
-		NOT = { government = republican_dictatorship }
-		NOT = { government = noble_republic }
+		NOT = { has_reform = revolutionary_republic_reform }
+		NOT = { has_reform = presidential_despot_reform }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 	}
 }
 
@@ -2080,10 +2092,10 @@ russian_republic = {
 	trigger = {
 		government = republic
 		culture_group = east_slavic
-		NOT = { government = revolutionary_republic }
-		NOT = { government = constitutional_republic }
-		NOT = { government = republican_dictatorship }
-		NOT = { government = noble_republic }
+		NOT = { has_reform = revolutionary_republic_reform }
+		NOT = { has_reform = presidential_despot_reform }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 	}
 }
 
@@ -2121,10 +2133,10 @@ south_slavic_republic = {
 			tag = DMR
 			tag = POJ
 		}
-		NOT = { government = revolutionary_republic }
-		NOT = { government = constitutional_republic }
-		NOT = { government = republican_dictatorship }
-		NOT = { government = noble_republic }
+		NOT = { has_reform = revolutionary_republic_reform }
+		NOT = { has_reform = presidential_despot_reform }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 	}
 }
 
@@ -2194,7 +2206,7 @@ ambrosian_republic = {
 	}
 
 	trigger = {
-		government = ambrosian_republic
+		has_reform = ambrosian_republic
 	}
 }
 
@@ -2229,8 +2241,9 @@ german_republic = {
 	trigger = {
 		government = republic
 		culture_group = germanic
-		NOT = { government = canton_government }
-		NOT = { government = noble_republic }
+		NOT = { has_reform = canton_government }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 	}
 }
 
@@ -2263,7 +2276,7 @@ hereditary_republic = {
 	}
 
 	trigger = {
-		government = merchant_republic
+		has_reform = merchants_reform
 		OR = {
 			tag = GAE
 			tag = AML
@@ -2301,8 +2314,9 @@ italian_republic = {
 
 	trigger = {
 		government = republic
-		NOT = { government = italian_monarchy }
-		NOT = { government = noble_republic }
+		NOT = { has_reform = italian_monarchy }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 		OR = {
 			culture_group = latin
 			culture_group = rhaetic
@@ -2341,7 +2355,8 @@ muslim_republic = {
 	trigger = {
 		government = republic
 		religion_group = muslim
-		NOT = { government = noble_republic }
+		NOT = { has_reform = noble_republic }
+		NOT = { has_reform = noble_elite_reform }
 	}
 }
 
@@ -2375,8 +2390,8 @@ russian_monarchy = {
 
 	trigger = {
 		OR = {
-			government = principality
-			government = tsardom
+			has_reform = principality
+			has_reform = tsardom
 		}
 	}
 }
@@ -2412,7 +2427,10 @@ iberian_colonial_government = {
 
 	trigger = {
 		culture_group = iberian
-		government = colonial_government
+		OR = {
+			has_reform = colonial_government
+			has_reform = colonial_government_legacy
+		}
 	}
 }
 byzantine_colonial_government = {
@@ -2448,7 +2466,10 @@ byzantine_colonial_government = {
 			culture_group = byzantine
 			primary_culture = roman
 		}
-		government = colonial_government
+		OR = {
+			has_reform = colonial_government
+			has_reform = colonial_government_legacy
+		}
 	}
 }
 #If only two first levels used then reorder so that only 2 and 3 are used
@@ -2482,7 +2503,10 @@ dutch_colonial_government = {
 
 	trigger = {
 		primary_culture = dutch
-		government = colonial_government
+		OR = {
+			has_reform = colonial_government
+			has_reform = colonial_government_legacy
+		}
 	}
 }
 
@@ -2516,7 +2540,7 @@ teutonic_monastic_order = {
 	}
 
 	trigger = {
-		government = crusader_order_government
+		has_reform = crusader_order_government
 		tag = TEU
 	}
 }
@@ -2551,7 +2575,7 @@ athenian_monastic_order = {
 	}
 
 	trigger = {
-		government = crusader_order_government
+		has_reform = crusader_order_government
 		tag = ATH
 	}
 }
@@ -2586,7 +2610,7 @@ livonian_monastic_order = {
 	}
 
 	trigger = {
-		government = crusader_order_government
+		has_reform = crusader_order_government
 		tag = LIV
 	}
 }
@@ -2620,7 +2644,10 @@ provostry_order = {
 	}
 
 	trigger = {
-		government = monastic_order_government
+		OR = {
+			has_reform = monastic_order_government
+			has_reform = monastic_order_reform
+		}
 		OR = {
 			tag = BTG
 			tag = ELL
@@ -2659,7 +2686,7 @@ generic_monastic_order = {
 	}
 
 	trigger = {
-		government = crusader_order_government
+		has_reform = crusader_order_government
 		NOT = { tag = TEU }
 		NOT = { tag  = LIV }
 	}
@@ -2730,7 +2757,7 @@ ibadi_theocracy = {
 	trigger = {
 		religion = ibadi
 		OR = {
-			government = feudal_theocracy
+			has_reform = feudal_theocracy
 			government = theocracy
 		}
 	}
@@ -2767,7 +2794,7 @@ shiite_theocracy = {
 	trigger = {
 		religion = shiite
 		OR = {
-			government = feudal_theocracy
+			has_reform = feudal_theocracy
 			government = theocracy
 		}
 	}
@@ -2804,7 +2831,7 @@ sunni_theocracy = {
 	trigger = {
 		religion = sunni
 		OR = {
-			government = feudal_theocracy
+			has_reform = feudal_theocracy
 			government = theocracy
 		}
 	}

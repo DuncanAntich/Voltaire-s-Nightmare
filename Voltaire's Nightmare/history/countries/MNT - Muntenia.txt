@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 technology_group = north_american
 primary_culture = wallachian
@@ -15,7 +16,8 @@ capital = 2748
 	}
 }
 1240.1.1 = {
-	government = tribal_despotism
+	government = tribal
+	add_government_reform = = tribal_despotism
 	technology_group = eastern
 	monarch = {
 		name = "Mislav"

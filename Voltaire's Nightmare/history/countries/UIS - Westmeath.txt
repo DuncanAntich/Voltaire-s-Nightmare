@@ -1,12 +1,54 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 2312
 
+#O Geoghegan lords
+1050.1.1 = {
+	monarch = {
+		name = "Donoch II"
+		dynasty = "Mac Eochagáin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Conghail V"
+		dynasty = "Mac Eochagáin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1110.1.1 = {
+	monarch = {
+		name = "Murtach"
+		dynasty = "Mac Eochagáin"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1140.1.1 = {
+	monarch = {
+		name = "Donoch III"
+		dynasty = "Mac Eochagáin"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1171.5.1 = { primary_culture = irish }
+
+#Barons
 1172.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	primary_culture = hiberno_norman
 	add_accepted_culture = irish
 	monarch = {

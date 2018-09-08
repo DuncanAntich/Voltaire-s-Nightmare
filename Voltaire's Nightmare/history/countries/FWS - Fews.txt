@@ -1,11 +1,21 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = connachta
 capital = 862
 
-1211.1.1 = {
+1054.1.1 = {
+	monarch = {
+		name = "Flaithbertach"
+		dynasty = "Ó hAnluain"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1081.1.1 = {
 	monarch = {
 		name = "Donnchad"
 		dynasty = "Ó hAnluain"
@@ -14,7 +24,26 @@ capital = 862
 		mil = 3
 	}
 }
-1228.1.1 = {
+1111.1.1 = {
+	monarch = {
+		name = "Cú Macha"
+		dynasty = "Ó hAnluain"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1142.1.1 = {
+	monarch = {
+		name = "MacCraith"
+		dynasty = "Ó hAnluain"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1171.5.1 = { primary_culture = irish }
+1177.1.1 = {
 	monarch = {
 		name = "Ardghal"
 		dynasty = "Ó hAnluain"
@@ -23,7 +52,7 @@ capital = 862
 		mil = 2
 	}
 }
-1243.1.1 = {
+1212.1.1 = {
 	monarch = {
 		name = "Murchadh"
 		dynasty = "Ó hAnluain"
@@ -32,7 +61,7 @@ capital = 862
 		mil = 2
 	}
 }
-1248.1.1 = {
+1246.1.1 = {
 	monarch = {
 		name = "Cu-Uladh I"
 		dynasty = "Ó hAnluain"
@@ -126,7 +155,7 @@ capital = 862
 }
 1380.1.1 = {
 	monarch = {
-		name = "Ardgal"
+		name = "Ardghal"
 		dynasty = "Ó hAnluain"
 		adm = 2
 		dip = 1
@@ -225,5 +254,3 @@ capital = 862
 		mil = 2
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

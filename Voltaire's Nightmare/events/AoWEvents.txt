@@ -1544,7 +1544,6 @@ country_event = {
 			advisor_type=spymaster
 			advisor_type_if_not_state=spymaster
 			scaled_skill = yes
-			skill = 0
 			discount=yes
 		}
 	}
@@ -1708,15 +1707,35 @@ country_event = {
 	trigger = {
 		papacy_active = yes
 		OR = {
-			religion = catholic
-			religion = catholique
+			AND = {
+				religion = catholic
+				OR = {
+					employed_advisor = {
+						type = theologian
+						religion = catholic
+					}
+					employed_advisor = {
+						type = inquisitor
+						religion = catholic
+					}
+				}
+			}
+			AND = {
+				religion = catholique
+				OR = {
+					employed_advisor = {
+						type = theologian
+						religion = catholique
+					}
+					employed_advisor = {
+						type = inquisitor
+						religion = catholique
+					}
+				}
+			}
 		}
 		NOT = { tag = PAP }
 		NOT = { tag = AVI }
-		OR = {
-			advisor = theologian
-			advisor = inquisitor
-		}
 		NOT = { num_of_cardinals = 7 }
 		NOT = { total_number_of_cardinals = 49 }
 		any_owned_province = {
@@ -1771,7 +1790,6 @@ country_event = {
 		name = "aow_events.49.a"
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {

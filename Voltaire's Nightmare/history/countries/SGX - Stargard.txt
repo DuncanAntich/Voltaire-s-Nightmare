@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
@@ -15,7 +16,8 @@ capital = 883
 	}
 }
 1167.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	technology_group = western
 	religion = catholic
 }

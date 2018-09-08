@@ -152,6 +152,18 @@ defined_text = {
 			government = monarchy
 		}
     }
+    text = {
+        localisation_key = string_khanzada
+		trigger = {
+			has_reform = steppe_horde
+		}
+    }
+	text = {
+        localisation_key = string_royalist
+		trigger = {
+			government = tribal
+		}
+    }
 	text = {
 		 localisation_key = string_republican
 		trigger = {

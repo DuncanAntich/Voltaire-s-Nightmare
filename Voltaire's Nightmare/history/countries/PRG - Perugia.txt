@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 3
 technology_group = western
 religion = catholic
@@ -32,7 +33,8 @@ add_army_professionalism = 0.05
 }
 #City
 1100.1.1 = {
-	government = italian_monarchy
+	government = republic
+	add_government_reform = italian_monarchy
 	government_rank = 1
 	monarch = {
 		name = "Repubblica"
@@ -155,7 +157,8 @@ add_army_professionalism = 0.05
 	}
 }
 1437.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Braccio I"
 		dynasty = "Baglioni"
@@ -237,7 +240,9 @@ add_army_professionalism = 0.05
 }
 #1540 done
 1798.2.4 = {
-	government = constitutional_republic
+	government = republic
+	add_government_reform = oligarchy_reform
+	set_legacy_government = constitutional_republic
 	monarch = {
 		name = "Repubblica Tiberina"
 		adm = 2

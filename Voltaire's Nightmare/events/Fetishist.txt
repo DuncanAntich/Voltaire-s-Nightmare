@@ -1330,7 +1330,7 @@ province_event = {
 					NOT = { republican_tradition = 75 }
 				}
 				AND = {
-					government = steppe_horde
+					has_reform = steppe_horde
 					NOT = { legitimacy = 80 }
 					NOT = { horde_unity = 75 }
 				}
@@ -2873,7 +2873,10 @@ country_event = {
 		desc = fetishist_flavor.409.d.b
 	}
 
-	trigger = { has_heir = no }
+	trigger = {
+		has_heir = no
+		has_government_attribute = heir
+	}
 
 	is_triggered_only = yes
 

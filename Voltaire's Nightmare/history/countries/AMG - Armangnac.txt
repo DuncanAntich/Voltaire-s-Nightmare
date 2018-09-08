@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = gascon
@@ -384,4 +385,4 @@ fixed_capital = 1222
 }
 
 1560.1.1 = { religion = reformed }
-1562.11.18 = { government = administrative_monarchy }
+1562.11.18 = { set_legacy_government = administrative_monarchy }

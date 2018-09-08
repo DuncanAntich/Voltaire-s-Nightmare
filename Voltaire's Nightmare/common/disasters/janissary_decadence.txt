@@ -1,7 +1,7 @@
 janissary_decadence = {
 	potential = {
 		normal_or_historical_nations = yes
-		government = ottoman_government
+		has_reform = ottoman_government
 		NOT = { has_country_flag = had_janissary_decadence }
 	}
 

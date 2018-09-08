@@ -15,7 +15,6 @@ country_event = {
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		estate_influence = {
 			estate = estate_nobles
@@ -179,7 +178,6 @@ country_event = {
 	picture = BATTLE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		num_of_cities = 12
 		any_owned_province = {
 			base_tax = 2
@@ -475,7 +473,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		NOT = {
 			has_estate_influence_modifier = {
@@ -521,7 +518,6 @@ country_event = {
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		NOT = {
 			has_estate_influence_modifier = {
@@ -569,7 +565,6 @@ country_event = {
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		NOT = { manpower_percentage = 0.95 }
 		NOT = {
@@ -670,7 +665,6 @@ country_event = {
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		NOT = {
 			has_estate_influence_modifier = {
@@ -767,7 +761,6 @@ country_event = {
 	picture = BATTLE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		has_estate = estate_burghers
 		NOT = {
@@ -884,7 +877,6 @@ country_event = {
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		NOT = {
 			estate_loyalty = {
@@ -990,7 +982,6 @@ country_event = {
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		any_owned_province = {
 			is_capital = no
@@ -1064,7 +1055,6 @@ country_event = {
 	picture = BATTLE_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_cossacks
 		estate_influence = {
 			estate = estate_cossacks

@@ -156,7 +156,6 @@ country_event = {
 		name = anglican_events.4.c
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 			}				
 			add_estate_influence_modifier = {
@@ -267,7 +266,7 @@ country_event = {
 	}
 
 	option = { # reconsider the revisions
-		name = anglican_events.6.b
+		name = anglican_events.6.a
 		ai_chance = {
 			factor = 1
 		}
@@ -292,7 +291,7 @@ country_event = {
 	}
 	
 	option = { # Go through with the revisions. Punish dissenters
-		name = anglican_events.6.a
+		name = anglican_events.6.b
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -641,7 +640,6 @@ country_event = {
 		if = {
 			limit = {
 				has_estate = estate_church
-				has_dlc = "The Cossacks"
 			}
 			add_estate_influence_modifier = {
 				estate = estate_church
@@ -819,11 +817,11 @@ country_event = {
 	
 	major = yes
 	
-	fire_only_once = yes
-	
 	trigger = {
 		has_dlc = "Rule Britannia"
 		is_religion_enabled = protestant
+		NOT = { has_country_flag = had_anglican_question }
+		is_subject = no
 		religion_years = { protestant = 15 }
 		NOT = {
 			is_religion_enabled = anglican
@@ -841,9 +839,6 @@ country_event = {
 			}
 		}
 		num_of_cities = 10
-		NOT = {
-			is_year = 1600
-		}
 	}
 	mean_time_to_happen = {
 		months = 120
@@ -874,12 +869,21 @@ country_event = {
 			}
 		}
 	}
+
+	immediate = {
+		set_country_flag = had_anglican_question
+	}
 		
 	option = { # just convert
 		name = anglican_events.14.a
 		trigger = { has_dlc = "Rule Britannia" }
 		ai_chance = {
 			factor = 75
+			modifier = {
+				factor = 0.01
+				NOT = { tag = ENG }
+				NOT = { tag = GBR }
+			}
 		}
 		enable_religion = anglican
 		if = {
@@ -926,7 +930,16 @@ country_event = {
 	}
 	option = { # convert and spawn a CoR
 		name = anglican_events.14.b
-		trigger = { has_dlc = "Rule Britannia" }
+		trigger = {
+			has_dlc = "Rule Britannia"
+			current_age = age_of_reformation
+			NOT = {
+				any_province = {
+					is_reformation_center = yes
+					religion = anglican
+				}
+			}
+		}
 		ai_chance = {
 			factor = 0
 		}

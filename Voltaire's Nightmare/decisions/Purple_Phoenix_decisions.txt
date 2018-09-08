@@ -16,10 +16,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			region = hellas_region
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			hellas_region = { type = all owned_by = BYZ }
@@ -60,10 +57,7 @@ country_decisions = {
 				province_id = 137
 				province_id = 1083
 			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			owns = 1047 #Silistra
@@ -102,10 +96,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			region = greekislands_region
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			greekislands_region = { type = all owned_by = BYZ }
@@ -140,10 +131,7 @@ country_decisions = {
 				region = bithynia_region
 				region = ephesian_region
 			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			bithynia_region = { type = all owned_by = BYZ }
@@ -181,10 +169,7 @@ country_decisions = {
 				region = calabrian_region
 				region = sicilia_region
 			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			apulia_region = { type = all owned_by = BYZ }

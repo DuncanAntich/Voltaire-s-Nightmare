@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = eastphalian
 religion = catholic
@@ -306,7 +307,7 @@ capital = 1775
 	}
 }
 1640.11.14 = {
-	government = administrative_monarchy
+	set_legacy_government = administrative_monarchy
 	monarch = {
 		name = "Philipp I"
 		dynasty = "zur Lippe"

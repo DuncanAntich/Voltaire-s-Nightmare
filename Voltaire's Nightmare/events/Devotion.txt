@@ -17,12 +17,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = monastic_order_government
-			government = crusader_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		NOT = {
 			has_country_modifier = dev_general_hospital
 		}
@@ -40,7 +35,6 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -50,16 +44,7 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_benedictines
 			influence = 3
@@ -75,16 +60,7 @@ country_event = {
 		ai_chance = {
 			factor = 45
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_cistercians
 			influence = 3
@@ -102,12 +78,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		NOT = {
 			has_country_modifier = dev_fort_maintenance
 		}
@@ -149,12 +120,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		has_country_modifier = dev_fort_maintenance
 	}
 	
@@ -170,7 +136,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
@@ -180,16 +145,7 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_cistercians
 			influence = 3
@@ -205,7 +161,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -220,16 +175,7 @@ country_event = {
 			faction = abb_cistercians
 			influence = -3
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 }
 
@@ -242,12 +188,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		any_owned_province = {
 			has_influencing_fort = yes
 			NOT = { is_capital = yes }
@@ -300,12 +241,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		any_owned_province = {
 			has_influencing_fort = yes
 		}		
@@ -345,11 +281,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		OR = {
 			religion = catholic
 			religion = catholique
@@ -399,7 +331,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
@@ -411,16 +342,7 @@ country_event = {
 		}
 		add_devotion = 10
 		add_prestige = 25
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 		random_owned_province = {
 			limit = { has_province_flag = prov_wants_rel_free }
 			add_base_production = -1
@@ -437,16 +359,7 @@ country_event = {
 			factor = 50
 		}
 		add_devotion = -25
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 		random_owned_province = {
 			limit = { has_province_flag = prov_wants_rel_free }
 			change_religion = protestant
@@ -469,7 +382,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		government = crusader_order_government
+		has_reform = crusader_order_government
 		any_owned_province = {
 			base_production = 2
 			is_in_capital_area = yes
@@ -490,16 +403,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_devotion = 10
 		random_owned_province = {
 			limit = {
@@ -527,7 +431,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -537,16 +440,7 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_benedictines
 			influence = -3
@@ -565,12 +459,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 	}
 	
 	is_triggered_only = yes
@@ -610,12 +499,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		has_country_flag = dev_forged_documents_flag
 
 	}
@@ -651,11 +535,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		has_country_flag = theo_local_noble_flag
 		NOT = { devotion = 80 }
 	}
@@ -691,11 +571,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		has_country_flag = theo_foreign_noble_flag
 	}
 	
@@ -730,11 +606,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		has_country_flag = theo_merchants_son_flag
 	}
 	
@@ -769,11 +641,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		has_country_flag = theo_talented_theologian_flag
 	}
 	
@@ -808,11 +676,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		has_country_flag = theo_local_preacher_flag
 	}
 	
@@ -848,11 +712,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		OR = {
 			religion = reformed
 			religion = protestant
@@ -895,11 +755,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 	}
 	
 	is_triggered_only = yes
@@ -927,12 +783,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		NOT = {
 			religion_group = muslim
 		}
@@ -950,7 +801,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -961,21 +811,8 @@ country_event = {
 			}
 		}
 		add_devotion = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
+		reduce_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_cistercians
 			influence = -3
@@ -987,7 +824,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
@@ -998,21 +834,8 @@ country_event = {
 			}
 		}
 		add_prestige = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
+		add_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_cistercians
 			influence = 3
@@ -1036,11 +859,7 @@ province_event = {
 		has_influencing_fort = yes
 		is_capital = no
 		owner = {
-			OR = {
-				government = theocratic_government
-				government = crusader_order_government
-				government = monastic_order_government
-			}
+			government = theocracy
 		}
 		
 	}
@@ -1057,7 +876,6 @@ province_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				owner = {
 					has_estate = estate_burghers
 					NOT = {
@@ -1070,16 +888,7 @@ province_event = {
 			}
 		}
 		owner = {
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_burghers
-				}
-				add_estate_loyalty = {
-					estate = estate_burghers
-					loyalty = -10
-				}
-			}
+			reduce_estate_burghers_loyalty_effect = yes
 		}
 		add_province_modifier = {
 			name = add_unrest_5_modifier
@@ -1096,7 +905,6 @@ province_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				owner = {
 					has_estate = estate_church
 					NOT = {
@@ -1111,16 +919,7 @@ province_event = {
 		add_local_autonomy = 10			
 		owner = { add_devotion = -10 }
 		owner = {
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_church
-				}
-				add_estate_loyalty = {
-					estate = estate_church
-					loyalty = -10
-				}
-			}
+			reduce_estate_church_loyalty_effect = yes
 		}
 		add_faction_influence = {
 			faction = abb_cistercians
@@ -1138,12 +937,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 	}
 	
 	is_triggered_only = yes
@@ -1158,16 +952,7 @@ country_event = {
 			factor = 50
 		}
 		add_adm_power = -50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_benedictines
 			influence = 3
@@ -1179,7 +964,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1190,16 +974,7 @@ country_event = {
 			}
 		}
 		add_devotion = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_benedictines
 			influence = -3
@@ -1216,11 +991,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		NOT = {
 			advisor = theologian
 		}
@@ -1267,11 +1038,7 @@ province_event = {
 		is_state = yes
 		has_estate = no
 		owner = {
-			OR = {
-				government = theocratic_government
-				government = crusader_order_government
-				government = monastic_order_government
-			}
+			uses_devotion = yes
 		}
 		
 	}
@@ -1288,7 +1055,6 @@ province_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				owner = {
 					has_estate = estate_burghers
 					NOT = {
@@ -1302,16 +1068,7 @@ province_event = {
 		}
 		add_local_autonomy = -25
 		owner = {
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_burghers
-				}
-				add_estate_loyalty = {
-					estate = estate_burghers
-					loyalty = -10
-				}
-			}
+			reduce_estate_burghers_loyalty_effect = yes
 		}
 		add_province_modifier = {
 			name = add_unrest_5_modifier
@@ -1328,16 +1085,7 @@ province_event = {
 			factor = 50
 		}
 		owner = {
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_burghers
-				}
-				add_estate_loyalty = {
-					estate = estate_burghers
-					loyalty = 10
-				}
-			}
+			add_estate_burghers_loyalty_effect = yes
 		}
 		add_faction_influence = {
 			faction = abb_benedictines
@@ -1356,11 +1104,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		NOT = {
 			devotion = 20
 		}
@@ -1378,7 +1122,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1388,41 +1131,16 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -15
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
+		change_government =  monarchy
 		if = {
 			limit = {
 				religion_group = muslim
 			}
-			change_government = iqta
+			add_government_reform = iqta
 		}
-		if = {
-			limit = {
-				adm_tech = 2
-				NOT = {
-					religion_group = muslim
-				}
-			}
-			change_government = feudal_monarchy
-		}
-		if = {
-			limit = {
-				NOT = {
-					OR = {
-						adm_tech = 2
-						religion_group = muslim
-					}
-				}
-			}
-			change_government = tribal_despotism
+		else = {
+			add_government_reform = despotic_monarchy
 		}
 		kill_ruler = yes
 	}
@@ -1432,16 +1150,7 @@ country_event = {
 			factor = 50
 		}
 		set_ruler_flag = denied_secularists
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_devotion = 10
 		add_prestige = -25
 	}
@@ -1456,12 +1165,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		NOT = {
 			devotion = 50
 		}
@@ -1477,16 +1181,7 @@ country_event = {
 		name = devotion_events.22.a
 		add_yearly_manpower = -1.0
 		add_years_of_income = -0.5
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_cistercians
 			influence = -3
@@ -1503,12 +1198,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		NOT = {
 			devotion = 50
 		}
@@ -1526,7 +1216,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1541,16 +1230,7 @@ country_event = {
 			faction = abb_cluniacs
 			influence = 3
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = devotion_events.23.b
@@ -1574,12 +1254,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		OR = {
 			at_war_with_religious_enemy = yes
 			any_neighbor_country = {
@@ -1618,11 +1293,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 		num_of_cities = 2
 		any_owned_province = {
@@ -1644,7 +1315,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -1655,26 +1325,8 @@ country_event = {
 			}
 		}
 		add_adm_power = 50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
+		add_estate_burghers_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_benedictines
 			influence = 3
@@ -1687,7 +1339,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
@@ -1698,26 +1349,8 @@ country_event = {
 			}
 		}
 		add_devotion = 10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
+		add_estate_church_loyalty_effect = yes
 		random_owned_province = {
 			limit = {
 				local_autonomy = 25
@@ -1746,12 +1379,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 		OR = {
 			any_owned_province = {
@@ -1798,20 +1426,13 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 		any_owned_province = {
 			OR = {
 				unrest = 1
 				local_autonomy = 50
-				AND = {
-					has_estate = estate_burghers
-					has_dlc = "The Cossacks"
-				}
+				has_estate = estate_burghers
 			}
 		}
 	}
@@ -1863,7 +1484,6 @@ country_event = {
 					local_autonomy = 50
 					AND = {
 						has_estate = estate_burghers
-						has_dlc = "The Cossacks"
 					}
 				}
 			}
@@ -1884,7 +1504,6 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_dlc = "The Cossacks"
 					has_estate = estate_burghers
 				}
 				remove_estate = estate_burghers
@@ -1901,16 +1520,7 @@ country_event = {
 		add_adm_power = 20
 		add_dip_power = 20
 		add_mil_power = 20
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 		add_faction_influence = {
 			faction = abb_cluniacs
 			influence = 3
@@ -1927,12 +1537,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-			government = papal_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 		NOT = {
 			has_country_modifier = dev_bonfire_vanities_timer
@@ -1991,7 +1596,7 @@ province_event = {
 		is_capital = no
 		NOT = { has_province_modifier = add_unrest_5_modifier }
 		owner = {
-			government = theocratic_government
+			government = theocracy
 		}
 	}
 	
@@ -2007,7 +1612,6 @@ province_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				owner = {
 					has_estate = estate_burghers
 					NOT = {
@@ -2021,16 +1625,7 @@ province_event = {
 		}
 		owner = {
 			add_devotion = 10
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_burghers
-				}
-				add_estate_loyalty = {
-					estate = estate_burghers
-					loyalty = -10
-				}
-			}
+			reduce_estate_burghers_loyalty_effect = yes
 		}
 		add_faction_influence = {
 			faction = abb_cluniac
@@ -2050,16 +1645,7 @@ province_event = {
 		}
 		owner = {
 			add_adm_power = 50
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_burghers
-				}
-				add_estate_loyalty = {
-					estate = estate_burghers
-					loyalty = 10
-				}
-			}
+			add_estate_burghers_loyalty_effect = yes
 		}
 		add_faction_influence = {
 			faction = abb_cluniac
@@ -2080,7 +1666,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		adm_tech = 24
-		government = theocratic_government
+		uses_devotion = yes
 		NOT = {
 			has_country_flag = dev_jubilee_flag
 		}
@@ -2237,11 +1823,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		has_country_flag = theo_papal_protege_flag
 		OR = {
 			religion = catholic
@@ -2281,11 +1863,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 		NOT = { religion = reformed }
 		is_religion_enabled = reformed
@@ -2325,11 +1903,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 		NOT = {
 			devotion = 70
@@ -2349,7 +1923,6 @@ country_event = {
 				religion = reformed
 				religion = protestant
 				religion = anabaptist
-				religion = anglican
 			}
 		}
 		add_stability_or_adm_power = yes
@@ -2363,7 +1936,6 @@ country_event = {
 					religion = reformed
 					religion = protestant
 					religion = anabaptist
-					religion = anglican
 				}
 			}
 		}
@@ -2385,11 +1957,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		OR = {
-			government = theocratic_government
-			government = crusader_order_government
-			government = monastic_order_government
-		}
+		uses_devotion = yes
 		religion_group = christian
 	}
 	
@@ -2429,7 +1997,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		has_country_flag = theo_imam_khatib_flag
 	}
 	
@@ -2462,7 +2030,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 	}
 	
 	is_triggered_only = yes
@@ -2491,7 +2059,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		piety = 0.2
 	}
 	
@@ -2522,7 +2090,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		NOT = {
 			OR = {
 				is_bankrupt = yes
@@ -2557,7 +2125,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		NOT = {
 			has_country_modifier = dev_educated_women
 		}
@@ -2593,7 +2161,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		OR = {
 			NOT = {
 				mercantilism = 50
@@ -2616,7 +2184,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -2627,16 +2194,7 @@ country_event = {
 			}
 		}
 		add_mercantilism = 1
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = devotion_events.205.b
@@ -2644,16 +2202,7 @@ country_event = {
 			factor = 50
 		}
 		add_devotion = 10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 }
 
@@ -2669,7 +2218,7 @@ province_event = {
 		has_owner_religion = no
 		owner = {
 			religion_group = muslim
-			government = theocratic_government
+			uses_devotion = yes
 			NOT = { tolerance_to_this = 0 }
 		}
 		religion_group = muslim
@@ -2690,15 +2239,11 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					has_dlc = "The Cossacks"
 					has_estate = estate_church
 				}
 			}
 			owner = {
-				add_estate_loyalty = {
-					estate = estate_church
-					loyalty = 10
-				}
+				add_estate_church_loyalty_effect = yes
 			}
 		}
 		add_province_modifier = {
@@ -2712,7 +2257,6 @@ province_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				owner = {
 					has_estate = estate_church
 					NOT = {
@@ -2728,19 +2272,8 @@ province_event = {
 			add_piety = -0.10
 			add_devotion = 10
 		}
-		if = {
-			limit = {
-				owner = {
-					has_dlc = "The Cossacks"
-					has_estate = estate_church
-				}
-			}
-			owner = {
-				add_estate_loyalty = {
-					estate = estate_church
-					loyalty = -10
-				}
-			}
+		owner = {
+			reduce_estate_church_loyalty_effect = yes
 		}
 	}
 }
@@ -2755,7 +2288,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		any_owned_province = {
 			OR = {
 				base_production = 3
@@ -2807,7 +2340,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		OR = {
 			advisor = theologian
 			advisor = philosopher
@@ -2828,7 +2361,6 @@ country_event = {
 			factor = 33
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -2839,16 +2371,7 @@ country_event = {
 			}
 		}
 		add_devotion = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = devotion_events.208.b
@@ -2862,16 +2385,7 @@ country_event = {
 		ai_chance = {
 			factor = 33
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_adm_power = -35
 		remove_advisor = theologian
 		remove_advisor = philosopher
@@ -2890,7 +2404,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		is_female = no
 		any_owned_province = {
 			unrest = 1
@@ -2941,7 +2455,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion = sunni
-		government = theocratic_government
+		uses_devotion = yes
 		any_owned_province = {
 			religion = shiite
 		}
@@ -2968,16 +2482,7 @@ country_event = {
 				duration = 3650
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = devotion_events.210.b
@@ -2985,7 +2490,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -2996,16 +2500,7 @@ country_event = {
 			}
 		}
 		add_devotion = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 }
 
@@ -3019,7 +2514,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion = shiite
-		government = theocratic_government
+		uses_devotion = yes
 		any_owned_province = {
 			religion = sunni
 		}
@@ -3045,16 +2540,7 @@ country_event = {
 				duration = 3650
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = devotion_events.211.b
@@ -3062,7 +2548,6 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -3073,16 +2558,7 @@ country_event = {
 			}
 		}
 		add_devotion = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 }
 
@@ -3096,7 +2572,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		devotion = 50
 		piety = 0
 	}
@@ -3131,7 +2607,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		OR = {
 			advisor = statesman
 			advisor = trader
@@ -3171,7 +2647,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		NOT = {
 			devotion = 25
 		}
@@ -3212,7 +2688,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 	}
 	
 	is_triggered_only = yes
@@ -3260,7 +2736,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		devotion = 75
 		piety = 0.10
 		any_owned_province = {
@@ -3305,7 +2781,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		NOT = {
 			OR = {
 				has_country_modifier = dev_hadith_madrasa
@@ -3327,7 +2803,6 @@ country_event = {
 			factor = 25
 			modifier = {
 				factor = 1.5
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -3338,16 +2813,7 @@ country_event = {
 			}
 		}
 		add_years_of_income = -0.25
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_country_modifier = {
 			name = dev_hadith_madrasa
 			duration = 3650
@@ -3359,7 +2825,6 @@ country_event = {
 			factor = 25
 			modifier = {
 				factor = 1.5
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
@@ -3370,16 +2835,7 @@ country_event = {
 			}
 		}
 		add_years_of_income = -0.25
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_country_modifier = {
 			name = dev_fiqah_madrasa
 			duration = 3650
@@ -3415,7 +2871,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		any_owned_province = {
 			local_autonomy = 25
 			unrest = 1
@@ -3467,7 +2923,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		religion_group = muslim
-		government = theocratic_government
+		uses_devotion = yes
 		NOT = {
 			OR = {
 				piety = 0

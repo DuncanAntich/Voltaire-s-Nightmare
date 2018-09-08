@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 4
 technology_group = western
 primary_culture = champenois
@@ -302,7 +303,8 @@ capital = 565
 	religion = orthodox
 	government_rank = 3
 	capital = 601
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	technology_group = eastern
 }
 # 1432, Despotate of Morea

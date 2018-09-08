@@ -1444,7 +1444,7 @@ country_event = {
 
 	trigger = {
 		uses_piety = yes
-		government = iqta
+		has_reform = iqta
 		has_regency = yes
 		has_consort_regency = no
 	}
@@ -1510,7 +1510,7 @@ country_event = {
 		add_years_of_income = -0.1
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				has_estate = estate_church
 			}
 			add_estate_loyalty = {
 				estate = estate_church
@@ -1526,7 +1526,7 @@ country_event = {
 		add_piety = -0.2
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				has_estate = estate_dhimmi
 			}
 			add_estate_loyalty = {
 				estate = estate_dhimmi

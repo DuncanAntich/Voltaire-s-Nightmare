@@ -1,9 +1,5 @@
-#Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
 color = { 236  47  47 } 
-
 historical_score = 75
 
 historical_idea_groups = {
@@ -97,7 +93,7 @@ leader_names = {
 	Ludovisi Malaspina Mancinetti "de' Medici" "del Moro" Nasini
 	Orsini Piccolomini Pico Pierallini Pieroni Piombante Pontelli
 	Rivani Rospigliosi "del Rosso" Savaranola Soderini Tempesta
-	Terreni Tonelli Traballesi Ulivelli Vasari Zucchi
+	Terreni Tonelli Traballesi Ulivelli Vasari Zucchi "de' Medici"
 }
 
 ship_names = {

@@ -149,7 +149,7 @@ country_event = {
 			limit = { has_dlc = "Common Sense" }
 			random_country = {
 				limit = {
-					government = imperial_city 
+					has_reform = free_city 
 					OR = {
 						religion = catholic
 						religion = catholique

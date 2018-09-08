@@ -14,9 +14,10 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		ruler_age = 30
 		has_heir = no
+		has_government_attribute = heir
 	}
 	
 	desc = {
@@ -385,7 +386,7 @@ country_event = {
 	picture = 3_SONS_eventPicture
 	
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_dlc = "Rights of Man"
 		has_heir = yes
 		ruler_age = 30
@@ -508,6 +509,7 @@ country_event = {
 		any_owned_province = {
 			has_province_modifier = heir_in_training
 		}
+		has_government_attribute = heir
 	}
 	
 	mean_time_to_happen = {
@@ -621,7 +623,7 @@ country_event = {
 	
 	 trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_regency = no
 		num_of_cities = 45
 	 }
@@ -682,7 +684,7 @@ country_event = {
 	
 	 trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		is_female = no
 		NOT = { has_ruler_flag = death_of_valide_sultan }
 		NOT = { ruler_age = 60 } #After this it is assumed she has died but was of less notice.
@@ -741,7 +743,7 @@ country_event = {
 	
 	 trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_heir = yes
 		heir_age = 15
 		is_heir_leader = no
@@ -817,7 +819,8 @@ country_event = {
 	
 	 trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
+		has_government_attribute = queen
 		has_heir = yes
 		heir_age = 15
 		has_regency = no
@@ -1074,8 +1077,9 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_heir = yes
+		has_government_attribute = heir
 		heir_age = 15
 		is_at_war = yes
 		any_neighbor_country = {
@@ -1152,7 +1156,6 @@ country_event = {
 				event_target:enemy_neighbor_ottomans = {
 					NOT = { religion_group = muslim }
 				}
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1182,7 +1185,7 @@ country_event = {
 	picture = COURT_INTRIGUE_eventPicture
 	
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_dlc = "Rights of Man"
 		has_heir = yes
 		NOT = { has_ruler_flag = death_of_valide_sultan }
@@ -1207,11 +1210,13 @@ country_event = {
 	picture = COURT_INTRIGUE_eventPicture
 	
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_dlc = "Rights of Man"
 		has_heir = yes
 		has_regency = no
 		has_consort = yes
+		has_government_attribute = queen
+		has_government_attribute = heir
 		NOT = { has_ruler_flag = death_of_valide_sultan }
 	 }
 	
@@ -1260,7 +1265,7 @@ country_event = {
 	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
 	
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		NOT = { has_ruler_flag = death_of_valide_sultan }
 		has_dlc = "Rights of Man"
 		NOT = {
@@ -1308,7 +1313,7 @@ province_event = {
 		is_capital = no
 		is_state = yes
 		owner = {
-			government = ottoman_government
+			has_reform = ottoman_government
 			has_heir = yes
 			has_consort = yes
 			OR = {
@@ -1352,9 +1357,10 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_regency = no
 		has_consort = yes
+		has_government_attribute = queen
 	}
 	
 	mean_time_to_happen = {
@@ -1387,9 +1393,10 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_regency = no
 		has_consort = no
+		has_government_attribute = queen
 		NOT = { has_ruler_flag = death_of_valide_sultan }
 	}
 	
@@ -1430,7 +1437,7 @@ province_event = {
 		owner = {
 			has_heir = yes
 			heir_age = 15
-			government = ottoman_government
+			has_reform = ottoman_government
 		}
 		
 		has_dlc = "Rights of Man"
@@ -1451,7 +1458,6 @@ province_event = {
 			add_prestige = -15
 			if = {
 				limit = {
-					has_dlc = "The Cossacks"
 					has_estate = estate_nobles
 				}
 				add_estate_loyalty = {
@@ -1479,7 +1485,7 @@ country_event = {
 	
 	 trigger = {
 		has_dlc = "Rights of Man"
-		government = ottoman_government
+		has_reform = ottoman_government
 		has_regency = no
 		num_of_cities = 45
 		ruler_age = 60
@@ -1526,10 +1532,11 @@ province_event = {
 	trigger = {
 		is_state = yes
 		is_capital = no
+		has_government_attribute = heir
 		owner = {
 			has_heir = yes
 			heir_age = 15
-			government = ottoman_government
+			has_reform = ottoman_government
 		}
 		
 		has_dlc = "Rights of Man"

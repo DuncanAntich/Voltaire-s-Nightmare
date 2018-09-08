@@ -91,7 +91,8 @@ country_decisions = {
 				limit = {
 					government = republic
 				}
-				change_government = feudal_monarchy
+				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 			if = {
 				limit = { has_custom_ideas = no }

@@ -64,9 +64,11 @@ default_monarchy = {
 		5 = HEIR
 		6 = HEIR
 	}
+
+	government_reform = monarchy_mechanic
 	
 	trigger = {
-		government = monarchy
+		has_reform = monarchy_mechanic
 	}
 }
 
@@ -98,6 +100,8 @@ default_republic = {
 		6 = GREAT_CONSULESS
 	}
 	
+	government_reform = republic_mechanic
+
 	trigger = {
 		government = republic
 	}
@@ -130,7 +134,9 @@ default_theocracy = {
 		5 = PRINCESS_BISHOP
 		6 = PRINCESS_BISHOP
 	}
-	
+
+	government_reform = theocracy_mechanic
+
 	trigger = {
 		is_part_of_hre = yes
 		government = theocracy
@@ -164,7 +170,9 @@ alt_default_theocracy = {
 		5 = ARCHBISHOP_fem
 		6 = MATRIARCH
 	}
-	
+
+	government_reform = theocracy_mechanic
+
 	trigger = {
 		is_part_of_hre = no
 		government = theocracy

@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 primary_culture = swabian
@@ -15,7 +16,8 @@ capital = 2519
 	}
 }
 1074.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Hartmann I"
 		dynasty = "von Dillingen"

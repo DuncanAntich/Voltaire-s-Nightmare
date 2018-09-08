@@ -16,7 +16,6 @@ country_event = {
 	picture = CHURCH_ESTATE_1_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		religion_group = christian
 		estate_influence = {
@@ -129,7 +128,6 @@ country_event = {
 	picture = CHURCH_ESTATE_2_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		religion_group = pagan
 		estate_influence = {
@@ -241,7 +239,6 @@ country_event = {
 	picture = CHURCH_ESTATE_2_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		religion_group = muslim
 		estate_influence = {
@@ -352,7 +349,6 @@ country_event = {
 	picture = CHURCH_ESTATE_2_eventPicture
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		religion_group = jewish
 		estate_influence = {
@@ -464,7 +460,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		NOT = {
 			has_estate_influence_modifier = {
@@ -511,7 +506,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		NOT = {
 			has_estate_influence_modifier = {
@@ -558,7 +552,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		has_estate = estate_burghers
 		any_owned_province = {
@@ -693,7 +686,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		NOT = {
 			estate_loyalty = {
@@ -842,7 +834,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		estate_influence = {
 			estate = estate_church
@@ -927,7 +918,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		estate_loyalty = {
 			estate = estate_church
@@ -992,7 +982,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		has_estate = estate_nobles
 		any_owned_province = {
@@ -1227,7 +1216,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		has_estate = estate_nobles
 		any_owned_province = {
@@ -1286,6 +1274,7 @@ country_event = {
 			influence = 10
 			duration = 5475
 		}
+		add_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = church_estate_events.9.b #
@@ -1322,6 +1311,7 @@ country_event = {
 			influence = -10
 			duration = 5475
 		}
+		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 }
 
@@ -1335,7 +1325,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_church
 		NOT = {
 			has_estate_influence_modifier = {

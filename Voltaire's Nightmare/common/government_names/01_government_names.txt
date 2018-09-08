@@ -66,7 +66,10 @@ gov_steppe_horde = {
 	}
 	
 	trigger = {
-		government = steppe_horde
+		OR = {
+			has_reform = steppe_horde
+			has_reform = steppe_horde_legacy
+		}
 	}
 }
 
@@ -99,7 +102,10 @@ gov_religious_order = {
 	}
 	
 	trigger = {
-		government = monastic_order_government
+		OR = {
+			has_reform = monastic_order_government
+			has_reform = monastic_order_reform
+		}
 		is_part_of_hre = yes
 	}
 }
@@ -121,7 +127,10 @@ gov_colonial_government = {
 	}
 	
 	trigger = {
-		government = colonial_government
+		OR = {
+			has_reform = colonial_government
+			has_reform = colonial_government_legacy
+		}
 	}
 }
 
@@ -154,7 +163,7 @@ swiss_canton = {
 	}
 
 	trigger = {
-		government = canton_government
+		has_reform = canton_government
 	}
 }
 
@@ -187,7 +196,10 @@ gov_nonhre_order = {
 	}
 	
 	trigger = {
-		government = monastic_order_government
+		OR = {
+			has_reform = monastic_order_government
+			has_reform = monastic_order_reform
+		}
 		is_part_of_hre = no
 	}
 }
@@ -221,7 +233,13 @@ gov_constitutional_republic = {
 	}
 	
 	trigger = {
-		government = constitutional_republic
+		government = republic
+		OR = {
+			has_reform = constitutional_republic
+			has_reform = presidential_reform
+			has_reform = parliamentary_reform
+		}
+		NOT = { has_reform = presidential_despot_reform }
 	}
 }
 
@@ -254,7 +272,7 @@ gov_republican_dictatorship = {
 	}
 	
 	trigger = {
-		government = republican_dictatorship
+		has_reform = presidential_despot_reform
 	}
 }
 
@@ -287,7 +305,7 @@ gov_bureaucratic_despotism = {
 	}
 	
 	trigger = {
-		government = bureaucratic_despotism
+		has_reform = bureaucratic_despotism
 	}
 }
 
@@ -320,7 +338,10 @@ gov_papal_government = {
 	}
 	
 	trigger = {
-		government = papal_government
+		OR = {
+			has_reform = papal_government
+			has_reform = papacy_reform
+		}
 	}
 }
 
@@ -354,9 +375,9 @@ gov_tribal = {
 	
 	trigger = {
 		OR = {
-			government = tribal_despotism
-			government = tribal_federation
-			government = tribal_kingdom
+			has_reform = tribal_despotism
+			has_reform = tribal_federation
+			has_reform = tribal_kingdom
 		}
 	}
 }
@@ -390,6 +411,6 @@ gov_tribal_democracy = {
 	}
 	
 	trigger = {
-		government = tribal_democracy
+		has_reform = tribal_democracy
 	}
 }

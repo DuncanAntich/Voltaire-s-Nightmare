@@ -620,7 +620,7 @@ country_event = {
 		tag = VEN
 		is_year = 1460
 		NOT = { is_year = 1500 }
-		government = merchant_republic
+		has_reform = merchants_reform
 	}
 	
 	mean_time_to_happen = {
@@ -661,7 +661,7 @@ country_event = {
 	
 	trigger = {
 		tag = VEN
-		government = merchant_republic
+		has_reform = merchants_reform
 		has_country_modifier = ven_ten_restrained
 	}
 	
@@ -709,7 +709,7 @@ country_event = {
 		tag = VEN
 		is_year = 1520
 		NOT = { is_year = 1560 }
-		government = merchant_republic
+		has_reform = merchants_reform
 	}
 	
 	mean_time_to_happen = {
@@ -749,7 +749,7 @@ country_event = {
 		}
 		is_year = 1550
 		has_country_modifier = ven_expanded_council
-		government = merchant_republic
+		has_reform = merchants_reform
 	}
 	
 	mean_time_to_happen = {
@@ -782,7 +782,7 @@ country_event = {
 		has_country_modifier = ven_barnabotti
 		is_year = 1650
 		NOT = { is_year = 1670 }
-		government = merchant_republic
+		has_reform = merchants_reform
 	}
 	
 	mean_time_to_happen = {
@@ -819,7 +819,7 @@ country_event = {
 		tag = VEN
 		is_year = 1600
 		NOT = { is_year = 1650 }
-		government = merchant_republic
+		has_reform = merchants_reform
 		NOT = { ruler_has_personality = immortal_personality }
 	}
 	
@@ -926,7 +926,7 @@ country_event = {
 		is_year = 1645
 		NOT = { is_year = 1720 }
 		has_country_flag = ven_great_plague
-		government = merchant_republic
+		has_reform = merchants_reform
 	}
 	
 	mean_time_to_happen = {

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
@@ -337,7 +338,7 @@ capital = 2458	# Stuttgart
 		mil = 2
 	}
 }
-1556.10.2 = { government = administrative_monarchy }
+1556.10.2 = { set_legacy_government = administrative_monarchy }
 1568.12.28 = {
 	monarch = {
 		name = "Ludwig der Fromme"

@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 technology_group = north_american
 primary_culture = bremer_platt
@@ -17,7 +18,8 @@ capital = 2310
 1167.1.1 = { religion = catholic }
 1178.12.30 = {
 	primary_culture = pommeranian
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	technology_group = western
 	government_rank = 1
 }

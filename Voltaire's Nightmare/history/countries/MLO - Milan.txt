@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 3
 primary_culture = lombard
 religion = catholic
@@ -74,7 +75,8 @@ capital = 1818
 }
 #free commune
 1117.1.1 = {
-	government = italian_monarchy
+	government = republic
+	add_government_reform = italian_monarchy
 	government_rank = 1
 	add_army_professionalism = 0.05
 	monarch = {
@@ -123,7 +125,10 @@ capital = 1818
 	clear_scripted_personalities = yes
 	add_ruler_personality = intricate_web_weaver_personality
 }
-1259.9.8 = { government = despotic_monarchy }
+1259.9.8 = {
+	government = monarchy
+	add_government_reform = autocracy_reform
+}
 1263.11.20 = {
 	monarch = {
 		name = "Filippo I"
@@ -355,9 +360,13 @@ capital = 1818
 		mil = 1
 	}
 }
-1447.8.13 = { government = ambrosian_republic } # The Ambrosian Republic
+1447.8.13 = {
+	government = republic
+	add_government_reform = ambrosian_republic
+}
 1450.3.27 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Francesco I"
 		dynasty = "Sforza"
@@ -521,9 +530,11 @@ capital = 1818
 }
 1535.1.1 = { leader = {	 name = "Marquis del Vasto"     	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1546.3.31 } }
 
-1555.5.30 = { government = administrative_monarchy }
+1555.5.30 = { set_legacy_government = administrative_monarchy }
 1796.11.15 = {
-	government = constitutional_republic
+	government = republic
+	add_government_reform = oligarchy_reform
+	set_legacy_government = constitutional_republic
 	monarch = {
 		name = "Republicca Transpadana"
 		regent = yes

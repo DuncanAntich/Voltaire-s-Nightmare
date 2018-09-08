@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = swabian
 religion = catholic
@@ -156,7 +157,8 @@ capital = 1762
 	}
 }
 1504.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Raymund I"
 		dynasty = "Fugger"
@@ -204,7 +206,10 @@ capital = 1762
 		mil = 2
 	}
 }
-1536.1.1 = { government = feudal_monarchy }
+1536.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1575.1.1 = {
 	monarch = {
 		name = "Johann I"

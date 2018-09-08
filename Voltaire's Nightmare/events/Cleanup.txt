@@ -161,8 +161,8 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			government = iqta
-			government = ottoman_government
+			has_reform = iqta
+			has_reform = ottoman_government
 		}
 		NOT = {
 			religion_group = muslim
@@ -174,7 +174,9 @@ country_event = {
 	}
 	option = {
 		name = cleanup_events.3.a
-		change_government = despotic_monarchy 
+		remove_government_reform = iqta
+		remove_government_reform = ottoman_government
+		set_legacy_government = despotic_monarchy
 	}
 	
 }

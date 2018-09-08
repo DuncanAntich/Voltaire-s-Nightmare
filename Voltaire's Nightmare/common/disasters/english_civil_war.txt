@@ -8,7 +8,7 @@ english_civil_war = {
 			tag = GBR
 		}
 		NOT = { has_country_flag = eng_civil_war_happened }
-		government = english_monarchy
+		has_reform = english_monarchy
 		is_free_or_tributary_trigger = yes
 		is_lesser_in_union = no
 		current_age = age_of_absolutism
@@ -36,7 +36,7 @@ english_civil_war = {
 		stability = 3
 		OR = {
 			has_any_disaster = yes
-			NOT = { government = english_monarchy }
+			NOT = { has_reform = english_monarchy }
 		}
 	}
 	

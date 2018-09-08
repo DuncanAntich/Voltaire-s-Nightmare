@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = western
 primary_culture = hessian
@@ -73,7 +74,8 @@ capital = 158
 }
 #Counts
 1174.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Werner I"
 		dynasty = "von Wittgenstein"

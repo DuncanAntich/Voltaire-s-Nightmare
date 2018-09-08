@@ -8,6 +8,14 @@ country_decisions = {
 			has_global_flag = enable_stop_shadow_kingdom
 			is_emperor = yes
 		}
+		provinces_to_highlight = {
+			superregion = lombardy_superregion
+			OR = {
+				NOT = { owned_by = ROOT }
+				is_part_of_hre = no
+				NOT = { owner = { is_subject_of = ROOT } }
+			}
+		}
 		allow = {
 			NOT = { is_year = 1490 }
 			custom_trigger_tooltip = {

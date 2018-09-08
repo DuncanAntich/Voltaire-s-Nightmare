@@ -16,7 +16,19 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1152.1.1 = {
+1082.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = KBA
+}
+1145.3.25 = {
+	owner = KBA
+	controller = KBA
+	add_core = KBA
+	remove_core = MOR
+}
+1151.1.1 = {
 	owner = MOR
 	controller = MOR
 	add_core = MOR

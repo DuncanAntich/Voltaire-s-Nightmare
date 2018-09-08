@@ -23,6 +23,7 @@
  desc_industrialism: "Steel, coal, great smokestacks and furnaces towering higher than the mightiest castle of the Middle Ages, or the richest palace of the Early Modern Era... now, building on Enlightenment scientism and continual revolutions in manufacturing technology, the world is embracing Industrialization. Rural populations flock to the cities to find work in new factories, while materiels are pumped out at an astonishing rate to support public and military demand. Not only has the landscape changed, but modes of thinking are shaped by the sudden presence of concrete and iron where pastoral vistas once abounded. Let the poets herald this marriage of mammon and muse!"
  industrialism_date: "1750"
 #Tooltips 
+ laytheo.tt: "A CoR can spawn or there are no Christians left"
  tooltip_flanders_tuscany_venetia: "Province in the Flanders, Tuscany, or Veneto Region"
  tooltip_great_power_nw: "Great Power"
  tooltip_black_death: "Owner has Black Death disaster"

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 5
 technology_group = western
 primary_culture = irish
@@ -7,11 +8,10 @@ capital = 2737	# Dublin
 
 1641.1.30 = {
 	capital = 2668
-	government = administrative_monarchy
 	monarch = {
 		name = "Eóghain"
 		dynasty = "Ó Néill"
-		birth_date = 1585.1.1
+		birth_date = 1590.1.1
 		adm = 3
 		dip = 3
 		mil = 5
@@ -27,6 +27,17 @@ capital = 2737	# Dublin
 	clear_scripted_personalities = yes
 	add_ruler_personality = industrious_personality
 	add_ruler_personality = bold_fighter_personality
+	heir = {
+		name = "Áed"
+		monarch_name = "Áed"
+		dynasty = "Ó Néill"
+		birth_date = 1611.1.1
+		death_date = 1660.1.1
+		claim = 80
+		adm = 1
+		dip = 1
+		mil = 3
+	}
 	leader = {
 		name = "Thomas Preston"	
 		type = general	
@@ -48,7 +59,7 @@ capital = 2737	# Dublin
 }
 1649.11.6 = {
 	monarch = {
-		name = "Aedh"
+		name = "Áed"
 		dynasty = "Ó Néill"
 		birth_date = 1611.1.1
 		adm = 1

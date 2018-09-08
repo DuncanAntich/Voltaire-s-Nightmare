@@ -21,8 +21,11 @@ country_decisions = {
 				province_id = 586
 			}
 			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				AND = {
+					owned_by = ROOT
+					NOT = { religion_group = muslim }
+				}
 			}
 		}
 		allow = {

@@ -6,10 +6,7 @@ country_decisions = {
 			NOT = { colony = 1 }
 			religion_group = christian
 			technology_group = eastern
-			OR = { 
-				government = monarchy
-				government = noble_republic
-			}
+			government = monarchy
 		}
 		allow = {
 			aristocracy_ideas = 1

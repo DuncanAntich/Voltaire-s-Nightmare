@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 3
 primary_culture = hessian
 religion = catholic
@@ -496,7 +497,10 @@ capital = 3
 		mil = 2
 	}
 }
-1752.1.1 = { government = theocratic_government }
+1752.1.1 = {
+	government = theocracy
+	add_government_reform = leading_clergy_reform
+}
 1757.1.1 = {
 	monarch = {
 		name = "Adalbert"
@@ -525,7 +529,9 @@ capital = 3
 	}
 }
 1803.2.25 = {
-	government = administrative_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
 	monarch = {
 		name = "Willem I"
 		dynasty = "van Orange"

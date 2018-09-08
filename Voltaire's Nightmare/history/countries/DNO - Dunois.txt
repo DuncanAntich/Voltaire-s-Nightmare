@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = orleanais
 religion = catholic
@@ -135,7 +136,8 @@ fixed_capital = 1177
 #1397.12.22 to ORL
 
 1439.1.1 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Jean I"
 		dynasty = "de Dunois"

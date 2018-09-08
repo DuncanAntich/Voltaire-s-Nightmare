@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
@@ -15,7 +16,8 @@ capital = 2442
 	}
 }
 1147.8.1 = { #wendish crusade
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	government_rank = 1
 	primary_culture = eastphalian
 	technology_group = western

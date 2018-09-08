@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = arpitan
 religion = catholic
@@ -170,7 +171,10 @@ capital = 165
 		mil = 3
 	}
 }
-1296.1.1 = { government = feudal_monarchy }
+1296.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1305.3.2 = {
 	heir = {
 		name = "Louis"
@@ -382,7 +386,7 @@ capital = 165
 }
 #done 1648
 1806.1.1 = {
-	government = constitutional_monarchy
+	set_legacy_government = constitutional_monarchy
 	monarch = {
 		name = "Louis-Alexandre"
 		dynasty = "Berthier"

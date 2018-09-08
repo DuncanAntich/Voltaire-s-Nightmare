@@ -1,4 +1,6 @@
-government = administrative_republic
+government = republic
+add_government_reform = oligarchy_reform
+set_legacy_government = administrative_republic
 government_rank = 1
 mercantilism = 25
 technology_group = western
@@ -25,5 +27,12 @@ historical_friend = RGS
 	}
 }
 1532.1.1 = { religion = protestant }
-1646.1.1 = { government = imperial_city }
-1803.2.25 = { government = administrative_republic }
+1646.1.1 = {
+	government = republic
+	add_government_reform = free_city
+}
+1803.2.25 = {
+	government = republic
+	add_government_reform = oligarchy_reform
+	set_legacy_government = administrative_republic
+}

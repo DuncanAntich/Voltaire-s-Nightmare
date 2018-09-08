@@ -276,9 +276,16 @@ country_event = {
 				NOT = { stability = 0 }
 			}
 		}
-		add_stability = -1
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
+		add_stability = -2
 		add_ruler_modifier = {
 			name = expanded_royal_bureaucracy
+			duration = 14600
 		}
 	}
 	option = {		# Limited reforms
@@ -589,6 +596,13 @@ country_event = {
 		name = "flavor_tur.EVTOPTA3375"
 		ai_chance = { factor = 75 }
 		add_piety = 0.25
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
+		add_innovativeness_small_effect = yes
 		every_owned_province = {
 			add_local_autonomy = -10
 		}
@@ -597,6 +611,12 @@ country_event = {
 		name = "flavor_tur.EVTOPTB3375"
 		ai_chance = { factor = 25 }
 		add_piety = -0.10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_stability_or_adm_power = yes
 
 	}
@@ -636,6 +656,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man"
 				has_consort = no
+				has_government_attribute = queen
 			}
 			define_consort = {
 				name = "Kösem Sultan"
@@ -716,6 +737,12 @@ country_event = {
 	option = {		# Support the Köprülü Family
 		name = "flavor_tur.EVTOPTA3385"
 		ai_chance = { factor = 90 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_ruler_modifier = {
 			name = koprulu_family
 		}
@@ -732,6 +759,12 @@ country_event = {
 				factor = 0
 				dip_power = 200
 			}
+		}
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
 		}
 		add_dip_power = 50
 	}
@@ -1184,7 +1217,7 @@ country_event = {
 	picture = MILITARY_CAMP_eventPicture
 	
 	trigger ={
-		government = ottoman_government
+		has_reform = ottoman_government
 		NOT = { has_disaster = janissary_decadence }
 		if = {
 			limit = {
@@ -1358,7 +1391,7 @@ country_event = {
 	trigger = {
 		has_country_modifier = tur_janissary
 		NOT = { has_disaster = janissary_decadence }
-		NOT = { government = ottoman_government }
+		NOT = { has_reform = ottoman_government }
   	}
 	
 	mean_time_to_happen = {

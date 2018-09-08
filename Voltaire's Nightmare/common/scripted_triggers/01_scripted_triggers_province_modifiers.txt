@@ -77,5 +77,15 @@ province_without_special_goods_produced_trigger = {
 		has_province_modifier = ned_house_of_elzevir
 		has_province_modifier = bookmarket_of_x
 		has_province_modifier = diamond_district
+		has_latent_trade_goods = coal
+	}
+}
+
+is_religious_center_province = {
+	OR = {
+		province_id = 2235
+		province_id = 781
+		province_id = 202
+		province_id = 59
 	}
 }

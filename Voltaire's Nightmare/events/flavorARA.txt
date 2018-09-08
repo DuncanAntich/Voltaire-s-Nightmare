@@ -59,6 +59,13 @@ country_event = {
 	option = {
 		name = "flavor_ara.EVTOPTA2"
 		add_years_of_income = -0.5
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
+		remove_country_modifier = ara_consulate_sea
 		add_country_modifier = { 
 			name = ara_book_consulate_sea
 			duration = -1
@@ -103,6 +110,7 @@ country_event = {
 			skill = 2
 			discount = yes
 		}
+		add_innovativeness_small_effect = yes
 	}
 }
 
@@ -131,10 +139,12 @@ country_event = {
 	option = {
 		name = "flavor_ara.EVTOPTA4"
 		add_prestige = 10
+		add_innovativeness_small_effect = yes
 	}
 	option = {
 		name = "flavor_ara.EVTOPTB4"
 		add_stability_or_adm_power = yes
+		add_innovativeness_small_effect = yes
 	}
 }
 

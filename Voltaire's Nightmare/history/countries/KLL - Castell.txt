@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = franconian
 religion = catholic
@@ -41,7 +42,10 @@ capital = 1978
 		mil = 3
 	}
 }
-1205.1.1 = { government = feudal_monarchy }
+1205.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1223.1.1 = {
 	monarch = {
 		name = "Ruprecht V"

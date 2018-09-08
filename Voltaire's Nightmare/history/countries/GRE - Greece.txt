@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 5
 technology_group = eastern
 primary_culture = greek
@@ -6,9 +7,10 @@ religion = orthodox
 capital = 2828
 
 1821.1.1 = {
-	government = revolutionary_republic
+	government = republic
+	add_government_reform = revolutionary_republic_reform
 	monarch = {
-		name = "Provisional Government"
+		name = "Prosorini Kybernisi"
 		regent = yes
 		adm = 2
 		dip = 2
@@ -20,7 +22,9 @@ capital = 2828
 	leader = { name = "Andreas Vokos"			type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1835.6.24 }
 }
 1832.8.30 = {
-	government = administrative_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = administrative_monarchy
 	monarch = {
 		name = "Othon I"
 		dynasty = "von Wittelsbach"
@@ -45,7 +49,7 @@ capital = 2828
 		mil = 2
 	}
 }
-1843.1.1 = { government = constitutional_monarchy }
+1843.1.1 = { set_legacy_government = constitutional_monarchy }
 1862.10.23 = {
 	monarch = {
 		name = "Giorgios I"

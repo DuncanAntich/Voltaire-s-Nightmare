@@ -565,6 +565,7 @@ slesvig_question_effect = {
 succession_culture_religion_effect = {
 	if = {
 		limit = {
+			NOT = { has_reform = elective_monarchy }
 			has_regency = no
 			NOT = { has_ruler_flag = had_culture_religion_reaction_event_flag }
 			OR = {
@@ -587,7 +588,7 @@ sheik_ul_islam_effect = {
 			government_rank = 5
 			has_religious_school = yes
 			government = monarchy
-			NOT = { government = steppe_horde }
+			NOT = { has_reform = steppe_horde }
 		}
 		set_country_flag = had_sheikh_ul_islam_event
 		country_event = { id = muslim_school_events.2 days = 45 random = 7 } #New Grand Mufti/Sheik-ul-Islam

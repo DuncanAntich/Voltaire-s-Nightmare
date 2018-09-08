@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = western
 primary_culture = english
@@ -83,7 +84,7 @@ historical_friend = ENG
 		female =  yes
 		birth_date = 1145.1.1
 		death_date = 1188.1.1
-		culture = irish
+		culture = laigin
 		adm = 2
 		dip = 2
 		mil = 3

@@ -279,6 +279,16 @@ province_event = {
 			had_province_flag = { flag = received_trade_goods days = 3650 }
 		}
 		NOT = { has_empty_adjacent_province = yes }
+		NOT = {
+			any_neighbor_province = {
+				owner = {
+					has_reform = steppe_horde
+				}
+				controller = {
+					has_reform = steppe_horde
+				}
+			}
+		}
 	}
 	
 	mean_time_to_happen = {

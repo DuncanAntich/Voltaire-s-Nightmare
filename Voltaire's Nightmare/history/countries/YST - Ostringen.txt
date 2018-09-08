@@ -1,4 +1,5 @@
-government = tribal_democracy
+government = tribal
+add_government_reform = tribal_democracy
 government_rank = 1
 primary_culture = east_frisian
 religion = catholic
@@ -24,7 +25,8 @@ capital = 2750
 	}
 }
 1358.1.1 = {
-	government = tribal_despotism
+	government = tribal
+	add_government_reform = tribal_despotism
 	technology_group = western
 	monarch = {
 		name = "Edo I"
@@ -87,7 +89,10 @@ capital = 2750
 		mil = 5
 	}
 }
-1464.1.1 = { government = despotic_monarchy }
+1464.1.1 = {
+	government = monarchy
+	add_government_reform = autocracy_reform
+}
 1468.1.1 = {
 	monarch = {
 		name = "Edo II"

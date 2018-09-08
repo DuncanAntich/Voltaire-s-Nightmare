@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 5
 technology_group = eastern
 primary_culture = serbian
@@ -271,7 +272,8 @@ historical_friend = ZDR
 }
 #Prince-Bishops of Montenegro
 1516.1.1 = {
-	government = theocratic_government
+	government = theocracy
+	add_government_reform = leading_clergy_reform
 	government_rank = 4
 	monarch = {
 		name = "Vavila"
@@ -483,7 +485,9 @@ historical_friend = ZDR
 	}
 }
 1852.3.13 = {
-	government = constitutional_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
+	set_legacy_government = constitutional_monarchy
 	heir = {
 		name = "Nikola"
 		monarch_name = "Nikola I"

@@ -22,10 +22,10 @@ feudalism = {
 			AND = {
 				owner = {
 					NOT = {
-						government = tribal_despotism
-						government = tribal_federation
-						government = tribal_democracy
-						government = steppe_horde
+						has_reform = tribal_despotism
+						has_reform = tribal_federation
+						has_reform = tribal_democracy
+						has_reform = steppe_horde
 					}
 				}
 				is_year = 950
@@ -69,7 +69,6 @@ feudalism = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				has_dlc = "The Cossacks"
 				owner = { has_estate = estate_nobles }
 			}
 			custom_trigger_tooltip = {
@@ -241,7 +240,6 @@ investiture = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				has_dlc = "The Cossacks"
 				owner = { has_estate = estate_church }
 			}
 			custom_trigger_tooltip = {
@@ -581,7 +579,6 @@ guilds = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				has_dlc = "The Cossacks"
 				owner = { has_estate = estate_burghers }
 			}
 			custom_trigger_tooltip = {
@@ -1028,15 +1025,18 @@ laytheology = {
 	can_start = {
 		is_year = 1400
 		superregion = bohemia_superregion
-		OR = {
-			NOT = {
-				any_province = {
-					religion_group = christian
-					superregion = bohemia_superregion
+		custom_trigger_tooltip = {
+			tooltip = laytheo.tt
+			OR = {
+				NOT = {
+					any_province = {
+						religion_group = christian
+						superregion = bohemia_superregion
+					}
 				}
-			}
-			can_have_center_of_reformation_trigger = {
-				RELIGION = hussite
+				can_have_center_of_reformation_trigger = {
+					RELIGION = hussite
+				}
 			}
 		}
 		OR = {
@@ -1683,7 +1683,6 @@ printing_press = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				has_dlc = "The Cossacks"
 				owner = { has_estate = estate_church }
 			}
 			custom_trigger_tooltip = {
@@ -1731,27 +1730,59 @@ printing_press = {
 					religion_group = christian
 				}
 			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_owner_protestant
-				owner = {
-					OR = {
-						religion = protestant
-						religion = reformed
-						religion = anabaptist
-						religion = anglican
+			if = {
+				limit = { has_dlc = "Rule Britannia" }
+				custom_trigger_tooltip = {
+					tooltip = tooltip_owner_protestant
+					owner = {
+						OR = {
+							religion = protestant
+							religion = reformed
+							religion = anglican
+							religion = anapabtist
+						}
+					}
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_owner_protestant
+					owner = {
+						OR = {
+							religion = protestant
+							religion = reformed
+							religion = anglican
+							religion = anapabtist
+						}
 					}
 				}
 			}
 		}
 		modifier = {
 			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_province_protestant
-				OR = {
-					religion = reformed
-					religion = protestant
-					religion = anabaptist
-					religion = anglican
+			if = {
+				limit = {
+					has_dlc = "Rule Britannia"
+				}
+				custom_trigger_tooltip = {
+					tooltip = tooltip_province_protestant_RB
+					OR = {
+						religion = reformed
+						religion = protestant
+						religion = anglican
+						religion = anapabtist
+					}
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_province_protestant
+					OR = {
+						religion = reformed
+						religion = protestant
+						religion = anglican
+						religion = anapabtist
+					}
 				}
 			}
 		}
@@ -1858,8 +1889,8 @@ global_trade = {
 		is_island = no
 		highest_value_trade_node = yes
 		OR = {
-			has_province_modifier = center_of_trade_modifier
-			has_province_modifier = inland_center_of_trade_modifier
+			province_has_center_of_trade_of_level = 3
+			province_has_center_of_trade_of_level = 2
 			is_capital = yes
 		}
 		owner = {
@@ -1918,24 +1949,17 @@ global_trade = {
 			factor = 0.5
 			scale = yes
 			potential = {
-				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
-				}
+				province_has_center_of_trade_of_level = 2
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_spread
-				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
-				}
+				province_has_center_of_trade_of_level = 2
 			}
 		}
 		modifier = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				has_dlc = "The Cossacks"
 				owner = { has_estate = estate_burghers }
 			}
 			custom_trigger_tooltip = {

@@ -1,4 +1,5 @@
-government = despotic_monarchy
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = swabian
 religion = catholic
@@ -17,7 +18,8 @@ capital = 122
 }
 #FC
 1090.5.18 = {
-	government = imperial_city
+	government = republic
+	add_government_reform = free_city
 	fixed_capital = 122
 	mercantilism = 25
 	monarch = {

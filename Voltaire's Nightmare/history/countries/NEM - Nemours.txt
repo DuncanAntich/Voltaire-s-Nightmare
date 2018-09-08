@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = orleanais
 religion = catholic
@@ -325,7 +326,7 @@ fixed_capital = 2824
 		mil = 2
 	}
 }
-1589.8.8 = { government = administrative_monarchy }
+1589.8.8 = { set_legacy_government = administrative_monarchy }
 1595.8.13 = {
 	monarch = {
 		name = "Henri I"

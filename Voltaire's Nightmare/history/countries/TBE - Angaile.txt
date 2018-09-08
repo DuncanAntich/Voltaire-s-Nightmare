@@ -1,8 +1,10 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = irish
+primary_culture = ulaidh
+add_accepted_culture = connachta
 capital = 2321
 
 1054.1.1 = {
@@ -31,6 +33,10 @@ capital = 2321
 		dip = 2
 		mil = 2
 	}
+}
+1171.5.1 = {
+	primary_culture = irish
+	remove_accepted_culture = connachta
 }
 1184.1.1 = {
 	monarch = {
@@ -188,5 +194,3 @@ capital = 2321
 		mil = 2
 	}
 }
-1617.1.1 = { government = administrative_monarchy }
-1707.1.1 = { government = constitutional_monarchy }

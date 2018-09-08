@@ -1,4 +1,5 @@
-government = merchant_republic
+government = republic
+add_government_reform = merchants_reform
 government_rank = 3
 mercantilism = 25
 primary_culture = ligurian
@@ -277,9 +278,13 @@ add_army_professionalism = 0.05
 		mil = 4
 	}
 }
-1458.1.1 = { government = feudal_monarchy }
+1458.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1461.1.1 = {
-	government = merchant_republic
+	government = republic
+	add_government_reform = merchants_reform
 	monarch = {
 		name = "Lodovico de Campofregoso"
 		birth_date = 1415.1.1
@@ -297,8 +302,14 @@ add_army_professionalism = 0.05
 		mil = 4
 	}
 }
-1464.1.1 = { government = feudal_monarchy }
-1475.1.1 = { government = merchant_republic }
+1464.1.1 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
+1475.1.1 = {
+	government = republic
+	add_government_reform = merchants_reform
+}
 1478.10.26 = {
 	monarch = {
 		name = "Battista de Campofregoso"

@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = western
 primary_culture = swabian
@@ -17,7 +18,8 @@ capital = 62
 }
 #Counts
 1080.7.11 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	monarch = {
 		name = "Heinrich I"
 		dynasty = "von Burgau"

@@ -1,3 +1,529 @@
+CNC_ideas = {
+    start = {
+        war_exhaustion_cost = -0.1
+        naval_forcelimit_modifier = 0.25
+    }
+    bonus = {
+        global_ship_recruit_speed = -0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Breisléin"
+            dynasty = "Ó Maíl Doraid"
+            dynasty = "Ó Canannáin"
+            dynasty = "Ó Domhnaill"
+        }
+    }
+    free = yes
+
+    CNC_idea_1 = {
+        infantry_power = 0.1
+    }
+    CNC_idea_2 = {
+        prestige = 1
+    }
+    CNC_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    CNC_idea_4 = {
+        garrison_size = 0.25
+    }
+    CNC_idea_5 = {
+        missionaries = 1
+        transport_power = 0.1
+    }
+    CNC_idea_6 = {
+        production_efficiency = 0.1
+    }
+    CNC_idea_7 = {
+        development_cost = -0.1
+    }
+}
+
+CNE_ideas = {
+    start = {
+        free_leader_pool = 1
+        advisor_pool = 1
+    }
+    bonus = {
+        leader_naval_shock = 1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Maelmuire"
+            dynasty = "Ó hAinniarraidh"
+            dynasty = "Ó Catháin"
+            dynasty = "Mac Lochlainn"
+            dynasty = "Ó Dochartaigh"
+            dynasty = "Ó Néill"
+        }
+    }
+    free = yes
+
+    CNE_idea_1 = {
+        infantry_power = 0.1
+    }
+    CNE_idea_2 = {
+        prestige = 1
+    }
+    CNE_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    CNE_idea_4 = {
+        garrison_size = 0.25
+    }
+    CNE_idea_5 = {
+        diplomatic_annexation_cost = -0.15
+        vassal_income = 0.25
+    }
+    CNE_idea_6 = {
+        build_cost = -0.1
+    }
+    CNE_idea_7 = {
+        light_ship_cost = -0.2
+    }
+}
+
+DLF_ideas = {
+    start = {
+        siege_ability = 0.1
+        land_forcelimit_modifier = 0.1
+    }
+    bonus = {
+        diplomatic_upkeep = 1
+    }
+    
+    trigger = {
+        tag = ULS
+        government = tribal
+    }
+    free = yes
+
+    DLF_idea_1 = {
+        adm_tech_cost_modifier = -0.1
+    }
+    DLF_idea_2 = {
+        trade_range_modifier = 0.2
+    }
+    DLF_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    DLF_idea_4 = {
+        leader_naval_manuever = 1
+        privateer_efficiency = 0.15
+    }
+    DLF_idea_5 = {
+        global_tax_modifier = 0.1
+    }
+    DLF_idea_6 = {
+        tolerance_own = 2
+    }
+    DLF_idea_7 = {
+        global_heretic_missionary_strength = 0.02
+    }
+}
+
+DLN_ideas = {
+    start = {
+        leader_naval_shock = 1
+        navy_tradition_decay = -0.01
+    }
+    bonus = {
+        leader_land_shock = 1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó hAitidhe"
+            dynasty = "Ó Loingsigh"
+            dynasty = "Ó Fearghail"
+            dynasty = "Ó Dubhuir"
+            dynasty = "Mac Aonghusa"
+        }
+    }
+    free = yes
+
+    DLN_idea_1 = {
+        prestige_decay = -0.01
+    }
+    DLN_idea_2 = {
+        religious_unity = 0.25
+    }
+    DLN_idea_3 = {
+        free_leader_pool = 1
+    }
+    DLN_idea_4 = {
+        defensiveness = 0.2
+        trade_steering = 0.2
+    }
+    DLN_idea_5 = {
+        land_morale = 0.1
+    }
+    DLN_idea_6 = {
+        diplomatic_reputation = 1
+    }
+    DLN_idea_7 = {
+        culture_conversion_cost = -0.1
+        heavy_ship_power = 0.1
+    }
+}
+
+SUI_ideas = {
+    start = {
+        global_ship_trade_power = 0.1
+        global_autonomy = -0.05
+    }
+    bonus = {
+        transport_cost = -0.2
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Máel Sechlainn"
+            dynasty = "Ó Chonaing"
+            dynasty = "Mac Eochagáin"
+        }
+    }
+    free = yes
+
+    SUI_idea_1 = {
+        idea_cost = -0.1
+    }
+    SUI_idea_2 = {
+        advisor_pool = 1
+    }
+    SUI_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    SUI_idea_4 = {
+        production_efficiency = 0.1
+    }
+    SUI_idea_5 = {
+        legitimacy = 1
+    }
+    SUI_idea_6 = {
+        shock_damage = 0.1
+        blockade_efficiency = 0.33
+    }
+    SUI_idea_7 = {
+        fort_maintenance_modifier = -0.1
+    }
+}
+
+TTC_ideas = {
+    start = {
+        global_prov_trade_power_modifier = 0.1
+        build_cost = -0.1
+    }
+    bonus = {
+        global_tax_modifier = 0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Laidhgnén"
+            dynasty = "Ó Baoighealláin"
+            dynasty = "Ó Chremthainn"
+            dynasty = "Ó Cearbhaill"
+            dynasty = "Ó hEignigh"
+            dynasty = "Ó hAnluain"
+            dynasty = "Mac Uidhir"
+            dynasty = "Mac Mathghamha"
+        }
+    }
+    free = yes
+
+    TTC_idea_1 = {
+        recover_army_morale_speed = 0.05
+    }
+    TTC_idea_2 = {
+        global_unrest = -1
+    }
+    TTC_idea_3 = {
+        num_accepted_cultures = 1
+    }
+    TTC_idea_4 = {
+        years_of_nationalism = -5
+    }
+    TTC_idea_5 = {
+        discipline = 0.05
+    }
+    TTC_idea_6 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    TTC_idea_7 = {
+        embargo_efficiency = 0.1
+        spy_offence = 0.2
+    }
+}
+
+GLN_ideas = {
+    start = {
+        land_attrition = -0.1
+        reinforce_speed = 0.15
+    }
+    bonus = {
+        artillery_cost = -0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Gadhra"
+            dynasty = "Ó Máille"
+            dynasty = "Ó hEaghra"
+        }
+    }
+    free = yes
+
+    GLN_idea_1 = {
+        legitimacy = 1
+    }
+    GLN_idea_2 = {
+        core_creation = -0.1
+    }
+    GLN_idea_3 = {
+        improve_relation_modifier = 0.15
+        trade_range_modifier = 0.1
+    }
+    GLN_idea_4 = {
+        vassal_income = 0.25
+        vassal_forcelimit_bonus = 1
+    }
+    GLN_idea_5 = {
+        papal_influence = 1
+    }
+    GLN_idea_6 = {
+        defensiveness = 0.2
+    }
+    GLN_idea_7 = {
+        tolerance_own = 2
+    }
+}
+
+CNT_ideas = {
+    start = {
+        war_exhaustion_cost = -0.1
+        diplomatic_annexation_cost = -0.15
+    }
+    bonus = {
+        production_efficiency = 0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Cellaigh"
+            dynasty = "Ó Ruairc"
+            dynasty = "Ó Raghallaigh"
+            dynasty = "Ó Conchobhair"
+            dynasty = "Ó Flaithbheartaigh"
+            dynasty = "Ó hEidhin"
+            dynasty = "Ó Cathail"
+            dynasty = "Ó Búrca"
+        }
+    }
+    free = yes
+
+    CNT_idea_1 = {
+        army_tradition = 0.5
+    }
+    CNT_idea_2 = {
+        state_maintenance_modifier = -0.1
+    }
+    CNT_idea_3 = {
+        improve_relation_modifier = 0.15
+        caravan_power = 0.1
+    }
+    CNT_idea_4 = {
+        free_leader_pool = 1
+    }
+    CNT_idea_5 = {
+        loot_amount = 0.25
+        embracement_cost = -0.1
+    }
+    CNT_idea_6 = {
+        prestige_decay = -0.01
+    }
+    CNT_idea_7 = {
+        shock_damage_received = -0.1
+    }
+}
+
+LGN_ideas = {
+    start = {
+        trade_steering = 0.2
+        naval_forcelimit_modifier = 0.25
+    }
+    bonus = {
+        mil_tech_cost_modifier = -0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Faelain"
+            dynasty = "Ó Chennselaig"
+            dynasty = "Ó Tuathail"
+            dynasty = "Ó Broin"
+            dynasty = "Mac Murchada"
+            dynasty = "Mac Giolla Phádraig"
+        }
+    }
+    free = yes
+
+    LGN_idea_1 = {
+        spy_offence = 0.2
+    }
+    LGN_idea_2 = {
+        state_maintenance_modifier = -0.1
+    }
+    LGN_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    LGN_idea_4 = {
+        unjustified_demands = -0.25
+        mercenary_cost = -0.15
+    }
+    LGN_idea_5 = {
+        fire_damage = 0.1
+    }
+    LGN_idea_6 = {
+        global_unrest = -1
+    }
+    LGN_idea_7 = {
+        num_accepted_cultures = 1
+        naval_attrition = -0.15
+    }
+}
+
+
+EGN_ideas = {
+    start = {
+        galley_power = 0.1
+        cavalry_power = 0.1
+    }
+    bonus = {
+        trade_efficiency = 0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Donnchadha"
+            dynasty = "Ó Súilleabháin"
+            dynasty = "Ó Mathghamhna"
+            dynasty = "Mac Cárthaigh"
+        }
+    }
+    free = yes
+
+    EGN_idea_1 = {
+        build_time = -0.1
+        garrison_size = 0.25
+    }
+    EGN_idea_2 = {
+        prestige = 1
+    }
+    EGN_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    EGN_idea_4 = {
+        reduced_liberty_desire = 10
+        vassal_forcelimit_bonus = 1
+    }
+    EGN_idea_5 = {
+        cavalry_flanking = 0.5
+    }
+    EGN_idea_6 = {
+        global_foreign_trade_power = 0.1
+    }
+    EGN_idea_7 = {
+        navy_tradition = 1
+    }
+}
+
+DGC_ideas = {
+    start = {
+        land_morale = 0.1
+        global_prov_trade_power_modifier = 0.1
+    }
+    bonus = {
+        transport_cost = -0.2
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Cinnéide"
+            dynasty = "Mac Cú Na Mara"
+            dynasty = "Ó Briain"
+            dynasty = "Ó Bruicc"
+        }
+    }
+    free = yes
+
+    DGC_idea_1 = {
+        core_creation = -0.1
+        movement_speed = 0.15
+    }
+    DGC_idea_2 = {
+        infantry_power = 0.1
+        embargo_efficiency = 0.1
+    }
+    DGC_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    DGC_idea_4 = {
+        prestige = 1
+    }
+    DGC_idea_5 = {
+        defensiveness = 0.2
+    }
+    DGC_idea_6 = {
+        enemy_core_creation = 0.5
+    }
+    DGC_idea_7 = {
+        fabricate_claims_cost = -0.25
+    }
+}
+
+NSG_ideas = {
+    start = {
+        possible_mercenaries = 0.5
+        merc_maintenance_modifier = -0.15
+    }
+    bonus = {
+        naval_tradition_from_battle = 0.5
+    }
+    
+    trigger = {
+        primary_culture = gallowglass
+    }
+    free = yes
+
+    NSG_idea_1 = {
+        mercenary_discipline = 0.05
+    }
+    NSG_idea_2 = {
+        trade_steering = 0.2
+        global_ship_recruit_speed = -0.1
+    }
+    NSG_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    NSG_idea_4 = {
+        mercenary_cost = -0.15
+    }
+    NSG_idea_5 = {
+        global_missionary_strength = 0.02
+    }
+    NSG_idea_6 = {
+        stability_cost_modifier = -0.1
+    }
+    NSG_idea_7 = {
+        production_efficiency = 0.1
+        global_trade_goods_size_modifier = 0.1
+    }
+}
+
 spanish_ducal_ideas = {
     start = {
         stability_cost_modifier = -0.1
@@ -369,10 +895,7 @@ irishclan_ideas = {
     }
     
     trigger = {
-        OR = {
-            primary_culture = irish
-            primary_culture = gallowglass
-        }
+        primary_culture = irish
     }
     free = yes
     

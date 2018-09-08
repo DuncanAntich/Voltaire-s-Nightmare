@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = emilian
@@ -33,7 +34,8 @@ capital = 2108
 	}
 }
 1097.8.20 = {
-	government = theocratic_government
+	government = theocracy
+	add_government_reform = leading_clergy_reform
 	government_rank = 3
 	monarch = {
 		name = "Aldo I"
@@ -52,7 +54,8 @@ capital = 2108
 	}
 }
 1126.1.1 = {
-	government = italian_monarchy
+	government = republic
+	add_government_reform = italian_monarchy
 	government_rank = 1
 	add_army_professionalism = 0.05
 	monarch = {

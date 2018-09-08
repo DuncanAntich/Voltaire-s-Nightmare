@@ -433,7 +433,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "prod_base_value"
-				position = { x = 162 y = 68}
+				position = { x = 157 y = 68}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 2 y = 2}	
@@ -447,7 +447,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name ="prod_base_increase_button"
-				position = { x= 132 y = 60 }
+				position = { x= 128 y = 60 }
 				quadTextureSprite ="GFX_development_button_production"	
 				tooltip = ""
 				tooltipText =""
@@ -460,7 +460,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name ="prod_base_exploit_button"
-				position = { x= 165 y = 78 }
+				position = { x= 161 y = 78 }
 				quadTextureSprite ="GFX_exploit_button"	
 				tooltip = ""
 				tooltipText =""
@@ -473,12 +473,12 @@ guiTypes = {
 			{
 				name ="mp_base_icon"
 				spriteType ="GFX_text_icon_manpower"	
-				position = { x= 216 y = 64 }
+				position = { x= 210 y = 64 }
 			}	
 
 			instantTextBoxType = {
 				name = "mp_base_value"
-				position = { x = 246 y = 0}
+				position = { x = 236 y = 0}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 2 y = 2}	
@@ -492,7 +492,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name ="mp_base_increase_button"
-				position = { x= 214 y = 60 }
+				position = { x= 206 y = 60 }
 				quadTextureSprite ="GFX_development_button_manpower"	
 				tooltip = ""
 				tooltipText =""
@@ -505,7 +505,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name ="mp_base_exploit_button"
-				position = { x= 247 y = 78 }
+				position = { x= 240 y = 78 }
 				quadTextureSprite ="GFX_exploit_button"	
 				tooltip = ""
 				tooltipText =""
@@ -517,12 +517,12 @@ guiTypes = {
 			iconType = {
 				name ="development_icon"
 				spriteType = "GFX_development_icon"
-				position = { x = 298 y = 64 }
+				position = { x = 290 y = 64 }
 			}
 
 			instantTextBoxType = {
 				name = "development_value"
-				position = { x = 326 y = 68}
+				position = { x = 309 y = 68}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 2 y = 2}	
@@ -532,11 +532,17 @@ guiTypes = {
 				format = centre
 				fixedsize = yes				
 			}
+
+			checkboxType = {
+				name = "settlement_growth_checkbox"
+				position = { x= 342 y = 63 }
+				quadTextureSprite ="GFX_checkbox_settlement_growth"
+			}
 		
 			iconType = {
 				name ="improve_icon"
 				spriteType = "GFX_extra_development_icon"
-				position = { x = 381 y = 63 }
+				position = { x = 384 y = 63 }
 			}
 
 			instantTextBoxType = {
@@ -2855,6 +2861,19 @@ guiTypes = {
 					maxHeight = 32	
 					format = left
 				}
+
+				guiButtonType = {
+					name = "center_of_trade_button"
+					position = { x=174 y=295 }
+					spriteType = "GFX_center_of_trade_inland_1"
+				}
+
+				iconType = {
+					name = "center_of_trade_icon"
+					position = { x=174 y=295 }
+					spriteType = "GFX_center_of_trade_inland_1"
+				}
+
 			}
 
 			windowType = {
@@ -6450,8 +6469,15 @@ guiTypes = {
 			buttonFont = "vic_18"
 			Orientation = "UPPER_LEFT"
 		}
+
+		iconType =
+		{
+			name ="trade_company_icon"
+			spriteType = "GFX_subject_trade_company_icon"
+			position = { x= 160 y = 15 }
+			scale = 0.75
+		}
 		
-	
 		instantTextBoxType = {
 			name = "development"
 			position = { x = 180 y = 6 }

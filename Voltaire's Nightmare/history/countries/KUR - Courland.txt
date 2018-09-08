@@ -1,4 +1,5 @@
-government = theocratic_government
+government = theocracy
+add_government_reform = leading_clergy_reform
 historical_friend = LIV
 government_rank = 4
 technology_group = western
@@ -181,7 +182,8 @@ fixed_capital = 2192
 	}
 }
 1560.5.20 = {
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 	government_rank = 3
 	capital = 397
 }

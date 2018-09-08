@@ -41,7 +41,7 @@
 2024 = "Valencia"
 2708 = "Vatikan"
 1152 = "Vilnius"
-856 = "Vikinglow"
+4720 = "Víkingaló"
 822 = "Breslau"
 1799 = "Jorvik"
 102 = "Rom"

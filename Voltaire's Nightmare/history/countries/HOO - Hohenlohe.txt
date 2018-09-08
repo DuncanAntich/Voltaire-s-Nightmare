@@ -1,4 +1,5 @@
-government = monastic_order_government
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 primary_culture = franconian
 religion = catholic
@@ -17,7 +18,8 @@ capital = 2546
 }
 #Lords of Hohenlohe
 1153.1.1 = {
-	government = despotic_monarchy
+	government = monarchy
+	add_government_reform = autocracy_reform
 	monarch = {
 		name = "Konrad I"
 		dynasty = "von Hohenlohe"
@@ -89,7 +91,10 @@ capital = 2546
 		mil = 3
 	}
 }
-1450.5.14 = { government = feudal_monarchy }
+1450.5.14 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 1472.1.1 = {
 	monarch = {
 		name = "Kraft V"
