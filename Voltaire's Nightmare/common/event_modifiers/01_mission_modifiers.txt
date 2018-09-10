@@ -136,6 +136,7 @@ hanseatic_cities_mission = {
 frankish_throne_mission = {
 	meritocracy = 0.5
 	reduced_liberty_desire = 10
+	vassal_income = 0.2
 }
 
 convert_provinces_mission = {
@@ -143,10 +144,9 @@ convert_provinces_mission = {
 	global_missionary_strength = 0.02
 }
 
-achieve_unity_mission = {
-	stability_cost_modifier = -0.25
-	global_unrest = -2
-	tolerance_heathen = 1
+religious_wars_mission = {
+	land_morale = 0.05
+	manpower_recovery_speed = 0.33
 }
 
 defend_faith_mission = {
@@ -158,11 +158,17 @@ defend_faith_mission = {
 pious_state_mission = {
 	papal_influence = 1
 	devotion = 0.5
+	church_power_modifier = 0.33
 }
 
 question_of_reform_mission = {
 	missionaries = 1
 	global_heretic_missionary_strength = 0.03
+}
+
+join_league_mission = {
+	siege_ability = 0.1
+	loot_amount = 0.33
 }
 
 #Generic Military Mission Rewards:

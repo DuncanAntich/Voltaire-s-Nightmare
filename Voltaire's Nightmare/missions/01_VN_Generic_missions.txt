@@ -127,15 +127,7 @@ VN_trade_missions = {
 		icon = mission_high_income
 		required_missions = { vn_embrace_guilds }
 		trigger = {
-			calc_true_if = {
-				all_owned_province = {
-					OR = {
-						has_province_modifier = center_of_trade_modifier
-						has_province_modifier = inland_center_of_trade_modifier
-					}
-				}
-				amount = 3
-			}
+			num_of_centers_of_trade = 5
 		}
 		effect = {
 			add_country_modifier = {
@@ -355,12 +347,23 @@ vn_expansion_missions = {
 		icon = mission_fort
 		required_missions = { conquer_states }
 		trigger = {
-			OR = {
-				fort_14th = 10
-				fort_15th = 10
-				fort_16th = 10
-				fort_17th = 10
-				fort_18th = 10
+			custom_trigger_tooltip = {
+				tooltip = vn_fortify_frontiers.tt
+				calc_true_if = {
+					all_owned_province = {
+						any_neighbor_province = {
+							NOT = { owned_by = ROOT }
+						}
+						OR = {
+							has_building = fort_14th
+							has_building = fort_15th
+							has_building = fort_16th
+							has_building = fort_17th
+							has_building = fort_18th
+						}
+					}
+					amount = 5
+				}
 			}
 		}
 		effect = {
@@ -458,7 +461,7 @@ vn_military_missions = {
 			army_professionalism = 0.5
 		}
 		effect = {
-			add_army_professionalism = 0.025
+			add_army_professionalism = 0.05
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "professional_armies_mission"
@@ -768,17 +771,9 @@ vn_administrative_missions = {
 		icon = mission_have_two_subjects
 		required_missions = { vn_expand_court }
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "The Cossacks"	#make free after 1.26
-				}
-				estate_loyalty = { estate = estate_burghers loyalty = 70 }
-				estate_loyalty = { estate = estate_nobles loyalty = 70 }
-				estate_loyalty = { estate = estate_church loyalty = 70 }
-			}
-			else = {
-				NOT = { average_autonomy = 25 }	#for those that don't have it, remove after 1.26
-			}
+			estate_loyalty = { estate = estate_burghers loyalty = 70 }
+			estate_loyalty = { estate = estate_nobles loyalty = 70 }
+			estate_loyalty = { estate = estate_church loyalty = 70 }
 		}
 		effect = {
 			add_country_modifier = {
@@ -797,7 +792,7 @@ vn_administrative_missions = {
 				absolutism = 50
 			}
 			else = {
-				legitimacy = 100
+				legitimacy_equivalent = 100
 				prestige = 95
 			}
 		}
