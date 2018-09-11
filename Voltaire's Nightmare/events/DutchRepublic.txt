@@ -1628,7 +1628,7 @@ country_event = {
 			if = {
 				limit = { NOT = { tag = NED }}
 				define_exiled_ruler = {
-					dynasty = "historic_dynasty"
+					dynasty = ROOT
 					exiled_as = "states_general_abolished_@ROOT"
 				}
 			}

@@ -116,3 +116,31 @@ coptic_alexandria = {
 	}
 	
 }
+
+#Byzantine Walls
+
+theodosian_walls = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	#viewer = {
+	#}
+
+	trigger = {
+		owner = { tag = BYZ }
+	}
+	
+	local_defensiveness = 2.0
+	local_hostile_attrition = 3
+	picture = "theodosian_icon"
+
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}

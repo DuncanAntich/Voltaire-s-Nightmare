@@ -1,52 +1,117 @@
 government = tribal
 add_government_reform = tribal_kingdom
-government_rank = 1
+government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = eoganachta
-capital = 921
+primary_culture = dalcassian
+capital = 891
 
-#Mahoneys of Rathlind
-1054.1.1 = {
+#O Brien Kings
+1025.1.1 = {
 	monarch = {
-		name = "Brodceann"
-		dynasty = "Ó Mathghamhna"
+		name = "Donnchad"
+		dynasty = "Ó Briain"
+		adm = 3
+		dip = 0
+		mil = 3
+	}
+}
+1064.1.1 = {
+	monarch = {
+		name = "Murchadh"
+		dynasty = "Ó Briain"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1075.1.1 = {
+1068.1.1 = {
 	monarch = {
-		name = "Cumara"
-		dynasty = "Ó Mathghamhna"
+		name = "Turlough"
+		dynasty = "Ó Briain"
+		birth_date = 1009.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Muirchertach"
+		monarch_name = "Muirchertach"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		death_date = 1072.1.1 #to DBL
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1072.1.1 = {
+	heir = {
+		name = "Tadhg"
+		monarch_name = "Tadhg II"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		death_date = 1086.1.1
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1086.1.1 = {
+	monarch = {
+		name = "Muirchertach"
+		dynasty = "Ó Briain"
+		birth_date = 1050.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	heir = {
+		name = "Diarmait"
+		monarch_name = "Diarmait I"
+		dynasty = "Ó Briain"
+		birth_date = 1060.1.1
+		death_date = 1118.1.1
+		claim = 85
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1114.1.1 = {
+	monarch = {
+		name = "Diarmait I"
+		dynasty = "Ó Briain"
+		birth_date = 1060.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1118.1.1 = {
+	monarch = {
+		name = "Conchobhar I"
+		dynasty = "Ó Briain"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1142.1.1 = {
+	monarch = {
+		name = "Turlough I"
+		dynasty = "Ó Briain"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1100.1.1 = {
+1167.1.1 = {
 	monarch = {
-		name = "Donoch"
-		dynasty = "Ó Mathghamhna"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1125.1.1 = {
-	monarch = {
-		name = "Cian III"
-		dynasty = "Ó Mathghamhna"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1150.1.1 = {
-	monarch = {
-		name = "Donoch"
-		dynasty = "Ó Mathghamhna"
+		name = "Muireadhach I"
+		dynasty = "Ó Briain"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -56,7 +121,7 @@ capital = 921
 
 #McCarthies
 1172.1.1 = {
-	government_rank = 2
+	capital = 921
 	monarch = {
 		name = "Dairmait II"
 		dynasty = "Mac Cárthaigh"

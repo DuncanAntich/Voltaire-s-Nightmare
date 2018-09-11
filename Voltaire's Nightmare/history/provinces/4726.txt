@@ -1,5 +1,5 @@
-owner = TCN
-controller = TCN
+owner = AIN
+controller = AIN
 culture = connachta
 religion = catholic
 hre = no
@@ -9,8 +9,7 @@ trade_goods = naval_supplies
 base_manpower = 1
 capital = "Glencolumbkille"
 is_city = yes
-add_core = TCN
-add_core = DGL
+add_core = AIN
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -27,8 +26,7 @@ discovered_by = north_american
 1641.10.22 = { unrest = 15 }
 1642.5.1 = { unrest = 0 }
 1642.6.7 = {
-	remove_core = TCN
-	remove_core = DGL
+	remove_core = AIN
 	add_core = IRE
 }
 1646.6.5 = { controller = IRE }

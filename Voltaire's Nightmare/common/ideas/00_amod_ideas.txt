@@ -1,3 +1,43 @@
+LZO_ideas = {
+    start = {
+        papal_influence = 2
+        fabricate_claims_cost = -0.25
+    }
+    bonus = {
+        discipline = 0.05
+    }
+    
+    trigger = {
+        tag = LZO
+    }
+    free = yes
+
+    LZO_idea_1 = {
+        diplomatic_reputation = 1
+    }
+    LZO_idea_2 = {
+        vassal_income = 0.25
+        vassal_forcelimit_bonus = 1
+    }
+    LZO_idea_3 = {
+        republican_tradition = 0.5
+        legitimacy = 1
+    }
+    LZO_idea_4 = {
+        build_cost = -0.1
+    }
+    LZO_idea_5 = {
+        idea_cost = -0.1
+        embracement_cost = -0.1
+    }
+    LZO_idea_6 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    LZO_idea_7 = {
+        spy_offence = 0.2
+    }
+}
+
 LGS_ideas = {
     start = {
         global_institution_spread = 0.1
@@ -556,7 +596,7 @@ GMU_ideas = {
     }
     GMU_idea_4 = {
         advisor_cost = -0.15
-        tability_cost_modifier = -0.05
+        stability_cost_modifier = -0.05
     }
     GMU_idea_5 = {
         discipline = 0.05

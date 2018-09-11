@@ -12,12 +12,12 @@ war_goal = {
 }
 
 1849.2.9 = {
-	add_attacker = PAP
+	add_attacker = LZO
 }
 
 1849.3.23 = {
 	rem_attacker = LBV
 	rem_attacker = SPI
-	rem_attacker = PAP
+	rem_attacker = LZO
 	rem_defender = EAH
 }

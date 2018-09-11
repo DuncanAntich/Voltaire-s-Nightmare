@@ -154,7 +154,6 @@ republic = {
 				trading_city
 				ambrosian_republic
 				veche_republic
-				federal_republic
 				colonial_government
 				dutch_republic
 				italian_monarchy
@@ -227,7 +226,6 @@ republic = {
 		dutch_republic
 		merchants_reform
 		veche_republic
-		federal_republic
 		free_city
 		trading_city
 		american_republic

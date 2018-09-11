@@ -1,6 +1,6 @@
 latent_trade_goods = { coal }
-owner = MNS
-controller = MNS
+owner = MMU
+controller = MMU
 culture = dalcassian
 religion = catholic
 hre = no
@@ -10,7 +10,7 @@ trade_goods = cheese
 base_manpower = 3
 capital = "Limerick"
 is_city = yes
-add_core = MNS
+add_core = MMU
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -21,6 +21,12 @@ extra_cost = 8
 center_of_trade = 1
 
 1171.5.1 = { culture = irish }
+1172.1.1 = {
+	owner = MNS
+	controller = MNS
+	add_core = MNS
+	remove_core = MMU
+}
 1223.1.1 = {
 	owner = DMS
 	controller = DMS

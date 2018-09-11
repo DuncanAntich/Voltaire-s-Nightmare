@@ -1,6 +1,6 @@
 owner = GLN
 controller = GLN
-culture = eoganachta
+culture = connachta
 religion = catholic
 hre = no
 base_tax = 2

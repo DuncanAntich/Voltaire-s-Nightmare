@@ -62,10 +62,18 @@ discovered_by = north_american
 	controller = ANC
 	add_core = ANC
 }
+1798.2.15 = { remove_core = PAP }
 1798.3.7 = {
+	owner = LZO
+	controller = LZO
+	add_core = LZO
+	remove_core = ANC
+}
+1799.9.30 = {
 	owner = PAP
 	controller = PAP
-	remove_core = ANC
+	add_core = PAP
+	remove_core = LZO
 }
 1808.1.1 = {
 	owner = ITA

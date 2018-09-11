@@ -375,7 +375,7 @@ country_event = {
 	trigger = {
 		capital_scope = { superregion = lombardy_superregion }
 		culture_group = latin
-		government = theocratic_government
+		has_reform = leading_clergy_reform
 		current_age = age_of_holy_wars
 		NOT = { has_country_flag = had_commune_question }
 		NOT = { num_of_cities = 5 }
@@ -412,7 +412,8 @@ country_event = {
 	option = {
 		name = "FBIA5"
 		ai_chance = { factor = 95 }
-		change_government = italian_monarchy
+		change_government = republic
+		add_government_reform = italian_monarchy
 		country_event = { id = elections.723 }
 	}
 	option = {
@@ -510,7 +511,7 @@ country_event = {
 		NOT = { has_country_flag = no_support }
 		OR = {
 			NOT = { exists = AVI }
-			AVI = { government = papal_government }
+			AVI = { has_reform = papacy_reform }
 		}
 	}
 	
@@ -576,8 +577,11 @@ country_event = {
 		}
 		hidden_effect = {
 			if = {
-				limit = { AVI = { NOT = { government = papal_government } } }
-				AVI = { change_government = papal_government }
+				limit = { AVI = { NOT = { has_reform = papacy_reform } } }
+				AVI = {
+					change_government = theocracy
+					add_government_reform = papacy_reform
+				}
 			}
 		}
 		if = {
@@ -603,7 +607,7 @@ country_event = {
 		papacy_active = yes
 		NOT = { exists = AVI }
 		religion = catholique
-		government = theocratic_government
+		has_reform = leading_clergy_reform
 		NOT = { has_ruler_flag = refused_papacy }
 		is_at_war = no
 		num_of_cities = 2
@@ -694,8 +698,11 @@ country_event = {
 		}
 		hidden_effect = {
 			if = {
-				limit = { AVI = { NOT = { government = papal_government } } }
-				AVI = { change_government = papal_government }
+				limit = { AVI = { NOT = { has_reform = papacy_reform } } }
+				AVI = {
+					change_government = theocracy
+					add_government_reform = papacy_reform
+				}
 			}
 		}
 		add_papal_influence = 20
@@ -946,7 +953,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		NOT = { has_country_modifier = cluniac_m }
 		NOT = { has_country_modifier = cisterc_m }
 		NOT = { has_country_modifier = benedic_m }
@@ -995,7 +1002,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
-	trigger = { government = monastic_order_government }
+	trigger = { has_reform = monastic_order_reform }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -1034,7 +1041,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
-	trigger = { government = monastic_order_government }
+	trigger = { has_reform = monastic_order_reform }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -1070,7 +1077,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
-	trigger = { government = monastic_order_government }
+	trigger = { has_reform = monastic_order_reform }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -1107,7 +1114,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		faction_in_power = abb_cluniacs
 		any_neighbor_country = {
 			is_at_war = no
@@ -1140,7 +1147,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		faction_in_power = abb_cistercians
 		any_neighbor_country = {
 			NOT = { alliance_with = ROOT }
@@ -1182,7 +1189,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		faction_in_power = abb_benedictines
 		capital_scope = { NOT = { base_production = 7 } }
 	}
@@ -1206,7 +1213,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		NOT = { faction_in_power = abb_cluniacs }
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1233,7 +1240,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		NOT = { faction_in_power = abb_cistercians }
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1260,7 +1267,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 		NOT = { faction_in_power = abb_benedictines }
 		OR = {
 			religion = catholic
@@ -1307,7 +1314,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { religion_group = christian }
-		government = monastic_order_government
+		has_reform = monastic_order_reform
 	}
 	
 	mean_time_to_happen = {
@@ -1316,7 +1323,8 @@ country_event = {
 
 	option = {
 		name = "FBIA21"
-		change_government = theocratic_government
+		change_government = theocracy
+		add_government_reform = leading_clergy_reform
 	}
 }
 
@@ -1329,7 +1337,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 	}
 	mean_time_to_happen = { days = 1 }
 
@@ -1371,7 +1379,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 	}
 	mean_time_to_happen = { days = 1 }
 
@@ -1402,7 +1410,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 	}
 	mean_time_to_happen = { days = 1 }
 
@@ -1455,7 +1463,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		religion_group = muslim
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1483,7 +1491,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 	}
 	mean_time_to_happen = { days = 1 }
 
@@ -1513,7 +1521,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		NOT = { has_country_modifier = tur_mil_m }
 		NOT = { has_country_modifier = tur_pac_m }
 	}
@@ -1552,7 +1560,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 	}
 	mean_time_to_happen = { days = 1 }
 
@@ -1590,7 +1598,7 @@ country_event = {
 	picture = BANKRUPTCY_eventPicture
 	
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		faction_in_power = tur_pacifists
 		has_advisor = yes
 		is_at_war = yes
@@ -1634,7 +1642,7 @@ country_event = {
 	picture = BATTLE_eventPicture
 	
 	trigger = {
-		government = ottoman_government
+		has_reform = ottoman_government
 		faction_in_power = tur_militarists
 		war_exhaustion = 2
 		is_at_war = yes
@@ -1668,7 +1676,7 @@ country_event = {
 	picture = CITY_VIEW_eventPicture
 	
 	is_triggered_only = yes
-	trigger = { government = canton_government }
+	trigger = { has_reform = canton_government }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -1690,7 +1698,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = canton_government
+		has_reform = canton_government
 		capital_scope = { NOT = { development = 15 } }
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1719,7 +1727,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = canton_government
+		has_reform = canton_government
 		is_at_war = yes
 		NOT = { has_country_modifier = military_funding }
 	}
@@ -1742,7 +1750,7 @@ country_event = {
 	picture = CITY_VIEW_eventPicture
 	
 	is_triggered_only = yes
-	trigger = { government = canton_government }
+	trigger = { has_reform = canton_government }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -1774,9 +1782,9 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = canton_government
+		has_reform = canton_government
 		any_country = {
-			government = canton_government
+			has_reform = canton_government
 			is_at_war = no
 			NOT = { tag = ROOT }
 		}
@@ -1787,7 +1795,7 @@ country_event = {
 		name = "FBIA35"
 		every_country = {
 			limit = {
-				government = canton_government
+				has_reform = canton_government
 				NOT = { tag = ROOT }
 				is_at_war = no
 			}
@@ -1795,7 +1803,7 @@ country_event = {
 		}
 		random_country = {
 			limit = {
-				government = canton_government
+				has_reform = canton_government
 				NOT = { tag = ROOT }
 				is_at_war = no
 			}
@@ -1839,7 +1847,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		is_statists_in_power = yes
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1859,7 +1867,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		is_orangists_in_power = yes
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1878,7 +1886,7 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
-	trigger = { government = italian_monarchy }
+	trigger = { has_reform = italian_monarchy }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -1910,7 +1918,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		NOT = { has_country_modifier = free_commune_m }
 	}
 	mean_time_to_happen = { days = 1 }
@@ -1939,7 +1947,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		has_leaders = {
 			value = 1
 			type = general
@@ -1970,7 +1978,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = italian_monarchy
+		has_reform = italian_monarchy
 		OR = {
 			religion = catholic
 			religion = catholique
@@ -2011,7 +2019,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = eastern_monarchy
+		has_reform = eastern_monarchy
 		any_owned_province = {
 			is_capital = no
 			NOT = { local_autonomy = 100 }
@@ -2047,7 +2055,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = eastern_monarchy
+		has_reform = eastern_monarchy
 		OR = {
 			religion = catholique
 			religion = catholic
@@ -2089,7 +2097,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = eastern_monarchy
+		has_reform = eastern_monarchy
 		num_of_cities = 2
 	}
 	mean_time_to_happen = { days = 1 }
@@ -2142,7 +2150,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = eastern_monarchy
+		has_reform = eastern_monarchy
 		has_leaders = {
 			value = 1
 			type = general
@@ -2168,7 +2176,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	trigger = {
-		government = eastern_monarchy
+		has_reform = eastern_monarchy
 		NOT = { stability = 3 }
 		any_owned_province = {
 			is_capital = no
@@ -2205,7 +2213,7 @@ country_event = {
 	picture = ARTWORK_eventPicture
 	
 	is_triggered_only = yes
-	trigger = { government = eastern_monarchy }
+	trigger = { has_reform = eastern_monarchy }
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -2280,7 +2288,8 @@ country_event = {
 	option = {
 		name = "FBIA49"
 		ai_chance = { factor = 95 }
-		change_government = english_monarchy
+		change_government = monarchy
+		add_government_reform = english_monarchy
 		add_mercantilism = 25
 		add_stability = -1
 	}
@@ -2560,7 +2569,7 @@ country_event = {
 		}
 		religion = catholic
 		papacy_active = yes
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		NOT = { any_province = { religion = cathar } }
 		NOT = { any_province = { religion = waldensian } }
 		OR = {
@@ -2737,7 +2746,7 @@ country_event = {
 		current_age = age_of_dynasticism
 		religion = catholic
 		papacy_active = yes
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		NOT = { war_with = PAP }
 		NOT = { exists = AVI }
 		NOT = { started_in = 1309.3.9 }
@@ -2914,7 +2923,8 @@ country_event = {
 		hidden_effect = {
 			AVI = {
 				change_religion = catholique
-				change_government = papal_government
+				change_government = theocracy
+				add_government_reform = papacy_reform
 				set_government_rank = 5
 				define_ruler = { name = "Clemens VII" }
 			}
@@ -3099,7 +3109,7 @@ province_event = {
 
 	trigger = {
 		owner = {
-			government = theocratic_government
+			has_reform = leading_clergy_reform
 			NOT = { religion = anabaptist }
 			NOT = { has_country_flag = anab_revolted }
 			num_of_cities = 3
@@ -3204,7 +3214,7 @@ country_event = {
 		NOT = { is_year = 1204 }
 		religion = catholic
 		papacy_active = yes
-		government = papal_government
+		has_reform = papacy_reform
 		is_free_or_tributary_trigger = yes
 		had_global_flag = { flag = guelph_ghib_enabled days = 18250 }
 		NOT = { has_global_flag = mod_sk_allowed }
@@ -3251,7 +3261,7 @@ country_event = {
 		is_year = 1260
 		NOT = { is_year = 1280 }
 		religion = catholic
-		government = papal_government
+		has_reform = papacy_reform
 		tag = PAP
 	}
 	mean_time_to_happen = { months = 240 }
@@ -3289,7 +3299,7 @@ country_event = {
 		NOT = { is_year = 1220 }
 		NOT = { started_in = 1216.12.22 }
 		religion = catholic
-		government = papal_government
+		has_reform = papacy_reform
 		tag = PAP
 	}
 	mean_time_to_happen = { months = 120 }
@@ -3316,7 +3326,7 @@ country_event = {
 		NOT = { is_advisor_employed = 2003 }
 		NOT = { advisor_exists = 2003 }
 		religion = catholic
-		government = papal_government
+		has_reform = papacy_reform
 		tag = PAP
 	}
 	mean_time_to_happen = { months = 120 }
@@ -3347,7 +3357,7 @@ country_event = {
 		current_age = age_of_holy_wars
 		NOT = { started_in = 1184.1.1 }
 		religion = catholic
-		government = papal_government
+		has_reform = papacy_reform
 		papacy_active = yes
 		tag = PAP
 		any_province = { religion = cathar }
@@ -4304,5 +4314,141 @@ country_event = {
 			type = cb_insult
 			months = 1825
 		}
+	}
+}
+
+country_event = {
+	id = fbievents.111
+	title = "FBIT111"
+	desc = "FBID111"
+	picture = NEW_HEIR_eventPicture
+	
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		NOT = { has_country_flag = in_tanist_heir_selection }
+		has_reform = tribal_kingdom
+		has_regency = no
+		is_lesser_in_union = no
+		has_heir = no
+	}
+
+	immediate = { hidden_effect = { set_country_flag = in_tanist_heir_selection } }
+
+	option = {
+		name = "FBIA111"
+		ai_chance = { factor = 33 }
+		define_heir = {
+			age = 15
+			hidden = yes
+			dynasty = ROOT
+			female = no
+		}
+		if = {
+			limit = { has_estate = estate_nobles }
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 15
+			}
+		}
+		if = {
+			limit = { has_estate = estate_church }
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -15
+			}
+		}
+		add_faction_influence = {
+			faction = cla_flatha
+			influence = 10
+		}
+		hidden_effect = { clr_country_flag = in_tanist_heir_selection }
+	}
+	option = {
+		name = "FBIB111"
+		ai_chance = { factor = 33 }
+		define_heir = {
+			age = 15
+			hidden = yes
+			dynasty = ROOT
+			female = no
+		}
+		if = {
+			limit = { has_estate = estate_nobles }
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -5
+			}
+		}
+		if = {
+			limit = { has_estate = estate_church }
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -5
+			}
+		}
+		add_faction_influence = {
+			faction = cla_filid
+			influence = 10
+		}
+		hidden_effect = { clr_country_flag = in_tanist_heir_selection }
+	}
+	option = {
+		name = "FBIC111"
+		ai_chance = { factor = 33 }
+		define_heir = {
+			age = 15
+			hidden = yes
+			dynasty = ROOT
+			female = no
+		}
+		if = {
+			limit = { has_estate = estate_church }
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 15
+			}
+		}
+		if = {
+			limit = { has_estate = estate_nobles }
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -15
+			}
+		}
+		add_faction_influence = {
+			faction = cla_druid
+			influence = 10
+		}
+		hidden_effect = { clr_country_flag = in_tanist_heir_selection }
+	}
+	option = {
+		name = "FBIDD111"
+		ai_chance = { factor = 1 }
+		trigger = {
+			any_neighbor_country = {
+				has_reform = tribal_kingdom
+				is_lesser_in_union = no
+				has_regency = no
+				culture = ROOT
+			}
+		}
+		random_neighbor_country = {
+			limit = {
+				has_reform = tribal_kingdom
+				is_lesser_in_union = no
+				has_regency = no
+				culture = ROOT
+			}
+			ROOT = {
+				define_heir = {
+					dynasty = PREV
+					age = 15
+					hidden = yes
+					female = no
+				}
+			}
+		}
+		hidden_effect = { clr_country_flag = in_tanist_heir_selection }
 	}
 }

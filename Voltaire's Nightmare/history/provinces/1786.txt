@@ -31,10 +31,18 @@ discovered_by = muslim
 	add_core = PRG
 	remove_core = SPT
 }
+1798.2.15 = { remove_core = PAP }
 1798.3.7 = {
+	owner = LZO
+	controller = LZO
+	add_core = LZO
+	remove_core = PRG
+}
+1799.9.30 = {
 	owner = PAP
 	controller = PAP
-	remove_core = PRG
+	add_core = PAP
+	remove_core = LZO
 }
 1809.5.17 = {
 	owner = FRA

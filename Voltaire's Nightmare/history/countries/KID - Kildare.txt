@@ -223,6 +223,7 @@ capital = 853
 	monarch = {
 		name = "Thomas"
 		dynasty = "FitzGerald"
+		birth_date = 1420.1.1
 		adm = 3
 		dip = 4
 		mil = 3
@@ -234,9 +235,9 @@ capital = 853
 1444.1.1 = {
 	heir = {
 		name = "John"
-		monarch_name = "Shane"
+		monarch_name = "John"
 		dynasty = "FitzGerald"
-		birth_date = 1424.1.1
+		birth_date = 1444.1.1
 		death_date = 1456.1.1 
 		claim = 95
 		adm = 3
@@ -257,7 +258,7 @@ capital = 853
 		mil = 5
 	}
 }
-1478.1.1 = {
+1477.3.25 = {
 	monarch = {
 		name = "Gerald"
 		dynasty = "FitzGerald"
@@ -266,11 +267,34 @@ capital = 853
 		dip = 5
 		mil = 5
 	}
+}
+1487.1.1 = {
+	heir = {
+		name = "Gerald"
+		monarch_name = "Gerald"
+		dynasty = "FitzGerald"
+		birth_date = 1487.1.1
+		death_date = 1534.12.12
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1513.9.3 = {
+	monarch = {
+		name = "Gerald"
+		dynasty = "FitzGerald"
+		birth_date = 1487.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 	heir = {
 		name = "Thomas"
 		monarch_name = "Thomas"
 		dynasty = "FitzGerald"
-		birth_date = 1478.1.1
+		birth_date = 1513.1.1
 		death_date = 1537.2.3
 		claim = 95
 		adm = 3
@@ -278,30 +302,29 @@ capital = 853
 		mil = 4
 	}
 }
-1513.1.1 = {
+1534.12.12 = {
 	monarch = {
 		name = "Thomas"
 		dynasty = "FitzGerald"
-		birth_date = 1478.1.1
+		birth_date = 1513.1.1
 		adm = 3
 		dip = 3
 		mil = 4
 	}
-}
-1525.1.1 = {
 	heir = {
 		name = "Gerald"
 		monarch_name = "Gerald"
 		dynasty = "FitzGerald"
 		birth_date = 1525.1.1
-		death_date = 1585.1.1
-		claim = 95
+		death_date = 1585.11.16
+		claim = 70
 		adm = 1
 		dip = 1
 		mil = 1
 	}
-}	
-1537.2.3 = {
+}
+#forfeit 1537.2.3	
+1569.1.1 = {
 	monarch = {
 		name = "Gerald"
 		dynasty = "FitzGerald"
@@ -310,13 +333,26 @@ capital = 853
 		dip = 1
 		mil = 1
 	}
-}
-1585.1.1 = {
-	monarch = {
+	heir = {
 		name = "Henry"
+		monarch_name = "Henry"
 		dynasty = "FitzGerald"
+		birth_date = 1562.1.1
+		death_date = 1597.8.1
+		claim = 85
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
+1585.11.16 = {
+	monarch = {
+		name = "Henry"
+		dynasty = "FitzGerald"
+		birth_date = 1562.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+#done 1597.8.1

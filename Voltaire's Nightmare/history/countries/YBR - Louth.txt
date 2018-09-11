@@ -3,74 +3,51 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = connachta
+primary_culture = eoganachta
+add_accepted_culture = connachta
 capital = 2495
 
-#Kings of Cnogba
-1032.1.1 = {
+#Kings of Gailenga Mora
+1050.1.1 = {
 	monarch = {
-		name = "Flannacan"
-		dynasty = "Ó Chonaing"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1060.1.1 = {
-	monarch = {
-		name = "Gairbeith"
-		dynasty = "Ó Chonaing"
-		adm = 0
-		dip = 1
-		mil = 1
-	}
-}
-1061.1.1 = {
-	monarch = {
-		name = "Mael Morda"
-		dynasty = "Ó Chonaing"
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-1073.1.1 = {
-	monarch = {
-		name = "Trénair"
-		dynasty = "Ó Chonaing"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-1093.1.1 = {
-	monarch = {
-		name = "Cellach"
-		dynasty = "Ó Chonaing"
+		name = "Conghalach"
+		dynasty = "Mac Maoláin"
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
-1130.1.1 = {
+1090.1.1 = {
 	monarch = {
-		name = "Muirchetach"
-		dynasty = "Ó Chonaing"
-		adm = 1
+		name = "Amlaíb"
+		dynasty = "Mac Maoláin"
+		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1161.1.1 = {
+1130.1.1 = {
 	monarch = {
-		name = "Donnchad"
-		dynasty = "Ó Chonaing"
-		adm = 0
+		name = "Mac Maoláin"
+		dynasty = "Mac Maoláin"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+1144.1.1 = {
+	monarch = {
+		name = "Mac Maoláin"
+		dynasty = "Mac Maoláin"
+		adm = 1
 		dip = 2
 		mil = 1
 	}
 }
-1171.5.1 = { primary_culture = irish }
+1171.5.1 = {
+	primary_culture = irish
+	remove_accepted_culture = connachta
+}
 #done 1172
 
 #Barons of Louth

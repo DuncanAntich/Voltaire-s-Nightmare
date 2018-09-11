@@ -492,8 +492,89 @@ country_event = {
 	option = {
 		trigger = { NOT = { has_reform = dutch_republic } }
 		name = elections.720.c
-		define_ruler = {
-			dynasty = "historic_dynasty" # Will pick one weighted by how many rulers a family has had
+		if = {
+			limit = { tag = VNN }
+			define_ruler = { dynasty = "della Scala" }
+		}
+		else_if = {
+			limit = { tag = VLT }
+			define_ruler = { dynasty = "Belforti" }
+		}
+		else_if = {
+			limit = { tag = TRV }
+			define_ruler = { dynasty = "da Camino" }
+		}
+		else_if = {
+			limit = { tag = RVE }
+			define_ruler = { dynasty = "da Polenta" }
+		}
+		else_if = {
+			limit = { tag = RMI }
+			define_ruler = { dynasty = "Malatesta" }
+		}
+		else_if = {
+			limit = { tag = PXU }
+			define_ruler = { dynasty = "da Carrara" }
+		}
+		else_if = {
+			limit = { tag = PRG }
+			define_ruler = { dynasty = "Baglioni" }
+		}
+		else_if = {
+			limit = { tag = PAR }
+			define_ruler = { dynasty = "de' Rossi" }
+		}
+		else_if = {
+			limit = { tag = MLO }
+			define_ruler = { dynasty = "della Torre" }
+		}
+		else_if = {
+			limit = { tag = MAN }
+			define_ruler = { dynasty = "Gonzaga" }
+		}
+		else_if = {
+			limit = { tag = LAN }
+			define_ruler = { dynasty = "de' Medici" }
+		}
+		else_if = {
+			limit = { tag = IMO }
+			define_ruler = { dynasty = "Alidosi" }
+		}
+		else_if = {
+			limit = { tag = GSS }
+			define_ruler = { dynasty = "degli Abati" }
+		}
+		else_if = {
+			limit = { tag = FRL }
+			define_ruler = { dynasty = "Ordelaffi" }
+		}
+		else_if = {
+			limit = { tag = FAE }
+			define_ruler = { dynasty = "Manfredi" }
+		}
+		else_if = {
+			limit = { tag = CRM }
+			define_ruler = { dynasty = "Benzoni" }
+		}
+		else_if = {
+			limit = { tag = CMR }
+			define_ruler = { dynasty = "da Varano" }
+		}
+		else_if = {
+			limit = { tag = CMO }
+			define_ruler = { dynasty = "Rusca" }
+		}
+		else_if = {
+			limit = { tag = BLG }
+			define_ruler = { dynasty = "Bentivoglio" }
+		}
+		else_if = {
+			limit = { tag = AZZ }
+			define_ruler = { dynasty = "Tarlati" }
+		}
+		else = {
+			define_ruler = {
+			}
 		}
 		change_statists_vs_orangists = 0.33
 	}
@@ -542,8 +623,89 @@ country_event = {
 	option = {
 		trigger = { NOT = { has_reform = dutch_republic } }
 		name = elections.720.c
-		define_ruler = {
-			dynasty = "historic_dynasty" # Will pick one weighted by how many rulers a family has had
+		if = {
+			limit = { tag = VNN }
+			define_ruler = { dynasty = "della Scala" }
+		}
+		else_if = {
+			limit = { tag = VLT }
+			define_ruler = { dynasty = "Belforti" }
+		}
+		else_if = {
+			limit = { tag = TRV }
+			define_ruler = { dynasty = "da Camino" }
+		}
+		else_if = {
+			limit = { tag = RVE }
+			define_ruler = { dynasty = "da Polenta" }
+		}
+		else_if = {
+			limit = { tag = RMI }
+			define_ruler = { dynasty = "Malatesta" }
+		}
+		else_if = {
+			limit = { tag = PXU }
+			define_ruler = { dynasty = "da Carrara" }
+		}
+		else_if = {
+			limit = { tag = PRG }
+			define_ruler = { dynasty = "Baglioni" }
+		}
+		else_if = {
+			limit = { tag = PAR }
+			define_ruler = { dynasty = "de' Rossi" }
+		}
+		else_if = {
+			limit = { tag = MLO }
+			define_ruler = { dynasty = "della Torre" }
+		}
+		else_if = {
+			limit = { tag = MAN }
+			define_ruler = { dynasty = "Gonzaga" }
+		}
+		else_if = {
+			limit = { tag = LAN }
+			define_ruler = { dynasty = "de' Medici" }
+		}
+		else_if = {
+			limit = { tag = IMO }
+			define_ruler = { dynasty = "Alidosi" }
+		}
+		else_if = {
+			limit = { tag = GSS }
+			define_ruler = { dynasty = "degli Abati" }
+		}
+		else_if = {
+			limit = { tag = FRL }
+			define_ruler = { dynasty = "Ordelaffi" }
+		}
+		else_if = {
+			limit = { tag = FAE }
+			define_ruler = { dynasty = "Manfredi" }
+		}
+		else_if = {
+			limit = { tag = CRM }
+			define_ruler = { dynasty = "Benzoni" }
+		}
+		else_if = {
+			limit = { tag = CMR }
+			define_ruler = { dynasty = "da Varano" }
+		}
+		else_if = {
+			limit = { tag = CMO }
+			define_ruler = { dynasty = "Rusca" }
+		}
+		else_if = {
+			limit = { tag = BLG }
+			define_ruler = { dynasty = "Bentivoglio" }
+		}
+		else_if = {
+			limit = { tag = AZZ }
+			define_ruler = { dynasty = "Tarlati" }
+		}
+		else = {
+			define_ruler = {
+			}
 		}
 		change_statists_vs_orangists = 0.33
 	}

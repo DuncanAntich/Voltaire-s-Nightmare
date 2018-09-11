@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = connachta
-capital = 2312
+capital = 4718
 
 #O Geoghegan lords
 1050.1.1 = {

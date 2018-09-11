@@ -303,7 +303,7 @@ vassal = {
 # The Roman Rebublic
 vassal = {
 	first = FRA
-	second = PAP
+	second = LZO
 	start_date = 1798.2.15
 	end_date = 1799.9.30
 }

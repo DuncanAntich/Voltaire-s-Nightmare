@@ -1,5 +1,5 @@
-owner = KID
-controller = KID
+owner = UIB
+controller = UIB
 culture = laigin
 religion = catholic
 hre = no
@@ -9,7 +9,7 @@ trade_goods = iron
 base_manpower = 3
 capital = "Carlow"
 is_city = yes
-add_core = KID
+add_core = UIB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -18,7 +18,7 @@ discovered_by = nomad_group
 discovered_by = north_american
 
 1171.5.1 = { culture = irish }
-1537.2.3 = {
+1585.1.1 = {
 	owner = ENG
 	controller = ENG
 	add_core = ENG
@@ -29,7 +29,7 @@ discovered_by = north_american
 	owner = IRE
 	controller = IRE
 	add_core = IRE
-	remove_core = KID
+	remove_core = UIB
 }
 1650.3.28 = { controller = ENG }
 1652.4.1 = { owner = ENG }

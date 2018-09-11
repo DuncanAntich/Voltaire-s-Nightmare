@@ -6,7 +6,53 @@ religion = catholic
 primary_culture = connachta
 capital = 426
 
+#O Harts
+1054.1.1 = {
+	monarch = {
+		name = "Felim"
+		dynasty = "Ó hAirt"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1090.1.1 = {
+	monarch = {
+		name = "Máel Ruanaidh"
+		dynasty = "Ó hAirt"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1130.1.1 = {
+	monarch = {
+		name = "Tomás"
+		dynasty = "Ó hAirt"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1170.1.1 = {
+	monarch = {
+		name = "Séan"
+		dynasty = "Ó hAirt"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1171.5.1 = { primary_culture = irish }
+1200.1.1 = {
+	monarch = {
+		name = "Art"
+		dynasty = "Ó hAirt"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 
 #Sligo
 1232.1.1 = {

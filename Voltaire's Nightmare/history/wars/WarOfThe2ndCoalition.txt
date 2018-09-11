@@ -22,7 +22,7 @@ war_goal = {
 }
 
 1798.2.15 = {
-	add_attacker = PAP
+	add_attacker = LZO
 }
 
 # Switzerland is invaded
@@ -207,7 +207,7 @@ war_goal = {
 }
 
 1799.9.30 = {
-	rem_attacker = PAP
+	rem_attacker = LZO
 }
 
 1800.1.1 = {

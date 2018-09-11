@@ -1,3 +1,44 @@
+SAS_ideas = {
+    start = {
+        mil_tech_cost_modifier = -0.1
+        global_ship_trade_power = 0.1
+    }
+    bonus = {
+        artillery_cost = -0.1
+    }
+    
+    trigger = {
+        OR = {
+            dynasty = "Ó Chonaing"
+            dynasty = "Ó Chernaig"
+        }
+    }
+    free = yes
+
+    SAS_idea_1 = {
+        prestige = 1
+    }
+    SAS_idea_2 = {
+        global_regiment_cost = -0.1
+    }
+    SAS_idea_3 = {
+        improve_relation_modifier = 0.3
+    }
+    SAS_idea_4 = {
+        diplomatic_upkeep = 1
+    }
+    SAS_idea_5 = {
+        global_tax_modifier = 0.1
+        garrison_size = 0.25
+    }
+    SAS_idea_6 = {
+        war_exhaustion = -0.02
+    }
+    SAS_idea_7 = {
+        enemy_core_creation = 0.5
+    }
+}
+
 CNC_ideas = {
     start = {
         war_exhaustion_cost = -0.1
@@ -13,6 +54,8 @@ CNC_ideas = {
             dynasty = "Ó Maíl Doraid"
             dynasty = "Ó Canannáin"
             dynasty = "Ó Domhnaill"
+            dynasty = "Ó Baoighill"
+            dynasty = "Ó Maoldúin"
         }
     }
     free = yes
@@ -55,6 +98,7 @@ CNE_ideas = {
             dynasty = "Ó Maelmuire"
             dynasty = "Ó hAinniarraidh"
             dynasty = "Ó Catháin"
+            dynasty = "Ó hAodhagáin"
             dynasty = "Mac Lochlainn"
             dynasty = "Ó Dochartaigh"
             dynasty = "Ó Néill"
@@ -231,6 +275,7 @@ TTC_ideas = {
             dynasty = "Ó hAnluain"
             dynasty = "Mac Uidhir"
             dynasty = "Mac Mathghamha"
+            dynasty = "Mac Samhradháin"
         }
     }
     free = yes
@@ -271,8 +316,8 @@ GLN_ideas = {
     trigger = {
         OR = {
             dynasty = "Ó Gadhra"
-            dynasty = "Ó Máille"
             dynasty = "Ó hEaghra"
+            dynasty = "Mac Maoláin"
         }
     }
     free = yes
@@ -318,8 +363,13 @@ CNT_ideas = {
             dynasty = "Ó Raghallaigh"
             dynasty = "Ó Conchobhair"
             dynasty = "Ó Flaithbheartaigh"
+            dynasty = "Ó Con Cheanain"
+            dynasty = "Mac Fhirbhisigh"
+            dynasty = "Mac Diarmata"
+            dynasty = "Ó Dubhda"
             dynasty = "Ó hEidhin"
             dynasty = "Ó Cathail"
+            dynasty = "Ó Máille"
             dynasty = "Ó Búrca"
         }
     }
@@ -367,6 +417,7 @@ LGN_ideas = {
             dynasty = "Ó Broin"
             dynasty = "Mac Murchada"
             dynasty = "Mac Giolla Phádraig"
+            dynasty = "Ó Bairrche"
         }
     }
     free = yes
@@ -412,6 +463,9 @@ EGN_ideas = {
             dynasty = "Ó Súilleabháin"
             dynasty = "Ó Mathghamhna"
             dynasty = "Mac Cárthaigh"
+            dynasty = "Ó Meic Caille"
+            dynasty = "Ó Coileáin"
+            dynasty = "Ó Caoimh"
         }
     }
     free = yes
@@ -455,6 +509,7 @@ DGC_ideas = {
             dynasty = "Ó Cinnéide"
             dynasty = "Mac Cú Na Mara"
             dynasty = "Ó Briain"
+            dynasty = "Ó Lochlainn"
             dynasty = "Ó Bruicc"
         }
     }

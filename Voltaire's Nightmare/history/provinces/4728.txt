@@ -1,5 +1,5 @@
-owner = TYR
-controller = TYR
+owner = TUC
+controller = TUC
 culture = connachta
 religion = catholic
 hre = no
@@ -9,7 +9,7 @@ trade_goods = wax
 base_manpower = 1
 capital = "Straban"
 is_city = yes	
-add_core = TYR
+add_core = TUC
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -29,7 +29,7 @@ discovered_by = north_american
 	owner = IRE
 	controller = IRE
 	add_core = IRE
-	remove_core = TYR
+	remove_core = TUC
 }
 1650.3.28 = { controller = ENG }
 1652.4.1 = { owner = ENG }

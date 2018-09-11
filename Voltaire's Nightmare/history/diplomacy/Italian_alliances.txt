@@ -18,6 +18,20 @@ vassal = {
 	end_date = 1295.1.1
 }
 
+#Vassals
+vassal = {
+	first = PAP
+	second = LZO
+	start_date = 1054.1.1
+	end_date = 1171.1.1
+}
+vassal = {
+	first = PAP
+	second = LZO
+	start_date = 1188.1.1
+	end_date = 1193.1.1
+}
+
 #Parts
 union = {
 	first = TUS

@@ -1024,7 +1024,8 @@ country_event = {
 		}
 		BGX = {
 			add_opinion = { who = ROOT modifier = supported_independence }
-			change_government = despotic_monarchy
+			change_government = monarchy
+			add_government_reform = autocracy_reform
 			define_ruler = { dynasty = "Fugger" }
 			set_government_rank = 1
 		}
@@ -1151,7 +1152,7 @@ country_event = {
 		normal_or_historical_nations = yes
 		current_age = age_of_dynasticism
 		NOT = { has_global_flag = eng_had_start_of_hundred_years_war }
-		government = celestial_empire
+		has_reform = celestial_empire
 		is_subject = no
 		any_owned_province = {
 			OR = {
@@ -1263,10 +1264,10 @@ country_event = {
 			}
 		}
 		OR = {
-			government = celestial_empire
+			has_reform = celestial_empire
 			any_country = {
 				junior_union_with = ROOT
-				government = celestial_empire
+				has_reform = celestial_empire
 			}
 		}
 	}
@@ -1292,13 +1293,14 @@ country_event = {
 				limit = {
 					any_country = {
 						junior_union_with = ROOT
-						government = celestial_empire
+						has_reform = celestial_empire
 					}
 				}
 				dismantle_empire_of_china = yes
 				every_country = {
-					limit = { government = celestial_empire }
-					change_government = feudal_monarchy
+					limit = { has_reform = celestial_empire }
+					change_government = monarchy
+					add_government_reform = feudalism_reform
 					every_subject_country = {
 						limit = { is_subject_of_type = tributary_state }
 						overlord = { free_vassal = PREV }
@@ -1325,7 +1327,7 @@ country_event = {
 				NOT = { exists = ENG }
 			}
 		}
-		NOT = { any_country = { government = celestial_empire } }
+		NOT = { any_country = { has_reform = celestial_empire } }
 	}
 
 	mean_time_to_happen = { days = 10 }
@@ -1383,12 +1385,7 @@ country_event = {
 		current_age = age_of_crisis
 		NOT = { has_country_flag = obj_tribal_warfare_flag }
 		any_country = {
-			OR = {
-				government = tribal_democracy
-				government = tribal_despotism
-				government = tribal_federation
-				government = tribal_kingdom
-			}
+			government = tribal
 			war_with = ROOT
 			NOT = {
 				war_score_against = {
@@ -1797,7 +1794,7 @@ country_event = {
 			LIV = {
 				exists = yes
 				is_free_or_tributary_trigger = yes
-				government = crusader_order_government
+				has_reform = crusader_order_reform
 				religion = catholic
 				NOT = { war_with = ROOT }
 			}
@@ -2781,7 +2778,7 @@ country_event = {
 	picture = NEW_HEIR_eventPicture
 
 	trigger = {
-		government = eastern_monarchy
+		has_reform = eastern_monarchy
 		is_lesser_in_union = no
 		ruler_age = 55
 		has_heir = no
@@ -2848,7 +2845,7 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = SWI }
-				government = canton_government
+				has_reform = canton_government
 				capital_scope = { superregion = switzerland_superregion }
 				is_free_or_tributary_trigger = yes
 			}

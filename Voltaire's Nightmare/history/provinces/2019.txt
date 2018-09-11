@@ -54,6 +54,18 @@ discovered_by = muslim
 	base_production = 1
 	base_manpower = 1
 }
+1798.2.15 = {
+	owner = LZO
+	controller = LZO
+	add_core = LZO
+	remove_core = PAP
+}
+1799.9.30 = {
+	owner = PAP
+	controller = PAP
+	add_core = PAP
+	remove_core = LZO
+}
 1809.5.17 = {
 	owner = FRA
 	controller = FRA

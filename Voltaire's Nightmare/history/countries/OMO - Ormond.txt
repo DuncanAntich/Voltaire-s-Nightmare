@@ -4,6 +4,7 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = eoganachta
+add_accepted_culture = dalcassian
 capital = 2668
 
 1054.1.1 = {
@@ -27,6 +28,7 @@ capital = 2668
 }
 #McC to DMS
 1118.1.1 = {
+	remove_accepted_culture = dalcassian
 	primary_culture = dalcassian
 	monarch = {
 		name = "Ríghbhardán II"

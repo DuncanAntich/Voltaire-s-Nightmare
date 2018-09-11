@@ -154,6 +154,7 @@ add_army_professionalism = 0.05
 	}
 }
 1143.9.23 = {
+	capital = 2708
 	monarch = {
 		name = "Caelestinus II"
 		culture = umbrian
@@ -203,6 +204,7 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
+1155.1.1 = { capital = 2235 }
 1159.9.1 = {
 	monarch = {
 		name = "Alexander III"
@@ -254,6 +256,7 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
+1188.1.1 = { capital = 2708 }
 1191.3.20 = {
 	monarch = {
 		name = "Caelestinus III"
@@ -264,6 +267,7 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
+1193.1.1 = { capital = 2235 }
 1198.1.8 = {
 	monarch = {
 		name = "Innocentius III"
@@ -1036,32 +1040,6 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-1798.2.15 = {
-	government = republic
-	add_government_reform = oligarchy_reform
-	set_legacy_government = constitutional_republic
-	capital = 2235
-	monarch = {
-		name = "Repubblica Romana"
-		adm = 2
-		dip = 2
-		mil = 2
-		regent = yes
-	}
-}
-1799.9.30 = {
-	government = theocracy
-	add_government_reform = papacy_reform
-	monarch = {
-		name = "Pius VII"
-		culture = romagnan
-		birth_date = 1742.8.14
-		adm = 1
-		dip = 0
-		mil = 0
-	}
-}
-1814.4.11 = { capital = 2708 }
 1823.8.20 = {
 	monarch = {
 		name = "Leo XII"
@@ -1102,29 +1080,5 @@ add_army_professionalism = 0.05
 		mil = 0
 	}
 }
-1849.2.9 = {
-	government = republic
-	add_government_reform = oligarchy_reform
-	set_legacy_government = constitutional_republic
-	capital = 2235
-	monarch = {
-		name = "Repubblica Romana"
-		adm = 2
-		dip = 2
-		mil = 2
-		regent = yes
-	}
-}
-1849.3.23 = {
-	government = theocracy
-	add_government_reform = papacy_reform
-	capital = 2708
-	monarch = {
-		name = "Pius IX"
-		culture = umbrian
-		birth_date = 1792.5.13
-		adm = 4
-		dip = 2
-		mil = 0
-	}
-}
+1849.2.9 = { capital = 2046 }
+1849.3.23 = { capital = 2708 }

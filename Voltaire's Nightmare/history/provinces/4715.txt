@@ -1,5 +1,5 @@
-owner = DMS
-controller = DMS
+owner = FHM
+controller = FHM
 culture = eoganachta
 religion = catholic
 hre = no
@@ -9,7 +9,7 @@ trade_goods = grain
 base_manpower = 1
 capital = "Fermoy"
 is_city = yes
-add_core = DMS
+add_core = FHM
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -29,7 +29,7 @@ discovered_by = north_american
 	owner = IRE
 	controller = IRE
 	add_core = IRE
-	remove_core = DMS
+	remove_core = FHM
 }
 1650.4.10 = { controller = ENG }
 1652.4.1 = { owner = ENG }

@@ -1,5 +1,5 @@
-owner = MMU
-controller = MMU
+owner = CHB
+controller = CHB
 culture = eoganachta
 religion = catholic
 hre = no
@@ -9,7 +9,7 @@ trade_goods = fish
 base_manpower = 1
 capital = "Baltimore"
 is_city = yes	
-add_core = MMU
+add_core = CHB
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -29,7 +29,7 @@ discovered_by = north_american
 	owner = IRE
 	controller = IRE
 	add_core = IRE
-	remove_core = MMU
+	remove_core = CHB
 }
 1650.4.10 = { controller = ENG }
 1652.4.1 = { owner = ENG }

@@ -99,9 +99,9 @@ byzantine_monarchy = {
 
 gov_tribal_irish = {
 	rank = {
-		1 = BARONY
-		2 = EARLDOM
-		3 = PETTY_KINGDOM
+		1 = CLAN
+		2 = PETTY_KINGDOM
+		3 = DUCHY
 		4 = PRINCIPALITY
 		5 = KINGDOM
 		6 = EMPIRE
@@ -109,8 +109,8 @@ gov_tribal_irish = {
 	
 	ruler_male = {
 		1 = CHIEF
-		2 = EARL
-		3 = HIGH_CHIEF
+		2 = HIGH_CHIEF
+		3 = DUKE
 		4 = PRINCE
 		5 = KING
 		6 = EMPEROR
@@ -118,8 +118,8 @@ gov_tribal_irish = {
 	
 	ruler_female = {
 		1 = CHIEFTESS
-		2 = COUNTESS
-		3 = HIGH_CHIEFTESS
+		2 = HIGH_CHIEFTESS
+		3 = DUCHESS
 		4 = PRINCESS
 		5 = QUEEN
 		6 = EMPRESS
@@ -1907,6 +1907,7 @@ vassal_theocracy = {
 	trigger = {
 		is_march = no
 		government = monarchy
+		NOT = { tag = LZO }
 		overlord = {
 			government = theocracy
 		}
