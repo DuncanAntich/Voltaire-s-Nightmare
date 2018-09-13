@@ -151,6 +151,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = DRZ }
 			OR = {
+				primary_culture = langobardic
 				culture_group = latin
 				culture_group = french
 			}

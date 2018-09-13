@@ -8,6 +8,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_power = 200
+			adm_tech = 20
 			legitimacy = 60
 			stability = 3
 			has_institution = feudalism
@@ -37,6 +38,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_power = 200
+			adm_tech = 10
 			legitimacy = 60
 			stability = 3
 			has_institution = feudalism
@@ -86,6 +88,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_power = 200
+			adm_tech = 20
 			legitimacy = 60
 			stability = 3
 			has_institution = feudalism
@@ -110,12 +113,13 @@ country_decisions = {
 		major = yes
 		potential = {
 			primitives = yes
-			has_reform = tribal_democracy_legacy
+			government = native
 			NOT = { has_dlc = "Dharma" }
 			NOT = { has_dlc = "Conquest of Paradise" }
 		}
 		allow = {
 			adm_power = 200
+			adm_tech = 10
 			republican_tradition = 99
 			stability = 3
 			any_neighbor_country = { has_institution = feudalism }
@@ -150,6 +154,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_power = 200
+			adm_tech = 20
 			legitimacy_or_horde_unity = 60
 			stability = 3
 			has_institution = feudalism

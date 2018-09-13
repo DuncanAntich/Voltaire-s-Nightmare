@@ -1,11 +1,11 @@
-government = tribal
-add_government_reform = tribal_democracy
+government = native
 government_rank = 3
 technology_group = north_american
 religion = animism
 primary_culture = latvian
 capital = 2059
 
+1000.1.1 = { set_country_flag = natives_flag }
 1054.1.1 = {
 	monarch = {
 		name = "Tribal Council"
@@ -25,6 +25,7 @@ capital = 2059
 }
 1206.1.1 = { religion = catholic }
 1299.1.1 = {
+	clr_country_flag = natives_flag
 	government = monarchy
 	add_government_reform = feudalism_reform
 	technology_group = eastern

@@ -240,7 +240,6 @@ tribal = {
 	legacy_government = {
 		tribal_federation_legacy
 		tribal_kingdom_legacy
-		tribal_democracy_legacy
 		tribal_despotism_legacy
 		steppe_horde_legacy
 	}
@@ -286,13 +285,15 @@ tribal = {
 native = {
 	basic_reform = native_basic_reform
 
-	legacy_government = {}
-	color = { 194 127 209 }
+	legacy_government = {
+		native_council_legacy
+	}
+	color = { 215 200 45 }
 }
 
 
 theocracy = {
-	color = { 75 170 75 }
+	color = { 230 195 195 }
 	basic_reform = theocracy_mechanic
 
 	legacy_government = {
@@ -430,9 +431,9 @@ pre_dharma_mapping = {
 		government = tribal
 		legacy_government = tribal_federation_legacy
 	}
-	tribal_democracy = {
-		government = tribal
-		legacy_government = tribal_democracy_legacy
+	native_council = {
+		government = native
+		legacy_government = native_council_legacy
 	}
 	english_monarchy = {
 		government = monarchy

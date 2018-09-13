@@ -2617,7 +2617,7 @@ ADU_ideas = {
 
 VNN_ideas = {
     start = {
-        defensiveness = 0.1
+        defensiveness = 0.15
         global_tax_modifier = 0.1
     }
     bonus = {
@@ -2781,7 +2781,7 @@ BDJ_ideas = {
         trade_efficiency = 0.1
     }
     BDJ_idea_3 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     BDJ_idea_4 = {
         num_accepted_cultures = 1
@@ -2862,7 +2862,7 @@ TLD_ideas = {
         stability_cost_modifier = -0.1
     }
     TLD_idea_6 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     TLD_idea_7 = {
         religious_unity = 0.2
@@ -3272,7 +3272,7 @@ friulan_ideas = {
 		development_cost = -0.1
 	}
 	friulan_idea_6 = {
-		defensiveness = 0.1
+		defensiveness = 0.15
 	}
 	friulan_idea_7 = {
 		production_efficiency = 0.1
@@ -3320,7 +3320,7 @@ STC_ideas = {
 KGG_ideas = {
 	start = {
 		shock_damage_received = -0.1
-		defensiveness = 0.1
+		defensiveness = 0.15
 	}
 	bonus = {
 		unjustified_demands = -0.25
@@ -4158,7 +4158,7 @@ DIE_ideas = {
         improve_relation_modifier = 0.3
     }
     die_idea_7 = {
-        defensiveness = 0.10
+        defensiveness = 0.15
     }
 }
 
@@ -5414,7 +5414,7 @@ ARR_ideas = {
     free = yes
 
     ARR_idea_1 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     ARR_idea_2 = {
         prestige = 1
@@ -5439,7 +5439,7 @@ ARR_ideas = {
 ADR_ideas = {
     start = {
         prestige = 1
-        defensiveness = 0.10
+        defensiveness = 0.15
     }
 
     bonus = {
@@ -5646,7 +5646,7 @@ AQT_ideas = {
         merc_maintenance_modifier = -0.15
     }
     AQT_idea_3 = {
-        defensiveness = 0.10
+        defensiveness = 0.15
     }
     AQT_idea_4 = {
         manpower_recovery_speed = 0.1
@@ -6158,7 +6158,7 @@ CMB_ideas = {
 
 AUG_ideas = {
     start = {
-        defensiveness = 0.10
+        defensiveness = 0.15
         global_trade_power = 0.15
     }
 
@@ -6764,7 +6764,7 @@ PRY_ideas = {
         stability_cost_modifier = -0.1
     }
     PRY_idea_6 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     PRY_idea_7 = {
         discipline = 0.05
@@ -7073,7 +7073,7 @@ WRC_ideas = {
         global_own_trade_power = 0.1
     }
     WRC_idea_3 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     WRC_idea_4 = {
         production_efficiency = 0.1
@@ -7926,7 +7926,7 @@ SVG_ideas = {
         stability_cost_modifier = -0.1
     }
     SVG_idea_3 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     SVG_idea_4 = {
         diplomatic_annexation_cost = -0.15
@@ -8009,7 +8009,7 @@ MOR_ideas = {
         global_missionary_strength = 0.02
     }
     MOR_idea_6 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     MOR_idea_7 = {
         inflation_reduction = 0.1
@@ -8187,7 +8187,7 @@ DDD_ideas = {
         shock_damage = 0.1
     }
     DDD_idea_3 = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
     DDD_idea_4 = {
         global_missionary_strength = 0.01
@@ -8924,7 +8924,7 @@ LUC_ideas = {
         build_cost = -0.1
     }
     bonus = {
-        defensiveness = 0.1
+        defensiveness = 0.15
     }
 
     trigger = {

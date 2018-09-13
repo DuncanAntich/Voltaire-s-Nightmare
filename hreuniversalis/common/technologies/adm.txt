@@ -12,7 +12,6 @@ technology = {
 	
 	tribal_despotism_legacy = yes 	
 	tribal_federation_legacy = yes 
-	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
 	despotic_monarchy = yes	
 	feudal_monarchy = yes

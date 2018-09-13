@@ -13,6 +13,12 @@ native_adm_ideas = {
 	law_of_peace = {
 		global_unrest = -1
 	}
+	advisors_council = {
+		advisor_cost = -0.25
+	}
+	public_ceremonies = {
+		prestige = 1
+	}
 	tribal_constitution = {
 		adm_tech_cost_modifier = -0.1
 	}
@@ -38,6 +44,12 @@ native_dip_ideas = {
 	clan_migrations = { 
 		movement_speed = 0.15
 	}
+	tolerate_gods = {
+		tolerance_heathen = 2
+	}
+	guerrilla_fighters = {
+		enemy_core_creation = 0.25
+	}
 	talking_leaves = { 
 		dip_tech_cost_modifier = -0.1
 	}
@@ -62,6 +74,12 @@ native_mil_ideas = {
 	}
 	trail_networks = {
 		land_attrition = -0.1
+	}
+	battle_legends = {
+		army_tradition_decay = -0.01
+	}
+	surge_attacks = {
+		siege_ability = 0.1
 	}
 	flexible_warfare = {
 		mil_tech_cost_modifier = -0.1

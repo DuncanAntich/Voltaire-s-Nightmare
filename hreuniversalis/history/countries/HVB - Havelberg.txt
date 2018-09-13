@@ -1,5 +1,4 @@
-government = tribal
-add_government_reform = tribal_democracy
+government = native
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
@@ -7,6 +6,7 @@ technology_group = north_american
 capital = 233
 fixed_capital = 233
 
+1000.1.1 = { set_country_flag = natives_flag }
 1054.1.1 = {
 	monarch = {
 		name = "Nilitzi"
@@ -25,6 +25,7 @@ fixed_capital = 233
 	}
 }
 1147.8.1 = { #wendish crusade
+	clr_country_flag = natives_flag
 	government = theocracy
 	add_government_reform = leading_clergy_reform
 	government_rank = 4

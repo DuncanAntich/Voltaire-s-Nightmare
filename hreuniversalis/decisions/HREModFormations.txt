@@ -250,6 +250,7 @@ country_decisions = {
 			primitives = no
 			OR = {
 				primary_culture = lombard
+				primary_culture = langobardic
 				primary_culture = venetian
 			}
 			NOT = { has_country_flag = unformable }
@@ -673,7 +674,10 @@ country_decisions = {
 			NOT = { has_country_flag = unformable }
 			capital_scope = { superregion = lombardy_superregion }
 			NOT = { exists = KLK }
-			culture_group = latin
+			OR = {
+				culture_group = latin
+				primary_culture = langobardic
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -701,6 +705,16 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = KLK
+			custom_tooltip = langobardic_culture_provinces_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_owner_culture = yes
+					}
+					change_culture = langobardic
+				}
+			}
+			change_primary_culture = langobardic
 			if = {
 				limit = {
 					NOT = { government = monarchy }
@@ -760,7 +774,10 @@ country_decisions = {
 			NOT = { tag = LBV }
 			NOT = { has_country_flag = unformable }
 			capital_scope = { superregion = italy_superregion }
-			culture_group = latin
+			OR = {
+				culture_group = latin
+				primary_culture = langobardic
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -2255,7 +2272,17 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = FKE
+			custom_tooltip = frankish_culture_provinces_tooltip
 			set_country_flag = unformable
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_owner_culture = yes
+					}
+					change_culture = frankish
+				}
+			}
+			change_primary_culture = frankish
 			hidden_effect = {
 				every_province = {
 					limit = {
@@ -3273,9 +3300,7 @@ country_decisions = {
 			change_tag = LIT
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
-				limit = {
-					has_reform = tribal_democracy
-				}
+				limit = { government = native }
 				change_government = tribal
 				add_government_reform = tribal_despotism
 			}

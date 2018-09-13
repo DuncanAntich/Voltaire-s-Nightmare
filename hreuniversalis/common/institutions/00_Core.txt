@@ -24,8 +24,8 @@ feudalism = {
 					NOT = {
 						has_reform = tribal_despotism
 						has_reform = tribal_federation
-						has_reform = tribal_democracy
 						has_reform = steppe_horde
+						government = native
 					}
 				}
 				is_year = 950
@@ -178,7 +178,7 @@ investiture = {
 					NOT = {
 						government = tribal_despotism
 						government = tribal_federation
-						government = tribal_democracy
+						government = native
 					}
 				}
 			}
@@ -194,7 +194,7 @@ investiture = {
 					NOT = {
 						government = tribal_despotism
 						government = tribal_federation
-						government = tribal_democracy
+						government = native
 					}
 				}
 			}
@@ -364,7 +364,7 @@ universities = {
 					NOT = {
 						government = tribal_despotism
 						government = tribal_federation
-						government = tribal_democracy
+						government = native
 					}
 				}
 			}
@@ -429,6 +429,7 @@ universities = {
 				OR = {
 					culture_group = latin
 					culture_group = rhaetic
+					primary_culture = langobardic
 				}
 			}
 			
@@ -1259,6 +1260,7 @@ renaissance = {
 				OR = {
 					culture_group = latin
 					culture_group = rhaetic
+					primary_culture = langobardic
 				}
 			}
 			

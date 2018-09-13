@@ -1,11 +1,11 @@
-government = tribal
-add_government_reform = tribal_democracy
+government = native
 government_rank = 3
 technology_group = north_american
 religion = slavic_pagan
 primary_culture = bremer_platt
 capital = 854	# Mecklenburg
 
+1000.1.1 = { set_country_flag = natives_flag }
 1030.1.1 = {
 	monarch = {
 		name = "Gotszalk"
@@ -36,6 +36,7 @@ capital = 854	# Mecklenburg
 	}
 }
 1127.3.22 = {
+	clr_country_flag = natives_flag
 	government = tribal
 	add_government_reform = tribal_despotism
 	technology_group = western

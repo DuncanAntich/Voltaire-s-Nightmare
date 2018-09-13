@@ -101,6 +101,7 @@ country_event = {
 				culture_group = iberian
 				culture_group = rhaetic
 				culture_group = basquegroup
+				culture_group = lost_cultures_group
 			}
 		}
 	}

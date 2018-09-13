@@ -1,11 +1,11 @@
-government = tribal
-add_government_reform = tribal_democracy
+government = native
 government_rank = 3
 technology_group = north_american
 religion = slavic_pagan
 primary_culture = bremer_platt
 capital = 851
 
+1000.1.1 = { set_country_flag = natives_flag }
 1054.1.1 = {
 	monarch = {
 		name = "Chyzani"
@@ -34,6 +34,7 @@ capital = 851
 #1131 conquered by MKL
 #conquered by Dano-Rani
 1156.1.1 = {
+	clr_country_flag = natives_flag
 	government = monarchy
 	add_government_reform = feudalism_reform
 	technology_group = western

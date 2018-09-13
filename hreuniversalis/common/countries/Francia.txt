@@ -87,6 +87,7 @@ leader_names = {
 	Arnulfing Ahalolfing Meinharding Ludowing Chrodoberting Eberharding
 	Ekkeharding Bosoning Bivining Ramnulfing Ingelgering Reginaring Brunoning
 	Reginbodoning Embrichoning Udoning Rapotoning Diepolding Gisoning
+	Ezzoning Pilgriming Ariboning
 	Reudigni Avione Eudose Suarine Nuitone Salier
 	"von Löwen" "von Verdun" "von Rheingau" "von Karantanien"
 	"von Neustrien" "von Austrasien" "von Bayern" "von Burgund"

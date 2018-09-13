@@ -78,7 +78,10 @@ country_decisions = {
 				factor = 0.0
 				NOT = { has_opinion = { who = PAP value = -10 } }
 				NOT = { culture_group = latin }
+				NOT = { culture_group = lost_cultures_group }
+				NOT = { culture_group = rhaetic }
 				NOT = { culture_group = iberian }
+				NOT = { culture_group = basquegroup }
 				is_emperor = no
 			}
 			modifier = {
@@ -86,7 +89,10 @@ country_decisions = {
 				adm = 2
 				NOT = { has_opinion = { who = PAP value = 100 } }
 				NOT = { culture_group = latin }
+				NOT = { culture_group = lost_cultures_group }
+				NOT = { culture_group = rhaetic }
 				NOT = { culture_group = iberian }
+				NOT = { culture_group = basquegroup }
 				is_emperor = no
 			}
 		}
@@ -170,7 +176,10 @@ country_decisions = {
 				factor = 0.0
 				NOT = { has_opinion = { who = AVI value = -10 } }
 				NOT = { culture_group = latin }
+				NOT = { culture_group = lost_cultures_group }
+				NOT = { culture_group = rhaetic }
 				NOT = { culture_group = iberian }
+				NOT = { culture_group = basquegroup }
 				is_emperor = no
 			}
 			modifier = {
@@ -178,7 +187,10 @@ country_decisions = {
 				adm = 2
 				NOT = { has_opinion = { who = AVI value = 100 } }
 				NOT = { culture_group = latin }
+				NOT = { culture_group = lost_cultures_group }
+				NOT = { culture_group = rhaetic }
 				NOT = { culture_group = iberian }
+				NOT = { culture_group = basquegroup }
 				is_emperor = no
 			}
 		}

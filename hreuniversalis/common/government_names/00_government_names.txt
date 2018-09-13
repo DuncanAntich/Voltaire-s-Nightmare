@@ -2321,6 +2321,7 @@ italian_republic = {
 		OR = {
 			culture_group = latin
 			culture_group = rhaetic
+			primary_culture = langobardic
 		}
 	}
 }

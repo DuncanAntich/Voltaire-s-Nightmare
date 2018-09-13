@@ -11,7 +11,10 @@ country_decisions = {
 			NOT = { exists = ITA }
 			NOT = { has_country_flag = unformable }
 			capital_scope = { superregion = lombardy_superregion }
-			culture_group = latin
+			OR = {
+				culture_group = latin
+				primary_culture = langobardic
+			}
 			OR = {
 				ai = no
 				AND = {
@@ -66,6 +69,16 @@ country_decisions = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
+			}
+			if = {
+				limit = { primary_culture = langobardic }
+				change_primary_culture = lombard
+			}
+			hidden_effect = {
+				every_owned_province = {
+					limit = { culture = langobardic }
+					change_culture = lombard
+				}
 			}
 			change_tag = ITA
 			set_country_flag = unformable

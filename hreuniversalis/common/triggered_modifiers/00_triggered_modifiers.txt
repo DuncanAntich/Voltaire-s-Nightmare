@@ -82,7 +82,10 @@ papal_subjugation_anti = {
 submission_to_emperor = {
 	potential = {
 		has_global_flag = italy_out_of_HRE
-		culture_group = latin
+		OR = {
+			culture_group = latin
+			primary_culture = langobardic
+		}
 	}
 
 	trigger = {

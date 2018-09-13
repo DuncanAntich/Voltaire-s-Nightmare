@@ -45,9 +45,14 @@ crusader_order_reform = {
 		fort_maintenance_modifier = -0.2
 	}
 	valid_for_nation_designer = yes
+	potential = {
+		has_reform = crusader_order_reform
+	}
 	nation_designer_cost = 10
-	icon = "reform_soldiers"
-	allow_normal_conversion = yes
+	icon = "monks"
+	allow_normal_conversion = no
+	allow_convert = no
+	lock_level_when_selected = yes
 	legacy_equivalent = crusader_order_government
 	monastic = yes
 }

@@ -41,6 +41,7 @@ merchants_reform = {
 	nation_designer_cost = 40
 	legacy_equivalent = merchant_republic
 	boost_income = yes
+	royal_marriage = yes
 	duration = 4
 	factions = {
 		mr_aristocrats
@@ -294,8 +295,13 @@ ambrosian_republic = {
 canton_government = {
 	icon = "judge"
 	allow_normal_conversion = no
+	allow_convert = no
+	lock_level_when_selected = yes
 	legacy_equivalent = canton_government_legacy
 	valid_for_nation_designer = yes
+	potential = {
+		has_reform = canton_government
+	}
 	nation_designer_trigger = {
 		capital_scope = { superregion = switzerland_superregion }
 	}
@@ -515,9 +521,12 @@ dutch_republic = {
 
 italian_monarchy = {
 	icon = "italian_flag"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
+	allow_convert = no
+	lock_level_when_selected = yes
 	potential = {
 		culture_group = latin
+		primary_culture = langobardic
 		capital_scope = { superregion = lombardy_superregion }
 	}
 	legacy_equivalent = italian_monarchy_legacy

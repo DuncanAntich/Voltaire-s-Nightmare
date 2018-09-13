@@ -1,11 +1,11 @@
-government = tribal
-add_government_reform = tribal_democracy
+government = native
 government_rank = 3
 primary_culture = bremer_platt
 religion = slavic_pagan
 technology_group = north_american
 capital = 241
 
+1000.1.1 = { set_country_flag = natives_flag }
 1054.1.1 = {
 	monarch = {
 		name = "Hevelli"
@@ -38,6 +38,7 @@ capital = 241
 }
 #1150 inherited by Albert the Bear
 1150.1.1 = {
+	clr_country_flag = natives_flag
 	government = theocracy
 	add_government_reform = leading_clergy_reform
 	primary_culture = central_margravian

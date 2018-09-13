@@ -697,6 +697,7 @@ country_event = {
 					is_part_of_hre = yes
 					OR = {
 						culture_group = latin
+						primary_culture = langobardic
 						capital_scope = {
 							OR = {
 								superregion = lombardy_superregion
@@ -713,6 +714,7 @@ country_event = {
 				limit = {
 					OR = {
 						culture_group = latin
+						primary_culture = langobardic
 						capital_scope = {
 							OR = {
 								superregion = lombardy_superregion
@@ -900,6 +902,7 @@ country_event = {
 		trigger = {
 			OR = {
 				culture_group = latin
+				primary_culture = langobardic
 				capital_scope = {
 					OR = {
 						superregion = lombardy_superregion
@@ -925,6 +928,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				culture_group = latin
+				primary_culture = langobardic
 				capital_scope = {
 					OR = {
 						superregion = lombardy_superregion
@@ -940,6 +944,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				culture_group = latin
+				primary_culture = langobardic
 				capital_scope = {
 					OR = {
 						superregion = lombardy_superregion
@@ -1008,12 +1013,22 @@ country_event = {
 
 	option = {			# 
 		name = "hre_event.4.a"
-		trigger = { NOT = { culture_group = latin } }
+		trigger = {
+			NOT = {
+				culture_group = latin
+				primary_culture = langobardic
+			}
+		}
 		custom_tooltip = hre_event.4.a.tt
 	}
 	option = {			# 
 		name = "hre_event.4.b"
-		trigger = { culture_group = latin }
+		trigger = {
+			OR = {
+				culture_group = latin
+				primary_culture = langobardic
+			}
+		}
 		custom_tooltip = hre_event.4.b.tt
 	}
 }

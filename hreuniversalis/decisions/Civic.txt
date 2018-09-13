@@ -48,6 +48,7 @@ country_decisions = {
 					culture_group = rhaetic
 					culture_group = iberian
 					culture_group = basquegroup
+					culture_group = lost_cultures_group
 				}
 			}
 			modifier = {
@@ -105,6 +106,7 @@ country_decisions = {
 					culture_group = rhaetic
 					culture_group = iberian
 					culture_group = basquegroup
+					culture_group = lost_cultures_group
 				}
 			}
 			modifier = {

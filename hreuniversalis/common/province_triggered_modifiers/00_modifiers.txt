@@ -129,11 +129,40 @@ theodosian_walls = {
 
 	trigger = {
 		owner = { tag = BYZ }
+		controlled_by = owner
 	}
 	
 	local_defensiveness = 2.0
 	local_hostile_attrition = 3
 	picture = "theodosian_icon"
+
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+#Romuva
+
+romuva_prov = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	#viewer = {
+	#}
+
+	trigger = {
+		owner = { religion = animism }
+	}
+	
+	local_missionary_strength = -0.05
+	local_development_cost = -0.1
+	picture = "romuva_prov_icon"
 
 	#Province scope
 	on_activation = {

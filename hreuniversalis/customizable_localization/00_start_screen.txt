@@ -152,6 +152,12 @@ defined_text = {
 			government = theocracy
         }
     }
+    text = {
+        localisation_key = string_start_title_native_council
+        trigger = {
+			government = native
+        }
+    }
 	#Final Fallback
 	text = {
         localisation_key = string_start_title_fallback
@@ -892,6 +898,12 @@ defined_text  = {
 			government = theocracy
         }
     }
+    text = {
+        localisation_key = string_start_government_native_councils
+        trigger = {
+			government = native
+       }
+    }
 }
 
 defined_text = {
@@ -1288,6 +1300,26 @@ defined_text  = {
     }
 	text = {
         localisation_key = string_start_horde_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Native Council
+defined_text  = {
+    name = startup_government_native_council
+	random = no
+	
+    text = {
+        localisation_key = string_start_native_council
+        trigger = {
+			government = native
+			has_dlc = "Conquest of Paradise"
+        }
+    }
+	text = {
+        localisation_key = string_native_council_no #Empty string
         trigger = {
 			always = yes
         }

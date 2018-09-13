@@ -374,7 +374,10 @@ country_event = {
 
 	trigger = {
 		capital_scope = { superregion = lombardy_superregion }
-		culture_group = latin
+		OR = {
+			culture_group = latin
+			primary_culture = langobardic
+		}
 		has_reform = leading_clergy_reform
 		current_age = age_of_holy_wars
 		NOT = { has_country_flag = had_commune_question }
@@ -4451,4 +4454,29 @@ country_event = {
 		}
 		hidden_effect = { clr_country_flag = in_tanist_heir_selection }
 	}
+}
+
+country_event = {
+	id = fbievents.112
+	title = "FBIT112"
+	desc = "FBID112"
+	picture = COURT_eventPicture
+
+	mean_time_to_happen = { days = 1 }
+	
+	trigger = {
+		has_country_flag = natives_flag
+		has_dlc = "Conquest of Paradise"
+		government = monarchy
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_government = tribal
+			add_government_reform = tribal_despotism
+			clr_country_flag = natives_flag
+		}
+	}
+
+	option = { name = "FBIA112" }
 }

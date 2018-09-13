@@ -17,6 +17,7 @@ colonial_tunisia = {
 		trigger = {
 			OR = {
 				primary_culture = roman
+				primary_culture = langobardic
 				culture_group = latin
 			}
 		}

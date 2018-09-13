@@ -411,6 +411,9 @@ gov_tribal_democracy = {
 	}
 	
 	trigger = {
-		has_reform = tribal_democracy
+		OR = {
+			government = native
+			has_reform = native_basic_reform
+		}
 	}
 }

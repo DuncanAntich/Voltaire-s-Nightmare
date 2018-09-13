@@ -1,11 +1,11 @@
-government = tribal
-add_government_reform = tribal_democracy
+government = native
 government_rank = 3
 technology_group = north_american
 religion = slavic_pagan
 primary_culture = kashubian
 capital = 889
 
+1000.1.1 = { set_country_flag = natives_flag }
 1054.1.1 = {
 	monarch = {
 		name = "Prissani"
@@ -16,6 +16,7 @@ capital = 889
 	}
 }
 1122.1.1 = {
+	clr_country_flag = natives_flag
 	religion = catholic
 	government = monarchy
 	add_government_reform = feudalism_reform

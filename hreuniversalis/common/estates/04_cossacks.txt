@@ -45,7 +45,7 @@ estate_cossacks =
 	territory_power_modifier = 2.0
 
 	# Is used to weigh importance compared to other estates
-	start_territory_weight = 100
+	start_territory_weight = 10
 	
 	# Min autonomy in estate provinces
 	min_autonomy = 25
