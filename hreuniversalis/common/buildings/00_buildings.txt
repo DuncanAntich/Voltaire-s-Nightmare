@@ -9,18 +9,37 @@
 # manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
 # onmap = yes/no # show as a sprite on the map
 
-# FROM = owner 
+# FROM = owner
 # ROOT = province
 
 # AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
 
+
 ################################################
-# Tier 0, 11th Century Buildings
+# TO-DO FOR NEW BUILDINGS
 ################################################
 
-fort_14th = {
-	cost = 100
-	time = 30
+# Tidy up/finalize triggers and modifiers
+# AI Chances
+# Balance Costs/Times
+# UI
+# Tech Requirements
+# Updating EVERYTHING that uses buildings
+# Localization
+# Balance around new unit size
+# Base autonomy is 25% in capital state, 50% elsewhere
+# Lack of infrastructure/public health events
+
+################################################
+# District 1; Defensive (Forts)
+################################################
+
+fort_1 = {
+	cost = 50
+	time = 25
+	trigger = {
+		#DOES NOT HAVE MONASTIC ORDER
+	}
 	modifier = {
 		fort_level = 1
 	}
@@ -33,197 +52,19 @@ fort_14th = {
 	}
 }
 
-road_network = {
-	cost = 100
-	time = 12
-
-	modifier = {
-		trade_value_modifier = 0.2
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { province_trade_power = 10 }
-		}
-	}
-}
-
-post_office = {
-	cost = 200
-	time = 12
-
-	make_obsolete = road_network
-
-	modifier = {
-		trade_value_modifier = 0.2
-		trade_goods_size_modifier = 0.2
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { province_trade_power = 10 }
-		}
-	}
-}
-
-canal = {
-	cost = 100
-	time = 12
-	trigger = {
-		has_port = yes
-	}
-	modifier = {
-		naval_forcelimit = 1
-		local_ship_cost = -0.1
-		local_sailors_modifier = 0.25
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-armory = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_regiment_cost = -0.1
-		local_defensiveness = 0.1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-college = {
-	cost = 150
-	time = 12
-	modifier = {
-		local_development_cost = -0.05
-		local_institution_spread = 0.15
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-customs_house = {
-	cost = 100
-	time = 12
-	modifier = {
-		regiment_recruit_speed = -0.25
-		supply_limit_modifier = 0.20
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-arsenal = {
-	cost = 200
-	time = 12
-	modifier = {
-		regiment_recruit_speed = -0.25
-		supply_limit_modifier = 0.40
-	}
-
-	make_obsolete = customs_house
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-################################################
-# Tier 1, 15th Century Buildings
-################################################
-marketplace = {
-	cost = 100
-	time = 12
-
-	modifier = {
-		province_trade_power_modifier = 0.5
-	}
-
-	ai_will_do = {
-		factor = 1.5
-	}
-}
-
-workshop = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_production_efficiency = 0.5
-	}
-
-	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-temple = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_tax_modifier = 0.4
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-barracks = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_manpower_modifier = 0.5
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-shipyard = {
-	cost = 100
-	time = 12
-	trigger = {
-		has_port = yes
-	}
-	modifier = {
-		naval_forcelimit = 2
-		ship_recruit_speed = -0.25
-		local_ship_repair = 0.25
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 105 # Little above build cost
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
-	}
-}
-
-fort_15th = {
-	cost = 200
+fort_2 = {
+	cost = 75
 	time = 30
-	make_obsolete = fort_14th
+	make_obsolete = fort_1
+	trigger = {
+		#DOES NOT HAVE MONASTIC ORDER
+		owner = {
+			OR = {
+				mil_tech = 5
+				total_development = 100
+			}
+		}
+	}
 	modifier = {
 		fort_level = 2
 	}
@@ -236,16 +77,128 @@ fort_15th = {
 	}
 }
 
+fort_3 = {
+	cost = 100
+	time = 35
+	make_obsolete = fort_2
+	trigger = {
+		#DOES NOT HAVE MONASTIC ORDER
+		owner = {
+			OR = {
+				mil_tech = 11
+				total_development = 250
+			}
+		}
+	}
+	modifier = {
+		fort_level = 3
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+fort_4 = {
+	cost = 150
+	time = 40
+	make_obsolete = fort_3
+	trigger = {
+		#DOES NOT HAVE MONASTIC ORDER
+	}
+	modifier = {
+		fort_level = 4
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+fort_5 = {
+	cost = 200
+	time = 45
+	make_obsolete = fort_4
+	#make_obsolete = MONASTIC ORDER
+	modifier = {
+		fort_level = 6
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+fort_6 = {
+	cost = 300
+	time = 50
+	make_obsolete = fort_5
+	#make_obsolete = MONASTIC ORDER
+	modifier = {
+		fort_level = 8
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+fort_7 = {
+	cost = 400
+	time = 55
+	make_obsolete = fort_6
+	#make_obsolete = MONASTIC ORDER
+	modifier = {
+		fort_level = 10
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+fort_8 = {
+	cost = 500
+	time = 60
+	make_obsolete = fort_7
+	#make_obsolete = MONASTIC ORDER
+	modifier = {
+		fort_level = 12
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+}
 
 ################################################
-# Tier 2, 16th Century Buildings
+# District 2; Military
 ################################################
-courthouse = {
+
+encampment = {
 	cost = 100
-	time = 12
+	time = 8
 	modifier = {
-		local_state_maintenance_modifier = -0.25
-		local_autonomy = -0.1
+		local_regiment_cost = -0.1
+		regiment_recruit_speed = -0.1
 	}
 
 	ai_will_do = {
@@ -253,14 +206,74 @@ courthouse = {
 	}
 }
 
-dock = {
-	cost = 100
+armory = {
+	cost = 50
 	time = 12
 	trigger = {
-		has_port = yes
+		has_building = encampment
 	}
 	modifier = {
-		local_sailors_modifier = 0.5
+		local_manpower_modifier = 0.25
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+barracks = {
+	cost = 100
+	time = 14
+	make_obsolete = armory
+	trigger = {
+		has_building = encampment
+	}
+	modifier = {
+		local_manpower_modifier = 0.5
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+training_fields = {
+	cost = 200
+	time = 16
+	make_obsolete = barracks
+	trigger = {
+		has_building = encampment
+	}
+	modifier = {
+		local_manpower_modifier = 0.75
+		if = {
+			limit = {
+				has_port = yes
+			}
+			local_sailors_modifier = 0.25
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+military_academy = {
+	cost = 300
+	time = 18
+	make_obsolete = training_fields
+	trigger = {
+		has_building = encampment
+	}
+	modifier = {
+		local_manpower_modifier = 1.00
+		if = {
+			limit = {
+				has_port = yes
+			}
+			local_sailors_modifier = 0.5
+		}
 	}
 
 	ai_will_do = {
@@ -269,239 +282,13 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 200
+	cost = 150
 	time = 12
+	trigger = {
+		has_building = encampment
+	}
 	modifier = {
 		land_forcelimit = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 215 # Little above build cost
-			FROM = { army_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
-	}
-}
-
-fort_16th = {
-	cost = 400
-	time = 30
-	make_obsolete = fort_15th
-	modifier = {
-		fort_level = 4
-	}
-
-	onmap = yes
-
-	influencing_fort = yes
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-################################################
-# Tier 3, 17th Century Buildings
-################################################
-cathedral = {
-	make_obsolete = temple
-
-	cost = 300
-	time = 12
-	modifier = {
-		local_missionary_strength = 0.03
-		local_tax_modifier = 0.6
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-university = {
-	cost = 300
-	time = 12
-	modifier = {
-		local_development_cost = -0.20
-		local_institution_spread = 0.1
-		allowed_num_of_buildings = 1
-	}
-
-	make_obsolete = college
-
-	ai_will_do = {
-		# Hard coded AI sees no value in this above the 0.01 ducats base. Let's multiply that
-		factor = 1
-		modifier = {
-			factor = 250
-			development = 20
-			is_state = yes
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				has_terrain = grasslands
-				has_terrain = drylands
-			}
-		}
-		modifier = {
-			factor = 3
-			has_terrain = farmlands
-		}
-	}
-}
-
-trade_depot = {
-	cost = 300
-	time = 12
-
-	make_obsolete = marketplace
-
-	modifier = {
-		province_trade_power_modifier = 1
-	}
-
-	ai_will_do = {
-		factor = 1.5
-	}
-}
-
-grand_shipyard = {
-	cost = 300
-	time = 12
-
-	make_obsolete = shipyard
-
-	trigger = {
-		has_port = yes
-	}
-	modifier = {
-		naval_forcelimit = 4
-		ship_recruit_speed = -0.50
-		local_ship_repair = 0.50
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 320 # Little above build cost
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
-	}
-}
-
-training_fields = {
-	cost = 300
-	time = 12
-
-	make_obsolete = barracks
-
-	modifier = {
-		local_manpower_modifier = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-fort_17th = {
-	cost = 600
-	time = 30
-
-	make_obsolete = fort_16th
-
-	modifier = {
-		fort_level = 6
-	}
-
-	onmap = yes
-
-	influencing_fort = yes
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-
-################################################
-# Tier 4, 18th Century Buildings
-################################################
-stock_exchange = {
-	cost = 400
-	time = 12
-
-	make_obsolete = trade_depot
-
-	modifier = {
-		province_trade_power_modifier = 1.25
-	}
-
-	ai_will_do = {
-		factor = 1.5
-	}
-}
-
-counting_house = {
-	cost = 400
-	time = 12
-
-	make_obsolete = workshop
-	modifier = {
-		local_production_efficiency = 1
-	}
-
-	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-
-
-town_hall = {
-	cost = 200
-	time = 12
-
-	make_obsolete = courthouse
-
-	modifier = {
-		local_state_maintenance_modifier = -0.5
-		local_autonomy = -0.2
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-drydock = {
-	cost = 300
-	time = 12
-
-	make_obsolete = dock
-
-	trigger = {
-		has_port = yes
-	}
-
-	modifier = {
-		local_sailors_modifier = 1.0
 	}
 
 	ai_will_do = {
@@ -510,44 +297,342 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 400
-	time = 12
-
-
+	cost = 300
+	time = 18
 	make_obsolete = regimental_camp
-
+	trigger = {
+		has_building = encampment
+	}
 	modifier = {
 		land_forcelimit = 2
 	}
 
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 435 # Little above build cost
-			FROM = { army_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
 	}
 }
 
-
-
-fort_18th = {
-	cost = 800
-	time = 30
-
-
-	make_obsolete = fort_17th
-
+military_bureau = {
+	cost = 600
+	time = 24
+	make_obsolete = conscription_center
+	trigger = {
+		has_building = encampment
+	}
 	modifier = {
-		fort_level = 8
+		land_forcelimit = 3
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+################################################
+# District 3; Naval
+################################################
+
+harbor = {
+	cost = 150
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		local_sailors_modifier = 0.25
+		local_ship_cost = -0.05
+		ship_recruit_speed = -0.1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+port = {
+	cost = 100
+	time = 12
+	trigger = {
+		has_port = yes
+		has_building = harbor
+	}
+	modifier = {
+		naval_forcelimit = 1
+		local_ship_cost = -0.1
+		local_ship_repair = 0.1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shipyard = {
+	cost = 200
+	time = 15
+	make_obsolete = port
+	trigger = {
+		has_port = yes
+		has_building = harbor
+	}
+	modifier = {
+		naval_forcelimit = 2
+		local_ship_cost = -0.15
+		local_ship_repair = 0.25
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+grand_shipyard = {
+	cost = 400
+	time = 18
+	make_obsolete = shipyard
+	trigger = {
+		has_port = yes
+		has_building = harbor
+		development = 10
+	}
+	modifier = {
+		naval_forcelimit = 4
+		local_ship_cost = -0.2
+		local_ship_repair = 0.5
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+################################################
+# District 4; Infrastructure
+################################################
+
+medieval_road = {
+	cost = 50
+	time = 8
+	modifier = {
+		local_movement_speed = 0.1
+		supply_limit_modifier = 0.1
+		min_local_autonomy = -10
+		allowed_num_of_buildings = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+roman_road = {
+	cost = 120
+	time = 12
+	make_obsolete = medieval_road
+	modifier = {
+		local_movement_speed = 0.15
+		supply_limit_modifier = 0.1
+		min_local_autonomy = -15
+		allowed_num_of_buildings = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+canal = {
+	cost = 250
+	time = 30
+	trigger = {
+		has_port = yes
+		OR = {
+			has_building = medieval_road
+			has_building = roman_road
+		}
+	}
+	modifier = {
+		local_movement_speed = 0.15
+		supply_limit_modifier = 0.1
+		min_local_autonomy = -15
+		allowed_num_of_buildings = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+railroad = {
+	cost = 300
+	time = 18
+	make_obsolete = roman_road
+	make_obsolete = canal
+	modifier = {
+		local_movement_speed = 0.5
+		supply_limit_modifier = 0.4
+		min_local_autonomy = -50
+		allowed_num_of_buildings = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+sewer = {
+	cost = 100
+	time = 12
+	trigger = {
+		development = 10
+	}
+	modifier = {
+		local_development_cost = -0.05
+		local_unrest = -1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+hospital = {
+	cost = 300
+	time = 18
+	make_obsolete = sewer
+	trigger = {
+		has_building = sewer
+		# HAS UNIVERSITY
+		development = 20
+		is_state_core = FROM
+	}
+	modifier = {
+		local_development_cost = -0.10
+		local_unrest = -2
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+################################################
+# District 5; Holy Site
+################################################
+
+holy_site = {
+	cost = 200
+	time = 24
+	trigger = {
+		is_state_core = FROM
+		development = 10
+		OR = {
+			AND = {
+				has_estate = estate_church
+				FROM = {
+					estate_loyalty = { estate = estate_church loyalty = 75 }
+				}
+			}
+			FROM = {
+				government = theocracy
+			}
+		}
+	}
+	modifier = {
+		religious_conversion_resistance = 1.00
+		local_missionary_strength = -0.02
+		global_missionary_strength = 0.02
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+temple = {
+	cost = 100
+	time = 12
+	trigger = {
+		is_state_core = FROM
+		has_building = holy_site
+		OR = {
+			AND = {
+				has_estate = estate_church
+				FROM = {
+					estate_loyalty = { estate = estate_church loyalty = 75 }
+				}
+			}
+			FROM = {
+				government = theocracy
+			}
+		}
+	}
+	modifier = {
+		local_tax_modifier = 0.5
+	}
+}
+
+cathedral = {
+	cost = 250
+	time = 18
+	make_obsolete = temple
+	trigger = {
+		is_state_core = FROM
+		has_building = holy_site
+		OR = {
+			AND = {
+				has_estate = estate_church
+				FROM = {
+					estate_loyalty = { estate = estate_church loyalty = 75 }
+				}
+			}
+			FROM = {
+				government = theocracy
+			}
+		}
+	}
+	modifier = {
+		local_tax_modifier = 0.75
+	}
+}
+
+monastic_order = {
+	cost = 200
+	time = 30
+	trigger = {
+		is_state_core = FROM
+		has_building = holy_site
+		NOT = {
+			OR = {
+				has_building = fort_1
+				has_building = fort_2
+				has_building = fort_3
+				has_building = fort_4
+				has_building = fort_5
+				has_building = fort_6
+				has_building = fort_7
+				has_building = fort_8
+			}
+		}
+		OR = {
+			AND = {
+				has_estate = estate_church
+				FROM = {
+					estate_loyalty = { estate = estate_church loyalty = 75 }
+				}
+			}
+			FROM = {
+				government = theocracy
+			}
+		}
+	}
+	modifier = {
+		fort_level = 3
+		local_hostile_attrition = 1
+		local_defensiveness = 0.25
 	}
 
 	onmap = yes
-
 	influencing_fort = yes
 
 	ai_will_do = {
@@ -556,7 +641,245 @@ fort_18th = {
 }
 
 ################################################
-# Manufactories
+# District 6; Campus
+################################################
+
+library = {
+	cost = 100
+	time = 12
+	trigger = {
+		is_state_core = FROM
+	}
+	modifier = {
+		local_development_cost = -0.03
+		local_institution_spread = 0.1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+college = {
+	cost = 200
+	time = 15
+	make_obsolete = library
+	trigger = {
+		is_state_core = FROM
+		development = 10
+	}
+	modifier = {
+		local_development_cost = -0.06
+		local_institution_spread = 0.12
+	}
+}
+
+observatory = {
+	cost = 200
+	time = 15
+	trigger = {
+		is_state_core = FROM
+		development = 10
+		OR = {
+			has_building = library
+			has_building = college
+		}
+	}
+	modifier = {
+		local_development_cost = -0.06
+		local_institution_spread = 0.12
+	}
+}
+
+university = {
+	cost = 400
+	time = 18
+	make_obsolete = college
+	make_obsolete = observatory
+	trigger = {
+		is_state_core = FROM
+		development = 15
+	}
+	modifier = {
+		local_development_cost = -0.15
+		local_institution_spread = 0.3
+	}
+
+	ai_will_do = {
+		factor = yes
+	}
+}
+
+################################################
+# District 7; Commercial Hub
+################################################
+
+marketplace = {
+	cost = 100
+	time = 12
+	trigger = {
+		is_state_core = FROM
+		OR = {
+			development = 10
+			AND = {
+				development = 5
+				has_port = yes
+			}
+			province_has_center_of_trade_of_level = 1
+		}
+	}
+	modifier = {
+		trade_value = 2
+	}
+
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+trade_depot = {
+	cost = 200
+	time = 15
+	make_obsolete = marketplace
+	trigger = {
+		is_state_core = FROM
+		OR = {
+			development = 10
+			AND = {
+				development = 5
+				has_port = yes
+			}
+			province_has_center_of_trade_of_level = 1
+		}
+	}
+	modifier = {
+		trade_value = 5
+	}
+
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+bank = {
+	cost = 300
+	time = 18
+	make_obsolete = trade_depot
+	trigger = {
+		is_state_core = FROM
+		OR = {
+			development = 15
+			AND = {
+				development = 10
+				has_port = yes
+			}
+			AND = {
+				province_has_center_of_trade_of_level = 1
+				development = 5
+			}
+			province_has_center_of_trade_of_level = 2
+		}
+	}
+	modifier = {
+		trade_value = 10
+		local_build_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+stock_exchange = {
+	cost = 400
+	time = 24
+	make_obsolete = bank
+	trigger = {
+		is_state_core = FROM
+		OR = {
+			development = 20
+			AND = {
+				development = 15
+				has_port = yes
+			}
+			AND = {
+				province_has_center_of_trade_of_level = 1
+				development = 10
+			}
+		}
+	}
+	modifier = {
+		trade_value = 15
+		local_build_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+################################################
+# District 8; Industrial Center
+################################################
+
+workshop = {
+	cost = 100
+	time = 12
+	trigger = {
+		is_state_core = FROM
+		base_production = 5
+	}
+	modifier = {
+		local_production_efficiency = 0.5
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+counting_house = {
+	cost = 400
+	time = 18
+	make_obsolete = workshop
+	trigger = {
+		is_state_core = FROM
+		base_production = 8
+	}
+	modifier = {
+		local_production_efficiency = 1.0
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+factory = {
+	cost = 800
+	time = 24
+	make_obsolete = counting_house
+	trigger = {
+		is_state_core = FROM
+		base_production = 10
+		has_building = railroad
+		# HAS MANUFACTORY
+	}
+	modifier = {
+		local_production_efficiency = 1.5
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+################################################
+# Manufactories (District 8)
 ################################################
 
 manufactory = {
@@ -572,8 +895,10 @@ wharf = {
 		naval_supplies
 		fish
 		salt
+		lumber
 		hemp
-		wax	
+		wax
+		slaves
 	}
 	onmap = yes
 
@@ -605,8 +930,10 @@ weapons = {
 		iron
 		steel
 		tin
+		gold
 		plumbum
 		munitions
+		horses
 	}
 	onmap = yes
 
@@ -621,7 +948,10 @@ textile = {
 		linen
 		silk
 		carmine
+		books
 		carpet
+		livestock
+		fur
 	}
 	onmap = yes
 
@@ -634,9 +964,11 @@ plantations = {
 	manufactory = {
 		rice
 		sugar
+		grain
 		peaches
 		bananas
 		corn
+		beer
 		olive
 	}
 	onmap = yes
@@ -649,11 +981,10 @@ plantations = {
 tradecompany = {
 	manufactory = {
 		ivory
-		slaves
-		fur
+		amber
+		wine
 		honey
 		cheese
-		gold
 	}
 	onmap = yes
 
@@ -667,8 +998,6 @@ farm_estate = {
 		grain
 		livestock
 		wine
-		beer
-		horses
 	}
 	onmap = yes
 
@@ -679,9 +1008,6 @@ farm_estate = {
 
 mills = {
 	manufactory = {
-		books
-		amber
-		lumber
 		glassware
 		chinaware
 		marble
@@ -698,13 +1024,15 @@ furnace = {
 		coal
 	}
 
-	potential = { has_dlc = "Rule Britannia" }
+	potential = {
+		has_dlc = "Rule Britannia"
+	}
 
 	modifier = {
-		global_trade_goods_size_modifier = 0.05
+		global_trade_goods_size_modifier = 0.05 #National Bonus
 	}
 	onmap = yes
-	show_separate = yes
+	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
 	ai_will_do = {
 		factor = 1
