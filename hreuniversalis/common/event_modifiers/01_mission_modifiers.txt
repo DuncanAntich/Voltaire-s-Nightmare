@@ -41,7 +41,11 @@ inspire_loyalty_mission = {
 
 large_subject_mission = {
 	reduced_liberty_desire = 15
-	diplomatic_annexation_cost = -0.25
+}
+
+powerful_marches_mission = {
+	land_forcelimit_modifier = 0.25
+	global_manpower_modifier = 0.1
 }
 
 fortify_frontiers_mission = {
@@ -170,6 +174,192 @@ join_league_mission = {
 	siege_ability = 0.1
 	loot_amount = 0.33
 }
+
+#Sicilian Qadits
+unite_sicily_mission = {
+	legitimacy = 1
+	army_tradition = 1
+}
+
+magnificent_palermo_mission = {
+	development_cost = -0.1
+	build_cost = -0.1
+}
+
+sicilian_unity_mission = {
+	culture_conversion_cost = -0.25
+	advisor_cost = -0.25
+}
+
+#Anatolian Beyliks
+control_over_anatolian_trade_mission = {
+	global_trade_power = 0.1
+	naval_morale = 0.1
+}
+
+rum_defeated_by_beyliks_mission = {
+	cavalry_power = 0.1
+	land_attrition = -0.1
+}
+
+istanbul_conquered_mission = {
+	global_trade_power = 0.1
+	trade_efficiency = 0.1
+}
+
+united_turks_mission = {
+	legitimacy = 1
+	manpower_recovery_speed = 0.2
+}
+
+#HRE members
+royal_marriages_mission = {
+	stability_cost_modifier = -0.1
+	diplomatic_reputation = 1
+}
+
+secure_our_domain_mission = {
+	manpower_recovery_speed = 0.1
+	legitimacy = 1
+}
+
+reduce_local_autonomy_mission = {
+	state_maintenance_modifier = -0.25
+	global_institution_spread = 0.25
+}
+
+become_elector_mission = {
+	diplomatic_reputation = 1
+	ae_impact = -0.15
+}
+
+republican_alliances_mission = {
+	republican_tradition = 0.5 
+	diplomatic_reputation = 1
+}
+
+defense_for_the_city_mission = {
+	defensiveness = 0.25
+	infantry_power = 0.1
+}
+
+urban_production_mission = {
+	production_efficiency = 0.1
+	build_cost = -0.1
+}
+
+city_of_humanism_mission = {
+	technology_cost = -0.1 
+	global_institution_spread = 0.1
+}
+
+pious_ruler_mission = {
+	devotion = 0.5
+	legitimacy = 0.5
+	papal_influence = 1
+	church_power_modifier = 0.25
+	monthly_fervor_increase = 1
+}
+
+new_monasteries_mission = {
+	tolerance_own = 1
+	global_tax_modifier = 0.1
+}
+
+cathedral_in_capital_mission = {
+	tolerance_own = 2
+	tolerance_heretic = 1
+}
+
+achieve_religious_unity_mission = {
+	prestige = 1
+	stability_cost_modifier = -0.1
+}
+
+#Taifas
+mollify_neighbours_mission = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.3
+}
+
+iberian_scholary_center_mission = {
+	global_institution_spread = 0.1
+	advisor_pool = 1
+}
+
+abolish_iqta_government_mission = {
+	stability_cost_modifier = -0.1
+	yearly_corruption = -0.05
+}
+
+#Kievan Rus
+establish_druzhina_mission = {
+	land_morale = 0.1
+	infantry_cost = -0.1
+}
+
+eliminate_devastation_mission = {
+	global_tax_modifier = 0.1
+	global_institution_spread = 0.1
+}
+
+restore_kievan_borders_mission = {
+	ae_impact = -0.15
+	discipline = 0.05
+}
+
+eastern_jerusalem_mission = {
+	tolerance_own = 2
+	global_missionary_strength = 0.01
+}
+
+#Italian Commune
+guelph_or_ghibelline_mission = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.25
+}
+
+standing_army_mission = {
+	infantry_power = 0.1
+	land_maintenance_modifier = -0.2
+	drill_gain_modifier = 0.25
+}
+
+riches_of_italy_mission = {
+	global_trade_power = 0.2
+	merchants = 1
+}
+
+reform_government_mission = {
+	yearly_absolutism = 1
+	global_autonomy = -0.03
+}
+
+#Irish missions
+clan_diplomacy_mission = {
+	diplomats = 1
+	diplomatic_reputation = 1
+}
+
+establish_power_base_mission = {
+	local_unrest = -2
+	local_autonomy = -0.05
+}
+
+viking_outposts_mission = {
+	local_ship_cost = -0.25
+	local_sailors_modifier = 0.25
+	trade_goods_size_modifier = 0.2
+}
+
+foothold_in_britain_mission = {
+	fabricate_claims_cost = -0.25
+	ae_impact = -0.1
+}
+	
+
+###Vanilla###
+
 
 #Generic Military Mission Rewards:
 
@@ -1904,4 +2094,139 @@ tibet_restored_pala = {
 tibet_china_defeated = {
 	army_tradition = 0.5
 	infantry_power = 0.1
+}
+
+# New Polish modifiers
+varna_avenged = {
+	tolerance_own = 1
+	global_missionary_strength = 0.02
+}
+
+greater_commonwealth = {
+	diplomatic_reputation = 1
+	diplomatic_annexation_cost = -0.15
+}
+
+broke_the_rus = {
+	diplomatic_upkeep = 1
+	cavalry_power = 0.1
+}
+
+polish_renaissance = {
+	adm_tech_cost_modifier = -0.1
+}
+
+pol_thriving_jewish_community = {
+	interest = -0.5
+}
+
+kazimierz_modifier = {
+	local_production_efficiency = 0.15
+}
+
+dealt_with_the_sejm = {
+	harsh_treatment_cost = -0.25
+	autonomy_change_time = -0.25
+}
+
+invested_in_eastern_poland = {
+	trade_goods_size_modifier = 0.2
+	province_trade_power_modifier = 0.2
+}
+
+restored_ruthenia = {
+	local_unrest = -2
+	local_development_cost = -0.05
+}
+
+pol_swedish_deluge = {
+	land_morale = 0.1
+	culture_conversion_cost = -0.1
+}
+
+# Romanian missions
+
+order_of_the_dragon_restored = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.25
+}
+
+roman_romania = {
+	legitimacy = 1
+	tolerance_own = 2
+}
+
+united_voivodes = {
+	state_maintenance_modifier = -0.25
+	global_autonomy = -0.03
+}
+
+bucharest_summer_capital = {
+	local_development_cost = -0.1
+}
+
+rmn_consolidating_transylvania = {
+	build_cost = -0.2
+	global_unrest = -2
+}
+
+rmn_bulwark = {
+	defensiveness = 0.25
+	hostile_attrition = 1
+}
+
+dregatori_modifier = {
+	advisor_cost = -0.2
+}
+
+silk_road_controlled = {
+	trade_efficiency = 0.15
+}
+
+# Tatar missions
+
+integrating_the_steppe_peoples = {
+	num_accepted_cultures = 1
+}
+
+fall_of_china = {
+	administrative_efficiency = 0.1
+}
+
+# Lithuanian missions
+
+integrated_polish_nobility = {
+	max_states = 3
+}
+
+sluck_sashes = {
+	trade_goods_size = 2
+	province_trade_power_value = 5
+}
+
+lit_conferedation_on_religion = {
+	tolerance_heretic = 2
+}
+
+lithuanian_counter_reformation = {
+	stability_cost_modifier = -0.2
+}
+
+lit_lord_of_the_rus = {
+	liberty_desire_from_subject_development = -0.25
+}
+
+restoration_of_kiev = {
+	local_build_cost = -0.25
+	allowed_num_of_buildings = 1
+}
+
+renovated_jag_uni = {
+	idea_cost = -0.1
+	technology_cost = -0.05
+}
+
+lit_conquered_rus = {
+	core_creation = -0.1
+	ae_impact = -0.1
 }

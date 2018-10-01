@@ -1,0 +1,203 @@
+generic_taifa_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		religion_group = muslim
+		capital_scope = {
+			superregion = iberia_superregion
+		}
+		NOT = { tag = MOR }
+	}
+	has_country_shield = no
+	
+	vn_mollify_neighbours = {
+		icon = mission_have_two_subjects
+		required_missions = {}
+		trigger = {
+			custom_trigger_tooltip = {	
+				tooltip = vn_mollify_neighbours.tt
+				calc_true_if = {
+					all_country = {
+						is_neighbor_of = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+					amount = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "mollify_neighbours_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_iberian_scholary_center = {
+		icon = mission_central_asian_city
+		required_missions = { vn_mollify_neighbours }
+		trigger = {
+			capital_scope = {
+				OR = {
+					has_building = college
+					has_building = university
+				}
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					has_building = college
+					has_building = university
+				}
+			}
+		}
+		effect = {
+			change_innovativeness = 5
+			add_country_modifier = {
+				name = "iberian_scholary_center_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_abolish_iqta_government_taifa = {
+		icon = mission_high_income
+		required_missions = { vn_iberian_scholary_center }
+		trigger = {
+			NOT = { has_reform = iqta }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "abolish_iqta_government_mission"
+				duration = 9125
+			}
+		}
+	}
+	
+	vn_unite_al_andalus = {
+		icon = mission_unite_home_region
+		required_missions = { vn_abolish_iqta_government_taifa }
+		provinces_to_highlight = {
+			OR = {
+				region = granadan_region
+				region = andalusia_region
+				region = southportugal_region
+				region = extremadura_region
+				region = murcian_region
+				region = toledan_region
+				region = valencian_region
+				area = madrid_area
+				area = guadalajara_area
+				area = tarragona_area
+				area = zaragoza_area
+				area = teruel_area
+				area = alcaniz_area
+				area = coimbra_area
+				area = guarda_area
+				province_id = 1178
+				province_id = 1790
+				province_id = 4300
+				province_id = 4321
+				province_id = 4307
+				province_id = 4030
+				province_id = 4320
+				province_id = 567
+				province_id = 4362
+				province_id = 4372
+				province_id = 2109
+				province_id = 2739
+				province_id = 4373
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = vn_unite_al_andalus.tt
+				granadan_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				andalusia_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				southportugal_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				extremadura_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				murcian_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				toledan_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				valencian_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				madrid_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				guadalajara_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				tarragona_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				zaragoza_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				teruel_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				alcaniz_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				coimbra_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				guarda_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				1178 = { country_or_non_sovereign_subject_holds = ROOT }
+				1790 = { country_or_non_sovereign_subject_holds = ROOT }
+				4300 = { country_or_non_sovereign_subject_holds = ROOT }
+				4321 = { country_or_non_sovereign_subject_holds = ROOT }
+				4307 = { country_or_non_sovereign_subject_holds = ROOT }
+				4030 = { country_or_non_sovereign_subject_holds = ROOT }
+				4320 = { country_or_non_sovereign_subject_holds = ROOT }
+				567 = { country_or_non_sovereign_subject_holds = ROOT }
+				4362 = { country_or_non_sovereign_subject_holds = ROOT }
+				4372 = { country_or_non_sovereign_subject_holds = ROOT }
+				2109 = { country_or_non_sovereign_subject_holds = ROOT }
+				2739 = { country_or_non_sovereign_subject_holds = ROOT }
+				4373 = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+		}
+		effect = {
+			add_prestige = 25
+			add_legitimacy = 25
+			if = {
+				limit = { NOT = { government_rank = 6 } }
+				set_government_rank = 6
+			}
+			add_government_reform = feudal_theocracy
+		}
+	}
+}

@@ -102,7 +102,7 @@ vn_westchristian_missions_1 = {
 	
 	vn_question_of_reform = {
 		position = 6
-		icon = mission_religious
+		icon = mission_luther_theses
 		required_missions = { }
 		trigger = {
 			current_age = age_of_reformation
@@ -129,7 +129,7 @@ vn_westchristian_missions_1 = {
 
 	vn_join_league = {
 		position = 7
-		icon = mission_european_church
+		icon = mission_religious
 		required_missions = { vn_question_of_reform }
 		
 		trigger = {

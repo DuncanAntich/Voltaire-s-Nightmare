@@ -189,7 +189,7 @@ vn_hre_missions_3 = {
 	
 	vn_hanseatic_cities = {
 		position = 7
-		icon = mission_hanseatic_cities
+		icon = mission_hanseatic_city
 		required_missions = { }
 		trigger = {
 			calc_true_if = {

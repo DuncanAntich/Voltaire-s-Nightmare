@@ -1,0 +1,131 @@
+#Irish REL missions
+VN_irish_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		capital_scope = {
+			superregion = irish_superregion
+		}
+		OR = {
+			primary_culture = irish
+			primary_culture = dalcassian
+			primary_culture = connachta
+			primary_culture = laigin
+			primary_culture = erainn
+			primary_culture = ulaidh
+			primary_culture = eoganachta
+		}
+	}
+	has_country_shield = no
+	
+	vn_clan_diplomacy = {
+		icon = mission_alliances
+		required_missions = { }
+		trigger = {
+			calc_true_if = {
+				all_ally = {
+					has_reform = tribal_kingdom
+					marriage_with = ROOT
+				}
+				amount = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "clan_diplomacy_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_establish_power_base = {
+		icon = mission_unite_home_region
+		required_missions = { vn_clan_diplomacy }
+		trigger = {
+			capital_scope = {
+				area_for_scope_province = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_adm_power = 50
+			capital_scope = {
+				area = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "establish_power_base_mission"
+						duration = 9125
+					}
+				}
+			}
+		}
+	}
+	vn_viking_outposts = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { vn_establish_power_base }
+		trigger = {
+			owns_core_province = 2737	#Dublin
+			owns_core_province = 891	#Limerick
+			owns_core_province = 258	#Cork
+			owns_core_province = 2614	#Wexford
+			owns_core_province = 2308	#Waterford
+		}
+		effect = {
+			2737 = {
+				add_province_modifier = {
+					name = "viking_outposts_mission"
+					duration = 9125
+				}
+			}
+			891 = {
+				add_province_modifier = {
+					name = "viking_outposts_mission"
+					duration = 9125
+				}
+			}
+			258 = {
+				add_province_modifier = {
+					name = "viking_outposts_mission"
+					duration = 9125
+				}
+			}
+			2614 = {
+				add_province_modifier = {
+					name = "viking_outposts_mission"
+					duration = 9125
+				}
+			}
+			2308 = {
+				add_province_modifier = {
+					name = "viking_outposts_mission"
+					duration = 9125
+				}
+			}
+		}
+	}
+	vn_foothold_in_britain = {
+		icon = mission_invade_island
+		required_missions = { vn_viking_outposts }
+		trigger = {
+			british_isles_superregion = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_14th
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "foothold_in_britain_mission"
+				duration = 9125
+			}
+		}
+	}
+}
