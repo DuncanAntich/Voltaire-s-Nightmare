@@ -1,9 +1,91 @@
 # France-Brittany
-union = {
+royal_marriage = {
 	first = FRA
 	second = BRI
 	start_date = 1491.12.6
+	end_date = 1524.7.21
+}
+royal_marriage = {
+	first = KNV
+	second = NNT
+	start_date = 1026.1.1
+	end_date = 1063.3.27
+}
+
+#Married
+royal_marriage = {
+	first = ANJ
+	second = MNE
+	start_date = 1110.7.11
+	end_date = 1126.10.12
+}
+
+#Breton Vassals
+march = {
+	first = BRI
+	second = VNA
+	start_date = 990.1.1
+	end_date = 1341.4.30
+}
+march = {
+	first = BRI
+	second = VNA
+	start_date = 1364.9.29
 	end_date = 1532.8.4
+}
+march = {
+	first = BRI
+	second = LNE
+	start_date = 1021.1.1
+	end_date = 1341.4.30
+}
+march = {
+	first = BRI
+	second = LNE
+	start_date = 1397.1.1
+	end_date = 1532.8.4
+}
+march = {
+	first = BRI
+	second = PNT
+	start_date = 1066.12.11
+	end_date = 1334.2.1
+}
+march = {
+	first = BRI
+	second = PNT
+	start_date = 1404.1.16
+	end_date = 1532.8.4
+}
+march = {
+	first = BRI
+	second = NNT
+	start_date = 992.1.1
+	end_date = 1063.2.27
+}
+march = {
+	first = BRI
+	second = NNT
+	start_date = 1084.4.13
+	end_date = 1104.1.1
+}
+march = {
+	first = BRI
+	second = NNT
+	start_date = 1112.1.1
+	end_date = 1119.10.13
+}
+march = {
+	first = BRI
+	second = NNT
+	start_date = 1148.9.17
+	end_date = 1158.7.27
+}
+march = {
+	first = BRI
+	second = KNV
+	start_date = 1008.1.1
+	end_date = 1066.12.11
 }
 
 # Poland and France under Henri III
@@ -12,14 +94,6 @@ union = {
 	second = PLC
 	start_date = 1574.5.30
 	end_date = 1575.1.1
-}
-
-# France-Genoa
-union = {
-	first = FRA
-	second = GEN
-	start_date = 1458.1.1
-	end_date = 1461.1.1
 }
 
 # Burgundy - Brittany alliance for balance
@@ -58,14 +132,6 @@ alliance = {
 	second = WES
 	start_date = 1807.7.9
 	end_date = 1813.10.14
-}
-
-# Aulder Alliance
-guarantee = {
-	first = FRA
-	second = BRI
-	start_date = 1000.1.1
-	end_date = 1275.1.1
 }
 
 # Auld Alliance

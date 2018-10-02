@@ -4,18 +4,19 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = neapolitan
-capital = 560
+capital = 2055
 
 1054.1.1 = {
 	monarch = {
-		name = "Trasmundo I"
-		dynasty = "di Chieti"
+		name = "Trasmondo III"
+		dynasty = "Azzoning"
+		culture = langobardic
 		adm = 3
 		dip = 3
 		mil = 0
 	}
 }
-1061.1.1 = {
+1076.4.18 = {
 	monarch = {
 		name = "Drago I"
 		dynasty = "de Hauteville"

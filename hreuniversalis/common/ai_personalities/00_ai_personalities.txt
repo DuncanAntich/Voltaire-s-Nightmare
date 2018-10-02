@@ -58,7 +58,7 @@ ai_capitalist = {
 		}
 		modifier = {
 			factor = 2
-			has_reform = merchants_reform
+			has_government_attribute = is_merchant_republic
 		}	
 		modifier = {
 			factor = 3

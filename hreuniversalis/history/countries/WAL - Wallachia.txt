@@ -158,8 +158,8 @@ capital = 2165 # Tîrgoviste
 		dynasty = "Draculesti"
 		birth_date = 1397.1.1
 		adm = 2
-		dip = 1
-		mil = 1
+		dip = 2
+		mil = 3
 		leader = { name = "Vlad II"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0 }
 	}
 }
@@ -187,8 +187,9 @@ capital = 2165 # Tîrgoviste
 		dynasty = "Draculesti"
 		birth_date = 1397.1.1
 		adm = 2
-		dip = 1
-		mil = 1
+		dip = 2
+		mil = 3
+		leader = { name = "Vlad II"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0 }
 	}
 	heir = {
 		name = "Mircea"
@@ -221,6 +222,8 @@ capital = 2165 # Tîrgoviste
 		mil = 5
 		leader = { name = "Vlad III Tepes"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
 }
 1462.11.1 = {
 	monarch = {
@@ -707,6 +710,20 @@ capital = 2165 # Tîrgoviste
 		birth_date = 1839.4.20
 		adm = 3
 		dip = 4
+		mil = 2
+	}
+}
+1869.11.15 = {
+	queen = {
+		country_of_origin = GER
+		name = "Elisabeth"
+		dynasty = "von Runkel"
+		birth_date = 1843.12.29
+		death_date = 1916.3.2
+		female = yes
+		culture = moselle_franconian
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }

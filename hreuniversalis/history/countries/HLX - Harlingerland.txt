@@ -17,13 +17,14 @@ capital = 413
 }
 1337.1.1 = {
 	monarch = {
-		name = "Eylwerd Attena"
+		name = "Eylwerd"
+		dynasty = "Attena"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1367.1.1 = {
+1370.1.1 = {
 	clr_country_flag = natives_flag
 	government = tribal
 	add_government_reform = tribal_despotism

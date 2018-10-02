@@ -18,7 +18,7 @@ province_event = {
 		months = 5000
 		modifier = {
 			factor = 0.8
-			owner = { has_reform = merchants_reform }
+			owner = { has_government_attribute = is_merchant_republic }
 		}
 		modifier = {
 			factor = 0.8

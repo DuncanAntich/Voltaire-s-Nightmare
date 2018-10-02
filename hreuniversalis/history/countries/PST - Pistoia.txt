@@ -1,5 +1,5 @@
-government = republic
-add_government_reform = italian_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = tuscan
@@ -7,13 +7,67 @@ religion = catholic
 capital = 2022
 add_army_professionalism = 0.05
 
-1115.7.24 = {
+#Counts
+1054.1.1 = {
 	monarch = {
-		name = "Repubblica"
-		regent = yes
+		name = "Lotario"
+		dynasty = "Cadoling"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}
+1085.1.1 = {
+	monarch = {
+		name = "Ugo"
+		dynasty = "Cadoling"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+
+#Commune
+1115.7.24 = {
+	government = republic
+	add_government_reform = italian_monarchy
+	monarch = {
+		name = "Bonetto"
+		dip = 5
+		mil = 4
+		adm = 0
+	}
+}
+1155.1.1 = {
+	monarch = {
+		name = "Placito"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1195.1.1 = {
+	monarch = {
+		name = "Diotisalvi"
+		adm = 2
 		dip = 2
 		mil = 2
+	}
+}
+1235.1.1 = {
+	monarch = {
+		name = "Gerardo"
 		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1265.1.1 = {
+	monarch = {
+		name = "Guido"
+		adm = 2
+		dip = 3
+		mil = 3
 	}
 }
 1294.1.1 = {

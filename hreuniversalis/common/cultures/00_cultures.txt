@@ -475,7 +475,7 @@ latin = {
 		primary = GEN
 		dynasty_names = {
 			Fieschi Doria Grimaldi Spinola Gattilusio Giustiniano
-			"di Ventimiglia" Campofregoso Zaccaria Egidio Zoagli Riario
+			"di Ventimiglia" "di Campofregoso" Zaccaria Egidio Zoagli Riario
 			"di Ponzone" Adorno
 		}
 	}
@@ -1080,11 +1080,8 @@ celtic = {
 	breton = {
 		primary = BRI
 		male_names = {
-			François Jean Artur Pierre Henri Charles Gilles Richard Corentin Deniel Dinan Erwan Gaël Gwenaël Gwenneg 
-			Gwilherm Iouennic Loïc Maeldan Mikael Olier Padrig Paol Patern Pier Primel Roparzh Servan Similien Sklaer 
-			Sulio Uuinmael Venec Visant Vonig Vougay Winifrid Yann
-			Adoyre Adrien Adrian Aedan Hugh Agustin August Alan Alar Alaric Aldrien Aldroenus Alfrond Alor 
-			Alured Alfred Alwen Alwin Anaoc Anaubritou Anaugen Anauguethen Anauguoret Anauhocar Andreas 
+			Adoyre Adrien Aedan Agustin Alan Alar Alaric Aldrien Aldroenus Alfrond Alor 
+			Alured Alwen Anaoc Anaubritou Anaugen Anauguethen Anauguoret Anauhocar Andreas 
 			Andrew Aniud Anton Antoninus Argantbri Argantmoet Arnalt Arnold Arthel Arthguiu Arthmael 
 			Arthueu Arthuiu Artorius Arthur Austol Baldoen Baldwin Bastian Sebastian Beli Beltram Bertrand 
 			Benabic Berenger Berengar Bernead Bernard Berthgualt Berthoald Bledric Bledrig Bledros Bleidcum 
@@ -1158,9 +1155,8 @@ celtic = {
 			Trifine Tristana Uriell Seva Perenn Meonre Ilcum Guigoëdon Drichglur Berthildis Argantmoet
 		}
 		dynasty_names = { 
-			Rohan Penteur Leon Roazhon Poutrecoet Naoned "de Dinan" "de Vitré" "de Cornouaille" 
-			"de Rohan" "de Porhoët" "de Châteaubriant" "de Nantes" Guennec Pensec "de Rieux"
-			"de Vannes" "de Bretagne" "Sant Nazar" Tanguy Hennebont Gwened "de Rennes"
+			Penteur Leon Naoned Dinan Gwitreg Kernev Roc'han Porhoët Kastell-Briant Gwened
+			Roazhon Reoz Vrezhoned Henbont Sant-Nazar Poc'hêr Guennec Pensec Tangi
 		}
 	}
 	highland_scottish = {
@@ -1944,7 +1940,7 @@ maghrebi = {
 	andalucian = {
 		primary = ADU
 		dynasty_names = {
-			"Banû Adha" "Banû Nasr" "Banû Umayya" "Banû Birzâl" "Banû Darddus" "Banû Dhî‘n-Nûn"
+			"Banû Adha" "Banû Nasr" "Banû ‘Umayya" "Banû Birzâl" "Banû Darddus" "Banû Dhî‘n-Nûn"
 			"Banû ‘Âmirî" "Banû Isam" "Banû Muzaym" "Banû Mundhir" "Banû Hud" "Banû Bitrûyî"
 			"Banû Mahfuz" "Banû ‘Abbâd" "Banû Marwân" "Banû Abû ‘Alî" "Banû Sabûr" "Banû ‘Abd Allâh"
 			"Banû Qâsim" "Banû Jizrûn" "Banû Hammûd" "Banû Hassûn" "Banû Zannûn" "Banû Hakam"
@@ -2289,7 +2285,7 @@ lost_cultures_group = {
 			Arnulfing Ahalolfing Meinharding Ludowing Chrodoberting Eberharding
 			Ekkeharding Bosoning Bivining Ramnulfing Ingelgering Reginaring Brunoning
 			Reginbodoning Embrichoning Udoning Rapotoning Diepolding Gisoning
-			Ezzoning Pilgriming Ariboning
+			Ezzoning Pilgriming Ariboning Popponing Hugoning Rorgoning Thibalding
 			Reudigni Avione Eudose Suarine Nuitone Salier
 			"von Löwen" "von Verdun" "von Rheingau" "von Karantanien"
 			"von Neustrien" "von Austrasien" "von Bayern" "von Burgund"
@@ -2319,7 +2315,8 @@ lost_cultures_group = {
 		dynasty_names = {
 			Atenulfing Guaimaring Daufering Landolfing
 			Oberting Siconing Aroding Leting Unroching
-			Gausi Longobardi Arduining Aleraming
+			Gausi Longobardi Arduining Aleraming Supponing
+			Hucpolding Attoning Cadoling Upezzing Widoning
 			"di Venezia" "di Friuli" "di Benevento"
 			"di Salerno" "di Capua" "di Gaeta"
 			"di Puglio" "di Bari" "di Lecce" "di Lazio"

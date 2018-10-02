@@ -10,8 +10,8 @@ union = {
 union = {
 	first = DAN
 	second = SVG
-	start_date = 1000.1.1
-	end_date = 1120.1.1
+	start_date = 1086.7.10
+	end_date = 1115.1.1
 }
 union = {
 	first = DAN

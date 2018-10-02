@@ -1,5 +1,4 @@
 name = "War of the League of Cognac"
-
 war_goal = {
 	type = take_border
 	casus_belli = cb_border_war
@@ -17,11 +16,14 @@ war_goal = {
 	add_defender = SPA
 	add_defender = NAP
 	add_defender = HAB
-	add_defender = GEN	
 }
 
 1526.8.30 = {
 	add_defender = HUN
+}
+
+1528.10.12 = {
+	add_defender = GEN
 }
 
 1529.6.21 = {

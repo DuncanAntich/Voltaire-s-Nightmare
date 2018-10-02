@@ -31,7 +31,7 @@ irish_superregion = {
 	ireland_region
 	westireland_region
 	northern_ireland_region
-	munster_region
+	mhumhain_region
 }
 
 italy_superregion = {
@@ -189,7 +189,7 @@ scandinavia_superregion = {
 	jutland_region
 	danishislands_region
 	skania_region
-	sweden_region
+	scandinavia_region
 }
 
 russia_superregion = {

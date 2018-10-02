@@ -1917,21 +1917,6 @@ global_trade = {
 	embracement_speed = {
 	
 		modifier = {
-			factor = 0.02
-			scale = yes
-			has_building = marketplace
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			has_building = trade_depot
-		}
-		modifier = {
-			factor = 1
-			scale = yes
-			has_building = stock_exchange
-		}
-		modifier = {
 			factor = 0.4 #Not scaled
 			province_trade_power = 15
 		}
@@ -1951,16 +1936,36 @@ global_trade = {
 			factor = 0.5
 			scale = yes
 			potential = {
-				province_has_center_of_trade_of_level = 2
+				OR = {
+					province_has_center_of_trade_of_level = 3
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_spread
-				province_has_center_of_trade_of_level = 2
+				OR = {
+					province_has_center_of_trade_of_level = 3
+				}
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.1
 			scale = yes
+			potential = {
+				OR = {
+					province_has_center_of_trade_of_level = 2
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_center_of_trade_spread
+				OR = {
+					province_has_center_of_trade_of_level = 2
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			force_potential = yes
 			potential = {
 				owner = { has_estate = estate_burghers }
 			}
@@ -1986,9 +1991,13 @@ global_trade = {
 			potential = {
 				has_port = no
 			}
-			has_port = no #In this case the one below is used.
-			any_friendly_coast_border_province = {
-				global_trade = 100
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_non_port_province_global_trade
+				has_port = no
+				any_neighbor_province = {
+					global_trade = 100
+					
+				}
 			}
 		}
 		
@@ -2111,6 +2120,8 @@ manufactories = {
 		is_island = no
 		is_state = yes
 		development = 20
+		printing_press = 100
+		global_trade = 100
 		OR = {
 			has_building = wharf
 			has_building = weapons
@@ -2355,12 +2366,17 @@ enlightenment = {
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
+		printing_press = 100
+		global_trade = 100
+		development = 30
 		OR = {
-			has_seat_in_parliament = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_seat_in_parliament
+				has_seat_in_parliament = yes
+			}
 			has_building = university
 			AND = {
 				continent = europe
-				development = 20
 				owner = {
 					ADM = 5
 					MIL = 5

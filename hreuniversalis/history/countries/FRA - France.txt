@@ -191,7 +191,7 @@ national_focus = DIP
 	queen = {
 		country_of_origin = CHP
 		name = "Adèle"
-		dynasty = "de Blois"
+		dynasty = "Thibalding"
 		birth_date = 1140.1.1
 		death_date = 1206.6.4
 		culture = champenois
@@ -437,6 +437,32 @@ national_focus = DIP
 		dip = 2
 		mil = 3
 	}
+	queen = {
+        country_of_origin = BUR
+        name = "Marguerite"
+        dynasty = "de Bourgogne" 
+        birth_date = 1290.1.1
+        death_date = 1315.4.30
+        culture = burgundian
+        female = yes
+        adm = 2
+        dip = 2
+        mil = 2
+    }
+}
+1315.8.19 = {
+	queen = {
+        country_of_origin = NAP
+        name = "Clemenza"
+        dynasty = "d'Anjou" 
+        birth_date = 1293.1.1
+        death_date = 1328.10.28
+        culture = angevin_culture
+        female = yes
+        adm = 2
+        dip = 2
+        mil = 2
+    }
 }
 1316.6.5 = {
 	monarch = {
@@ -445,6 +471,26 @@ national_focus = DIP
 		adm = 2
 		dip = 2
 		mil = 2
+	}
+}
+1316.11.15 = {
+	monarch = {
+		name = "Philippe Capet (Regent)"
+		regent = yes
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean I"
+		dynasty = "Capet"
+		birth_date = 1316.11.15
+		death_date = 1316.11.20
+		claim = 90
+		adm = 1
+		dip = 0
+		mil = 1
 	}
 }
 1316.11.20 = {
@@ -596,17 +642,6 @@ national_focus = DIP
         mil = 2
     }
 }
-1391.12.25 = { 
-	leader = { 
-		name = "Jean II Le Meingre"	
-		type = general
-		fire = 2	
-		shock = 2	
-		manuever = 3	
-		siege = 0	
-		death_date = 1421.6.21 
-	} 
-}
 1397.1.22 = {
 	heir = {
 		name = "Louis"
@@ -747,23 +782,10 @@ national_focus = DIP
 		dip = 3
 		mil = 2
 	}
-	queen = {
-		country_of_origin = BRI
-		name = "Anne"
-		dynasty = "de Dreux"
-		birth_date = 1477.1.25
-		death_date = 1514.1.9
-		culture = breton
-		female = yes
-		adm = 4
-		dip = 3
-		mil = 2
-	}
 	clear_scripted_personalities = yes
-	add_queen_personality = fertile_personality
 	add_heir_personality = calm_personality
 }
-1488.9.10 = { add_accepted_culture = breton }
+1491.12.6 = { add_accepted_culture = breton }
 1498.4.7 = {
 	monarch = {
 		name = "Louis XII"
@@ -778,7 +800,7 @@ national_focus = DIP
         name = "Jeanne"
         dynasty = "de Valois"
         birth_date = 1464.4.23
-        death_date = 1498.12.17 #Death in 1505.2.4
+        death_date = 1498.12.17 #divorce
         female = yes
         adm = 3
         dip = 3
@@ -789,20 +811,6 @@ national_focus = DIP
 	add_ruler_personality = calm_personality
 	add_ruler_personality = just_personality 
 	add_heir_personality = scholar_personality 
-}
-1499.1.8 = {
-    queen = { # Anne of Brittany needs a second entry for her marriage to Louis XII
-        country_of_origin = BRI
-        name = "Anne"
-        dynasty = "de Dreux"
-        birth_date = 1477.1.25
-        death_date = 1514.1.9
-        culture = breton
-        female = yes
-        adm = 4
-        dip = 3
-        mil = 2
-    }
 }
 1515.1.1 = {
 	monarch = {
@@ -1283,12 +1291,12 @@ national_focus = DIP
 1799.11.10 = {
 	monarch = {
 		name = "Napoléon I"
-		adm = 9
-		dip = 9
-		mil = 9
 		dynasty = "Bonaparte" 
 		culture = corsican
 		birth_date = 1769.8.15
+		adm = 9
+		dip = 9
+		mil = 9
 		leader = { name = "Napoléon"	type = general	fire = 6	shock = 6	manuever = 6	siege = 6 }
 	}
 	add_army_professionalism = 0.4
@@ -1392,6 +1400,7 @@ national_focus = DIP
 	set_legacy_government = constitutional_republic
 	monarch = {
 		name = "Louis-Napoléon"
+		dynasty = "Bonaparte"
 		birth_date = 1808.4.20
 		adm = 6
 		dip = 3

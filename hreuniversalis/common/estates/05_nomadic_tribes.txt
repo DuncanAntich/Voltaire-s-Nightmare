@@ -8,9 +8,11 @@ estate_nomadic_tribes = {
 
 	# If true, country will get estate
 	trigger = {	
+		has_dlc = "The Cossacks"
 		OR = {
 			has_reform = eastern_monarchy
 			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
 		}
 	}
 	

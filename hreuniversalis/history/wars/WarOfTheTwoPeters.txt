@@ -23,6 +23,9 @@ war_goal = {
 	add_attacker = ENG
 	add_attacker = FOI
 	add_attacker = BRI
+	add_attacker = PNT
+	add_attacker = LNE
+	add_attacker = VNA
 	rem_attacker = POR
 }
 
@@ -47,6 +50,9 @@ war_goal = {
 	rem_attacker = ENG
 	rem_attacker = FOI
 	rem_attacker = BRI
+	rem_attacker = PNT
+	rem_attacker = LNE
+	rem_attacker = VNA
 	rem_attacker = NAV
 }
 

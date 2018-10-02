@@ -1428,7 +1428,7 @@ supply_convoys = {
 	}	
 	
 	state_maintenance_modifier = -0.20
-	liberty_desire_from_subject_development = -0.02
+	liberty_desire_from_subject_development = -0.2
 	
 	ai_will_do = {
 		factor = 1

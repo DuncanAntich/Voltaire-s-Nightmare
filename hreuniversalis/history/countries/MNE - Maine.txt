@@ -7,10 +7,25 @@ technology_group = western
 capital = 2177
 fixed_capital = 2177
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
+1051.3.26 = {
+	monarch = {
+		name = "Herbert II"
+		dynasty = "Hugoning"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+1062.3.9 = {
+	monarch = {
+		name = "Bilichildis"
+		dynasty = "Hugoning"
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
 1063.1.1 = {
 	monarch = { #later duke of NRM
 		name = "Robert I"
@@ -25,23 +40,48 @@ fixed_capital = 2177
 1069.1.1 = {
 	monarch = {
 		name = "Hugues V"
-		dynasty = "d'Este"
-		culture = lombard
-		adm = 1
-		dip = 3
-		mil = 2
+		dynasty = "Hugoning" #Matrilineally
+		adm = 0
+		dip = 0
+		mil = 0
 	}
 }
 1093.1.1 = {
 	monarch = {
 		name = "Hélie I"
-		dynasty = "de la Flèche"
+		dynasty = "Hugoning" #Matrilineally
 		adm = 2
 		dip = 1
 		mil = 2
 	}
 }
-#1110 done
+1110.7.11 = {
+	monarch = {
+		name = "Ermengarde"
+		dynasty = "Hugoning" #Matrilineally
+		birth_date = 1096.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#done 1126.10.12
+1204.3.6 = {
+	monarch = {
+		name = "Bérengère"
+		dynasty = "Jiménez"
+		female = yes
+		birth_date = 1165.1.1
+		culture = basque
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#done 1230.12.23
+1378.9.20 = { religion = catholique }
+1403.5.28 = { religion = catholic }
 1424.8.17 = { capital = 2913 }
 1441.1.1 = {
 	monarch = {

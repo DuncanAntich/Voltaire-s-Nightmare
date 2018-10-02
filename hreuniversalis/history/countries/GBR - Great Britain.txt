@@ -15,7 +15,6 @@ capital = 2268	# London
 1536.1.1 = { decision = dissolution_of_the_monasteries }
 1549.1.1 = { decision = act_of_uniformity }
 1580.1.1 = { decision = enlist_privateers }
-1651.12.30 = { decision = establish_british_merchant_navy }
 1673.1.1 = { decision = test_act }
 1702.3.8 = {
 	monarch = {
@@ -265,6 +264,19 @@ capital = 2268	# London
 		death_date = 1861.12.14
 		culture = thuringian
 		female = no
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1841.11.9 = {
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward VII"
+		dynasty = "von Wettin"
+		birth_date = 1841.11.9
+		death_date = 1910.5.6
+		claim = 90
 		adm = 2
 		dip = 2
 		mil = 2

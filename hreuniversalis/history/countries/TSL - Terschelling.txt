@@ -17,7 +17,8 @@ capital = 1864
 }
 1248.1.1 = {
 	monarch = {
-		name = "Elf Popma"
+		name = "Elf"
+		dynasty = "Popma"
 		adm = 3
 		dip = 3
 		mil = 2
@@ -25,7 +26,8 @@ capital = 1864
 }
 1285.1.1 = {
 	monarch = {
-		name = "Claes Popma"
+		name = "Claes"
+		dynasty = "Popma"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -33,7 +35,8 @@ capital = 1864
 }
 1323.1.1 = {
 	monarch = {
-		name = "Ziwaert Popma"
+		name = "Ziwaert"
+		dynasty = "Popma"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -41,13 +44,14 @@ capital = 1864
 }
 1352.1.1 = {
 	monarch = {
-		name = "Ziwaert Popma"
+		name = "Poppe"
+		dynasty = "Popma"
 		adm = 3
 		dip = 1
 		mil = 3
 	}
 }
-#1398 HOL
+#1370 HOL
 1424.1.1 = {
 	clr_country_flag = natives_flag
 	government = tribal

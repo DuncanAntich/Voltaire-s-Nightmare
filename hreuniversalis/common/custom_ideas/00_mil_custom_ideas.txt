@@ -158,5 +158,15 @@ mil_idea_modifiers = {
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18		
+	}
+	custom_idea_free_mil_policy = {
+		free_mil_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+	}
+	custom_idea_possible_mil_policy = {
+		possible_mil_policy = 1
+		max_level = 1
+		level_cost_1 = 30
 	}	
 }

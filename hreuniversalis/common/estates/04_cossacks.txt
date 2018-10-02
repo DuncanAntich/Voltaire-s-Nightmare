@@ -5,7 +5,8 @@ estate_cossacks =
 	color = { 200 150 150 }
 	
 	# Used for when declaring independence
-	independence_government = crusader_order_government
+	independence_government = theocracy
+	starting_reform = crusader_order_reform
 	independence_trigger = {
 		has_estate = estate_cossacks
 	}
@@ -19,6 +20,7 @@ estate_cossacks =
 	# If true, country will get estate
 	
 	trigger = {	
+		has_dlc = "The Cossacks"
 		government = monarchy
 		OR = {
 			religion = catholic

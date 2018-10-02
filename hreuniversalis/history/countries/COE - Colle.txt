@@ -24,17 +24,18 @@ add_army_professionalism = 0.05
 }
 1316.1.1 = {
 	monarch = {
-		name = "Albizzo dei Tancredi"
+		name = "Albizzo"
+		dynasty = "Tancredi"
 		dip = 1
 		mil = 3
 		adm = 1
 	}
 	add_ruler_modifier = { name = ghib_ruler }
 }
-1331.1.1 = {
+1331.3.10 = {
 	monarch = {
-		name = "Consiglio Generale"
-		regent = yes
+		name = "Usimbardo"
+		dynasty = "da Picchena"
 		dip = 2
 		mil = 2
 		adm = 2

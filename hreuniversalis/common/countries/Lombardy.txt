@@ -87,7 +87,8 @@ monarch_names = {
 leader_names = {
 	Atenulfing Guaimaring Daufering Landolfing
 	Oberting Siconing Aroding Leting Unroching
-	Gausi Longobardi Arduining Aleraming
+	Gausi Longobardi Arduining Aleraming Supponing
+	Hucpolding Attoning Cadoling Upezzing Widoning
 	"di Venezia" "di Friuli" "di Benevento"
 	"di Salerno" "di Capua" "di Gaeta"
 	"di Puglio" "di Bari" "di Lecce" "di Lazio"

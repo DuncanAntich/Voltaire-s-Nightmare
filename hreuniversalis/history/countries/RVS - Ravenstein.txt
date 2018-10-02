@@ -166,3 +166,42 @@ capital = 1248
 		adm = 1
 	}
 }
+#1392 to KLE
+#Kleve Lords
+1440.1.1 = {
+	monarch = {
+		name = "Adolf"
+		dynasty = "von der Mark"
+		birth_date = 1425.1.1
+		culture = ripuarian
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1459.1.1 = {
+	heir = {
+		name = "Philipp"
+		monarch_name = "Philipp"
+		dynasty = "von der Mark"
+		birth_date = 1459.1.1
+		death_date = 1528.1.28
+		claim = 80
+		culture = ripuarian
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+1492.1.1 = {
+	monarch = {
+		name = "Philipp"
+		dynasty = "von der Mark"
+		birth_date = 1459.1.1
+		culture = ripuarian
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+#done 1528.1.28

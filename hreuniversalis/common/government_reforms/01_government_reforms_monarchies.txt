@@ -55,8 +55,14 @@ grand_duchy_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			tag = LIT
-			tag = TUS
+			AND = {
+				tag = LIT
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				tag = TUS
+				NOT = { map_setup = map_setup_random }
+			}
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = grand_duchy_reform
@@ -274,7 +280,10 @@ prussian_monarchy = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			tag = PRU
+			AND = {
+				tag = PRU
+				NOT = { map_setup = map_setup_random }
+			}
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = prussian_monarchy
@@ -341,8 +350,14 @@ tsardom = {
 	potential = {
 		religion = orthodox
 		OR = {
-			tag = RUS
-			tag = UKR
+			AND = {
+				tag = RUS
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				tag = UKR
+				NOT = { map_setup = map_setup_random }
+			}
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = tsardom
@@ -568,6 +583,7 @@ states_general_reform = {
 		queen = no
 		heir = no
 		duration = 4
+		has_term_election = yes
 		states_general_mechanic = {
 			statists = {
 				diplomatic_reputation = 1
@@ -639,7 +655,7 @@ become_a_republic_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 6
+		lose_reforms = 3
 		change_government_via_reform = republic
 	}
 	ai = {

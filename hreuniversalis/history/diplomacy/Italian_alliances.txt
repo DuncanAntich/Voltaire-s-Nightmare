@@ -18,25 +18,11 @@ vassal = {
 	end_date = 1295.1.1
 }
 
-#Vassals
-vassal = {
-	first = PAP
-	second = LZO
-	start_date = 1054.1.1
-	end_date = 1171.1.1
-}
-vassal = {
-	first = PAP
-	second = LZO
-	start_date = 1188.1.1
-	end_date = 1193.1.1
-}
-
 #Parts
 union = {
 	first = TUS
-	second = RGO
-	start_date = 1000.1.1
+	second = MAN
+	start_date = 1055.7.1
 	end_date = 1115.7.24
 }
 
@@ -90,7 +76,7 @@ vassal = {
 vassal = {
 	first = APL
 	second = CHT
-	start_date = 1061.1.1
+	start_date = 1076.4.18
 	end_date = 1080.6.1
 }
 vassal = {
@@ -131,11 +117,11 @@ union = {
 }
 
 #Strange aeons
-union = {
+alliance = {
 	first = TUS
 	second = SPT
-	start_date = 1076.4.18
-	end_date = 1080.10.15
+	start_date = 1057.7.28
+	end_date = 1076.4.18
 }
 
 #Sforza alliances
@@ -203,12 +189,60 @@ union = {
 	end_date = 1775.1.1
 }
 
-# Milan-Genoa
-union = {
+#Conquests of Genoa
+guarantee = {
 	first = MLO
 	second = GEN
-	start_date = 1464.1.1
-	end_date = 1475.1.1
+	start_date = 1353.10.8
+	end_date = 1356.11.14
+}
+guarantee = {
+	first = FRA
+	second = GEN
+	start_date = 1396.11.27
+	end_date = 1413.3.21
+}
+guarantee = {
+	first = MLO
+	second = GEN
+	start_date = 1421.11.23
+	end_date = 1435.12.25
+}
+guarantee = {
+	first = FRA
+	second = GEN
+	start_date = 1458.3.11
+	end_date = 1461.3.9
+}
+guarantee = {
+	first = MLO
+	second = GEN
+	start_date = 1464.4.16
+	end_date = 1478.7.7
+}
+guarantee = {
+	first = MLO
+	second = GEN
+	start_date = 1488.1.6
+	end_date = 1499.10.26
+}
+guarantee = {
+	first = FRA
+	second = GEN
+	start_date = 1499.10.26
+	end_date = 1512.6.29
+}
+guarantee = {
+	first = FRA
+	second = GEN
+	start_date = 1515.1.1
+	end_date = 1522.5.31
+}
+guarantee = {
+	first = FRA
+	second = GEN
+	start_date = 1527.8.1
+	end_date = 1528.10.12
 }
 
 #Angevin kings of Albania
@@ -381,33 +415,6 @@ union = {
 	second = TUS
 	start_date = 1859.12.8
 	end_date = 1861.3.20
-}
-
-#breddy much united
-union = {
-	first = CTH
-	second = VNN
-	start_date = 1004.1.1
-	end_date = 1123.12.14
-}
-union = {
-	first = KRR
-	second = VNN
-	start_date = 1123.12.14
-	end_date = 1141.4.13
-}
-union = {
-	first = CTH
-	second = VNN
-	start_date = 1141.4.13
-	end_date = 1151.1.1
-}
-#brief rule
-union = {
-	first = BAD
-	second = VNN
-	start_date = 1151.1.1
-	end_date = 1164.1.1
 }
 
 #march of turin

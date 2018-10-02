@@ -17,7 +17,8 @@ capital = 1931
 }
 1248.1.1 = {
 	monarch = {
-		name = "Hicco Idzinga"
+		name = "Hicco"
+		dynasty = "Idzinga"
 		adm = 3
 		dip = 3
 		mil = 2
@@ -34,7 +35,8 @@ capital = 1931
 }
 1337.1.1 = {
 	monarch = {
-		name = "Poppo Idzinga"
+		name = "Poppo"
+		dynasty = "Idzinga"
 		adm = 2
 		dip = 2
 		mil = 1
@@ -42,13 +44,14 @@ capital = 1931
 }
 1345.1.1 = {
 	monarch = {
-		name = "Hicco Idzinga"
+		name = "Hicco"
+		dynasty = "Idzinga"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1367.1.1 = {
+1370.1.1 = {
 	clr_country_flag = natives_flag
 	government = tribal
 	add_government_reform = tribal_despotism

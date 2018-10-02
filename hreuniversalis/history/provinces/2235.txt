@@ -26,12 +26,10 @@ center_of_trade = 1
 	owner = LZO
 	controller = LZO
 	add_core = LZO
-	remove_core = PAP
 }
 1155.1.1 = {
 	owner = PAP
 	controller = PAP
-	add_core = PAP
 	remove_core = LZO
 }
 1177.7.24 = { hre = no }

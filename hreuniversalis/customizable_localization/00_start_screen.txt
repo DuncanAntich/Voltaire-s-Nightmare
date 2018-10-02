@@ -286,6 +286,18 @@ defined_text = {
 
 	#Country Specific:
 	#Europe:
+
+	text = { # Romania
+		localisation_key = string_start_romania
+		trigger = {
+			OR = {
+				tag = MOL
+				tag = WAL
+			}
+			started_in = 1444.11.11
+			NOT = { is_year = 1447 }
+		}
+	}
 	
 	text = { #Poland
 		localisation_key = string_start_poland
@@ -941,7 +953,7 @@ defined_text  = {
         localisation_key = string_start_factions
         trigger = {
 			OR = {
-				has_reform = merchants_reform
+				has_government_attribute = is_merchant_republic
 				has_reform = monastic_order_government
 				has_reform = ottoman_government
 				has_reform = tribal_kingdom
@@ -1190,7 +1202,7 @@ defined_text  = {
     text = {
         localisation_key = string_start_trade_league
         trigger = {
-			has_reform = merchant_republic
+			has_government_attribute = is_merchant_republic
 			has_dlc = "Mare Nostrum"
         }
     }

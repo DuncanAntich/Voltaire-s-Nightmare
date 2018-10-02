@@ -1,5 +1,5 @@
-owner = GUY
-controller = GUY
+owner = ABR
+controller = ABR
 culture = gascon
 religion = catholic
 hre = no
@@ -9,7 +9,6 @@ trade_goods = fish
 base_manpower = 1
 capital = "Tartas"
 is_city = yes
-add_core = GUY
 add_core = ABR
 discovered_by = eastern
 discovered_by = ottoman
@@ -19,6 +18,11 @@ discovered_by = nomad_group
 discovered_by = north_american
 estate = estate_nobles
 
+1154.10.25 = {
+	owner = GUY
+	controller = GUY
+	add_core = GUY
+}
 1337.4.30 = { 
 	owner = ENG
 	controller = ENG

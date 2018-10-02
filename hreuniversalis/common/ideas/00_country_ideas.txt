@@ -1298,7 +1298,7 @@ PAP_ideas = {
 		global_tax_modifier = 0.2
 	}
 	glory_of_rome = {
-		prestige = 1
+		prestige_decay = -0.01
 	}
 	donation_of_constantine = {
 		fabricate_claims_cost = -0.25
@@ -1307,7 +1307,7 @@ PAP_ideas = {
 		production_efficiency = 0.1
 	}
 	the_vatican_museums = {
-		prestige_decay = -0.01
+		free_dip_policy = 1
 	}
 	holy_father = {
 		ae_impact = -0.10
@@ -4505,5 +4505,42 @@ KLE_ideas = {
 	}
 	kle_renovate_swan_castle = {
 		global_garrison_growth = 0.25
+	}
+}
+
+RIG_ideas = {
+	start = {
+		garrison_growth = 0.25
+		development_cost = -0.1
+	}
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+	trigger = {
+		tag = RIG
+	}
+	free = yes
+	rig_legacy_of_bishop_albert = {
+		papal_influence = 2
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.1
+	}
+	rig_hanseatic_port = {
+		trade_efficiency = 0.1
+	}
+	rig_monopoly_rights = {
+		global_own_trade_power = 0.25
+	}
+	rig_denounce_witchcraft = {
+		global_missionary_strength = 0.02
+	}
+	rig_free_city = {
+		diplomatic_reputation = 1
+	}	
+	rig_fortify_riga = {
+		defensiveness = 0.2
+	}
+	rig_restore_brothers_of_the_sword = {
+		discipline = 0.05
 	}
 }

@@ -557,8 +557,7 @@ country_event = {
 					OR = {
 						is_capital = yes
 						development = 12
-						has_province_modifier = inland_center_of_trade_modifier
-						has_province_modifier = center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = province_to_grow
@@ -573,8 +572,7 @@ country_event = {
 					OR = {
 						is_capital = yes
 						development = 15
-						has_province_modifier = inland_center_of_trade_modifier
-						has_province_modifier = center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = province_to_grow
@@ -589,8 +587,7 @@ country_event = {
 					OR = {
 						is_capital = yes
 						development = 20
-						has_province_modifier = inland_center_of_trade_modifier
-						has_province_modifier = center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = province_to_grow

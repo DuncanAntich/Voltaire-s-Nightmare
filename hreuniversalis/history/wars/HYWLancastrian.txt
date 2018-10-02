@@ -32,7 +32,12 @@ war_goal = {
 		result = yes
 	}
 }
-1420.5.21 = { add_attacker = BRI }
+1420.5.21 = {
+	add_attacker = BRI
+	add_attacker = PNT
+	add_attacker = LNE
+	add_attacker = VNA
+}
 1423.7.31 = {
 	battle = { 
 		name = "Cravant" 
@@ -204,7 +209,12 @@ war_goal = {
 	add_defender = BAR
 	add_defender = LOR
 }
-1442.8.29 = { rem_attacker = BRI }
+1442.8.29 = {
+	rem_attacker = BRI
+	rem_attacker = PNT
+	rem_attacker = LNE
+	rem_attacker = VNA
+}
 1444.5.22 = {
 	rem_attacker = ENG
 	rem_defender = FRA

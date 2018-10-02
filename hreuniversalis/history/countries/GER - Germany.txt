@@ -17,6 +17,18 @@ capital = 2652	# Berlin
 		dip = 6
 		mil = 4
 	}
+	queen = {
+		country_of_origin = ETL
+		name = "Augusta"
+		dynasty = "von Wettin"
+		birth_date = 1811.1.30
+		death_date = 1890.1.7
+		female = yes
+		culture = thuringian
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 	heir = {
 		name = "Friedrich"
 		monarch_name = "Friedrich III"

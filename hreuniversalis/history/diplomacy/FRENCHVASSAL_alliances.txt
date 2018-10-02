@@ -5,6 +5,13 @@ dependency = {
 	subject_type = "tributary_state"
 	first = FRA
 	second = ABR
+	start_date = 1054.1.1
+	end_date = 1154.10.25
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = FRA
+	second = ABR
 	start_date = 1369.9.1
 	end_date = 1465.3.1
 }
@@ -120,6 +127,13 @@ dependency = {
 	second = ANJ
 	start_date = 1054.1.1
 	end_date = 1154.10.25
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = FRA
+	second = ANJ
+	start_date = 1226.1.1
+	end_date = 1232.1.1
 }
 dependency = {
 	subject_type = "tributary_state"
@@ -567,8 +581,15 @@ dependency = {
 	subject_type = "tributary_state"
 	first = FRA
 	second = MNE
-	start_date = 1063.1.1
-	end_date = 1110.7.11
+	start_date = 1054.1.1
+	end_date = 1126.10.12
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = FRA
+	second = MNE
+	start_date = 1204.3.6
+	end_date = 1230.12.23
 }
 
 # Nemours

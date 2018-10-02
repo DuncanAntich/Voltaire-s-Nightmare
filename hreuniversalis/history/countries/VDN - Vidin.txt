@@ -97,3 +97,13 @@ capital = 2438
 		mil = 2
 	}
 }
+1395.6.3 = {
+	monarch = {
+		name = "Konstantin II"
+		dynasty = "Šišman"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+#done 1422.9.17

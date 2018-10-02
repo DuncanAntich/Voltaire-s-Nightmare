@@ -278,7 +278,7 @@ historical_friend = BAR
 	queen = {
 		country_of_origin = BLO
 		name = "Marie"
-		dynasty = "de Blois"
+		dynasty = "de Châtillon"
 		birth_date = 1323.1.1
 		death_date = 1380.1.1
 		culture = orleanais
@@ -303,7 +303,7 @@ historical_friend = BAR
 }
 1346.8.29 = {
 	monarch = {
-		name = "Marie de Blois (Regent)"
+		name = "Marie de Châtillon (Regent)"
 		regent = yes
 		female = yes
 		adm = 2

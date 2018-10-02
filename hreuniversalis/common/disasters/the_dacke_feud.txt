@@ -8,7 +8,7 @@ the_dacke_feud = {
 			is_island = no
 			OR = {
 				region = skania_region 
-				region = sweden_region
+				region = scandinavia_region
 			}
 		}
 	}

@@ -1167,6 +1167,17 @@ capital = 411
 		dip = 2
 		mil = 2
 	}
+	heir = {
+		name = "Federik"
+		monarch_name = "Frederik VIII"
+		dynasty = "von Oldenburg"
+		birth_date = 1843.6.3
+		death_date = 1912.5.14
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 1
+	}
 }
 
 ######################GENERALS##########################

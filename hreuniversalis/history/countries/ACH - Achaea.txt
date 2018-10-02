@@ -180,7 +180,7 @@ capital = 565
 		adm = 2
 		mil = 2
 	}
-} #to DRZ as Giovanni Durazzo
+} #to DRZ as Giovanni
 1332.12.23 = {
 	monarch = {
 		name = "Robert I"

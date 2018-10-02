@@ -29,6 +29,15 @@ capital = 972	# Modena
 	government_rank = 1
 	add_army_professionalism = 0.05
 	monarch = {
+		name = "Gerardo"
+		dynasty = "Rangone"
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+}
+1175.1.1 = {
+	monarch = {
 		name = "Repubblica"
 		adm = 2
 		dip = 2

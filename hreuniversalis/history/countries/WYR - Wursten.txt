@@ -15,3 +15,9 @@ capital = 1765
 		regent = yes
 	}
 }
+1370.1.1 = {
+	clr_country_flag = natives_flag
+	government = republic
+	add_government_reform = peasants_republic
+	technology_group = western
+}

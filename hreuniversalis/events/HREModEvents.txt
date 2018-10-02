@@ -1024,7 +1024,7 @@ country_event = {
 		}
 		BGX = {
 			add_opinion = { who = ROOT modifier = supported_independence }
-			change_government = monarchy
+			change_government_via_reform = monarchy
 			add_government_reform = autocracy_reform
 			define_ruler = { dynasty = "Fugger" }
 			set_government_rank = 1
@@ -1299,7 +1299,7 @@ country_event = {
 				dismantle_empire_of_china = yes
 				every_country = {
 					limit = { has_reform = celestial_empire }
-					change_government = monarchy
+					change_government_via_reform = monarchy
 					add_government_reform = feudalism_reform
 					every_subject_country = {
 						limit = { is_subject_of_type = tributary_state }
@@ -1837,6 +1837,7 @@ country_event = {
 			name = "Konrad I"
 			dynasty = "von Hohenstaufen"
 			age = 22
+			fixed = yes
 			adm = 2
 			dip = 3
 			mil = 2
@@ -2503,6 +2504,7 @@ country_event = {
 				define_ruler = {
 					name = "Süleyman"
 					dynasty = "Selçukoglu"
+					fixed = yes
 					adm = 4
 					dip = 4
 					mil = 6

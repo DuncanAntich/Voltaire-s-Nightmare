@@ -10,6 +10,7 @@ base_manpower = 5
 capital = "Orbetello"
 is_city = yes
 add_core = LZO
+add_core = PAP
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -20,6 +21,7 @@ discovered_by = muslim
 	controller = SOV
 	add_core = SOV
 	remove_core = LZO
+	remove_core = PAP
 }
 1309.1.1 = {
 	owner = OVI

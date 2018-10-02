@@ -691,6 +691,12 @@ country_event = {
 		name = "EVTOPTA9468"
 		kill_heir = yes
 		define_ruler = {}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
 		add_stability = -1
 	}
 	option = {
@@ -1668,6 +1674,7 @@ country_event = {
 		NOT = { religion_group = muslim }
 		NOT = { has_reform = elective_monarchy }
 		NOT = { has_reform = ottoman_government }
+		has_government_attribute = heir
 		is_lesser_in_union = no
 		NOT = { has_ruler_flag = talented_daughter_happened }
 	}
@@ -1829,6 +1836,12 @@ country_event = {
 			claim = 50
 			female = yes
 		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
 		random_known_country = {
 			limit = {
 				has_country_flag = dyn_woman_pretender_flag
@@ -1861,6 +1874,12 @@ country_event = {
 				define_ruler = {
 					dynasty = PREV
 					age = 20
+				}
+				if = {
+					limit = {
+						has_states_general_mechanic = yes
+					}
+					change_statists_vs_orangists = 200
 				}
 			}
 		}

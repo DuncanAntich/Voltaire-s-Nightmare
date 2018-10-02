@@ -37,7 +37,7 @@ country_event = {
 	option = {
 		name = flavor_mlo.1.a
 		ai_chance = { factor = 90 }
-		change_government = republic
+		change_government_via_reform = republic
 		add_government_reform = ambrosian_republic
 		add_republican_tradition = 5
 		every_neighbor_country  = {

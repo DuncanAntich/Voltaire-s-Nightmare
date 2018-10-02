@@ -9,7 +9,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			owns = 13
-			has_reform = merchants_reform
+			has_government_attribute = is_merchant_republic
 			13 = {
 				NOT = { has_province_modifier = "krantor_crane" }
 			}

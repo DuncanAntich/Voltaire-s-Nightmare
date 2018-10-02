@@ -1,5 +1,5 @@
-owner = RGO
-controller = RGO
+owner = MAN
+controller = MAN
 culture = lombard
 religion = catholic 
 hre = yes
@@ -9,7 +9,6 @@ trade_goods = grain
 base_manpower = 4
 capital = "Mantova" 
 is_city = yes
-add_core = RGO	
 add_core = MAN
 discovered_by = eastern
 discovered_by = ottoman
@@ -21,11 +20,6 @@ fort_14th = yes
 extra_cost = 8
 center_of_trade = 1
 
-1115.7.24 = {
-	owner = MAN
-	controller = MAN
-	remove_core = RGO
-}
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1399.1.1 = {
 	base_tax = 9

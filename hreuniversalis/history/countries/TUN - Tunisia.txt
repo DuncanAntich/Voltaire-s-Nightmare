@@ -7,7 +7,16 @@ technology_group = muslim
 capital = 586	# Tunis
 religious_school = maliki_school
 
-1059.1.1 = {
+1057.1.1 = {
+	monarch = {
+		name = "Hârûn"
+		dynasty = "Banû Gannush"
+		adm = 0
+		dip = 0
+		mil = 4
+	}
+}
+1062.1.1 = {
 	monarch = {
 		name = "‘Abd al-Haqq"
 		dynasty = "Banû Khurâsan"

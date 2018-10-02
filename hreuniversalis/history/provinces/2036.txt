@@ -10,6 +10,7 @@ base_manpower = 3
 capital = "Tivoli"
 is_city = yes	
 add_core = LZO
+add_core = PAP
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
@@ -20,7 +21,6 @@ discovered_by = north_american
 1171.1.1 = {
 	owner = PAP
 	controller = PAP
-	add_core = PAP
 	remove_core = LZO
 }
 1177.7.24 = { hre = no }

@@ -424,8 +424,8 @@ capital = 1818
 }
 1469.6.20 = {
 	heir = {
-		name = "Giovanni Galeazzo"
-		monarch_name = "Giovanni Galeazzo II"
+		name = "Gian Galeazzo"
+		monarch_name = "Gian Galeazzo II"
 		dynasty = "Sforza"
 		birth_date = 1469.6.20
 		death_date = 1494.10.21
@@ -437,7 +437,7 @@ capital = 1818
 }
 1476.12.27 = {
 	monarch = {
-		name = "Giovanni Galeazzo II"
+		name = "Gian Galeazzo II"
 		dynasty = "Sforza"
 		birth_date = 1469.6.20
 		adm = 3

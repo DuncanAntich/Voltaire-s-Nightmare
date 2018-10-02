@@ -88,7 +88,8 @@ fixed_capital = 1123
 1523.1.1 = { religion = reformed }
 1523.1.2 = {
 	monarch = {
-		name = "Huldrych Zwingli"
+		name = "Huldrych"
+		dynasty = "Zwingli"
 		birth_date = 1484.1.1
 		adm = 5
 		dip = 5

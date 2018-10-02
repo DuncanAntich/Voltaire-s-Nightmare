@@ -17,7 +17,8 @@ capital = 2215
 }
 1248.1.1 = {
 	monarch = {
-		name = "Ripperd Ripperda"
+		name = "Ripperd"
+		dynasty = "Ripperda"
 		adm = 3
 		dip = 5
 		mil = 4
@@ -32,7 +33,7 @@ capital = 2215
 		regent = yes
 	}
 }
-1375.1.1 = {
+1370.1.1 = {
 	clr_country_flag = natives_flag
 	government = tribal
 	add_government_reform = tribal_despotism

@@ -114,6 +114,7 @@ civil_society_reform = {
 	icon = "tribal_civil_society"
 	modifiers = {
 		global_tax_modifier = 0.05
+		yearly_corruption = -0.05
 	}
 }
 
@@ -124,6 +125,7 @@ religious_societies_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		stability_cost_modifier = -0.1
+		religious_unity = 0.15
 	}
 }
 
@@ -131,7 +133,7 @@ lip_service_reform = {
 	icon = "tribal_lip_service"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_maintenance_modifier = -0.2
+		land_maintenance_modifier = -0.1
 	}
 }
 
@@ -161,6 +163,30 @@ tribe_becomes_monarchy_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
+		if = {
+			limit = {
+				technology_group = nomad_group
+				OR = {
+					religion_group = muslim
+					secondary_religion = sunni
+					secondary_religion = shiite
+					secondary_religion = ibadi
+				}
+			}
+			change_technology_group = muslim
+			change_unit_type = muslim
+		}
+		if = {
+			limit = {
+				technology_group = nomad_group
+				NOT = { religion_group = muslim }
+				NOT = { secondary_religion = sunni }
+				NOT = { secondary_religion = shiite }
+				NOT = { secondary_religion = ibadi }
+			}
+			change_technology_group = eastern
+			change_unit_type = eastern
+		}
 		change_government_via_reform = monarchy
 	}
 }
@@ -171,6 +197,30 @@ tribe_becomes_republic_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
+		if = {
+			limit = {
+				technology_group = nomad_group
+				OR = {
+					religion_group = muslim
+					secondary_religion = sunni
+					secondary_religion = shiite
+					secondary_religion = ibadi
+				}
+			}
+			change_technology_group = muslim
+			change_unit_type = muslim
+		}
+		if = {
+			limit = {
+				technology_group = nomad_group
+				NOT = { religion_group = muslim }
+				NOT = { secondary_religion = sunni }
+				NOT = { secondary_religion = shiite }
+				NOT = { secondary_religion = ibadi }
+			}
+			change_technology_group = eastern
+			change_unit_type = eastern
+		}
 		change_government_via_reform = republic
 	}
 }
@@ -181,6 +231,30 @@ tribe_becomes_theocracy_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
+		if = {
+			limit = {
+				technology_group = nomad_group
+				OR = {
+					religion_group = muslim
+					secondary_religion = sunni
+					secondary_religion = shiite
+					secondary_religion = ibadi
+				}
+			}
+			change_technology_group = muslim
+			change_unit_type = muslim
+		}
+		else_if = {
+			limit = {
+				technology_group = nomad_group
+				NOT = { religion_group = muslim }
+				NOT = { secondary_religion = sunni }
+				NOT = { secondary_religion = shiite }
+				NOT = { secondary_religion = ibadi }
+			}
+			change_technology_group = eastern
+			change_unit_type = eastern
+		}
 		change_government_via_reform = theocracy
 	}
 	ai = {
@@ -194,12 +268,12 @@ tribe_becomes_horde_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		add_government_reform = steppe_horde
+		change_unit_type = nomad_group
+		change_technology_group = nomad_group
 	}
 	trigger = {
 		OR = {
-			NOT = {
-				has_reform = steppe_horde
-			}
+			NOT = {	has_reform = steppe_horde }
 			has_reform = tribe_becomes_horde_reform
 		}
 	}

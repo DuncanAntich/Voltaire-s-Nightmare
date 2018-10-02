@@ -213,7 +213,13 @@ country_event = {
 		ai_chance = { factor = 100 }
 		if = {
 			limit = { NOT = { government = republic } }
-			change_government = republic
+			change_government_via_reform = republic
+		}
+		if = {
+			limit = {
+				has_reform = parliamentary_reform
+			}
+			remove_government_reform = parliamentary_reform
 		}
 		add_government_reform = dutch_republic
 	}
@@ -226,7 +232,7 @@ country_event = {
 		}
 		if = {
 			limit = { NOT = { government = republic } }
-			change_government = republic
+			change_government_via_reform = republic
 		}
 		set_legacy_government = administrative_republic
 	}
@@ -239,7 +245,7 @@ country_event = {
 		}
 		if = {
 			limit = { NOT = { government = monarchy } }
-			change_government = monarchy
+			change_government_via_reform = monarchy
 		}
 		set_legacy_government = administrative_monarchy
 	}

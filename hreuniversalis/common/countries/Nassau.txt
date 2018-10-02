@@ -58,7 +58,6 @@ monarch_names = {
 	"Walrad #0" = 10
 	"Walram #1" = 10
 	"Adelmar #0" = 0
-	"Albrecht #0" = 0
 	"Barnabas #0" = 0
 	"Denis #0" = 0
 	"Egon #0" = 0

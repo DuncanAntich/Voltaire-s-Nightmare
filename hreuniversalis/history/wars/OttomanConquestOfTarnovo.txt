@@ -8,9 +8,11 @@ war_goal = {
 1395.6.3 = {
 	add_attacker = TUR
 	add_defender = BUL
+	add_defender = VDN
 }
 
 1396.9.25 = {
 	rem_attacker = TUR
 	rem_defender = BUL
+	rem_defender = VDN
 }

@@ -66,7 +66,7 @@ westireland_region = {
 	}
 }
 
-munster_region = {
+mhumhain_region = {
 	areas = {
 		desmond_area
 		mhumhain_area
@@ -964,7 +964,7 @@ volhynia_region = {
 	}
 }
 
-sweden_region = {
+scandinavia_region = {
 	areas = {
 		kalmar_area
 		markaryd_area

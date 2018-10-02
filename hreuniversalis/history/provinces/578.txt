@@ -1,5 +1,6 @@
-owner = RGO
-controller = RGO
+owner = MAN
+controller = MAN
+add_core = MAN
 culture = emilian
 religion = catholic
 hre = yes
@@ -9,7 +10,6 @@ trade_goods = peaches
 base_manpower = 1
 capital = "Piazza al Serchio" 
 is_city = yes
-add_core = RGO
 add_core = LUC
 discovered_by = eastern
 discovered_by = ottoman
@@ -19,7 +19,7 @@ discovered_by = muslim
 1084.1.1 = {
 	owner = LUC
 	controller = LUC
-	remove_core = RGO
+	remove_core = MAN
 }
 1429.1.1 = {
 	owner = MOD

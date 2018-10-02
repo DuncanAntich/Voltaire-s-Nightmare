@@ -21,7 +21,8 @@ add_army_professionalism = 0.05
 }
 1191.1.1 = {
 	monarch = {
-		name = "Manegoldo del Tettuccio"
+		name = "Manegoldo"
+		dynasty = "del Tettuccio"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -29,7 +30,8 @@ add_army_professionalism = 0.05
 }
 1194.1.1 = {
 	monarch = {
-		name = "Oberto di Olivano"
+		name = "Oberto"
+		dynasty = "di Olivano"
 		adm = 2
 		dip = 3
 		mil = 4
@@ -37,7 +39,8 @@ add_army_professionalism = 0.05
 }
 1195.1.1 = {
 	monarch = {
-		name = "Giacomo Mainero"
+		name = "Giacomo"
+		dynasty = "Mainero"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -45,7 +48,8 @@ add_army_professionalism = 0.05
 }
 1200.1.1 = {
 	monarch = {
-		name = "Orandino Malapresi"
+		name = "Orandino"
+		dynasty = "Malapresi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -53,7 +57,8 @@ add_army_professionalism = 0.05
 }
 1206.1.1 = {
 	monarch = {
-		name = "Giovanni Struzio"
+		name = "Giovanni"
+		dynasty = "Struzio"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -61,7 +66,8 @@ add_army_professionalism = 0.05
 }
 1211.1.1 = {
 	monarch = {
-		name = "Raniero Cotta"
+		name = "Raniero"
+		dynasty = "Cotta"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -69,7 +75,8 @@ add_army_professionalism = 0.05
 }
 1218.1.1 = {
 	monarch = {
-		name = "Rambertino Buvalelli"
+		name = "Rambertino"
+		dynasty = "Buvalelli"
 		adm = 4
 		dip = 2
 		mil = 2
@@ -77,7 +84,8 @@ add_army_professionalism = 0.05
 }
 1226.1.1 = {
 	monarch = {
-		name = "Pecoraro di Mercato"
+		name = "Pecoraro"
+		dynasty = "di Mercato"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -85,7 +93,8 @@ add_army_professionalism = 0.05
 }
 1240.1.1 = {
 	monarch = {
-		name = "Enrico da Monza"
+		name = "Enrico"
+		dynasty = "da Monza"
 		adm = 4
 		dip = 4
 		mil = 4
@@ -93,7 +102,8 @@ add_army_professionalism = 0.05
 }
 1241.2.3 = {
 	monarch = {
-		name = "Filippo Vicedomino"
+		name = "Filippo"
+		dynasty = "Vicedomino"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -101,7 +111,8 @@ add_army_professionalism = 0.05
 }
 1248.1.1 = {
 	monarch = {
-		name = "Rambertino di Bovarello"
+		name = "Rambertino"
+		dynasty = "di Bovarello"
 		adm = 2
 		dip = 3
 		mil = 2
@@ -109,7 +120,8 @@ add_army_professionalism = 0.05
 }
 1257.1.1 = {
 	monarch = {
-		name = "Guglielmo Boccanegra"
+		name = "Guglielmo"
+		dynasty = "Boccanegra"
 		adm = 3
 		dip = 4
 		mil = 3
@@ -117,7 +129,8 @@ add_army_professionalism = 0.05
 }
 1262.1.1 = {
 	monarch = {
-		name = "Leazzaro dei Leazzari"
+		name = "Leazzaro"
+		dynasty = "dei Leazzari"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -125,7 +138,8 @@ add_army_professionalism = 0.05
 }
 1265.10.2 = {
 	monarch = {
-		name = "Oberto Spinola"
+		name = "Oberto"
+		dynasty = "Spinola"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -133,7 +147,8 @@ add_army_professionalism = 0.05
 }
 1291.1.1 = {
 	monarch = {
-		name = "Lanfranco Suardi"
+		name = "Lanfranco"
+		dynasty = "Suardi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -141,7 +156,8 @@ add_army_professionalism = 0.05
 }
 1296.1.1 = {
 	monarch = {
-		name = "Corrado Spinola"
+		name = "Corrado"
+		dynasty = "Spinola"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -158,7 +174,8 @@ add_army_professionalism = 0.05
 }
 1317.12.10 = {
 	monarch = {
-		name = "Carlo Fieschi"
+		name = "Carlo"
+		dynasty = "Fieschi"
 		adm = 2
 		dip = 1
 		mil = 2
@@ -166,7 +183,8 @@ add_army_professionalism = 0.05
 }
 1319.1.1 = {
 	monarch = {
-		name = "Farra Bonifacio"
+		name = "Farra"
+		dynasty = "Bonifacio"
 		adm = 2
 		dip = 2
 		mil = 4
@@ -174,7 +192,8 @@ add_army_professionalism = 0.05
 }
 1335.1.1 = {
 	monarch = {
-		name = "Galeotto Spinola"
+		name = "Galeotto"
+		dynasty = "Spinola"
 		adm = 2
 		dip = 3
 		mil = 2
@@ -182,16 +201,41 @@ add_army_professionalism = 0.05
 }
 1339.9.24 = {
 	monarch = {
-		name = "Simone Boccanegra"
+		name = "Simone"
+		dynasty = "Boccanegra"
+		birth_date = 1301.1.1
 		adm = 4
 		dip = 4
 		mil = 3
 	}
+	add_ruler_modifier = { name = ghib_ruler }
+}
+1353.10.8 = { #Milanese
+	monarch = {
+		name = "Gaspare"
+		dynasty = "Visconti"
+		culture = lombard
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+}
+1356.11.14 = {
+	monarch = {
+		name = "Simone"
+		dynasty = "Boccanegra"
+		birth_date = 1301.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_ruler_modifier = { name = ghib_ruler }
 }
 1363.3.3 = {
 	monarch = {
-		name = "Gabriele Adorno"
+		name = "Gabriele"
 		birth_date = 1320.1.1
+		dynasty = "Adorno"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -199,7 +243,8 @@ add_army_professionalism = 0.05
 }
 1370.8.13 = {
 	monarch = {
-		name = "Domenico di Campofregoso"
+		name = "Domenico"
+		dynasty = "di Campofregoso"
 		birth_date = 1325.1.1
 		adm = 2
 		dip = 2
@@ -208,43 +253,67 @@ add_army_professionalism = 0.05
 }
 1378.6.17 = {
 	monarch = {
-		name = "Antonio Adorno"
+		name = "Antonio"
+		dynasty = "Adorno"
 		birth_date = 1340.1.1
 		adm = 3
 		dip = 1
 		mil = 0
 	}
 }
-1413.1.1 = {
+1397.3.18 = { #French
 	monarch = {
-		name = "Giorgio Adorno"
+		name = "Giovanni"
+		dynasty = "Le Meingre"
+		culture = orleanais
+		birth_date = 1366.8.28
+		adm = 3
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Jean Boucicaut"
+			type = general
+			fire = 2
+			shock = 2
+			manuever = 3
+			siege = 0
+		}
+	}
+}
+1413.3.21 = {
+	monarch = {
+		name = "Giorgio"
+		dynasty = "Adorno"
 		birth_date = 1350.1.1
 		adm = 2
 		dip = 3
 		mil = 1
 	}
 }
-1415.1.1 = {
+1415.3.23 = {
 	monarch = {
-		name = "Tommaso di Campofregoso"
+		name = "Tommaso"
+		dynasty = "di Campofregoso"
 		birth_date = 1375.1.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1436.1.1 = {
-	monarch = { # Served for one week
-		name = "Isnardo Guarco"
-		birth_date = 1380.1.1
-		adm = 1
+1421.11.23 = { #Milanese
+	monarch = {
+		name = "Giacomo"
+		dynasty = "degli Isolani"
+		culture = lombard
+		adm = 2
 		dip = 2
-		mil = 1
+		mil = 2
 	}
 }
-1437.1.1 = {
+1435.12.25 = {
 	monarch = {
-		name = "Tommaso di Campofregoso"
+		name = "Tommaso"
+		dynasty = "di Campofregoso"
 		birth_date = 1375.1.1
 		adm = 2
 		dip = 2
@@ -253,7 +322,8 @@ add_army_professionalism = 0.05
 }
 1443.1.28 = {
 	monarch = {
-		name = "Raffaele Adorno"
+		name = "Raffaele"
+		dynasty = "Adorno"
 		birth_date = 1375.1.1
 		adm = 1
 		dip = 3
@@ -262,57 +332,58 @@ add_army_professionalism = 0.05
 }
 1447.1.4 = {
 	monarch = {
-		name = "Lodovico de Campofregoso"
+		name = "Lodovico"
+		dynasty = "di Campofregoso"
 		birth_date = 1415.1.1
 		adm = 4
 		dip = 2
 		mil = 2
 	}
 }
-1450.9.5 = {
+1450.9.4 = {
 	monarch = {
-		name = "Pietro de Campofregoso"
+		name = "Pietro"
+		dynasty = "di Campofregoso"
 		birth_date = 1417.1.1
-		adm = 3
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
-1458.1.1 = {
-	government = monarchy
-	add_government_reform = feudalism_reform
-}
-1461.1.1 = {
-	government = republic
-	add_government_reform = merchants_reform
+1458.3.11 = { #French
 	monarch = {
-		name = "Lodovico de Campofregoso"
-		birth_date = 1415.1.1
-		adm = 3
+		name = "Lodovico"
+		dynasty = "de la Vallee"
+		culture = cosmopolitan_french
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
+	}	
+}
+1461.3.9 = {
+	monarch = {
+		name = "Spinetta"
+		dynasty = "di Campofregoso"
+		birth_date = 1400.1.1
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
-1463.1.9 = {
+1464.4.16 = { #Milanese
 	monarch = {
-		name = "Prospero Adorno"
-		birth_date = 1428.1.1
-		adm = 3
+		name = "Guido"
+		dynasty = "Visconti"
+		culture = lombard
+		adm = 2
 		dip = 2
-		mil = 4
-	}
+		mil = 2
+	}	
 }
-1464.1.1 = {
-	government = monarchy
-	add_government_reform = feudalism_reform
-}
-1475.1.1 = {
-	government = republic
-	add_government_reform = merchants_reform
-}
-1478.10.26 = {
+1478.7.7 = {
 	monarch = {
-		name = "Battista de Campofregoso"
+		name = "Battista"
+		dynasty = "di Campofregoso"
 		birth_date = 1450.1.1
 		adm = 3
 		dip = 2
@@ -321,68 +392,78 @@ add_army_professionalism = 0.05
 }
 1483.11.26 = {
 	monarch = {
-		name = "Giano de Campofregoso"
-		birth_date = 1455.1.1
-		adm = 4
+		name = "Paolo"
+		dynasty = "di Campofregoso"
+		birth_date = 1427.1.1
+		adm = 2
 		dip = 2
 		mil = 3
 	}
 }
-1488.1.17 = {
+1488.1.6 = { #Milanese
 	monarch = {
-		name = "Gian Galeazzo"
-		birth_date = 1469.6.20
-		adm = 3
-		dip = 2
-		mil = 4
+		name = "Agostino"
+		dynasty = "Adorno"
+		adm = 2
+		dip = 1
+		mil = 2
 	}
 }
-1499.1.1 = {
+1499.10.26 = { #French
 	monarch = {
-		name = "Philippe de Ravenstein"
-		adm = 3
+		name = "Francesco"
+		dynasty = "de Rochechouart"
+		culture = limousin
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
-1506.1.1 = {
-	monarch = { 
-		name = "Paolo da Nova"
-		birth_date = 1440.1.1
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
-1507.1.1 = {
-	monarch = { 
-		name = "Rodolphe de Lannoy"
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
-1512.6.30 = {
+1512.6.29 = {
 	monarch = {
-		name = "Giano Maria Fregoso"
+		name = "Giano"
+		dynasty = "di Campofregoso"
 		birth_date = 1455.1.1
-		adm = 3
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
-1513.6.21 = {
+1513.5.25 = { #French 1515
 	monarch = {
-		name = "Ottariano di Campofregosi"
+		name = "Ottaviano"
+		dynasty = "di Campofregoso"
 		birth_date = 1470.1.1
 		adm = 3
 		dip = 2
 		mil = 4
 	}
 }
-1528.10.13 = {
+1522.5.31 = {
 	monarch = {
-		name = "Oberto Cattaneo"
+		name = "Antoniotto"
+		dynasty = "Adorno"
+		birth_date = 1479.1.1
+		adm = 0
+		dip = 4
+		mil = 3
+	}
+}
+1527.8.1 = { #French
+	monarch = {
+		name = "Teodoro"
+		dynasty = "Trivulzio"
+		birth_date = 1458.1.1
+		culture = lombard
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
+1528.10.12 = {
+	monarch = {
+		name = "Oberto"
+		dynasty = "Cattaneo"
 		birth_date = 1473.1.1
 		adm = 4
 		dip = 5
@@ -391,188 +472,209 @@ add_army_professionalism = 0.05
 }
 1531.1.5 = {
 	monarch = {
-		name = "Battista Spinola"
+		name = "Battista"
+		dynasty = "Spinola"
 		birth_date = 1472.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1533.1.5 = {
 	monarch = {
-		name = "Battista Lomellino"
+		name = "Battista"
+		dynasty = "Lomellino"
 		birth_date = 1460.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		adm = 2
+		dip = 2
+		mil = 3
 	}
 }
 1535.1.5 = {
 	monarch = {
-		name = "Cristoforo Grimaldi"
+		name = "Cristoforo"
 		birth_date = 1480.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Grimaldi"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1537.1.5 = {
 	monarch = {
-		name = "Giovanni Doria"
+		name = "Giovanni"
 		birth_date = 1470.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Doria"
+		adm = 1
+		dip = 3
+		mil = 3
 	}
 }
 1539.1.5 = {
 	monarch = {
-		name = "Andrea Giustiniani"
+		name = "Andrea"
 		birth_date = 1494.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Giustiniani"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1541.1.5 = {
 	monarch = {
-		name = "Leonardo Catteneo"
+		name = "Leonardo"
 		birth_date = 1487.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Catteneo"
+		adm = 1
+		dip = 1
+		mil = 4
 	}
 }
 1543.1.5 = {
 	monarch = {
-		name = "Andrea Centurione"
+		name = "Andrea"
 		birth_date = 1471.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Centurione"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1545.1.5 = {
 	monarch = {
-		name = "Giovanni Fornari"
+		name = "Giovanni"
 		birth_date = 1494.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Fornari"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1547.1.5 = {
 	monarch = {
-		name = "Benedetto Gentile"
+		name = "Benedetto"
 		birth_date = 1490.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Gentile"
+		adm = 2
+		dip = 2
+		mil = 1
 	}
 }
 1549.1.5 = {
 	monarch = {
-		name = "Gaspari Grimaldi"
+		name = "Gaspari"
 		birth_date = 1477.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Grimaldi"
+		adm = 3
+		dip = 3
+		mil = 2
 	}
 }
 1551.1.5 = {
 	monarch = {
-		name = "Luca Spinola"
+		name = "Luca"
 		birth_date = 1489.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Spinola"
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
 1553.1.5 = {
 	monarch = {
-		name = "Giacomo Promontorio"
+		name = "Giacomo"
 		birth_date = 1508.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Promontorio"
+		adm = 3
+		dip = 2
+		mil = 2
 	}
 }
 1555.1.5 = {
 	monarch = {
-		name = "Agostino Pinelli"
+		name = "Agostino"
 		birth_date = 1492.1.1
+		dynasty = "Pinelli"
 		adm = 4
-		dip = 5
-		mil = 6
+		dip = 2
+		mil = 2
 	}
 }
 1557.1.5 = {
 	monarch = {
-		name = "Pietro Chiavica"
+		name = "Pietro"
 		birth_date = 1481.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Chiavica"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1559.1.5 = {
 	monarch = {
-		name = "Gerlamo Vivaldi"
+		name = "Gerlamo"
 		birth_date = 1495.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Vivaldi"
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 1561.1.5 = {
 	monarch = {
-		name = "Battista Cicala"
+		name = "Battista"
 		birth_date = 1484.1.1
-		adm = 4
-		dip = 5
-		mil = 6
+		dynasty = "Cicala"
+		adm = 2
+		dip = 2
+		mil = 3
 	}
 }
 1563.10.8 = {
 	monarch = {
-		name = "Givanni Lercari"
+		name = "Givanni"
 		birth_date = 1505.1.1
+		dynasty = "Lercari"
 		adm = 4
-		dip = 5
-		mil = 6
+		dip = 1
+		mil = 3
 	}
 }
 1565.10.8 = {
 	monarch = {
-		name = "Ottavio Odorico"
+		name = "Ottavio"
 		birth_date = 1499.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Odorico"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1567.10.12 = {
 	monarch = {
-		name = "Simone Spinola"
+		name = "Simone"
 		birth_date = 1497.1.1
+		dynasty = "Spinola"
 		adm = 3
-		dip = 4
+		dip = 2
 		mil = 6
 	}
 }
 1569.10.4 = {
 	monarch = {
-		name = "Paolo Giustiniani"
+		name = "Paolo"
 		birth_date = 1506.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Giustiniani"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1571.10.7 = {
 	monarch = {
-		name = "Gianotto Lomellini"
+		name = "Gianotto"
 		birth_date = 1519.1.1
+		dynasty = "Lomellini"
 		adm = 3
 		dip = 4
 		mil = 6
@@ -580,89 +682,99 @@ add_army_professionalism = 0.05
 }
 1573.10.11 = {
 	monarch = {
-		name = "Giacomo Durazzo"
+		name = "Giacomo"
 		birth_date = 1503.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Durazzo"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1575.10.18 = {
 	monarch = {
-		name = "Prospero Centurione"
+		name = "Prospero"
 		birth_date = 1510.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Centurione"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1577.10.18 = {
 	monarch = {
-		name = "Giovanni Gentile"
+		name = "Giovanni"
 		birth_date = 1525.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Gentile"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1579.10.21 = {
 	monarch = {
-		name = "Nicolo Doria"
+		name = "Nicolo"
 		birth_date = 1525.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Doria"
+		adm = 1
+		dip = 2
+		mil = 2
 	}
 }
 1581.10.22 = {
 	monarch = {
-		name = "Gerolamo de Franchi"
+		name = "Gerolamo"
 		birth_date = 1522.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "de Franchi"
+		adm = 1
+		dip = 1
+		mil = 3
 	}
 }
 1583.10.22 = {
 	monarch = {
-		name = "Gerolama Chiavari"
+		name = "Gerolama"
 		birth_date = 1521.1.1
+		dynasty = "Chiavari"
 		adm = 3
-		dip = 4
-		mil = 6
+		dip = 1
+		mil = 2
 	}
 }
 1585.11.5 = {
 	monarch = {
-		name = "Ambrogio di Negro"
+		name = "Ambrogio"
 		birth_date = 1519.1.1
+		dynasty = "di Negro"
 		adm = 3
-		dip = 4
-		mil = 6
+		dip = 1
+		mil = 1
 	}
 }
 1587.11.15 = {
 	monarch = {
-		name = "Davide Vacca"
+		name = "Davide"
 		birth_date = 1518.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Vacca"
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
 1589.11.15 = {
 	monarch = {
-		name = "Battista Negrone"
+		name = "Battista"
 		birth_date = 1530.1.1
-		adm = 3
-		dip = 4
-		mil = 6
+		dynasty = "Negrone"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1591.11.16 = {
 	monarch = {
-		name = "Giovanni Giustiniani"
+		name = "Giovanni"
 		birth_date = 1538.1.1
+		dynasty = "Giustiniani"
 		adm = 3
 		dip = 4
 		mil = 4
@@ -670,53 +782,59 @@ add_army_professionalism = 0.05
 }
 1593.11.28 = {
 	monarch = {
-		name = "Antonio Grimaldi"
+		name = "Antonio"
 		birth_date = 1534.1.1
+		dynasty = "Grimaldi"
 		adm = 3
-		dip = 4
-		mil = 4
+		dip = 1
+		mil = 2
 	}
 }
 1595.11.27 = {
 	monarch = {
-		name = "Matteo Senarega"
+		name = "Matteo"
 		birth_date = 1534.1.1
-		adm = 3
-		dip = 4
-		mil = 4
+		dynasty = "Senarega"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1597.12.8 = {
 	monarch = {
-		name = "Lazzaro Grimaldi"
+		name = "Lazzaro"
 		birth_date = 1520.1.1
-		adm = 3
-		dip = 4
-		mil = 4
+		dynasty = "Grimaldi"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1599.2.15 = {
 	monarch = {
-		name = "Lorenzo Sauli"
+		name = "Lorenzo"
 		birth_date = 1535.1.1
-		adm = 3
-		dip = 4
-		mil = 4
+		dynasty = "Sauli"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1601.2.20 = {
 	monarch = {
-		name = "Agostino Doria"
+		name = "Agostino"
 		birth_date = 1540.1.1
+		dynasty = "Doria"
 		adm = 3
 		dip = 4
-		mil = 4
+		mil = 1
 	}
 }
 1603.2.25 = {
 	monarch = {
-		name = "Pietro de Franchi"
+		name = "Pietro"
 		birth_date = 1545.1.1
+		dynasty = "de Franchi"
 		adm = 4
 		dip = 1
 		mil = 0
@@ -724,154 +842,172 @@ add_army_professionalism = 0.05
 }
 1605.2.26 = {
 	monarch = {
-		name = "Luca Grimaldi"
+		name = "Luca"
 		birth_date = 1545.1.1
+		dynasty = "Grimaldi"
 		adm = 4
-		dip = 1
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 1607.3.4 = {
 	monarch = {
-		name = "Gerolamo Assereto"
+		name = "Gerolamo"
 		birth_date = 1543.1.1
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "Assereto"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1609.4.2 = {
 	monarch = {
-		name = "Agostino Pinello"
+		name = "Agostino"
 		birth_date = 1537.1.1
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "Pinello"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1611.4.7 = {
 	monarch = {
-		name = "Alessandro Giustiniani"
+		name = "Alessandro"
 		birth_date = 1554.1.1
-		adm = 4
+		dynasty = "Giustiniani"
+		adm = 0
 		dip = 1
 		mil = 0
 	}
 }
 1613.4.22 = {
 	monarch = {
-		name = "Tomaso Spinola"
+		name = "Tomaso"
 		birth_date = 1557.1.1
+		dynasty = "Spinola"
 		adm = 4
 		dip = 1
-		mil = 0
+		mil = 1
 	}
 }
 1615.4.26 = {
 	monarch = {
-		name = "Bernardo Clavarezza"
+		name = "Bernardo"
 		birth_date = 1560.1.1
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "Clavarezza"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1617.4.26 = {
 	monarch = {
-		name = "Giovanni Imperiale"
+		name = "Giovanni"
 		birth_date = 1554.1.1
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "Imperiale"
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 1619.5.3 = {
 	monarch = {
-		name = "Pietro Durazzo"
+		name = "Pietro"
 		birth_date = 1560.1.1
+		dynasty = "Durazzo"
 		adm = 4
 		dip = 1
-		mil = 0
+		mil = 4
 	}
 }
 1621.5.5 = {
 	monarch = {
-		name = "Giorgio Centurione"
+		name = "Giorgio"
 		birth_date = 1553.4.23
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "Centurione"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1623.6.26 = {
 	monarch = {
-		name = "Frederico di Franchi"
+		name = "Frederico"
 		birth_date = 1560.1.1
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "di Franchi"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1625.6.17 = {
 	monarch = {
-		name = "Giacomo Lomellino"
-		adm = 4
+		name = "Giacomo"
+		dynasty = "Lomellino"
+		adm = 1
 		dip = 1
-		mil = 0
+		mil = 2
 	}
 }
 1627.6.29 = {
 	monarch = {
-		name = "Giovanni Chiavari"
-		adm = 4
-		dip = 1
+		name = "Giovanni"
+		dynasty = "Chiavari"
+		adm = 3
+		dip = 3
 		mil = 0
 	}
 }
 1629.6.27 = {
 	monarch = {
-		name = "Andrea Spinola"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Andrea"
+		dynasty = "Spinola"
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 1631.6.30 = {
 	monarch = {
-		name = "Leonardo della Torre"
-		adm = 4
+		name = "Leonardo"
+		dynasty = "della Torre"
+		adm = 1
 		dip = 1
-		mil = 0
+		mil = 1
 	}
 }
 1633.7.6 = {
 	monarch = {
-		name = "Giovanni Doria"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Giovanni"
+		dynasty = "Doria"
+		adm = 2
+		dip = 5
+		mil = 2
 	}
 }
 1635.7.12 = {
 	monarch = {
-		name = "Giovanni Brignole"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Giovanni"
+		dynasty = "Brignole"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1637.7.14 = {
 	monarch = {
-		name = "Agostino Pallavicini"
+		name = "Agostino"
 		birth_date = 1577.1.1
-		adm = 4
-		dip = 1
-		mil = 0
+		dynasty = "Pallavicino"
+		adm = 2
+		dip = 2
+		mil = 3
 	}
 }
 1639.7.29 = {
 	monarch = {
-		name = "Giovanni Durazzo"
+		name = "Giovanni"
+		dynasty = "Durazzo"
 		adm = 4
 		dip = 2
 		mil = 4
@@ -879,128 +1015,144 @@ add_army_professionalism = 0.05
 }
 1641.8.15 = {
 	monarch = {
-		name = "Agostino de Marini"
+		name = "Agostino"
 		birth_date = 1572.1.1
-		adm = 4
+		dynasty = "de Marini"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1642.6.20 = {
 	monarch = {
-		name = "Giovanni Lercari"
+		name = "Giovanni"
+		dynasty = "Lercari"
 		adm = 4
-		dip = 2
-		mil = 4
+		dip = 1
+		mil = 1
 	}
 }
 1644.7.22 = {
 	monarch = {
-		name = "Luca Giustiniani"
-		adm = 4
-		dip = 2
+		name = "Luca"
+		dynasty = "Giustiniani"
+		adm = 1
+		dip = 1
 		mil = 4
 	}
 }
 1646.7.25 = {
 	monarch = {
-		name = "Giovanni Battista"
-		adm = 4
-		dip = 2
-		mil = 4
+		name = "Giovanni"
+		dynasty = "Battista"
+		adm = 1
+		dip = 4
+		mil = 1
 	}
 }
 1648.8.2 = {
 	monarch = {
-		name = "Giacomo de Franchi"
-		adm = 4
+		name = "Giacomo"
+		dynasty = "de Franchi"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1650.8.24 = {
 	monarch = {
-		name = "Agostino Centurione"
-		adm = 4
+		name = "Agostino"
+		dynasty = "Centurione"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1652.9.9 = {
 	monarch = {
-		name = "Gerolamo de Franchi"
-		adm = 4
+		name = "Gerolamo"
+		dynasty = "de Franchi"
+		adm = 3
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1654.10.10 = {
 	monarch = {
-		name = "Allesandro Spinola"
-		adm = 4
+		name = "Allesandro"
+		dynasty = "Spinola"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1656.10.13 = {
 	monarch = {
-		name = "Giulio Sauli"
-		adm = 4
-		dip = 2
-		mil = 4
+		name = "Giulio"
+		dynasty = "Sauli"
+		adm = 0
+		dip = 0
+		mil = 1
 	}
 }
 1658.10.16 = {
 	monarch = {
-		name = "Giovanni Centurione"
-		adm = 4
-		dip = 2
-		mil = 4
+		name = "Giovanni"
+		dynasty = "Centurione"
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
 1660.10.29 = {
 	monarch = {
-		name = "Gian Frugoni"
-		adm = 4
-		dip = 2
-		mil = 4
+		name = "Gian"
+		dynasty = "Frugoni"
+		adm = 0
+		dip = 0
+		mil = 0
 	}
 }
 1661.3.23 = {
 	monarch = {
-		name = "Antoniotto Invrea"
-		adm = 4
+		name = "Antoniotto"
+		dynasty = "Invrea"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1663.4.14 = {
 	monarch = {
-		name = "Stefano de Mari"
-		adm = 4
+		name = "Stefano"
+		dynasty = "de Mari"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1665.4.19 = {
 	monarch = {
-		name = "Cesare Durazzo"
-		adm = 4
+		name = "Cesare"
+		dynasty = "Durazzo"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 1
 	}
 }
 1667.5.11 = {
 	monarch = {
-		name = "Cesaro Gentile"
-		adm = 4
+		name = "Cesaro"
+		dynasty = "Gentile"
+		adm = 2
 		dip = 2
-		mil = 4
+		mil = 2
 	}
 }
 1669.6.19 = {
 	monarch = {
-		name = "Francesco Garbarino"
+		name = "Francesco"
+		dynasty = "Garbarino"
 		adm = 4
 		dip = 1
 		mil = 0
@@ -1008,31 +1160,35 @@ add_army_professionalism = 0.05
 }
 1671.6.28 = {
 	monarch = {
-		name = "Allesandro Grimaldi"
+		name = "Allesandro"
+		dynasty = "Grimaldi"
 		adm = 4
-		dip = 1
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 1673.7.6 = {
 	monarch = {
-		name = "Agostino Saluzzo"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Agostino"
+		dynasty = "Saluzzo"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1675.7.12 = {
 	monarch = {
-		name = "Antonio da Passano"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Antonio"
+		dynasty = "da Passano"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1677.7.17 = {
 	monarch = {
-		name = "Giannettino Odone"
+		name = "Giannettino"
+		dynasty = "Odone"
 		adm = 4
 		dip = 1
 		mil = 0
@@ -1040,63 +1196,71 @@ add_army_professionalism = 0.05
 }
 1679.7.30 = {
 	monarch = {
-		name = "Agostino Spinola"
-		adm = 4
+		name = "Agostino"
+		dynasty = "Spinola"
+		adm = 2
 		dip = 1
-		mil = 0
+		mil = 1
 	}
 }
 1681.8.14 = {
 	monarch = {
-		name = "Luca Invrea"
-		adm = 4
-		dip = 1
+		name = "Luca"
+		dynasty = "Invrea"
+		adm = 0
+		dip = 0
 		mil = 0
 	}
 }
 1683.8.19 = {
 	monarch = {
-		name = "Francesco Imperiale"
-		adm = 4
-		dip = 1
+		name = "Francesco"
+		dynasty = "Imperiale"
+		adm = 2
+		dip = 0
 		mil = 0
 	}
 }
 1685.8.24 = {
 	monarch = {
-		name = "Pietro Durazzo"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Pietro"
+		dynasty = "Durazzo"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1687.8.28 = {
 	monarch = {
-		name = "Luca Spinola"
-		adm = 4
-		dip = 1
-		mil = 0
+		name = "Luca"
+		dynasty = "Spinola"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1689.8.30 = {
 	monarch = {
-		name = "Oberto Della Torre"
-		adm = 4
+		name = "Oberto"
+		dynasty = "della Torre"
+		adm = 1
 		dip = 1
-		mil = 0
+		mil = 3
 	}
 }
 1691.9.5 = {
 	monarch = {
-		name = "Giovanni Cattaneo"
+		name = "Giovanni"
+		dynasty = "Cattaneo"
 		adm = 4
-		dip = 1
+		dip = 0
 		mil = 0
 	}
 }
 1693.9.10 = {
 	monarch = {
-		name = "Francesco Invrea"
+		name = "Francesco"
+		dynasty = "Invrea"
 		adm = 4
 		dip = 1
 		mil = 0
@@ -1104,15 +1268,17 @@ add_army_professionalism = 0.05
 }
 1695.9.17 = {
 	monarch = {
-		name = "Bendinelli Negrone"
+		name = "Bendinelli"
+		dynasty = "Negrone"
 		adm = 4
-		dip = 1
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 1697.9.20 = {
 	monarch = {
-		name = "Francesco Sauli"
+		name = "Francesco"
+		dynasty = "Sauli"
 		adm = 2
 		dip = 0
 		mil = 0
@@ -1120,71 +1286,80 @@ add_army_professionalism = 0.05
 }
 1699.5.27 = {
 	monarch = {
-		name = "Gerolamo de Mari"
+		name = "Gerolamo"
+		dynasty = "de Mari"
 		adm = 2
-		dip = 0
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 1701.6.4 = {
 	monarch = {
-		name = "Federico de Franchi"
+		name = "Federico"
+		dynasty = "de Franchi"
 		adm = 2
-		dip = 0
+		dip = 1
 		mil = 0
 	}
 }
 1703.6.8 = {
 	monarch = {
-		name = "Antonio Grimaldi"
+		name = "Antonio"
+		dynasty = "Grimaldi"
 		adm = 2
-		dip = 0
+		dip = 2
 		mil = 0
 	}
 }
 1705.8.2 = {
 	monarch = {
-		name = "Stefano Ferreti"
-		adm = 2
+		name = "Stefano"
+		dynasty = "Ferreti"
+		adm = 4
 		dip = 0
 		mil = 0
 	}
 }
 1707.8.23 = {
 	monarch = {
-		name = "Domenico de Mari"
+		name = "Domenico"
+		dynasty = "de Mari"
 		adm = 2
-		dip = 0
-		mil = 0
+		dip = 3
+		mil = 3
 	}
 }
 1709.9.10 = {
 	monarch = {
-		name = "Vincenzo Durazzo"
+		name = "Vincenzo"
+		dynasty = "Durazzo"
 		adm = 2
-		dip = 0
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 1711.9.23 = {
 	monarch = {
-		name = "Francesco Imperiale"
+		name = "Francesco"
+		dynasty = "Imperiale"
 		adm = 2
-		dip = 0
-		mil = 0
+		dip = 2
+		mil = 4
 	}
 }
 1713.9.23 = {
 	monarch = {
-		name = "Giovanni Giustiniani"
+		name = "Giovanni"
+		dynasty = "Giustiniani"
 		adm = 2
-		dip = 0
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 1715.9.27 = {
 	monarch = {
-		name = "Lorenzo Centurione"
+		name = "Lorenzo"
+		dynasty = "Centurione"
 		adm = 1
 		dip = 3
 		mil = 1
@@ -1192,15 +1367,17 @@ add_army_professionalism = 0.05
 }
 1717.9.30 = {
 	monarch = {
-		name = "Benedetto Viale"
+		name = "Benedetto"
+		dynasty = "Viale"
 		adm = 1
 		dip = 3
-		mil = 1
+		mil = 3
 	}
 }
 1719.10.5 = {
 	monarch = {
-		name = "Ambrogio Imperiale"
+		name = "Ambrogio"
+		dynasty = "Imperiale"
 		adm = 1
 		dip = 3
 		mil = 1
@@ -1208,64 +1385,72 @@ add_army_professionalism = 0.05
 }
 1721.10.9 = {
 	monarch = {
-		name = "Cesare de Franchi"
-		adm = 1
-		dip = 3
-		mil = 1
+		name = "Cesare"
+		dynasty = "de Franchi"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1723.10.14 = {
 	monarch = {
-		name = "Doemico Negrone"
+		name = "Doemico"
+		dynasty = "Negrone"
 		adm = 1
-		dip = 3
-		mil = 1
+		dip = 2
+		mil = 2
 	}
 }
 1726.1.19 = {
 	monarch = {
-		name = "Gerolamo Veneroso"
+		name = "Gerolamo"
 		birth_date = 1660.1.1
-		adm = 1
+		dynasty = "Veneroso"
+		adm = 4
 		dip = 3
-		mil = 1
+		mil = 4
 	}
 }
 1728.1.23 = {
 	monarch = {
-		name = "Luca Grimaldi"
+		name = "Luca"
+		dynasty = "Grimaldi"
 		adm = 1
-		dip = 3
-		mil = 1
+		dip = 2
+		mil = 2
 	}
 }
 1730.1.26 = {
 	monarch = {
-		name = "Francesco Balbi"
+		name = "Francesco"
+		dynasty = "Balbi"
 		adm = 1
-		dip = 3
-		mil = 1
+		dip = 0
+		mil = 0
 	}
 }
 1732.1.30 = {
 	monarch = {
-		name = "Domenico Spinola"
-		adm = 1
-		dip = 3
-		mil = 1
+		name = "Domenico"
+		dynasty = "Spinola"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1734.2.3 = {
 	monarch = {
-		name = "Gianstefano Durazzo"
+		name = "Gianstefano"
+		dynasty = "Durazzo"
 		adm = 1
-		dip = 3
-		mil = 1
+		dip = 2
+		mil = 2
 	}
 }
 1736.2.7 = {
 	monarch = {
-		name = "Nicolo Cattaneo"
+		name = "Nicolo"
+		dynasty = "Cattaneo"
 		adm = 1
 		dip = 3
 		mil = 1
@@ -1273,72 +1458,81 @@ add_army_professionalism = 0.05
 }
 1738.2.11 = {
 	monarch = {
-		name = "Constantino Balbi"
-		adm = 1
-		dip = 3
+		name = "Constantino"
+		dynasty = "Balbi"
+		adm = 4
+		dip = 4
 		mil = 1
 	}
 }
 1740.2.15 = {
 	monarch = {
-		name = "Nicolo Spinola"
-		adm = 1
+		name = "Nicolo"
+		dynasty = "Spinola"
+		adm = 3
 		dip = 3
-		mil = 1
+		mil = 3
 	}
 }
 1742.2.19 = {
 	monarch = {
-		name = "Dominco Canevaro"
-		adm = 1
+		name = "Dominco"
+		dynasty = "Canevaro"
+		adm = 3
 		dip = 3
 		mil = 1
 	}
 }
 1744.3.2 = {
 	monarch = {
-		name = "Lorenzo de Mari"
-		adm = 1
-		dip = 3
-		mil = 1
+		name = "Lorenzo"
+		dynasty = "de Mari"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1746.3.4 = {
 	monarch = {
-		name = "Giovanni Brignole"
-		adm = 1
-		dip = 3
-		mil = 1
+		name = "Giovanni"
+		dynasty = "Brignole"
+		adm = 0
+		dip = 5
+		mil = 0
 	}
 }
 1748.3.7 = {
 	monarch = {
-		name = "Cesare Cattaneo"
+		name = "Cesare"
+		dynasty = "Cattaneo"
 		adm = 1
-		dip = 3
-		mil = 1
+		dip = 1
+		mil = 6
 	}
 }
 1750.3.11 = {
 	monarch = {
-		name = "Agostino Viale"
-		adm = 1
-		dip = 3
-		mil = 1
+		name = "Agostino"
+		dynasty = "Viale"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1752.3.29 = {
 	monarch = {
-		name = "Giovanni Grimaldi"
-		adm = 1
-		dip = 3
+		name = "Giovanni"
+		dynasty = "Grimaldi"
+		adm = 2
+		dip = 2
 		mil = 1
 	}
 }
 1754.6.24 = {
 	monarch = {
-		name = "Gian Veneroso"
+		name = "Gian"
 		birth_date = 1701.4.6
+		dynasty = "Veneroso"
 		adm = 1
 		dip = 3
 		mil = 1
@@ -1346,7 +1540,8 @@ add_army_professionalism = 0.05
 }
 1756.5.17 = {
 	monarch = {
-		name = "Gian Grimaldi"
+		name = "Gian"
+		dynasty = "Grimaldi"
 		adm = 1
 		dip = 3
 		mil = 3
@@ -1354,23 +1549,26 @@ add_army_professionalism = 0.05
 }
 1758.9.23 = {
 	monarch = {
-		name = "Matteo Franzoni"
+		name = "Matteo"
+		dynasty = "Franzoni"
 		adm = 1
-		dip = 3
-		mil = 3
+		dip = 2
+		mil = 2
 	}
 }
 1760.8.23 = {
 	monarch = {
-		name = "Agostino Lomellino"
-		adm = 1
-		dip = 3
-		mil = 3
+		name = "Agostino"
+		dynasty = "Lomellino"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1762.11.26 = {
 	monarch = {
-		name = "Rodolfo Brignole"
+		name = "Rodolfo"
+		dynasty = "Brignole"
 		adm = 1
 		dip = 3
 		mil = 3
@@ -1378,51 +1576,57 @@ add_army_professionalism = 0.05
 }
 1765.1.30 = {
 	monarch = {
-		name = "Maria Rovere"
+		name = "Francesco Maria"
+		dynasty = "della Rovere"
 		birth_date = 1695.1.1
-		adm = 1
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 4
+		mil = 2
 	}
 }
 1767.2.3 = {
 	monarch = {
-		name = "Marcello Durazzo"
+		name = "Marcello"
 		birth_date = 1710.1.1
+		dynasty = "Durazzo"
 		adm = 1
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 4
 	}
 }
 1769.2.15 = {
 	monarch = {
-		name = "Giovanni Negrone"
+		name = "Giovanni"
+		dynasty = "Negrone"
 		adm = 1
-		dip = 3
-		mil = 3
+		dip = 5
+		mil = 1
 	}
 }
 1771.1.27 = {
 	monarch = {
-		name = "Giovanni Battista Cambiaso"
+		name = "Giovanni Battista"
 		birth_date = 1711.7.19
-		adm = 1
-		dip = 3
-		mil = 3
+		dynasty = "Cambiaso"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1772.12.26 = {
 	monarch = {
-		name = "Pier Franco Grimaldi"
+		name = "Pier Franco"
 		birth_date = 1715.8.12
-		adm = 1
-		dip = 3
+		dynasty = "Grimaldi"
+		adm = 2
+		dip = 2
 		mil = 3
 	}
 }
 1775.1.30 = {
 	monarch = {
-		name = "Brizio Giustiniani"
+		name = "Brizio"
+		dynasty = "Giustiniani"
 		adm = 1
 		dip = 3
 		mil = 3
@@ -1430,78 +1634,87 @@ add_army_professionalism = 0.05
 }
 1777.2.4 = {
 	monarch = {
-		name = "Giuseppe Lomellini"
-		adm = 1
+		name = "Giuseppe"
+		dynasty = "Lomellini"
+		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 1779.3.4 = {
 	monarch = {
-		name = "Giacomo Maria Brignole"
+		name = "Giacomo Maria"
 		birth_date = 1724.1.1
-		adm = 1
-		dip = 3
-		mil = 3
+		dynasty = "Brignole"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1781.3.9 = {
 	monarch = {
-		name = "Marco Gentile"
+		name = "Marco"
 		birth_date = 1723.1.1
-		adm = 1
-		dip = 3
-		mil = 3
+		dynasty = "Gentile"
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1783.5.7 = {
 	monarch = {
-		name = "Giovanni Ayroli"
+		name = "Giovanni"
 		birth_date = 1731.1.1
+		dynasty = "Ayroli"
 		adm = 1
-		dip = 3
-		mil = 3
+		dip = 1
+		mil = 0
 	}
 }
 1785.6.7 = {
 	monarch = {
-		name = "Gian Pallavicini"
+		name = "Gian"
 		birth_date = 1722.1.1
-		adm = 1
-		dip = 3
-		mil = 3
+		dynasty = "Pallavicino"
+		adm = 0
+		dip = 0
+		mil = 5
 	}
 }
 1787.7.5 = {
 	monarch = {
-		name = "Raffaele de Ferrari"
+		name = "Raffaele"
 		birth_date = 1732.1.1
-		adm = 1
-		dip = 3
-		mil = 3
+		dynasty = "de Ferrari"
+		adm = 5
+		dip = 5
+		mil = 5
 	}
 }
 1789.6.30 = {
 	monarch = {
-		name = "Alerame Pallavicini"
+		name = "Alerame"
+		dynasty = "Pallavicino"
 		birth_date = 1730.1.1
-		adm = 1
-		dip = 3
+		adm = 0
+		dip = 0
 		mil = 3
 	}
 }
 1791.9.4 = {
 	monarch = {
-		name = "Michelangelo Cambiaso"
+		name = "Michelangelo"
+		dynasty = "Cambiaso"
 		birth_date = 1738.1.1
-		adm = 1
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 0
+		mil = 0
 	}
 }
 1793.9.17 = {
 	monarch = {
-		name = "Giuseppe Maria Doria"
+		name = "Giuseppe Maria"
+		dynasty = "Doria"
 		adm = 1
 		dip = 1
 		mil = 1
@@ -1509,7 +1722,8 @@ add_army_professionalism = 0.05
 }
 1795.11.18 = {
 	monarch = {
-		name = "Giacomo Maria Brignole"
+		name = "Giacomo Maria"
+		dynasty = "Brignole"
 		birth_date = 1724.1.1
 		adm = 1
 		dip = 1
@@ -1519,25 +1733,28 @@ add_army_professionalism = 0.05
 1797.6.15 = {
 	monarch = {
 		name = "Ligurian Republic"
-		adm = 0
-		dip = 0
-		mil = 0
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 1802.7.3 = {
 	monarch = {
-		name = "Girolamo Durazzo"
-		adm = 1
-		dip = 1
+		name = "Girolamo"
+		dynasty = "Durazzo"
+		adm = 0
+		dip = 3
 		mil = 1
 	}
 }
 1805.6.7 = {
 	monarch = {
-		name = "Girolamo Serra"
+		name = "Girolamo"
+		dynasty = "Serra"
 		birth_date = 1761.1.1
-		adm = 1
-		dip = 1
+		adm = 0
+		dip = 0
 		mil = 1
 	}
 }

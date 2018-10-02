@@ -1276,6 +1276,17 @@ national_focus = MIL
 		dip = 2
 		mil = 2
 	}
+	heir = {
+		name = "Oskar"
+		monarch_name = "Oskar II"
+		dynasty = "Bernadotte"
+		birth_date = 1829.1.21
+		death_date = 1907.12.8
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
 }
 
 ###############GENERALS###########################

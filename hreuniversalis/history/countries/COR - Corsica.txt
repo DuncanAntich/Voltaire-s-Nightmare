@@ -114,7 +114,8 @@ capital = 2296	# Ajaccio
 }
 1753.10.1 = {
 	monarch = {
-		name = "Clemente Paoli"
+		name = "Clemente"
+		dynasty = "Paoli"
 		birth_date = 1711.1.1
 		adm = 1
 		dip = 2
@@ -123,7 +124,8 @@ capital = 2296	# Ajaccio
 }
 1755.7.16 = {
 	monarch = {
-		name = "Pasquale Paoli"
+		name = "Pasquale"
+		dynasty = "Paoli"
 		birth_date = 1725.1.1
 		adm = 3
 		dip = 4

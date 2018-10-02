@@ -509,4 +509,15 @@ historical_friend = ZDR
 		adm = 4
 		mil = 2
 	}
+	queen = {
+		country_of_origin = MON
+		name = "Milena"
+		dynasty = "Vukotic"
+		birth_date = 1848.5.4
+		death_date = 1923.3.16
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }

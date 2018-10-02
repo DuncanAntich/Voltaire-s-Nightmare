@@ -104,7 +104,33 @@ fixed_capital = 2909
 		mil = 2
 	}
 }
-#1275-1384.9.10 under BRI
+#1275-1331 under BRI
+1331.1.1 = {
+	monarch = {
+		name = "Jeanne"
+		dynasty = "Roazhon"
+		birth_date = 1319.1.1
+		culture = breton
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+#1334-1364 under PNT
+1364.9.29 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean I"
+		dynasty = "de Châtillon"
+		birth_date = 1345.2.5
+		death_date = 1404.1.16
+		claim = 80
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
 1384.9.10 = {
 	monarch = {
 		name = "Jean I"
@@ -123,12 +149,23 @@ fixed_capital = 2909
 		dip = 2
 		mil = 2
 	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "de Châtillon"
+		birth_date = 1404.1.16
+		death_date = 1454.1.1
+		claim = 80
+		adm = 1
+		dip = 3
+		mil = 3
+	}
 }
 1433.1.1 = {
 	monarch = {
 		name = "Jean II"
 		dynasty = "de Châtillon"
-		birth_date = 1390.1.1 #est
+		birth_date = 1399.1.1 #est
 		adm = 1
 		dip = 3
 		mil = 3

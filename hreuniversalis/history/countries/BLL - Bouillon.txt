@@ -27,7 +27,7 @@ capital = 259
 		mil = 2
 	}
 }
-1069.1.1 = {
+1069.12.24 = {
 	monarch = {
 		name = "Godefroid IV"
 		dynasty = "d'Ardenne"

@@ -78,7 +78,10 @@ fabricate_claim = {
 		potential = {
 		}
 		allow = {
-			FROM = { primitives = no }
+			OR = {
+				FROM = { primitives = no }
+				primitives = yes
+			}
 		}
 	}
 }

@@ -1,5 +1,5 @@
-government = republic
-add_government_reform = italian_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = emilian
 religion = catholic
@@ -7,16 +7,94 @@ technology_group = western
 capital = 109	# Mantova
 add_army_professionalism = 0.05
 
-1115.7.24 = {
+#Counts
+1052.5.6 = {
 	monarch = {
-		name = "Repubblica"
+		name = "Beatrice d'Ardenne (Regent)"
+		female = yes
+		regent = yes
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+	heir = {
+		name = "Matilde"
+		monarch_name = "Matilde"
+		dynasty = "Attoning"
+		birth_date = 1046.3.1
+		death_date = 1115.7.24
+		culture = tuscan
+		claim = 95
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = inspiring_leader_personality
+	add_heir_personality = incorruptible_personality
+	add_heir_personality = industrious_personality
+}
+#PU under TUS 1055.7.1
+
+#Free Commune
+1115.7.24 = {
+	government = republic
+	add_government_reform = italian_monarchy
+	monarch = {
+		name = "Vizolo"
+		dynasty = "di Sabbioneta"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+1138.1.1 = {
+	monarch = {
+		name = "Azzo"
+		dynasty = "di Sabbioneta"
 		adm = 2
 		dip = 2
 		mil = 2
-		regent = yes
 	}
 }
-1273.1.1 = {
+1167.1.1 = {
+	monarch = {
+		name = "Narisio"
+		dynasty = "di Sabbioneta"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+1182.1.1 = {
+	monarch = {
+		name = "Guelfo"
+		dynasty = "di Sabbioneta"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1202.1.1 = {
+	monarch = {
+		name = "Bonifazio"
+		dynasty = "di Sabbioneta"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1232.1.1 = {
+	monarch = {
+		name = "Baldovino"
+		dynasty = "di Sabbioneta"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1272.7.28 = {
 	monarch = {
 		name = "Pinamonte"
 		dynasty = "dei Bonacolsi"

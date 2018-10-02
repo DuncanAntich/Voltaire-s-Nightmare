@@ -8,13 +8,11 @@ war_goal = {
 1155.9.1 = {
 	add_attacker = BYZ
 	add_attacker = PAP
-	add_attacker = LZO
 	add_defender = SIC
 }
 
 1156.6.18 = {
 	rem_attacker = BYZ
 	rem_attacker = PAP
-	rem_attacker = LZO
 	rem_defender = SIC
 }

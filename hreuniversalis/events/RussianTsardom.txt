@@ -48,8 +48,7 @@ country_event = {
 					OR = {
 						development = 10
 						has_building = marketplace
-						has_province_modifier = center_of_trade_modifier
-						has_province_modifier = inland_center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = rioting_city_province
@@ -62,8 +61,7 @@ country_event = {
 					OR = {
 						development = 15
 						has_building = marketplace
-						has_province_modifier = center_of_trade_modifier
-						has_province_modifier = inland_center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = rioting_city_province
@@ -76,8 +74,7 @@ country_event = {
 					development = 15
 					OR = {
 						has_building = marketplace
-						has_province_modifier = center_of_trade_modifier
-						has_province_modifier = inland_center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = rioting_city_province
@@ -91,8 +88,7 @@ country_event = {
 					development = 15
 					OR = {
 						has_building = marketplace
-						has_province_modifier = center_of_trade_modifier
-						has_province_modifier = inland_center_of_trade_modifier
+						province_has_center_of_trade_of_level = 1
 					}
 				}
 				save_event_target_as = rioting_city_province

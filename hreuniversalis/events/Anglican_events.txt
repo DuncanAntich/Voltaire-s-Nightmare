@@ -820,6 +820,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rule Britannia"
 		is_religion_enabled = protestant
+		is_lesser_in_union = no
 		NOT = { has_country_flag = had_anglican_question }
 		is_subject = no
 		religion_years = { protestant = 15 }

@@ -49,7 +49,7 @@ country_event = {
 				kill_heir = yes
 			}
 		}
-		change_government = republic
+		change_government_via_reform = republic
 		add_government_reform = presidential_despot_reform
 		define_ruler = {
 			name = "Oliver"
@@ -613,7 +613,7 @@ country_event = {
 		trigger = { has_country_flag = supports_royalists }
 		if = {
 			limit = { NOT = { government = monarchy } }
-			change_government = monarchy
+			change_government_via_reform = monarchy
 			set_legacy_government = despotic_monarchy
 		}
 		clr_country_flag = supports_royalists
@@ -659,7 +659,7 @@ country_event = {
 		ai_chance = { factor = 25 }
 		if = {
 			limit = { NOT = { government = republic } }
-			change_government = republic
+			change_government_via_reform = republic
 		}
 		change_government_reform_progress = 100
 		set_legacy_government = constitutional_republic
@@ -669,7 +669,7 @@ country_event = {
 		ai_chance = { factor = 75 }
 		if = {
 			limit = { NOT = { government = monarchy } }
-			change_government = monarchy
+			change_government_via_reform = monarchy
 		}
 		add_government_reform = english_monarchy
 		set_legacy_government = constitutional_monarchy
@@ -700,7 +700,7 @@ country_event = {
 		ai_chance = { factor = 25 }
 		if = {
 			limit = { NOT = { government = republic } }
-			change_government = republic
+			change_government_via_reform = republic
 		}
 		change_government_reform_progress = 100
 		set_legacy_government = constitutional_republic
@@ -710,7 +710,7 @@ country_event = {
 		ai_chance = { factor = 75 }
 		if = {
 			limit = { NOT = { government = monarchy } }
-			change_government = monarchy
+			change_government_via_reform = monarchy
 		}
 		add_government_reform = english_monarchy
 		set_legacy_government = constitutional_monarchy

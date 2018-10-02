@@ -385,7 +385,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 240
+		months = 120
 		modifier = {
 			factor = 0.75
 			NOT = { num_of_cities = 2 }
@@ -415,7 +415,7 @@ country_event = {
 	option = {
 		name = "FBIA5"
 		ai_chance = { factor = 95 }
-		change_government = republic
+		change_government_via_reform = republic
 		add_government_reform = italian_monarchy
 		country_event = { id = elections.723 }
 	}
@@ -582,7 +582,7 @@ country_event = {
 			if = {
 				limit = { AVI = { NOT = { has_reform = papacy_reform } } }
 				AVI = {
-					change_government = theocracy
+					change_government_via_reform = theocracy
 					add_government_reform = papacy_reform
 				}
 			}
@@ -703,7 +703,7 @@ country_event = {
 			if = {
 				limit = { AVI = { NOT = { has_reform = papacy_reform } } }
 				AVI = {
-					change_government = theocracy
+					change_government_via_reform = theocracy
 					add_government_reform = papacy_reform
 				}
 			}
@@ -1326,7 +1326,7 @@ country_event = {
 
 	option = {
 		name = "FBIA21"
-		change_government = theocracy
+		change_government_via_reform = theocracy
 		add_government_reform = leading_clergy_reform
 	}
 }
@@ -2291,7 +2291,7 @@ country_event = {
 	option = {
 		name = "FBIA49"
 		ai_chance = { factor = 95 }
-		change_government = monarchy
+		change_government_via_reform = monarchy
 		add_government_reform = english_monarchy
 		add_mercantilism = 25
 		add_stability = -1
@@ -2926,7 +2926,7 @@ country_event = {
 		hidden_effect = {
 			AVI = {
 				change_religion = catholique
-				change_government = theocracy
+				change_government_via_reform = theocracy
 				add_government_reform = papacy_reform
 				set_government_rank = 5
 				define_ruler = { name = "Clemens VII" }
@@ -4472,11 +4472,62 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			change_government = tribal
+			change_government_via_reform = tribal
 			add_government_reform = tribal_despotism
 			clr_country_flag = natives_flag
 		}
 	}
 
 	option = { name = "FBIA112" }
+}
+
+country_event = {
+	id = fbievents.113
+	title = "FBIT113"
+	desc = "FBID113"
+	picture = ASSASSINATION_eventPicture
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	trigger = {
+		tag = TUS
+		has_ruler = "Frederico"
+		government = monarchy
+		has_regency = no
+		is_emperor = no
+		is_at_war = no
+		is_lesser_in_union = no
+		MAN = {
+			exists = yes
+			ai = yes
+			has_ruler = "Matilde"
+			government = monarchy
+			has_regency = no
+			is_lesser_in_union = no
+			is_at_war = no
+		}
+		NOT = { started_in = 1055.7.1 }
+		NOT = { is_year = 1070.1.1 }
+	}
+
+	option = {
+		name = "FBIA113"
+		define_ruler = {
+			name = "Matilde"
+			dynasty = "Attoning"
+			female = yes
+			adm = 4
+			dip = 4
+			mil = 6
+			fixed = yes
+		}
+		create_union = MAN
+		add_ruler_personality = inspiring_leader_personality
+		add_ruler_personality = incorruptible_personality
+		add_ruler_personality = industrious_personality
+	}
 }

@@ -249,10 +249,29 @@ fixed_capital = 825
 	monarch = {
 		name = "Jean I"
 		dynasty = "de Châtillon"
-		birth_date = 1390.1.1 #est
+		birth_date = 1404.1.16
 		adm = 1
 		dip = 3
 		mil = 3
 	}
 }
-#1452 done
+1454.1.1 = {
+	monarch = {
+		name = "Guillaume IV"
+		dynasty = "de Châtillon"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+1455.1.1 = {
+	monarch = {
+		name = "Françoise"
+		dynasty = "de Châtillon"
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+#1470 done

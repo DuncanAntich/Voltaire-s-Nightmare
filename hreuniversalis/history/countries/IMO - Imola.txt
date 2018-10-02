@@ -1,13 +1,28 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
-government_rank = 3
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = romagnan
 capital = 2604
 add_army_professionalism = 0.05
 
-1053.1.1 = {
+#Lords
+1046.1.1 = {
+	monarch = {
+		name = "Ranieri"
+		dynasty = "Alidosi"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+#Bishops
+1054.8.1 = {
+	government = theocracy
+	add_government_reform = leading_clergy_reform
+	government_rank = 3
 	monarch = {
 		name = "Odelrico"
 		adm = 2
@@ -61,15 +76,59 @@ add_army_professionalism = 0.05
 	add_government_reform = italian_monarchy
 	government_rank = 1
 	monarch = {
-		name = "Repubblica"
-		regent = yes
+		name = "Guido"
+		dynasty = "Alidosi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1180.1.1 = {
+	monarch = {
+		name = "Alidosio"
+		dynasty = "Alidosi"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1220.1.1 = {
+	monarch = {
+		name = "Alidosio"
+		dynasty = "Alidosi"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1248.1.1 = {
+	monarch = {
+		name = "Lito"
+		dynasty = "Alidosi"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-
-1334.1.1 = {
+1278.1.1 = {
+	monarch = {
+		name = "Lippo"
+		dynasty = "Alidosi"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+1290.1.1 = {
+	monarch = {
+		name = "Alidosio"
+		dynasty = "Alidosi"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1330.1.1 = {
 	monarch = {
 		name = "Lippo"
 		dynasty = "Alidosi"

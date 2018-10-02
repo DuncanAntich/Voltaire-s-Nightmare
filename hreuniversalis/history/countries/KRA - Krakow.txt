@@ -23,7 +23,7 @@ fixed_capital = 2419
 	set_legacy_government = administrative_republic
 }
 1750.1.1 = { set_legacy_government = constitutional_republic }
-1815.5.3 = {
+1814.4.11 = {
 	monarch = {
 		name = "National Assembly"
 		adm = 2

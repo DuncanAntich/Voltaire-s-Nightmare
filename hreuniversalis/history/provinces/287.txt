@@ -1,6 +1,6 @@
 owner = LOR
 controller = LOR
-culture = pfalzish
+culture = moselle_franconian
 religion = catholic
 hre = yes
 base_tax = 2

@@ -274,8 +274,9 @@ country_event = {
 		}
 		create_independent_estate = {
 			estate = estate_cossacks
-			government = republic
-			government_reform = cossacks_reform
+			government = theocracy
+			government_reform = crusader_order_reform
+			custom_national_ideas = theocracy_ideas
 			play_as = no
 		}
 	}
@@ -292,8 +293,9 @@ country_event = {
 		}
 		create_independent_estate = {
 			estate = estate_cossacks
-			government = republic
-			government_reform = cossacks_reform
+			government = theocracy
+			government_reform = crusader_order_reform
+			custom_national_ideas = theocracy_ideas
 			play_as = yes
 		}
 	}

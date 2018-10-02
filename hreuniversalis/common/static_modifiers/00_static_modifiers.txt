@@ -326,6 +326,10 @@ core = {
 non_core = {
 }
 
+territory = {
+	local_missionary_strength = -0.02
+}
+
 march_bonus = {
 	global_manpower_modifier = 0.25
 	land_forcelimit_modifier = 0.30
@@ -1319,7 +1323,7 @@ karma_too_low =
 ########################################
 
 invasion_nation = {
-	discipline = 0.5
+	discipline = 0.25
 	manpower_recovery_speed = 1
 	sailors_recovery_speed = 1
 	global_tax_income = 500
@@ -1330,6 +1334,7 @@ invasion_nation = {
 	core_creation = -0.75
 	global_unrest = -10
 	land_attrition = -0.5
+	yearly_corruption = -1
 }
 
 

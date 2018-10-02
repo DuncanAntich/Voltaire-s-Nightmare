@@ -19,7 +19,6 @@ war_goal = {
 	rem_attacker = AVS
 }
 1061.1.1 = {
-	add_attacker = CHT
 	add_attacker = LRN
 }
 1064.10.10 = {
@@ -33,7 +32,6 @@ war_goal = {
 	rem_attacker = GGN
 	rem_attacker = LRN
 	rem_attacker = BJN
-	rem_attacker = CHT
 	rem_attacker = CPU
 	rem_attacker = GAE
 	rem_defender = BYZ

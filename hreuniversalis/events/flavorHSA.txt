@@ -101,7 +101,7 @@ country_event = {
 	
 	trigger = {
 		tag = HSA
-		has_reform = merchants_reform
+		has_government_attribute = is_merchant_republic
 		republican_tradition = 90
 		NOT = { has_ruler_modifier = hsa_trade_reform }
 		NOT = { has_ruler_modifier = hsa_economic_reform }

@@ -17,7 +17,8 @@ capital = 100
 }
 1309.1.1 = {
 	monarch = {
-		name = "Keno tom Brok"
+		name = "Keno"
+		dynasty = "tom Brok"
 		adm = 2
 		dip = 4
 		mil = 2
@@ -25,13 +26,14 @@ capital = 100
 }
 1347.1.1 = {
 	monarch = {
-		name = "Hilmer tom Brok"
+		name = "Hilmer"
+		dynasty = "tom Brok"
 		adm = 2
 		dip = 2
 		mil = 3
 	}
 }
-1361.1.1 = {
+1370.1.1 = {
 	clr_country_flag = natives_flag
 	government = tribal
 	add_government_reform = tribal_despotism
@@ -56,7 +58,6 @@ capital = 100
 		mil = 2
 	}
 }
-
 1376.1.1 = {
 	monarch = {
 		name = "Ocko I"
@@ -67,7 +68,6 @@ capital = 100
 		mil = 2
 	}
 }
-
 1380.1.1 = {
 	heir = {
 		name = "Keno"
@@ -81,7 +81,6 @@ capital = 100
 		mil = 1
 	}
 }
-
 1391.1.1 = {
 	monarch = {
 		name = "Keno II"
@@ -92,7 +91,6 @@ capital = 100
 		mil = 1
 	}
 }
-
 1407.1.1 = {
 	heir = {
 		name = "Ocko"
@@ -106,7 +104,6 @@ capital = 100
 		mil = 1
 	}
 }
-
 1417.1.1 = {
 	monarch = {
 		name = "Ocko II"
@@ -117,7 +114,6 @@ capital = 100
 		mil = 1
 	}
 }
-
 1427.10.28 = {
 	monarch = {
 		name = "Enno I"
@@ -143,7 +139,6 @@ capital = 100
 		mil = 3
 	}
 }
-
 1450.1.1 = {
 	monarch = {
 		name = "Ulrich I"
@@ -156,7 +151,6 @@ capital = 100
 	clear_scripted_personalities = yes
 	add_ruler_personality = charismatic_negotiator_personality
 }
-
 1455.1.1 = {
 	queen = {
 		country_of_origin = MOO
@@ -170,7 +164,6 @@ capital = 100
 		mil = 3
 	}
 }
-
 1461.1.1 = {
 	heir = {
 		name = "Edzard"

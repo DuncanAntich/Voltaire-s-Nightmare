@@ -1,7 +1,8 @@
 name = "Sforza Coalition"
 war_goal = {
-	type = take_capital_liberation
-	casus_belli = cb_liberation
+	type = take_province_excommunication
+	casus_belli = cb_excommunication
+	province = 2129
 }
 
 1443.1.1 = {

@@ -8,6 +8,9 @@ war_goal = {
 1369.5.1 = {
 	add_attacker = FRA
 	add_attacker = BRI
+	add_attacker = PNT
+	add_attacker = LNE
+	add_attacker = VNA
 	add_defender = ENG
 }
 1370.12.4 = { 
@@ -29,6 +32,9 @@ war_goal = {
 		result = yes
 	} 
 	rem_attacker = BRI
+	rem_attacker = PNT
+	rem_attacker = LNE
+	rem_attacker = VNA
 }
 1382.5.9 = { add_attacker = BUR }		
 1384.1.30 = { rem_attacker = BUR }

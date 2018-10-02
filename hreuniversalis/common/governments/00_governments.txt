@@ -133,6 +133,7 @@ republic = {
 		noble_republic
 		oligarchic_republic
 		merchant_republic
+		venetian_merchant_republic
 		imperial_city
 		trading_city_legacy
 		canton_government_legacy
@@ -148,6 +149,7 @@ republic = {
 			reforms = {
 				oligarchy_reform
 				merchants_reform
+				venice_merchants_reform
 				noble_elite_reform
 				free_city
 				canton_government
@@ -173,6 +175,7 @@ republic = {
 			reforms = {
 				frequent_elections_reform
 				consolidation_of_power_reform
+				lottery_reform
 			}
 		}
 		federalism_vs_unitarism_vs_confederacy = {
@@ -208,7 +211,8 @@ republic = {
 		}
 		office_selection = {
 			reforms = {
-				sortition_reform
+				appointment_by_committee_reform
+				bureaucratic_aparatus_reform
 				universal_suffrage_reform
 			}
 		}
@@ -230,6 +234,11 @@ republic = {
 		trading_city
 		american_republic
 		revolutionary_republic_reform
+	}
+	exclusive_reforms = {
+		lottery_reform
+		venice_merchants_reform
+		dutch_republic
 	}
 }
 

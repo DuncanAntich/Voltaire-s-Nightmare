@@ -27,7 +27,7 @@ capital = 1105
 }
 1065.1.1 = {
 	monarch = {
-		name = "Macc Congail"
+		name = "Mac Congail"
 		dynasty = "Ó Ímair"
 		adm = 1
 		dip = 2
@@ -45,7 +45,7 @@ capital = 1105
 }
 1115.1.1 = {
 	monarch = {
-		name = "Fergus"
+		name = "Fhearghuis"
 		dynasty = "Mac Somhairle"
 		adm = 5
 		dip = 3
@@ -90,7 +90,7 @@ capital = 1105
 }
 1185.1.1 = {
 	monarch = {
-		name = "Lochlann"
+		name = "Lachlainn"
 		dynasty = "Mac Somhairle"
 		adm = 2
 		dip = 2

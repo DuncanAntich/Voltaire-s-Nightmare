@@ -8,7 +8,7 @@ country_event = {
 	id = randomeventsstapehordes.4
 	title = "randomeventsstapehordes.4.EVTNAME"
 	desc = "randomeventsstapehordes.4.EVTDESC"
-	picture = HORDE_ON_HORSEBACK_eventPicture	
+	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
 
@@ -262,7 +262,7 @@ country_event = {
 	id = randomeventsstapehordes.9
 	title = "randomeventsstapehordes.9.EVTNAME"
 	desc = "randomeventsstapehordes.9.EVTDESC"
-	picture = HORDE_ON_HORSEBACK_eventPicture	
+	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
 
@@ -305,7 +305,7 @@ country_event = {
 	id = randomeventsstapehordes.10
 	title = "randomeventsstapehordes.10.EVTNAME"
 	desc = "randomeventsstapehordes.10.EVTDESC"
-	picture = HORDE_ON_HORSEBACK_eventPicture	
+	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
 
@@ -334,7 +334,7 @@ country_event = {
 	id = randomeventsstapehordes.11
 	title = "randomeventsstapehordes.11.EVTNAME"
 	desc = "randomeventsstapehordes.11.EVTDESC"
-	picture = HORDE_ON_HORSEBACK_eventPicture	
+	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
 
@@ -363,7 +363,7 @@ country_event = {
 	id = randomeventsstapehordes.12
 	title = "randomeventsstapehordes.12.EVTNAME"
 	desc = "randomeventsstapehordes.12.EVTDESC"
-	picture = HORDE_ON_HORSEBACK_eventPicture	
+	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
 
@@ -393,7 +393,7 @@ country_event = {
 	id = randomeventsstapehordes.13
 	title = "randomeventsstapehordes.13.EVTNAME"
 	desc = "randomeventsstapehordes.13.EVTDESC"
-	picture = HORDE_ON_HORSEBACK_eventPicture	
+	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
 

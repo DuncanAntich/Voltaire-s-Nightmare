@@ -1,54 +1,33 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
-government_rank = 3
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
 primary_culture = emilian
 religion = catholic
 technology_group = western
 capital = 648	# Parma
 add_army_professionalism = 0.05
 
-1046.4.1 = {
+#Manfredi Counts
+1054.1.1 = {
 	monarch = {
-		name = "Pietro"
-		dynasty = "Cadalo"
-		birth_date = 1010.1.1
-		adm = 3
-		dip = 6
-		mil = 2
-	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = sinner_personality
-	add_ruler_personality = intricate_web_weaver_personality
-}
-1072.1.1 = {
-	monarch = {
-		name = "Everardo"
+		name = "Manfredo"
+		dynasty = "Pico"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1085.5.1 = {
+1090.1.1 = {
 	monarch = {
-		name = "Guido"
+		name = "Alberto"
+		dynasty = "Pico"
 		adm = 2
-		dip = 2
+		dip = 3
 		mil = 2
-	}
-}
-1104.4.1 = {
-	monarch = {
-		name = "Bernardo"
-		dynasty = "degli Uberti"
-		birth_date = 1060.1.1
-		adm = 4
-		dip = 4
-		mil = 3
 	}
 }
 #City
 1128.1.1 = {
-	government_rank = 1
 	government = republic
 	add_government_reform = italian_monarchy
 	monarch = {

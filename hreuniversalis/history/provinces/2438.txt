@@ -33,13 +33,9 @@ fort_14th = yes
 	owner = VDN
 	controller = VDN
 }
-1395.6.3 = {
-	owner = BUL
-	controller = BUL
-}
-1396.9.25 = {
+1396.9.25 = { add_core = TUR }
+1422.9.17 = {
 	owner = TUR
 	controller = TUR
-	add_core = TUR
 }
 1502.1.1 = { remove_core = VDN }

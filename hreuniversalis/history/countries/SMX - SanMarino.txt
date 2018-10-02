@@ -17,7 +17,8 @@ capital = 2602
 }
 1243.12.12 = {
 	monarch = {
-		name = "Oddone Scarito"
+		name = "Oddone"
+		dynasty = "Scarito"
 		adm = 2
 		dip = 5
 		mil = 2
@@ -25,7 +26,8 @@ capital = 2602
 }
 1254.4.1 = {
 	monarch = {
-		name = "Taddeo Ardelj"
+		name = "Taddeo"
+		dynasty = "Ardelj"
 		adm = 4
 		dip = 1
 		mil = 1
@@ -33,7 +35,8 @@ capital = 2602
 }
 1286.4.1 = {
 	monarch = {
-		name = "Ugolino Baracone"
+		name = "Ugolino"
+		dynasty = "Baracone"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -41,7 +44,8 @@ capital = 2602
 }
 1302.4.1 = {
 	monarch = {
-		name = "Giovanni di Giannini"
+		name = "Giovanni"
+		dynasty = "di Giannini"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -49,7 +53,8 @@ capital = 2602
 }
 1325.1.1 = {
 	monarch = {
-		name = "Ser Bonanni Notaio"
+		name = "Ser Bonanni"
+		dynasty = "Notaio"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -57,7 +62,8 @@ capital = 2602
 }
 1331.1.1 = {
 	monarch = {
-		name = "Ugocciolo da Valdragone"
+		name = "Ugocciolo"
+		dynasty = "da Valdragone"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -65,7 +71,8 @@ capital = 2602
 }
 1337.1.1 = {
 	monarch = {
-		name = "Bentivegna da Valle"
+		name = "Bentivegna"
+		dynasty = "da Valle"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -73,7 +80,8 @@ capital = 2602
 }
 1342.1.1 = {
 	monarch = {
-		name = "Ricevuto di Ughetto"
+		name = "Ricevuto"
+		dynasty = "di Ughetto"
 		adm = 2
 		dip = 1
 		mil = 2
@@ -81,7 +89,8 @@ capital = 2602
 }
 1347.1.1 = {
 	monarch = {
-		name = "Foschino Calcigni"
+		name = "Foschino"
+		dynasty = "Calcigni"
 		adm = 3
 		dip = 3
 		mil = 2
@@ -89,7 +98,8 @@ capital = 2602
 }
 1365.10.1 = {
 	monarch = {
-		name = "Giaoagnolo di Acaptolo"
+		name = "Giaoagnolo"
+		dynasty = "di Acaptolo"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -97,7 +107,8 @@ capital = 2602
 }
 1367.4.1 = {
 	monarch = {
-		name = "Guidino di Giovanni"
+		name = "Guidino"
+		dynasty = "di Giovanni"
 		adm = 2
 		dip = 3
 		mil = 2
@@ -105,7 +116,8 @@ capital = 2602
 }
 1373.1.1 = {
 	monarch = {
-		name = "Ugolino di Giovanni"
+		name = "Ugolino"
+		dynasty = "di Giovanni"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -113,7 +125,8 @@ capital = 2602
 }
 1382.1.1 = {
 	monarch = {
-		name = "Giangio di Ceccolo"
+		name = "Giangio"
+		dynasty = "di Ceccolo"
 		adm = 4
 		dip = 1
 		mil = 1
@@ -121,7 +134,8 @@ capital = 2602
 }
 1386.1.1 = {
 	monarch = {
-		name = "Giovanni di Francesco"
+		name = "Giovanni"
+		dynasty = "di Francesco"
 		adm = 1
 		dip = 4
 		mil = 1
@@ -129,7 +143,8 @@ capital = 2602
 }
 1390.1.1 = {
 	monarch = {
-		name = "Gozio di Mucciolino"
+		name = "Gozio"
+		dynasty = "di Mucciolino"
 		adm = 4
 		dip = 4
 		mil = 3
@@ -137,7 +152,8 @@ capital = 2602
 }
 1402.10.1 = {
 	monarch = {
-		name = "Simone di Menghino"
+		name = "Simone"
+		dynasty = "di Menghino"
 		adm = 2
 		dip = 3
 		mil = 2
@@ -145,7 +161,8 @@ capital = 2602
 }
 1418.10.1 = {
 	monarch = {
-		name = "Antonio di Fosco"
+		name = "Antonio"
+		dynasty = "di Fosco"
 		adm = 3
 		dip = 3
 		mil = 2
@@ -153,7 +170,8 @@ capital = 2602
 }
 1426.10.1 = {
 	monarch = {
-		name = "Sante Lunardini"
+		name = "Sante"
+		dynasty = "Lunardini"
 		adm = 2
 		dip = 4
 		mil = 1
@@ -161,7 +179,8 @@ capital = 2602
 }
 1440.10.1 = {
 	monarch = {
-		name = "Antonio Belluzzi"
+		name = "Antonio"
+		dynasty = "Belluzzi"
 		adm = 4
 		dip = 4
 		mil = 4
@@ -169,7 +188,8 @@ capital = 2602
 }
 1445.4.1 = {
 	monarch = {
-		name = "Niccolò di Michelino"
+		name = "Niccolò"
+		dynasty = "di Michelino"
 		adm = 2
 		dip = 3
 		mil = 2
@@ -177,7 +197,8 @@ capital = 2602
 }
 1457.4.1 = {
 	monarch = {
-		name = "Bianco di Antonio"
+		name = "Bianco"
+		dynasty = "di Antonio"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -185,7 +206,8 @@ capital = 2602
 }
 1476.10.1 = {
 	monarch = {
-		name = "Bartolo di Antonio"
+		name = "Bartolo"
+		dynasty = "di Antonio"
 		adm = 2
 		dip = 1
 		mil = 2
@@ -193,7 +215,8 @@ capital = 2602
 }
 1488.4.1 = {
 	monarch = {
-		name = "Fabrizio Corbelli"
+		name = "Fabrizio"
+		dynasty = "Corbelli"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -201,7 +224,8 @@ capital = 2602
 }
 1492.10.1 = {
 	monarch = {
-		name = "Bonifazio di Andrea"
+		name = "Bonifazio"
+		dynasty = "di Andrea"
 		adm = 2
 		dip = 1
 		mil = 3
@@ -209,7 +233,8 @@ capital = 2602
 }
 1500.4.1 = {
 	monarch = {
-		name = "Antonio Lunardini"
+		name = "Antonio"
+		dynasty = "Lunardini"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -217,7 +242,8 @@ capital = 2602
 }
 1507.4.1 = {
 	monarch = {
-		name = "Sammaritano Tini"
+		name = "Sammaritano"
+		dynasty = "Tini"
 		adm = 3
 		dip = 5
 		mil = 3
@@ -225,7 +251,8 @@ capital = 2602
 }
 1536.10.1 = {
 	monarch = {
-		name = "Pier Leone Corbelli"
+		name = "Pier Leone"
+		dynasty = "Corbelli"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -233,7 +260,8 @@ capital = 2602
 }
 1552.4.1 = {
 	monarch = {
-		name = "Giovanni Lodovico Belluzzi"
+		name = "Giovanni Lodovico"
+		dynasty = "Belluzzi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -241,7 +269,8 @@ capital = 2602
 }
 1557.10.1 = {
 	monarch = {
-		name = "Pier Paolo Bonelli"
+		name = "Pier Paolo"
+		dynasty = "Bonelli"
 		adm = 2
 		dip = 3
 		mil = 3
@@ -249,7 +278,8 @@ capital = 2602
 }
 1568.4.1 = {
 	monarch = {
-		name = "Pier Paolo Corbelli"
+		name = "Pier Paolo"
+		dynasty = "Corbelli"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -257,7 +287,8 @@ capital = 2602
 }
 1588.4.1 = {
 	monarch = {
-		name = "Pier Matteo Belluzzi"
+		name = "Pier Matteo"
+		dynasty = "Belluzzi"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -265,7 +296,8 @@ capital = 2602
 }
 1600.10.1 = {
 	monarch = {
-		name = "Fabrizio Belluzzi"
+		name = "Fabrizio"
+		dynasty = "Belluzzi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -273,7 +305,8 @@ capital = 2602
 }
 1622.4.1 = {
 	monarch = {
-		name = "Pier Marino Ricci"
+		name = "Pier Marino"
+		dynasty = "Ricci"
 		adm = 4
 		dip = 2
 		mil = 2
@@ -281,7 +314,8 @@ capital = 2602
 }
 1627.4.1 = {
 	monarch = {
-		name = "Annibale Loli"
+		name = "Annibale"
+		dynasty = "Loli"
 		adm = 4
 		dip = 1
 		mil = 4
@@ -289,7 +323,8 @@ capital = 2602
 }
 1640.4.1 = {
 	monarch = {
-		name = "Marc'Antonio Bonetti"
+		name = "Marc'Antonio"
+		dynasty = "Bonetti"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -297,7 +332,8 @@ capital = 2602
 }
 1654.5.1 = {
 	monarch = {
-		name = "Cristofaro Gianotti"
+		name = "Cristofaro"
+		dynasty = "Gianotti"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -305,7 +341,8 @@ capital = 2602
 }
 1664.4.1 = {
 	monarch = {
-		name = "Carlo Loli"
+		name = "Carlo"
+		dynasty = "Loli"
 		adm = 5
 		dip = 3
 		mil = 4
@@ -313,7 +350,8 @@ capital = 2602
 }
 1690.4.1 = {
 	monarch = {
-		name = "Melchiorre Martelli"
+		name = "Melchiorre"
+		dynasty = "Martelli"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -321,7 +359,8 @@ capital = 2602
 }
 1698.4.1 = {
 	monarch = {
-		name = "Lorenzo Giangi"
+		name = "Lorenzo"
+		dynasty = "Giangi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -329,7 +368,8 @@ capital = 2602
 }
 1725.4.1 = {
 	monarch = {
-		name = "Gian Giacomo Angeli"
+		name = "Gian Giacomo"
+		dynasty = "Angeli"
 		adm = 2
 		dip = 5
 		mil = 2
@@ -337,7 +377,8 @@ capital = 2602
 }
 1740.2.5 = {
 	monarch = {
-		name = "Alfonso Giangi"
+		name = "Alfonso"
+		dynasty = "Giangi"
 		adm = 3
 		dip = 2
 		mil = 3
@@ -345,7 +386,8 @@ capital = 2602
 }
 1744.10.1 = {
 	monarch = {
-		name = "Giovanni Maria Giangi"
+		name = "Giovanni Maria"
+		dynasty = "Giangi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -353,7 +395,8 @@ capital = 2602
 }
 1762.10.1 = {
 	monarch = {
-		name = "Pompeo Zoli"
+		name = "Pompeo"
+		dynasty = "Zoli"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -361,7 +404,8 @@ capital = 2602
 }
 1783.10.1 = {
 	monarch = {
-		name = "Giuliano Gozi"
+		name = "Giuliano"
+		dynasty = "Gozi"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -369,7 +413,8 @@ capital = 2602
 }
 1796.10.1 = {
 	monarch = {
-		name = "Marino Francesconi"
+		name = "Marino"
+		dynasty = "Francesconi"
 		adm = 4
 		dip = 2
 		mil = 2
@@ -377,7 +422,8 @@ capital = 2602
 }
 1811.4.1 = {
 	monarch = {
-		name = "Francesco Maria Belluzzi"
+		name = "Francesco Maria"
+		dynasty = "Belluzzi"
 		adm = 5
 		dip = 5
 		mil = 3
@@ -385,7 +431,8 @@ capital = 2602
 }
 1835.4.1 = {
 	monarch = {
-		name = "Pietro Zoli"
+		name = "Pietro"
+		dynasty = "Zoli"
 		adm = 2
 		dip = 2
 		mil = 2
@@ -393,7 +440,8 @@ capital = 2602
 }
 1844.4.1 = {
 	monarch = {
-		name = "Pietro Righi"
+		name = "Pietro"
+		dynasty = "Righi"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -401,7 +449,8 @@ capital = 2602
 }
 1868.4.1 = {
 	monarch = {
-		name = "Palamede Malpeli"
+		name = "Palamede"
+		dynasty = "Malpeli"
 		adm = 2
 		dip = 3
 		mil = 2

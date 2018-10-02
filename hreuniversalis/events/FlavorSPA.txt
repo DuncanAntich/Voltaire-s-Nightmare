@@ -1436,6 +1436,12 @@ country_event = {
 				}
 				add_claim = ROOT
 			}
+			tooltip = {
+				add_opinion = {
+					who = ROOT
+					modifier = claimed_italy
+				}
+			}
 			hidden_effect = {
 				country_event = { id = flavor_spa.1009 days = 10 }
 			}
@@ -1934,7 +1940,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = nationalist_rebels
-				leader = "Abén Umayyad"
+				leader = "Ibn Banû ‘Umayya"
 				friend = GRA
 				size = 2
 				win = yes

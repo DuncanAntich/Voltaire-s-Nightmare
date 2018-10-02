@@ -7,10 +7,61 @@ technology_group = western
 capital = 1767
 fixed_capital = 1767
 
-#Avignon
-1378.9.20 = { religion = catholique }
-1403.5.28 = { religion = catholic }
-
+1050.1.1 = {
+	monarch = {
+		name = "Amanieu I"
+		dynasty = "d'Albret"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1060.1.1 = {
+	monarch = {
+		name = "Amanieu II"
+		dynasty = "d'Albret"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Bernard Ezi I"
+		dynasty = "d'Albret"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+1110.1.1 = {
+	monarch = {
+		name = "Amanieu III"
+		dynasty = "d'Albret"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1130.1.1 = {
+	monarch = {
+		name = "Bernard Ezi II"
+		dynasty = "d'Albret"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1152.1.1 = {
+	monarch = {
+		name = "Amanieu IV"
+		dynasty = "d'Albret"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+#1154 done 1369 back
 1358.1.1 = {
 	monarch = {
 		name = "Arnaud-Amanieu I"
@@ -33,6 +84,7 @@ fixed_capital = 1767
 		mil = 0
 	}
 }
+1378.9.20 = { religion = catholique }
 1401.1.1 = {
 	monarch = {
 		name = "Charles I"
@@ -43,6 +95,7 @@ fixed_capital = 1767
 		mil = 0
 	}
 }
+1403.5.28 = { religion = catholic }
 1407.1.1 = {
 	heir = {
 		name = "Charles"

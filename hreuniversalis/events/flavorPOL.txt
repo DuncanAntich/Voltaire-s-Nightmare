@@ -889,7 +889,6 @@ country_event = {
 		}
 		is_year = 1500
 		NOT = { is_year = 1543 }
-
 	}
 	
 	mean_time_to_happen = {
@@ -898,10 +897,13 @@ country_event = {
 	
 	option = {
 		name = "flavor_pol.EVTOPTOK"
-		add_adm_power = 40
-		add_dip_power = 40
-		add_mil_power = 40
-		add_prestige = 10
+		define_advisor = {
+			type = natural_scientist
+			name = "Nicolaus Copernicus"
+			culture = polish
+			skill = 3
+			cost_multiplier = 0.25
+		}
 	}
 }
 
@@ -925,7 +927,6 @@ country_event = {
 		is_year = 1625
 		NOT = { is_year = 1650 }
 		num_of_ports = 1
-		# tag = PLC
 	}
 	
 	mean_time_to_happen = {
@@ -947,10 +948,6 @@ country_event = {
 				cost = 0
 			}
 		}
-	}
-	option = {
-		name = "flavor_pol.EVTOPTB1" # Abandon the plans
-		add_stability_or_adm_power = yes
 	}
 }
 
@@ -1246,7 +1243,7 @@ country_event = {
 		add_prestige = -100
 		if = {
 			limit = { NOT = { has_reform = celestial_empire } }
-			change_government = republic
+			change_government_via_reform = republic
 			add_government_reform = oligarchy_reform
 		}
 		define_ruler = {
@@ -1746,14 +1743,16 @@ country_event = {
 		NOT = { started_in = 1447.6.25 }
 		NOT = { has_reform = celestial_empire }
 		LIT = {
-			ai = yes
 			exists = yes
-			was_player = no
 			is_subject = no
 			NOT = { junior_union_with = POL }
 			dynasty = "Gediminai"
 		}
 		NOT = { is_year = 1450 }
+	}
+
+	immediate = {
+		set_global_flag = plc_union_outcome_flag
 	}
 	
 	mean_time_to_happen = {
@@ -1774,6 +1773,12 @@ country_event = {
 	
 	option = {
 		name = flavor_pol.18.a #We must retain the Jagiellon Dynasty
+		trigger = {
+			LIT = {
+				ai = yes
+				was_player = no
+			}
+		}
 		ai_chance = { factor = 75 }
 		hidden_effect = {
 			define_ruler = {
@@ -1801,6 +1806,12 @@ country_event = {
 			MIL = 4
 			claim = 100
 			culture = polish
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		LIT = {
 			add_opinion = {

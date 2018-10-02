@@ -15,12 +15,6 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1477.3.20 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
-1477.4.28 = { revolt = {} controller = GEN }
-1478.7.7 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
-1488.1.6 = { revolt = {} controller = GEN }
-1488.8.7 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
-1488.9.13 = { revolt = {} controller = GEN }
 1495.1.1 = { hre = no }
 1805.6.10 = {
 	owner = FRA

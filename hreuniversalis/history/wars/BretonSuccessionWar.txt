@@ -6,11 +6,12 @@ war_goal = {
 }
 
 1341.4.30 = {
-	add_attacker = BLO
+	add_attacker = PNT
+	add_attacker = VNA
+	add_attacker = LMO
 	add_attacker = CAS
 	add_attacker = GEN
 	add_defender = BRI
-	add_defender = LMO
 	add_defender = ENG
 	
 }
@@ -23,7 +24,7 @@ war_goal = {
 			commander = "Charles de Blois"
 			infantry = 8000
 			losses = 1	# percent
-			country = BLO
+			country = PNT
 		}
 		defender = {
 			commander = "Jean de Montfort"
@@ -72,24 +73,25 @@ war_goal = {
 			commander = "Charles de Blois"
 			infantry = 4000
 			losses = 15	# percent
-			country = BLO
+			country = PNT
 		}
 		result = yes
 	}
 }
 
 1360.10.24 = {
-	rem_attacker = BLO
+	rem_attacker = LMO
 }
 
 1363.1.1 = {
-	add_attacker = BLO
+	add_attacker = LMO
 }
 
 1364.9.29 = {
-	rem_attacker = BLO
+	rem_attacker = PNT
+	rem_attacker = VNA
+	rem_attacker = LMO
 	rem_attacker = CAS
 	rem_defender = BRI
-	rem_defender = LMO
 	rem_defender = ENG
 }

@@ -3,13 +3,19 @@ union = {
 	first = BRI
 	second = LMO
 	start_date = 1275.1.1
+	end_date = 1331.1.1
+}
+union = {
+	first = PNT
+	second = LMO
+	start_date = 1334.2.1
 	end_date = 1360.10.24
 }
 union = {
-	first = BRI
+	first = PNT
 	second = LMO
 	start_date = 1363.1.1
-	end_date = 1384.9.10
+	end_date = 1364.9.29
 }
 union = {
 	first = NAV

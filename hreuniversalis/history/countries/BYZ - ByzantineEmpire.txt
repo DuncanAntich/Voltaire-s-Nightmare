@@ -5,6 +5,7 @@ technology_group = eastern
 religion = orthodox
 primary_culture = greek
 historical_friend = MNI
+historical_friend = MOE
 capital = 2233
 fixed_capital = 2233
 

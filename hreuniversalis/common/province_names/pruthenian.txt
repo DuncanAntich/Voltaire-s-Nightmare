@@ -7,7 +7,7 @@
 2328 = "Bartoszyce"
 399 = "Paslek"
 2902 = "Lidzbark"
-388 = "Mamonovo"
+388 = "Honeda"
 2343 = "Alnestabs"
 2330 = "Ungura"
 391 = "Pokarwis"

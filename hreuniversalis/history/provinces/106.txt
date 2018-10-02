@@ -1,5 +1,6 @@
-owner = RGO
-controller = RGO
+owner = MAN
+controller = MAN
+add_core = MAN
 culture = emilian
 religion = catholic
 hre = yes
@@ -20,6 +21,9 @@ fort_14th = yes
 	base_tax = 5
 	base_production = 5
 	base_manpower = 5
+	owner = RGO
+	controller = RGO
+	remove_core = MAN
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1348.1.1 = { #black death

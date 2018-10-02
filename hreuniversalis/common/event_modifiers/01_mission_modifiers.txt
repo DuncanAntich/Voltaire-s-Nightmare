@@ -1721,7 +1721,7 @@ ahmadabad_paper = {
 }
 
 guj_textile_industry = {
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 	trade_efficiency = 0.1
 }
 
@@ -1844,7 +1844,7 @@ mug_burmese_ruby_trade = {
 
 mughal_china = {
 	trade_efficiency = 0.2
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 }
 
 mug_general_land_assessement_modifier = {
@@ -1935,7 +1935,7 @@ mug_divine_faith = {
 }
 
 city_of_aurangabad = {
-	development_cost = -0.15
+	local_development_cost = -0.15
 	local_defensiveness = 0.1
 }
 
@@ -2215,7 +2215,6 @@ lithuanian_counter_reformation = {
 lit_lord_of_the_rus = {
 	liberty_desire_from_subject_development = -0.25
 }
-
 restoration_of_kiev = {
 	local_build_cost = -0.25
 	allowed_num_of_buildings = 1

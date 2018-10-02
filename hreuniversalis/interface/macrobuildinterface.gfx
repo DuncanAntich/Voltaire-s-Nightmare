@@ -332,7 +332,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reforms_button_base_red.dds"
 	}
 
-	textSpriteType = {
+	spriteType = {
 		name = "GFX_government_reforms_button_base"
 		texturefile = "gfx//interface//government_reforms_button_base.dds"
 		effectFile = "gfx/FX/buttonstate.lua"

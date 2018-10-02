@@ -4,12 +4,15 @@ government_rank = 3
 primary_culture = breton
 religion = catholic
 technology_group = western
-capital = 2173	# Nantes
+capital = 1164
+historical_friend = VNA
+historical_friend = NNT
+historical_friend = KNT
 
 1040.1.1 = {
 	monarch = {
-		name = "Conan II"
-		dynasty = "de Rennes"
+		name = "Konan II"
+		dynasty = "Roazhon"
 		birth_date = 1033.1.1
 		adm = 2
 		dip = 2
@@ -20,8 +23,8 @@ capital = 2173	# Nantes
 }
 1066.12.11 = {
 	monarch = {
-		name = "Hawise"
-		dynasty = "de Rennes"
+		name = "Hawiz"
+		dynasty = "Roazhon"
 		birth_date = 1037.1.1
 		female = yes
 		adm = 2
@@ -29,9 +32,9 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 	queen = {
-		country_of_origin = BRI
+		country_of_origin = KNV
 		name = "Hoel"
-		dynasty = "de Cornouaille"
+		dynasty = "Kernev"
 		birth_date = 1031.1.1
 		death_date = 1084.4.13
 		female = no
@@ -42,7 +45,7 @@ capital = 2173	# Nantes
 	heir = {
 		name = "Alan"
 		monarch_name = "Alan IV"
-		dynasty = "de Cornouaille"
+		dynasty = "Kernev"
 		birth_date = 1059.1.1
 		death_date = 1119.10.13
 		claim = 70
@@ -54,7 +57,7 @@ capital = 2173	# Nantes
 1072.8.19 = {
 	monarch = {
 		name = "Alan IV"
-		dynasty = "de Cornouaille"
+		dynasty = "Kernev"
 		birth_date = 1059.1.1
 		adm = 3
 		dip = 3
@@ -77,9 +80,9 @@ capital = 2173	# Nantes
 }
 1095.1.1 = {
 	heir = {
-		name = "Conan"
-		monarch_name = "Conan III"
-		dynasty = "de Cornouaille"
+		name = "Konan"
+		monarch_name = "Konan III"
+		dynasty = "Kernev"
 		birth_date = 1095.1.1
 		death_date = 1148.9.17
 		claim = 90
@@ -89,10 +92,10 @@ capital = 2173	# Nantes
 
 	}
 }
-1119.10.13 = {
+1112.1.1 = {
 	monarch = {
-		name = "Conan III"
-		dynasty = "de Cornouaille"
+		name = "Konan III"
+		dynasty = "Kernev"
 		birth_date = 1095.1.1
 		adm = 2
 		dip = 2
@@ -101,17 +104,18 @@ capital = 2173	# Nantes
 }
 1148.9.17 = {
 	monarch = {
-		name = "Bertha"
-		dynasty = "de Cornouaille"
+		name = "Berta"
+		dynasty = "Kernev"
 		birth_date = 1114.1.1
+		female = yes
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 	queen = {
-		country_of_origin = BRI
-		name = "Eudes"
-		dynasty = "de Penthièvre"
+		country_of_origin = VNA
+		name = "Eozen"
+		dynasty = "Roc'han"
 		birth_date = 1114.1.1 #est
 		death_date = 1170.1.11
 		female = no
@@ -120,9 +124,9 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 	heir = {
-		name = "Conan"
-		monarch_name = "Conan IV"
-		dynasty = "de Penthièvre"
+		name = "Konan"
+		monarch_name = "Konan IV"
+		dynasty = "Roazhon"
 		birth_date = 1138.1.1
 		death_date = 1171.2.20
 		claim = 70
@@ -133,8 +137,8 @@ capital = 2173	# Nantes
 }
 1156.1.1 = {
 	monarch = {
-		name = "Conan IV"
-		dynasty = "de Penthièvre"
+		name = "Konan IV"
+		dynasty = "Roazhon"
 		birth_date = 1138.1.1
 		adm = 2
 		dip = 3
@@ -157,8 +161,8 @@ capital = 2173	# Nantes
 }
 1171.2.20 = {
 	monarch = {
-		name = "Constance"
-		dynasty = "de Penthièvre"
+		name = "Konstanza"
+		dynasty = "Roazhon"
 		birth_date = 1161.6.12
 		female = yes
 		adm = 3
@@ -180,11 +184,25 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 }
+1185.1.1 = { capital = 2173 }
+1187.3.29 = {
+	heir = {
+		name = "Arzhur"
+		monarch_name = "Arzhur I"
+		dynasty = "d'Anjou"
+		birth_date = 1187.3.29
+		death_date = 1203.4.3
+		claim = 70
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
 1188.2.3 = {
 	queen = {
 		country_of_origin = ENG
 		name = "Ranulf"
-		dynasty = "de Kevelioc"
+		dynasty = "de Briquessart"
 		birth_date = 1172.1.1
 		death_date = 1199.1.1 #divorced
 		culture = english
@@ -210,10 +228,31 @@ capital = 2173	# Nantes
 }
 1201.9.5 = {
 	monarch = {
-		name = "Guy"
+		name = "Arzhur I"
+		dynasty = "d'Anjou"
+		birth_date = 1187.3.29
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1203.4.3 = {
+	monarch = {
+		name = "Guy de Thouars (Regent)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Alis"
+		monarch_name = "Alis"
 		dynasty = "de Thouars"
-		birth_date = 1158.1.1
+		birth_date = 1200.1.1
+		death_date = 1221.10.21
 		culture = cosmopolitan_french
+		claim = 50
+		female = yes
 		adm = 2
 		dip = 2
 		mil = 2
@@ -221,7 +260,7 @@ capital = 2173	# Nantes
 }
 1213.4.13 = {
 	monarch = {
-		name = "Alix"
+		name = "Alis"
 		dynasty = "de Thouars"
 		birth_date = 1200.1.1
 		culture = cosmopolitan_french
@@ -245,8 +284,8 @@ capital = 2173	# Nantes
 }
 1218.1.16 = {
 	heir = {
-		name = "Jean"
-		monarch_name = "Jean I"
+		name = "Yann"
+		monarch_name = "Yann I"
 		dynasty = "de Dreux"
 		birth_date = 1218.1.16
 		death_date = 1286.10.8
@@ -265,8 +304,8 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 	heir = {
-		name = "Jean"
-		monarch_name = "Jean I"
+		name = "Yann"
+		monarch_name = "Yann I"
 		dynasty = "de Dreux"
 		birth_date = 1218.1.16
 		death_date = 1286.10.8
@@ -278,7 +317,7 @@ capital = 2173	# Nantes
 }
 1236.1.16 = { #crusader king
 	monarch = {
-		name = "Jean I"
+		name = "Yann I"
 		dynasty = "de Dreux"
 		birth_date = 1218.1.1
 		adm = 6
@@ -288,7 +327,7 @@ capital = 2173	# Nantes
 	queen = {
 		country_of_origin = NAV
 		name = "Blanche"
-		dynasty = "de Blois"
+		dynasty = "de Champaña"
 		birth_date = 1226.1.1
 		death_date = 1283.8.12
 		culture = orleanais
@@ -300,8 +339,8 @@ capital = 2173	# Nantes
 }
 1239.1.4 = {
 	heir = {
-		name = "Jean"
-		monarch_name = "Jean II"
+		name = "Yann"
+		monarch_name = "Yann II"
 		dynasty = "de Dreux"
 		birth_date = 1239.1.4
 		death_date = 1305.11.16
@@ -313,7 +352,7 @@ capital = 2173	# Nantes
 }
 1286.10.8 = {
 	monarch = {
-		name = "Jean II"
+		name = "Yann II"
 		dynasty = "de Dreux"
 		birth_date = 1239.1.4
 		adm = 3
@@ -333,8 +372,8 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 	heir = {
-		name = "Arthur"
-		monarch_name = "Arthur II"
+		name = "Arzhur"
+		monarch_name = "Arzhur II"
 		dynasty = "de Dreux"
 		birth_date = 1262.7.2
 		death_date = 1312.8.27
@@ -346,7 +385,7 @@ capital = 2173	# Nantes
 }
 1305.11.16 = {
 	monarch = {
-		name = "Arthur II"
+		name = "Arzhur II"
 		dynasty = "de Dreux"
 		birth_date = 1262.7.2
 		adm = 3
@@ -366,8 +405,8 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 	heir = {
-		name = "Jean"
-		monarch_name = "Jean III"
+		name = "Yann"
+		monarch_name = "Yann III"
 		dynasty = "de Dreux"
 		birth_date = 1286.3.8
 		death_date = 1341.4.30
@@ -379,7 +418,7 @@ capital = 2173	# Nantes
 }
 1312.8.27 = {
 	monarch = {
-		name = "Jean III"
+		name = "Yann III"
 		dynasty = "de Dreux"
 		birth_date = 1286.3.8
 		adm = 4
@@ -389,7 +428,7 @@ capital = 2173	# Nantes
 }
 1341.4.30 = {
 	monarch = {
-		name = "Jean IV"
+		name = "Yann IV"
 		dynasty = "de Dreux"
 		birth_date = 1293.1.1
 		adm = 2
@@ -409,8 +448,8 @@ capital = 2173	# Nantes
 		mil = 2
 	}
 	heir = {
-		name = "Jean"
-		monarch_name = "Jean V"
+		name = "Yann"
+		monarch_name = "Yann V"
 		dynasty = "de Dreux"
 		birth_date = 1335.1.1
 		death_date = 1399.11.1
@@ -422,7 +461,7 @@ capital = 2173	# Nantes
 }
 1345.9.16 = {
 	monarch = {
-		name = "Jean V"
+		name = "Yann V"
 		dynasty = "de Dreux"
 		birth_date = 1335.1.1
 		adm = 2
@@ -441,7 +480,7 @@ capital = 2173	# Nantes
 		death_date = 1380.7.13
 	}
 }
-1361.7.3 = { # Elfryc
+1361.7.3 = {
 	queen = {
 		country_of_origin = ENG
 		name = "Mary"
@@ -487,8 +526,8 @@ capital = 2173	# Nantes
 
 1389.12.24 = {
 	heir = {
-		name = "Jean"
-		monarch_name = "Jean VI"
+		name = "Yann"
+		monarch_name = "Yann VI"
 		dynasty = "de Dreux"
 		birth_date = 1389.12.24
 		death_date = 1442.8.29
@@ -500,7 +539,7 @@ capital = 2173	# Nantes
 }
 1399.11.1 = {
 	monarch = {
-		name = "Jean VI"
+		name = "Yann VI"
 		dynasty = "de Dreux"
 		birth_date = 1389.12.24
 		adm = 1
@@ -522,8 +561,8 @@ capital = 2173	# Nantes
 }
 1414.5.11 = {
 	heir = {
-		name = "François"
-		monarch_name = "François I"
+		name = "Frañsez"
+		monarch_name = "Frañsez I"
 		dynasty = "de Dreux"
 		birth_date = 1414.5.11
 		death_date = 1450.7.18
@@ -536,7 +575,7 @@ capital = 2173	# Nantes
 1417.10.18 = { religion = catholic }
 1442.8.29 = {
 	monarch = {
-		name = "François I"
+		name = "Frañsez I"
 		dynasty = "de Dreux"
 		birth_date = 1414.5.14
 		adm = 1
@@ -548,8 +587,8 @@ capital = 2173	# Nantes
 }
 1442.8.29 = {
 	heir = {
-		name = "Pierre"
-		monarch_name = "Pierre II"
+		name = "Pêr"
+		monarch_name = "Pêr II"
 		dynasty = "de Dreux"
 		birth_date = 1418.7.7
 		death_date = 1457.9.22
@@ -575,7 +614,7 @@ capital = 2173	# Nantes
 }
 1450.7.19 = {
 	monarch = {
-		name = "Pierre II"
+		name = "Pêr II"
 		dynasty = "de Dreux"
 		birth_date = 1418.7.7
 		adm = 2
@@ -597,8 +636,8 @@ capital = 2173	# Nantes
 }
 1450.7.20 = {
 	heir = {
-		name = "Arthur"
-		monarch_name = "Arthur III"
+		name = "Arzhur"
+		monarch_name = "Arzhur III"
 		dynasty = "de Dreux"
 		birth_date = 1393.8.24
 		death_date = 1458.12.26
@@ -610,7 +649,7 @@ capital = 2173	# Nantes
 }	
 1457.9.23 = {
 	monarch = {
-		name = "Arthur III"
+		name = "Arzhur III"
 		dynasty = "de Dreux"
 		birth_date = 1393.8.24
 		adm = 3
@@ -619,8 +658,8 @@ capital = 2173	# Nantes
 		leader = { name = "Arthur de Dreux"	type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
 	}
 	heir = {
-		name = "François"
-		monarch_name = "François II"
+		name = "Frañsez"
+		monarch_name = "Frañsez II"
 		dynasty = "de Dreux"
 		birth_date = 1433.6.23
 		death_date = 1488.9.9
@@ -634,7 +673,7 @@ capital = 2173	# Nantes
 }
 1458.12.27 = {
 	monarch = {
-		name = "François II"
+		name = "Frañsez II"
 		dynasty = "de Dreux"
 		birth_date = 1433.6.23
 		adm = 3
@@ -646,8 +685,8 @@ capital = 2173	# Nantes
 }
 1477.1.25 = {
 	heir = {
-		name = "Anne"
-		monarch_name = "Anne I"
+		name = "Anna"
+		monarch_name = "Anna I"
 		dynasty = "de Dreux"
 		birth_date = 1477.1.25
 		death_date = 1514.1.9
@@ -660,7 +699,7 @@ capital = 2173	# Nantes
 }
 1488.9.10 = {
 	monarch = {
-		name = "Anne I"
+		name = "Anna I"
 		dynasty = "de Dreux"
 		birth_date = 1477.1.25
 		adm = 5
@@ -669,15 +708,17 @@ capital = 2173	# Nantes
 		female = yes
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = just_personality # Righteous would also be valid
+	add_ruler_personality = just_personality
+	add_ruler_personality = fertile_personality
 }
 1499.10.14 = {
 	heir = {
-		name = "Claude"
-		monarch_name = "Claude I"
+		name = "Klaoda"
+		monarch_name = "Klaoda I"
 		dynasty = "de Valois"
 		birth_date = 1499.10.14
 		death_date = 1525.7.20
+		culture = cosmopolitan_french
 		claim = 95
 		adm = 2
 		dip = 2
@@ -687,9 +728,10 @@ capital = 2173	# Nantes
 }
 1514.1.10 = {
 	monarch = {
-		name = "Claude I"
+		name = "Klaoda I"
 		dynasty = "de Valois"
 		birth_date = 1499.10.14
+		culture = cosmopolitan_french
 		adm = 2
 		dip = 2
 		mil = 2
@@ -698,9 +740,10 @@ capital = 2173	# Nantes
 }
 1518.2.28 = {
 	heir = {
-		name = "François"
-		monarch_name = "François III"
+		name = "Frañsez"
+		monarch_name = "Frañsez III"
 		dynasty = "de Valois"
+		culture = cosmopolitan_french
 		birth_date = 1518.2.28
 		death_date = 1536.8.10
 		claim = 95
@@ -711,12 +754,14 @@ capital = 2173	# Nantes
 }
 1524.7.21 = {
 	monarch = {
-		name = "François III"
+		name = "Frañsez III"
 		dynasty = "de Valois"
+		culture = cosmopolitan_french
 		birth_date = 1518.2.28
 		adm = 3
 		dip = 2
 		mil = 1
 	}
 }
+#done 1532.8.4
 1589.8.3 = { set_legacy_government = administrative_monarchy }

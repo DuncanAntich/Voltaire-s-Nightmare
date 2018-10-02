@@ -1,41 +1,45 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
-government_rank = 3
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
 technology_group = western
 primary_culture = lombard
 religion = catholic
 capital = 107
+add_army_professionalism = 0.05
 
-1022.6.22 = {
+#Counts
+1054.1.1 = {
 	monarch = {
-		name = "Ambrogio II"
-		birth_date = 991.1.1
+		name = "Arduino III"
+		dynasty = "Gisalberting"
 		adm = 4
 		dip = 2
 		mil = 2
 	}
 }
-1057.9.20 = {
+1064.1.1 = {
 	monarch = {
-		name = "Atto I"
+		name = "Raginerio"
+		dynasty = "Gisalberting"
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
-1077.1.1 = {
+1100.1.1 = {
 	monarch = {
-		name = "Arnolfo I"
-		adm = 0
-		dip = 1
-		mil = 1
+		name = "Gisalberto IV"
+		dynasty = "Gisalberting"
+		adm = 3
+		dip = 0
+		mil = 2
 	}
 }
-1098.1.1 = {
+
+#Free Commune
+1106.1.1 = {
 	government = republic
 	add_government_reform = italian_monarchy
-	government_rank = 1
-	add_army_professionalism = 0.05
 	monarch = {
 		name = "Repubblica"
 		regent = yes

@@ -5,6 +5,7 @@ technology_group = eastern
 primary_culture = peloponnesian
 religion = orthodox
 capital = 611
+historical_friend = BYZ
 
 #Leo Sgouros
 1204.5.16 = {

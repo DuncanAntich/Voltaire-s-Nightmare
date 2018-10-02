@@ -17,7 +17,8 @@ capital = 414
 }
 1337.1.1 = {
 	monarch = {
-		name = "Benno Ukena"
+		name = "Benno"
+		dynasty = "Ukena"
 		adm = 2
 		dip = 3
 		mil = 2

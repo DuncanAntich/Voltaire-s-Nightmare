@@ -21,6 +21,7 @@ discovered_by = muslim
 	add_core = LOR
 	remove_core = FNN
 }
+1552.1.15 = { culture = lorrainian }
 1635.5.1 = { controller = FRA }
 1636.8.15 = { controller = LOR }
 1636.10.20 = { controller = FRA }

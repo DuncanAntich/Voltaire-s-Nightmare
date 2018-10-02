@@ -1,5 +1,6 @@
-owner = RGO
-controller = RGO
+owner = MAN
+controller = MAN
+add_core = MAN
 culture = lombard
 religion = catholic
 hre = yes
@@ -9,7 +10,6 @@ trade_goods = lumber
 base_manpower = 5
 capital = "Crema"
 is_city = yes
-add_core = RGO
 add_core = CRM
 discovered_by = eastern
 discovered_by = ottoman
@@ -20,7 +20,7 @@ discovered_by = muslim
 	owner = CMA
 	controller = CMA
 	add_core = CMA
-	remove_core = RGO
+	remove_core = MAN
 }
 1159.1.1 = {
 	owner = CRM

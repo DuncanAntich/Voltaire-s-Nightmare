@@ -6862,15 +6862,15 @@ pap_swiss_guard = {
 	global_manpower_modifier = 0.1
 }
 mil_vatican_library = {
-	technology_cost = -0.05
-	discipline = 0.05
+	mil_tech_cost_modifier = -0.05
+	army_tradition_from_battle = 0.5
 }
 dip_vatican_library = {
-	technology_cost = -0.05
+	dip_tech_cost_modifier = -0.05
 	diplomatic_reputation = 1
 }
 adm_vatican_library = {
-	technology_cost = -0.05
+	adm_tech_cost_modifier = -0.05
 	global_unrest = -2
 }
 pap_sistine_chapel = {
@@ -10362,6 +10362,11 @@ angry_nonconformists = {
 # Indian Estates
 look_up_purbias = {
 	is_rajput_modifier = yes
+	fire_damage = 0.1
+}
+
+look_up_purbias_upgraded = {
+	is_rajput_modifier = yes
 	discipline = 0.05
 	fire_damage = 0.1
 }
@@ -10663,7 +10668,7 @@ company_interference = {
 
 failed_monsoon = {
 	local_tax_modifier = -0.2
-	local_monthly_devastation = 0.5
+	local_monthly_devastation = 0.15
 }
 
 good_monsoon_modifier = {
@@ -10683,6 +10688,22 @@ plum_rains = {
 
 revoked_estate_modifier = {
 	local_unrest = 5
+}
+
+pru_confederation_curtailed_modifier = {
+	global_unrest = -1
+}
+
+mayan_dinosaur_cavalry = {
+	cavalry_power = 0.5
+}
+
+mayan_ufo_support = {
+	fire_damage = 0.33
+}
+
+swiss_guard_last_stand = {
+	discipline = 0.1
 }
 
 ##################################################

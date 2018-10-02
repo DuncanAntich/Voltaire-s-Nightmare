@@ -38,7 +38,8 @@ capital = 117
 1199.1.1 = {
 	set_legacy_government = administrative_republic
 	monarch = {
-		name = "Malapresa da Lucca"
+		name = "Malapresa"
+		dynasty = "da Lucca"
 		dip = 4
 		mil = 2
 		adm = 2
@@ -46,7 +47,8 @@ capital = 117
 }
 1220.1.1 = {
 	monarch = {
-		name = "Ghinibaldo Saracini"
+		name = "Ghinibaldo"
+		dynasty = "Saracini"
 		dip = 2
 		mil = 3
 		adm = 2
@@ -54,7 +56,8 @@ capital = 117
 }
 1248.1.1 = {
 	monarch = {
-		name = "Provenzano Salvani"
+		name = "Provenzano"
+		dynasty = "Salvani"
 		birth_date = 1220.1.1
 		dip = 3
 		mil = 5
@@ -73,7 +76,8 @@ capital = 117
 }
 1487.7.22 = {
 	monarch = {
-		name = "Pandolfo Petrucci"
+		name = "Pandolfo"
+		dynasty = "Petrucci"
 		birth_date = 1452.2.14
 		dip = 4
 		mil = 4
@@ -82,7 +86,8 @@ capital = 117
 }
 1512.5.21 = {
 	monarch = {
-		name = "Borghese Petrucci"
+		name = "Borghese"
+		dynasty = "Petrucci"
 		birth_date = 1512.1.1
 		dip = 0
 		mil = 0
@@ -91,7 +96,8 @@ capital = 117
 }
 1515.3.6 = {
 	monarch = {
-		name = "Raffaele Petrucci"
+		name = "Raffaele"
+		dynasty = "Petrucci"
 		birth_date = 1472.1.1
 		dip = 1
 		mil = 1
@@ -100,17 +106,18 @@ capital = 117
 }
 1522.10.26 = {
 	monarch = {
-		name = "Francesco Petrucci"
+		name = "Francesco"
+		dynasty = "Petrucci"
 		birth_date = 1482.1.1
 		dip = 1
 		mil = 1
 		adm = 1
 	}
 }
-# Could find no data on this person ~ Zechs
 1523.6.11 = {
 	monarch = {
-		name = "Fabio Petrucci"
+		name = "Fabio"
+		dynasty = "Petrucci"
 		birth_date = 1482.1.1
 		dip = 1
 		mil = 1

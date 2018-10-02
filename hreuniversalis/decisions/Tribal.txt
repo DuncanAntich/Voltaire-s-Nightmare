@@ -34,7 +34,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			has_reform = tribal_kingdom
-			NOT = { has_dlc = "Dharma" }
 		}
 		allow = {
 			adm_power = 200

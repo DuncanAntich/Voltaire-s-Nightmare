@@ -1012,7 +1012,7 @@ country_event = {
 		}
 		if = { 
 			limit = { NOT = { government = theocracy } }
-			change_government = theocracy
+			change_government_via_reform = theocracy
 			set_legacy_government = theocratic_government
 		}
 		add_stability = -5
@@ -1028,6 +1028,12 @@ country_event = {
 			ADM = 3
 			MIL = 2
 			religion = sunni
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 	}
 	

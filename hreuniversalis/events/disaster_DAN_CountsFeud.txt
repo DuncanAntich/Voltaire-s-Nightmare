@@ -82,6 +82,12 @@ country_event = {
 			dip = 3
 			mil = 2
 		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
 		every_owned_province = {
 			limit = {
 				has_province_flag = counts_feud

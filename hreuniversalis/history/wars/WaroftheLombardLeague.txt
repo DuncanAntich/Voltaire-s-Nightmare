@@ -2,7 +2,6 @@ name = "War of the Lombard League"
 war_goal = {
 	type = superiority_punitive
 	casus_belli = cb_super_badboy
-	province = 2041
 }
 
 1237.11.26 = {

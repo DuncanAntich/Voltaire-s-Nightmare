@@ -15,11 +15,20 @@ capital = 2203
 		regent = yes
 	}
 }
-1399.1.1 = {
+1370.1.1 = {
 	clr_country_flag = natives_flag
 	government = tribal
 	add_government_reform = tribal_despotism
 	technology_group = western
+	monarch = {
+		name = "Vader"
+		dynasty = "Alberda"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+1399.1.1 = {
 	monarch = {
 		name = "Bunno"
 		dynasty = "Alberda"

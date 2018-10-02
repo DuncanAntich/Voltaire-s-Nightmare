@@ -6,7 +6,49 @@ religion = catholic
 primary_culture = jutlandic
 capital = 2384
 
-1120.1.1 = {
+1054.1.1 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Oluf"
+		monarch_name = "Oluf I"
+		dynasty = "Estrid"
+		birth_date = 1050.1.1
+		death_date = 1095.8.18
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1065.1.1 = {
+	monarch = {
+		name = "Oluf I"
+		dynasty = "Estrid"
+		birth_date = 1050.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	queen = {
+		country_of_origin = DAN
+		name = "Ingegerdr"
+		dynasty = "Hårfagreætta"
+		birth_date = 1046.1.1
+		death_date = 1120.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#to DAN 1086.7.10
+1115.1.1 = {
 	monarch = {
 		name = "Knud I"
 		dynasty = "Estrid"

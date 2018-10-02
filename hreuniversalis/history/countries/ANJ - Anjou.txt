@@ -104,17 +104,6 @@ capital = 2163
 		dip = 2
 		mil = 5
 	}
-	queen = {
-		country_of_origin = MNE
-		name = "Ermengarde"
-		dynasty = "de la Flèche"
-		birth_date = 1096.1.1
-		death_date = 1126.10.12
-		female = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
 }
 1113.4.24 = {
 	heir = {
@@ -181,6 +170,27 @@ capital = 2163
 	add_ruler_personality = silver_tongue_personality
 }
 #1154.10.25 done
+1226.1.1 = {
+	monarch = {
+		name = "(Régence)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean I"
+		dynasty = "Capet"
+		birth_date = 1219.1.1
+		death_date = 1232.1.1
+		claim = 80
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+#1232.1.1 done
 #1246 PU under Provence
 1285.1.7 = {
 	monarch = {

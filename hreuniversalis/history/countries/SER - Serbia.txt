@@ -455,10 +455,12 @@ historical_friend = BOS
 }
 1780.1.1 = { government_rank = 4 }
 1781.1.1 = { leader = {	name = "Peter I"               	type = general	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1830.10.18 } }
+
+#Serbian State Restored
 1804.2.14 = {
 	capital = 552
 	monarch = {
-		name = "Ðorde I Petrovic"
+		name = "Ðorde I"
 		dynasty = "Karadordevic"
 		birth_date = 1762.11.16	
 		adm = 5
@@ -497,7 +499,7 @@ historical_friend = BOS
 }
 1813.10.4 = {
 	monarch = {
-		name = "Milosh I"
+		name = "Miloš I"
 		dynasty = "Obrenovic"
 		birth_date = 1780.3.18		
 		adm = 4
@@ -522,34 +524,91 @@ historical_friend = BOS
 }
 1819.10.21 = {
 	heir = {
-		name = "Milosh"
-		monarch_name = "Milosh II"
+		name = "Milan"
+		monarch_name = "Milan I"
 		dynasty = "Obrenovic"
 		birth_date = 1819.10.21
-		death_date = 1839.7.6
+		death_date = 1839.7.8
 		claim = 95
 		adm = 0
 		dip = 0
 		mil = 0
 	}
 }
-1823.9.16 = {
-	heir = {
-		name = "Milosh"
-		monarch_name = "Milosh III"
+1839.6.25 = {
+	monarch = {
+		name = "Milan I"
+		dynasty = "Obrenovic"
+		birth_date = 1819.10.21
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1839.7.8 = {
+	monarch = {
+		name = "Mihajlo I"
 		dynasty = "Obrenovic"
 		birth_date = 1823.9.16
-		death_date = 1868.6.10
-		claim = 90
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
 1838.1.1 = { capital = 539 }
+#Desposed
+1842.9.14 = {
+	monarch = {
+		name = "Alexander I"
+		dynasty = "Karadordevic"
+		birth_date = 1806.10.11
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1844.7.11 = {
+	heir = {
+		name = "Petar"
+		monarch_name = "Petar I"
+		dynasty = "Karadordevic"
+		birth_date = 1844.7.11
+		death_date = 1921.8.16
+		claim = 75
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+#Restored
+1858.12.23 = {
+	monarch = {
+		name = "Miloš I"
+		dynasty = "Obrenovic"
+		birth_date = 1780.3.18		
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = careful_personality
+	heir = {
+		name = "Mihajlo"
+		monarch_name = "Mihajlo I"
+		dynasty = "Obrenovic"
+		birth_date = 1823.9.16
+		death_date = 1868.6.10
+		claim = 80
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1860.9.26 = {
 	monarch = {
-		name = "Milosh III"
+		name = "Mihajlo I"
 		dynasty = "Obrenovic"
 		birth_date = 1823.9.16
 		adm = 2
@@ -559,7 +618,7 @@ historical_friend = BOS
 }
 1868.6.10 = {
 	monarch = {
-		name = "Milosh IV"
+		name = "Milan II"
 		dynasty = "Obrenovic"
 		birth_date = 1854.8.22
 		adm = 4

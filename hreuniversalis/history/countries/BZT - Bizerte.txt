@@ -1,0 +1,46 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 3
+technology_group = muslim
+primary_culture = kabyle
+religion = sunni
+capital = 1153 #Bizerte
+religious_school = maliki_school
+
+1054.1.1 = {
+	monarch = {
+		name = "al-Lakhmi"
+		dynasty = "Banû Ward"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1084.1.1 = {
+	monarch = {
+		name = "Salm"
+		dynasty = "Banû Ward"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1108.1.1 = {
+	monarch = {
+		name = "Ja‘far"
+		dynasty = "Banû Ward"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1121.1.1 = {
+	monarch = {
+		name = "‘Abd al-‘Azîz"
+		dynasty = "Banû Ward"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+#done 1128
