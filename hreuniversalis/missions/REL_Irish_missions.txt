@@ -66,6 +66,15 @@ VN_irish_missions = {
 	vn_viking_outposts = {
 		icon = mission_dominate_home_trade_node
 		required_missions = { vn_establish_power_base }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2737
+				province_id = 891
+				province_id = 258
+				province_id = 2614
+				province_id = 2308
+			}
+		}
 		trigger = {
 			owns_core_province = 2737	#Dublin
 			owns_core_province = 891	#Limerick

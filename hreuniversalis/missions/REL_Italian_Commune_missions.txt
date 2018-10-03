@@ -41,7 +41,7 @@ VN_italian_commune_missions = {
 		required_missions = { vn_guelph_or_ghibelline }
 		trigger = {
 			num_of_regiments_at_full_drill = 10
-			num_of_mercenaries = 0
+			NOT = { num_of_mercenaries = 0 }
 		}
 		effect = {
 			add_mil_power = 50
