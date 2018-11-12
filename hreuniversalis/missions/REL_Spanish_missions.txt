@@ -1,0 +1,110 @@
+VN_spanish_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		religion_group = christian
+		capital_scope = {
+			superregion = iberia_superregion
+		}
+	}
+	has_country_shield = no
+	
+	vn_iberian_alliances = {
+		icon = mission_alliances
+		required_missions = {}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = vn_iberian_alliances.tt
+				calc_true_if = {
+					all_country = {
+						alliance_with = ROOT
+						religion = ROOT
+					}
+					amount = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "iberian_alliances_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_convert_spain = {
+		icon = mission_iberian_conquistador
+		required_missions = { vn_iberian_alliances } 
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = vn_convert_spain.tt
+				calc_true_if = {
+					all_owned_province = {
+						culture = andalucian
+						religion = ROOT
+					}
+					amount = 10
+				}
+			}
+			religious_unity = 1
+		}
+		effect = {
+			add_papal_influence = 25
+			add_country_modifier = {
+				name = "convert_spain_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_break_the_taifas = {
+		icon = mission_impaled_soldies
+		required_missions = { vn_convert_spain }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 443
+				province_id = 711
+				province_id = 1208
+				province_id = 1212
+				province_id = 1867
+				province_id = 2024
+			}
+			owner = { NOT = { religion_group = christian } }
+		}
+		trigger = {
+			443 = { owner = { religion_group = christian } }
+			711 = { owner = { religion_group = christian } }
+			1208 = { owner = { religion_group = christian } }
+			1212 = { owner = { religion_group = christian } }
+			1867 = { owner = { religion_group = christian } }
+			2024 = { owner = { religion_group = christian } }
+		}
+		effect = {
+			add_adm_power = 300
+			add_country_modifier = {
+				name = "break_the_taifas_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_pacify_the_berbers = {
+		icon = mission_bedouins
+		required_missions = { vn_break_the_taifas }
+		provinces_to_highlight = {
+			superregion = africa_superregion
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				superregion = africa_superregion
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "pacify_the_berbers_mission"
+				duration = 9125
+			}
+		}
+	}
+}

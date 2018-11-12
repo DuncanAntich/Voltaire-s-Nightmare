@@ -1,0 +1,124 @@
+VN_hungarian_minors_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		capital_scope = {
+			superregion = carpathia_superregion
+		}
+		NOT = { culture_group = vlach }
+		NOT = { culture_group = oghuz }
+	}
+	
+	vn_hungarian_resettlement = {
+		icon = mission_settlers_north_america
+		required_missions = { }
+		trigger = {
+			capital_scope = {
+				development = 20
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				development = 10
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "hungarian_resettlement_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_legacy_of_the_magyars = {
+		icon = mission_cossack_cavalry
+		required_missions = { vn_hungarian_resettlement }
+		trigger = {
+			army_tradition = 50
+			num_of_cavalry = 15
+		}
+		effect = {
+			create_general = {
+				tradition = 75
+			}
+			add_country_modifier = {
+				name = "legacy_of_the_magyars_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_largest_cities_of_hungary = {
+		icon = mission_unite_home_region
+		required_missions = { vn_legacy_of_the_magyars }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 442
+				province_id = 444
+				province_id = 455
+				province_id = 2358
+				province_id = 2359
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns_core_province = 442
+			owns_core_province = 444
+			owns_core_province = 455
+			owns_core_province = 2358
+			owns_core_province = 2359
+		}
+		effect = {
+			add_dip_power = 100
+			442 = {
+				add_province_modifier = {
+					name = "largest_cities_of_hungary_mission"
+					duration = 9125
+				}
+			}
+			444 = {
+				add_province_modifier = {
+					name = "largest_cities_of_hungary_mission"
+					duration = 9125
+				}
+			}
+			455 = {
+				add_province_modifier = {
+					name = "largest_cities_of_hungary_mission"
+					duration = 9125
+				}
+			}
+			2358 = {
+				add_province_modifier = {
+					name = "largest_cities_of_hungary_mission"
+					duration = 9125
+				}
+			}
+			2359 = {
+				add_province_modifier = {
+					name = "largest_cities_of_hungary_mission"
+					duration = 9125
+				}
+			}
+		}
+	}
+	vn_universitiy_of_pecs = {
+		icon = mission_early_modern_university
+		required_missions = { vn_largest_cities_of_hungary }
+		provinces_to_highlight = {
+			province_id = 2072
+		}
+		trigger = {
+			owns = 2072
+			2072 = {
+				has_building = university
+			}
+		}
+		effect = {
+			change_innovativeness = 3
+			add_country_modifier = {
+				name = "universitiy_of_pecs_mission"
+				duration = 9125
+			}
+		}
+	}
+}

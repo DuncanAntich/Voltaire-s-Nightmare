@@ -1,0 +1,107 @@
+vn_scottish_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		capital_scope = {
+			OR = {
+				region = scotland_region
+				region = highlands_region
+			}
+		}
+	}
+	vn_bank_of_scotland = {
+		icon = mission_high_income
+		required_missions = { }
+		trigger = {
+			treasury = 1200
+			NOT = { num_of_loans = 1 }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "bank_of_scotland_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_build_stirling_castle = {
+		icon = mission_conquer_50_development
+		required_missions = { vn_bank_of_scotland }
+		provinces_to_highlight = {
+			province_id = 2239
+		}
+		trigger = {
+			2239 = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "build_stirling_castle_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_foothold_in_ireland = {
+		icon = mission_unite_home_region
+		required_missions = { vn_build_stirling_castle }
+		provinces_to_highlight = {
+			superregion = irish_superregion
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			irish_superregion = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_14th
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+			add_country_modifier = {
+				name = "foothold_on_ireland_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_competition_for_britannia = {
+		icon = mission_soldiers_in_line
+		required_missions = { vn_foothold_in_ireland }
+		trigger = {
+			is_subject = no
+			if = {
+				limit = { exists = GBR }
+				total_development = GBR
+			}
+			else_if = {
+				limit = { exists = ENG }
+				total_development = ENG
+			}
+			else_if = {
+				limit = { exists = ASE }
+				total_development = ASE
+			}
+			else = {
+				total_development = 200
+			}
+		}
+		effect = {
+			add_prestige = 25
+			add_country_modifier = {
+				name = "competition_for_britannia_mission"
+				duration = 9125
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+VN_baltic_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		OR = {
+			primitives = yes
+			is_tribal = yes
+		}
+		OR = {
+			culture_group = west_slavic
+			culture_group = baltic
+		}
+	}
+	
+	vn_populate_the_nation = {
+		icon = mission_early_game_buildings
+		required_missions = {}
+		trigger = {
+			grown_by_development = 25
+			capital_scope = {
+				num_of_times_improved = 5
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "populate_the_nation_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_introduce_feudalism = {
+		icon = mission_high_income
+		required_missions = { vn_populate_the_nation }
+		trigger = {
+			has_institution = feudalism
+			all_state_province = {
+				feudalism = 100
+			}
+			if = {
+				limit = { has_dlc = "Conquest of Paradise" }
+				primitives = no
+			}
+			else = {
+				is_tribal = no
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "introduce_feudalism_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_dominate_baltic_trade = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { vn_introduce_feudalism }
+		trigger = {
+			home_trade_node = {
+				has_trader = ROOT
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "dominate_baltic_trade_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_fortify_tribal_territory = {
+		icon = mission_conquer_50_development
+		required_missions = { vn_dominate_baltic_trade }
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					has_building = fort_14th
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		effect = {
+			create_general = {
+				tradition = 75
+				culture = ROOT
+			}
+			add_country_modifier = {
+				name = "fortify_tribal_territory_mission"
+				duration = 9125
+			}
+		}
+	}
+}

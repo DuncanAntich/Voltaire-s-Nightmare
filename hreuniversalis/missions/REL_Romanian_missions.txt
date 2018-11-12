@@ -1,0 +1,83 @@
+vn_romanian_missions = {
+	slot = 10
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = vlach
+	}
+	vn_develop_romanian_cities = {
+		icon = mission_early_game_buildings
+		required_missions = {}
+		trigger = {
+			capital_scope = {
+				development = 14
+				num_of_times_improved = 4
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "develop_romanian_cities_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_wealth_of_romania = {
+		icon = mission_war_chest
+		required_missions = { vn_develop_romanian_cities }
+		trigger = {
+			share_of_starting_income = 1.8
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "wealth_of_romania_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_churches_of_romania = {
+		icon = mission_european_church
+		required_missions = { vn_wealth_of_romania }
+		trigger = {
+			religion_group = christian
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "churches_of_romania_mission"
+				duration = 9125
+			}
+		}
+	}
+	vn_unite_voivodeship = {
+		icon = mission_crusade_for_varna
+		required_missions = { vn_churches_of_romania }
+		provinces_to_highlight = {
+			region_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			is_subject = no
+			capital_scope = {
+				region_for_scope_province = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "unite_voivodeship_mission"
+				duration = 9125
+			}
+		}
+	}
+}
